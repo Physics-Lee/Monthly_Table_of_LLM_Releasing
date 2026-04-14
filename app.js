@@ -1,0 +1,146 @@
+// 全局状态
+let allData = { vendors: [], rows: [] };
+let links = {};
+let activeVendors = new Set();
+let activeYear = 'all';
+let searchQuery = '';
+
+// 初始化
+document.addEventListener('DOMContentLoaded', async () => {
+  await Promise.all([loadData(), loadLinks()]);
+  initFilters();
+  render();
+});
+
+// 加载数据
+async function loadData() {
+  const res = await fetch('data.json');
+  allData = await res.json();
+  activeVendors = new Set(allData.vendors);
+}
+
+// 加载链接映射
+async function loadLinks() {
+  try {
+    const res = await fetch('links.json');
+    links = await res.json();
+  } catch (e) {
+    links = {};
+  }
+}
+
+// 初始化筛选器
+function initFilters() {
+  const container = document.getElementById('vendorFilters');
+  allData.vendors.forEach(vendor => {
+    const label = document.createElement('label');
+    label.innerHTML = `
+      <input type="checkbox" value="${vendor}" checked>
+      <span>${vendor}</span>
+    `;
+    label.querySelector('input').addEventListener('change', () => {
+      updateActiveVendors();
+      render();
+    });
+    container.appendChild(label);
+  });
+
+  document.getElementById('yearFilter').addEventListener('change', (e) => {
+    activeYear = e.target.value;
+    render();
+  });
+
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    searchQuery = e.target.value.toLowerCase().trim();
+    render();
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    activeYear = 'all';
+    searchQuery = '';
+    activeVendors = new Set(allData.vendors);
+    document.getElementById('yearFilter').value = 'all';
+    document.getElementById('searchInput').value = '';
+    container.querySelectorAll('input').forEach(cb => cb.checked = true);
+    render();
+  });
+}
+
+function updateActiveVendors() {
+  activeVendors.clear();
+  document.querySelectorAll('#vendorFilters input:checked').forEach(cb => {
+    activeVendors.add(cb.value);
+  });
+}
+
+// 渲染表格
+function render() {
+  const thead = document.querySelector('#timelineTable thead');
+  const tbody = document.querySelector('#timelineTable tbody');
+
+  // 过滤行
+  let filteredRows = allData.rows.filter(row => {
+    if (activeYear !== 'all') {
+      const year = '20' + row.Month.split('-')[0];
+      if (year !== activeYear) return false;
+    }
+    if (searchQuery) {
+      const rowText = allData.vendors.map(v => row[v] || '').join(' ').toLowerCase();
+      if (!rowText.includes(searchQuery)) return false;
+    }
+    return true;
+  });
+
+  // 过滤列：只保留 Month + 选中的厂商
+  const visibleVendors = ['Month', ...allData.vendors.filter(v => activeVendors.has(v))];
+
+  // 渲染表头
+  thead.innerHTML = '<tr>' + visibleVendors.map(v => `<th>${v}</th>`).join('') + '</tr>';
+
+  // 渲染表体
+  tbody.innerHTML = filteredRows.map(row => {
+    return '<tr>' + visibleVendors.map(vendor => {
+      const cell = row[vendor] || '';
+      if (vendor === 'Month') {
+        return `<td>${cell}</td>`;
+      }
+      return `<td>${formatCell(cell)}</td>`;
+    }).join('') + '</tr>';
+  }).join('');
+
+  // 更新统计
+  document.getElementById('stats').textContent = `显示 ${filteredRows.length} / ${allData.rows.length} 个月`;
+}
+
+function formatCell(text) {
+  if (!text) return '';
+  // 按 " + " 拆分多个模型
+  const models = text.split(' + ').map(s => s.trim()).filter(Boolean);
+  if (models.length === 0) return '';
+
+  return models.map(model => {
+    const url = findUrl(model);
+    if (url) {
+      return `<a href="${url}" target="_blank" class="model-link">${model}</a>`;
+    }
+    return `<span class="model-item-text">${model}</span>`;
+  }).map(html => `<span class="model-item">${html}</span>`).join('');
+}
+
+// 查找模型对应的 URL
+function findUrl(model) {
+  // 直接匹配
+  if (links[model]) return links[model];
+
+  // 去掉反引号再匹配
+  const clean = model.replace(/`/g, '').trim();
+  if (links[clean]) return links[clean];
+
+  // 尝试部分匹配（处理 Markdown 中链接文本和 CSV 中模型名略有差异的情况）
+  for (const [key, url] of Object.entries(links)) {
+    if (key.toLowerCase() === model.toLowerCase()) return url;
+    if (key.toLowerCase() === clean.toLowerCase()) return url;
+  }
+
+  return null;
+}
