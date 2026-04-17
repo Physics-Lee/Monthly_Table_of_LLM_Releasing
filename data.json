@@ -239,7 +239,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "MiLM-6B",
-      "open_source": ""
+      "open_source": "Jan"
     },
     {
       "Month": "23-Sep",
@@ -569,7 +569,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "Unsloth + MarkItDown"
     },
     {
       "Month": "24-Dec",
@@ -591,7 +591,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "Unsloth + MarkItDown"
     },
     {
       "Month": "25-Jan",
@@ -877,7 +877,7 @@
       "Ant-Group": "AReaL-SEA",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "andrej-karpathy-skills"
     },
     {
       "Month": "26-Feb",
@@ -925,8 +925,8 @@
     },
     {
       "Month": "26-Apr",
-      "OpenAI": "",
-      "Anthropic": "Claude Mythos Preview",
+      "OpenAI": "GPT-5.4-Cyber",
+      "Anthropic": "Claude Opus 4.7 + Claude Mythos Preview",
       "Google": "Gemma 4",
       "Meta": "Muse Spark",
       "Mistral": "",
