@@ -2,28 +2,28 @@ Month,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba,Cohere,Baid
 22-Nov,ChatGPT GPT-3.5,,,,,,,,,,,,,,,,,,LangChain
 22-Dec,,,,,,,,,,,,,,,,,,,
 23-Jan,,,,,,,,,,,,,,,,,,,
-23-Feb,,,Bard,Llama 1,,,,,,,,,,,,,,,
-23-Mar,GPT-4,Claude 1,,,,,,,,ERNIE Bot,ChatGLM,,,,,,,,AutoGPT
-23-Apr,,,,,,,,,,,,,,,,,,,
+23-Feb,,,Bard,Llama 1,,,,,,,,,,,,,,,vLLM
+23-Mar,GPT-4,Claude 1,,,,,,,,ERNIE Bot,ChatGLM,,,,,,,,AutoGPT + llama.cpp
+23-Apr,,,,,,,,,,,,,,,,,,,Axolotl
 23-May,,,PaLM 2,,,,,,,,,Spark 1.0,,,,,,,
-23-Jun,,,,,,,,,,,ChatGLM2,Spark 1.5,,,,,,,
+23-Jun,,,,,,,,,,,ChatGLM2,Spark 1.5,,,,,,,Ollama + LLaMA-Factory
 23-Jul,,Claude 2,,Llama 2,,,,,,ERNIE 3.5,,,,,,,Bailing,,
-23-Aug,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,,MiLM-6B,
+23-Aug,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,,MiLM-6B,,Jan
 23-Sep,GPT-4V,,,,Mistral 7B,,,Qwen-14B,,,,,,,,,,,
-23-Oct,,,,,,,,,,ERNIE 4.0,ChatGLM3,,,Kimi Chat,,CodeFuse,,,CrewAI
+23-Oct,,,,,,,,,,ERNIE 4.0,ChatGLM3,,,Kimi Chat,,CodeFuse,,,CrewAI + DSPy
 23-Nov,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,
 23-Dec,,Claude 2.1,Gemini 1.0 Ultra + Pro + Nano,,Mixtral 8x7B + Mistral Medium,,,,,,,,abab5.5,,,Bailing 2.0,,,
-24-Jan,,,,,,,DeepSeek-MoE,,,,GLM-4,Spark 3.0,,moonshot-v1,,,,,
+24-Jan,,,,,,,DeepSeek-MoE,,,,GLM-4,Spark 3.0,,moonshot-v1,,,,,AutoGen + LangGraph + SGLang
 24-Feb,,,Gemma + Gemini 1.5 Pro,,Mistral Large + Mistral Small,,DeepSeek-Math,Qwen1.5,Aya,,,,,,,,,,
 24-Mar,,Claude 3 Opus + Sonnet + Haiku,,,,Grok-1 + Grok-1.5,DeepSeek-VL,,Command R,,,Spark 3.5,,,,,,,OpenHands
 24-Apr,,,,Llama 3,Mixtral 8x22B,Grok-1.5V,,Qwen1.5-110B + CodeQwen1.5,Command R+,,,,ABAB 6.5,,,,,,
-24-May,GPT-4o,,Gemini 1.5 Flash,,Codestral,,DeepSeek-V2,,Aya 23,,CogVLM2,,,,,,Ling,,
+24-May,GPT-4o,,Gemini 1.5 Flash,,Codestral,,DeepSeek-V2,,Aya 23,,CogVLM2,,,,,,Ling,,Cherry Studio
 24-Jun,,Claude 3.5 Sonnet,Gemma 2,,,,,Qwen2,,,,Spark 4.0,,,,,Step-1V,,
 24-Jul,GPT-4o mini,,,Llama 3.1,Mistral Large 2 + Mistral Nemo,,DeepSeek-Coder-V2,Qwen2-Audio,,,,,,,,,Step-2,,
 24-Aug,,,,,,Grok-2 beta,,,,ERNIE 4.0 Turbo,GLM-4-Plus,,Hailuo AI,moonshot-v1-auto,,,,,
 24-Sep,o1-preview + o1-mini,,,Llama 3.2,Pixtral 12B,,,Qwen2.5 + Qwen2.5-Coder + Qwen2.5-Math + Qwen2-VL,,,,,Video-01,,,Zhixiaobao,,,
 24-Oct,,Claude 3.5 Haiku + Claude 3.5 Sonnet v2,,,Ministral 8B,,,,Aya Expanse,,AutoGLM,,,,,CodeFuse-CGM,,,
-24-Nov,,,,,Mistral Large 2.1 + Pixtral Large,,,Qwen2.5-Coder Family + QwQ-32B,,,,,,,,,,,
+24-Nov,,,,,Mistral Large 2.1 + Pixtral Large,,,Qwen2.5-Coder Family + QwQ-32B,,,,,,,,,,,Unsloth + MarkItDown
 24-Dec,o1 + Sora,,Gemini 2.0 Flash,Llama 3.3,,Grok-2 + Grok-2 mini,DeepSeek-V3 + DeepSeek-V2.5-1210,,Command R7B,,GLM-Zero-Preview,,,,,,,,
 25-Jan,o3-mini,,,,Mistral Small 3 + Codestral 25.01,,DeepSeek-R1,Qwen2.5-Max + Qwen2.5-VL,,,,,MiniMax-Text-01 + MiniMax-VL-01,Kimi K1.5,Doubao 1.5,,,,
 25-Feb,GPT-4.5,Claude 3.7 Sonnet + Claude Code,Gemini 2.0 Pro,,,Grok 3,Janus-Pro,,,,,,,kimi-latest,,,Step-Video-T2V + Step-Audio,,
@@ -37,7 +37,7 @@ Month,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba,Cohere,Baid
 25-Oct,,Claude Haiku 4.5,,,,,,,,,,,,,Ling-1T + Ring-1T + Ming-flash-omni-Preview,,,,
 25-Nov,GPT-5.1,Claude Opus 4.5,Gemini 3,,,Grok 4.1,,,,ERNIE 5.0,,,,Kimi K2 Thinking,Doubao Seed Code,,,MiMo-VL Miloco-7B + MiMo-Embodied-7B,OpenClaw
 25-Dec,GPT-5.2,,,,Mistral Large 3 + Ministral 3,,DeepSeek-V3.2,,,,,,,,,,,MiMo-V2-Flash,Oh-My-OpenAgent
-26-Jan,,,,,,,,,,,,,,Kimi 2.5,,AReaL-SEA,,,
+26-Jan,,,,,,,,,,,,,,Kimi 2.5,,AReaL-SEA,,,andrej-karpathy-skills
 26-Feb,GPT-5.3-Codex,Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams,Gemini 3.1 Pro,,,Grok 4.2 Beta,,Qwen3.5,,,GLM-5,,MiniMax-M2.5,,Doubao 2.0,Ring-2.5-1T + Ling-2.5-1T + Ming-flash-omni-2.0 + LLaDA2.1,Step 3.5 Flash,,
 26-Mar,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,,,,,,,,MiniMax-M2.7,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,
-26-Apr,,Claude Mythos Preview,Gemma 4,Muse Spark,,,,Qwen3.6-Plus,,,GLM-5.1,,,,,,,,
+26-Apr,GPT-5.4-Cyber,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,,,Qwen3.6-Plus,,,GLM-5.1,,,,,,,,
