@@ -107,7 +107,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "vLLM"
     },
     {
       "Month": "23-Mar",
@@ -129,7 +129,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": "AutoGPT"
+      "open_source": "AutoGPT + llama.cpp"
     },
     {
       "Month": "23-Apr",
@@ -151,7 +151,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "Axolotl"
     },
     {
       "Month": "23-May",
@@ -195,7 +195,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "Ollama + LLaMA-Factory"
     },
     {
       "Month": "23-Jul",
@@ -283,7 +283,7 @@
       "Ant-Group": "CodeFuse",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": "CrewAI"
+      "open_source": "CrewAI + DSPy"
     },
     {
       "Month": "23-Nov",
@@ -349,7 +349,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "AutoGen + LangGraph + SGLang"
     },
     {
       "Month": "24-Feb",
@@ -437,7 +437,7 @@
       "Ant-Group": "",
       "StepFun": "Ling",
       "Xiaomi": "",
-      "open_source": ""
+      "open_source": "Cherry Studio"
     },
     {
       "Month": "24-Jun",
@@ -591,7 +591,7 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "open_source": "Unsloth + MarkItDown"
+      "open_source": ""
     },
     {
       "Month": "25-Jan",

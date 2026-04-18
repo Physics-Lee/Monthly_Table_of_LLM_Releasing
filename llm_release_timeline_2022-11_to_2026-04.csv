@@ -8,7 +8,7 @@ Month,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba,Cohere,Baid
 23-May,,,PaLM 2,,,,,,,,,Spark 1.0,,,,,,,
 23-Jun,,,,,,,,,,,ChatGLM2,Spark 1.5,,,,,,,Ollama + LLaMA-Factory
 23-Jul,,Claude 2,,Llama 2,,,,,,ERNIE 3.5,,,,,,,Bailing,,
-23-Aug,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,,MiLM-6B,,Jan
+23-Aug,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,,MiLM-6B,Jan
 23-Sep,GPT-4V,,,,Mistral 7B,,,Qwen-14B,,,,,,,,,,,
 23-Oct,,,,,,,,,,ERNIE 4.0,ChatGLM3,,,Kimi Chat,,CodeFuse,,,CrewAI + DSPy
 23-Nov,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,
