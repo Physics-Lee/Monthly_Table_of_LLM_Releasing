@@ -1,0 +1,41 @@
+name: Build Data
+
+on:
+  push:
+    paths:
+      - '**.csv'
+      - '**.md'
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build JSON files
+        run: node scripts/build-json.js
+
+      - name: Commit & push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add data.json links.json README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "ci: auto-build $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          fi
