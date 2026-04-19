@@ -43,9 +43,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "LangChain",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "LangChain"
     },
     {
       "Month": "22-Dec",
@@ -115,9 +115,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "vLLM",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "vLLM"
     },
     {
       "Month": "23-Mar",
@@ -139,9 +139,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "AutoGPT + llama.cpp",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "AutoGPT + llama.cpp"
     },
     {
       "Month": "23-Apr",
@@ -163,9 +163,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "Axolotl",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Axolotl"
     },
     {
       "Month": "23-May",
@@ -211,9 +211,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "Ollama + LLaMA-Factory",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Ollama + LLaMA-Factory"
     },
     {
       "Month": "23-Jul",
@@ -259,9 +259,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "MiLM-6B",
-      "Kuaishou-Kling": "Jan",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Jan"
     },
     {
       "Month": "23-Sep",
@@ -307,9 +307,9 @@
       "Ant-Group": "CodeFuse",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "CrewAI + DSPy",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "CrewAI + DSPy"
     },
     {
       "Month": "23-Nov",
@@ -379,9 +379,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "AutoGen + LangGraph + SGLang",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "AutoGen + LangGraph + SGLang"
     },
     {
       "Month": "24-Feb",
@@ -427,9 +427,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "OpenHands",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "OpenHands"
     },
     {
       "Month": "24-Apr",
@@ -475,9 +475,9 @@
       "Ant-Group": "",
       "StepFun": "Ling",
       "Xiaomi": "",
-      "Kuaishou-Kling": "Cherry Studio",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Cherry Studio"
     },
     {
       "Month": "24-Jun",
@@ -619,9 +619,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "Unsloth + MarkItDown",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Unsloth + MarkItDown"
     },
     {
       "Month": "24-Dec",
@@ -739,9 +739,9 @@
       "Ant-Group": "",
       "StepFun": "Step-R1-V-Mini",
       "Xiaomi": "",
-      "Kuaishou-Kling": "OpenCode",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "OpenCode"
     },
     {
       "Month": "25-May",
@@ -811,9 +811,9 @@
       "Ant-Group": "Ming-Lite-Omni-1.5",
       "StepFun": "Step 3",
       "Xiaomi": "",
-      "Kuaishou-Kling": "Hermes Agent",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Hermes Agent"
     },
     {
       "Month": "25-Aug",
@@ -907,9 +907,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "MiMo-VL Miloco-7B + MiMo-Embodied-7B",
-      "Kuaishou-Kling": "OpenClaw",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "OpenClaw"
     },
     {
       "Month": "25-Dec",
@@ -931,9 +931,9 @@
       "Ant-Group": "",
       "StepFun": "",
       "Xiaomi": "MiMo-V2-Flash",
-      "Kuaishou-Kling": "Oh-My-OpenAgent",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "Oh-My-OpenAgent"
     },
     {
       "Month": "26-Jan",
@@ -955,9 +955,9 @@
       "Ant-Group": "AReaL-SEA",
       "StepFun": "",
       "Xiaomi": "",
-      "Kuaishou-Kling": "andrej-karpathy-skills",
+      "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Open-Source": "andrej-karpathy-skills"
     },
     {
       "Month": "26-Feb",
