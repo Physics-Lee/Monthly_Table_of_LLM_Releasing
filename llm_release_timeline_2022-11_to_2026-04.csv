@@ -1,5 +1,5 @@
-Month,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba,Cohere,Baidu,GLM-Z.ai,iFlytek,MiniMax,Kimi-Moonshot,Doubao-ByteDance,Ant-Group,StepFun,Xiaomi,Open-Source
-22-Nov,ChatGPT GPT-3.5,,,,,,,,,,,,,,,,,,LangChain
+Month,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba,Cohere,Baidu,GLM-Z.ai,iFlytek,MiniMax,Kimi-Moonshot,Doubao-ByteDance,Ant-Group,StepFun,Xiaomi,Kuaishou-Kling,Boss-Nanbeige,Open-Source
+22-Nov,ChatGPT GPT-3.5,,,,,,,,,,,,,,,,,,,LangChain
 22-Dec,,,,,,,,,,,,,,,,,,,
 23-Jan,,,,,,,,,,,,,,,,,,,
 23-Feb,,,Bard,Llama 1,,,,,,,,,,,,,,,vLLM
