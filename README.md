@@ -10,11 +10,11 @@ GitHub 仓库：[https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing](
 
 ## 覆盖厂商
 
-OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qwen-Alibaba、Cohere、Baidu、GLM-Z.ai、iFlytek、MiniMax、Kimi-Moonshot、Doubao-ByteDance、Ant-Group、StepFun、Xiaomi、open_source
+OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qwen-Alibaba、Cohere、Baidu、GLM-Z.ai、iFlytek、MiniMax、Kimi-Moonshot、Doubao-ByteDance、Ant-Group、StepFun、Xiaomi、Open-Source
 
 ## 发布时间线
 
-| Month | OpenAI | Anthropic | Google | Meta | Mistral | xAI | DeepSeek | Qwen-Alibaba | Cohere | Baidu | GLM-Z.ai | iFlytek | MiniMax | Kimi-Moonshot | Doubao-ByteDance | Ant-Group | StepFun | Xiaomi | open_source |
+| Month | OpenAI | Anthropic | Google | Meta | Mistral | xAI | DeepSeek | Qwen-Alibaba | Cohere | Baidu | GLM-Z.ai | iFlytek | MiniMax | Kimi-Moonshot | Doubao-ByteDance | Ant-Group | StepFun | Xiaomi | Open-Source |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 22-Nov | [ChatGPT GPT-3.5](https://openai.com/index/chatgpt/) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | [LangChain](https://github.com/langchain-ai/langchain) |
 | 22-Dec |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
