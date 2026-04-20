@@ -295,5 +295,8 @@
   "Muse Spark": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
   "Qwen3.6-Plus": "https://qwen.ai/blog?id=qwen3.6",
   "GLM-5.1": "https://z.ai/blog/glm-5.1",
-  "llm_release_timeline_2022-11_to_2026-03_v2.md": "https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing"
+  "llm_release_timeline_2022-11_to_2026-03_v2.md": "https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing",
+  "DeepSeek-LLM": "https://github.com/deepseek-ai/DeepSeek-LLM",
+  "Embed v3": "https://cohere.com/blog/introducing-embed-v3",
+  "Rerank v3": "https://cohere.com/blog/rerank-3"
 }
