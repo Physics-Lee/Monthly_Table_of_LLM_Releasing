@@ -361,6 +361,13 @@ function inferURL(modelName) {
     [/^Raycast AI/, 'https://www.raycast.com/ai'],
     [/^Windsurf/, 'https://windsurf.com/'],
     [/^Manus/, 'https://manus.im/'],
+    [/^Sider/, 'https://sider.ai/'],
+    [/^Monica/, 'https://monica.im/'],
+    [/^Gamma/, 'https://gamma.app/'],
+    [/^Trae/, 'https://www.trae.ai/'],
+    [/^CodeBuddy/, 'https://www.codebuddy.ai/'],
+    [/^QClaw/, 'https://www.qclaw.run/'],
+    [/^WorkBuddy/, 'https://workbuddy.cloud.tencent.com/'],
   ];
 
   for (const [re, url] of infer) {

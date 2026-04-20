@@ -3,7 +3,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 22-Dec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Perplexity
 23-Jan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 23-Feb,vLLM,,,Bard,Llama 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,Notion AI + Poe + Sourcegraph Cody
-23-Mar,AutoGPT + llama.cpp,GPT-4,Claude 1,,,,,,,,ERNIE Bot,ChatGLM,,,,,,,,,,,,,,,,,,,,,Cursor
+23-Mar,AutoGPT + llama.cpp,GPT-4,Claude 1,,,,,,,,ERNIE Bot,ChatGLM,,,,,,,,,,,,,,,,,,,,,Cursor + Sider + Monica + Gamma
 23-Apr,Axolotl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Grammarly
 23-May,,,,PaLM 2,,,,,,,,,Spark 1.0,,,,,,,,,,,,,,,,,,,,
 23-Jun,Ollama + LLaMA-Factory,,,,,,,,,,,ChatGLM2,Spark 1.5,,,,,,,,,,,,Baichuan-7B + Baichuan-13B,Phi-1,,,,,,,
@@ -25,7 +25,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 24-Oct,,,Claude 3.5 Haiku + Claude 3.5 Sonnet v2,,,Ministral 8B,,,,Aya Expanse,,AutoGLM,,,,,CodeFuse-CGM,,,,,,Hunyuan-lite,,,,Apple Intelligence + Ferret-UI,,Stable Diffusion 3.5,,,,
 24-Nov,Unsloth + MarkItDown,,,,,Mistral Large 2.1 + Pixtral Large,,,Qwen2.5-Coder Family + QwQ-32B,,,,,,,,,,,,,,,,,,,,,,,,
 24-Dec,,o1 + Sora,,Gemini 2.0 Flash,Llama 3.3,,Grok-2 + Grok-2 mini,DeepSeek-V3 + DeepSeek-V2.5-1210,,Command R7B,,GLM-Zero-Preview,,,,,,,,Kling 1.6,,,,,,,FastVLM,,,,,,
-25-Jan,,o3-mini,,,,Mistral Small 3 + Codestral 25.01,,DeepSeek-R1,Qwen2.5-Max + Qwen2.5-VL,,,,,MiniMax-Text-01 + MiniMax-VL-01,Kimi K1.5,Doubao 1.5,,,,,,,,,,,,Nemotron 3 family (Nano/Super/Ultra),,,,,
+25-Jan,,o3-mini,,,,Mistral Small 3 + Codestral 25.01,,DeepSeek-R1,Qwen2.5-Max + Qwen2.5-VL,,,,,MiniMax-Text-01 + MiniMax-VL-01,Kimi K1.5,Doubao 1.5,,,,,,,,,,,,Nemotron 3 family (Nano/Super/Ultra),,,,,Trae
 25-Feb,,GPT-4.5,Claude 3.7 Sonnet + Claude Code,Gemini 2.0 Pro,,,Grok 3,Janus-Pro,,,,,,,kimi-latest,,,Step-Video-T2V + Step-Audio,,,,,,,,,,,,,,,
 25-Mar,,o1 Pro,,Gemini 2.5 Pro + Gemma 3,,Mistral Small 3.1,Grok-3 mini,DeepSeek-V3-0324,Qwen2.5-Omni,Aya Vision + Command A,ERNIE 4.5 + X1,AutoGLM Rumination,,,,,Ling-Plus + Ling-Lite,,,,,,,,,,,,,,,,Manus
 25-Apr,OpenCode,GPT-4.1 + GPT-4.1 mini + GPT-4.1 nano + o3 + o4-mini,,Gemini 2.5 Flash,Llama 4 Scout + Llama 4 Maverick,,,,Qwen3,,ERNIE 4.5 Turbo + X1 Turbo,,Spark X1,Speech-02,,Doubao 1.5 Thinking,,Step-R1-V-Mini,,Kling 2.0,,,,,,,Apple Intelligence iOS 18.4,,,,,,
@@ -33,11 +33,11 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 25-Jun,,,,Gemini 2.5 Flash-Lite,,Magistral Small 1.0 + Magistral Medium 1.0 + Mistral Small 3.2,,,,,,,,MiniMax-M1,,Doubao 1.6 + Seedance 1.0,Ring-lite,,,,,PanGu 5.5,Hunyuan-A13B,,,,,,,,,,
 25-Jul,Hermes Agent,,,Gemma 3n,,Devstral Medium + Voxtral,Grok 4,,Qwen3-Coder + Qwen-MT,Command A Vision,ERNIE 4.5 Open,GLM-4.5,,,Kimi K2,,Ming-Lite-Omni-1.5,Step 3,,,,,Hunyuan-TurboS,,,,,,,,,,
 25-Aug,,GPT-5,Claude Opus 4.1,,,,,DeepSeek-V3.1,,,,,,,Kimi K2 Turbo Preview,,,,,Kling 2.5,,,Hunyuan-T1,,,,,,,,,,
-25-Sep,,,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,
+25-Sep,,,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,CodeBuddy
 25-Oct,,,Claude Haiku 4.5,,,,,,,,,,,,,Ling-1T + Ring-1T + Ming-flash-omni-Preview,,,,,Nanbeige4-3B-Thinking-2510,,,,,,,,,,,,
 25-Nov,OpenClaw,GPT-5.1,Claude Opus 4.5,Gemini 3,,,Grok 4.1,,,,ERNIE 5.0,,,,Kimi K2 Thinking,Doubao Seed Code,,,MiMo-VL Miloco-7B + MiMo-Embodied-7B,,,,HY 2.0 Think + HY 2.0 Instruct,,,,,,,,,,
 25-Dec,Oh-My-OpenAgent,GPT-5.2,,,,Mistral Large 3 + Ministral 3,,DeepSeek-V3.2,,,,,,,,,,,MiMo-V2-Flash,Kling O1 + Kling 2.6,Nanbeige4-3B,,Hunyuan 2.0,,,,,Nemotron 3 Nano,,,,,
 26-Jan,andrej-karpathy-skills,,,,,,,,,,,,,,Kimi 2.5,,AReaL-SEA,,,Kling 3.0,,,,,,,,,,,,,
 26-Feb,,GPT-5.3-Codex,Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams,Gemini 3.1 Pro,,,Grok 4.2 Beta,,Qwen3.5,,,GLM-5,,MiniMax-M2.5,,Doubao 2.0,Ring-2.5-1T + Ling-2.5-1T + Ming-flash-omni-2.0 + LLaDA2.1,Step 3.5 Flash,,,Nanbeige4.1-3B,,,,,,,,,,,,
-26-Mar,,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,,,,,,,,MiniMax-M2.7,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,,,,,,,Phi-4,,Nemotron 3 Super,,,,,
+26-Mar,,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,,,,,,,,MiniMax-M2.7,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,,,,,,,Phi-4,,Nemotron 3 Super,,,,,QClaw + WorkBuddy
 26-Apr,,GPT-5.4-Cyber + GPT-Rosalind,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,,,Qwen3.6-Plus,,,GLM-5.1,,,,,,,,,,,,,,,,,,,,,
