@@ -480,7 +480,7 @@ function main() {
   const linksJSON = buildLinksJSON(mdLinks, rows);
 
   // 5. 生成 README.md
-  const ONLINE_URL = process.env.ONLINE_URL || 'https://api.dreamfree.space/c/s/llm-timeline';
+  const ONLINE_URL = process.env.ONLINE_URL || 'https://physics-lee.github.io/Monthly_Table_of_LLM_Releasing/';
   const GITHUB_URL = process.env.GITHUB_URL || 'https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing';
   const readme = generateReadme(dataJSON.vendors, dataJSON.rows, linksJSON, ONLINE_URL, GITHUB_URL);
 

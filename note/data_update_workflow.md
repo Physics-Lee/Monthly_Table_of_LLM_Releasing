@@ -96,7 +96,7 @@ push 后**不会**自动更新，需手动在 Coze 后台重新发布：
 3. 重新发布
 
 ```
-→ api.dreamfree.space/c/s/llm-timeline
+→ physics-lee.github.io/Monthly_Table_of_LLM_Releasing/
 ```
 
 ---

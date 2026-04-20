@@ -7,7 +7,7 @@ const linksPath = path.join(__dirname, '../links.json');
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const links = JSON.parse(fs.readFileSync(linksPath, 'utf8'));
 
-const ONLINE_URL = 'https://api.dreamfree.space/c/s/llm-timeline'; // TODO: 替换为实际的 Coze 链接
+const ONLINE_URL = 'https://physics-lee.github.io/Monthly_Table_of_LLM_Releasing/';
 const GITHUB_URL = 'https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing';
 
 function findUrl(model) {

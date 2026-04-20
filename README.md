@@ -4,7 +4,7 @@
 
 ## 在线访问
 
-直接访问：[https://api.dreamfree.space/c/s/llm-timeline](https://api.dreamfree.space/c/s/llm-timeline)
+直接访问：[https://physics-lee.github.io/Monthly_Table_of_LLM_Releasing/](https://physics-lee.github.io/Monthly_Table_of_LLM_Releasing/)
 
 GitHub 仓库：[https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing](https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing)
 
