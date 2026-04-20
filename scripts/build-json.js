@@ -378,6 +378,11 @@ ${vendors.join('、')}
 - 部分中国厂商数据来自官方里程碑页面或开发者发布说明
 - 数据仅供参考，以各厂商官方公告为准
 
+## Coding Plan Price & API Price
+
+- Coding Plan Price: https://z4crk6mg95.coze.site/
+- API Price: https://openrouter.ai/models?order=pricing-high-to-low
+
 ## 更新日志
 
 - ${new Date().toISOString().slice(0, 10)}：自动重建数据
