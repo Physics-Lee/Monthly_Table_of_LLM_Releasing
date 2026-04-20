@@ -1,5 +1,6 @@
 {
   "vendors": [
+    "Open-Source",
     "OpenAI",
     "Anthropic",
     "Google",
@@ -20,11 +21,15 @@
     "Xiaomi",
     "Kuaishou-Kling",
     "Boss-Nanbeige",
-    "Open-Source"
+    "Huawei",
+    "Tencent",
+    "01.AI",
+    "Baichuan-Intelligence"
   ],
   "rows": [
     {
       "Month": "22-Nov",
+      "Open-Source": "LangChain",
       "OpenAI": "ChatGPT GPT-3.5",
       "Anthropic": "",
       "Google": "",
@@ -45,10 +50,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "LangChain"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "22-Dec",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -69,10 +78,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Jan",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -93,10 +106,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Feb",
+      "Open-Source": "vLLM",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "Bard",
@@ -117,10 +134,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "vLLM"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Mar",
+      "Open-Source": "AutoGPT + llama.cpp",
       "OpenAI": "GPT-4",
       "Anthropic": "Claude 1",
       "Google": "",
@@ -141,10 +162,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "AutoGPT + llama.cpp"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Apr",
+      "Open-Source": "Axolotl",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -165,10 +190,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "Axolotl"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-May",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "PaLM 2",
@@ -189,10 +218,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Jun",
+      "Open-Source": "Ollama + LLaMA-Factory",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -213,10 +246,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "Ollama + LLaMA-Factory"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Jul",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "Claude 2",
       "Google": "",
@@ -237,10 +274,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Aug",
+      "Open-Source": "Jan",
       "OpenAI": "",
       "Anthropic": "Claude Instant 1.2",
       "Google": "",
@@ -261,10 +302,14 @@
       "Xiaomi": "MiLM-6B",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "Jan"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Sep",
+      "Open-Source": "",
       "OpenAI": "GPT-4V",
       "Anthropic": "",
       "Google": "",
@@ -285,10 +330,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Oct",
+      "Open-Source": "CrewAI + DSPy",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -309,10 +358,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "CrewAI + DSPy"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Nov",
+      "Open-Source": "",
       "OpenAI": "GPT-4 Turbo",
       "Anthropic": "",
       "Google": "",
@@ -333,10 +386,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "23-Dec",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "Claude 2.1",
       "Google": "Gemini 1.0 Ultra + Pro + Nano",
@@ -357,10 +414,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Jan",
+      "Open-Source": "AutoGen + LangGraph + SGLang",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -381,10 +442,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "AutoGen + LangGraph + SGLang"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Feb",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "Gemma + Gemini 1.5 Pro",
@@ -405,10 +470,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Mar",
+      "Open-Source": "OpenHands",
       "OpenAI": "",
       "Anthropic": "Claude 3 Opus + Sonnet + Haiku",
       "Google": "",
@@ -429,10 +498,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "OpenHands"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Apr",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -453,10 +526,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-May",
+      "Open-Source": "Cherry Studio",
       "OpenAI": "GPT-4o",
       "Anthropic": "",
       "Google": "Gemini 1.5 Flash",
@@ -477,10 +554,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "Cherry Studio"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Jun",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "Claude 3.5 Sonnet",
       "Google": "Gemma 2",
@@ -501,10 +582,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 1.0",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Jul",
+      "Open-Source": "",
       "OpenAI": "GPT-4o mini",
       "Anthropic": "",
       "Google": "",
@@ -525,10 +610,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Aug",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -549,10 +638,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Sep",
+      "Open-Source": "",
       "OpenAI": "o1-preview + o1-mini",
       "Anthropic": "",
       "Google": "",
@@ -573,10 +666,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Oct",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "Claude 3.5 Haiku + Claude 3.5 Sonnet v2",
       "Google": "",
@@ -597,10 +694,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Nov",
+      "Open-Source": "Unsloth + MarkItDown",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -621,10 +722,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "Unsloth + MarkItDown"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "24-Dec",
+      "Open-Source": "",
       "OpenAI": "o1 + Sora",
       "Anthropic": "",
       "Google": "Gemini 2.0 Flash",
@@ -645,10 +750,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 1.6",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Jan",
+      "Open-Source": "",
       "OpenAI": "o3-mini",
       "Anthropic": "",
       "Google": "",
@@ -669,10 +778,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Feb",
+      "Open-Source": "",
       "OpenAI": "GPT-4.5",
       "Anthropic": "Claude 3.7 Sonnet + Claude Code",
       "Google": "Gemini 2.0 Pro",
@@ -693,10 +806,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Mar",
+      "Open-Source": "",
       "OpenAI": "o1 Pro",
       "Anthropic": "",
       "Google": "Gemini 2.5 Pro + Gemma 3",
@@ -717,10 +834,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Apr",
+      "Open-Source": "OpenCode",
       "OpenAI": "GPT-4.1 + GPT-4.1 mini + GPT-4.1 nano + o3 + o4-mini",
       "Anthropic": "",
       "Google": "Gemini 2.5 Flash",
@@ -741,10 +862,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 2.0",
       "Boss-Nanbeige": "",
-      "Open-Source": "OpenCode"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-May",
+      "Open-Source": "",
       "OpenAI": "o3-pro + Codex",
       "Anthropic": "Claude 4 Sonnet + Claude 4 Opus",
       "Google": "",
@@ -765,10 +890,14 @@
       "Xiaomi": "MiMo-7B",
       "Kuaishou-Kling": "Kling 2.1",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Jun",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "Gemini 2.5 Flash-Lite",
@@ -789,10 +918,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Jul",
+      "Open-Source": "Hermes Agent",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "Gemma 3n",
@@ -813,10 +946,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "Hermes Agent"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Aug",
+      "Open-Source": "",
       "OpenAI": "GPT-5",
       "Anthropic": "Claude Opus 4.1",
       "Google": "",
@@ -837,10 +974,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 2.5",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Sep",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "Claude Sonnet 4.5",
       "Google": "",
@@ -861,10 +1002,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 2.5 Turbo",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Oct",
+      "Open-Source": "",
       "OpenAI": "",
       "Anthropic": "Claude Haiku 4.5",
       "Google": "",
@@ -885,10 +1030,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "Nanbeige4-3B-Thinking-2510",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Nov",
+      "Open-Source": "OpenClaw",
       "OpenAI": "GPT-5.1",
       "Anthropic": "Claude Opus 4.5",
       "Google": "Gemini 3",
@@ -909,10 +1058,14 @@
       "Xiaomi": "MiMo-VL Miloco-7B + MiMo-Embodied-7B",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": "OpenClaw"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "25-Dec",
+      "Open-Source": "Oh-My-OpenAgent",
       "OpenAI": "GPT-5.2",
       "Anthropic": "",
       "Google": "",
@@ -933,10 +1086,14 @@
       "Xiaomi": "MiMo-V2-Flash",
       "Kuaishou-Kling": "Kling O1 + Kling 2.6",
       "Boss-Nanbeige": "Nanbeige4-3B",
-      "Open-Source": "Oh-My-OpenAgent"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "26-Jan",
+      "Open-Source": "andrej-karpathy-skills",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -957,10 +1114,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 3.0",
       "Boss-Nanbeige": "",
-      "Open-Source": "andrej-karpathy-skills"
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "26-Feb",
+      "Open-Source": "",
       "OpenAI": "GPT-5.3-Codex",
       "Anthropic": "Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams",
       "Google": "Gemini 3.1 Pro",
@@ -981,10 +1142,14 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "Nanbeige4.1-3B",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "26-Mar",
+      "Open-Source": "",
       "OpenAI": "GPT-5.4 + Codex multi-agent",
       "Anthropic": "",
       "Google": "Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live",
@@ -1005,10 +1170,14 @@
       "Xiaomi": "MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     },
     {
       "Month": "26-Apr",
+      "Open-Source": "",
       "OpenAI": "GPT-5.4-Cyber + GPT-Rosalind",
       "Anthropic": "Claude Opus 4.7 + Claude Mythos Preview",
       "Google": "Gemma 4",
@@ -1029,7 +1198,10 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Open-Source": ""
+      "Huawei": "",
+      "Tencent": "",
+      "01.AI": "",
+      "Baichuan-Intelligence": ""
     }
   ]
 }
