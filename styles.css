@@ -290,6 +290,36 @@ td:empty::after {
   gap: 8px;
 }
 
+/* Friend Links */
+.friend-links {
+  margin-top: 32px;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 1px solid var(--border-light);
+}
+
+.friend-links-label {
+  margin-right: 12px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.friend-links a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+
+.friend-links a:hover {
+  text-decoration: underline;
+  background: rgba(99, 102, 241, 0.06);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   body {

@@ -8,18 +8,9 @@ let searchQuery = '';
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
   await Promise.all([loadData(), loadLinks()]);
-  updateVendorList();
   initFilters();
   render();
 });
-
-// 更新厂商列表描述
-function updateVendorList() {
-  const el = document.getElementById('vendorList');
-  if (el && allData.vendors.length > 0) {
-    el.textContent = '覆盖 ' + allData.vendors.join('、') + ' 等厂商';
-  }
-}
 
 // 加载数据
 async function loadData() {
