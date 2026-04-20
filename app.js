@@ -36,7 +36,7 @@ const VENDOR_NAMES = {
   'StepFun': '阶跃星辰',
   'Xiaomi': '小米',
   'Kuaishou-Kling': '快手可灵',
-  'Boss-Nanbeige': '南北阁',
+  'Boss-Nanbeige': 'BOSS直聘南北阁',
   'Huawei': '华为',
   'Tencent': '腾讯',
   '01.AI': '零一万物',

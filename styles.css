@@ -208,6 +208,14 @@ header h1 {
   font-weight: 500;
 }
 
+/* Table Hint */
+.table-hint {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-bottom: 8px;
+  padding-left: 4px;
+}
+
 /* Table */
 .table-wrapper {
   overflow-x: auto;
