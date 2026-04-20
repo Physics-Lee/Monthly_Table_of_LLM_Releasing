@@ -4,6 +4,7 @@ let links = {};
 let activeVendors = new Set();
 let activeYear = 'all';
 let searchQuery = '';
+let sortOrder = 'desc'; // 'desc' = 倒序 (新→旧), 'asc' = 正序 (旧→新)
 
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
@@ -132,10 +133,22 @@ function initFilters() {
   document.getElementById('resetBtn').addEventListener('click', () => {
     activeYear = 'all';
     searchQuery = '';
+    sortOrder = 'desc';
     activeVendors = new Set(allData.vendors);
     document.getElementById('yearFilter').value = 'all';
     document.getElementById('searchInput').value = '';
+    const sortBtn = document.getElementById('sortBtn');
+    sortBtn.dataset.order = 'desc';
+    sortBtn.textContent = '时间倒序';
     container.querySelectorAll('input').forEach(cb => cb.checked = true);
+    render();
+  });
+
+  document.getElementById('sortBtn').addEventListener('click', () => {
+    const btn = document.getElementById('sortBtn');
+    sortOrder = sortOrder === 'desc' ? 'asc' : 'desc';
+    btn.dataset.order = sortOrder;
+    btn.textContent = sortOrder === 'desc' ? '时间倒序' : '时间正序';
     render();
   });
 }
@@ -164,6 +177,11 @@ function render() {
     }
     return true;
   });
+
+  // 排序
+  if (sortOrder === 'desc') {
+    filteredRows.reverse();
+  }
 
   // 过滤列：只保留 Month + 选中的厂商
   const visibleVendors = ['Month', ...allData.vendors.filter(v => activeVendors.has(v))];

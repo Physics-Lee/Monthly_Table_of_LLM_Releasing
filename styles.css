@@ -158,6 +158,23 @@ header h1 {
   background: rgba(99, 102, 241, 0.06);
 }
 
+#sortBtn {
+  padding: 10px 16px;
+  border: 1px solid var(--accent-primary);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  background: var(--accent-primary);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+#sortBtn:hover {
+  background: var(--accent-secondary);
+  border-color: var(--accent-secondary);
+}
+
 .vendor-filters {
   display: flex;
   flex-wrap: wrap;
