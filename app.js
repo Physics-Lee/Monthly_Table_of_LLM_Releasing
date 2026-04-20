@@ -36,6 +36,17 @@ const VENDOR_NAMES = {
   'Xiaomi': '小米',
   'Kuaishou-Kling': '快手可灵',
   'Boss-Nanbeige': '南北阁',
+  'Huawei': '华为',
+  'Tencent': '腾讯',
+  '01.AI': '零一万物',
+  'Baichuan-Intelligence': '百川',
+  'Microsoft': '微软',
+  'Apple': '苹果',
+  'NVIDIA': '英伟达',
+  'Stability': 'Stability',
+  'Amazon': '亚马逊',
+  'SenseTime': '商汤',
+  'AI21': 'AI21',
   'Open-Source': '开源项目'
 };
 

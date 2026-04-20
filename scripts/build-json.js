@@ -317,6 +317,38 @@ function inferURL(modelName) {
     [/^Kling$/, 'https://klingai.kuaishou.com/'],
     // Boss Nanbeige
     [/^Nanbeige/, 'https://huggingface.co/Nanbeige'],
+    // Microsoft
+    [/^Phi-1$/, 'https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need/'],
+    [/^Phi-1\.5$/, 'https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need-ii-phi-1-5-technical-report/'],
+    [/^Phi-2$/, 'https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/'],
+    [/^Phi-3/, 'https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/'],
+    [/^Phi-4$/, 'https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/'],
+    [/^Orca 2/, 'https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/'],
+    [/^Orca$/, 'https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/'],
+    // Apple
+    [/^MLX$/, 'https://github.com/ml-explore/mlx'],
+    [/^OpenELM$/, 'https://machinelearning.apple.com/research/openelm'],
+    [/^Ferret$/, 'https://github.com/apple/ml-ferret'],
+    [/^Apple Intelligence$/, 'https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/'],
+    [/^Ferret-UI$/, 'https://github.com/apple/ml-ferret'],
+    [/^FastVLM$/, 'https://arxiv.org/abs/2412.13303'],
+    // NVIDIA
+    [/^Nemotron-4 15B$/, 'https://arxiv.org/abs/2402.16819'],
+    [/^Nemotron-4 340B$/, 'https://arxiv.org/abs/2406.11704'],
+    [/^Llama-3\.1-Nemotron/, 'https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/'],
+    // Stability AI
+    [/^StableLM/, 'https://github.com/Stability-AI/StableLM'],
+    [/^Stable Diffusion 3$/, 'https://stability.ai/news/stable-diffusion-3'],
+    [/^Stable Code/, 'https://stability.ai/news/stable-code-2024-llm-code-completion-release'],
+    // Amazon
+    [/^Titan/, 'https://aws.amazon.com/bedrock/titan/'],
+    // SenseTime
+    [/^SenseNova/, 'https://www.sensetime.com/'],
+    [/^SenseChat$/, 'https://www.sensetime.com/'],
+    // AI21
+    [/^Jurassic-2/, 'https://www.ai21.com/blog/introducing-jurassic-2-and-task-specific-apis/'],
+    [/^Jurassic-1/, 'https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1/'],
+    [/^Jamba/, 'https://www.ai21.com/blog/announcing-jamba/'],
   ];
 
   for (const [re, url] of infer) {

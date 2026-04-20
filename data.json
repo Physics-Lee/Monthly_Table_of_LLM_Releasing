@@ -24,7 +24,14 @@
     "Huawei",
     "Tencent",
     "01.AI",
-    "Baichuan-Intelligence"
+    "Baichuan-Intelligence",
+    "Microsoft",
+    "Apple",
+    "NVIDIA",
+    "Stability",
+    "Amazon",
+    "SenseTime",
+    "AI21"
   ],
   "rows": [
     {
@@ -53,7 +60,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "22-Dec",
@@ -81,7 +95,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Jan",
@@ -109,7 +130,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Feb",
@@ -137,7 +165,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Mar",
@@ -165,7 +200,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Apr",
@@ -193,7 +235,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-May",
@@ -221,7 +270,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Jun",
@@ -249,7 +305,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": "Baichuan-7B + Baichuan-13B"
+      "Baichuan-Intelligence": "Baichuan-7B + Baichuan-13B",
+      "Microsoft": "Phi-1",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Jul",
@@ -277,7 +340,14 @@
       "Huawei": "PanGu 3.0",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Aug",
@@ -305,7 +375,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Sep",
@@ -333,7 +410,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan",
       "01.AI": "",
-      "Baichuan-Intelligence": "Baichuan 2"
+      "Baichuan-Intelligence": "Baichuan 2",
+      "Microsoft": "Phi-1.5",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Oct",
@@ -361,7 +445,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Nov",
@@ -389,7 +480,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan Standard",
       "01.AI": "Yi-6B + Yi-34B",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "MLX",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "Titan Text Express + Titan Text Lite",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "23-Dec",
@@ -417,7 +515,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "Phi-2",
+      "Apple": "Ferret",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Jan",
@@ -445,7 +550,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "Yi-VL",
-      "Baichuan-Intelligence": "Baichuan 3"
+      "Baichuan-Intelligence": "Baichuan 3",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Feb",
@@ -473,7 +585,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "Nemotron-4 15B",
+      "Stability": "Stable Diffusion 3",
+      "Amazon": "",
+      "SenseTime": "SenseNova 4.0",
+      "AI21": "Jurassic-2"
     },
     {
       "Month": "24-Mar",
@@ -501,7 +620,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": "Jamba"
     },
     {
       "Month": "24-Apr",
@@ -529,7 +655,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "Phi-3-mini",
+      "Apple": "OpenELM",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-May",
@@ -557,7 +690,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "Yi-1.5",
-      "Baichuan-Intelligence": "Baichuan 4"
+      "Baichuan-Intelligence": "Baichuan 4",
+      "Microsoft": "Phi-3-small + Phi-3-medium",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "Titan Text Premier",
+      "SenseTime": "SenseChat",
+      "AI21": ""
     },
     {
       "Month": "24-Jun",
@@ -585,7 +725,14 @@
       "Huawei": "PanGu 5.0",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "Nemotron-4 340B",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Jul",
@@ -613,7 +760,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Aug",
@@ -641,7 +795,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "Llama-3.1-Nemotron-70B-Reward",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": "Jamba 1.5 Mini + Jamba 1.5 Large"
     },
     {
       "Month": "24-Sep",
@@ -669,7 +830,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Oct",
@@ -697,7 +865,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan-lite",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "Apple Intelligence + Ferret-UI",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Nov",
@@ -725,7 +900,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "24-Dec",
@@ -753,7 +935,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "FastVLM",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Jan",
@@ -781,7 +970,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Feb",
@@ -809,7 +1005,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Mar",
@@ -837,7 +1040,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Apr",
@@ -865,7 +1075,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-May",
@@ -893,7 +1110,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Jun",
@@ -921,7 +1145,14 @@
       "Huawei": "PanGu 5.5",
       "Tencent": "Hunyuan-A13B",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Jul",
@@ -949,7 +1180,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan-TurboS",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Aug",
@@ -977,7 +1215,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan-T1",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Sep",
@@ -1005,7 +1250,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan-large-role",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Oct",
@@ -1033,7 +1285,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Nov",
@@ -1061,7 +1320,14 @@
       "Huawei": "",
       "Tencent": "HY 2.0 Think + HY 2.0 Instruct",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "25-Dec",
@@ -1089,7 +1355,14 @@
       "Huawei": "",
       "Tencent": "Hunyuan 2.0",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "26-Jan",
@@ -1117,7 +1390,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "26-Feb",
@@ -1145,7 +1425,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "26-Mar",
@@ -1173,7 +1460,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "Phi-4",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     },
     {
       "Month": "26-Apr",
@@ -1201,7 +1495,14 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "",
+      "Microsoft": "",
+      "Apple": "",
+      "NVIDIA": "",
+      "Stability": "",
+      "Amazon": "",
+      "SenseTime": "",
+      "AI21": ""
     }
   ]
 }
