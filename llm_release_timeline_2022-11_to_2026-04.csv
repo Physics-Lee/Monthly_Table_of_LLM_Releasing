@@ -12,7 +12,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 23-Sep,,GPT-4V,,,,Mistral 7B,,,Qwen-14B,,,,,,,,,,,,,,Hunyuan,,Baichuan 2,Phi-1.5,,,,,,,,,
 23-Oct,CrewAI + DSPy,,,,,,,,,,ERNIE 4.0,ChatGLM3,,,Kimi Chat,,CodeFuse,,,,,,,,,,,,,,,,Raycast AI,,
 23-Nov,,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,,,,Hunyuan Standard,Yi-6B + Yi-34B,,,MLX,,,Titan Text Express + Titan Text Lite,,,,AWS Trainium2,
-23-Dec,,,Claude 2.1,Gemini 1.0 Ultra + Pro + Nano,,Mixtral 8x7B + Mistral Medium,,,,,,,,abab5.5,,,Bailing 2.0,,,,,,,,,Phi-2,Ferret,,,,,,,AMD MI300X + Google TPU v5p,Google AI Hypercomputer
+23-Dec,RAGFlow,,Claude 2.1,Gemini 1.0 Ultra + Pro + Nano,,Mixtral 8x7B + Mistral Medium,,,,,,,,abab5.5,,,Bailing 2.0,,,,,,,,,Phi-2,Ferret,,,,,,,AMD MI300X + Google TPU v5p,Google AI Hypercomputer
 24-Jan,AutoGen + LangGraph + SGLang,,,,,,,DeepSeek-MoE,,,,GLM-4,Spark 3.0,,moonshot-v1,,,,,,,,,Yi-VL,Baichuan 3,,,,,,,,,,
 24-Feb,,,,Gemma + Gemini 1.5 Pro,,Mistral Large + Mistral Small,,DeepSeek-Math,Qwen1.5,Aya,,,,,,,,,,,,,,,,,,Nemotron-4 15B,Stable Diffusion 3,,SenseNova 4.0,Jurassic-2,,,
 24-Mar,OpenHands,,Claude 3 Opus + Sonnet + Haiku,,,,Grok-1 + Grok-1.5,DeepSeek-VL,,Command R,,,Spark 3.5,,,,,,,,,,,,,,,,,,,Jamba,Windsurf,NVIDIA Blackwell B200,AWS Trainium2 GA

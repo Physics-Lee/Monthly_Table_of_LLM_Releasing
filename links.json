@@ -344,6 +344,7 @@
   "Titan Text Express": "https://aws.amazon.com/bedrock/titan/",
   "Titan Text Lite": "https://aws.amazon.com/bedrock/titan/",
   "AWS Trainium2": "https://aws.amazon.com/ec2/instance-types/trn2/",
+  "RAGFlow": "https://github.com/infiniflow/ragflow",
   "Phi-2": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
   "Ferret": "https://github.com/apple/ml-ferret",
   "AMD MI300X": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",

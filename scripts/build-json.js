@@ -319,6 +319,7 @@ function inferURL(modelName) {
     [/^Oh-My-OpenAgent/, 'https://github.com/code-yeongyu/oh-my-openagent'],
     [/^Jan$/, 'https://github.com/janhq/jan'],
     [/^MarkItDown/, 'https://github.com/microsoft/markitdown'],
+    [/^RAGFlow/, 'https://github.com/infiniflow/ragflow'],
     [/^andrej-karpathy-skills/, 'https://github.com/forrestchang/andrej-karpathy-skills'],
     [/^oh-my-claudecode/, 'https://github.com/yeachan-heo/oh-my-claudecode'],
     [/^oh-my-codex/, 'https://github.com/yeachan-heo/oh-my-codex'],

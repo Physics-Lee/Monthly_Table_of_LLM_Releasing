@@ -533,7 +533,7 @@
     },
     {
       "Month": "23-Dec",
-      "Open-Source": "",
+      "Open-Source": "RAGFlow",
       "OpenAI": "",
       "Anthropic": "Claude 2.1",
       "Google": "Gemini 1.0 Ultra + Pro + Nano",
