@@ -32,7 +32,9 @@
     "Amazon",
     "SenseTime",
     "AI21",
-    "LLM-Applications"
+    "LLM-Applications",
+    "LLM-芯片",
+    "LLM-云计算"
   ],
   "rows": [
     {
@@ -69,7 +71,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": "Azure OpenAI Service"
     },
     {
       "Month": "22-Dec",
@@ -105,7 +109,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Perplexity"
+      "LLM-Applications": "Perplexity",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Jan",
@@ -141,7 +147,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Feb",
@@ -177,7 +185,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Notion AI + Poe + Sourcegraph Cody"
+      "LLM-Applications": "Notion AI + Poe + Sourcegraph Cody",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Mar",
@@ -213,7 +223,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Cursor + Sider + Monica + Gamma"
+      "LLM-Applications": "Cursor + Sider + Monica + Gamma",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Apr",
@@ -249,7 +261,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Grammarly"
+      "LLM-Applications": "Grammarly",
+      "LLM-芯片": "",
+      "LLM-云计算": "AWS Bedrock GA"
     },
     {
       "Month": "23-May",
@@ -285,7 +299,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Jun",
@@ -321,7 +337,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Jul",
@@ -357,7 +375,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Aug",
@@ -393,7 +413,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "SK Hynix HBM3E",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Sep",
@@ -429,7 +451,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Oct",
@@ -465,7 +489,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Raycast AI"
+      "LLM-Applications": "Raycast AI",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Nov",
@@ -501,7 +527,9 @@
       "Amazon": "Titan Text Express + Titan Text Lite",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "AWS Trainium2",
+      "LLM-云计算": ""
     },
     {
       "Month": "23-Dec",
@@ -537,7 +565,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "AMD MI300X + Google TPU v5p",
+      "LLM-云计算": "Google AI Hypercomputer"
     },
     {
       "Month": "24-Jan",
@@ -573,7 +603,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Feb",
@@ -609,7 +641,9 @@
       "Amazon": "",
       "SenseTime": "SenseNova 4.0",
       "AI21": "Jurassic-2",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Mar",
@@ -645,7 +679,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "Jamba",
-      "LLM-Applications": "Windsurf"
+      "LLM-Applications": "Windsurf",
+      "LLM-芯片": "NVIDIA Blackwell B200",
+      "LLM-云计算": "AWS Trainium2 GA"
     },
     {
       "Month": "24-Apr",
@@ -681,7 +717,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "Microsoft Maia 100",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-May",
@@ -717,7 +755,9 @@
       "Amazon": "Titan Text Premier",
       "SenseTime": "SenseChat",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": "CoreWeave 75亿美元"
     },
     {
       "Month": "24-Jun",
@@ -753,7 +793,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Jul",
@@ -789,7 +831,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Aug",
@@ -825,7 +869,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "Jamba 1.5 Mini + Jamba 1.5 Large",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "NVIDIA H200",
+      "LLM-云计算": "Lambda Labs 3.2亿美元"
     },
     {
       "Month": "24-Sep",
@@ -861,7 +907,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Oct",
@@ -897,7 +945,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Nov",
@@ -933,7 +983,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "24-Dec",
@@ -969,7 +1021,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "Google TPU v6e Trillium",
+      "LLM-云计算": "AWS AI Factories"
     },
     {
       "Month": "25-Jan",
@@ -1005,7 +1059,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Trae"
+      "LLM-Applications": "Trae",
+      "LLM-芯片": "NVIDIA Nemotron 3",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Feb",
@@ -1041,7 +1097,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Mar",
@@ -1077,7 +1135,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "Manus"
+      "LLM-Applications": "Manus",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Apr",
@@ -1113,7 +1173,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-May",
@@ -1149,7 +1211,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Jun",
@@ -1185,7 +1249,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "AMD MI350X",
+      "LLM-云计算": "AWS GPU降价45%"
     },
     {
       "Month": "25-Jul",
@@ -1221,7 +1287,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Aug",
@@ -1257,7 +1325,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Sep",
@@ -1293,7 +1363,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "CodeBuddy"
+      "LLM-Applications": "CodeBuddy",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Oct",
@@ -1329,7 +1401,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Nov",
@@ -1365,7 +1439,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     },
     {
       "Month": "25-Dec",
@@ -1401,7 +1477,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "NVIDIA Nemotron 3 Nano",
+      "LLM-云计算": "CoreWeave 85亿美元"
     },
     {
       "Month": "26-Jan",
@@ -1437,7 +1515,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "Microsoft Maia 200",
+      "LLM-云计算": ""
     },
     {
       "Month": "26-Feb",
@@ -1473,7 +1553,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": "Microsoft-OpenAI Stargate 1000亿美元"
     },
     {
       "Month": "26-Mar",
@@ -1509,7 +1591,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": "QClaw + WorkBuddy"
+      "LLM-Applications": "QClaw + WorkBuddy",
+      "LLM-芯片": "NVIDIA Nemotron 3 Super",
+      "LLM-云计算": ""
     },
     {
       "Month": "26-Apr",
@@ -1545,7 +1629,9 @@
       "Amazon": "",
       "SenseTime": "",
       "AI21": "",
-      "LLM-Applications": ""
+      "LLM-Applications": "",
+      "LLM-芯片": "",
+      "LLM-云计算": ""
     }
   ]
 }

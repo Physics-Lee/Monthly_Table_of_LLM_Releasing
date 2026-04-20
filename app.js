@@ -49,7 +49,9 @@ const VENDOR_NAMES = {
   'SenseTime': '商汤',
   'AI21': 'AI21',
   'Open-Source': '开源项目',
-  'LLM-Applications': 'LLM应用'
+  'LLM-Applications': 'LLM应用',
+  'LLM-芯片': 'LLM芯片',
+  'LLM-云计算': 'LLM云计算'
 };
 
 // 更新厂商列表描述

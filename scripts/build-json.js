@@ -368,6 +368,28 @@ function inferURL(modelName) {
     [/^CodeBuddy/, 'https://www.codebuddy.ai/'],
     [/^QClaw/, 'https://www.qclaw.run/'],
     [/^WorkBuddy/, 'https://workbuddy.cloud.tencent.com/'],
+    // LLM-芯片
+    [/^SK Hynix HBM3E/, 'https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/'],
+    [/^AWS Trainium2$/, 'https://aws.amazon.com/ec2/instance-types/trn2/'],
+    [/^AMD MI300X/, 'https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html'],
+    [/^Google TPU v5p/, 'https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer'],
+    [/^NVIDIA Blackwell B200/, 'https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing'],
+    [/^Microsoft Maia 100/, 'https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai/'],
+    [/^NVIDIA H200/, 'https://www.nvidia.com/en-us/data-center/h200/'],
+    [/^Google TPU v6e/, 'https://cloud.google.com/blog/products/compute/trillium-tpu-is-ga'],
+    [/^NVIDIA Nemotron 3/, 'https://blogs.nvidia.com/blog/nemotron-model-families/'],
+    [/^AMD MI350X/, 'https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html'],
+    [/^Microsoft Maia 200/, 'https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/'],
+    // LLM-云计算
+    [/^Azure OpenAI Service/, 'https://azure.microsoft.com/en-us/blog/azure-openai-service/'],
+    [/^AWS Bedrock/, 'https://aws.amazon.com/bedrock/'],
+    [/^Google AI Hypercomputer/, 'https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer'],
+    [/^AWS Trainium2 GA/, 'https://aws.amazon.com/ec2/instance-types/trn2/'],
+    [/^CoreWeave/, 'https://www.coreweave.com/'],
+    [/^Lambda Labs/, 'https://lambda.ai/'],
+    [/^AWS AI Factories/, 'https://aws.amazon.com/ai-factories/'],
+    [/^AWS GPU降价/, 'https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/'],
+    [/^Microsoft-OpenAI Stargate/, 'https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/'],
   ];
 
   for (const [re, url] of infer) {
