@@ -320,6 +320,64 @@ td:empty::after {
   background: rgba(99, 102, 241, 0.06);
 }
 
+/* Changelog */
+.changelog {
+  margin-top: 32px;
+  padding: 24px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+}
+
+.changelog h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.changelog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.changelog-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.changelog-date {
+  color: var(--text-tertiary);
+  white-space: nowrap;
+  min-width: 80px;
+}
+
+.changelog-hash {
+  color: var(--accent-primary);
+  font-family: monospace;
+  font-size: 12px;
+  background: rgba(99, 102, 241, 0.08);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.changelog-msg {
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+.changelog-error {
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   body {

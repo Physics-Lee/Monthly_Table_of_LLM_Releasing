@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   updateVendorList();
   initFilters();
   render();
+  loadChangelog(); // 加载更新日志
 });
 
 // 厂商名称映射：英文 -> 中文
@@ -61,6 +62,33 @@ async function loadLinks() {
     links = await res.json();
   } catch (e) {
     links = {};
+  }
+}
+
+// 加载更新日志
+async function loadChangelog() {
+  const container = document.getElementById('changelogList');
+  if (!container) return;
+
+  try {
+    const res = await fetch('https://api.github.com/repos/Physics-Lee/Monthly_Table_of_LLM_Releasing/commits?per_page=3');
+    const commits = await res.json();
+
+    container.innerHTML = commits.map(commit => {
+      const date = new Date(commit.commit.committer.date);
+      const dateStr = date.toLocaleDateString('zh-CN');
+      const message = commit.commit.message.split('\n')[0]; // 只取第一行
+      const shortHash = commit.sha.substring(0, 7);
+      return `
+        <div class="changelog-item">
+          <span class="changelog-date">${dateStr}</span>
+          <span class="changelog-hash">${shortHash}</span>
+          <span class="changelog-msg">${message}</span>
+        </div>
+      `;
+    }).join('');
+  } catch (e) {
+    container.innerHTML = '<span class="changelog-error">加载失败</span>';
   }
 }
 
