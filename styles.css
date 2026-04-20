@@ -213,12 +213,7 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
-  padding: 0 4px;
-}
-
-.table-hint-left,
-.table-hint-right {
+  padding: 12px 14px 4px;
   font-size: 12px;
   color: var(--text-tertiary);
 }
