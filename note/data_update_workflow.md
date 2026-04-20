@@ -61,7 +61,31 @@ push 后 **2-5 分钟**自动生效，无需任何操作。
 → physics-lee.github.io/Monthly_Table_of_LLM_Releasing
 ```
 
-触发条件：Settings → Pages → Source: **master branch**
+触发条件：Settings → Pages → Source: **master branch (Classic)**
+
+### GitHub Actions（自动）
+
+这是**自动生成数据文件**的系统，不是用来展示网页的（网页靠上面的 Classic Pages）。
+
+工作流程：
+```
+你 push CSV/MD
+        ↓
+GitHub Actions 自动运行 scripts/build-json.js
+        ↓
+生成 data.json + links.json + README.md
+        ↓
+自动 commit 到 master
+        ↓
+Classic GitHub Pages 检测到 master 有更新 → 网站重新加载
+```
+
+两个系统独立工作、互不干扰：
+
+| 系统 | 作用 | 触发方式 |
+|------|------|---------|
+| **GitHub Actions** | 运行脚本生成数据文件 | 监听 CSV/MD 的 push |
+| **GitHub Pages (Classic)** | 展示网页 | 检测 master 分支更新 |
 
 ### Coze（手动）
 
@@ -92,6 +116,9 @@ Monthly_Table_of_LLM_Releasing/
 ├── scripts/
 │   ├── build-json.js      # 主构建脚本
 │   └── generate-readme.js # 旧脚本（已被 build-json.js 取代）
+├── .github/
+│   └── workflows/
+│       └── build.yml      # GitHub Actions 配置（自动运行 build-json.js）
 ├── .coze                  # Coze 本地调试配置
 └── note/                  # 内部笔记
 ```
@@ -109,5 +136,14 @@ A: 主要从 MD 提取，少量通过 Hardcoded 推断补全（见 `inferURL()` 
 **Q: 新增一个月份怎么做？**  
 A: 在 CSV 最后一行插入新月份行，在 MD 表格末尾添加对应行，URL 写在 MD 的 `[模型名](URL)` 中，然后运行 `build-json.js`。
 
-**Q: GitHub Pages 没更新怎么办？**  
+**Q: GitHub Pages 没更新怎么办？**
 A: 去 Settings → Pages → 确认 Source 是 master branch / (root)，然后等 10 分钟再刷新。
+
+**Q: GitHub Actions 和 GitHub Pages 是什么关系？我用的是 Classic Pages。**
+A: GitHub Pages（Classic）和 GitHub Actions 是两套独立的系统：
+- **GitHub Pages（Classic）** = 负责展示网页（你选的那个），push 到 master 就自动更新
+- **GitHub Actions** = 负责**运行脚本生成数据文件**，由 `.github/workflows/build.yml` 触发
+
+两者配合方式：Actions 生成 README.md 等文件 → commit 到 master → Classic Pages 检测到分支更新 → 网页刷新。
+- 设置 Classic Pages：Settings → Pages → Source: master branch
+- 设置 Actions：Settings → Actions → 保持默认即可，Actions 是自动触发的

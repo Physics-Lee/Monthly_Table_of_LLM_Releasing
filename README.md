@@ -20,11 +20,11 @@ OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qwen-Alibaba、C
 | 22-Dec |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | 23-Jan |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | 23-Feb |  |  | [Bard](https://blog.google/technology/ai/introducing-bard/) | [Llama 1](https://github.com/facebookresearch/llama) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | [vLLM](https://github.com/vllm-project/vllm) |
-| 23-Mar | [GPT-4](https://openai.com/index/gpt-4) | [Claude 1](https://www.anthropic.com/news/introducing-claude) |  |  |  |  |  |  |  | [ERNIE Bot](https://research.baidu.com/Blog/index-view?id=183) | [ChatGLM](https://github.com/THUDM/ChatGLM) |  |  |  |  |  |  |  |  |  | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) + [llama.cpp](https://github.com/ggml-org/llama.cpp) |
+| 23-Mar | [GPT-4](https://openai.com/index/gpt-4) | [Claude 1](https://www.anthropic.com/news/introducing-claude) |  |  |  |  |  |  |  | [ERNIE Bot](https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html) | [ChatGLM](https://github.com/THUDM/ChatGLM) |  |  |  |  |  |  |  |  |  | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) + [llama.cpp](https://github.com/ggml-org/llama.cpp) |
 | 23-Apr |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) |
 | 23-May |  |  | [PaLM 2](https://blog.google/technology/ai/google-palm-2-ai-large-language-model/) |  |  |  |  |  |  |  |  | [Spark 1.0](https://mp.weixin.qq.com/s/3esI9MJsHgHuMZHNOFuVuA) |  |  |  |  |  |  |  |  |  |
 | 23-Jun |  |  |  |  |  |  |  |  |  |  | [ChatGLM2](https://github.com/THUDM/ChatGLM2-6B) | [Spark 1.5](https://wap.bjd.com.cn/news/2023/05/06/10422555.shtml) |  |  |  |  |  |  |  |  | [Ollama](https://github.com/ollama/ollama) + [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) |
-| 23-Jul |  | [Claude 2](https://www.anthropic.com/news/claude-2) |  | [Llama 2](https://ai.meta.com/blog/meta-llama-2/) |  |  |  |  |  | [ERNIE 3.5](https://research.baidu.com/Blog/index-view?id=185) |  |  |  |  |  |  | [Bailing](https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/) |  |  |  |  |
+| 23-Jul |  | [Claude 2](https://www.anthropic.com/news/claude-2) |  | [Llama 2](https://ai.meta.com/blog/meta-llama-2/) |  |  |  |  |  | [ERNIE 3.5](https://gigazine.net/gsc_news/en/20230628-baidu-ernie-3-5/) |  |  |  |  |  |  | [Bailing](https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/) |  |  |  |  |
 | 23-Aug |  | [Claude Instant 1.2](https://www.anthropic.com/news/releasing-claude-instant-1-2) |  |  |  |  |  | [Qwen-7B](https://huggingface.co/Qwen/Qwen-7B) + [Qwen-VL](https://huggingface.co/Qwen/Qwen-VL) + [Qwen-VL-Chat](https://github.com/QwenLM/Qwen-VL) |  |  |  | [Spark 2.0](https://app.dahecube.com/nweb/news/20230506/161691n915c3f8b152.htm) |  |  | [Doubao](https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492) |  |  | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B) |  |  | [Jan](https://github.com/janhq/jan) |
 | 23-Sep | [GPT-4V](https://openai.com/index/gpt-4v-system-card/) |  |  |  | [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b) |  |  | [Qwen-14B](https://huggingface.co/Qwen) |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | 23-Oct |  |  |  |  |  |  |  |  |  | [ERNIE 4.0](https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html) | [ChatGLM3](https://github.com/THUDM/ChatGLM3) |  |  | [Kimi Chat](https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/) |  | [CodeFuse](https://github.com/codefuse-ai) |  |  |  |  | [CrewAI](https://github.com/crewAIInc/crewAI) + [DSPy](https://github.com/stanfordnlp/dspy) |
@@ -67,7 +67,7 @@ OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qwen-Alibaba、C
 
 ## 更新日志
 
-- 2026-04-19：自动重建数据
+- 2026-04-20：自动重建数据
 
 ---
 > 由社区维护，欢迎提交 Issue 和 Pull Request
