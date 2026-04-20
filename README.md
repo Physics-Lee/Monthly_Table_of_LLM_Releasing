@@ -10,11 +10,11 @@ GitHub 仓库：[https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing](
 
 ## 覆盖厂商
 
-Open-Source、OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qwen-Alibaba、Cohere、Baidu、GLM-Z.ai、iFlytek、MiniMax、Kimi-Moonshot、Doubao-ByteDance、Ant-Group、StepFun、Xiaomi、Kuaishou-Kling、Boss-Nanbeige、Huawei、Tencent、01.AI、Baichuan-Intelligence、Microsoft、Apple、NVIDIA、Stability、Amazon、SenseTime、AI21、LLM-Applications、LLM-芯片、LLM-云计算
+Open-Source、OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qwen-Alibaba、Cohere、Baidu、GLM-Z.ai、iFlytek、MiniMax、Kimi-Moonshot、Doubao-ByteDance、Ant-Group、StepFun、Xiaomi、Kuaishou-Kling、Boss-Nanbeige、Huawei、Tencent、01.AI、Baichuan-Intelligence、Microsoft、Apple、NVIDIA、Stability、Amazon、SenseTime、AI21、LLM-Applications、AI-Chips、AI-Cloud
 
 ## 发布时间线
 
-| Month | Open-Source | OpenAI | Anthropic | Google | Meta | Mistral | xAI | DeepSeek | Qwen-Alibaba | Cohere | Baidu | GLM-Z.ai | iFlytek | MiniMax | Kimi-Moonshot | Doubao-ByteDance | Ant-Group | StepFun | Xiaomi | Kuaishou-Kling | Boss-Nanbeige | Huawei | Tencent | 01.AI | Baichuan-Intelligence | Microsoft | Apple | NVIDIA | Stability | Amazon | SenseTime | AI21 | LLM-Applications | LLM-芯片 | LLM-云计算 |
+| Month | Open-Source | OpenAI | Anthropic | Google | Meta | Mistral | xAI | DeepSeek | Qwen-Alibaba | Cohere | Baidu | GLM-Z.ai | iFlytek | MiniMax | Kimi-Moonshot | Doubao-ByteDance | Ant-Group | StepFun | Xiaomi | Kuaishou-Kling | Boss-Nanbeige | Huawei | Tencent | 01.AI | Baichuan-Intelligence | Microsoft | Apple | NVIDIA | Stability | Amazon | SenseTime | AI21 | LLM-Applications | AI-Chips | AI-Cloud |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 22-Nov | [LangChain](https://github.com/langchain-ai/langchain) | [ChatGPT GPT-3.5](https://openai.com/index/chatgpt/) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | [Azure OpenAI Service](https://azure.microsoft.com/en-us/blog/azure-openai-service/) |
 | 22-Dec |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | [Perplexity](https://www.perplexity.ai/) |  |  |

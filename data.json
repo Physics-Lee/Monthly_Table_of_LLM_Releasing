@@ -33,8 +33,8 @@
     "SenseTime",
     "AI21",
     "LLM-Applications",
-    "LLM-芯片",
-    "LLM-云计算"
+    "AI-Chips",
+    "AI-Cloud"
   ],
   "rows": [
     {
@@ -72,8 +72,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": "Azure OpenAI Service"
+      "AI-Chips": "",
+      "AI-Cloud": "Azure OpenAI Service"
     },
     {
       "Month": "22-Dec",
@@ -110,8 +110,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Perplexity",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Jan",
@@ -148,8 +148,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Feb",
@@ -186,8 +186,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Notion AI + Poe + Sourcegraph Cody",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Mar",
@@ -224,8 +224,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Cursor + Sider + Monica + Gamma",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Apr",
@@ -262,8 +262,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Grammarly",
-      "LLM-芯片": "",
-      "LLM-云计算": "AWS Bedrock GA"
+      "AI-Chips": "",
+      "AI-Cloud": "AWS Bedrock GA"
     },
     {
       "Month": "23-May",
@@ -300,8 +300,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Jun",
@@ -338,8 +338,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Jul",
@@ -376,8 +376,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Aug",
@@ -414,8 +414,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "SK Hynix HBM3E",
-      "LLM-云计算": ""
+      "AI-Chips": "SK Hynix HBM3E",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Sep",
@@ -452,8 +452,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Oct",
@@ -490,8 +490,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Raycast AI",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Nov",
@@ -528,8 +528,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "AWS Trainium2",
-      "LLM-云计算": ""
+      "AI-Chips": "AWS Trainium2",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Dec",
@@ -566,8 +566,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "AMD MI300X + Google TPU v5p",
-      "LLM-云计算": "Google AI Hypercomputer"
+      "AI-Chips": "AMD MI300X + Google TPU v5p",
+      "AI-Cloud": "Google AI Hypercomputer"
     },
     {
       "Month": "24-Jan",
@@ -604,8 +604,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Feb",
@@ -642,8 +642,8 @@
       "SenseTime": "SenseNova 4.0",
       "AI21": "Jurassic-2",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Mar",
@@ -680,8 +680,8 @@
       "SenseTime": "",
       "AI21": "Jamba",
       "LLM-Applications": "Windsurf",
-      "LLM-芯片": "NVIDIA Blackwell B200",
-      "LLM-云计算": "AWS Trainium2 GA"
+      "AI-Chips": "NVIDIA Blackwell B200",
+      "AI-Cloud": "AWS Trainium2 GA"
     },
     {
       "Month": "24-Apr",
@@ -718,8 +718,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "Microsoft Maia 100",
-      "LLM-云计算": ""
+      "AI-Chips": "Microsoft Maia 100",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-May",
@@ -756,8 +756,8 @@
       "SenseTime": "SenseChat",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": "CoreWeave 75亿美元"
+      "AI-Chips": "",
+      "AI-Cloud": "CoreWeave 75亿美元"
     },
     {
       "Month": "24-Jun",
@@ -794,8 +794,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Jul",
@@ -832,8 +832,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Aug",
@@ -870,8 +870,8 @@
       "SenseTime": "",
       "AI21": "Jamba 1.5 Mini + Jamba 1.5 Large",
       "LLM-Applications": "",
-      "LLM-芯片": "NVIDIA H200",
-      "LLM-云计算": "Lambda Labs 3.2亿美元"
+      "AI-Chips": "NVIDIA H200",
+      "AI-Cloud": "Lambda Labs 3.2亿美元"
     },
     {
       "Month": "24-Sep",
@@ -908,8 +908,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Oct",
@@ -946,8 +946,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Nov",
@@ -984,8 +984,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "24-Dec",
@@ -1022,8 +1022,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "Google TPU v6e Trillium",
-      "LLM-云计算": "AWS AI Factories"
+      "AI-Chips": "Google TPU v6e Trillium",
+      "AI-Cloud": "AWS AI Factories"
     },
     {
       "Month": "25-Jan",
@@ -1060,8 +1060,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Trae",
-      "LLM-芯片": "NVIDIA Nemotron 3",
-      "LLM-云计算": ""
+      "AI-Chips": "NVIDIA Nemotron 3",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Feb",
@@ -1098,8 +1098,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Mar",
@@ -1136,8 +1136,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "Manus",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Apr",
@@ -1174,8 +1174,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-May",
@@ -1212,8 +1212,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Jun",
@@ -1250,8 +1250,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "AMD MI350X",
-      "LLM-云计算": "AWS GPU降价45%"
+      "AI-Chips": "AMD MI350X",
+      "AI-Cloud": "AWS GPU降价45%"
     },
     {
       "Month": "25-Jul",
@@ -1288,8 +1288,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Aug",
@@ -1326,8 +1326,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Sep",
@@ -1364,8 +1364,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "CodeBuddy",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Oct",
@@ -1402,8 +1402,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Nov",
@@ -1440,8 +1440,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     },
     {
       "Month": "25-Dec",
@@ -1478,8 +1478,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "NVIDIA Nemotron 3 Nano",
-      "LLM-云计算": "CoreWeave 85亿美元"
+      "AI-Chips": "NVIDIA Nemotron 3 Nano",
+      "AI-Cloud": "CoreWeave 85亿美元"
     },
     {
       "Month": "26-Jan",
@@ -1516,8 +1516,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "Microsoft Maia 200",
-      "LLM-云计算": ""
+      "AI-Chips": "Microsoft Maia 200",
+      "AI-Cloud": ""
     },
     {
       "Month": "26-Feb",
@@ -1554,8 +1554,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": "Microsoft-OpenAI Stargate 1000亿美元"
+      "AI-Chips": "",
+      "AI-Cloud": "Microsoft-OpenAI Stargate 1000亿美元"
     },
     {
       "Month": "26-Mar",
@@ -1592,8 +1592,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "QClaw + WorkBuddy",
-      "LLM-芯片": "NVIDIA Nemotron 3 Super",
-      "LLM-云计算": ""
+      "AI-Chips": "NVIDIA Nemotron 3 Super",
+      "AI-Cloud": ""
     },
     {
       "Month": "26-Apr",
@@ -1630,8 +1630,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "LLM-芯片": "",
-      "LLM-云计算": ""
+      "AI-Chips": "",
+      "AI-Cloud": ""
     }
   ]
 }
