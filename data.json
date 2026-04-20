@@ -1483,7 +1483,7 @@
     },
     {
       "Month": "26-Jan",
-      "Open-Source": "andrej-karpathy-skills",
+      "Open-Source": "andrej-karpathy-skills + oh-my-claudecode",
       "OpenAI": "",
       "Anthropic": "",
       "Google": "",
@@ -1521,7 +1521,7 @@
     },
     {
       "Month": "26-Feb",
-      "Open-Source": "",
+      "Open-Source": "oh-my-codex",
       "OpenAI": "GPT-5.3-Codex",
       "Anthropic": "Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams",
       "Google": "Gemini 3.1 Pro",

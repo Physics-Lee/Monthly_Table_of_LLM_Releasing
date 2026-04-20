@@ -320,6 +320,8 @@ function inferURL(modelName) {
     [/^Jan$/, 'https://github.com/janhq/jan'],
     [/^MarkItDown/, 'https://github.com/microsoft/markitdown'],
     [/^andrej-karpathy-skills/, 'https://github.com/forrestchang/andrej-karpathy-skills'],
+    [/^oh-my-claudecode/, 'https://github.com/yeachan-heo/oh-my-claudecode'],
+    [/^oh-my-codex/, 'https://github.com/yeachan-heo/oh-my-codex'],
     // Kuaishou Kling
     [/^Kling /, 'https://klingai.kuaishou.com/'],
     [/^Kling$/, 'https://klingai.kuaishou.com/'],
