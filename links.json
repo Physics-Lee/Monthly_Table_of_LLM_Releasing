@@ -342,5 +342,9 @@
   "Apple Intelligence": "https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/",
   "Ferret-UI": "https://github.com/apple/ml-ferret",
   "FastVLM": "https://arxiv.org/abs/2412.13303",
-  "Phi-4": "https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/"
+  "Nemotron 3 family (Nano/Super/Ultra)": "https://blogs.nvidia.com/blog/nemotron-model-families",
+  "Apple Intelligence iOS 18.4": "https://www.apple.com/newsroom/2025/03/apple-intelligence-features-expand-to-new-languages-and-regions-today/",
+  "Nemotron 3 Nano": "https://blogs.nvidia.com/blog/nemotron-model-families",
+  "Phi-4": "https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/",
+  "Nemotron 3 Super": "https://blogs.nvidia.com/blog/nemotron-model-families"
 }

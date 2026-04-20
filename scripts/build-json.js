@@ -332,10 +332,12 @@ function inferURL(modelName) {
     [/^Apple Intelligence$/, 'https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/'],
     [/^Ferret-UI$/, 'https://github.com/apple/ml-ferret'],
     [/^FastVLM$/, 'https://arxiv.org/abs/2412.13303'],
+    [/^Apple Intelligence iOS 18\.4$/, 'https://www.apple.com/newsroom/2025/03/apple-intelligence-features-expand-to-new-languages-and-regions-today/'],
     // NVIDIA
     [/^Nemotron-4 15B$/, 'https://arxiv.org/abs/2402.16819'],
     [/^Nemotron-4 340B$/, 'https://arxiv.org/abs/2406.11704'],
     [/^Llama-3\.1-Nemotron/, 'https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/'],
+    [/^Nemotron 3/, 'https://blogs.nvidia.com/blog/nemotron-model-families'],
     // Stability AI
     [/^StableLM/, 'https://github.com/Stability-AI/StableLM'],
     [/^Stable Diffusion 3$/, 'https://stability.ai/news/stable-diffusion-3'],
