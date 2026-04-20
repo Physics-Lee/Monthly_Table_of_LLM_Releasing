@@ -378,6 +378,9 @@ function inferURL(modelName) {
     [/^CodeBuddy/, 'https://www.codebuddy.ai/'],
     [/^QClaw/, 'https://www.qclaw.run/'],
     [/^WorkBuddy/, 'https://workbuddy.cloud.tencent.com/'],
+    [/^GPT4All/, 'https://github.com/nomic-ai/gpt4all'],
+    [/^LM Studio/, 'https://lmstudio.ai/'],
+    [/^AnythingLLM/, 'https://anythingllm.com/'],
     // LLM-芯片
     [/^SK Hynix HBM3E/, 'https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/'],
     [/^AWS Trainium2$/, 'https://aws.amazon.com/ec2/instance-types/trn2/'],
