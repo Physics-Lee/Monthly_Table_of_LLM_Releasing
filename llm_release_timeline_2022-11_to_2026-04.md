@@ -67,6 +67,8 @@ Additional sources for v3 additions:
 - Claude 1 (2023-03): https://www.anthropic.com/news/introducing-claude
 - Claude Instant 1.2 (2023-08): https://www.anthropic.com/news/releasing-claude-instant-1-2
 - Claude 2.1 (2023-12): https://www.anthropic.com/news/claude-2
+
+<!-- Auto-rebuild trigger: 2026-04-20 -->
 - GPT-4V (2023-09): https://openai.com/index/gpt-4v-system-card/
 - Sora (2024-12): https://openai.com/index/sora-is-here/
 - o1 Pro (2025-03): https://openai.com/index/o1-pro/
