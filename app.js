@@ -36,7 +36,7 @@ const VENDOR_NAMES = {
   'StepFun': '阶跃星辰',
   'Xiaomi': '小米',
   'Kuaishou-Kling': '快手可灵',
-  'Boss-Nanbeige': 'BOSS直聘南北阁',
+  'Boss-Nanbeige': '南北阁',
   'Huawei': '华为',
   'Tencent': '腾讯',
   '01.AI': '零一万物',
@@ -50,8 +50,8 @@ const VENDOR_NAMES = {
   'AI21': 'AI21',
   'Open-Source': '开源项目',
   'LLM-Applications': 'LLM应用',
-  'LLM-芯片': 'LLM芯片',
-  'LLM-云计算': 'LLM云计算'
+  'AI-Chips': 'AI芯片',
+  'AI-Cloud': 'AI云计算'
 };
 
 // 更新厂商列表描述
