@@ -1009,7 +1009,7 @@
     },
     {
       "Month": "26-Apr",
-      "OpenAI": "GPT-5.4-Cyber",
+      "OpenAI": "GPT-5.4-Cyber + GPT-Rosalind",
       "Anthropic": "Claude Opus 4.7 + Claude Mythos Preview",
       "Google": "Gemma 4",
       "Meta": "Muse Spark",

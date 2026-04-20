@@ -40,4 +40,4 @@ Month,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba,Cohere,Baid
 26-Jan,,,,,,,,,,,,,,Kimi 2.5,,AReaL-SEA,,,Kling 3.0,,andrej-karpathy-skills
 26-Feb,GPT-5.3-Codex,Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams,Gemini 3.1 Pro,,,Grok 4.2 Beta,,Qwen3.5,,,GLM-5,,MiniMax-M2.5,,Doubao 2.0,Ring-2.5-1T + Ling-2.5-1T + Ming-flash-omni-2.0 + LLaDA2.1,Step 3.5 Flash,,,Nanbeige4.1-3B,
 26-Mar,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,,,,,,,,MiniMax-M2.7,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,,,
-26-Apr,GPT-5.4-Cyber,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,,,Qwen3.6-Plus,,,GLM-5.1,,,,,,,,,,
+26-Apr,GPT-5.4-Cyber + GPT-Rosalind,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,,,Qwen3.6-Plus,,,GLM-5.1,,,,,,,,,,
