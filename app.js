@@ -8,9 +8,44 @@ let searchQuery = '';
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
   await Promise.all([loadData(), loadLinks()]);
+  updateVendorList();
   initFilters();
   render();
 });
+
+// 厂商名称映射：英文 -> 中文
+const VENDOR_NAMES = {
+  'OpenAI': 'OpenAI',
+  'Anthropic': 'Anthropic',
+  'Google': 'Google',
+  'Meta': 'Meta',
+  'Mistral': 'Mistral',
+  'xAI': 'xAI',
+  'DeepSeek': 'DeepSeek',
+  'Qwen-Alibaba': '千问',
+  'Cohere': 'Cohere',
+  'Baidu': '百度',
+  'GLM-Z.ai': '智谱',
+  'iFlytek': '讯飞',
+  'MiniMax': 'MiniMax',
+  'Kimi-Moonshot': 'Kimi',
+  'Doubao-ByteDance': '字节',
+  'Ant-Group': '蚂蚁',
+  'StepFun': '阶跃星辰',
+  'Xiaomi': '小米',
+  'Kuaishou-Kling': '快手',
+  'Boss-Nanbeige': '面壁',
+  'Open-Source': '开源项目'
+};
+
+// 更新厂商列表描述
+function updateVendorList() {
+  const el = document.getElementById('vendorList');
+  if (el && allData.vendors.length > 0) {
+    const names = allData.vendors.map(v => VENDOR_NAMES[v] || v);
+    el.textContent = names.join('、');
+  }
+}
 
 // 加载数据
 async function loadData() {
