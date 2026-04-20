@@ -31,7 +31,8 @@
     "Stability",
     "Amazon",
     "SenseTime",
-    "AI21"
+    "AI21",
+    "LLM-Applications"
   ],
   "rows": [
     {
@@ -67,7 +68,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "22-Dec",
@@ -102,7 +104,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": "Perplexity"
     },
     {
       "Month": "23-Jan",
@@ -137,7 +140,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Feb",
@@ -172,7 +176,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": "Notion AI + Poe + Sourcegraph Cody"
     },
     {
       "Month": "23-Mar",
@@ -207,7 +212,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": "Cursor"
     },
     {
       "Month": "23-Apr",
@@ -242,7 +248,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": "Grammarly"
     },
     {
       "Month": "23-May",
@@ -277,7 +284,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Jun",
@@ -312,7 +320,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Jul",
@@ -347,7 +356,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Aug",
@@ -382,7 +392,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Sep",
@@ -417,7 +428,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Oct",
@@ -452,7 +464,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": "Raycast AI"
     },
     {
       "Month": "23-Nov",
@@ -487,7 +500,8 @@
       "Stability": "",
       "Amazon": "Titan Text Express + Titan Text Lite",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "23-Dec",
@@ -522,7 +536,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Jan",
@@ -557,7 +572,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Feb",
@@ -592,7 +608,8 @@
       "Stability": "Stable Diffusion 3",
       "Amazon": "",
       "SenseTime": "SenseNova 4.0",
-      "AI21": "Jurassic-2"
+      "AI21": "Jurassic-2",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Mar",
@@ -627,7 +644,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": "Jamba"
+      "AI21": "Jamba",
+      "LLM-Applications": "Windsurf"
     },
     {
       "Month": "24-Apr",
@@ -662,7 +680,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-May",
@@ -697,7 +716,8 @@
       "Stability": "",
       "Amazon": "Titan Text Premier",
       "SenseTime": "SenseChat",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Jun",
@@ -732,7 +752,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Jul",
@@ -767,7 +788,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Aug",
@@ -802,7 +824,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": "Jamba 1.5 Mini + Jamba 1.5 Large"
+      "AI21": "Jamba 1.5 Mini + Jamba 1.5 Large",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Sep",
@@ -837,7 +860,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Oct",
@@ -872,7 +896,8 @@
       "Stability": "Stable Diffusion 3.5",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Nov",
@@ -907,7 +932,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "24-Dec",
@@ -942,7 +968,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Jan",
@@ -977,7 +1004,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Feb",
@@ -1012,7 +1040,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Mar",
@@ -1047,7 +1076,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": "Manus"
     },
     {
       "Month": "25-Apr",
@@ -1082,7 +1112,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-May",
@@ -1117,7 +1148,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Jun",
@@ -1152,7 +1184,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Jul",
@@ -1187,7 +1220,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Aug",
@@ -1222,7 +1256,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Sep",
@@ -1257,7 +1292,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Oct",
@@ -1292,7 +1328,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Nov",
@@ -1327,7 +1364,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "25-Dec",
@@ -1362,7 +1400,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "26-Jan",
@@ -1397,7 +1436,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "26-Feb",
@@ -1432,7 +1472,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "26-Mar",
@@ -1467,7 +1508,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     },
     {
       "Month": "26-Apr",
@@ -1502,7 +1544,8 @@
       "Stability": "",
       "Amazon": "",
       "SenseTime": "",
-      "AI21": ""
+      "AI21": "",
+      "LLM-Applications": ""
     }
   ]
 }

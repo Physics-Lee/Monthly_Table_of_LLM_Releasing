@@ -351,6 +351,16 @@ function inferURL(modelName) {
     [/^Jurassic-2/, 'https://www.ai21.com/blog/introducing-jurassic-2-and-task-specific-apis/'],
     [/^Jurassic-1/, 'https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1/'],
     [/^Jamba/, 'https://www.ai21.com/blog/announcing-jamba/'],
+    // LLM-Applications
+    [/^Perplexity/, 'https://www.perplexity.ai/'],
+    [/^Notion AI/, 'https://www.notion.so/product/ai'],
+    [/^Poe/, 'https://poe.com/'],
+    [/^Sourcegraph Cody/, 'https://sourcegraph.com/cody'],
+    [/^Cursor/, 'https://cursor.com/'],
+    [/^Grammarly/, 'https://www.grammarly.com/grammarlygo'],
+    [/^Raycast AI/, 'https://www.raycast.com/ai'],
+    [/^Windsurf/, 'https://windsurf.com/'],
+    [/^Manus/, 'https://manus.im/'],
   ];
 
   for (const [re, url] of infer) {
