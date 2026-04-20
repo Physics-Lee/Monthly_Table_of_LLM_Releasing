@@ -208,21 +208,19 @@ header h1 {
   font-weight: 500;
 }
 
-/* Upcoming Hint */
-.upcoming-hint {
-  font-size: 12px;
-  color: var(--accent-primary);
+/* Table Hints */
+.table-hints {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 8px;
-  padding-left: 4px;
-  font-weight: 500;
+  padding: 0 4px;
 }
 
-/* Table Hint */
-.table-hint {
+.table-hint-left,
+.table-hint-right {
   font-size: 12px;
   color: var(--text-tertiary);
-  margin-bottom: 8px;
-  padding-left: 4px;
 }
 
 /* Table */
