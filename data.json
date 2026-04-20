@@ -249,7 +249,7 @@
       "Huawei": "",
       "Tencent": "",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "Baichuan-7B + Baichuan-13B"
     },
     {
       "Month": "23-Jul",
@@ -274,7 +274,7 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Huawei": "",
+      "Huawei": "PanGu 3.0",
       "Tencent": "",
       "01.AI": "",
       "Baichuan-Intelligence": ""
@@ -331,9 +331,9 @@
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "Hunyuan",
       "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "Baichuan-Intelligence": "Baichuan 2"
     },
     {
       "Month": "23-Oct",
@@ -387,8 +387,8 @@
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
+      "Tencent": "Hunyuan Standard",
+      "01.AI": "Yi-6B + Yi-34B",
       "Baichuan-Intelligence": ""
     },
     {
@@ -444,8 +444,8 @@
       "Boss-Nanbeige": "",
       "Huawei": "",
       "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "01.AI": "Yi-VL",
+      "Baichuan-Intelligence": "Baichuan 3"
     },
     {
       "Month": "24-Feb",
@@ -556,8 +556,8 @@
       "Boss-Nanbeige": "",
       "Huawei": "",
       "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": ""
+      "01.AI": "Yi-1.5",
+      "Baichuan-Intelligence": "Baichuan 4"
     },
     {
       "Month": "24-Jun",
@@ -582,7 +582,7 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "Kling 1.0",
       "Boss-Nanbeige": "",
-      "Huawei": "",
+      "Huawei": "PanGu 5.0",
       "Tencent": "",
       "01.AI": "",
       "Baichuan-Intelligence": ""
@@ -695,7 +695,7 @@
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "Hunyuan-lite",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
@@ -918,8 +918,8 @@
       "Xiaomi": "",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
+      "Huawei": "PanGu 5.5",
+      "Tencent": "Hunyuan-A13B",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
@@ -947,7 +947,7 @@
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "Hunyuan-TurboS",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
@@ -975,7 +975,7 @@
       "Kuaishou-Kling": "Kling 2.5",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "Hunyuan-T1",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
@@ -1003,7 +1003,7 @@
       "Kuaishou-Kling": "Kling 2.5 Turbo",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "Hunyuan-large-role",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
@@ -1059,7 +1059,7 @@
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "HY 2.0 Think + HY 2.0 Instruct",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
@@ -1087,7 +1087,7 @@
       "Kuaishou-Kling": "Kling O1 + Kling 2.6",
       "Boss-Nanbeige": "Nanbeige4-3B",
       "Huawei": "",
-      "Tencent": "",
+      "Tencent": "Hunyuan 2.0",
       "01.AI": "",
       "Baichuan-Intelligence": ""
     },
