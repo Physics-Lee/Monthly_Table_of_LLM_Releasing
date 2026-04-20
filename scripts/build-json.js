@@ -201,6 +201,7 @@ function inferURL(modelName) {
     [/^Spark X1/, 'https://baike.baidu.com/item/讯飞星火深度推理模型X1/65293924'],
     [/^Spark X/, 'https://baike.baidu.com/item/讯飞星火深度推理模型X1/65293924'],
     [/^Doubao/, 'https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492'],
+    [/^Kimi CLI/, 'https://github.com/MoonshotAI/kimi-cli'],
     [/^Moonshot/, 'https://platform.moonshot.cn/blog/posts/kimi-latest'],
     [/^Kimi/, 'https://platform.moonshot.cn/blog/posts/kimi-latest'],
     [/^MiniMax-Text-01/, 'https://github.com/MiniMax-AI/MiniMax-01'],
@@ -233,6 +234,7 @@ function inferURL(modelName) {
     [/^Muse Spark/, 'https://ai.meta.com/blog/introducing-muse-spark-msl/'],
     [/^Qwen3\.6-Max-Preview/, 'https://qwen.ai/research'],
     [/^Qwen3\.6-35B-A3B/, 'https://huggingface.co/Qwen/Qwen3.6-35B-A3B'],
+    [/^Qwen CLI/, 'https://github.com/QwenLM/qwen-code'],
     [/^Qwen3\./, 'https://qwen.ai/blog?id=qwen3'],
     [/^Qwen-?\d/, 'https://huggingface.co/Qwen'],
     [/^Qwen\d/, 'https://huggingface.co/Qwen'],
@@ -287,6 +289,7 @@ function inferURL(modelName) {
     [/^Gemma \d/, 'https://blog.google/technology/developers-tools/gemma-4/'],
     [/^Gemma 3n/, 'https://huggingface.co/google/gemma-3n-E2B-it'],
     [/^Gemini 2\.0 Flash/, 'https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/'],
+    [/^Gemini CLI/, 'https://blog.google/technology/developers/introducing-gemini-cli/'],
     [/^Gemini 3\./, 'https://blog.google/products/gemini/gemini-3/'],
     [/^Gemini 1\./, 'https://blog.google/technology/ai/'],
     [/^Llama$/, 'https://github.com/facebookresearch/llama'],
@@ -382,6 +385,7 @@ function inferURL(modelName) {
     [/^GPT4All/, 'https://github.com/nomic-ai/gpt4all'],
     [/^LM Studio/, 'https://lmstudio.ai/'],
     [/^AnythingLLM/, 'https://anythingllm.com/'],
+    [/^Kilo CLI/, 'https://github.com/Kilo-Org/kilocode'],
     // LLM-芯片
     [/^SK Hynix HBM3E/, 'https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/'],
     [/^AWS Trainium2$/, 'https://aws.amazon.com/ec2/instance-types/trn2/'],
@@ -403,6 +407,7 @@ function inferURL(modelName) {
     [/^Lambda Labs/, 'https://lambda.ai/'],
     [/^AWS AI Factories/, 'https://aws.amazon.com/ai-factories/'],
     [/^AWS GPU降价/, 'https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/'],
+    [/^Microsoft and OpenAI 投资1000亿美元建AI数据中心/, 'https://openai.com/index/scaling-ai-for-everyone'],
     [/^Microsoft-OpenAI Stargate/, 'https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/'],
   ];
 
