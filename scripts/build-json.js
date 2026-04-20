@@ -208,7 +208,7 @@ function inferURL(modelName) {
     [/^ABAB /, 'https://www.minimax.io/news/abab65-series'],
     [/^MiLM-/, 'https://github.com/XiaoMi/MiLM-6B'],
     [/^MiMo/, 'https://github.com/XiaomiMiMo'],
-    [/^Zhixiaobao/, 'https://baike.baidu.com/item/智小宝'],
+    [/^Zhixiaobao/, 'https://www.businesswire.com/news/home/20240904932587/en/Ant-Group-Launches-AI-Powered-Mobile-App-Zhixiaobao-at-2024-INCLUSIONConference-on-the-Bund'],
     [/^AReaL/, 'https://huggingface.co/inclusionAI'],
     [/^LLaDA/, 'https://github.com'],
     [/^CodeFuse/, 'https://github.com/codefuse-ai'],
