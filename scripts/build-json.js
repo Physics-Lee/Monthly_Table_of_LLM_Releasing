@@ -188,6 +188,7 @@ function inferURL(modelName) {
     [/^GLM-5\.1/, 'https://z.ai/blog/glm-5.1'],
     [/^GLM-5-Turbo/, 'https://www.aibase.com/zh/news/26283'],
     [/^Doubao-Seed-2\.0/, 'https://seed.bytedance.com/zh/seed2'],
+    [/^Seedance 2\.0/, 'https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0'],
     [/^Spark X2/, 'https://finance.sina.com.cn/tech/2026-02-11/doc-inhmmmmm7721462.shtml'],
     [/^MiniMax-2\.7-Highspeed/, 'https://www.minimaxi.com/models/text/m27'],
     [/^GLM-/, 'https://z.ai/'],
