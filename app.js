@@ -21,7 +21,7 @@ const VENDOR_NAMES = {
   'Meta': 'Meta',
   'Mistral': 'Mistral',
   'xAI': 'xAI',
-  'DeepSeek': 'DeepSeek',
+  'DeepSeek': '深度求索',
   'Qwen-Alibaba': '千问',
   'Cohere': 'Cohere',
   'Baidu': '百度',
@@ -33,8 +33,8 @@ const VENDOR_NAMES = {
   'Ant-Group': '蚂蚁',
   'StepFun': '阶跃星辰',
   'Xiaomi': '小米',
-  'Kuaishou-Kling': '快手',
-  'Boss-Nanbeige': '面壁',
+  'Kuaishou-Kling': '快手可灵',
+  'Boss-Nanbeige': '南北阁',
   'Open-Source': '开源项目'
 };
 
