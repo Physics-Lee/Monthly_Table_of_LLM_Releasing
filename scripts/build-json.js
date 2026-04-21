@@ -262,6 +262,7 @@ function inferURL(modelName) {
     [/^Grok 3$/, 'https://x.ai/news/grok-3'],
     [/^Grok-3 mini/, 'https://techcrunch.com/2025/02/17/elon-musks-xai-releases-its-latest-flagship-ai-grok-3/'],
     [/^Grok 4$/, 'https://x.ai/blog/grok-4'],
+    [/^Grok 4\.3/, 'https://x.ai/news'],
     [/^Grok-4/, 'https://x.ai/news/grok-4-1'],
     [/^Aya /, 'https://cohere.com/research/aya'],
     [/^Command R/, 'https://cohere.com/research/command-r'],

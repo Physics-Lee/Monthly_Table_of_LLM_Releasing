@@ -40,5 +40,4 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 26-Jan,andrej-karpathy-skills + oh-my-claudecode,,,,,,,,,,,,,,Kimi K2.5,,AReaL-SEA,,,Kling 3.0,,,,,,,,,,,,,,Microsoft Maia 200,
 26-Feb,oh-my-codex,GPT-5.3-Codex,Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams,Gemini 3.1 Pro,,,Grok 4.2 Beta,,Qwen3.5,,,GLM-5,Spark X2,MiniMax-M2.5 + MiniMax-M2.5-Highspeed,,Doubao-Seed-2.0 + Seedance 2.0,Ring-2.5-1T + Ling-2.5-1T + Ming-flash-omni-2.0 + LLaDA2.1,Step 3.5 Flash,,,Nanbeige4.1-3B,,,,,,,,,,,,Kilo CLI,,Microsoft and OpenAI 投资1000亿美元建AI数据中心
 26-Mar,,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,Grok 4.2 Multi-Agent,,,,,GLM-5-Turbo,,MiniMax-M2.7 + MiniMax-2.7-Highspeed,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,,,,,,,Phi-4,,Nemotron 3 Super,,,,,QClaw + WorkBuddy,NVIDIA Nemotron 3 Super,
-26-Apr,,GPT-5.4-Cyber + GPT-Rosalind,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,,,Qwen3.6-Max-Preview + Qwen3.6-Plus + Qwen3.6-35B-A3B,,,GLM-5.1,,,Kimi K2.6,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26-Apr,,GPT-5.4-Cyber + GPT-Rosalind,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,Grok 4.3 Beta,,Qwen3.6-Max-Preview + Qwen3.6-Plus + Qwen3.6-35B-A3B,,,GLM-5.1,,,Kimi K2.6,,,,,,,,,,,,,,,,,,,,
