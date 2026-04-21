@@ -107,7 +107,7 @@ node scripts/build-json.js
 Error: CSV 格式错误: 第 31 行字段数不匹配，请检查逗号数量或引号配对
 ```
 
-### 第四步：检查缺失链接（推荐）
+### 第四步：检查缺失链接（必须）
 
 ```bash
 node scripts/check-missing-links.js
@@ -128,9 +128,12 @@ Inferable URL: 1
 No URL found: 2
 ```
 
-如果发现有模型缺少链接，可以：
+**如果输出显示有模型缺少链接，必须修复：**
 1. 在 MD 中添加 `[模型名](URL)`
-2. 或者运行 `node scripts/update-md-links.js` 自动补全
+2. 重新运行 `node scripts/build-json.js`
+3. 再次运行 `node scripts/check-missing-links.js` 确认无遗漏
+
+**不允许提交有缺失链接的数据。**
 
 ---
 
@@ -203,11 +206,11 @@ node scripts/build-json.js
     ↓
 构建成功（看到 ✅ 完成！）
     ↓
-node scripts/check-missing-links.js（检查是否有模型缺链接）
+node scripts/check-missing-links.js（必须：检查是否有模型缺链接）
     ↓
-如果发现有缺链接：补充 MD 中的链接，重新构建
+如果发现有缺链接：补充 MD 中的链接，重新构建，再次检查
     ↓
-所有模型都有链接
+确认所有模型都有链接（check-missing-links.js 输出 0 missing）
     ↓
 git add .
 git commit -m "YYYY-MM-DD: 添加 XX 厂商 / 更新 XX 模型"

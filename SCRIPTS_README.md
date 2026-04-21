@@ -7,7 +7,7 @@
 
 ## 核心脚本（每次更新必用）
 
-### `build-json.js` — 数据构建脚本
+### `build-json.js` — 数据构建脚本（必须）
 
 **作用**：从 CSV + MD 生成所有输出文件
 
@@ -50,13 +50,13 @@ node scripts/build-json.js
 
 ## 辅助脚本（按需使用）
 
-### `check-missing-links.js` — 链接检查器
+### `check-missing-links.js` — 链接检查器（必须）
 
 **作用**：检查哪些模型没有超链接
 
 **使用场景**：
-- 构建完成后，发现某些模型没有可点击的链接
-- 批量检查链接完整性
+- 每次构建后**必须运行**，确保所有模型都有链接
+- 不允许提交有缺失链接的数据
 
 **用法**：
 ```bash
@@ -142,13 +142,19 @@ node scripts/fix-md-links.js
 ```
 编辑 llm_release_timeline_2022-11_to_2026-04.csv（必须，唯一数据源）
     ↓
-node scripts/build-json.js（唯一必跑脚本）
+编辑 llm_release_timeline_2022-11_to_2026-04.md（必须，为每个模型添加链接）
     ↓
-（可选）node scripts/check-missing-links.js 检查缺失链接
+node scripts/build-json.js（必须）
     ↓
-（如有缺失）编辑 build-json.js 的 inferURL()
+如果报错：修复 CSV/MD 格式错误
     ↓
-（如有修改）重新运行 node scripts/build-json.js
+构建成功（看到 ✅ 完成！）
+    ↓
+node scripts/check-missing-links.js（必须）
+    ↓
+如果发现有缺链接：补充 MD 中的链接，重新构建，再次检查
+    ↓
+确认所有模型都有链接（check-missing-links.js 输出 0 missing）
     ↓
 git add -A
 git commit -m "feat/fix: 描述"
@@ -163,7 +169,7 @@ GitHub Actions 自动部署 → GitHub Pages（2-5分钟）
 
 **Q: 我只改了一个链接，需要跑哪个脚本？**
 
-A: 直接修改 `build-json.js` 的 `inferURL()`，然后运行 `node scripts/build-json.js`。
+A: 直接修改 MD 文件中的链接，然后运行 `node scripts/build-json.js` 和 `node scripts/check-missing-links.js`。
 
 **Q: 构建报错了怎么办？**
 
@@ -172,6 +178,14 @@ A: 查看报错信息中的行号，检查 CSV 对应行的逗号数量是否与
 **Q: 为什么只改 MD 不行？**
 
 A: `build-json.js` 的数据结构完全来自 CSV。MD 只被用于提取链接。如果只改 MD 不改 CSV，模型的名称、位置都不会更新。
+
+**Q: 为什么 MD 是必须的？**
+
+A: `build-json.js` 的 `inferURL()` 只有约 100 条硬编码规则，只能覆盖常见模型。新厂商、新型号、中文模型名很可能匹配不上。如果要求每个 LLM 都有链接，必须在 MD 中手动指定 `[模型名](URL)`。
+
+**Q: 可以跳过 check-missing-links.js 吗？**
+
+A: **不可以。** 指南要求所有模型都必须有链接。跳过此步骤可能导致提交的表格中有模型无法点击。
 
 ---
 
