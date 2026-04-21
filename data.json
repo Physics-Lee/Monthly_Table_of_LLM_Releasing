@@ -397,8 +397,8 @@
       "MiniMax": "",
       "Kimi-Moonshot": "",
       "Doubao-ByteDance": "Doubao",
-      "Ant-Group": "",
-      "StepFun": "Bailing",
+      "Ant-Group": "Bailing",
+      "StepFun": "",
       "Xiaomi": "MiLM-6B",
       "Kuaishou-Kling": "",
       "Boss-Nanbeige": "",
@@ -414,8 +414,8 @@
       "SenseTime": "",
       "AI21": "",
       "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": "SK Hynix HBM3E"
+      "AI-Chips": "SK Hynix HBM3E",
+      "AI-Cloud": ""
     },
     {
       "Month": "23-Sep",

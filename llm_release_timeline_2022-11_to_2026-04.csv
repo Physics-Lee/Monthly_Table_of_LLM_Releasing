@@ -8,7 +8,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 23-May,,,,PaLM 2,,,,,,,,,Spark 1.0,,,,,,,,,,,,,,,,,,,,LM Studio,,
 23-Jun,Ollama + LLaMA-Factory,,,,,,,,,,,ChatGLM2,Spark 1.5,,,,,,,,,,,,Baichuan-7B + Baichuan-13B,Phi-1,,,,,,,AnythingLLM,,
 23-Jul,,,Claude 2,,Llama 2,,,,,,ERNIE 3.5,,,,,,,,,,,PanGu 3.0,,,,,,,,,,,,,
-23-Aug,Jan,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,Bailing,,MiLM-6B,,,,,,,,,,,,,,,,SK Hynix HBM3E
+23-Aug,Jan,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,Bailing,,MiLM-6B,,,,,,,,,,,,,,,SK Hynix HBM3E,
 23-Sep,,GPT-4V,,,,Mistral 7B,,,Qwen-14B,,,,,,,,,,,,,,Hunyuan,,Baichuan 2,Phi-1.5,,,,,,,,,
 23-Oct,CrewAI + DSPy,,,,,,,,,,ERNIE 4.0,ChatGLM3,,,Kimi Chat,,CodeFuse,,,,,,,,,,,,,,,,Raycast AI,,
 23-Nov,,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,,,,Hunyuan Standard,Yi-6B + Yi-34B,,,MLX,,,Titan Text Express + Titan Text Lite,,,,AWS Trainium2,
