@@ -16,7 +16,7 @@ MD（链接来源）  → links.json 的 URL 映射
 ```
 
 - [ ] 我正在编辑的是 `.csv` 文件（**唯一数据源**）
-- [ ] 如果模型需要自定义链接，同时编辑 `.md` 文件
+- [ ] 我正在编辑的是 `.md` 文件（**为每个模型添加链接**）
 - [ ] 我知道运行 `node scripts/build-json.js` 会验证格式
 - [ ] 如果构建报错"字段数不匹配"，我必须修复格式错误
 - [ ] 构建成功后才会生成 `data.json` + `links.json` + `README.md`
@@ -50,15 +50,13 @@ Month,Open-Source,OpenAI,Anthropic,...,新厂商
 25-Apr,,GPT-4.1 + GPT-4.1 mini,Gemini 2.5 Flash,,,...,
 ```
 
-### 第二步：编辑 MD（可选，仅用于链接）
+### 第二步：编辑 MD（必须，添加链接）
 
 ```
 llm_release_timeline_2022-11_to_2026-04.md
 ```
 
-**什么时候需要编辑 MD：**
-- 新增模型需要自定义链接（而非自动推断的链接）
-- 修正现有模型的链接
+**每个模型都必须有链接。** MD 是链接的唯一来源。
 
 **格式：**
 ```markdown
@@ -67,10 +65,15 @@ llm_release_timeline_2022-11_to_2026-04.md
 | 25-Apr | OpenCode | [GPT-4.1](https://openai.com/gpt-4-1) | ... |
 ```
 
+**规则：**
+- 每个模型名用 `[模型名](URL)` 格式
+- 多个模型用 ` + ` 分隔：`[模型A](URL) + [模型B](URL)`
+- 如果 MD 中没有链接，`build-json.js` 会尝试自动推断，但**覆盖不全**
+- 如果 MD 和 CSV 的数据冲突，**以 CSV 为准**（但链接以 MD 为准）
+
 **注意：**
 - MD 表格的数据不会被用于生成 `data.json`
 - MD 只被提取 `[模型名](URL)` 格式的链接
-- 如果 MD 和 CSV 的数据冲突，**以 CSV 为准**
 
 ### 第三步：构建和验证
 
@@ -181,6 +184,10 @@ A:
 
 A: 可以直接编辑 MD 文件修改 URL，然后运行构建脚本。但注意：如果该模型在 CSV 中不存在，链接不会生效。
 
+**Q: 为什么 MD 是必须的？**
+
+A: `build-json.js` 的 `inferURL()` 只有约 100 条硬编码规则，只能覆盖常见模型。新厂商、新型号、中文模型名很可能匹配不上。如果要求每个 LLM 都有链接，必须在 MD 中手动指定 `[模型名](URL)`。
+
 ---
 
 ## 完整更新流程
@@ -188,7 +195,7 @@ A: 可以直接编辑 MD 文件修改 URL，然后运行构建脚本。但注意
 ```
 编辑 llm_release_timeline_2022-11_to_2026-04.csv（必须，唯一数据源）
     ↓
-（如需自定义链接）编辑 llm_release_timeline_2022-11_to_2026-04.md
+编辑 llm_release_timeline_2022-11_to_2026-04.md（必须，为每个模型添加链接）
     ↓
 node scripts/build-json.js
     ↓
@@ -196,7 +203,11 @@ node scripts/build-json.js
     ↓
 构建成功（看到 ✅ 完成！）
     ↓
-（推荐）node scripts/check-missing-links.js 检查缺失链接
+node scripts/check-missing-links.js（检查是否有模型缺链接）
+    ↓
+如果发现有缺链接：补充 MD 中的链接，重新构建
+    ↓
+所有模型都有链接
     ↓
 git add .
 git commit -m "YYYY-MM-DD: 添加 XX 厂商 / 更新 XX 模型"
