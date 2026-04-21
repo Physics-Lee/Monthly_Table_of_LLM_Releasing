@@ -1,192 +1,244 @@
-# Scripts 目录说明
+# scripts/ 目录说明
 
-> 本文档说明 `scripts/` 目录下各脚本的功能和使用场景
+> 说明各脚本的用途、推荐顺序和适用场景  
 > 最后更新：2026-04-21
 
 ---
 
-## 核心脚本（每次更新必用）
+## 推荐顺序
 
-### `build-json.js` — 数据构建脚本（必须）
+### 日常单条更新
 
-**作用**：从 CSV + MD 生成所有输出文件
+默认用下面两步：
 
-**数据流**：
-```
-CSV（主数据源） ──→ data.json（网页用的结构化数据）
-MD（链接来源）  ──→ links.json（模型名→URL 映射）
-                  └──→ README.md（带链接的表格）
+```bash
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
+node scripts/check-missing-links.js
 ```
 
-**用法**：
+这是当前仓库**正式推荐**的 agent 工作流。
+
+### 手工改源表后的重建
+
+只有在你直接编辑 CSV 或 MD 时，才用：
+
 ```bash
 node scripts/build-json.js
+node scripts/check-missing-links.js
 ```
-
-**成功输出**：
-```
-📦 LLM Timeline 数据构建
-  CSV:  llm_release_timeline_2022-11_to_2026-04.csv
-  MD:   llm_release_timeline_2022-11_to_2026-04.md
-  OUT:  ./
-
-✓ CSV 解析完成: 43 行, 36 列
-✓ MD 解析完成: 43 表格行, 331 个链接
-✓ 已写入: data.json
-✓ 已写入: links.json
-✓ 已写入: README.md
-
-✅ 完成！
-   data.json:  43 行 × 35 列
-   links.json: 420 条映射
-   README.md:  已生成
-```
-
-**失败处理**：
-- 如果报错 "字段数不匹配"，检查 CSV 对应行的逗号数量
-- 修复后重新运行
 
 ---
 
-## 辅助脚本（按需使用）
+## 核心脚本
 
-### `check-missing-links.js` — 链接检查器（必须）
+### `upsert-entry.js`
 
-**作用**：检查哪些模型没有超链接
+作用：
 
-**使用场景**：
-- 每次构建后**必须运行**，确保所有模型都有链接
-- 不允许提交有缺失链接的数据
+- 安全地更新一条发布记录
+- 自动同步 CSV 和 MD
+- 自动生成 `data.json`
+- 自动生成 `links.json`
+- 自动生成 `README.md`
 
-**用法**：
+适用场景：
+
+- 新模型刚发布
+- 补历史漏项
+- 修正某个模型的链接
+- 新增一个尚不存在的月份行
+
+用法：
+
+```bash
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
+```
+
+可选参数：
+
+```bash
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x" --csv llm_release_timeline_2022-11_to_2026-04.csv --md llm_release_timeline_2022-11_to_2026-04.md --out .
+```
+
+行为说明：
+
+- 月份已存在时，只更新对应厂商单元格
+- 月份不存在时，按时间顺序插入新行
+- 模型已存在时，不重复追加
+- URL 会写入链接映射来源
+- 执行后会重建全部产物
+
+### `check-missing-links.js`
+
+作用：
+
+- 检查源 MD 表里是否还有纯文本模型没有超链接
+
+适用场景：
+
+- 每次运行 `upsert-entry.js` 或 `build-json.js` 之后
+
+用法：
+
 ```bash
 node scripts/check-missing-links.js
 ```
 
-**输出示例**：
-```
-Found 5 models without hyperlinks:
+如果发现缺链：
 
-25-Apr:
-  [OpenAI] GPT-5 - 🔍 inferable
-      -> https://openai.com/blog/gpt-5
-  [Google] Gemini 3 - ❌ no URL
+1. 用 `upsert-entry.js` 重新补一条完整记录，或
+2. 手工修 MD 后重新运行 `build-json.js` 和本检查脚本
 
-Summary: 5 plain-text models found
-With URL in links.json: 2
-Inferable URL: 1
-No URL found: 2
-```
+### `build-json.js`
 
-**发现缺失后**：
-1. 在 `build-json.js` 的 `inferURL()` 函数中添加规则
-2. 重新运行 `node scripts/build-json.js`
+作用：
 
----
+- 从 CSV 和 MD 重建 `data.json`
+- 重建 `links.json`
+- 重建 `README.md`
 
-### `update-md-links.js` — 链接自动补全器
+适用场景：
 
-**作用**：根据 `links.json` 自动给 MD 中的纯文本模型名加上链接
+- 手工改了 CSV
+- 手工改了 MD
+- 做批量修复后需要整体重建
 
-**使用场景**：
-- MD 中有大量模型名没有链接格式
-- 批量将 `Model Name` 转换为 `[Model Name](URL)`
+用法：
 
-**用法**：
 ```bash
-node scripts/update-md-links.js
+node scripts/build-json.js
 ```
 
-**注意**：
-- 只修改 MD 文件
-- 不会改变 CSV 中的数据
-- 保留已有的链接不变
+数据流：
+
+```text
+CSV -> data.json
+MD  -> links.json
+data.json + links.json -> README.md
+```
+
+注意：
+
+- 现在生成的 `data.json` 已是数组格式
+- 网页端兼容字符串和数组两种单元格格式
+- 但真实源数据仍然是 CSV + MD
 
 ---
 
-### `fix-md-links.js` — 批量链接替换器
+## 辅助脚本
 
-**作用**：一次性替换 MD 中的错误链接
+### `model-utils.js`
 
-**使用场景**：
-- 某厂商的链接批量错误（如都指向了首页）
-- 需要一次性替换多个模型的 URL
+作用：
 
-**用法**：
+- 提供模型单元格归一化逻辑
+- 同时服务于前端和构建脚本
+
+核心能力：
+
+- `normalizeModels(value)`
+- `joinModels(value)`
+- `flattenRowText(row, vendors)`
+
+### `migrate-data-json-to-arrays.js`
+
+作用：
+
+- 把旧字符串版 `data.json` 迁移成数组版
+
+适用场景：
+
+- 一次性数据迁移
+- 不属于日常更新流程
+
+用法：
+
 ```bash
-node scripts/fix-md-links.js
+node scripts/migrate-data-json-to-arrays.js data.json
 ```
 
-**工作原理**：
-- 内置 80+ 条替换规则
-- 直接字符串替换
-- 只改 MD，不改 CSV
+### `model-utils.test.js`
 
----
+作用：
 
-### `fix_errors.py` — 批量错误修复（一次性）
+- 验证模型归一化逻辑
+- 验证 `build-json.js` 会输出数组版 `data.json`
 
-**作用**：批量修正 CSV 中的列位置错误和日期错误
+用法：
 
-**状态**：已执行完毕，保留作参考
-
-**修复过的错误**：
-- 模型放错列（如 Grok 在 DeepSeek 列）
-- 日期错误（如 AWS Bedrock GA 日期）
-- 重复条目
-
----
-
-## 标准更新流程
-
+```bash
+node scripts/model-utils.test.js
 ```
-编辑 llm_release_timeline_2022-11_to_2026-04.csv（必须，唯一数据源）
-    ↓
-编辑 llm_release_timeline_2022-11_to_2026-04.md（必须，为每个模型添加链接）
-    ↓
-node scripts/build-json.js（必须）
-    ↓
-如果报错：修复 CSV/MD 格式错误
-    ↓
-构建成功（看到 ✅ 完成！）
-    ↓
-node scripts/check-missing-links.js（必须）
-    ↓
-如果发现有缺链接：补充 MD 中的链接，重新构建，再次检查
-    ↓
-确认所有模型都有链接（check-missing-links.js 输出 0 missing）
-    ↓
-git add -A
-git commit -m "feat/fix: 描述"
-git push
-    ↓
-GitHub Actions 自动部署 → GitHub Pages（2-5分钟）
+
+### `upsert-entry.test.js`
+
+作用：
+
+- 验证 `upsert-entry.js` 的两类核心行为
+
+覆盖内容：
+
+- 已有月份追加模型
+- 缺失月份按顺序插入
+
+用法：
+
+```bash
+node scripts/upsert-entry.test.js
 ```
 
 ---
 
-## 常见问题
+## 旧脚本说明
 
-**Q: 我只改了一个链接，需要跑哪个脚本？**
+如果你以后重新引入或补回以下脚本，它们属于“按需工具”，不是当前推荐主流程：
 
-A: 直接修改 MD 文件中的链接，然后运行 `node scripts/build-json.js` 和 `node scripts/check-missing-links.js`。
+- `update-md-links.js`
+- `fix-md-links.js`
+- `fix_errors.py`
 
-**Q: 构建报错了怎么办？**
+原则：
 
-A: 查看报错信息中的行号，检查 CSV 对应行的逗号数量是否与表头一致（36列）。
-
-**Q: 为什么只改 MD 不行？**
-
-A: `build-json.js` 的数据结构完全来自 CSV。MD 只被用于提取链接。如果只改 MD 不改 CSV，模型的名称、位置都不会更新。
-
-**Q: 为什么 MD 是必须的？**
-
-A: `build-json.js` 的 `inferURL()` 只有约 100 条硬编码规则，只能覆盖常见模型。新厂商、新型号、中文模型名很可能匹配不上。如果要求每个 LLM 都有链接，必须在 MD 中手动指定 `[模型名](URL)`。
-
-**Q: 可以跳过 check-missing-links.js 吗？**
-
-A: **不可以。** 指南要求所有模型都必须有链接。跳过此步骤可能导致提交的表格中有模型无法点击。
+- 单条更新优先用 `upsert-entry.js`
+- 只有批量修复或结构性清理时，才考虑额外脚本
 
 ---
 
-*详见 `AGENT_UPDATE_GUIDE.md` 获取更详细的更新指南。*
+## 典型工作流
+
+### 工作流 1：新增一条新发布记录
+
+```bash
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
+node scripts/check-missing-links.js
+```
+
+### 工作流 2：补历史漏项
+
+```bash
+node scripts/upsert-entry.js --month 24-Sep --vendor Qwen-Alibaba --model "Qwen2.5-Coder" --url "https://huggingface.co/Qwen"
+node scripts/check-missing-links.js
+```
+
+### 工作流 3：手工修完源表后整体重建
+
+```bash
+node scripts/build-json.js
+node scripts/check-missing-links.js
+```
+
+---
+
+## 不推荐的做法
+
+- 让 agent 直接手改整张 CSV
+- 让 agent 直接手改整张 MD
+- 只改 `data.json`
+- 更新后不跑缺链检查
+- 一次 prompt 让 agent 批量整理多个历史月份
+
+---
+
+## 一句话版本
+
+**日常更新用 `upsert-entry.js`，整体重建用 `build-json.js`，每次都跑 `check-missing-links.js`。**

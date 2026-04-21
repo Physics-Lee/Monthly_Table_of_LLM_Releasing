@@ -417,5 +417,6 @@
   "Qwen3.6-Plus": "https://qwen.ai/blog?id=qwen3.6",
   "Qwen3.6-35B-A3B": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
   "GLM-5.1": "https://z.ai/blog/glm-5.1",
-  "Kimi K2.6": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
+  "Kimi K2.6": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en",
+  "Codex CLI": "https://github.com/openai/codex"
 }

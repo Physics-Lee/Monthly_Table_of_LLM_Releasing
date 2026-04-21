@@ -1,21 +1,13 @@
-// 全局状态
+// Global state
 let allData = { vendors: [], rows: [] };
 let links = {};
 let activeVendors = new Set();
 let activeYear = 'all';
 let searchQuery = '';
-let sortOrder = 'desc'; // 'desc' = 倒序 (新→旧), 'asc' = 正序 (旧→新)
+let sortOrder = 'desc';
 
-// 初始化
-document.addEventListener('DOMContentLoaded', async () => {
-  await Promise.all([loadData(), loadLinks()]);
-  updateVendorList();
-  initFilters();
-  render();
-  loadChangelog(); // 加载更新日志
-});
+const { flattenRowText, normalizeModels } = window.ModelUtils;
 
-// 厂商名称映射：英文 -> 中文
 const VENDOR_NAMES = {
   'OpenAI': 'OpenAI',
   'Anthropic': 'Anthropic',
@@ -23,64 +15,68 @@ const VENDOR_NAMES = {
   'Meta': 'Meta',
   'Mistral': 'Mistral',
   'xAI': 'xAI',
-  'DeepSeek': '深度求索',
-  'Qwen-Alibaba': '千问',
+  'DeepSeek': 'DeepSeek',
+  'Qwen-Alibaba': 'Qwen',
   'Cohere': 'Cohere',
-  'Baidu': '百度',
-  'GLM-Z.ai': '智谱',
-  'iFlytek': '讯飞',
+  'Baidu': 'Baidu',
+  'GLM-Z.ai': 'GLM-Z.ai',
+  'iFlytek': 'iFlytek',
   'MiniMax': 'MiniMax',
   'Kimi-Moonshot': 'Kimi',
-  'Doubao-ByteDance': '字节',
-  'Ant-Group': '蚂蚁',
-  'StepFun': '阶跃星辰',
-  'Xiaomi': '小米',
-  'Kuaishou-Kling': '快手可灵',
-  'Boss-Nanbeige': '南北阁',
-  'Huawei': '华为',
-  'Tencent': '腾讯',
-  '01.AI': '零一万物',
-  'Baichuan-Intelligence': '百川',
-  'Microsoft': '微软',
-  'Apple': '苹果',
-  'NVIDIA': '英伟达',
+  'Doubao-ByteDance': 'Doubao',
+  'Ant-Group': 'Ant Group',
+  'StepFun': 'StepFun',
+  'Xiaomi': 'Xiaomi',
+  'Kuaishou-Kling': 'Kuaishou Kling',
+  'Boss-Nanbeige': 'Boss Nanbeige',
+  'Huawei': 'Huawei',
+  'Tencent': 'Tencent',
+  '01.AI': '01.AI',
+  'Baichuan-Intelligence': 'Baichuan',
+  'Microsoft': 'Microsoft',
+  'Apple': 'Apple',
+  'NVIDIA': 'NVIDIA',
   'Stability': 'Stability',
-  'Amazon': '亚马逊',
-  'SenseTime': '商汤',
+  'Amazon': 'Amazon',
+  'SenseTime': 'SenseTime',
   'AI21': 'AI21',
-  'Open-Source': '开源项目',
-  'LLM-Applications': 'LLM应用',
-  'AI-Chips': 'AI芯片',
-  'AI-Cloud': 'AI云计算'
+  'Open-Source': 'Open Source',
+  'LLM-Applications': 'LLM Applications',
+  'AI-Chips': 'AI Chips',
+  'AI-Cloud': 'AI Cloud'
 };
 
-// 更新厂商列表描述
+document.addEventListener('DOMContentLoaded', async () => {
+  await Promise.all([loadData(), loadLinks()]);
+  updateVendorList();
+  initFilters();
+  render();
+  loadChangelog();
+});
+
 function updateVendorList() {
   const el = document.getElementById('vendorList');
-  if (el && allData.vendors.length > 0) {
-    const names = allData.vendors.map(v => VENDOR_NAMES[v] || v);
-    el.textContent = names.join('、');
-  }
+  if (!el || allData.vendors.length === 0) return;
+
+  const names = allData.vendors.map(vendor => VENDOR_NAMES[vendor] || vendor);
+  el.textContent = names.join('、');
 }
 
-// 加载数据
 async function loadData() {
   const res = await fetch('data.json');
   allData = await res.json();
   activeVendors = new Set(allData.vendors);
 }
 
-// 加载链接映射
 async function loadLinks() {
   try {
     const res = await fetch('links.json');
     links = await res.json();
-  } catch (e) {
+  } catch (error) {
     links = {};
   }
 }
 
-// 加载更新日志
 async function loadChangelog() {
   const container = document.getElementById('changelogList');
   if (!container) return;
@@ -92,8 +88,9 @@ async function loadChangelog() {
     container.innerHTML = commits.map(commit => {
       const date = new Date(commit.commit.committer.date);
       const dateStr = date.toLocaleDateString('zh-CN');
-      const message = commit.commit.message.split('\n')[0]; // 只取第一行
+      const message = commit.commit.message.split('\n')[0];
       const shortHash = commit.sha.substring(0, 7);
+
       return `
         <div class="changelog-item">
           <span class="changelog-date">${dateStr}</span>
@@ -102,34 +99,36 @@ async function loadChangelog() {
         </div>
       `;
     }).join('');
-  } catch (e) {
+  } catch (error) {
     container.innerHTML = '<span class="changelog-error">加载失败</span>';
   }
 }
 
-// 初始化筛选器
 function initFilters() {
   const container = document.getElementById('vendorFilters');
+
   allData.vendors.forEach(vendor => {
     const label = document.createElement('label');
     label.innerHTML = `
       <input type="checkbox" value="${vendor}" checked>
       <span>${vendor}</span>
     `;
+
     label.querySelector('input').addEventListener('change', () => {
       updateActiveVendors();
       render();
     });
+
     container.appendChild(label);
   });
 
-  document.getElementById('yearFilter').addEventListener('change', (e) => {
-    activeYear = e.target.value;
+  document.getElementById('yearFilter').addEventListener('change', event => {
+    activeYear = event.target.value;
     render();
   });
 
-  document.getElementById('searchInput').addEventListener('input', (e) => {
-    searchQuery = e.target.value.toLowerCase().trim();
+  document.getElementById('searchInput').addEventListener('input', event => {
+    searchQuery = event.target.value.toLowerCase().trim();
     render();
   });
 
@@ -138,12 +137,18 @@ function initFilters() {
     searchQuery = '';
     sortOrder = 'desc';
     activeVendors = new Set(allData.vendors);
+
     document.getElementById('yearFilter').value = 'all';
     document.getElementById('searchInput').value = '';
+
     const sortBtn = document.getElementById('sortBtn');
     sortBtn.dataset.order = 'desc';
     sortBtn.textContent = '时间倒序';
-    container.querySelectorAll('input').forEach(cb => cb.checked = true);
+
+    container.querySelectorAll('input').forEach(checkbox => {
+      checkbox.checked = true;
+    });
+
     render();
   });
 
@@ -158,59 +163,53 @@ function initFilters() {
 
 function updateActiveVendors() {
   activeVendors.clear();
-  document.querySelectorAll('#vendorFilters input:checked').forEach(cb => {
-    activeVendors.add(cb.value);
+  document.querySelectorAll('#vendorFilters input:checked').forEach(checkbox => {
+    activeVendors.add(checkbox.value);
   });
 }
 
-// 渲染表格
 function render() {
   const thead = document.querySelector('#timelineTable thead');
   const tbody = document.querySelector('#timelineTable tbody');
 
-  // 过滤行
   let filteredRows = allData.rows.filter(row => {
     if (activeYear !== 'all') {
-      const year = '20' + row.Month.split('-')[0];
+      const year = `20${row.Month.split('-')[0]}`;
       if (year !== activeYear) return false;
     }
+
     if (searchQuery) {
-      const rowText = allData.vendors.map(v => row[v] || '').join(' ').toLowerCase();
+      const rowText = flattenRowText(row, allData.vendors).toLowerCase();
       if (!rowText.includes(searchQuery)) return false;
     }
+
     return true;
   });
 
-  // 排序
   if (sortOrder === 'desc') {
-    filteredRows.reverse();
+    filteredRows = [...filteredRows].reverse();
   }
 
-  // 过滤列：只保留 Month + 选中的厂商
-  const visibleVendors = ['Month', ...allData.vendors.filter(v => activeVendors.has(v))];
+  const visibleVendors = ['Month', ...allData.vendors.filter(vendor => activeVendors.has(vendor))];
 
-  // 渲染表头
-  thead.innerHTML = '<tr>' + visibleVendors.map(v => `<th>${v}</th>`).join('') + '</tr>';
+  thead.innerHTML = `<tr>${visibleVendors.map(vendor => `<th>${vendor}</th>`).join('')}</tr>`;
 
-  // 渲染表体
   tbody.innerHTML = filteredRows.map(row => {
-    return '<tr>' + visibleVendors.map(vendor => {
-      const cell = row[vendor] || '';
+    return `<tr>${visibleVendors.map(vendor => {
+      const cell = row[vendor];
       if (vendor === 'Month') {
-        return `<td>${cell}</td>`;
+        return `<td>${cell || ''}</td>`;
       }
+
       return `<td>${formatCell(cell)}</td>`;
-    }).join('') + '</tr>';
+    }).join('')}</tr>`;
   }).join('');
 
-  // 更新统计
   document.getElementById('stats').textContent = `显示 ${filteredRows.length} / ${allData.rows.length} 个月`;
 }
 
-function formatCell(text) {
-  if (!text) return '';
-  // 按 " + " 拆分多个模型
-  const models = text.split(' + ').map(s => s.trim()).filter(Boolean);
+function formatCell(value) {
+  const models = normalizeModels(value);
   if (models.length === 0) return '';
 
   return models.map(model => {
@@ -218,20 +217,17 @@ function formatCell(text) {
     if (url) {
       return `<a href="${url}" target="_blank" class="model-link">${model}</a>`;
     }
+
     return `<span class="model-item-text">${model}</span>`;
   }).map(html => `<span class="model-item">${html}</span>`).join('');
 }
 
-// 查找模型对应的 URL
 function findUrl(model) {
-  // 直接匹配
   if (links[model]) return links[model];
 
-  // 去掉反引号再匹配
   const clean = model.replace(/`/g, '').trim();
   if (links[clean]) return links[clean];
 
-  // 尝试部分匹配（处理 Markdown 中链接文本和 CSV 中模型名略有差异的情况）
   for (const [key, url] of Object.entries(links)) {
     if (key.toLowerCase() === model.toLowerCase()) return url;
     if (key.toLowerCase() === clean.toLowerCase()) return url;

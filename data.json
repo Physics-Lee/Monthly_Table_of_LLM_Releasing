@@ -39,1599 +39,2340 @@
   "rows": [
     {
       "Month": "22-Nov",
-      "Open-Source": "LangChain",
-      "OpenAI": "ChatGPT GPT-3.5",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "LangChain"
+      ],
+      "OpenAI": [
+        "ChatGPT GPT-3.5"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "22-Dec",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Perplexity",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Perplexity"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jan",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Feb",
-      "Open-Source": "vLLM",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "Bard",
-      "Meta": "Llama 1",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Notion AI + Poe + Sourcegraph Cody",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "vLLM"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [
+        "Bard"
+      ],
+      "Meta": [
+        "Llama 1"
+      ],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Notion AI",
+        "Poe",
+        "Sourcegraph Cody"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Mar",
-      "Open-Source": "AutoGPT + llama.cpp",
-      "OpenAI": "GPT-4",
-      "Anthropic": "Claude 1",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "ERNIE Bot",
-      "GLM-Z.ai": "ChatGLM",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Cursor + Sider + Monica + Gamma + GPT4All",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "AutoGPT",
+        "llama.cpp"
+      ],
+      "OpenAI": [
+        "GPT-4"
+      ],
+      "Anthropic": [
+        "Claude 1"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE Bot"
+      ],
+      "GLM-Z.ai": [
+        "ChatGLM"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Cursor",
+        "Sider",
+        "Monica",
+        "Gamma",
+        "GPT4All"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Apr",
-      "Open-Source": "Axolotl",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Grammarly",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "Axolotl"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Grammarly"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-May",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "PaLM 2",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "Spark 1.0",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "LM Studio",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [
+        "PaLM 2"
+      ],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [
+        "Spark 1.0"
+      ],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "LM Studio"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jun",
-      "Open-Source": "Ollama + LLaMA-Factory",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "ChatGLM2",
-      "iFlytek": "Spark 1.5",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "Baichuan-7B + Baichuan-13B",
-      "Microsoft": "Phi-1",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "AnythingLLM",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "Ollama",
+        "LLaMA-Factory"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "ChatGLM2"
+      ],
+      "iFlytek": [
+        "Spark 1.5"
+      ],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [
+        "Baichuan-7B",
+        "Baichuan-13B"
+      ],
+      "Microsoft": [
+        "Phi-1"
+      ],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "AnythingLLM"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jul",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "Claude 2",
-      "Google": "",
-      "Meta": "Llama 2",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "ERNIE 3.5",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "PanGu 3.0",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude 2"
+      ],
+      "Google": [],
+      "Meta": [
+        "Llama 2"
+      ],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE 3.5"
+      ],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [
+        "PanGu 3.0"
+      ],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Aug",
-      "Open-Source": "Jan",
-      "OpenAI": "",
-      "Anthropic": "Claude Instant 1.2",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen-7B + Qwen-VL + Qwen-VL-Chat",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "Spark 2.0",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "Doubao",
-      "Ant-Group": "Bailing",
-      "StepFun": "",
-      "Xiaomi": "MiLM-6B",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "SK Hynix HBM3E",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "Jan"
+      ],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude Instant 1.2"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen-7B",
+        "Qwen-VL",
+        "Qwen-VL-Chat"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [
+        "Spark 2.0"
+      ],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [
+        "Doubao"
+      ],
+      "Ant-Group": [
+        "Bailing"
+      ],
+      "StepFun": [],
+      "Xiaomi": [
+        "MiLM-6B"
+      ],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "SK Hynix HBM3E"
+      ],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Sep",
-      "Open-Source": "",
-      "OpenAI": "GPT-4V",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "Mistral 7B",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen-14B",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "Hunyuan",
-      "01.AI": "",
-      "Baichuan-Intelligence": "Baichuan 2",
-      "Microsoft": "Phi-1.5",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-4V"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [
+        "Mistral 7B"
+      ],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen-14B"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "Hunyuan"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [
+        "Baichuan 2"
+      ],
+      "Microsoft": [
+        "Phi-1.5"
+      ],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Oct",
-      "Open-Source": "CrewAI + DSPy",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "ERNIE 4.0",
-      "GLM-Z.ai": "ChatGLM3",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi Chat",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "CodeFuse",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Raycast AI",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "CrewAI",
+        "DSPy"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE 4.0"
+      ],
+      "GLM-Z.ai": [
+        "ChatGLM3"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi Chat"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "CodeFuse"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Raycast AI"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Nov",
-      "Open-Source": "",
-      "OpenAI": "GPT-4 Turbo",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "Grok-1",
-      "DeepSeek": "DeepSeek-LLM + DeepSeek-Coder",
-      "Qwen-Alibaba": "Qwen-72B + Qwen-Audio",
-      "Cohere": "Embed v3 + Rerank v3",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "abab5",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "Hunyuan Standard",
-      "01.AI": "Yi-6B + Yi-34B",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "MLX",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "Titan Text Express + Titan Text Lite",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "AWS Trainium2",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-4 Turbo"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [
+        "Grok-1"
+      ],
+      "DeepSeek": [
+        "DeepSeek-LLM",
+        "DeepSeek-Coder"
+      ],
+      "Qwen-Alibaba": [
+        "Qwen-72B",
+        "Qwen-Audio"
+      ],
+      "Cohere": [
+        "Embed v3",
+        "Rerank v3"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        "abab5"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "Hunyuan Standard"
+      ],
+      "01.AI": [
+        "Yi-6B",
+        "Yi-34B"
+      ],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [
+        "MLX"
+      ],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [
+        "Titan Text Express",
+        "Titan Text Lite"
+      ],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "AWS Trainium2"
+      ],
+      "AI-Cloud": []
     },
     {
       "Month": "23-Dec",
-      "Open-Source": "RAGFlow",
-      "OpenAI": "",
-      "Anthropic": "Claude 2.1",
-      "Google": "Gemini 1.0 Ultra + Pro + Nano",
-      "Meta": "",
-      "Mistral": "Mixtral 8x7B + Mistral Medium",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "abab5.5",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "Bailing 2.0",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "Phi-2",
-      "Apple": "Ferret",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "AMD MI300X + Google TPU v5p",
-      "AI-Cloud": "Google AI Hypercomputer"
+      "Open-Source": [
+        "RAGFlow"
+      ],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude 2.1"
+      ],
+      "Google": [
+        "Gemini 1.0 Ultra",
+        "Pro",
+        "Nano"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Mixtral 8x7B",
+        "Mistral Medium"
+      ],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        "abab5.5"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "Bailing 2.0"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [
+        "Phi-2"
+      ],
+      "Apple": [
+        "Ferret"
+      ],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "AMD MI300X",
+        "Google TPU v5p"
+      ],
+      "AI-Cloud": [
+        "Google AI Hypercomputer"
+      ]
     },
     {
       "Month": "24-Jan",
-      "Open-Source": "AutoGen + LangGraph + SGLang",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-MoE",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "GLM-4",
-      "iFlytek": "Spark 3.0",
-      "MiniMax": "",
-      "Kimi-Moonshot": "moonshot-v1",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "Yi-VL",
-      "Baichuan-Intelligence": "Baichuan 3",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "AutoGen",
+        "LangGraph",
+        "SGLang"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-MoE"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "GLM-4"
+      ],
+      "iFlytek": [
+        "Spark 3.0"
+      ],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "moonshot-v1"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [
+        "Yi-VL"
+      ],
+      "Baichuan-Intelligence": [
+        "Baichuan 3"
+      ],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Feb",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "Gemma + Gemini 1.5 Pro",
-      "Meta": "",
-      "Mistral": "Mistral Large + Mistral Small",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-Math",
-      "Qwen-Alibaba": "Qwen1.5",
-      "Cohere": "Aya",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "Nemotron-4 15B",
-      "Stability": "Stable Diffusion 3",
-      "Amazon": "",
-      "SenseTime": "SenseNova 4.0",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [
+        "Gemma",
+        "Gemini 1.5 Pro"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Large",
+        "Mistral Small"
+      ],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-Math"
+      ],
+      "Qwen-Alibaba": [
+        "Qwen1.5"
+      ],
+      "Cohere": [
+        "Aya"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [
+        "Nemotron-4 15B"
+      ],
+      "Stability": [
+        "Stable Diffusion 3"
+      ],
+      "Amazon": [],
+      "SenseTime": [
+        "SenseNova 4.0"
+      ],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Mar",
-      "Open-Source": "OpenHands",
-      "OpenAI": "",
-      "Anthropic": "Claude 3 Opus + Sonnet + Haiku",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "Grok-1 + Grok-1.5",
-      "DeepSeek": "DeepSeek-VL",
-      "Qwen-Alibaba": "",
-      "Cohere": "Command R",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "Spark 3.5",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "Jamba",
-      "LLM-Applications": "Windsurf",
-      "AI-Chips": "NVIDIA Blackwell B200",
-      "AI-Cloud": "AWS Trainium2 GA"
+      "Open-Source": [
+        "OpenHands"
+      ],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude 3 Opus",
+        "Sonnet",
+        "Haiku"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [
+        "Grok-1",
+        "Grok-1.5"
+      ],
+      "DeepSeek": [
+        "DeepSeek-VL"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [
+        "Command R"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [
+        "Spark 3.5"
+      ],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [
+        "Jamba"
+      ],
+      "LLM-Applications": [
+        "Windsurf"
+      ],
+      "AI-Chips": [
+        "NVIDIA Blackwell B200"
+      ],
+      "AI-Cloud": [
+        "AWS Trainium2 GA"
+      ]
     },
     {
       "Month": "24-Apr",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "Llama 3",
-      "Mistral": "Mixtral 8x22B",
-      "xAI": "Grok-1.5V",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen1.5-110B + CodeQwen1.5",
-      "Cohere": "Command R Plus",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "ABAB 6.5",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "Phi-3-mini",
-      "Apple": "OpenELM",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "Microsoft Maia 100",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [
+        "Llama 3"
+      ],
+      "Mistral": [
+        "Mixtral 8x22B"
+      ],
+      "xAI": [
+        "Grok-1.5V"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen1.5-110B",
+        "CodeQwen1.5"
+      ],
+      "Cohere": [
+        "Command R Plus"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        "ABAB 6.5"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [
+        "Phi-3-mini"
+      ],
+      "Apple": [
+        "OpenELM"
+      ],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "Microsoft Maia 100"
+      ],
+      "AI-Cloud": []
     },
     {
       "Month": "24-May",
-      "Open-Source": "Cherry Studio",
-      "OpenAI": "GPT-4o",
-      "Anthropic": "",
-      "Google": "Gemini 1.5 Flash + Veo",
-      "Meta": "",
-      "Mistral": "Codestral",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-V2",
-      "Qwen-Alibaba": "",
-      "Cohere": "Aya 23",
-      "Baidu": "",
-      "GLM-Z.ai": "CogVLM2",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "Yi-1.5",
-      "Baichuan-Intelligence": "Baichuan 4",
-      "Microsoft": "Phi-3-small + Phi-3-medium",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "Titan Text Premier",
-      "SenseTime": "SenseChat",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": "CoreWeave raises $7.5B to build GPU data center"
+      "Open-Source": [
+        "Cherry Studio"
+      ],
+      "OpenAI": [
+        "GPT-4o"
+      ],
+      "Anthropic": [],
+      "Google": [
+        "Gemini 1.5 Flash",
+        "Veo"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Codestral"
+      ],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-V2"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [
+        "Aya 23"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "CogVLM2"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [
+        "Yi-1.5"
+      ],
+      "Baichuan-Intelligence": [
+        "Baichuan 4"
+      ],
+      "Microsoft": [
+        "Phi-3-small",
+        "Phi-3-medium"
+      ],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [
+        "Titan Text Premier"
+      ],
+      "SenseTime": [
+        "SenseChat"
+      ],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": [
+        "CoreWeave raises $7.5B to build GPU data center"
+      ]
     },
     {
       "Month": "24-Jun",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "Claude 3.5 Sonnet",
-      "Google": "Gemma 2",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen2",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "Spark 4.0",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "Step-1V",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "Kling 1.0",
-      "Boss-Nanbeige": "",
-      "Huawei": "PanGu 5.0",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "Nemotron-4 340B",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude 3.5 Sonnet"
+      ],
+      "Google": [
+        "Gemma 2"
+      ],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen2"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [
+        "Spark 4.0"
+      ],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [
+        "Step-1V"
+      ],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [
+        "Kling 1.0"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [
+        "PanGu 5.0"
+      ],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [
+        "Nemotron-4 340B"
+      ],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Jul",
-      "Open-Source": "",
-      "OpenAI": "GPT-4o mini",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "Llama 3.1",
-      "Mistral": "Mistral Large 2 + Mistral Nemo",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-Coder-V2",
-      "Qwen-Alibaba": "Qwen2-Audio",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "Step-2",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-4o mini"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [
+        "Llama 3.1"
+      ],
+      "Mistral": [
+        "Mistral Large 2",
+        "Mistral Nemo"
+      ],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-Coder-V2"
+      ],
+      "Qwen-Alibaba": [
+        "Qwen2-Audio"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [
+        "Step-2"
+      ],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Aug",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "Grok-2 beta",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "ERNIE 4.0 Turbo",
-      "GLM-Z.ai": "GLM-4-Plus",
-      "iFlytek": "",
-      "MiniMax": "Hailuo AI",
-      "Kimi-Moonshot": "moonshot-v1-auto",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "Llama-3.1-Nemotron-70B-Reward",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "Jamba 1.5 Mini + Jamba 1.5 Large",
-      "LLM-Applications": "",
-      "AI-Chips": "NVIDIA H200",
-      "AI-Cloud": "Lambda Labs raises $320M to expand GPU cloud"
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [
+        "Grok-2 beta"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE 4.0 Turbo"
+      ],
+      "GLM-Z.ai": [
+        "GLM-4-Plus"
+      ],
+      "iFlytek": [],
+      "MiniMax": [
+        "Hailuo AI"
+      ],
+      "Kimi-Moonshot": [
+        "moonshot-v1-auto"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [
+        "Llama-3.1-Nemotron-70B-Reward"
+      ],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [
+        "Jamba 1.5 Mini",
+        "Jamba 1.5 Large"
+      ],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "NVIDIA H200"
+      ],
+      "AI-Cloud": [
+        "Lambda Labs raises $320M to expand GPU cloud"
+      ]
     },
     {
       "Month": "24-Sep",
-      "Open-Source": "",
-      "OpenAI": "o1-preview + o1-mini",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "Llama 3.2",
-      "Mistral": "Pixtral 12B",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen2.5 + Qwen2.5-Coder + Qwen2.5-Math + Qwen2-VL",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "Video-01",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "Zhixiaobao",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "o1-preview",
+        "o1-mini"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [
+        "Llama 3.2"
+      ],
+      "Mistral": [
+        "Pixtral 12B"
+      ],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen2.5",
+        "Qwen2.5-Coder",
+        "Qwen2.5-Math",
+        "Qwen2-VL"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        "Video-01"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "Zhixiaobao"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Oct",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "Claude 3.5 Sonnet v2",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "Ministral 8B",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "Aya Expanse",
-      "Baidu": "",
-      "GLM-Z.ai": "AutoGLM",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "CodeFuse-CGM",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "Hunyuan-lite",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "Apple Intelligence + Ferret-UI",
-      "NVIDIA": "",
-      "Stability": "Stable Diffusion 3.5",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude 3.5 Sonnet v2"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [
+        "Ministral 8B"
+      ],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [
+        "Aya Expanse"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "AutoGLM"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "CodeFuse-CGM"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "Hunyuan-lite"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [
+        "Apple Intelligence",
+        "Ferret-UI"
+      ],
+      "NVIDIA": [],
+      "Stability": [
+        "Stable Diffusion 3.5"
+      ],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Nov",
-      "Open-Source": "Unsloth + MarkItDown",
-      "OpenAI": "",
-      "Anthropic": "Claude 3.5 Haiku",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "Mistral Large 2.1 + Pixtral Large",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen2.5-Coder Family + QwQ-32B",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "Unsloth",
+        "MarkItDown"
+      ],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude 3.5 Haiku"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Large 2.1",
+        "Pixtral Large"
+      ],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen2.5-Coder Family",
+        "QwQ-32B"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "24-Dec",
-      "Open-Source": "",
-      "OpenAI": "o1 + Sora",
-      "Anthropic": "",
-      "Google": "Gemini 2.0 Flash + Veo 2",
-      "Meta": "Llama 3.3",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-V3 + DeepSeek-V2.5-1210",
-      "Qwen-Alibaba": "",
-      "Cohere": "Command R7B",
-      "Baidu": "",
-      "GLM-Z.ai": "GLM-Zero-Preview",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "Kling 1.6",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "FastVLM",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "Nova Micro + Nova Lite + Nova Pro + Nova Canvas + Nova Reel",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "Google TPU v6e Trillium",
-      "AI-Cloud": "AWS AI Factories"
+      "Open-Source": [],
+      "OpenAI": [
+        "o1",
+        "Sora"
+      ],
+      "Anthropic": [],
+      "Google": [
+        "Gemini 2.0 Flash",
+        "Veo 2"
+      ],
+      "Meta": [
+        "Llama 3.3"
+      ],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-V3",
+        "DeepSeek-V2.5-1210"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [
+        "Command R7B"
+      ],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "GLM-Zero-Preview"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [
+        "Kling 1.6"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [
+        "FastVLM"
+      ],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [
+        "Nova Micro",
+        "Nova Lite",
+        "Nova Pro",
+        "Nova Canvas",
+        "Nova Reel"
+      ],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "Google TPU v6e Trillium"
+      ],
+      "AI-Cloud": [
+        "AWS AI Factories"
+      ]
     },
     {
       "Month": "25-Jan",
-      "Open-Source": "",
-      "OpenAI": "o3-mini",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "Mistral Small 3 + Codestral 25.01",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-R1",
-      "Qwen-Alibaba": "Qwen2.5-Max + Qwen2.5-VL",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "MiniMax-Text-01 + MiniMax-VL-01",
-      "Kimi-Moonshot": "Kimi K1.5",
-      "Doubao-ByteDance": "Doubao 1.5",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "Nemotron 3 family (Nano/Super/Ultra)",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Trae",
-      "AI-Chips": "NVIDIA Nemotron 3",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "o3-mini"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Small 3",
+        "Codestral 25.01"
+      ],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-R1"
+      ],
+      "Qwen-Alibaba": [
+        "Qwen2.5-Max",
+        "Qwen2.5-VL"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        "MiniMax-Text-01",
+        "MiniMax-VL-01"
+      ],
+      "Kimi-Moonshot": [
+        "Kimi K1.5"
+      ],
+      "Doubao-ByteDance": [
+        "Doubao 1.5"
+      ],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [
+        "Nemotron 3 family (Nano/Super/Ultra)"
+      ],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Trae"
+      ],
+      "AI-Chips": [
+        "NVIDIA Nemotron 3"
+      ],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Feb",
-      "Open-Source": "",
-      "OpenAI": "GPT-4.5",
-      "Anthropic": "Claude 3.7 Sonnet + Claude Code",
-      "Google": "Gemini 2.0 Pro",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "Grok 3",
-      "DeepSeek": "Janus-Pro",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "kimi-latest",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "Step-Video-T2V + Step-Audio",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-4.5"
+      ],
+      "Anthropic": [
+        "Claude 3.7 Sonnet",
+        "Claude Code"
+      ],
+      "Google": [
+        "Gemini 2.0 Pro"
+      ],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [
+        "Grok 3"
+      ],
+      "DeepSeek": [
+        "Janus-Pro"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "kimi-latest"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [
+        "Step-Video-T2V",
+        "Step-Audio"
+      ],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Mar",
-      "Open-Source": "",
-      "OpenAI": "o1 Pro",
-      "Anthropic": "",
-      "Google": "Gemini 2.5 Pro + Gemma 3",
-      "Meta": "",
-      "Mistral": "Mistral Small 3.1",
-      "xAI": "Grok-3 mini",
-      "DeepSeek": "DeepSeek-V3-0324",
-      "Qwen-Alibaba": "Qwen2.5-Omni",
-      "Cohere": "Aya Vision + Command A",
-      "Baidu": "ERNIE 4.5 + X1",
-      "GLM-Z.ai": "AutoGLM Rumination",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "Ling-Plus + Ling-Lite",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Manus",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "o1 Pro"
+      ],
+      "Anthropic": [],
+      "Google": [
+        "Gemini 2.5 Pro",
+        "Gemma 3"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Small 3.1"
+      ],
+      "xAI": [
+        "Grok-3 mini"
+      ],
+      "DeepSeek": [
+        "DeepSeek-V3-0324"
+      ],
+      "Qwen-Alibaba": [
+        "Qwen2.5-Omni"
+      ],
+      "Cohere": [
+        "Aya Vision",
+        "Command A"
+      ],
+      "Baidu": [
+        "ERNIE 4.5",
+        "X1"
+      ],
+      "GLM-Z.ai": [
+        "AutoGLM Rumination"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "Ling-Plus",
+        "Ling-Lite"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Manus"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Apr",
-      "Open-Source": "OpenCode",
-      "OpenAI": "GPT-4.1 + GPT-4.1 mini + GPT-4.1 nano + o3 + o4-mini",
-      "Anthropic": "",
-      "Google": "Gemini 2.5 Flash",
-      "Meta": "Llama 4 Scout + Llama 4 Maverick",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen3",
-      "Cohere": "",
-      "Baidu": "ERNIE 4.5 Turbo + X1 Turbo",
-      "GLM-Z.ai": "",
-      "iFlytek": "Spark X1",
-      "MiniMax": "Speech-02",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "Doubao 1.5 Thinking",
-      "Ant-Group": "",
-      "StepFun": "Step-R1-V-Mini",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "Kling 2.0",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "Apple Intelligence iOS 18.4",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "Nova Premier",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "OpenCode",
+        "Codex CLI"
+      ],
+      "OpenAI": [
+        "GPT-4.1",
+        "GPT-4.1 mini",
+        "GPT-4.1 nano",
+        "o3",
+        "o4-mini"
+      ],
+      "Anthropic": [],
+      "Google": [
+        "Gemini 2.5 Flash"
+      ],
+      "Meta": [
+        "Llama 4 Scout",
+        "Llama 4 Maverick"
+      ],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen3"
+      ],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE 4.5 Turbo",
+        "X1 Turbo"
+      ],
+      "GLM-Z.ai": [],
+      "iFlytek": [
+        "Spark X1"
+      ],
+      "MiniMax": [
+        "Speech-02"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [
+        "Doubao 1.5 Thinking"
+      ],
+      "Ant-Group": [],
+      "StepFun": [
+        "Step-R1-V-Mini"
+      ],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [
+        "Kling 2.0"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [
+        "Apple Intelligence iOS 18.4"
+      ],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [
+        "Nova Premier"
+      ],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-May",
-      "Open-Source": "",
-      "OpenAI": "Codex",
-      "Anthropic": "Claude 4 Sonnet + Claude 4 Opus",
-      "Google": "Veo 3",
-      "Meta": "",
-      "Mistral": "Mistral Medium 3 + Devstral",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-R1-0528 + DeepSeek-Prover-V2",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "kimi-thinking-preview",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "Ling-lite-1.5 + Ming-Lite-Omni",
-      "StepFun": "",
-      "Xiaomi": "MiMo-7B",
-      "Kuaishou-Kling": "Kling 2.1",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "Codex"
+      ],
+      "Anthropic": [
+        "Claude 4 Sonnet",
+        "Claude 4 Opus"
+      ],
+      "Google": [
+        "Veo 3"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Medium 3",
+        "Devstral"
+      ],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-R1-0528",
+        "DeepSeek-Prover-V2"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "kimi-thinking-preview"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "Ling-lite-1.5",
+        "Ming-Lite-Omni"
+      ],
+      "StepFun": [],
+      "Xiaomi": [
+        "MiMo-7B"
+      ],
+      "Kuaishou-Kling": [
+        "Kling 2.1"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Jun",
-      "Open-Source": "",
-      "OpenAI": "o3-pro",
-      "Anthropic": "",
-      "Google": "Gemini CLI",
-      "Meta": "",
-      "Mistral": "Magistral Small 1.0 + Magistral Medium 1.0 + Mistral Small 3.2",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "MiniMax-M1",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "Doubao 1.6 + Seedance 1.0",
-      "Ant-Group": "Ring-lite",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "PanGu 5.5",
-      "Tencent": "Hunyuan-A13B",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "AMD MI350X",
-      "AI-Cloud": "AWS GPU price cut by 45%"
+      "Open-Source": [],
+      "OpenAI": [
+        "o3-pro"
+      ],
+      "Anthropic": [],
+      "Google": [
+        "Gemini CLI"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Magistral Small 1.0",
+        "Magistral Medium 1.0",
+        "Mistral Small 3.2"
+      ],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        "MiniMax-M1"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [
+        "Doubao 1.6",
+        "Seedance 1.0"
+      ],
+      "Ant-Group": [
+        "Ring-lite"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [
+        "PanGu 5.5"
+      ],
+      "Tencent": [
+        "Hunyuan-A13B"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "AMD MI350X"
+      ],
+      "AI-Cloud": [
+        "AWS GPU price cut by 45%"
+      ]
     },
     {
       "Month": "25-Jul",
-      "Open-Source": "Hermes Agent",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "Gemma 3n + Gemini 2.5 Flash-Lite",
-      "Meta": "",
-      "Mistral": "Devstral Medium + Voxtral",
-      "xAI": "Grok 4",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen3-Coder + Qwen-MT",
-      "Cohere": "Command A Vision",
-      "Baidu": "ERNIE 4.5 Open",
-      "GLM-Z.ai": "GLM-4.5",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi K2",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "Ming-Lite-Omni-1.5",
-      "StepFun": "Step 3",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "Hunyuan-TurboS",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "Hermes Agent"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [
+        "Gemma 3n",
+        "Gemini 2.5 Flash-Lite"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Devstral Medium",
+        "Voxtral"
+      ],
+      "xAI": [
+        "Grok 4"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen3-Coder",
+        "Qwen-MT"
+      ],
+      "Cohere": [
+        "Command A Vision"
+      ],
+      "Baidu": [
+        "ERNIE 4.5 Open"
+      ],
+      "GLM-Z.ai": [
+        "GLM-4.5"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi K2"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "Ming-Lite-Omni-1.5"
+      ],
+      "StepFun": [
+        "Step 3"
+      ],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "Hunyuan-TurboS"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Aug",
-      "Open-Source": "",
-      "OpenAI": "GPT-5",
-      "Anthropic": "Claude Opus 4.1",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-V3.1",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi K2 Turbo Preview",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "Kling 2.5",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "Hunyuan-T1",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-5"
+      ],
+      "Anthropic": [
+        "Claude Opus 4.1"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-V3.1"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi K2 Turbo Preview"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [
+        "Kling 2.5"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "Hunyuan-T1"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Sep",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "Claude Sonnet 4.5",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-V3.1-Terminus",
-      "Qwen-Alibaba": "Qwen CLI",
-      "Cohere": "",
-      "Baidu": "ERNIE X1.1",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi K2 0905",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "Kling 2.5 Turbo",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "Hunyuan-large-role",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "CodeBuddy",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude Sonnet 4.5"
+      ],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-V3.1-Terminus"
+      ],
+      "Qwen-Alibaba": [
+        "Qwen CLI"
+      ],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE X1.1"
+      ],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi K2 0905"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [
+        "Kling 2.5 Turbo"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "Hunyuan-large-role"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "CodeBuddy"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Oct",
-      "Open-Source": "",
-      "OpenAI": "",
-      "Anthropic": "Claude Haiku 4.5",
-      "Google": "Veo 3.1",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi CLI",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "Ling-1T + Ring-1T + Ming-flash-omni-Preview",
-      "Huawei": "",
-      "Tencent": "Nanbeige4-3B-Thinking-2510",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [
+        "Claude Haiku 4.5"
+      ],
+      "Google": [
+        "Veo 3.1"
+      ],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi CLI"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [
+        "Ling-1T",
+        "Ring-1T",
+        "Ming-flash-omni-Preview"
+      ],
+      "Huawei": [],
+      "Tencent": [
+        "Nanbeige4-3B-Thinking-2510"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Nov",
-      "Open-Source": "OpenClaw",
-      "OpenAI": "GPT-5.1",
-      "Anthropic": "Claude Opus 4.5",
-      "Google": "Gemini 3",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "Grok 4.1 + Grok 4.1 Fast",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "ERNIE 5.0",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi K2 Thinking",
-      "Doubao-ByteDance": "Doubao Seed Code",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "MiMo-VL Miloco-7B + MiMo-Embodied-7B",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "HY 2.0 Think + HY 2.0 Instruct",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "OpenClaw"
+      ],
+      "OpenAI": [
+        "GPT-5.1"
+      ],
+      "Anthropic": [
+        "Claude Opus 4.5"
+      ],
+      "Google": [
+        "Gemini 3"
+      ],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [
+        "Grok 4.1",
+        "Grok 4.1 Fast"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [
+        "ERNIE 5.0"
+      ],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi K2 Thinking"
+      ],
+      "Doubao-ByteDance": [
+        "Doubao Seed Code"
+      ],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [
+        "MiMo-VL Miloco-7B",
+        "MiMo-Embodied-7B"
+      ],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [
+        "HY 2.0 Think",
+        "HY 2.0 Instruct"
+      ],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Dec",
-      "Open-Source": "Oh-My-OpenAgent",
-      "OpenAI": "GPT-5.2",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "Mistral Large 3 + Ministral 3",
-      "xAI": "",
-      "DeepSeek": "DeepSeek-V3.2",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "MiMo-V2-Flash",
-      "Kuaishou-Kling": "Kling O1 + Kling 2.6",
-      "Boss-Nanbeige": "Nanbeige4-3B",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "Nemotron 3 Nano",
-      "Stability": "",
-      "Amazon": "Nova 2 Lite + Nova 2 Pro + Nova 2 Sonic",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "NVIDIA Nemotron 3 Nano",
-      "AI-Cloud": "CoreWeave raises another $8.5B to build data center"
+      "Open-Source": [
+        "Oh-My-OpenAgent"
+      ],
+      "OpenAI": [
+        "GPT-5.2"
+      ],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Large 3",
+        "Ministral 3"
+      ],
+      "xAI": [],
+      "DeepSeek": [
+        "DeepSeek-V3.2"
+      ],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [
+        "MiMo-V2-Flash"
+      ],
+      "Kuaishou-Kling": [
+        "Kling O1",
+        "Kling 2.6"
+      ],
+      "Boss-Nanbeige": [
+        "Nanbeige4-3B"
+      ],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [
+        "Nemotron 3 Nano"
+      ],
+      "Stability": [],
+      "Amazon": [
+        "Nova 2 Lite",
+        "Nova 2 Pro",
+        "Nova 2 Sonic"
+      ],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "NVIDIA Nemotron 3 Nano"
+      ],
+      "AI-Cloud": [
+        "CoreWeave raises another $8.5B to build data center"
+      ]
     },
     {
       "Month": "26-Jan",
-      "Open-Source": "andrej-karpathy-skills + oh-my-claudecode",
-      "OpenAI": "",
-      "Anthropic": "",
-      "Google": "",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi K2.5",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "AReaL-SEA",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "Kling 3.0",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "Microsoft Maia 200",
-      "AI-Cloud": ""
+      "Open-Source": [
+        "andrej-karpathy-skills",
+        "oh-my-claudecode"
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi K2.5"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "AReaL-SEA"
+      ],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [
+        "Kling 3.0"
+      ],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [
+        "Microsoft Maia 200"
+      ],
+      "AI-Cloud": []
     },
     {
       "Month": "26-Feb",
-      "Open-Source": "oh-my-codex",
-      "OpenAI": "GPT-5.3-Codex",
-      "Anthropic": "Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams",
-      "Google": "Gemini 3.1 Pro",
-      "Meta": "",
-      "Mistral": "",
-      "xAI": "Grok 4.2 Beta",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen3.5",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "GLM-5",
-      "iFlytek": "Spark X2",
-      "MiniMax": "MiniMax-M2.5 + MiniMax-M2.5-Highspeed",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "Doubao-Seed-2.0 + Seedance 2.0",
-      "Ant-Group": "Ring-2.5-1T + Ling-2.5-1T + Ming-flash-omni-2.0 + LLaDA2.1",
-      "StepFun": "Step 3.5 Flash",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "Nanbeige4.1-3B",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "Kilo CLI",
-      "AI-Chips": "",
-      "AI-Cloud": "Microsoft and OpenAI invest $100B to build AI data center"
+      "Open-Source": [
+        "oh-my-codex"
+      ],
+      "OpenAI": [
+        "GPT-5.3-Codex"
+      ],
+      "Anthropic": [
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.6",
+        "Claude Code Agent Teams"
+      ],
+      "Google": [
+        "Gemini 3.1 Pro"
+      ],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [
+        "Grok 4.2 Beta"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen3.5"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "GLM-5"
+      ],
+      "iFlytek": [
+        "Spark X2"
+      ],
+      "MiniMax": [
+        "MiniMax-M2.5",
+        "MiniMax-M2.5-Highspeed"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [
+        "Doubao-Seed-2.0",
+        "Seedance 2.0"
+      ],
+      "Ant-Group": [
+        "Ring-2.5-1T",
+        "Ling-2.5-1T",
+        "Ming-flash-omni-2.0",
+        "LLaDA2.1"
+      ],
+      "StepFun": [
+        "Step 3.5 Flash"
+      ],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [
+        "Nanbeige4.1-3B"
+      ],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "Kilo CLI"
+      ],
+      "AI-Chips": [],
+      "AI-Cloud": [
+        "Microsoft and OpenAI invest $100B to build AI data center"
+      ]
     },
     {
       "Month": "26-Mar",
-      "Open-Source": "",
-      "OpenAI": "GPT-5.4 + Codex multi-agent",
-      "Anthropic": "",
-      "Google": "Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live",
-      "Meta": "",
-      "Mistral": "Mistral Small 4",
-      "xAI": "Grok 4.2 Multi-Agent",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "GLM-5-Turbo",
-      "iFlytek": "",
-      "MiniMax": "MiniMax-M2.7 + MiniMax-2.7-Highspeed",
-      "Kimi-Moonshot": "",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "AReaL-tau2",
-      "StepFun": "",
-      "Xiaomi": "MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "Phi-4",
-      "Apple": "",
-      "NVIDIA": "Nemotron 3 Super",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "QClaw + WorkBuddy",
-      "AI-Chips": "NVIDIA Nemotron 3 Super",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-5.4",
+        "Codex multi-agent"
+      ],
+      "Anthropic": [],
+      "Google": [
+        "Gemini 3.1 Flash-Lite",
+        "Gemini 3.1 Flash Live"
+      ],
+      "Meta": [],
+      "Mistral": [
+        "Mistral Small 4"
+      ],
+      "xAI": [
+        "Grok 4.2 Multi-Agent"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "GLM-5-Turbo"
+      ],
+      "iFlytek": [],
+      "MiniMax": [
+        "MiniMax-M2.7",
+        "MiniMax-2.7-Highspeed"
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [
+        "AReaL-tau2"
+      ],
+      "StepFun": [],
+      "Xiaomi": [
+        "MiMo-V2-Pro",
+        "MiMo-V2-Omni",
+        "MiMo-V2-TTS"
+      ],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [
+        "Phi-4"
+      ],
+      "Apple": [],
+      "NVIDIA": [
+        "Nemotron 3 Super"
+      ],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [
+        "QClaw",
+        "WorkBuddy"
+      ],
+      "AI-Chips": [
+        "NVIDIA Nemotron 3 Super"
+      ],
+      "AI-Cloud": []
     },
     {
       "Month": "26-Apr",
-      "Open-Source": "",
-      "OpenAI": "GPT-5.4-Cyber + GPT-Rosalind",
-      "Anthropic": "Claude Opus 4.7 + Claude Mythos Preview",
-      "Google": "Gemma 4",
-      "Meta": "Muse Spark",
-      "Mistral": "",
-      "xAI": "Grok 4.3 Beta",
-      "DeepSeek": "",
-      "Qwen-Alibaba": "Qwen3.6-Max-Preview + Qwen3.6-Plus + Qwen3.6-35B-A3B",
-      "Cohere": "",
-      "Baidu": "",
-      "GLM-Z.ai": "GLM-5.1",
-      "iFlytek": "",
-      "MiniMax": "",
-      "Kimi-Moonshot": "Kimi K2.6",
-      "Doubao-ByteDance": "",
-      "Ant-Group": "",
-      "StepFun": "",
-      "Xiaomi": "",
-      "Kuaishou-Kling": "",
-      "Boss-Nanbeige": "",
-      "Huawei": "",
-      "Tencent": "",
-      "01.AI": "",
-      "Baichuan-Intelligence": "",
-      "Microsoft": "",
-      "Apple": "",
-      "NVIDIA": "",
-      "Stability": "",
-      "Amazon": "",
-      "SenseTime": "",
-      "AI21": "",
-      "LLM-Applications": "",
-      "AI-Chips": "",
-      "AI-Cloud": ""
+      "Open-Source": [],
+      "OpenAI": [
+        "GPT-5.4-Cyber",
+        "GPT-Rosalind"
+      ],
+      "Anthropic": [
+        "Claude Opus 4.7",
+        "Claude Mythos Preview"
+      ],
+      "Google": [
+        "Gemma 4"
+      ],
+      "Meta": [
+        "Muse Spark"
+      ],
+      "Mistral": [],
+      "xAI": [
+        "Grok 4.3 Beta"
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        "Qwen3.6-Max-Preview",
+        "Qwen3.6-Plus",
+        "Qwen3.6-35B-A3B"
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [
+        "GLM-5.1"
+      ],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [
+        "Kimi K2.6"
+      ],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     }
   ]
 }

@@ -1,237 +1,195 @@
 # AGENT 数据更新指南
 
-> 本文件放在根目录，确保每次 Agent 更新数据时都能看到  
+> 放在仓库根目录，供 AI agent 和维护者统一使用  
 > 最后更新：2026-04-21
 
 ---
 
-## 核心原则（更新前必读）
+## 核心结论
 
-**CSV 是唯一数据源，MD 只用于链接**
+**以后 agent 默认不要手工编辑整张 CSV 或整张 MD 表。**
 
-```
-⚠️ 重要：build-json.js 的数据流
-CSV（主数据源） → data.json 的数据结构
-MD（链接来源）  → links.json 的 URL 映射
-```
+标准工作流是：
 
-- [ ] 我正在编辑的是 `.csv` 文件（**唯一数据源**）
-- [ ] 我正在编辑的是 `.md` 文件（**为每个模型添加链接**）
-- [ ] 我知道运行 `node scripts/build-json.js` 会验证格式
-- [ ] 如果构建报错"字段数不匹配"，我必须修复格式错误
-- [ ] 构建成功后才会生成 `data.json` + `links.json` + `README.md`
+1. 用 `node scripts/upsert-entry.js` 更新一条发布记录
+2. 让脚本自动同步源 CSV、源 MD、`data.json`、`links.json`、`README.md`
+3. 再运行 `node scripts/check-missing-links.js` 做缺链检查
+
+只有在以下场景下，才建议直接编辑源表：
+
+- 新增厂商列
+- 批量大修历史数据
+- 修复脚本本身无法表达的结构性问题
 
 ---
 
-## 正确更新方式
+## 当前数据流
 
-### 第一步：编辑 CSV（必须）
-
-```
-llm_release_timeline_2022-11_to_2026-04.csv
-```
-
-**格式规则：**
-- 所有行的逗号数量必须与表头一致
-- 多个模型用 ` + ` 分隔（注意空格）
-- 如果单元格内容包含逗号，用双引号包裹：`"a,b,c"`
-- 空单元格直接留空（两个逗号之间什么都不写）
-
-**正误示例：**
-
-```csv
-# 表头（假设有 35 个逗号 = 36 列）
-Month,Open-Source,OpenAI,Anthropic,...,新厂商
-
-# ✅ 正确：逗号数量与表头一致
-25-Apr,,GPT-4.1 + GPT-4.1 mini,,Gemini 2.5 Flash,,,...,
-
-# ❌ 错误：逗号数量不对（会触发构建失败）
-25-Apr,,GPT-4.1 + GPT-4.1 mini,Gemini 2.5 Flash,,,...,
+```text
+upsert-entry.js
+  ├─ 更新 CSV（数据源）
+  ├─ 更新 MD（链接源）
+  ├─ 重新生成 data.json
+  ├─ 重新生成 links.json
+  └─ 重新生成 README.md
 ```
 
-### 第二步：编辑 MD（必须，添加链接）
+补充说明：
 
-```
-llm_release_timeline_2022-11_to_2026-04.md
-```
+- CSV 仍然是数据源
+- MD 仍然是链接源
+- `data.json`、`links.json`、`README.md` 是构建产物
+- `data.json` 现在已经是数组格式，网页端可直接读取
 
-**每个模型都必须有链接。** MD 是链接的唯一来源。
+---
 
-**格式：**
-```markdown
-| Month | Open-Source | OpenAI | ... |
-|-------|-------------|--------|-----|
-| 25-Apr | OpenCode | [GPT-4.1](https://openai.com/gpt-4-1) | ... |
-```
+## 推荐工作流
 
-**规则：**
-- 每个模型名用 `[模型名](URL)` 格式
-- 多个模型用 ` + ` 分隔：`[模型A](URL) + [模型B](URL)`
-- 如果 MD 中没有链接，`build-json.js` 会尝试自动推断，但**覆盖不全**
-- 如果 MD 和 CSV 的数据冲突，**以 CSV 为准**（但链接以 MD 为准）
+### 场景 1：新增一个刚发布的模型
 
-**注意：**
-- MD 表格的数据不会被用于生成 `data.json`
-- MD 只被提取 `[模型名](URL)` 格式的链接
-
-### 第三步：构建和验证
+用法：
 
 ```bash
-node scripts/build-json.js
-```
-
-**构建脚本做什么：**
-1. 读取 CSV → 生成 `data.json`（数据结构）
-2. 读取 MD → 提取链接 → 生成 `links.json`（URL 映射）
-3. 结合 data.json + links.json → 生成 `README.md`（GitHub 页面显示的表格）
-
-**构建成功输出：**
-```
-📦 LLM Timeline 数据构建
-  CSV:  llm_release_timeline_2022-11_to_2026-04.csv
-  MD:   llm_release_timeline_2022-11_to_2026-04.md
-  OUT:  ./
-
-✓ CSV 解析完成: 43 行, 36 列
-✓ MD 解析完成: 43 表格行, 315 个链接
-✓ 已写入: data.json
-✓ 已写入: links.json
-✓ 已写入: README.md
-
-✅ 完成！
-   data.json:  43 行 × 36 列
-   links.json: 315 条映射
-   README.md:  已生成
-```
-
-**构建失败输出（必须修复）：**
-```
-❌ 第 31 行字段数不匹配: 期望 36 列, 实际 35 列
-   内容: 25-Apr,OpenCode,GPT-4.1 + GPT-4.1 mini,Gemini 2.5 Flash,...
-Error: CSV 格式错误: 第 31 行字段数不匹配，请检查逗号数量或引号配对
-```
-
-### 第四步：检查缺失链接（必须）
-
-```bash
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
 node scripts/check-missing-links.js
 ```
 
-输出示例：
+效果：
+
+- 如果 `25-May` 已存在，就只改这一行的 `OpenAI` 单元格
+- 如果模型不在该单元格里，就追加进去
+- 如果该模型已有链接，会被更新为新 URL
+- 自动重建所有产物
+
+### 场景 2：补一个历史漏项
+
+用法：
+
+```bash
+node scripts/upsert-entry.js --month 24-Sep --vendor Qwen-Alibaba --model "Qwen2.5-Coder" --url "https://huggingface.co/Qwen"
+node scripts/check-missing-links.js
 ```
-Found 5 models without hyperlinks:
 
-25-Apr:
-  [OpenAI] GPT-5 - 🔍 inferable
-      -> https://openai.com/blog/gpt-5
-  [Google] Gemini 3 - ❌ no URL
+效果：
 
-Summary: 5 plain-text models found
-With URL in links.json: 2
-Inferable URL: 1
-No URL found: 2
+- 只补一条历史记录
+- 不需要人工数逗号，也不需要改整张表
+
+### 场景 3：新增一个月份，但这个月目前仓库里还没有行
+
+用法：
+
+```bash
+node scripts/upsert-entry.js --month 26-May --vendor Google --model "Gemini 4" --url "https://example.com/gemini-4"
+node scripts/check-missing-links.js
 ```
 
-**如果输出显示有模型缺少链接，必须修复：**
-1. 在 MD 中添加 `[模型名](URL)`
-2. 重新运行 `node scripts/build-json.js`
-3. 再次运行 `node scripts/check-missing-links.js` 确认无遗漏
+效果：
 
-**不允许提交有缺失链接的数据。**
+- 脚本会按时间顺序插入新月份
+- 不需要手工在 CSV 和 MD 里同时插行
 
 ---
 
-## 新增公司/列
+## agent 操作规范
 
-如果要添加新厂商列：
+### 默认规范
 
-1. **在 CSV 表头添加新列名**（加一个逗号 + 列名）
-2. **在所有数据行末尾添加一个逗号**（对应新列，即使留空）
-3. 重新运行 `node scripts/build-json.js` 验证
+让 agent 按下面的规则执行：
+
+- 一次只处理一条发布记录
+- 默认调用 `scripts/upsert-entry.js`
+- 不要手工重写整张 CSV
+- 不要手工重写整张 MD
+- 更新后必须运行：
+  - `node scripts/check-missing-links.js`
+
+### 推荐 prompt 模板
+
+```text
+请不要手工编辑整张 CSV 或 MD。
+
+请调用：
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
+
+然后运行：
+node scripts/check-missing-links.js
+
+最后告诉我：
+1. 是否新建了月份行
+2. 是否追加了模型
+3. 缺链检查结果
+```
 
 ---
 
-## 新增月份/行
+## 什么时候不要用 upsert-entry.js
 
-如果要添加新月份：
+以下情况不适合直接用这个脚本：
 
-1. 在 CSV 末尾添加新行
-2. 第一列是月份（如 `25-Jun`）
-3. **确保逗号数量与表头一致**
-4. 重新运行构建验证
+- 你要新增一个全新的厂商列
+- 你要调整列顺序
+- 你要批量重排很多历史月份
+- 你要做大规模链接修复
+- CSV 或 MD 源文件已经结构性损坏
+
+这几种情况应该先人工确认方案，再决定是否直接编辑源文件或补新脚本。
+
+---
+
+## 手工编辑的最低要求
+
+如果确实必须手工改源文件：
+
+1. 先改 CSV
+2. 再改 MD
+3. 运行：
+
+```bash
+node scripts/build-json.js
+node scripts/check-missing-links.js
+```
+
+4. 只有在两步都通过后，才允许提交
 
 ---
 
 ## 常见问题
 
-**Q: 构建脚本报错"字段数不匹配"怎么办？**
+**Q: 我只想补一条模型，还要不要改 CSV 和 MD？**
 
-A: 这是 CSV 格式错误。检查报错的行：
-1. 查看报错信息：期望 X 列, 实际 Y 列
-2. 数逗号数量，确保与表头一致
-3. 检查是否有单元格内容包含未转义的逗号
-4. 修复后重新运行构建
+A: 不要手工改。直接用：
 
-**Q: 为什么只改 MD 不行？**
-
-A: `build-json.js` 的数据结构完全来自 CSV。MD 只被用于提取链接。如果只改 MD 不改 CSV，模型的名称、位置都不会更新。
-
-**Q: 怎么知道当前有多少列？**
-
-A: 查看构建成功的输出：`✓ CSV 解析完成: 43 行, 36 列` —— 这里的 36 就是当前列数。
-
-**Q: 新增厂商后怎么验证成功了？**
-
-A: 
-1. 构建成功（看到 ✅ 完成！）
-2. 检查生成的 `README.md`，确认新厂商列出现
-3. 检查网站是否正常显示
-
-**Q: 只想改一个链接，不动其他内容？**
-
-A: 可以直接编辑 MD 文件修改 URL，然后运行构建脚本。但注意：如果该模型在 CSV 中不存在，链接不会生效。
-
-**Q: 为什么 MD 是必须的？**
-
-A: `build-json.js` 的 `inferURL()` 只有约 100 条硬编码规则，只能覆盖常见模型。新厂商、新型号、中文模型名很可能匹配不上。如果要求每个 LLM 都有链接，必须在 MD 中手动指定 `[模型名](URL)`。
-
----
-
-## 完整更新流程
-
-```
-编辑 llm_release_timeline_2022-11_to_2026-04.csv（必须，唯一数据源）
-    ↓
-编辑 llm_release_timeline_2022-11_to_2026-04.md（必须，为每个模型添加链接）
-    ↓
-node scripts/build-json.js
-    ↓
-如果报错：修复 CSV 格式错误（字段数不匹配）
-    ↓
-构建成功（看到 ✅ 完成！）
-    ↓
-node scripts/check-missing-links.js（必须：检查是否有模型缺链接）
-    ↓
-如果发现有缺链接：补充 MD 中的链接，重新构建，再次检查
-    ↓
-确认所有模型都有链接（check-missing-links.js 输出 0 missing）
-    ↓
-git add .
-git commit -m "YYYY-MM-DD: 添加 XX 厂商 / 更新 XX 模型"
-git push
-    ↓
-GitHub Actions 自动生成 → GitHub Pages 自动部署（2-5 分钟）
+```bash
+node scripts/upsert-entry.js --month ... --vendor ... --model "..." --url "..."
 ```
 
+脚本会替你同时更新两边。
+
+**Q: 我只想改链接，不想动别的内容怎么办？**
+
+A: 仍然优先用 `upsert-entry.js`，传同样的 `month`、`vendor`、`model`，但把 `url` 改成新的链接。脚本会刷新 MD 和构建产物。
+
+**Q: 构建失败显示字段数不匹配怎么办？**
+
+A: 这是 CSV 结构错误。优先检查最近是否有人手工改了 CSV；如果是脚本更新后报错，再回查脚本输入参数是否写错厂商或月份。
+
+**Q: 为什么不直接让 agent 改 data.json？**
+
+A: 因为当前仓库的真实生成链路仍然以 CSV 和 MD 为源。直接改 `data.json` 会在下一次构建时被覆盖。
+
 ---
 
-## 紧急联系
+## 提交前检查
 
-如果构建持续失败，检查：
-1. `note/data_update_workflow.md` — 详细的数据更新流程
-2. `note/20260421-1028_cleanup_notes.md` — 清理笔记
+- `upsert-entry.js` 已执行
+- `check-missing-links.js` 已执行
+- 没有顺手修改无关月份或无关厂商
+- 没有手工重写整张表
+- 新模型在 `README.md` 和网页数据里都可见
 
 ---
 
-*本指南确保 Agent 更新数据时不会破坏表格结构。*
+## 一句话版本
+
+**单条更新一律走 `node scripts/upsert-entry.js`。只有结构性修改，才直接动 CSV/MD。**
