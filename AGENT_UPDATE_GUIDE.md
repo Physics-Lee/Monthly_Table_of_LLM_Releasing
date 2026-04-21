@@ -81,6 +81,11 @@ llm_release_timeline_2022-11_to_2026-04.md
 node scripts/build-json.js
 ```
 
+**构建脚本做什么：**
+1. 读取 CSV → 生成 `data.json`（数据结构）
+2. 读取 MD → 提取链接 → 生成 `links.json`（URL 映射）
+3. 结合 data.json + links.json → 生成 `README.md`（GitHub 页面显示的表格）
+
 **构建成功输出：**
 ```
 📦 LLM Timeline 数据构建
@@ -200,7 +205,7 @@ A: `build-json.js` 的 `inferURL()` 只有约 100 条硬编码规则，只能覆
     ↓
 编辑 llm_release_timeline_2022-11_to_2026-04.md（必须，为每个模型添加链接）
     ↓
-node scripts/build-json.js
+node scripts/build-json.js（生成 data.json + links.json + README.md）
     ↓
 如果报错：修复 CSV 格式错误（字段数不匹配）
     ↓
