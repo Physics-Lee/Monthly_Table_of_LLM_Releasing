@@ -358,7 +358,7 @@ function inferURL(modelName) {
     [/^Stable Code/, 'https://stability.ai/news/stable-code-2024-llm-code-completion-release'],
     // Amazon
     [/^Titan/, 'https://aws.amazon.com/bedrock/titan/'],
-    [/^Nova/, 'https://aws.amazon.com/bedrock/nova/'],
+    [/^Nova/, 'https://aws.amazon.com/nova/'],
     // SenseTime
     [/^SenseNova/, 'https://www.sensetime.com/'],
     [/^SenseChat$/, 'https://www.sensetime.com/'],
