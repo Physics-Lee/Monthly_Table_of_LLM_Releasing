@@ -995,7 +995,7 @@
       "Google": "Gemini 2.0 Flash",
       "Meta": "Llama 3.3",
       "Mistral": "",
-      "xAI": "Grok-2 + Grok-2 mini",
+      "xAI": "",
       "DeepSeek": "DeepSeek-V3 + DeepSeek-V2.5-1210",
       "Qwen-Alibaba": "",
       "Cohere": "Command R7B",
