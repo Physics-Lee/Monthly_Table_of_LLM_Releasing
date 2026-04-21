@@ -14,27 +14,27 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 23-Nov,,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,,,,Hunyuan Standard,Yi-6B + Yi-34B,,,MLX,,,Titan Text Express + Titan Text Lite,,,,AWS Trainium2,
 23-Dec,RAGFlow,,Claude 2.1,Gemini 1.0 Ultra + Pro + Nano,,Mixtral 8x7B + Mistral Medium,,,,,,,,abab5.5,,,Bailing 2.0,,,,,,,,,Phi-2,Ferret,,,,,,,AMD MI300X + Google TPU v5p,Google AI Hypercomputer
 24-Jan,AutoGen + LangGraph + SGLang,,,,,,,DeepSeek-MoE,,,,GLM-4,Spark 3.0,,moonshot-v1,,,,,,,,,Yi-VL,Baichuan 3,,,,,,,,,,
-24-Feb,,,,Gemma + Gemini 1.5 Pro,,Mistral Large + Mistral Small,,DeepSeek-Math,Qwen1.5,Aya,,,,,,,,,,,,,,,,,,Nemotron-4 15B,Stable Diffusion 3,,SenseNova 4.0,,,,
+24-Feb,,Sora (demo),,Gemma + Gemini 1.5 Pro,,Mistral Large + Mistral Small,,DeepSeek-Math,Qwen1.5,Aya,,,,,,,,,,,,,,,,,,Nemotron-4 15B,Stable Diffusion 3,,SenseNova 4.0,,,,
 24-Mar,OpenHands,,Claude 3 Opus + Sonnet + Haiku,,,,Grok-1 + Grok-1.5,DeepSeek-VL,,Command R,,,Spark 3.5,,,,,,,,,,,,,,,,,,,Jamba,Windsurf,NVIDIA Blackwell B200,AWS Trainium2 GA
 24-Apr,,,,,Llama 3,Mixtral 8x22B,Grok-1.5V,,Qwen1.5-110B + CodeQwen1.5,Command R Plus,,,,ABAB 6.5,,,,,,,,,,,,Phi-3-mini,OpenELM,,,,,,,Microsoft Maia 100,
-24-May,Cherry Studio,GPT-4o,,Gemini 1.5 Flash,,Codestral,,DeepSeek-V2,,Aya 23,,CogVLM2,,,,,,,,,,,,Yi-1.5,Baichuan 4,Phi-3-small + Phi-3-medium,,,,Titan Text Premier,SenseChat,,,,CoreWeave 融资75亿美元建GPU数据中心
+24-May,Cherry Studio,GPT-4o,,Gemini 1.5 Flash + Veo,,Codestral,,DeepSeek-V2,,Aya 23,,CogVLM2,,,,,,,,,,,,Yi-1.5,Baichuan 4,Phi-3-small + Phi-3-medium,,,,Titan Text Premier,SenseChat,,,,CoreWeave 融资75亿美元建GPU数据中心
 24-Jun,,,Claude 3.5 Sonnet,Gemma 2,,,,,Qwen2,,,,Spark 4.0,,,,,Step-1V,,Kling 1.0,,PanGu 5.0,,,,,,Nemotron-4 340B,,,,,,,
 24-Jul,,GPT-4o mini,,,Llama 3.1,Mistral Large 2 + Mistral Nemo,,DeepSeek-Coder-V2,Qwen2-Audio,,,,,,,,,Step-2,,,,,,,,,,,,,,,,,
 24-Aug,,,,,,,Grok-2 beta,,,,ERNIE 4.0 Turbo,GLM-4-Plus,,Hailuo AI,moonshot-v1-auto,,,,,,,,,,,,,Llama-3.1-Nemotron-70B-Reward,,,,Jamba 1.5 Mini + Jamba 1.5 Large,,NVIDIA H200,Lambda Labs 融资3.2亿美元扩建GPU云
 24-Sep,,o1-preview + o1-mini,,,Llama 3.2,Pixtral 12B,,,Qwen2.5 + Qwen2.5-Coder + Qwen2.5-Math + Qwen2-VL,,,,,Video-01,,,Zhixiaobao,,,,,,,,,,,,,,,,,,
 24-Oct,,,Claude 3.5 Sonnet v2,,,Ministral 8B,,,,Aya Expanse,,AutoGLM,,,,,CodeFuse-CGM,,,,,,Hunyuan-lite,,,,Apple Intelligence + Ferret-UI,,Stable Diffusion 3.5,,,,,,
 24-Nov,Unsloth + MarkItDown,,Claude 3.5 Haiku,,,Mistral Large 2.1 + Pixtral Large,,,Qwen2.5-Coder Family + QwQ-32B,,,,,,,,,,,,,,,,,,,,,,,,,,
-24-Dec,,o1 + Sora,,Gemini 2.0 Flash,Llama 3.3,,,DeepSeek-V3 + DeepSeek-V2.5-1210,,Command R7B,,GLM-Zero-Preview,,,,,,,,Kling 1.6,,,,,,,FastVLM,,,Nova Micro + Nova Lite + Nova Pro + Nova Canvas + Nova Reel,,,,Google TPU v6e Trillium,AWS AI Factories
+24-Dec,,o1 + Sora,,Gemini 2.0 Flash + Veo 2,Llama 3.3,,,DeepSeek-V3 + DeepSeek-V2.5-1210,,Command R7B,,GLM-Zero-Preview,,,,,,,,Kling 1.6,,,,,,,FastVLM,,,Nova Micro + Nova Lite + Nova Pro + Nova Canvas + Nova Reel,,,,Google TPU v6e Trillium,AWS AI Factories
 25-Jan,,o3-mini,,,,Mistral Small 3 + Codestral 25.01,,DeepSeek-R1,Qwen2.5-Max + Qwen2.5-VL,,,,,MiniMax-Text-01 + MiniMax-VL-01,Kimi K1.5,Doubao 1.5,,,,,,,,,,,,Nemotron 3 family (Nano/Super/Ultra),,,,,Trae,NVIDIA Nemotron 3,
 25-Feb,,GPT-4.5,Claude 3.7 Sonnet + Claude Code,Gemini 2.0 Pro,,,Grok 3,Janus-Pro,,,,,,,kimi-latest,,,Step-Video-T2V + Step-Audio,,,,,,,,,,,,,,,,,
 25-Mar,,o1 Pro,,Gemini 2.5 Pro + Gemma 3,,Mistral Small 3.1,Grok-3 mini,DeepSeek-V3-0324,Qwen2.5-Omni,Aya Vision + Command A,ERNIE 4.5 + X1,AutoGLM Rumination,,,,,Ling-Plus + Ling-Lite,,,,,,,,,,,,,,,,Manus,,
 25-Apr,OpenCode,GPT-4.1 + GPT-4.1 mini + GPT-4.1 nano + o3 + o4-mini,,Gemini 2.5 Flash,Llama 4 Scout + Llama 4 Maverick,,,,Qwen3,,ERNIE 4.5 Turbo + X1 Turbo,,Spark X1,Speech-02,,Doubao 1.5 Thinking,,Step-R1-V-Mini,,Kling 2.0,,,,,,,Apple Intelligence iOS 18.4,,,Nova Premier,,,,,
-25-May,,Codex,Claude 4 Sonnet + Claude 4 Opus,,,Mistral Medium 3 + Devstral,,DeepSeek-R1-0528 + DeepSeek-Prover-V2,,,,,,,kimi-thinking-preview,,Ling-lite-1.5 + Ming-Lite-Omni,,MiMo-7B,Kling 2.1,,,,,,,,,,,,,,,
+25-May,,Codex,Claude 4 Sonnet + Claude 4 Opus,Veo 3,,Mistral Medium 3 + Devstral,,DeepSeek-R1-0528 + DeepSeek-Prover-V2,,,,,,,kimi-thinking-preview,,Ling-lite-1.5 + Ming-Lite-Omni,,MiMo-7B,Kling 2.1,,,,,,,,,,,,,,,
 25-Jun,,o3-pro,,Gemini CLI,,Magistral Small 1.0 + Magistral Medium 1.0 + Mistral Small 3.2,,,,,,,,MiniMax-M1,,Doubao 1.6 + Seedance 1.0,Ring-lite,,,,,PanGu 5.5,Hunyuan-A13B,,,,,,,,,,,AMD MI350X,AWS GPU降价45%
 25-Jul,Hermes Agent,,,Gemma 3n + Gemini 2.5 Flash-Lite,,Devstral Medium + Voxtral,Grok 4,,Qwen3-Coder + Qwen-MT,Command A Vision,ERNIE 4.5 Open,GLM-4.5,,,Kimi K2,,Ming-Lite-Omni-1.5,Step 3,,,,,Hunyuan-TurboS,,,,,,,,,,,,
 25-Aug,,GPT-5,Claude Opus 4.1,,,,,DeepSeek-V3.1,,,,,,,Kimi K2 Turbo Preview,,,,,Kling 2.5,,,Hunyuan-T1,,,,,,,,,,,,
 25-Sep,,,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,Qwen CLI,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,CodeBuddy,,
-25-Oct,,,Claude Haiku 4.5,,,,,,,,,,,,Kimi CLI,,Ling-1T + Ring-1T + Ming-flash-omni-Preview,,,,Nanbeige4-3B-Thinking-2510,,,,,,,,,,,,,,
+25-Oct,,,Claude Haiku 4.5,Veo 3.1,,,,,,,,,,,,Kimi CLI,,Ling-1T + Ring-1T + Ming-flash-omni-Preview,,,,Nanbeige4-3B-Thinking-2510,,,,,,,,,,,,,
 25-Nov,OpenClaw,GPT-5.1,Claude Opus 4.5,Gemini 3,,,Grok 4.1 + Grok 4.1 Fast,,,,ERNIE 5.0,,,,Kimi K2 Thinking,Doubao Seed Code,,,MiMo-VL Miloco-7B + MiMo-Embodied-7B,,,,HY 2.0 Think + HY 2.0 Instruct,,,,,,,,,,,,
 25-Dec,Oh-My-OpenAgent,GPT-5.2,,,,Mistral Large 3 + Ministral 3,,DeepSeek-V3.2,,,,,,,,,,,MiMo-V2-Flash,Kling O1 + Kling 2.6,Nanbeige4-3B,,,,,,,Nemotron 3 Nano,,Nova 2 Lite + Nova 2 Pro + Nova 2 Sonic,,,,NVIDIA Nemotron 3 Nano,CoreWeave 再融资85亿美元建数据中心
 26-Jan,andrej-karpathy-skills + oh-my-claudecode,,,,,,,,,,,,,,Kimi K2.5,,AReaL-SEA,,,Kling 3.0,,,,,,,,,,,,,,Microsoft Maia 200,
