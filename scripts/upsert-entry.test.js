@@ -47,7 +47,10 @@ function testAppendToExistingCell() {
   assert.equal(result.addedModel, true);
   assert.match(csv, /25-Apr,GPT-4\.1 \+ o4-mini,Gemini 2\.5 Flash/);
   assert.match(md, /\| 25-Apr \| \[GPT-4\.1\]\(https:\/\/openai\.com\/gpt-4-1\) \+ \[o4-mini\]\(https:\/\/openai\.com\/o4-mini\) \|/);
-  assert.deepEqual(data.rows[0].OpenAI, ['GPT-4.1', 'o4-mini']);
+  assert.deepEqual(data.rows[0].OpenAI, [
+    { name: 'GPT-4.1', url: 'https://openai.com/gpt-4-1' },
+    { name: 'o4-mini', url: 'https://openai.com/o4-mini' }
+  ]);
 }
 
 function testInsertMissingMonthInOrder() {

@@ -9,7 +9,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { joinModels, normalizeModels } = require('./model-utils');
+const { joinModels, normalizeModelEntries, normalizeModels } = require('./model-utils');
 
 const [, , csvArg, mdArg, outArg] = process.argv;
 const CSV_PATH = csvArg || 'llm_release_timeline_2022-11_to_2026-04.csv';
@@ -100,7 +100,7 @@ function parseMD(mdPath) {
   return { links, tableRows };
 }
 
-function buildDataJSON(headers, rows) {
+function buildDataJSON(headers, rows, links = {}) {
   const vendors = headers.filter(header => header !== 'Month');
 
   return {
@@ -108,7 +108,7 @@ function buildDataJSON(headers, rows) {
     rows: rows.map(row => {
       const nextRow = { Month: row.Month };
       vendors.forEach(vendor => {
-        nextRow[vendor] = normalizeModels(row[vendor]);
+        nextRow[vendor] = normalizeModelEntries(row[vendor], links);
       });
       return nextRow;
     })
@@ -135,9 +135,9 @@ function generateReadme(vendors, rows, links, onlineUrl, githubUrl) {
   }
 
   function formatCell(value) {
-    const linkedModels = normalizeModels(value).map(model => {
-      const url = findUrl(model);
-      return url ? `[${model}](${url})` : model;
+    const linkedModels = normalizeModelEntries(value, links).map(entry => {
+      const url = entry.url || findUrl(entry.name);
+      return url ? `[${entry.name}](${url})` : entry.name;
     });
 
     return joinModels(linkedModels);
@@ -213,7 +213,7 @@ function main() {
 
   const { headers, rows } = parseCSV(CSV_PATH);
   const { links: mdLinks } = parseMD(MD_PATH);
-  const dataJSON = buildDataJSON(headers, rows);
+  const dataJSON = buildDataJSON(headers, rows, mdLinks);
   const linksJSON = buildLinksJSON(mdLinks);
   const readme = generateReadme(
     dataJSON.vendors,

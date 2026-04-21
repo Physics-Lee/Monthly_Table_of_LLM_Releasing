@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 
-const { normalizeModels, joinModels } = require('./model-utils');
+const { joinModels, normalizeModelEntries, normalizeModels } = require('./model-utils');
 const { buildDataJSON, generateReadme, parseCSV, parseMD } = require('./build-json');
 
 function testNormalizeModels() {
@@ -20,6 +20,17 @@ function testNormalizeModels() {
   ]);
 
   assert.equal(joinModels(['GPT-4.1', 'GPT-4.1 mini', 'o3']), 'GPT-4.1 + GPT-4.1 mini + o3');
+
+  assert.deepEqual(normalizeModelEntries(
+    ['GPT-4.1', 'GPT-4.1 mini'],
+    {
+      'GPT-4.1': 'https://openai.com/gpt-4-1',
+      'GPT-4.1 mini': 'https://openai.com/gpt-4-1-mini'
+    }
+  ), [
+    { name: 'GPT-4.1', url: 'https://openai.com/gpt-4-1' },
+    { name: 'GPT-4.1 mini', url: 'https://openai.com/gpt-4-1-mini' }
+  ]);
 }
 
 function testBuildJson() {
@@ -38,7 +49,7 @@ function testBuildJson() {
 
   const { headers, rows } = parseCSV(csvPath);
   const { links } = parseMD(mdPath);
-  const data = buildDataJSON(headers, rows);
+  const data = buildDataJSON(headers, rows, links);
   const readme = generateReadme(
     data.vendors,
     data.rows,
@@ -47,8 +58,13 @@ function testBuildJson() {
     'https://example.com/repo'
   );
 
-  assert.deepEqual(data.rows[0].OpenAI, ['GPT-4.1', 'GPT-4.1 mini']);
-  assert.deepEqual(data.rows[0].Google, ['Gemini 2.5 Flash']);
+  assert.deepEqual(data.rows[0].OpenAI, [
+    { name: 'GPT-4.1', url: 'https://openai.com/gpt-4-1' },
+    { name: 'GPT-4.1 mini', url: 'https://openai.com/gpt-4-1' }
+  ]);
+  assert.deepEqual(data.rows[0].Google, [
+    { name: 'Gemini 2.5 Flash', url: 'https://example.com/gemini' }
+  ]);
   assert.match(readme, /\[GPT-4\.1\]\(https:\/\/openai\.com\/gpt-4-1\) \+ \[GPT-4\.1 mini\]\(https:\/\/openai\.com\/gpt-4-1\)/);
 }
 

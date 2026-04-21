@@ -111,7 +111,7 @@ function renderMarkdownTable(headers, rows, links) {
 }
 
 function writeBuildOutputs(headers, rows, links, outputDir) {
-  const dataJSON = buildDataJSON(headers, rows);
+  const dataJSON = buildDataJSON(headers, rows, links);
   const linksJSON = buildLinksJSON(links);
   const readme = generateReadme(
     dataJSON.vendors,

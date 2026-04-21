@@ -1,12 +1,11 @@
 // Global state
 let allData = { vendors: [], rows: [] };
-let links = {};
 let activeVendors = new Set();
 let activeYear = 'all';
 let searchQuery = '';
 let sortOrder = 'desc';
 
-const { flattenRowText, normalizeModels } = window.ModelUtils;
+const { flattenRowText, normalizeModelEntries } = window.ModelUtils;
 
 const VENDOR_NAMES = {
   'OpenAI': 'OpenAI',
@@ -47,7 +46,7 @@ const VENDOR_NAMES = {
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
-  await Promise.all([loadData(), loadLinks()]);
+  await loadData();
   updateVendorList();
   initFilters();
   render();
@@ -66,15 +65,6 @@ async function loadData() {
   const res = await fetch('data.json');
   allData = await res.json();
   activeVendors = new Set(allData.vendors);
-}
-
-async function loadLinks() {
-  try {
-    const res = await fetch('links.json');
-    links = await res.json();
-  } catch (error) {
-    links = {};
-  }
 }
 
 async function loadChangelog() {
@@ -209,29 +199,14 @@ function render() {
 }
 
 function formatCell(value) {
-  const models = normalizeModels(value);
+  const models = normalizeModelEntries(value);
   if (models.length === 0) return '';
 
   return models.map(model => {
-    const url = findUrl(model);
-    if (url) {
-      return `<a href="${url}" target="_blank" class="model-link">${model}</a>`;
+    if (model.url) {
+      return `<a href="${model.url}" target="_blank" class="model-link">${model.name}</a>`;
     }
 
-    return `<span class="model-item-text">${model}</span>`;
+    return `<span class="model-item-text">${model.name}</span>`;
   }).map(html => `<span class="model-item">${html}</span>`).join('');
-}
-
-function findUrl(model) {
-  if (links[model]) return links[model];
-
-  const clean = model.replace(/`/g, '').trim();
-  if (links[clean]) return links[clean];
-
-  for (const [key, url] of Object.entries(links)) {
-    if (key.toLowerCase() === model.toLowerCase()) return url;
-    if (key.toLowerCase() === clean.toLowerCase()) return url;
-  }
-
-  return null;
 }

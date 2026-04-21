@@ -40,10 +40,16 @@
     {
       "Month": "22-Nov",
       "Open-Source": [
-        "LangChain"
+        {
+          "name": "LangChain",
+          "url": "https://github.com/langchain-ai/langchain"
+        }
       ],
       "OpenAI": [
-        "ChatGPT GPT-3.5"
+        {
+          "name": "ChatGPT GPT-3.5",
+          "url": "https://openai.com/index/chatgpt/"
+        }
       ],
       "Anthropic": [],
       "Google": [],
@@ -114,7 +120,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Perplexity"
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -160,15 +169,24 @@
     {
       "Month": "23-Feb",
       "Open-Source": [
-        "vLLM"
+        {
+          "name": "vLLM",
+          "url": "https://github.com/vllm-project/vllm"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
       "Google": [
-        "Bard"
+        {
+          "name": "Bard",
+          "url": "https://blog.google/technology/ai/introducing-bard/"
+        }
       ],
       "Meta": [
-        "Llama 1"
+        {
+          "name": "Llama 1",
+          "url": "https://github.com/facebookresearch/llama"
+        }
       ],
       "Mistral": [],
       "xAI": [],
@@ -198,9 +216,18 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Notion AI",
-        "Poe",
-        "Sourcegraph Cody"
+        {
+          "name": "Notion AI",
+          "url": "https://www.notion.so/product/ai"
+        },
+        {
+          "name": "Poe",
+          "url": "https://poe.com/"
+        },
+        {
+          "name": "Sourcegraph Cody",
+          "url": "https://sourcegraph.com/cody"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -208,14 +235,26 @@
     {
       "Month": "23-Mar",
       "Open-Source": [
-        "AutoGPT",
-        "llama.cpp"
+        {
+          "name": "AutoGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT"
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
       ],
       "OpenAI": [
-        "GPT-4"
+        {
+          "name": "GPT-4",
+          "url": "https://openai.com/index/gpt-4"
+        }
       ],
       "Anthropic": [
-        "Claude 1"
+        {
+          "name": "Claude 1",
+          "url": "https://www.anthropic.com/news/introducing-claude"
+        }
       ],
       "Google": [],
       "Meta": [],
@@ -225,10 +264,16 @@
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [
-        "ERNIE Bot"
+        {
+          "name": "ERNIE Bot",
+          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html"
+        }
       ],
       "GLM-Z.ai": [
-        "ChatGLM"
+        {
+          "name": "ChatGLM",
+          "url": "https://github.com/THUDM/ChatGLM"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
@@ -251,11 +296,26 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Cursor",
-        "Sider",
-        "Monica",
-        "Gamma",
-        "GPT4All"
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/"
+        },
+        {
+          "name": "Sider",
+          "url": "https://sider.ai/"
+        },
+        {
+          "name": "Monica",
+          "url": "https://monica.im/"
+        },
+        {
+          "name": "Gamma",
+          "url": "https://gamma.app/"
+        },
+        {
+          "name": "GPT4All",
+          "url": "https://github.com/nomic-ai/gpt4all"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -263,7 +323,10 @@
     {
       "Month": "23-Apr",
       "Open-Source": [
-        "Axolotl"
+        {
+          "name": "Axolotl",
+          "url": "https://github.com/axolotl-ai-cloud/axolotl"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
@@ -297,7 +360,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Grammarly"
+        {
+          "name": "Grammarly",
+          "url": "https://www.grammarly.com/grammarlygo"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -308,7 +374,10 @@
       "OpenAI": [],
       "Anthropic": [],
       "Google": [
-        "PaLM 2"
+        {
+          "name": "PaLM 2",
+          "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
+        }
       ],
       "Meta": [],
       "Mistral": [],
@@ -319,7 +388,10 @@
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [
-        "Spark 1.0"
+        {
+          "name": "Spark 1.0",
+          "url": "https://mp.weixin.qq.com/s/3esI9MJsHgHuMZHNOFuVuA"
+        }
       ],
       "MiniMax": [],
       "Kimi-Moonshot": [],
@@ -341,7 +413,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "LM Studio"
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -349,8 +424,14 @@
     {
       "Month": "23-Jun",
       "Open-Source": [
-        "Ollama",
-        "LLaMA-Factory"
+        {
+          "name": "Ollama",
+          "url": "https://github.com/ollama/ollama"
+        },
+        {
+          "name": "LLaMA-Factory",
+          "url": "https://github.com/hiyouga/LLaMA-Factory"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
@@ -363,10 +444,16 @@
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
-        "ChatGLM2"
+        {
+          "name": "ChatGLM2",
+          "url": "https://github.com/THUDM/ChatGLM2-6B"
+        }
       ],
       "iFlytek": [
-        "Spark 1.5"
+        {
+          "name": "Spark 1.5",
+          "url": "https://wap.bjd.com.cn/news/2023/05/06/10422555.shtml"
+        }
       ],
       "MiniMax": [],
       "Kimi-Moonshot": [],
@@ -380,11 +467,20 @@
       "Tencent": [],
       "01.AI": [],
       "Baichuan-Intelligence": [
-        "Baichuan-7B",
-        "Baichuan-13B"
+        {
+          "name": "Baichuan-7B",
+          "url": "https://github.com/baichuan-inc/Baichuan-7B"
+        },
+        {
+          "name": "Baichuan-13B",
+          "url": "https://github.com/baichuan-inc/Baichuan-7B"
+        }
       ],
       "Microsoft": [
-        "Phi-1"
+        {
+          "name": "Phi-1",
+          "url": "https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need/"
+        }
       ],
       "Apple": [],
       "NVIDIA": [],
@@ -393,7 +489,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "AnythingLLM"
+        {
+          "name": "AnythingLLM",
+          "url": "https://anythingllm.com/"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -403,11 +502,17 @@
       "Open-Source": [],
       "OpenAI": [],
       "Anthropic": [
-        "Claude 2"
+        {
+          "name": "Claude 2",
+          "url": "https://www.anthropic.com/news/claude-2"
+        }
       ],
       "Google": [],
       "Meta": [
-        "Llama 2"
+        {
+          "name": "Llama 2",
+          "url": "https://ai.meta.com/blog/meta-llama-2/"
+        }
       ],
       "Mistral": [],
       "xAI": [],
@@ -415,7 +520,10 @@
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [
-        "ERNIE 3.5"
+        {
+          "name": "ERNIE 3.5",
+          "url": "https://gigazine.net/gsc_news/en/20230628-baidu-ernie-3-5/"
+        }
       ],
       "GLM-Z.ai": [],
       "iFlytek": [],
@@ -428,7 +536,10 @@
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
       "Huawei": [
-        "PanGu 3.0"
+        {
+          "name": "PanGu 3.0",
+          "url": "https://www.huaweicloud.com/intl/en-us/news/20230707180809498.html"
+        }
       ],
       "Tencent": [],
       "01.AI": [],
@@ -447,11 +558,17 @@
     {
       "Month": "23-Aug",
       "Open-Source": [
-        "Jan"
+        {
+          "name": "Jan",
+          "url": "https://github.com/janhq/jan"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [
-        "Claude Instant 1.2"
+        {
+          "name": "Claude Instant 1.2",
+          "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
+        }
       ],
       "Google": [],
       "Meta": [],
@@ -459,27 +576,48 @@
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen-7B",
-        "Qwen-VL",
-        "Qwen-VL-Chat"
+        {
+          "name": "Qwen-7B",
+          "url": "https://huggingface.co/Qwen/Qwen-7B"
+        },
+        {
+          "name": "Qwen-VL",
+          "url": "https://huggingface.co/Qwen/Qwen-VL"
+        },
+        {
+          "name": "Qwen-VL-Chat",
+          "url": "https://github.com/QwenLM/Qwen-VL"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [
-        "Spark 2.0"
+        {
+          "name": "Spark 2.0",
+          "url": "https://app.dahecube.com/nweb/news/20230506/161691n915c3f8b152.htm"
+        }
       ],
       "MiniMax": [],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [
-        "Doubao"
+        {
+          "name": "Doubao",
+          "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
+        }
       ],
       "Ant-Group": [
-        "Bailing"
+        {
+          "name": "Bailing",
+          "url": "https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [
-        "MiLM-6B"
+        {
+          "name": "MiLM-6B",
+          "url": "https://github.com/XiaoMi/MiLM-6B"
+        }
       ],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
@@ -496,7 +634,10 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "SK Hynix HBM3E"
+        {
+          "name": "SK Hynix HBM3E",
+          "url": "https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/"
+        }
       ],
       "AI-Cloud": []
     },
@@ -504,18 +645,27 @@
       "Month": "23-Sep",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-4V"
+        {
+          "name": "GPT-4V",
+          "url": "https://openai.com/index/gpt-4v-system-card/"
+        }
       ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
       "Mistral": [
-        "Mistral 7B"
+        {
+          "name": "Mistral 7B",
+          "url": "https://mistral.ai/news/announcing-mistral-7b"
+        }
       ],
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen-14B"
+        {
+          "name": "Qwen-14B",
+          "url": "https://huggingface.co/Qwen"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
@@ -531,14 +681,23 @@
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "Hunyuan"
+        {
+          "name": "Hunyuan",
+          "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [
-        "Baichuan 2"
+        {
+          "name": "Baichuan 2",
+          "url": "https://github.com/baichuan-inc/Baichuan-7B"
+        }
       ],
       "Microsoft": [
-        "Phi-1.5"
+        {
+          "name": "Phi-1.5",
+          "url": "https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need-ii-phi-1-5-technical-report/"
+        }
       ],
       "Apple": [],
       "NVIDIA": [],
@@ -553,8 +712,14 @@
     {
       "Month": "23-Oct",
       "Open-Source": [
-        "CrewAI",
-        "DSPy"
+        {
+          "name": "CrewAI",
+          "url": "https://github.com/crewAIInc/crewAI"
+        },
+        {
+          "name": "DSPy",
+          "url": "https://github.com/stanfordnlp/dspy"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
@@ -566,19 +731,31 @@
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [
-        "ERNIE 4.0"
+        {
+          "name": "ERNIE 4.0",
+          "url": "https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html"
+        }
       ],
       "GLM-Z.ai": [
-        "ChatGLM3"
+        {
+          "name": "ChatGLM3",
+          "url": "https://github.com/THUDM/ChatGLM3"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi Chat"
+        {
+          "name": "Kimi Chat",
+          "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "CodeFuse"
+        {
+          "name": "CodeFuse",
+          "url": "https://github.com/codefuse-ai"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
@@ -596,7 +773,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Raycast AI"
+        {
+          "name": "Raycast AI",
+          "url": "https://www.raycast.com/ai"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -605,32 +785,59 @@
       "Month": "23-Nov",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-4 Turbo"
+        {
+          "name": "GPT-4 Turbo",
+          "url": "https://openai.com/index/gpt-4-turbo"
+        }
       ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
       "Mistral": [],
       "xAI": [
-        "Grok-1"
+        {
+          "name": "Grok-1",
+          "url": "https://techcrunch.com/2023/11/04/xai-launches-grok-its-gpt-4-rival-built-by-xai/"
+        }
       ],
       "DeepSeek": [
-        "DeepSeek-LLM",
-        "DeepSeek-Coder"
+        {
+          "name": "DeepSeek-LLM",
+          "url": "https://github.com/deepseek-ai/DeepSeek-LLM"
+        },
+        {
+          "name": "DeepSeek-Coder",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
+        }
       ],
       "Qwen-Alibaba": [
-        "Qwen-72B",
-        "Qwen-Audio"
+        {
+          "name": "Qwen-72B",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen-Audio",
+          "url": "https://huggingface.co/Qwen/Qwen-Audio"
+        }
       ],
       "Cohere": [
-        "Embed v3",
-        "Rerank v3"
+        {
+          "name": "Embed v3",
+          "url": "https://cohere.com/blog/introducing-embed-v3"
+        },
+        {
+          "name": "Rerank v3",
+          "url": "https://cohere.com/blog/rerank-3"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [
-        "abab5"
+        {
+          "name": "abab5",
+          "url": "https://www.scmp.com/tech/big-tech/article/3240828/"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
@@ -641,49 +848,91 @@
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "Hunyuan Standard"
+        {
+          "name": "Hunyuan Standard",
+          "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
+        }
       ],
       "01.AI": [
-        "Yi-6B",
-        "Yi-34B"
+        {
+          "name": "Yi-6B",
+          "url": "https://huggingface.co/01-ai"
+        },
+        {
+          "name": "Yi-34B",
+          "url": "https://huggingface.co/01-ai"
+        }
       ],
       "Baichuan-Intelligence": [],
       "Microsoft": [],
       "Apple": [
-        "MLX"
+        {
+          "name": "MLX",
+          "url": "https://github.com/ml-explore/mlx"
+        }
       ],
       "NVIDIA": [],
       "Stability": [],
       "Amazon": [
-        "Titan Text Express",
-        "Titan Text Lite"
+        {
+          "name": "Titan Text Express",
+          "url": "https://aws.amazon.com/bedrock/titan/"
+        },
+        {
+          "name": "Titan Text Lite",
+          "url": "https://aws.amazon.com/bedrock/titan/"
+        }
       ],
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "AWS Trainium2"
+        {
+          "name": "AWS Trainium2",
+          "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
+        }
       ],
       "AI-Cloud": []
     },
     {
       "Month": "23-Dec",
       "Open-Source": [
-        "RAGFlow"
+        {
+          "name": "RAGFlow",
+          "url": "https://github.com/infiniflow/ragflow"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [
-        "Claude 2.1"
+        {
+          "name": "Claude 2.1",
+          "url": "https://www.anthropic.com/news/claude-2"
+        }
       ],
       "Google": [
-        "Gemini 1.0 Ultra",
-        "Pro",
-        "Nano"
+        {
+          "name": "Gemini 1.0 Ultra",
+          "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
+        },
+        {
+          "name": "Pro",
+          "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
+        },
+        {
+          "name": "Nano",
+          "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Mixtral 8x7B",
-        "Mistral Medium"
+        {
+          "name": "Mixtral 8x7B",
+          "url": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "Mistral Medium",
+          "url": "https://mistral.ai/news/announcing-mistral-7b"
+        }
       ],
       "xAI": [],
       "DeepSeek": [],
@@ -693,12 +942,18 @@
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [
-        "abab5.5"
+        {
+          "name": "abab5.5",
+          "url": "https://www.reuters.com/technology/chinese-startup-minimax-launches-abab55-2023-12-05/"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "Bailing 2.0"
+        {
+          "name": "Bailing 2.0",
+          "url": "https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
@@ -709,10 +964,16 @@
       "01.AI": [],
       "Baichuan-Intelligence": [],
       "Microsoft": [
-        "Phi-2"
+        {
+          "name": "Phi-2",
+          "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/"
+        }
       ],
       "Apple": [
-        "Ferret"
+        {
+          "name": "Ferret",
+          "url": "https://github.com/apple/ml-ferret"
+        }
       ],
       "NVIDIA": [],
       "Stability": [],
@@ -721,19 +982,37 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "AMD MI300X",
-        "Google TPU v5p"
+        {
+          "name": "AMD MI300X",
+          "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html"
+        },
+        {
+          "name": "Google TPU v5p",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"
+        }
       ],
       "AI-Cloud": [
-        "Google AI Hypercomputer"
+        {
+          "name": "Google AI Hypercomputer",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"
+        }
       ]
     },
     {
       "Month": "24-Jan",
       "Open-Source": [
-        "AutoGen",
-        "LangGraph",
-        "SGLang"
+        {
+          "name": "AutoGen",
+          "url": "https://github.com/microsoft/autogen"
+        },
+        {
+          "name": "LangGraph",
+          "url": "https://github.com/langchain-ai/langgraph"
+        },
+        {
+          "name": "SGLang",
+          "url": "https://github.com/sgl-project/sglang"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
@@ -742,20 +1021,32 @@
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-MoE"
+        {
+          "name": "DeepSeek-MoE",
+          "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
-        "GLM-4"
+        {
+          "name": "GLM-4",
+          "url": "https://github.com/THUDM/GLM-4"
+        }
       ],
       "iFlytek": [
-        "Spark 3.0"
+        {
+          "name": "Spark 3.0",
+          "url": "https://www.geekpark.net/news/331090"
+        }
       ],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "moonshot-v1"
+        {
+          "name": "moonshot-v1",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
@@ -766,10 +1057,16 @@
       "Huawei": [],
       "Tencent": [],
       "01.AI": [
-        "Yi-VL"
+        {
+          "name": "Yi-VL",
+          "url": "https://huggingface.co/01-ai"
+        }
       ],
       "Baichuan-Intelligence": [
-        "Baichuan 3"
+        {
+          "name": "Baichuan 3",
+          "url": "https://pandaily.com/baichuan-ai-releases-large-scale-model-baichuan-3/"
+        }
       ],
       "Microsoft": [],
       "Apple": [],
@@ -788,23 +1085,44 @@
       "OpenAI": [],
       "Anthropic": [],
       "Google": [
-        "Gemma",
-        "Gemini 1.5 Pro"
+        {
+          "name": "Gemma",
+          "url": "https://blog.google/technology/developers/gemma-open-models"
+        },
+        {
+          "name": "Gemini 1.5 Pro",
+          "url": "https://blog.google/technology/ai/google-gemini-1-5-pro/"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Mistral Large",
-        "Mistral Small"
+        {
+          "name": "Mistral Large",
+          "url": "https://mistral.ai/news/mistral-large-2407/"
+        },
+        {
+          "name": "Mistral Small",
+          "url": "https://mistral.ai/news/mistral-small-2402/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-Math"
+        {
+          "name": "DeepSeek-Math",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Math"
+        }
       ],
       "Qwen-Alibaba": [
-        "Qwen1.5"
+        {
+          "name": "Qwen1.5",
+          "url": "https://huggingface.co/Qwen"
+        }
       ],
       "Cohere": [
-        "Aya"
+        {
+          "name": "Aya",
+          "url": "https://cohere.com/research/aya"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [],
@@ -824,14 +1142,23 @@
       "Microsoft": [],
       "Apple": [],
       "NVIDIA": [
-        "Nemotron-4 15B"
+        {
+          "name": "Nemotron-4 15B",
+          "url": "https://arxiv.org/abs/2402.16819"
+        }
       ],
       "Stability": [
-        "Stable Diffusion 3"
+        {
+          "name": "Stable Diffusion 3",
+          "url": "https://stability.ai/news/stable-diffusion-3"
+        }
       ],
       "Amazon": [],
       "SenseTime": [
-        "SenseNova 4.0"
+        {
+          "name": "SenseNova 4.0",
+          "url": "https://www.sensetime.com/"
+        }
       ],
       "AI21": [],
       "LLM-Applications": [],
@@ -841,32 +1168,59 @@
     {
       "Month": "24-Mar",
       "Open-Source": [
-        "OpenHands"
+        {
+          "name": "OpenHands",
+          "url": "https://github.com/OpenHands/OpenHands"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [
-        "Claude 3 Opus",
-        "Sonnet",
-        "Haiku"
+        {
+          "name": "Claude 3 Opus",
+          "url": "https://www.anthropic.com/index/claude-3-family"
+        },
+        {
+          "name": "Sonnet",
+          "url": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "Haiku",
+          "url": "https://www.anthropic.com/news/claude-3-haiku"
+        }
       ],
       "Google": [],
       "Meta": [],
       "Mistral": [],
       "xAI": [
-        "Grok-1",
-        "Grok-1.5"
+        {
+          "name": "Grok-1",
+          "url": "https://techcrunch.com/2023/11/04/xai-launches-grok-its-gpt-4-rival-built-by-xai/"
+        },
+        {
+          "name": "Grok-1.5",
+          "url": "https://x.ai/blog/grok-1.5"
+        }
       ],
       "DeepSeek": [
-        "DeepSeek-VL"
+        {
+          "name": "DeepSeek-VL",
+          "url": "https://github.com/deepseek-ai/DeepSeek-VL"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [
-        "Command R"
+        {
+          "name": "Command R",
+          "url": "https://cohere.com/research/command-r"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [
-        "Spark 3.5"
+        {
+          "name": "Spark 3.5",
+          "url": "https://www.geekpark.net/news/331090"
+        }
       ],
       "MiniMax": [],
       "Kimi-Moonshot": [],
@@ -887,16 +1241,28 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [
-        "Jamba"
+        {
+          "name": "Jamba",
+          "url": "https://www.ai21.com/blog/announcing-jamba/"
+        }
       ],
       "LLM-Applications": [
-        "Windsurf"
+        {
+          "name": "Windsurf",
+          "url": "https://windsurf.com/"
+        }
       ],
       "AI-Chips": [
-        "NVIDIA Blackwell B200"
+        {
+          "name": "NVIDIA Blackwell B200",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing"
+        }
       ],
       "AI-Cloud": [
-        "AWS Trainium2 GA"
+        {
+          "name": "AWS Trainium2 GA",
+          "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
+        }
       ]
     },
     {
@@ -906,27 +1272,48 @@
       "Anthropic": [],
       "Google": [],
       "Meta": [
-        "Llama 3"
+        {
+          "name": "Llama 3",
+          "url": "https://ai.meta.com/blog/meta-llama-3/"
+        }
       ],
       "Mistral": [
-        "Mixtral 8x22B"
+        {
+          "name": "Mixtral 8x22B",
+          "url": "https://mistral.ai/news/mixtral-8x22b/"
+        }
       ],
       "xAI": [
-        "Grok-1.5V"
+        {
+          "name": "Grok-1.5V",
+          "url": "https://x.ai/blog/grok-1.5v"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen1.5-110B",
-        "CodeQwen1.5"
+        {
+          "name": "Qwen1.5-110B",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "CodeQwen1.5",
+          "url": "https://qwenlm.github.io/blog/codeqwen1.5/"
+        }
       ],
       "Cohere": [
-        "Command R Plus"
+        {
+          "name": "Command R Plus",
+          "url": "https://cohere.com/research/command-r"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [
-        "ABAB 6.5"
+        {
+          "name": "ABAB 6.5",
+          "url": "https://www.minimax.io/news/abab65-series"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
@@ -940,10 +1327,16 @@
       "01.AI": [],
       "Baichuan-Intelligence": [],
       "Microsoft": [
-        "Phi-3-mini"
+        {
+          "name": "Phi-3-mini",
+          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
+        }
       ],
       "Apple": [
-        "OpenELM"
+        {
+          "name": "OpenELM",
+          "url": "https://machinelearning.apple.com/research/openelm"
+        }
       ],
       "NVIDIA": [],
       "Stability": [],
@@ -952,38 +1345,65 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "Microsoft Maia 100"
+        {
+          "name": "Microsoft Maia 100",
+          "url": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai/"
+        }
       ],
       "AI-Cloud": []
     },
     {
       "Month": "24-May",
       "Open-Source": [
-        "Cherry Studio"
+        {
+          "name": "Cherry Studio",
+          "url": "https://github.com/CherryHQ/cherry-studio"
+        }
       ],
       "OpenAI": [
-        "GPT-4o"
+        {
+          "name": "GPT-4o",
+          "url": "https://openai.com/index/gpt-4o"
+        }
       ],
       "Anthropic": [],
       "Google": [
-        "Gemini 1.5 Flash",
-        "Veo"
+        {
+          "name": "Gemini 1.5 Flash",
+          "url": "https://blog.google/technology/ai/google-gemini-1-5-flash/"
+        },
+        {
+          "name": "Veo",
+          "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Codestral"
+        {
+          "name": "Codestral",
+          "url": "https://mistral.ai/news/codestral/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-V2"
+        {
+          "name": "DeepSeek-V2",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V2/releases"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [
-        "Aya 23"
+        {
+          "name": "Aya 23",
+          "url": "https://cohere.com/research/aya"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [
-        "CogVLM2"
+        {
+          "name": "CogVLM2",
+          "url": "https://github.com/THUDM/CogVLM2"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
@@ -997,29 +1417,50 @@
       "Huawei": [],
       "Tencent": [],
       "01.AI": [
-        "Yi-1.5"
+        {
+          "name": "Yi-1.5",
+          "url": "https://huggingface.co/01-ai"
+        }
       ],
       "Baichuan-Intelligence": [
-        "Baichuan 4"
+        {
+          "name": "Baichuan 4",
+          "url": "https://www.onetts.com/ai/company/baichuan/"
+        }
       ],
       "Microsoft": [
-        "Phi-3-small",
-        "Phi-3-medium"
+        {
+          "name": "Phi-3-small",
+          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
+        },
+        {
+          "name": "Phi-3-medium",
+          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
+        }
       ],
       "Apple": [],
       "NVIDIA": [],
       "Stability": [],
       "Amazon": [
-        "Titan Text Premier"
+        {
+          "name": "Titan Text Premier",
+          "url": "https://aws.amazon.com/bedrock/titan/"
+        }
       ],
       "SenseTime": [
-        "SenseChat"
+        {
+          "name": "SenseChat",
+          "url": "https://www.sensetime.com/"
+        }
       ],
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": [
-        "CoreWeave raises $7.5B to build GPU data center"
+        {
+          "name": "CoreWeave raises $7.5B to build GPU data center",
+          "url": "https://www.coreweave.com/"
+        }
       ]
     },
     {
@@ -1027,38 +1468,59 @@
       "Open-Source": [],
       "OpenAI": [],
       "Anthropic": [
-        "Claude 3.5 Sonnet"
+        {
+          "name": "Claude 3.5 Sonnet",
+          "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        }
       ],
       "Google": [
-        "Gemma 2"
+        {
+          "name": "Gemma 2",
+          "url": "https://blog.google/technology/developers/google-gemma-2/"
+        }
       ],
       "Meta": [],
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen2"
+        {
+          "name": "Qwen2",
+          "url": "https://huggingface.co/Qwen"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [
-        "Spark 4.0"
+        {
+          "name": "Spark 4.0",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202305/08/t20230508_38536688.shtml"
+        }
       ],
       "MiniMax": [],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
       "StepFun": [
-        "Step-1V"
+        {
+          "name": "Step-1V",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [
-        "Kling 1.0"
+        {
+          "name": "Kling 1.0",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [
-        "PanGu 5.0"
+        {
+          "name": "PanGu 5.0",
+          "url": "https://news.aibase.com/news/9726"
+        }
       ],
       "Tencent": [],
       "01.AI": [],
@@ -1066,7 +1528,10 @@
       "Microsoft": [],
       "Apple": [],
       "NVIDIA": [
-        "Nemotron-4 340B"
+        {
+          "name": "Nemotron-4 340B",
+          "url": "https://arxiv.org/abs/2406.11704"
+        }
       ],
       "Stability": [],
       "Amazon": [],
@@ -1080,23 +1545,41 @@
       "Month": "24-Jul",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-4o mini"
+        {
+          "name": "GPT-4o mini",
+          "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+        }
       ],
       "Anthropic": [],
       "Google": [],
       "Meta": [
-        "Llama 3.1"
+        {
+          "name": "Llama 3.1",
+          "url": "https://ai.meta.com/blog/meta-llama-3-1/"
+        }
       ],
       "Mistral": [
-        "Mistral Large 2",
-        "Mistral Nemo"
+        {
+          "name": "Mistral Large 2",
+          "url": "https://mistral.ai/news/mistral-large-2407/"
+        },
+        {
+          "name": "Mistral Nemo",
+          "url": "https://mistral.ai/news/mistral-nemo"
+        }
       ],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-Coder-V2"
+        {
+          "name": "DeepSeek-Coder-V2",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
+        }
       ],
       "Qwen-Alibaba": [
-        "Qwen2-Audio"
+        {
+          "name": "Qwen2-Audio",
+          "url": "https://huggingface.co/Qwen/Qwen2-Audio"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
@@ -1107,7 +1590,10 @@
       "Doubao-ByteDance": [],
       "Ant-Group": [],
       "StepFun": [
-        "Step-2"
+        {
+          "name": "Step-2",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
@@ -1136,23 +1622,38 @@
       "Meta": [],
       "Mistral": [],
       "xAI": [
-        "Grok-2 beta"
+        {
+          "name": "Grok-2 beta",
+          "url": "https://x.ai/news/grok-2"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [
-        "ERNIE 4.0 Turbo"
+        {
+          "name": "ERNIE 4.0 Turbo",
+          "url": "https://www.reuters.com/technology/chinas-baidu-unveils-latest-version-its-ernie-ai-model-2023-10-17/"
+        }
       ],
       "GLM-Z.ai": [
-        "GLM-4-Plus"
+        {
+          "name": "GLM-4-Plus",
+          "url": "https://www.aibase.com/news/11400"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [
-        "Hailuo AI"
+        {
+          "name": "Hailuo AI",
+          "url": "https://www.scmp.com/tech/big-tech/article/3264825/"
+        }
       ],
       "Kimi-Moonshot": [
-        "moonshot-v1-auto"
+        {
+          "name": "moonshot-v1-auto",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
@@ -1167,57 +1668,102 @@
       "Microsoft": [],
       "Apple": [],
       "NVIDIA": [
-        "Llama-3.1-Nemotron-70B-Reward"
+        {
+          "name": "Llama-3.1-Nemotron-70B-Reward",
+          "url": "https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/"
+        }
       ],
       "Stability": [],
       "Amazon": [],
       "SenseTime": [],
       "AI21": [
-        "Jamba 1.5 Mini",
-        "Jamba 1.5 Large"
+        {
+          "name": "Jamba 1.5 Mini",
+          "url": "https://www.ai21.com/blog/announcing-jamba/"
+        },
+        {
+          "name": "Jamba 1.5 Large",
+          "url": "https://www.ai21.com/blog/announcing-jamba/"
+        }
       ],
       "LLM-Applications": [],
       "AI-Chips": [
-        "NVIDIA H200"
+        {
+          "name": "NVIDIA H200",
+          "url": "https://www.nvidia.com/en-us/data-center/h200/"
+        }
       ],
       "AI-Cloud": [
-        "Lambda Labs raises $320M to expand GPU cloud"
+        {
+          "name": "Lambda Labs raises $320M to expand GPU cloud",
+          "url": "https://lambda.ai/"
+        }
       ]
     },
     {
       "Month": "24-Sep",
       "Open-Source": [],
       "OpenAI": [
-        "o1-preview",
-        "o1-mini"
+        {
+          "name": "o1-preview",
+          "url": "https://openai.com/index/introducing-openai-o1-preview/"
+        },
+        {
+          "name": "o1-mini",
+          "url": "https://openai.com/index/introducing-openai-o1-preview/"
+        }
       ],
       "Anthropic": [],
       "Google": [],
       "Meta": [
-        "Llama 3.2"
+        {
+          "name": "Llama 3.2",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        }
       ],
       "Mistral": [
-        "Pixtral 12B"
+        {
+          "name": "Pixtral 12B",
+          "url": "https://mistral.ai/news/pixtral-12b/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen2.5",
-        "Qwen2.5-Coder",
-        "Qwen2.5-Math",
-        "Qwen2-VL"
+        {
+          "name": "Qwen2.5",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen2.5-Coder",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen2.5-Math",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen2-VL",
+          "url": "https://qwenlm.github.io/blog/qwen2-vl/"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [
-        "Video-01"
+        {
+          "name": "Video-01",
+          "url": "https://www.minimax.io/news/video-01"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "Zhixiaobao"
+        {
+          "name": "Zhixiaobao",
+          "url": "https://www.businesswire.com/news/home/20240904932587/en/Ant-Group-Launches-AI-Powered-Mobile-App-Zhixiaobao-at-2024-INCLUSIONConference-on-the-Bund"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
@@ -1243,29 +1789,44 @@
       "Open-Source": [],
       "OpenAI": [],
       "Anthropic": [
-        "Claude 3.5 Sonnet v2"
+        {
+          "name": "Claude 3.5 Sonnet v2",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        }
       ],
       "Google": [],
       "Meta": [],
       "Mistral": [
-        "Ministral 8B"
+        {
+          "name": "Ministral 8B",
+          "url": "https://mistral.ai/news/ministraux/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [],
       "Cohere": [
-        "Aya Expanse"
+        {
+          "name": "Aya Expanse",
+          "url": "https://cohere.com/research/aya"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [
-        "AutoGLM"
+        {
+          "name": "AutoGLM",
+          "url": "https://github.com/zai-org/Open-AutoGLM"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "CodeFuse-CGM"
+        {
+          "name": "CodeFuse-CGM",
+          "url": "https://github.com/codefuse-ai"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
@@ -1273,18 +1834,30 @@
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "Hunyuan-lite"
+        {
+          "name": "Hunyuan-lite",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
       "Microsoft": [],
       "Apple": [
-        "Apple Intelligence",
-        "Ferret-UI"
+        {
+          "name": "Apple Intelligence",
+          "url": "https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/"
+        },
+        {
+          "name": "Ferret-UI",
+          "url": "https://github.com/apple/ml-ferret"
+        }
       ],
       "NVIDIA": [],
       "Stability": [
-        "Stable Diffusion 3.5"
+        {
+          "name": "Stable Diffusion 3.5",
+          "url": "https://stability.ai/news/stable-diffusion-3-5"
+        }
       ],
       "Amazon": [],
       "SenseTime": [],
@@ -1296,24 +1869,45 @@
     {
       "Month": "24-Nov",
       "Open-Source": [
-        "Unsloth",
-        "MarkItDown"
+        {
+          "name": "Unsloth",
+          "url": "https://github.com/unslothai/unsloth"
+        },
+        {
+          "name": "MarkItDown",
+          "url": "https://github.com/microsoft/markitdown"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [
-        "Claude 3.5 Haiku"
+        {
+          "name": "Claude 3.5 Haiku",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        }
       ],
       "Google": [],
       "Meta": [],
       "Mistral": [
-        "Mistral Large 2.1",
-        "Pixtral Large"
+        {
+          "name": "Mistral Large 2.1",
+          "url": "https://mistral.ai/news/mistral-large-2407/"
+        },
+        {
+          "name": "Pixtral Large",
+          "url": "https://mistral.ai/news/pixtral-large-2501/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen2.5-Coder Family",
-        "QwQ-32B"
+        {
+          "name": "Qwen2.5-Coder Family",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "QwQ-32B",
+          "url": "https://qwenlm.github.io/blog/qwq-32b-preview/"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
@@ -1346,30 +1940,57 @@
       "Month": "24-Dec",
       "Open-Source": [],
       "OpenAI": [
-        "o1",
-        "Sora"
+        {
+          "name": "o1",
+          "url": "https://openai.com/blog/learning-to-reason-with-llms"
+        },
+        {
+          "name": "Sora",
+          "url": "https://openai.com/index/sora-is-here/"
+        }
       ],
       "Anthropic": [],
       "Google": [
-        "Gemini 2.0 Flash",
-        "Veo 2"
+        {
+          "name": "Gemini 2.0 Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+        },
+        {
+          "name": "Veo 2",
+          "url": "https://deepmind.google/blog/state-of-the-art-video-and-image-generation-with-veo-2-and-imagen-3/"
+        }
       ],
       "Meta": [
-        "Llama 3.3"
+        {
+          "name": "Llama 3.3",
+          "url": "https://llama.meta.com/llama3_3/license/"
+        }
       ],
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-V3",
-        "DeepSeek-V2.5-1210"
+        {
+          "name": "DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        {
+          "name": "DeepSeek-V2.5-1210",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [
-        "Command R7B"
+        {
+          "name": "Command R7B",
+          "url": "https://cohere.com/research/command-r"
+        }
       ],
       "Baidu": [],
       "GLM-Z.ai": [
-        "GLM-Zero-Preview"
+        {
+          "name": "GLM-Zero-Preview",
+          "url": "https://www.ctol.digital/news/zhipu-ai-glm-zero-preview-vs-openai-o1-ai-race/"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
@@ -1379,7 +2000,10 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [
-        "Kling 1.6"
+        {
+          "name": "Kling 1.6",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1388,61 +2012,115 @@
       "Baichuan-Intelligence": [],
       "Microsoft": [],
       "Apple": [
-        "FastVLM"
+        {
+          "name": "FastVLM",
+          "url": "https://arxiv.org/abs/2412.13303"
+        }
       ],
       "NVIDIA": [],
       "Stability": [],
       "Amazon": [
-        "Nova Micro",
-        "Nova Lite",
-        "Nova Pro",
-        "Nova Canvas",
-        "Nova Reel"
+        {
+          "name": "Nova Micro",
+          "url": "https://aws.amazon.com/nova/"
+        },
+        {
+          "name": "Nova Lite",
+          "url": "https://aws.amazon.com/nova/"
+        },
+        {
+          "name": "Nova Pro",
+          "url": "https://aws.amazon.com/nova/"
+        },
+        {
+          "name": "Nova Canvas",
+          "url": "https://aws.amazon.com/nova/"
+        },
+        {
+          "name": "Nova Reel",
+          "url": "https://aws.amazon.com/nova/"
+        }
       ],
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "Google TPU v6e Trillium"
+        {
+          "name": "Google TPU v6e Trillium",
+          "url": "https://cloud.google.com/blog/products/compute/trillium-tpu-is-ga"
+        }
       ],
       "AI-Cloud": [
-        "AWS AI Factories"
+        {
+          "name": "AWS AI Factories",
+          "url": "https://aws.amazon.com/ai-factories/"
+        }
       ]
     },
     {
       "Month": "25-Jan",
       "Open-Source": [],
       "OpenAI": [
-        "o3-mini"
+        {
+          "name": "o3-mini",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        }
       ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
       "Mistral": [
-        "Mistral Small 3",
-        "Codestral 25.01"
+        {
+          "name": "Mistral Small 3",
+          "url": "https://mistral.ai/news/mistral-small-3"
+        },
+        {
+          "name": "Codestral 25.01",
+          "url": "https://mistral.ai/news/codestral-2501/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-R1"
+        {
+          "name": "DeepSeek-R1",
+          "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+        }
       ],
       "Qwen-Alibaba": [
-        "Qwen2.5-Max",
-        "Qwen2.5-VL"
+        {
+          "name": "Qwen2.5-Max",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen2.5-VL",
+          "url": "https://qwenlm.github.io/blog/qwen2.5-vl/"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [
-        "MiniMax-Text-01",
-        "MiniMax-VL-01"
+        {
+          "name": "MiniMax-Text-01",
+          "url": "https://github.com/MiniMax-AI/MiniMax-01"
+        },
+        {
+          "name": "MiniMax-VL-01",
+          "url": "https://github.com/MiniMax-AI/MiniMax-01"
+        }
       ],
       "Kimi-Moonshot": [
-        "Kimi K1.5"
+        {
+          "name": "Kimi K1.5",
+          "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
+        }
       ],
       "Doubao-ByteDance": [
-        "Doubao 1.5"
+        {
+          "name": "Doubao 1.5",
+          "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
+        }
       ],
       "Ant-Group": [],
       "StepFun": [],
@@ -1456,17 +2134,26 @@
       "Microsoft": [],
       "Apple": [],
       "NVIDIA": [
-        "Nemotron 3 family (Nano/Super/Ultra)"
+        {
+          "name": "Nemotron 3 family (Nano/Super/Ultra)",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
+        }
       ],
       "Stability": [],
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Trae"
+        {
+          "name": "Trae",
+          "url": "https://www.trae.ai/"
+        }
       ],
       "AI-Chips": [
-        "NVIDIA Nemotron 3"
+        {
+          "name": "NVIDIA Nemotron 3",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
+        }
       ],
       "AI-Cloud": []
     },
@@ -1474,22 +2161,40 @@
       "Month": "25-Feb",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-4.5"
+        {
+          "name": "GPT-4.5",
+          "url": "https://openai.com/blog/gpt-4-5"
+        }
       ],
       "Anthropic": [
-        "Claude 3.7 Sonnet",
-        "Claude Code"
+        {
+          "name": "Claude 3.7 Sonnet",
+          "url": "https://www.anthropic.com/news/claude-3-7-sonnet/"
+        },
+        {
+          "name": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+        }
       ],
       "Google": [
-        "Gemini 2.0 Pro"
+        {
+          "name": "Gemini 2.0 Pro",
+          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+        }
       ],
       "Meta": [],
       "Mistral": [],
       "xAI": [
-        "Grok 3"
+        {
+          "name": "Grok 3",
+          "url": "https://x.ai/news/grok-3"
+        }
       ],
       "DeepSeek": [
-        "Janus-Pro"
+        {
+          "name": "Janus-Pro",
+          "url": "https://github.com/deepseek-ai/Janus"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [],
@@ -1498,13 +2203,22 @@
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "kimi-latest"
+        {
+          "name": "kimi-latest",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
       "StepFun": [
-        "Step-Video-T2V",
-        "Step-Audio"
+        {
+          "name": "Step-Video-T2V",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        },
+        {
+          "name": "Step-Audio",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
@@ -1528,44 +2242,86 @@
       "Month": "25-Mar",
       "Open-Source": [],
       "OpenAI": [
-        "o1 Pro"
+        {
+          "name": "o1 Pro",
+          "url": "https://openai.com/index/o1-pro/"
+        }
       ],
       "Anthropic": [],
       "Google": [
-        "Gemini 2.5 Pro",
-        "Gemma 3"
+        {
+          "name": "Gemini 2.5 Pro",
+          "url": "https://blog.google/products/gemini/gemini-2-5-pro-latest-preview"
+        },
+        {
+          "name": "Gemma 3",
+          "url": "https://blog.google/technology/developers/gemma-3/"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Mistral Small 3.1"
+        {
+          "name": "Mistral Small 3.1",
+          "url": "https://mistral.ai/news/mistral-small-2402/"
+        }
       ],
       "xAI": [
-        "Grok-3 mini"
+        {
+          "name": "Grok-3 mini",
+          "url": "https://techcrunch.com/2025/03/17/xai-launches-grok-3-and-grok-3-mini/"
+        }
       ],
       "DeepSeek": [
-        "DeepSeek-V3-0324"
+        {
+          "name": "DeepSeek-V3-0324",
+          "url": "https://github.blog/changelog/2025-04-08-deepseek-v3-0324-is-now-generally-available-in-github-models/"
+        }
       ],
       "Qwen-Alibaba": [
-        "Qwen2.5-Omni"
+        {
+          "name": "Qwen2.5-Omni",
+          "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
+        }
       ],
       "Cohere": [
-        "Aya Vision",
-        "Command A"
+        {
+          "name": "Aya Vision",
+          "url": "https://cohere.com/research/aya"
+        },
+        {
+          "name": "Command A",
+          "url": "https://cohere.com/blog/command-a"
+        }
       ],
       "Baidu": [
-        "ERNIE 4.5",
-        "X1"
+        {
+          "name": "ERNIE 4.5",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        },
+        {
+          "name": "X1",
+          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html"
+        }
       ],
       "GLM-Z.ai": [
-        "AutoGLM Rumination"
+        {
+          "name": "AutoGLM Rumination",
+          "url": "https://github.com/zai-org/Open-AutoGLM"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "Ling-Plus",
-        "Ling-Lite"
+        {
+          "name": "Ling-Plus",
+          "url": "https://huggingface.co/inclusionAI"
+        },
+        {
+          "name": "Ling-Lite",
+          "url": "https://huggingface.co/inclusionAI"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
@@ -1583,7 +2339,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Manus"
+        {
+          "name": "Manus",
+          "url": "https://manus.im/"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1591,53 +2350,107 @@
     {
       "Month": "25-Apr",
       "Open-Source": [
-        "OpenCode",
-        "Codex CLI"
+        {
+          "name": "OpenCode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "name": "Codex CLI",
+          "url": "https://github.com/openai/codex"
+        }
       ],
       "OpenAI": [
-        "GPT-4.1",
-        "GPT-4.1 mini",
-        "GPT-4.1 nano",
-        "o3",
-        "o4-mini"
+        {
+          "name": "GPT-4.1",
+          "url": "https://openai.com/index/gpt-4-1/"
+        },
+        {
+          "name": "GPT-4.1 mini",
+          "url": "https://openai.com/index/gpt-4-1/"
+        },
+        {
+          "name": "GPT-4.1 nano",
+          "url": "https://openai.com/index/gpt-4-1/"
+        },
+        {
+          "name": "o3",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        },
+        {
+          "name": "o4-mini",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        }
       ],
       "Anthropic": [],
       "Google": [
-        "Gemini 2.5 Flash"
+        {
+          "name": "Gemini 2.5 Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
+        }
       ],
       "Meta": [
-        "Llama 4 Scout",
-        "Llama 4 Maverick"
+        {
+          "name": "Llama 4 Scout",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        {
+          "name": "Llama 4 Maverick",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        }
       ],
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen3"
+        {
+          "name": "Qwen3",
+          "url": "https://huggingface.co/Qwen"
+        }
       ],
       "Cohere": [],
       "Baidu": [
-        "ERNIE 4.5 Turbo",
-        "X1 Turbo"
+        {
+          "name": "ERNIE 4.5 Turbo",
+          "url": "https://home.baidu.com/home/index/news_detail/id/18020"
+        },
+        {
+          "name": "X1 Turbo",
+          "url": "https://home.baidu.com/home/index/news_detail/id/18020"
+        }
       ],
       "GLM-Z.ai": [],
       "iFlytek": [
-        "Spark X1"
+        {
+          "name": "Spark X1",
+          "url": "https://baike.baidu.com/item/讯飞星火深度推理模型X1/65293924"
+        }
       ],
       "MiniMax": [
-        "Speech-02"
+        {
+          "name": "Speech-02",
+          "url": "https://www.minimax.io/news/minimax-speech-02"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [
-        "Doubao 1.5 Thinking"
+        {
+          "name": "Doubao 1.5 Thinking",
+          "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
+        }
       ],
       "Ant-Group": [],
       "StepFun": [
-        "Step-R1-V-Mini"
+        {
+          "name": "Step-R1-V-Mini",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [
-        "Kling 2.0"
+        {
+          "name": "Kling 2.0",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1646,12 +2459,18 @@
       "Baichuan-Intelligence": [],
       "Microsoft": [],
       "Apple": [
-        "Apple Intelligence iOS 18.4"
+        {
+          "name": "Apple Intelligence iOS 18.4",
+          "url": "https://www.apple.com/newsroom/2025/03/apple-intelligence-features-expand-to-new-languages-and-regions-today/"
+        }
       ],
       "NVIDIA": [],
       "Stability": [],
       "Amazon": [
-        "Nova Premier"
+        {
+          "name": "Nova Premier",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
+        }
       ],
       "SenseTime": [],
       "AI21": [],
@@ -1663,24 +2482,48 @@
       "Month": "25-May",
       "Open-Source": [],
       "OpenAI": [
-        "Codex"
+        {
+          "name": "Codex",
+          "url": "https://openai.com/blog/introducing-codex"
+        }
       ],
       "Anthropic": [
-        "Claude 4 Sonnet",
-        "Claude 4 Opus"
+        {
+          "name": "Claude 4 Sonnet",
+          "url": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Claude 4 Opus",
+          "url": "https://www.anthropic.com/news/claude-4"
+        }
       ],
       "Google": [
-        "Veo 3"
+        {
+          "name": "Veo 3",
+          "url": "https://deepmind.google/veo"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Mistral Medium 3",
-        "Devstral"
+        {
+          "name": "Mistral Medium 3",
+          "url": "https://mistral.ai/news/mistral-medium-3/"
+        },
+        {
+          "name": "Devstral",
+          "url": "https://mistral.ai/news/devstral/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-R1-0528",
-        "DeepSeek-Prover-V2"
+        {
+          "name": "DeepSeek-R1-0528",
+          "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+        },
+        {
+          "name": "DeepSeek-Prover-V2",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [],
@@ -1689,19 +2532,34 @@
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "kimi-thinking-preview"
+        {
+          "name": "kimi-thinking-preview",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "Ling-lite-1.5",
-        "Ming-Lite-Omni"
+        {
+          "name": "Ling-lite-1.5",
+          "url": "https://huggingface.co/inclusionAI/Ling-lite-1.5"
+        },
+        {
+          "name": "Ming-Lite-Omni",
+          "url": "https://huggingface.co/inclusionAI/Ming-Lite-Omni"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [
-        "MiMo-7B"
+        {
+          "name": "MiMo-7B",
+          "url": "https://arxiv.org/abs/2505.07608"
+        }
       ],
       "Kuaishou-Kling": [
-        "Kling 2.1"
+        {
+          "name": "Kling 2.1",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1723,17 +2581,32 @@
       "Month": "25-Jun",
       "Open-Source": [],
       "OpenAI": [
-        "o3-pro"
+        {
+          "name": "o3-pro",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        }
       ],
       "Anthropic": [],
       "Google": [
-        "Gemini CLI"
+        {
+          "name": "Gemini CLI",
+          "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Magistral Small 1.0",
-        "Magistral Medium 1.0",
-        "Mistral Small 3.2"
+        {
+          "name": "Magistral Small 1.0",
+          "url": "https://mistral.ai/news/magistral/"
+        },
+        {
+          "name": "Magistral Medium 1.0",
+          "url": "https://mistral.ai/news/magistral/"
+        },
+        {
+          "name": "Mistral Small 3.2",
+          "url": "https://mistral.ai/news/mistral-small-3-2/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [],
@@ -1743,25 +2616,43 @@
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [
-        "MiniMax-M1"
+        {
+          "name": "MiniMax-M1",
+          "url": "https://github.com/MiniMax-AI/MiniMax-01"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [
-        "Doubao 1.6",
-        "Seedance 1.0"
+        {
+          "name": "Doubao 1.6",
+          "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
+        },
+        {
+          "name": "Seedance 1.0",
+          "url": "https://seed.bytedance.com/en/blog/tech-report-of-seedance-1-0-is-now-publicly-available"
+        }
       ],
       "Ant-Group": [
-        "Ring-lite"
+        {
+          "name": "Ring-lite",
+          "url": "https://huggingface.co/inclusionAI/Ring-lite"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
       "Huawei": [
-        "PanGu 5.5"
+        {
+          "name": "PanGu 5.5",
+          "url": "https://www.huaweicloud.com/intl/en-us/news/20250620192415143.html"
+        }
       ],
       "Tencent": [
-        "Hunyuan-A13B"
+        {
+          "name": "Hunyuan-A13B",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1774,63 +2665,114 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "AMD MI350X"
+        {
+          "name": "AMD MI350X",
+          "url": "https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html"
+        }
       ],
       "AI-Cloud": [
-        "AWS GPU price cut by 45%"
+        {
+          "name": "AWS GPU price cut by 45%",
+          "url": "https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/"
+        }
       ]
     },
     {
       "Month": "25-Jul",
       "Open-Source": [
-        "Hermes Agent"
+        {
+          "name": "Hermes Agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
       "Google": [
-        "Gemma 3n",
-        "Gemini 2.5 Flash-Lite"
+        {
+          "name": "Gemma 3n",
+          "url": "https://huggingface.co/google/gemma-3n-E2B-it"
+        },
+        {
+          "name": "Gemini 2.5 Flash-Lite",
+          "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Devstral Medium",
-        "Voxtral"
+        {
+          "name": "Devstral Medium",
+          "url": "https://mistral.ai/news/devstral-2507/"
+        },
+        {
+          "name": "Voxtral",
+          "url": "https://mistral.ai/news/voxtral/"
+        }
       ],
       "xAI": [
-        "Grok 4"
+        {
+          "name": "Grok 4",
+          "url": "https://x.ai/blog/grok-4"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen3-Coder",
-        "Qwen-MT"
+        {
+          "name": "Qwen3-Coder",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen-MT",
+          "url": "https://qwenlm.github.io/blog/qwen-mt/"
+        }
       ],
       "Cohere": [
-        "Command A Vision"
+        {
+          "name": "Command A Vision",
+          "url": "https://cohere.com/blog/command-a-vision"
+        }
       ],
       "Baidu": [
-        "ERNIE 4.5 Open"
+        {
+          "name": "ERNIE 4.5 Open",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        }
       ],
       "GLM-Z.ai": [
-        "GLM-4.5"
+        {
+          "name": "GLM-4.5",
+          "url": "https://docs.z.ai/guides/llm/glm-4.5"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi K2"
+        {
+          "name": "Kimi K2",
+          "url": "https://kimi-k2.org/"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "Ming-Lite-Omni-1.5"
+        {
+          "name": "Ming-Lite-Omni-1.5",
+          "url": "https://huggingface.co/inclusionAI/Ming-Lite-Omni"
+        }
       ],
       "StepFun": [
-        "Step 3"
+        {
+          "name": "Step 3",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "Hunyuan-TurboS"
+        {
+          "name": "Hunyuan-TurboS",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1849,17 +2791,26 @@
       "Month": "25-Aug",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-5"
+        {
+          "name": "GPT-5",
+          "url": "https://openai.com/blog/introducing-gpt-5"
+        }
       ],
       "Anthropic": [
-        "Claude Opus 4.1"
+        {
+          "name": "Claude Opus 4.1",
+          "url": "https://www.anthropic.com/news/claude-opus-4-1"
+        }
       ],
       "Google": [],
       "Meta": [],
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-V3.1"
+        {
+          "name": "DeepSeek-V3.1",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [],
@@ -1868,19 +2819,28 @@
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi K2 Turbo Preview"
+        {
+          "name": "Kimi K2 Turbo Preview",
+          "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [
-        "Kling 2.5"
+        {
+          "name": "Kling 2.5",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "Hunyuan-T1"
+        {
+          "name": "Hunyuan-T1",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1900,39 +2860,60 @@
       "Open-Source": [],
       "OpenAI": [],
       "Anthropic": [
-        "Claude Sonnet 4.5"
+        {
+          "name": "Claude Sonnet 4.5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        }
       ],
       "Google": [],
       "Meta": [],
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-V3.1-Terminus"
+        {
+          "name": "DeepSeek-V3.1-Terminus",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"
+        }
       ],
       "Qwen-Alibaba": [
-        "Qwen CLI"
+        {
+          "name": "Qwen CLI",
+          "url": "https://github.com/QwenLM/qwen-code"
+        }
       ],
       "Cohere": [],
       "Baidu": [
-        "ERNIE X1.1"
+        {
+          "name": "ERNIE X1.1",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        }
       ],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi K2 0905"
+        {
+          "name": "Kimi K2 0905",
+          "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [
-        "Kling 2.5 Turbo"
+        {
+          "name": "Kling 2.5 Turbo",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "Hunyuan-large-role"
+        {
+          "name": "Hunyuan-large-role",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1944,7 +2925,10 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "CodeBuddy"
+        {
+          "name": "CodeBuddy",
+          "url": "https://www.codebuddy.ai/"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1954,10 +2938,16 @@
       "Open-Source": [],
       "OpenAI": [],
       "Anthropic": [
-        "Claude Haiku 4.5"
+        {
+          "name": "Claude Haiku 4.5",
+          "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+        }
       ],
       "Google": [
-        "Veo 3.1"
+        {
+          "name": "Veo 3.1",
+          "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
+        }
       ],
       "Meta": [],
       "Mistral": [],
@@ -1970,7 +2960,10 @@
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi CLI"
+        {
+          "name": "Kimi CLI",
+          "url": "https://github.com/MoonshotAI/kimi-cli"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
@@ -1978,13 +2971,25 @@
       "Xiaomi": [],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [
-        "Ling-1T",
-        "Ring-1T",
-        "Ming-flash-omni-Preview"
+        {
+          "name": "Ling-1T",
+          "url": "https://huggingface.co/inclusionAI/Ling-1T"
+        },
+        {
+          "name": "Ring-1T",
+          "url": "https://huggingface.co/inclusionAI/Ring-1T"
+        },
+        {
+          "name": "Ming-flash-omni-Preview",
+          "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
+        }
       ],
       "Huawei": [],
       "Tencent": [
-        "Nanbeige4-3B-Thinking-2510"
+        {
+          "name": "Nanbeige4-3B-Thinking-2510",
+          "url": "https://huggingface.co/Nanbeige"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2002,50 +3007,89 @@
     {
       "Month": "25-Nov",
       "Open-Source": [
-        "OpenClaw"
+        {
+          "name": "OpenClaw",
+          "url": "https://github.com/openclaw/openclaw"
+        }
       ],
       "OpenAI": [
-        "GPT-5.1"
+        {
+          "name": "GPT-5.1",
+          "url": "https://openai.com/blog/introducing-gpt-5-1"
+        }
       ],
       "Anthropic": [
-        "Claude Opus 4.5"
+        {
+          "name": "Claude Opus 4.5",
+          "url": "https://www.anthropic.com/news/claude-opus-4-5"
+        }
       ],
       "Google": [
-        "Gemini 3"
+        {
+          "name": "Gemini 3",
+          "url": "https://blog.google/products/gemini/gemini-3/"
+        }
       ],
       "Meta": [],
       "Mistral": [],
       "xAI": [
-        "Grok 4.1",
-        "Grok 4.1 Fast"
+        {
+          "name": "Grok 4.1",
+          "url": "https://x.ai/news/grok-4-1"
+        },
+        {
+          "name": "Grok 4.1 Fast",
+          "url": "https://x.ai/news/grok-4-1-fast"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [
-        "ERNIE 5.0"
+        {
+          "name": "ERNIE 5.0",
+          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html"
+        }
       ],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi K2 Thinking"
+        {
+          "name": "Kimi K2 Thinking",
+          "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
+        }
       ],
       "Doubao-ByteDance": [
-        "Doubao Seed Code"
+        {
+          "name": "Doubao Seed Code",
+          "url": "https://skywork.ai/blog/llm/doubao-seed-code-official-release-2025/"
+        }
       ],
       "Ant-Group": [],
       "StepFun": [],
       "Xiaomi": [
-        "MiMo-VL Miloco-7B",
-        "MiMo-Embodied-7B"
+        {
+          "name": "MiMo-VL Miloco-7B",
+          "url": "https://huggingface.co/xiaomi-open-source/Xiaomi-MiMo-VL-Miloco-7B"
+        },
+        {
+          "name": "MiMo-Embodied-7B",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-Embodied-7B"
+        }
       ],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
-        "HY 2.0 Think",
-        "HY 2.0 Instruct"
+        {
+          "name": "HY 2.0 Think",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        },
+        {
+          "name": "HY 2.0 Instruct",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2063,21 +3107,36 @@
     {
       "Month": "25-Dec",
       "Open-Source": [
-        "Oh-My-OpenAgent"
+        {
+          "name": "Oh-My-OpenAgent",
+          "url": "https://github.com/code-yeongyu/oh-my-openagent"
+        }
       ],
       "OpenAI": [
-        "GPT-5.2"
+        {
+          "name": "GPT-5.2",
+          "url": "https://openai.com/blog/introducing-gpt-5-2"
+        }
       ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
       "Mistral": [
-        "Mistral Large 3",
-        "Ministral 3"
+        {
+          "name": "Mistral Large 3",
+          "url": "https://docs.mistral.ai/models/mistral-large-3-25-12/"
+        },
+        {
+          "name": "Ministral 3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/mistral-large-3-ministral-3-family-available-amazon-bedrock/"
+        }
       ],
       "xAI": [],
       "DeepSeek": [
-        "DeepSeek-V3.2"
+        {
+          "name": "DeepSeek-V3.2",
+          "url": "https://api-docs.deepseek.com/news/news251201"
+        }
       ],
       "Qwen-Alibaba": [],
       "Cohere": [],
@@ -2090,14 +3149,26 @@
       "Ant-Group": [],
       "StepFun": [],
       "Xiaomi": [
-        "MiMo-V2-Flash"
+        {
+          "name": "MiMo-V2-Flash",
+          "url": "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
+        }
       ],
       "Kuaishou-Kling": [
-        "Kling O1",
-        "Kling 2.6"
+        {
+          "name": "Kling O1",
+          "url": "https://klingai.kuaishou.com/"
+        },
+        {
+          "name": "Kling 2.6",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [
-        "Nanbeige4-3B"
+        {
+          "name": "Nanbeige4-3B",
+          "url": "https://huggingface.co/Nanbeige"
+        }
       ],
       "Huawei": [],
       "Tencent": [],
@@ -2106,29 +3177,53 @@
       "Microsoft": [],
       "Apple": [],
       "NVIDIA": [
-        "Nemotron 3 Nano"
+        {
+          "name": "Nemotron 3 Nano",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
+        }
       ],
       "Stability": [],
       "Amazon": [
-        "Nova 2 Lite",
-        "Nova 2 Pro",
-        "Nova 2 Sonic"
+        {
+          "name": "Nova 2 Lite",
+          "url": "https://aws.amazon.com/nova/"
+        },
+        {
+          "name": "Nova 2 Pro",
+          "url": "https://aws.amazon.com/nova/"
+        },
+        {
+          "name": "Nova 2 Sonic",
+          "url": "https://aws.amazon.com/nova/"
+        }
       ],
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "NVIDIA Nemotron 3 Nano"
+        {
+          "name": "NVIDIA Nemotron 3 Nano",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
+        }
       ],
       "AI-Cloud": [
-        "CoreWeave raises another $8.5B to build data center"
+        {
+          "name": "CoreWeave raises another $8.5B to build data center",
+          "url": "https://www.coreweave.com/"
+        }
       ]
     },
     {
       "Month": "26-Jan",
       "Open-Source": [
-        "andrej-karpathy-skills",
-        "oh-my-claudecode"
+        {
+          "name": "andrej-karpathy-skills",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        },
+        {
+          "name": "oh-my-claudecode",
+          "url": "https://github.com/yeachan-heo/oh-my-claudecode"
+        }
       ],
       "OpenAI": [],
       "Anthropic": [],
@@ -2144,16 +3239,25 @@
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi K2.5"
+        {
+          "name": "Kimi K2.5",
+          "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "AReaL-SEA"
+        {
+          "name": "AReaL-SEA",
+          "url": "https://huggingface.co/inclusionAI"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [
-        "Kling 3.0"
+        {
+          "name": "Kling 3.0",
+          "url": "https://klingai.kuaishou.com/"
+        }
       ],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2169,65 +3273,128 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [
-        "Microsoft Maia 200"
+        {
+          "name": "Microsoft Maia 200",
+          "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
+        }
       ],
       "AI-Cloud": []
     },
     {
       "Month": "26-Feb",
       "Open-Source": [
-        "oh-my-codex"
+        {
+          "name": "oh-my-codex",
+          "url": "https://github.com/yeachan-heo/oh-my-codex"
+        }
       ],
       "OpenAI": [
-        "GPT-5.3-Codex"
+        {
+          "name": "GPT-5.3-Codex",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        }
       ],
       "Anthropic": [
-        "Claude Sonnet 4.6",
-        "Claude Opus 4.6",
-        "Claude Code Agent Teams"
+        {
+          "name": "Claude Sonnet 4.6",
+          "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Claude Opus 4.6",
+          "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/"
+        },
+        {
+          "name": "Claude Code Agent Teams",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/agent-teams"
+        }
       ],
       "Google": [
-        "Gemini 3.1 Pro"
+        {
+          "name": "Gemini 3.1 Pro",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        }
       ],
       "Meta": [],
       "Mistral": [],
       "xAI": [
-        "Grok 4.2 Beta"
+        {
+          "name": "Grok 4.2 Beta",
+          "url": "https://gigazine.net/gsc_news/en/20260218-grok-4-2-public-beta"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen3.5"
+        {
+          "name": "Qwen3.5",
+          "url": "https://qwen.ai/blog?id=qwen3.5"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
-        "GLM-5"
+        {
+          "name": "GLM-5",
+          "url": "https://www.reuters.com/technology/chinas-ai-startup-zhipu-releases-new-flagship-model-glm-5-2026-02-11/"
+        }
       ],
       "iFlytek": [
-        "Spark X2"
+        {
+          "name": "Spark X2",
+          "url": "https://finance.sina.com.cn/tech/2026-02-11/doc-inhmmmmm7721462.shtml"
+        }
       ],
       "MiniMax": [
-        "MiniMax-M2.5",
-        "MiniMax-M2.5-Highspeed"
+        {
+          "name": "MiniMax-M2.5",
+          "url": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "MiniMax-M2.5-Highspeed",
+          "url": "https://www.minimax.io/models/text"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [
-        "Doubao-Seed-2.0",
-        "Seedance 2.0"
+        {
+          "name": "Doubao-Seed-2.0",
+          "url": "https://seed.bytedance.com/zh/seed2"
+        },
+        {
+          "name": "Seedance 2.0",
+          "url": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0"
+        }
       ],
       "Ant-Group": [
-        "Ring-2.5-1T",
-        "Ling-2.5-1T",
-        "Ming-flash-omni-2.0",
-        "LLaDA2.1"
+        {
+          "name": "Ring-2.5-1T",
+          "url": "https://huggingface.co/inclusionAI/Ring-2.5-1T"
+        },
+        {
+          "name": "Ling-2.5-1T",
+          "url": "https://huggingface.co/inclusionAI/Ling-2.5-1T"
+        },
+        {
+          "name": "Ming-flash-omni-2.0",
+          "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
+        },
+        {
+          "name": "LLaDA2.1",
+          "url": "https://github.com/inclusionAI/LLaDA2.X"
+        }
       ],
       "StepFun": [
-        "Step 3.5 Flash"
+        {
+          "name": "Step 3.5 Flash",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [
-        "Nanbeige4.1-3B"
+        {
+          "name": "Nanbeige4.1-3B",
+          "url": "https://huggingface.co/Nanbeige"
+        }
       ],
       "Huawei": [],
       "Tencent": [],
@@ -2241,54 +3408,99 @@
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "Kilo CLI"
+        {
+          "name": "Kilo CLI",
+          "url": "https://github.com/Kilo-Org/kilocode"
+        }
       ],
       "AI-Chips": [],
       "AI-Cloud": [
-        "Microsoft and OpenAI invest $100B to build AI data center"
+        {
+          "name": "Microsoft and OpenAI invest $100B to build AI data center",
+          "url": "https://openai.com/index/scaling-ai-for-everyone"
+        }
       ]
     },
     {
       "Month": "26-Mar",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-5.4",
-        "Codex multi-agent"
+        {
+          "name": "GPT-5.4",
+          "url": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "Codex multi-agent",
+          "url": "https://developers.openai.com/codex/multi-agent/"
+        }
       ],
       "Anthropic": [],
       "Google": [
-        "Gemini 3.1 Flash-Lite",
-        "Gemini 3.1 Flash Live"
+        {
+          "name": "Gemini 3.1 Flash-Lite",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
+        },
+        {
+          "name": "Gemini 3.1 Flash Live",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+        }
       ],
       "Meta": [],
       "Mistral": [
-        "Mistral Small 4"
+        {
+          "name": "Mistral Small 4",
+          "url": "https://mistral.ai/news/mistral-small-4"
+        }
       ],
       "xAI": [
-        "Grok 4.2 Multi-Agent"
+        {
+          "name": "Grok 4.2 Multi-Agent",
+          "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
-        "GLM-5-Turbo"
+        {
+          "name": "GLM-5-Turbo",
+          "url": "https://www.aibase.com/zh/news/26283"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [
-        "MiniMax-M2.7",
-        "MiniMax-2.7-Highspeed"
+        {
+          "name": "MiniMax-M2.7",
+          "url": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MiniMax-2.7-Highspeed",
+          "url": "https://www.minimaxi.com/models/text/m27"
+        }
       ],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
       "Ant-Group": [
-        "AReaL-tau2"
+        {
+          "name": "AReaL-tau2",
+          "url": "https://huggingface.co/inclusionAI"
+        }
       ],
       "StepFun": [],
       "Xiaomi": [
-        "MiMo-V2-Pro",
-        "MiMo-V2-Omni",
-        "MiMo-V2-TTS"
+        {
+          "name": "MiMo-V2-Pro",
+          "url": "https://github.com/XiaomiMiMo"
+        },
+        {
+          "name": "MiMo-V2-Omni",
+          "url": "https://github.com/XiaomiMiMo"
+        },
+        {
+          "name": "MiMo-V2-TTS",
+          "url": "https://mimo.xiaomi.com"
+        }
       ],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
@@ -2297,22 +3509,37 @@
       "01.AI": [],
       "Baichuan-Intelligence": [],
       "Microsoft": [
-        "Phi-4"
+        {
+          "name": "Phi-4",
+          "url": "https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/"
+        }
       ],
       "Apple": [],
       "NVIDIA": [
-        "Nemotron 3 Super"
+        {
+          "name": "Nemotron 3 Super",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
+        }
       ],
       "Stability": [],
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
       "LLM-Applications": [
-        "QClaw",
-        "WorkBuddy"
+        {
+          "name": "QClaw",
+          "url": "https://www.qclaw.run/"
+        },
+        {
+          "name": "WorkBuddy",
+          "url": "https://workbuddy.cloud.tencent.com/"
+        }
       ],
       "AI-Chips": [
-        "NVIDIA Nemotron 3 Super"
+        {
+          "name": "NVIDIA Nemotron 3 Super",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
+        }
       ],
       "AI-Cloud": []
     },
@@ -2320,38 +3547,74 @@
       "Month": "26-Apr",
       "Open-Source": [],
       "OpenAI": [
-        "GPT-5.4-Cyber",
-        "GPT-Rosalind"
+        {
+          "name": "GPT-5.4-Cyber",
+          "url": "https://9to5mac.com/2026/04/14/openai-unveils-gpt-5-4-cyber-an-ai-model-for-defensive-cybersecurity/"
+        },
+        {
+          "name": "GPT-Rosalind",
+          "url": "https://openai.com/index/introducing-gpt-rosalind/"
+        }
       ],
       "Anthropic": [
-        "Claude Opus 4.7",
-        "Claude Mythos Preview"
+        {
+          "name": "Claude Opus 4.7",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Claude Mythos Preview",
+          "url": "https://red.anthropic.com/2026/mythos-preview/"
+        }
       ],
       "Google": [
-        "Gemma 4"
+        {
+          "name": "Gemma 4",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+        }
       ],
       "Meta": [
-        "Muse Spark"
+        {
+          "name": "Muse Spark",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+        }
       ],
       "Mistral": [],
       "xAI": [
-        "Grok 4.3 Beta"
+        {
+          "name": "Grok 4.3 Beta",
+          "url": "https://x.ai/news"
+        }
       ],
       "DeepSeek": [],
       "Qwen-Alibaba": [
-        "Qwen3.6-Max-Preview",
-        "Qwen3.6-Plus",
-        "Qwen3.6-35B-A3B"
+        {
+          "name": "Qwen3.6-Max-Preview",
+          "url": "https://qwen.ai/research"
+        },
+        {
+          "name": "Qwen3.6-Plus",
+          "url": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Qwen3.6-35B-A3B",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+        }
       ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
-        "GLM-5.1"
+        {
+          "name": "GLM-5.1",
+          "url": "https://z.ai/blog/glm-5.1"
+        }
       ],
       "iFlytek": [],
       "MiniMax": [],
       "Kimi-Moonshot": [
-        "Kimi K2.6"
+        {
+          "name": "Kimi K2.6",
+          "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
+        }
       ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
