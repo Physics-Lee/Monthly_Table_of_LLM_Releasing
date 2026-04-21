@@ -8,7 +8,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 23-May,,,,PaLM 2,,,,,,,,,Spark 1.0,,,,,,,,,,,,,,,,,,,,LM Studio,,
 23-Jun,Ollama + LLaMA-Factory,,,,,,,,,,,ChatGLM2,Spark 1.5,,,,,,,,,,,,Baichuan-7B + Baichuan-13B,Phi-1,,,,,,,AnythingLLM,,
 23-Jul,,,Claude 2,,Llama 2,,,,,,ERNIE 3.5,,,,,,,,,,,PanGu 3.0,,,,,,,,,,,,,
-23-Aug,Jan,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,Bailing,,MiLM-6B,,,,,,,,,,,,,,,SK Hynix HBM3E
+23-Aug,Jan,,Claude Instant 1.2,,,,,,Qwen-7B + Qwen-VL + Qwen-VL-Chat,,,,Spark 2.0,,,Doubao,,Bailing,MiLM-6B,,,,,,,,,,,,,,,,SK Hynix HBM3E
 23-Sep,,GPT-4V,,,,Mistral 7B,,,Qwen-14B,,,,,,,,,,,,,,Hunyuan,,Baichuan 2,Phi-1.5,,,,,,,,,
 23-Oct,CrewAI + DSPy,,,,,,,,,,ERNIE 4.0,ChatGLM3,,,Kimi Chat,,CodeFuse,,,,,,,,,,,,,,,,Raycast AI,,
 23-Nov,,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,,,,Hunyuan Standard,Yi-6B + Yi-34B,,,MLX,,,Titan Text Express + Titan Text Lite,,,,AWS Trainium2,
@@ -23,7 +23,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 24-Aug,,,,,,,Grok-2 beta,,,,ERNIE 4.0 Turbo,GLM-4-Plus,,Hailuo AI,moonshot-v1-auto,,,,,,,,,,,,,Llama-3.1-Nemotron-70B-Reward,,,,Jamba 1.5 Mini + Jamba 1.5 Large,,NVIDIA H200,Lambda Labs 融资3.2亿美元扩建GPU云
 24-Sep,,o1-preview + o1-mini,,,Llama 3.2,Pixtral 12B,,,Qwen2.5 + Qwen2.5-Coder + Qwen2.5-Math + Qwen2-VL,,,,,Video-01,,,Zhixiaobao,,,,,,,,,,,,,,,,,,
 24-Oct,,,Claude 3.5 Sonnet v2,,,Ministral 8B,,,,Aya Expanse,,AutoGLM,,,,,CodeFuse-CGM,,,,,,Hunyuan-lite,,,,Apple Intelligence + Ferret-UI,,Stable Diffusion 3.5,,,,,,
-24-Nov,Unsloth + MarkItDown,,Claude 3.5 Haiku,,,Mistral Large 2.1 + Pixtral Large,,,,Qwen2.5-Coder Family + QwQ-32B,,,,,,,,,,,,,,,,,,,,,,,,,
+24-Nov,Unsloth + MarkItDown,,Claude 3.5 Haiku,,,Mistral Large 2.1 + Pixtral Large,,,Qwen2.5-Coder Family + QwQ-32B,,,,,,,,,,,,,,,,,,,,,,,,,,
 24-Dec,,o1 + Sora,,Gemini 2.0 Flash,Llama 3.3,,,DeepSeek-V3 + DeepSeek-V2.5-1210,,Command R7B,,GLM-Zero-Preview,,,,,,,,Kling 1.6,,,,,,,FastVLM,,,Nova Micro + Nova Lite + Nova Pro + Nova Canvas + Nova Reel,,,,Google TPU v6e Trillium,AWS AI Factories
 25-Jan,,o3-mini,,,,Mistral Small 3 + Codestral 25.01,,DeepSeek-R1,Qwen2.5-Max + Qwen2.5-VL,,,,,MiniMax-Text-01 + MiniMax-VL-01,Kimi K1.5,Doubao 1.5,,,,,,,,,,,,Nemotron 3 family (Nano/Super/Ultra),,,,,Trae,NVIDIA Nemotron 3,
 25-Feb,,GPT-4.5,Claude 3.7 Sonnet + Claude Code,Gemini 2.0 Pro,,,Grok 3,Janus-Pro,,,,,,,kimi-latest,,,Step-Video-T2V + Step-Audio,,,,,,,,,,,,,,,,,
