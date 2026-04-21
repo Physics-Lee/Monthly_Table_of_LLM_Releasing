@@ -13,7 +13,7 @@ Open-Source、OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、Qw
 ## 说明
 
 - 空白单元格表示该厂商当月无已验证的公开发布
-- 部分中国厂商数据来自官方里程碑页面或开发者发布说明
+- 部分厂商数据来自第三方报道
 - 数据仅供参考，以各厂商官方公告为准
 
 ---
