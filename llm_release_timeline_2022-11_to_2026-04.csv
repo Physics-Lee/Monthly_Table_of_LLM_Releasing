@@ -29,8 +29,8 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 25-Feb,,GPT-4.5,Claude 3.7 Sonnet + Claude Code,Gemini 2.0 Pro,,,Grok 3,Janus-Pro,,,,,,,kimi-latest,,,Step-Video-T2V + Step-Audio,,,,,,,,,,,,,,,,,
 25-Mar,,o1 Pro,,Gemini 2.5 Pro + Gemma 3,,Mistral Small 3.1,Grok-3 mini,DeepSeek-V3-0324,Qwen2.5-Omni,Aya Vision + Command A,ERNIE 4.5 + X1,AutoGLM Rumination,,,,,Ling-Plus + Ling-Lite,,,,,,,,,,,,,,,,Manus,,
 25-Apr,OpenCode,GPT-4.1 + GPT-4.1 mini + GPT-4.1 nano + o3 + o4-mini,,Gemini 2.5 Flash,Llama 4 Scout + Llama 4 Maverick,,,,Qwen3,,ERNIE 4.5 Turbo + X1 Turbo,,Spark X1,Speech-02,,Doubao 1.5 Thinking,,Step-R1-V-Mini,,Kling 2.0,,,,,,,Apple Intelligence iOS 18.4,,,Nova Premier,,,,,
-25-May,,o3-pro + Codex,Claude 4 Sonnet + Claude 4 Opus,,,Mistral Medium 3 + Devstral,,DeepSeek-R1-0528 + DeepSeek-Prover-V2,,,,,,,kimi-thinking-preview,,Ling-lite-1.5 + Ming-Lite-Omni,,MiMo-7B,Kling 2.1,,,,,,,,,,,,,,,
-25-Jun,,,,Gemini 2.5 Flash-Lite + Gemini CLI,,Magistral Small 1.0 + Magistral Medium 1.0 + Mistral Small 3.2,,,,,,,,MiniMax-M1,,Doubao 1.6 + Seedance 1.0,Ring-lite,,,,,PanGu 5.5,Hunyuan-A13B,,,,,,,,,,,AMD MI350X,AWS GPU降价45%
+25-May,,Codex,Claude 4 Sonnet + Claude 4 Opus,,,Mistral Medium 3 + Devstral,,DeepSeek-R1-0528 + DeepSeek-Prover-V2,,,,,,,kimi-thinking-preview,,Ling-lite-1.5 + Ming-Lite-Omni,,MiMo-7B,Kling 2.1,,,,,,,,,,,,,,,
+25-Jun,,o3-pro,,Gemini 2.5 Flash-Lite + Gemini CLI,,Magistral Small 1.0 + Magistral Medium 1.0 + Mistral Small 3.2,,,,,,,,MiniMax-M1,,Doubao 1.6 + Seedance 1.0,Ring-lite,,,,,PanGu 5.5,Hunyuan-A13B,,,,,,,,,,,AMD MI350X,AWS GPU降价45%
 25-Jul,Hermes Agent,,,Gemma 3n,,Devstral Medium + Voxtral,Grok 4,,Qwen3-Coder + Qwen-MT,Command A Vision,ERNIE 4.5 Open,GLM-4.5,,,Kimi K2,,Ming-Lite-Omni-1.5,Step 3,,,,,Hunyuan-TurboS,,,,,,,,,,,,
 25-Aug,,GPT-5,Claude Opus 4.1,,,,,DeepSeek-V3.1,,,,,,,Kimi K2 Turbo Preview,,,,,Kling 2.5,,,Hunyuan-T1,,,,,,,,,,,,
 25-Sep,,,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,Qwen CLI,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,CodeBuddy,,

@@ -1180,7 +1180,7 @@
     {
       "Month": "25-May",
       "Open-Source": "",
-      "OpenAI": "o3-pro + Codex",
+      "OpenAI": "Codex",
       "Anthropic": "Claude 4 Sonnet + Claude 4 Opus",
       "Google": "",
       "Meta": "",
@@ -1218,7 +1218,7 @@
     {
       "Month": "25-Jun",
       "Open-Source": "",
-      "OpenAI": "",
+      "OpenAI": "o3-pro",
       "Anthropic": "",
       "Google": "Gemini 2.5 Flash-Lite + Gemini CLI",
       "Meta": "",
