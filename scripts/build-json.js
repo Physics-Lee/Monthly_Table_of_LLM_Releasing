@@ -37,8 +37,9 @@ function parseCSV(csvPath) {
   for (let i = 1; i < lines.length; i++) {
     const values = splitCSVLine(lines[i]);
     if (values.length !== headers.length) {
-      console.warn(`  ⚠ 行 ${i + 1} 字段数不匹配 (${values.length} vs ${headers.length})，跳过`);
-      continue;
+      console.error(`❌ 第 ${i + 1} 行字段数不匹配: 期望 ${headers.length} 列, 实际 ${values.length} 列`);
+      console.error(`   内容: ${lines[i].substring(0, 120)}${lines[i].length > 120 ? '...' : ''}`);
+      throw new Error(`CSV 格式错误: 第 ${i + 1} 行字段数不匹配，请检查逗号数量或引号配对`);
     }
     const row = {};
     headers.forEach((h, idx) => { row[h] = (values[idx] || '').trim(); });
@@ -274,6 +275,7 @@ function inferURL(modelName) {
     [/^Mistral Small 3$/, 'https://mistral.ai/news/mistral-small-3'],
     [/^Mistral Small 3\.1/, 'https://mistral.ai/news/mistral-small-3-1'],
     [/^Mistral Small 3\.2/, 'https://mistral.ai/news/mistral-small-3-2'],
+    [/^Mistral Small 4/, 'https://mistral.ai/news/mistral-small-4'],
     [/^Mistral Small \d/, 'https://mistral.ai/news/mistral-small-2402/'],
     [/^Mistral Large \d/, 'https://mistral.ai/news/la-plateforme/'],
     [/^Mistral Medium/, 'https://mistral.ai/news/la-plateforme/'],
@@ -285,7 +287,8 @@ function inferURL(modelName) {
     [/^o4-mini/, 'https://openai.com/index/o4'],
     [/^GPT-5/, 'https://openai.com/blog/introducing-gpt-5'],
     [/^GPT-4\.5/, 'https://openai.com/blog/gpt-4-5'],
-    [/^GPT-4o/, 'https://openai.com/index/gpt-4o'],
+    [/^GPT-4o$/, 'https://openai.com/index/gpt-4o'],
+    [/^GPT-4o mini/, 'https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/'],
     [/^GPT-4 Turbo/, 'https://openai.com/index/gpt-4-turbo'],
     [/^GPT-4V/, 'https://openai.com/index/gpt-4v-system-card/'],
     [/^Sora/, 'https://openai.com/index/sora-is-here/'],
