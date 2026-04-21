@@ -81,6 +81,11 @@ llm_release_timeline_2022-11_to_2026-04.md
 node scripts/build-json.js
 ```
 
+**构建脚本做什么：**
+1. 读取 CSV → 生成 `data.json`（数据结构）
+2. 读取 MD → 提取链接 → 生成 `links.json`（URL 映射）
+3. 结合 data.json + links.json → 生成 `README.md`（GitHub 页面显示的表格）
+
 **构建成功输出：**
 ```
 📦 LLM Timeline 数据构建

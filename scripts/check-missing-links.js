@@ -59,40 +59,6 @@ dataRows.forEach((line, idx) => {
 });
 
 function inferURL(modelName) {
-  const infer = [
-    [/^GPT-4$/, 'https://openai.com/index/gpt-4'],
-    [/^Claude 1$/, 'https://www.anthropic.com/news/introducing-claude'],
-    [/^Claude 2(\.\d)?$/, 'https://www.anthropic.com/news/claude-2-1'],
-    [/^Spark 1\.0/, 'https://mp.weixin.qq.com/s/3esI9MJsHgHuMZHNOFuVuA'],
-    [/^Spark 1\.5/, 'https://wap.bjd.com.cn/news/2023/05/06/10422555.shtml'],
-    [/^Spark 2\.0/, 'https://app.dahecube.com/nweb/news/20230506/161691n915c3f8b152.htm'],
-    [/^Spark 3\.0/, 'https://www.geekpark.net/news/331090'],
-    [/^Spark 3\.5/, 'https://www.geekpark.net/news/331090'],
-    [/^Spark 4\.0/, 'http://www.ce.cn/xwzx/gnsz/gdxw/202305/08/t20230508_38536688.shtml'],
-    [/^abab5$/, 'https://www.scmp.com/tech/big-tech/article/3240828/'],
-    [/^abab5\.5/, 'https://www.reuters.com/technology/chinese-startup-minimax-launches-abab55-2023-12-05/'],
-    [/^Embed v3/, 'https://cohere.com/blog/introducing-embed-v3'],
-    [/^Rerank v3/, 'https://cohere.com/blog/rerank-3'],
-    [/^Grok-1$/, 'https://techcrunch.com/2023/11/04/xai-launches-grok-its-gpt-4-rival-built-by-xai/'],
-    [/^DeepSeek-LLM/, 'https://github.com/deepseek-ai/DeepSeek-LLM'],
-    [/^Qwen-14B/, 'https://huggingface.co/Qwen'],
-    [/^Qwen-72B/, 'https://huggingface.co/Qwen'],
-    [/^Qwen-Audio/, 'https://huggingface.co/Qwen/Qwen-Audio'],
-    [/^ERNIE 3\.5/, 'https://research.baidu.com/Blog/index-view?id=185'],
-    [/^ERNIE 4\.0$/, 'https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html'],
-    [/^Pro$/, 'https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model'],
-    [/^Nano$/, 'https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model'],
-    [/^Sonnet$/, 'https://www.anthropic.com/news/claude-3-family'],
-    [/^Haiku$/, 'https://www.anthropic.com/news/claude-3-haiku'],
-    [/^Mistral Medium$/, 'https://mistral.ai/news/announcing-mistral-7b'],
-    [/^Command R$/, 'https://cohere.com/research/command-r'],
-    [/^Moonshot/, 'https://platform.moonshot.cn/blog/posts/kimi-latest'],
-    [/^MiLM/, 'https://github.com/XiaoMi/MiLM-6B'],
-  ];
-  
-  for (const [re, url] of infer) {
-    if (re.test(modelName)) return url;
-  }
   return null;
 }
 
