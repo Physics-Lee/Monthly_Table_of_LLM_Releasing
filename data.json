@@ -88,7 +88,12 @@
     {
       "Month": "22-Dec",
       "Open-Source": [],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "text-embedding-ada-002",
+          "url": "https://openai.com/index/new-and-improved-embedding-model/"
+        }
+      ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
@@ -1012,9 +1017,22 @@
         {
           "name": "SGLang",
           "url": "https://github.com/sgl-project/sglang"
+        },
+        {
+          "name": "BGE-M3",
+          "url": "https://github.com/FlagOpen/FlagEmbedding"
         }
       ],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "text-embedding-3-small",
+          "url": "https://openai.com/index/new-embedding-models-and-api-updates/"
+        },
+        {
+          "name": "text-embedding-3-large",
+          "url": "https://openai.com/index/new-embedding-models-and-api-updates/"
+        }
+      ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
@@ -1967,6 +1985,10 @@
         {
           "name": "Veo 2",
           "url": "https://deepmind.google/blog/state-of-the-art-video-and-image-generation-with-veo-2-and-imagen-3/"
+        },
+        {
+          "name": "Genie 2",
+          "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
         }
       ],
       "Meta": [
@@ -2811,7 +2833,12 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-1"
         }
       ],
-      "Google": [],
+      "Google": [
+        {
+          "name": "Genie 3",
+          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
+        }
+      ],
       "Meta": [],
       "Mistral": [],
       "xAI": [],
