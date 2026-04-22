@@ -257,6 +257,7 @@
   "AutoGLM Rumination": "https://github.com/zai-org/Open-AutoGLM",
   "Ling-Plus": "https://huggingface.co/inclusionAI",
   "Ling-Lite": "https://huggingface.co/inclusionAI",
+  "Jamba 1.6": "https://www.prnewswire.com/news-releases/ai21-introduces-jamba-1-6--raising-the-bar-for-accuracy-and-speed-in-open-models-302394382.html",
   "Manus": "https://manus.im/",
   "OpenCode": "https://github.com/anomalyco/opencode",
   "Codex CLI": "https://github.com/openai/codex",
@@ -319,6 +320,7 @@
   "Ming-Lite-Omni-1.5": "https://huggingface.co/inclusionAI/Ming-Lite-Omni",
   "Step 3": "https://hub.baai.ac.cn/view/38402",
   "Hunyuan-TurboS": "https://cloud.tencent.cn/document/product/1729/104753",
+  "LFM2": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models",
   "GPT-5": "https://openai.com/blog/introducing-gpt-5",
   "Claude Opus 4.1": "https://www.anthropic.com/news/claude-opus-4-1",
   "Genie 3": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
@@ -377,6 +379,7 @@
   "Kimi K2.5": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en",
   "AReaL-SEA": "https://huggingface.co/inclusionAI",
   "Kling 3.0": "https://klingai.kuaishou.com/",
+  "LFM2.5": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai",
   "Microsoft Maia 200": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
   "oh-my-codex": "https://github.com/yeachan-heo/oh-my-codex",
   "GPT-5.3-Codex": "https://openai.com/index/introducing-gpt-5-3-codex/",
@@ -424,6 +427,7 @@
   "MiMo-V2-TTS": "https://mimo.xiaomi.com",
   "Phi-4": "https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/",
   "Nemotron 3 Super": "https://blogs.nvidia.com/blog/nemotron-model-families",
+  "LFM2.5-350M": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind",
   "QClaw": "https://www.qclaw.run/",
   "WorkBuddy": "https://workbuddy.cloud.tencent.com/",
   "NVIDIA Nemotron 3 Super": "https://blogs.nvidia.com/blog/nemotron-model-families/",
@@ -438,5 +442,6 @@
   "Qwen3.6-Plus": "https://qwen.ai/blog?id=qwen3.6",
   "Qwen3.6-35B-A3B": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
   "GLM-5.1": "https://z.ai/blog/glm-5.1",
-  "Kimi K2.6": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
+  "Kimi K2.6": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en",
+  "LFM2.5-VL-450M": "https://liquid.ai/blog/lfm2-5-vl-450m"
 }

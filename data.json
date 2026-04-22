@@ -82,10 +82,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "22-Dec",
@@ -126,6 +126,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Perplexity",
@@ -133,8 +134,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jan",
@@ -170,10 +170,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Feb",
@@ -224,6 +224,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Notion AI",
@@ -239,8 +240,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Mar",
@@ -305,6 +305,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Cursor",
@@ -328,8 +329,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Apr",
@@ -370,6 +370,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Grammarly",
@@ -377,8 +378,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-May",
@@ -424,6 +424,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "LM Studio",
@@ -431,8 +432,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jun",
@@ -501,6 +501,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "AnythingLLM",
@@ -508,8 +509,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jul",
@@ -565,10 +565,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Aug",
@@ -647,6 +647,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -654,8 +655,7 @@
           "url": "https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/"
         }
       ],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Sep",
@@ -721,10 +721,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Oct",
@@ -789,6 +789,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Raycast AI",
@@ -796,8 +797,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Nov",
@@ -903,6 +903,7 @@
       ],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -910,8 +911,7 @@
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
       ],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Dec",
@@ -999,6 +999,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1015,8 +1016,7 @@
           "name": "Google AI Hypercomputer",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "24-Jan",
@@ -1108,10 +1108,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Feb",
@@ -1204,10 +1204,10 @@
         }
       ],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Mar",
@@ -1290,6 +1290,7 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Windsurf",
@@ -1307,8 +1308,7 @@
           "name": "AWS Trainium2 GA",
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "24-Apr",
@@ -1388,6 +1388,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1395,8 +1396,7 @@
           "url": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai/"
         }
       ],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-May",
@@ -1500,6 +1500,7 @@
         }
       ],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": [
@@ -1507,8 +1508,7 @@
           "name": "CoreWeave raises $7.5B to build GPU data center",
           "url": "https://www.coreweave.com/"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "24-Jun",
@@ -1584,10 +1584,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Jul",
@@ -1657,10 +1657,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Aug",
@@ -1735,6 +1735,7 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1747,8 +1748,7 @@
           "name": "Lambda Labs raises $320M to expand GPU cloud",
           "url": "https://lambda.ai/"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "24-Sep",
@@ -1830,10 +1830,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Oct",
@@ -1913,10 +1913,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Nov",
@@ -1984,10 +1984,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Dec",
@@ -2100,6 +2100,7 @@
       ],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2112,8 +2113,7 @@
           "name": "AWS AI Factories",
           "url": "https://aws.amazon.com/ai-factories/"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "25-Jan",
@@ -2201,6 +2201,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Trae",
@@ -2213,8 +2214,7 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Feb",
@@ -2293,10 +2293,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Mar",
@@ -2397,7 +2397,13 @@
       "Stability": [],
       "Amazon": [],
       "SenseTime": [],
-      "AI21": [],
+      "AI21": [
+        {
+          "name": "Jamba 1.6",
+          "url": "https://www.prnewswire.com/news-releases/ai21-introduces-jamba-1-6--raising-the-bar-for-accuracy-and-speed-in-open-models-302394382.html"
+        }
+      ],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Manus",
@@ -2405,8 +2411,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Apr",
@@ -2535,10 +2540,10 @@
       ],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-May",
@@ -2635,10 +2640,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Jun",
@@ -2726,6 +2731,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2738,8 +2744,7 @@
           "name": "AWS GPU price cut by 45%",
           "url": "https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "25-Jul",
@@ -2847,10 +2852,15 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2",
+          "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Aug",
@@ -2926,10 +2936,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Sep",
@@ -3005,6 +3015,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "CodeBuddy",
@@ -3012,8 +3023,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Oct",
@@ -3082,10 +3092,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Nov",
@@ -3183,10 +3193,10 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Dec",
@@ -3283,6 +3293,7 @@
       ],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3295,8 +3306,7 @@
           "name": "CoreWeave raises another $8.5B to build data center",
           "url": "https://www.coreweave.com/"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "26-Jan",
@@ -3361,6 +3371,12 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5",
+          "url": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3368,8 +3384,7 @@
           "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
         }
       ],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-Feb",
@@ -3510,6 +3525,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [],
       "LLM-Applications": [
         {
           "name": "Kilo CLI",
@@ -3522,8 +3538,7 @@
           "name": "Microsoft and OpenAI invest $100B to build AI data center",
           "url": "https://openai.com/index/scaling-ai-for-everyone"
         }
-      ],
-      "Liquid AI": []
+      ]
     },
     {
       "Month": "26-Mar",
@@ -3654,6 +3669,12 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-350M",
+          "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "QClaw",
@@ -3670,8 +3691,7 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-Apr",
@@ -3763,10 +3783,15 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-VL-450M",
+          "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Liquid AI": []
+      "AI-Cloud": []
     }
   ]
 }
