@@ -33,6 +33,7 @@
     "SenseTime",
     "AI21",
     "Liquid AI",
+    "AI2",
     "LLM-Applications",
     "AI-Chips",
     "AI-Cloud"
@@ -83,6 +84,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -127,6 +129,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Perplexity",
@@ -171,6 +174,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -225,6 +229,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Notion AI",
@@ -311,6 +316,7 @@
         }
       ],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Cursor",
@@ -376,6 +382,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Grammarly",
@@ -430,6 +437,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "LM Studio",
@@ -507,6 +515,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "AnythingLLM",
@@ -571,6 +580,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -653,6 +663,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -727,6 +738,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -795,6 +807,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Raycast AI",
@@ -909,6 +922,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1005,6 +1019,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1114,6 +1129,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1210,6 +1226,12 @@
       ],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo",
+          "url": "https://allenai.org/olmo"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1296,6 +1318,7 @@
         }
       ],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Windsurf",
@@ -1394,6 +1417,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1506,6 +1530,7 @@
       ],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": [
@@ -1590,6 +1615,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1663,6 +1689,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1741,6 +1768,7 @@
         }
       ],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1836,6 +1864,12 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMoE",
+          "url": "https://allenai.org/blog/olmoe"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1932,6 +1966,7 @@
           "url": "https://www.liquid.ai/liquid-foundation-models"
         }
       ],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2003,6 +2038,16 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo 2",
+          "url": "https://allenai.org/blog/olmo2"
+        },
+        {
+          "name": "Tülu 3",
+          "url": "https://allenai.org/blog/tulu-3"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2119,6 +2164,12 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "Molmo",
+          "url": "https://allenai.org/blog/molmo"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2220,6 +2271,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Trae",
@@ -2312,6 +2364,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2426,6 +2479,12 @@
         }
       ],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo 2 32B",
+          "url": "https://allenai.org/blog/olmo2-32b"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "Manus",
@@ -2563,6 +2622,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2663,6 +2723,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2754,6 +2815,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2880,6 +2942,7 @@
           "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
         }
       ],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2959,6 +3022,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3038,6 +3102,7 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "CodeBuddy",
@@ -3120,6 +3185,7 @@
         }
       ],
       "Liquid AI": [],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3221,6 +3287,12 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo 3",
+          "url": "https://allenai.org/blog/olmo3"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3321,6 +3393,20 @@
       "SenseTime": [],
       "AI21": [],
       "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "Molmo 2",
+          "url": "https://allenai.org/blog/molmo2"
+        },
+        {
+          "name": "OLMo 3.1",
+          "url": "https://allenai.org/blog/olmo3"
+        },
+        {
+          "name": "Tülu 3 405B",
+          "url": "https://allenai.org/blog/tulu-3"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3413,6 +3499,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
         }
       ],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3567,6 +3654,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
         }
       ],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Kilo CLI",
@@ -3716,6 +3804,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
         }
       ],
+      "AI2": [],
       "LLM-Applications": [
         {
           "name": "QClaw",
@@ -3835,6 +3924,7 @@
           "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
         }
       ],
+      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
