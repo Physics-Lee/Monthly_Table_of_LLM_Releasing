@@ -2520,17 +2520,17 @@
         }
       ],
       "xAI": [],
-        "DeepSeek": [
-          {
-            "name": "DeepSeek-R1-0528",
-            "url": "https://github.com/deepseek-ai/DeepSeek-R1"
-          },
-          {
-            "name": "DeepSeek-Prover-V2",
-            "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
-          }
-        ],
-        "Qwen-Alibaba": [],
+      "DeepSeek": [
+        {
+          "name": "DeepSeek-R1-0528",
+          "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+        },
+        {
+          "name": "DeepSeek-Prover-V2",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
+        }
+      ],
+      "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
@@ -2811,18 +2811,18 @@
       "Meta": [],
       "Mistral": [],
       "xAI": [],
-        "DeepSeek": [
-          {
-            "name": "DeepSeek-V3.1",
-            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
-          }
-        ],
-        "Qwen-Alibaba": [
-          {
-            "name": "Qoder",
-            "url": "https://qoder.com/"
-          }
-        ],
+      "DeepSeek": [
+        {
+          "name": "DeepSeek-V3.1",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qoder",
+          "url": "https://qoder.com/"
+        }
+      ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
@@ -2861,7 +2861,7 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
-        "LLM-Applications": [],
+      "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
     },
@@ -2966,9 +2966,9 @@
       ],
       "Meta": [],
       "Mistral": [],
-        "xAI": [],
-        "DeepSeek": [],
-        "Qwen-Alibaba": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
@@ -3484,35 +3484,39 @@
           "url": "https://mistral.ai/news/mistral-small-4"
         }
       ],
-        "xAI": [
-          {
-            "name": "Grok 4.2 Multi-Agent",
-            "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
-          }
-        ],
-        "DeepSeek": [],
-        "Qwen-Alibaba": [
-          {
-            "name": "QoderWork",
-            "url": "https://qoder.com/product/qoderwork"
-          },
-          {
-            "name": "Qwen3.5-9B",
-            "url": "https://huggingface.co/Qwen/Qwen3.5-9B"
-          },
-          {
-            "name": "Qwen3.5-4B",
-            "url": "https://huggingface.co/Qwen/Qwen3.5-4B"
-          },
-          {
-            "name": "Qwen3.5-2B",
-            "url": "https://huggingface.co/Qwen/Qwen3.5-2B"
-          },
-          {
-            "name": "Qwen3.5-0.8B",
-            "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
-          }
-        ],
+      "xAI": [
+        {
+          "name": "Grok 4.2 Multi-Agent",
+          "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
+        }
+      ],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "QoderWork",
+          "url": "https://qoder.com/product/qoderwork"
+        },
+        {
+          "name": "Qwen3.5-9B",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-9B"
+        },
+        {
+          "name": "Qwen3.5-4B",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-4B"
+        },
+        {
+          "name": "Qwen3.5-2B",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-2B"
+        },
+        {
+          "name": "Qwen3.5-0.8B",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
+        },
+        {
+          "name": "Qwen3.5-Omni",
+          "url": "https://qwen.ai/blog?id=qwen3.5-omni"
+        }
+      ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
@@ -3578,16 +3582,16 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
-        "LLM-Applications": [
-          {
-            "name": "QClaw",
-            "url": "https://www.qclaw.run/"
-          },
-          {
-            "name": "WorkBuddy",
-            "url": "https://workbuddy.cloud.tencent.com/"
-          }
-        ],
+      "LLM-Applications": [
+        {
+          "name": "QClaw",
+          "url": "https://www.qclaw.run/"
+        },
+        {
+          "name": "WorkBuddy",
+          "url": "https://workbuddy.cloud.tencent.com/"
+        }
+      ],
       "AI-Chips": [
         {
           "name": "NVIDIA Nemotron 3 Super",

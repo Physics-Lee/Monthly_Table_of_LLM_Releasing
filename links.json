@@ -407,6 +407,7 @@
   "Qwen3.5-4B": "https://huggingface.co/Qwen/Qwen3.5-4B",
   "Qwen3.5-2B": "https://huggingface.co/Qwen/Qwen3.5-2B",
   "Qwen3.5-0.8B": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+  "Qwen3.5-Omni": "https://qwen.ai/blog?id=qwen3.5-omni",
   "GLM-5-Turbo": "https://www.aibase.com/zh/news/26283",
   "MiniMax-M2.7": "https://www.minimax.io/news/minimax-m27-en",
   "MiniMax-2.7-Highspeed": "https://www.minimaxi.com/models/text/m27",
