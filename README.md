@@ -8,7 +8,7 @@
 
 ## 覆盖厂商
 
-OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、千问、Cohere、百度、智谱、讯飞、MINIMAX、月之暗面、字节跳动、蚂蚁集团、阶跃星辰、小米、快手可灵、Boss直聘南北阁、华为、腾讯、零一万物、百川智能、Microsoft、Apple、NVIDIA、Stability AI、Amazon、商汤、AI21
+OpenAI、Anthropic、Google、Meta、Mistral、xAI、DeepSeek、千问、Cohere、百度、智谱、讯飞、MINIMAX、月之暗面、字节跳动、蚂蚁集团、阶跃星辰、小米、快手可灵、Boss直聘南北阁、华为、腾讯、零一万物、百川智能、Microsoft、Apple、NVIDIA、Stability AI、Amazon、商汤、AI21、Liquid AI
 
 ## 说明
 
