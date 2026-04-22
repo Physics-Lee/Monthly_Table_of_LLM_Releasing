@@ -32,6 +32,7 @@
     "Amazon",
     "SenseTime",
     "AI21",
+    "Liquid AI",
     "LLM-Applications",
     "AI-Chips",
     "AI-Cloud"
@@ -83,7 +84,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "22-Dec",
@@ -131,7 +133,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Jan",
@@ -169,7 +172,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Feb",
@@ -235,7 +239,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Mar",
@@ -323,7 +328,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Apr",
@@ -371,7 +377,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-May",
@@ -424,7 +431,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Jun",
@@ -500,7 +508,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Jul",
@@ -558,7 +567,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Aug",
@@ -644,7 +654,8 @@
           "url": "https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Sep",
@@ -712,7 +723,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Oct",
@@ -784,7 +796,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Nov",
@@ -897,7 +910,8 @@
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "23-Dec",
@@ -1001,7 +1015,8 @@
           "name": "Google AI Hypercomputer",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "24-Jan",
@@ -1095,7 +1110,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Feb",
@@ -1190,7 +1206,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Mar",
@@ -1290,7 +1307,8 @@
           "name": "AWS Trainium2 GA",
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "24-Apr",
@@ -1377,7 +1395,8 @@
           "url": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-May",
@@ -1488,7 +1507,8 @@
           "name": "CoreWeave raises $7.5B to build GPU data center",
           "url": "https://www.coreweave.com/"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "24-Jun",
@@ -1566,7 +1586,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Jul",
@@ -1638,7 +1659,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Aug",
@@ -1725,7 +1747,8 @@
           "name": "Lambda Labs raises $320M to expand GPU cloud",
           "url": "https://lambda.ai/"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "24-Sep",
@@ -1809,7 +1832,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Oct",
@@ -1891,7 +1915,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Nov",
@@ -1961,7 +1986,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "24-Dec",
@@ -2086,7 +2112,8 @@
           "name": "AWS AI Factories",
           "url": "https://aws.amazon.com/ai-factories/"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "25-Jan",
@@ -2186,7 +2213,8 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Feb",
@@ -2267,7 +2295,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Mar",
@@ -2376,7 +2405,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Apr",
@@ -2507,7 +2537,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-May",
@@ -2606,7 +2637,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Jun",
@@ -2706,7 +2738,8 @@
           "name": "AWS GPU price cut by 45%",
           "url": "https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "25-Jul",
@@ -2816,7 +2849,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Aug",
@@ -2894,7 +2928,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Sep",
@@ -2977,7 +3012,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Oct",
@@ -3048,7 +3084,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Nov",
@@ -3148,7 +3185,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "25-Dec",
@@ -3257,7 +3295,8 @@
           "name": "CoreWeave raises another $8.5B to build data center",
           "url": "https://www.coreweave.com/"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "26-Jan",
@@ -3329,7 +3368,8 @@
           "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "26-Feb",
@@ -3482,7 +3522,8 @@
           "name": "Microsoft and OpenAI invest $100B to build AI data center",
           "url": "https://openai.com/index/scaling-ai-for-everyone"
         }
-      ]
+      ],
+      "Liquid AI": []
     },
     {
       "Month": "26-Mar",
@@ -3629,7 +3670,8 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     },
     {
       "Month": "26-Apr",
@@ -3723,7 +3765,8 @@
       "AI21": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Liquid AI": []
     }
   ]
 }
