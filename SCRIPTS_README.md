@@ -1,7 +1,28 @@
 # scripts/ 目录说明
 
-> 说明各脚本的用途、推荐顺序和适用场景  
-> 最后更新：2026-04-21
+> 说明当前脚本的真实职责、推荐顺序和使用场景
+> 最后更新：2026-04-22
+
+---
+
+## 当前真源
+
+**当前仓库唯一真源是 `data.json`。**
+
+也就是说：
+
+- `data.json`：手工源 / 脚本源
+- `csv`：导出产物
+- `md`：导出产物
+- `links.json`：导出产物
+
+当前主数据流：
+
+```text
+data.json -> csv
+data.json -> md
+data.json -> links.json
+```
 
 ---
 
@@ -9,22 +30,23 @@
 
 ### 日常单条更新
 
-默认用下面两步：
-
 ```bash
 node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
-node scripts/check-missing-links.js
+node scripts/check-data-links.js
 ```
 
-这是当前仓库**正式推荐**的 agent 工作流。
+### 新增列
 
-### 手工改源表后的重建
+```bash
+node scripts/add-vendor-column.js --vendor "Liquid AI" --after AI21
+node scripts/check-data-links.js
+```
 
-只有在你直接编辑 CSV 或 MD 时，才用：
+### 手工改完 `data.json` 后整体重建
 
 ```bash
 node scripts/build-json.js
-node scripts/check-missing-links.js
+node scripts/check-data-links.js
 ```
 
 ---
@@ -35,18 +57,16 @@ node scripts/check-missing-links.js
 
 作用：
 
-- 安全地更新一条发布记录
-- 自动同步 CSV 和 MD
-- 自动生成 `data.json`
-- 自动生成 `links.json`
-- 自动生成 `README.md`
+- 安全更新一条模型记录
+- 直接修改 `data.json`
+- 自动重建 `csv`、`md`、`links.json`
 
 适用场景：
 
-- 新模型刚发布
+- 新模型发布
 - 补历史漏项
-- 修正某个模型的链接
-- 新增一个尚不存在的月份行
+- 修正某个模型的 URL
+- 新增一个尚不存在的月份
 
 用法：
 
@@ -57,51 +77,68 @@ node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --ur
 可选参数：
 
 ```bash
-node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x" --csv llm_release_timeline_2022-11_to_2026-04.csv --md llm_release_timeline_2022-11_to_2026-04.md --out .
+node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x" --data data.json --csv llm_release_timeline_2022-11_to_2026-04.csv --md llm_release_timeline_2022-11_to_2026-04.md --links links.json
 ```
 
 行为说明：
 
-- 月份已存在时，只更新对应厂商单元格
+- 月份已存在时，只更新该月份的目标列
 - 月份不存在时，按时间顺序插入新行
-- 模型已存在时，不重复追加
-- URL 会写入链接映射来源
-- 执行后会重建全部产物
+- 模型已存在时，不重复追加，只刷新 URL
+- vendor 必须已经存在，否则会报 `Unknown vendor column`
 
-### `check-missing-links.js`
+### `add-vendor-column.js`
 
 作用：
 
-- 检查源 MD 表里是否还有纯文本模型没有超链接
+- 新增一整列 vendor/category
+- 直接修改 `data.json`
+- 自动给所有月份补空数组
+- 自动重建 `csv`、`md`、`links.json`
 
 适用场景：
 
-- 每次运行 `upsert-entry.js` 或 `build-json.js` 之后
+- 新增一个新的厂商列
+- 新增一个新的分类列
+- 调整列插入位置
 
 用法：
 
 ```bash
-node scripts/check-missing-links.js
+node scripts/add-vendor-column.js --vendor "Liquid AI" --after AI21
 ```
 
-如果发现缺链：
+或：
 
-1. 用 `upsert-entry.js` 重新补一条完整记录，或
-2. 手工修 MD 后重新运行 `build-json.js` 和本检查脚本
+```bash
+node scripts/add-vendor-column.js --vendor "Voyage" --before LLM-Applications
+```
+
+可选参数：
+
+```bash
+node scripts/add-vendor-column.js --vendor "Liquid AI" --after AI21 --data data.json --csv llm_release_timeline_2022-11_to_2026-04.csv --md llm_release_timeline_2022-11_to_2026-04.md --links links.json
+```
+
+行为说明：
+
+- `--after` 和 `--before` 二选一
+- 如果列已存在，则不重复创建
+- 如果不给位置参数，默认插到最后
 
 ### `build-json.js`
 
 作用：
 
-- 从 CSV 和 MD 重建 `data.json`
-- 重建 `links.json`
-- 重建 `README.md`
+- 从 `data.json` 重建 `csv`
+- 从 `data.json` 重建 `md`
+- 从 `data.json` 重建 `links.json`
 
 适用场景：
 
-- 手工改了 CSV
-- 手工改了 MD
-- 做批量修复后需要整体重建
+- 你手工改了 `data.json`
+- 你想强制重跑产物
+- 你想确认导出结果和真源一致
 
 用法：
 
@@ -109,60 +146,75 @@ node scripts/check-missing-links.js
 node scripts/build-json.js
 ```
 
-数据流：
+可选参数：
 
-```text
-CSV -> data.json
-MD  -> links.json
-data.json + links.json -> README.md
+```bash
+node scripts/build-json.js data.json llm_release_timeline_2022-11_to_2026-04.csv llm_release_timeline_2022-11_to_2026-04.md links.json
 ```
 
-注意：
+### `check-data-links.js`
 
-- 现在生成的 `data.json` 已是数组格式
-- 网页端兼容字符串和数组两种单元格格式
-- 但真实源数据仍然是 CSV + MD
+作用：
+
+- 检查 `data.json` 中所有模型是否都能在 `links.json` 找到对应 URL
+- 检查 `links.json` 是否存在孤儿链接
+
+适用场景：
+
+- 每次运行 `upsert-entry.js` 后
+- 每次运行 `add-vendor-column.js` 后
+- 每次运行 `build-json.js` 后
+
+用法：
+
+```bash
+node scripts/check-data-links.js
+```
+
+这是当前仓库默认的一致性检查脚本。
 
 ---
 
 ## 辅助脚本
 
+### `check-missing-links.js`
+
+作用：
+
+- 检查导出的 MD 里是否还有纯文本模型名没有链接
+
+说明：
+
+- 它现在不是主检查脚本
+- 因为 MD 已经不是主数据源
+- 只有你在排查导出表格文本问题时才需要它
+
 ### `model-utils.js`
 
 作用：
 
-- 提供模型单元格归一化逻辑
-- 同时服务于前端和构建脚本
-
-核心能力：
-
-- `normalizeModels(value)`
-- `joinModels(value)`
-- `flattenRowText(row, vendors)`
+- 提供模型对象归一化逻辑
+- 供前端和构建脚本共用
 
 ### `migrate-data-json-to-arrays.js`
 
 作用：
 
-- 把旧字符串版 `data.json` 迁移成数组版
+- 旧迁移脚本
+- 用于把更早期格式迁移成数组/对象数组
 
-适用场景：
+现在不是日常工作流的一部分。
 
-- 一次性数据迁移
-- 不属于日常更新流程
+---
 
-用法：
-
-```bash
-node scripts/migrate-data-json-to-arrays.js data.json
-```
+## 测试脚本
 
 ### `model-utils.test.js`
 
-作用：
+验证：
 
-- 验证模型归一化逻辑
-- 验证 `build-json.js` 会输出数组版 `data.json`
+- 模型归一化逻辑
+- `build-json.js` 的核心输出行为
 
 用法：
 
@@ -172,14 +224,10 @@ node scripts/model-utils.test.js
 
 ### `upsert-entry.test.js`
 
-作用：
-
-- 验证 `upsert-entry.js` 的两类核心行为
-
-覆盖内容：
+验证：
 
 - 已有月份追加模型
-- 缺失月份按顺序插入
+- 缺失月份插入新行
 
 用法：
 
@@ -187,44 +235,50 @@ node scripts/model-utils.test.js
 node scripts/upsert-entry.test.js
 ```
 
----
+### `add-vendor-column.test.js`
 
-## 旧脚本说明
+验证：
 
-如果你以后重新引入或补回以下脚本，它们属于“按需工具”，不是当前推荐主流程：
+- 新列是否按指定位置插入
+- 所有月份是否自动补空数组
+- 重复新增时是否安全 no-op
 
-- `update-md-links.js`
-- `fix-md-links.js`
-- `fix_errors.py`
+用法：
 
-原则：
-
-- 单条更新优先用 `upsert-entry.js`
-- 只有批量修复或结构性清理时，才考虑额外脚本
+```bash
+node scripts/add-vendor-column.test.js
+```
 
 ---
 
 ## 典型工作流
 
-### 工作流 1：新增一条新发布记录
+### 工作流 1：新增一条模型
 
 ```bash
 node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://example.com/gpt-x"
-node scripts/check-missing-links.js
+node scripts/check-data-links.js
 ```
 
 ### 工作流 2：补历史漏项
 
 ```bash
 node scripts/upsert-entry.js --month 24-Sep --vendor Qwen-Alibaba --model "Qwen2.5-Coder" --url "https://huggingface.co/Qwen"
-node scripts/check-missing-links.js
+node scripts/check-data-links.js
 ```
 
-### 工作流 3：手工修完源表后整体重建
+### 工作流 3：新增一列
+
+```bash
+node scripts/add-vendor-column.js --vendor "Liquid AI" --after AI21
+node scripts/check-data-links.js
+```
+
+### 工作流 4：手工改完真源后重建
 
 ```bash
 node scripts/build-json.js
-node scripts/check-missing-links.js
+node scripts/check-data-links.js
 ```
 
 ---
@@ -233,12 +287,15 @@ node scripts/check-missing-links.js
 
 - 让 agent 直接手改整张 CSV
 - 让 agent 直接手改整张 MD
-- 只改 `data.json`
-- 更新后不跑缺链检查
-- 一次 prompt 让 agent 批量整理多个历史月份
+- 手工编辑 `links.json`
+- 多个 `upsert-entry.js` 并行写同一个 `data.json`
+
+最后这一点很重要：
+
+**写同一个 `data.json` 的脚本必须顺序执行，不能并发执行。**
 
 ---
 
 ## 一句话版本
 
-**日常更新用 `upsert-entry.js`，整体重建用 `build-json.js`，每次都跑 `check-missing-links.js`。**
+**日常更新用 `upsert-entry.js`，新增列用 `add-vendor-column.js`，整体重建用 `build-json.js`，每次都跑 `check-data-links.js`。**
