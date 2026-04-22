@@ -3834,6 +3834,10 @@
         {
           "name": "GPT-Rosalind",
           "url": "https://openai.com/index/introducing-gpt-rosalind/"
+        },
+        {
+          "name": "gpt-image-2",
+          "url": "https://developers.openai.com/api/docs/models/gpt-image-2"
         }
       ],
       "Anthropic": [
