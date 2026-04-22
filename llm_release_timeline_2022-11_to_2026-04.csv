@@ -14,7 +14,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 23-Nov,,GPT-4 Turbo,,,,,Grok-1,DeepSeek-LLM + DeepSeek-Coder,Qwen-72B + Qwen-Audio,Embed v3 + Rerank v3,,,,abab5,,,,,,,,,Hunyuan Standard,Yi-6B + Yi-34B,,,MLX,,,Titan Text Express + Titan Text Lite,,,,AWS Trainium2,
 23-Dec,RAGFlow,,Claude 2.1,Gemini 1.0 Ultra + Pro + Nano,,Mixtral 8x7B + Mistral Medium,,,,,,,,abab5.5,,,Bailing 2.0,,,,,,,,,Phi-2,Ferret,,,,,,,AMD MI300X + Google TPU v5p,Google AI Hypercomputer
 24-Jan,AutoGen + LangGraph + SGLang,,,,,,,DeepSeek-MoE,,,,GLM-4,Spark 3.0,,moonshot-v1,,,,,,,,,Yi-VL,Baichuan 3,,,,,,,,,,
-24-Feb,,,,Gemma + Gemini 1.5 Pro,,Mistral Large + Mistral Small,,DeepSeek-Math,Qwen1.5,Aya,,,,,,,,,,,,,,,,,,Nemotron-4 15B,Stable Diffusion 3,,SenseNova 4.0,,,,
+24-Feb,,Sora (demo),,Gemma + Gemini 1.5 Pro,,Mistral Large + Mistral Small,,DeepSeek-Math,Qwen1.5,Aya,,,,,,,,,,,,,,,,,,Nemotron-4 15B,Stable Diffusion 3,,SenseNova 4.0,,,,
 24-Mar,OpenHands,,Claude 3 Opus + Sonnet + Haiku,,,,Grok-1 + Grok-1.5,DeepSeek-VL,,Command R,,,Spark 3.5,,,,,,,,,,,,,,,,,,,Jamba,Windsurf,NVIDIA Blackwell B200,AWS Trainium2 GA
 24-Apr,,,,,Llama 3,Mixtral 8x22B,Grok-1.5V,,Qwen1.5-110B + CodeQwen1.5,Command R Plus,,,,ABAB 6.5,,,,,,,,,,,,Phi-3-mini,OpenELM,,,,,,,Microsoft Maia 100,
 24-May,Cherry Studio,GPT-4o,,Gemini 1.5 Flash + Veo,,Codestral,,DeepSeek-V2,,Aya 23,,CogVLM2,,,,,,,,,,,,Yi-1.5,Baichuan 4,Phi-3-small + Phi-3-medium,,,,Titan Text Premier,SenseChat,,,,CoreWeave raises $7.5B to build GPU data center
@@ -32,12 +32,12 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 25-May,,Codex,Claude 4 Sonnet + Claude 4 Opus,Veo 3,,Mistral Medium 3 + Devstral,,DeepSeek-R1-0528 + DeepSeek-Prover-V2,,,,,,,kimi-thinking-preview,,Ling-lite-1.5 + Ming-Lite-Omni,,MiMo-7B,Kling 2.1,,,,,,,,,,,,,,,
 25-Jun,,o3-pro,,Gemini CLI,,Magistral Small 1.0 + Magistral Medium 1.0 + Mistral Small 3.2,,,,,,,,MiniMax-M1,,Doubao 1.6 + Seedance 1.0,Ring-lite,,,,,PanGu 5.5,Hunyuan-A13B,,,,,,,,,,,AMD MI350X,AWS GPU price cut by 45%
 25-Jul,Hermes Agent,,,Gemma 3n + Gemini 2.5 Flash-Lite,,Devstral Medium + Voxtral,Grok 4,,Qwen3-Coder + Qwen-MT,Command A Vision,ERNIE 4.5 Open,GLM-4.5,,,Kimi K2,,Ming-Lite-Omni-1.5,Step 3,,,,,Hunyuan-TurboS,,,,,,,,,,,,
-25-Aug,,GPT-5,Claude Opus 4.1,,,,,DeepSeek-V3.1,,,,,,,Kimi K2 Turbo Preview,,,,,Kling 2.5,,,Hunyuan-T1,,,,,,,,,,,,
-25-Sep,,,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,Qwen CLI,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,CodeBuddy,,
+25-Aug,,GPT-5,Claude Opus 4.1,,,,,DeepSeek-V3.1,,,,,,,Kimi K2 Turbo Preview,,,,,Kling 2.5,,,Hunyuan-T1,,,,,,,,,,Qoder,,
+25-Sep,,Sora 2,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,Qwen CLI,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,CodeBuddy,,
 25-Oct,,,Claude Haiku 4.5,Veo 3.1,,,,,,,,,,,Kimi CLI,,,,,,Ling-1T + Ring-1T + Ming-flash-omni-Preview,,Nanbeige4-3B-Thinking-2510,,,,,,,,,,,,
 25-Nov,OpenClaw,GPT-5.1,Claude Opus 4.5,Gemini 3,,,Grok 4.1 + Grok 4.1 Fast,,,,ERNIE 5.0,,,,Kimi K2 Thinking,Doubao Seed Code,,,MiMo-VL Miloco-7B + MiMo-Embodied-7B,,,,HY 2.0 Think + HY 2.0 Instruct,,,,,,,,,,,,
 25-Dec,Oh-My-OpenAgent,GPT-5.2,,,,Mistral Large 3 + Ministral 3,,DeepSeek-V3.2,,,,,,,,,,,MiMo-V2-Flash,Kling O1 + Kling 2.6,Nanbeige4-3B,,,,,,,Nemotron 3 Nano,,Nova 2 Lite + Nova 2 Pro + Nova 2 Sonic,,,,NVIDIA Nemotron 3 Nano,CoreWeave raises another $8.5B to build data center
-26-Jan,andrej-karpathy-skills + oh-my-claudecode,,,,,,,,,,,,,,Kimi K2.5,,AReaL-SEA,,,Kling 3.0,,,,,,,,,,,,,,Microsoft Maia 200,
+26-Jan,andrej-karpathy-skills + oh-my-claudecode,,Claude Cowork,,,,,,,,,,,,Kimi K2.5,,AReaL-SEA,,,Kling 3.0,,,,,,,,,,,,,,Microsoft Maia 200,
 26-Feb,oh-my-codex,GPT-5.3-Codex,Claude Sonnet 4.6 + Claude Opus 4.6 + Claude Code Agent Teams,Gemini 3.1 Pro,,,Grok 4.2 Beta,,Qwen3.5,,,GLM-5,Spark X2,MiniMax-M2.5 + MiniMax-M2.5-Highspeed,,Doubao-Seed-2.0 + Seedance 2.0,Ring-2.5-1T + Ling-2.5-1T + Ming-flash-omni-2.0 + LLaDA2.1,Step 3.5 Flash,,,Nanbeige4.1-3B,,,,,,,,,,,,Kilo CLI,,Microsoft and OpenAI invest $100B to build AI data center
-26-Mar,,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,Grok 4.2 Multi-Agent,,,,,GLM-5-Turbo,,MiniMax-M2.7 + MiniMax-2.7-Highspeed,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,,,,,,,Phi-4,,Nemotron 3 Super,,,,,QClaw + WorkBuddy,NVIDIA Nemotron 3 Super,
+26-Mar,,GPT-5.4 + Codex multi-agent,,Gemini 3.1 Flash-Lite + Gemini 3.1 Flash Live,,Mistral Small 4,Grok 4.2 Multi-Agent,,,,,GLM-5-Turbo,,MiniMax-M2.7 + MiniMax-2.7-Highspeed,,,AReaL-tau2,,MiMo-V2-Pro + MiMo-V2-Omni + MiMo-V2-TTS,,,,,,,Phi-4,,Nemotron 3 Super,,,,,QClaw + WorkBuddy + QoderWork,NVIDIA Nemotron 3 Super,
 26-Apr,,GPT-5.4-Cyber + GPT-Rosalind,Claude Opus 4.7 + Claude Mythos Preview,Gemma 4,Muse Spark,,Grok 4.3 Beta,,Qwen3.6-Max-Preview + Qwen3.6-Plus + Qwen3.6-35B-A3B,,,GLM-5.1,,,Kimi K2.6,,,,,,,,,,,,,,,,,,,,

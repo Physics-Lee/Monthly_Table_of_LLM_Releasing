@@ -1082,7 +1082,12 @@
     {
       "Month": "24-Feb",
       "Open-Source": [],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "Sora (demo)",
+          "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
+        }
+      ],
       "Anthropic": [],
       "Google": [
         {
@@ -2851,14 +2856,24 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
-      "LLM-Applications": [],
+      "LLM-Applications": [
+        {
+          "name": "Qoder",
+          "url": "https://qoder.com/"
+        }
+      ],
       "AI-Chips": [],
       "AI-Cloud": []
     },
     {
       "Month": "25-Sep",
       "Open-Source": [],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "Sora 2",
+          "url": "https://openai.com/index/sora-2/"
+        }
+      ],
       "Anthropic": [
         {
           "name": "Claude Sonnet 4.5",
@@ -3226,7 +3241,12 @@
         }
       ],
       "OpenAI": [],
-      "Anthropic": [],
+      "Anthropic": [
+        {
+          "name": "Claude Cowork",
+          "url": "https://www.anthropic.com/product/claude-cowork"
+        }
+      ],
       "Google": [],
       "Meta": [],
       "Mistral": [],
@@ -3533,6 +3553,10 @@
         {
           "name": "WorkBuddy",
           "url": "https://workbuddy.cloud.tencent.com/"
+        },
+        {
+          "name": "QoderWork",
+          "url": "https://qoder.com/product/qoderwork"
         }
       ],
       "AI-Chips": [
