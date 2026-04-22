@@ -3808,7 +3808,12 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Ant-Group": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-2.6-flash",
+          "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling/#ling-26-flash"
+        }
+      ],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],

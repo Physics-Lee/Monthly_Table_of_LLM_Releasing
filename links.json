@@ -452,5 +452,6 @@
   "Qwen3.6-35B-A3B": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
   "GLM-5.1": "https://z.ai/blog/glm-5.1",
   "Kimi K2.6": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en",
+  "Ling-2.6-flash": "https://developer.ant-ling.com/zh-CN/docs/models/ling/#ling-26-flash",
   "LFM2.5-VL-450M": "https://liquid.ai/blog/lfm2-5-vl-450m"
 }
