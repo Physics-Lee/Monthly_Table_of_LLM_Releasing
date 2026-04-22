@@ -1097,6 +1097,10 @@
         {
           "name": "Gemini 1.5 Pro",
           "url": "https://blog.google/technology/ai/google-gemini-1-5-pro/"
+        },
+        {
+          "name": "Genie",
+          "url": "https://deepmind.google/research/publications/genie-generative-interactive-environments/"
         }
       ],
       "Meta": [],
