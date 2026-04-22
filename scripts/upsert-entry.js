@@ -1,8 +1,8 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const { buildDataJSON, buildLinksJSON, generateReadme, parseCSV, parseMD } = require('./build-json');
-const { joinModels, normalizeModels } = require('./model-utils');
+const { buildLinksJSON, parseDataJSON, renderCSV, renderMarkdownTable } = require('./build-json');
+const { normalizeModelEntries } = require('./model-utils');
 
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -12,8 +12,7 @@ function parseArgs(argv) {
   for (let i = 0; i < argv.length; i++) {
     const token = argv[i];
     if (!token.startsWith('--')) continue;
-    const key = token.slice(2);
-    args[key] = argv[i + 1];
+    args[token.slice(2)] = argv[i + 1];
     i++;
   }
 
@@ -23,6 +22,7 @@ function parseArgs(argv) {
 function monthSortKey(month) {
   const [yearText, monthText] = String(month).split('-');
   const monthIndex = MONTH_NAMES.indexOf(monthText);
+
   if (yearText == null || monthIndex === -1) {
     throw new Error(`Invalid month: ${month}. Expected format like 25-Apr.`);
   }
@@ -34,134 +34,88 @@ function compareMonth(a, b) {
   return monthSortKey(a) - monthSortKey(b);
 }
 
-function ensureMonthRow(headers, rows, month) {
-  const existingIndex = rows.findIndex(row => row.Month === month);
+function ensureMonthRow(data, month) {
+  const existingIndex = data.rows.findIndex(row => row.Month === month);
   if (existingIndex !== -1) {
-    return { created: false, index: existingIndex, row: rows[existingIndex] };
+    return { created: false, row: data.rows[existingIndex] };
   }
 
-  const newRow = Object.fromEntries(headers.map(header => [header, '']));
-  newRow.Month = month;
+  const newRow = { Month: month };
+  data.vendors.forEach(vendor => {
+    newRow[vendor] = [];
+  });
 
-  const insertIndex = rows.findIndex(row => compareMonth(month, row.Month) < 0);
+  const insertIndex = data.rows.findIndex(row => compareMonth(month, row.Month) < 0);
   if (insertIndex === -1) {
-    rows.push(newRow);
-    return { created: true, index: rows.length - 1, row: newRow };
+    data.rows.push(newRow);
+  } else {
+    data.rows.splice(insertIndex, 0, newRow);
   }
 
-  rows.splice(insertIndex, 0, newRow);
-  return { created: true, index: insertIndex, row: newRow };
+  return { created: true, row: newRow };
 }
 
-function upsertModelValue(currentValue, model) {
-  const models = normalizeModels(currentValue);
-  if (models.includes(model)) {
+function upsertModelValue(currentValue, model, url) {
+  const entries = normalizeModelEntries(currentValue);
+  const existing = entries.find(entry => entry.name === model);
+
+  if (existing) {
+    const changed = existing.url !== url;
+    existing.url = url;
     return {
       added: false,
-      value: joinModels(models)
+      changed,
+      value: entries
     };
   }
 
-  models.push(model);
+  entries.push({ name: model, url });
   return {
     added: true,
-    value: joinModels(models)
+    changed: false,
+    value: entries
   };
 }
 
-function escapeCSV(value) {
-  const text = String(value ?? '');
-  if (!/[",\n]/.test(text)) {
-    return text;
-  }
-
-  return `"${text.replace(/"/g, '""')}"`;
-}
-
-function stringifyCSV(headers, rows) {
-  const csvRows = [
-    headers.map(escapeCSV).join(',')
-  ];
-
-  rows.forEach(row => {
-    csvRows.push(headers.map(header => escapeCSV(row[header] || '')).join(','));
-  });
-
-  return `${csvRows.join('\n')}\n`;
-}
-
-function renderMarkdownTable(headers, rows, links) {
-  const headerRow = `| ${headers.join(' | ')} |`;
-  const separatorRow = `|${headers.map(() => '---').join('|')}|`;
-
-  const bodyRows = rows.map(row => {
-    const cells = headers.map(header => {
-      if (header === 'Month') return row.Month || '';
-
-      return normalizeModels(row[header]).map(model => {
-        const url = links[model];
-        return url ? `[${model}](${url})` : model;
-      }).join(' + ');
-    });
-
-    return `| ${cells.join(' | ')} |`;
-  });
-
-  return `${[headerRow, separatorRow, ...bodyRows].join('\n')}\n`;
-}
-
-function writeBuildOutputs(headers, rows, links, outputDir) {
-  const dataJSON = buildDataJSON(headers, rows, links);
-  const linksJSON = buildLinksJSON(links);
-  const readme = generateReadme(
-    dataJSON.vendors,
-    dataJSON.rows,
-    linksJSON,
-    process.env.ONLINE_URL || 'https://physics-lee.github.io/Monthly_Table_of_LLM_Releasing/',
-    process.env.GITHUB_URL || 'https://github.com/Physics-Lee/Monthly_Table_of_LLM_Releasing'
-  );
-
-  fs.writeFileSync(path.join(outputDir, 'data.json'), JSON.stringify(dataJSON, null, 2) + '\n', 'utf8');
-  fs.writeFileSync(path.join(outputDir, 'links.json'), JSON.stringify(linksJSON, null, 2) + '\n', 'utf8');
-  fs.writeFileSync(path.join(outputDir, 'README.md'), readme, 'utf8');
+function writeOutputs(data, dataPath, csvPath, mdPath, linksPath) {
+  const links = buildLinksJSON(data);
+  fs.writeFileSync(path.resolve(dataPath), JSON.stringify(data, null, 2) + '\n', 'utf8');
+  fs.writeFileSync(path.resolve(csvPath), renderCSV(data.vendors, data.rows), 'utf8');
+  fs.writeFileSync(path.resolve(mdPath), renderMarkdownTable(data.vendors, data.rows), 'utf8');
+  fs.writeFileSync(path.resolve(linksPath), JSON.stringify(links, null, 2) + '\n', 'utf8');
 }
 
 function upsertEntry(options) {
   const {
+    dataPath,
     csvPath,
     mdPath,
+    linksPath,
     month,
     vendor,
     model,
-    url,
-    outputDir
+    url
   } = options;
 
-  if (!csvPath || !mdPath || !month || !vendor || !model || !url) {
-    throw new Error('csvPath, mdPath, month, vendor, model, and url are required');
+  if (!dataPath || !csvPath || !mdPath || !linksPath || !month || !vendor || !model || !url) {
+    throw new Error('dataPath, csvPath, mdPath, linksPath, month, vendor, model, and url are required');
   }
 
-  const { headers, rows } = parseCSV(csvPath);
-  const { links } = parseMD(mdPath);
+  const data = parseDataJSON(dataPath);
 
-  if (!headers.includes(vendor)) {
+  if (!data.vendors.includes(vendor)) {
     throw new Error(`Unknown vendor column: ${vendor}`);
   }
 
-  const { created, row } = ensureMonthRow(headers, rows, month);
-  const { added, value } = upsertModelValue(row[vendor], model);
+  const { created, row } = ensureMonthRow(data, month);
+  const { added, changed, value } = upsertModelValue(row[vendor], model, url);
   row[vendor] = value;
-  links[model] = url;
 
-  const csvContent = stringifyCSV(headers, rows);
-  const mdContent = renderMarkdownTable(headers, rows, links);
-
-  fs.writeFileSync(csvPath, csvContent, 'utf8');
-  fs.writeFileSync(mdPath, mdContent, 'utf8');
-  writeBuildOutputs(headers, rows, links, outputDir || path.dirname(csvPath));
+  writeOutputs(data, dataPath, csvPath, mdPath, linksPath);
 
   return {
     addedModel: added,
+    changedUrl: changed,
     createdMonth: created,
     month,
     model,
@@ -171,14 +125,15 @@ function upsertEntry(options) {
 
 function printUsage() {
   console.log('Usage: node scripts/upsert-entry.js --month 25-May --vendor OpenAI --model "GPT-X" --url "https://..."');
-  console.log('Optional: --csv path/to/file.csv --md path/to/file.md --out output/dir');
+  console.log('Optional: --data data.json --csv llm_release_timeline_2022-11_to_2026-04.csv --md llm_release_timeline_2022-11_to_2026-04.md --links links.json');
 }
 
 function main() {
   const args = parseArgs(process.argv.slice(2));
+  const dataPath = args.data || 'data.json';
   const csvPath = args.csv || 'llm_release_timeline_2022-11_to_2026-04.csv';
   const mdPath = args.md || 'llm_release_timeline_2022-11_to_2026-04.md';
-  const outputDir = args.out || '.';
+  const linksPath = args.links || 'links.json';
 
   if (!args.month || !args.vendor || !args.model || !args.url) {
     printUsage();
@@ -186,13 +141,14 @@ function main() {
   }
 
   const result = upsertEntry({
+    dataPath,
     csvPath,
     mdPath,
+    linksPath,
     month: args.month,
     vendor: args.vendor,
     model: args.model,
-    url: args.url,
-    outputDir
+    url: args.url
   });
 
   console.log(JSON.stringify(result, null, 2));
@@ -205,8 +161,6 @@ if (require.main === module) {
 module.exports = {
   compareMonth,
   ensureMonthRow,
-  renderMarkdownTable,
-  stringifyCSV,
   upsertEntry,
   upsertModelValue
 };
