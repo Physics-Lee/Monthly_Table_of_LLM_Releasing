@@ -3838,6 +3838,10 @@
         {
           "name": "gpt-image-2",
           "url": "https://developers.openai.com/api/docs/models/gpt-image-2"
+        },
+        {
+          "name": "GPT-5.5",
+          "url": "https://openai.com/index/introducing-gpt-5-5/"
         }
       ],
       "Anthropic": [
