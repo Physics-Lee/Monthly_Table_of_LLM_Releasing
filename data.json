@@ -3912,7 +3912,16 @@
         }
       ],
       "StepFun": [],
-      "Xiaomi": [],
+      "Xiaomi": [
+        {
+          "name": "MiMo-V2.5",
+          "url": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "MiMo-V2.5-Pro",
+          "url": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        }
+      ],
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
