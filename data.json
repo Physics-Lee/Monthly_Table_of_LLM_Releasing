@@ -3882,6 +3882,10 @@
         {
           "name": "Qwen3.6-35B-A3B",
           "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+        },
+        {
+          "name": "Qwen3.6-27B",
+          "url": "https://qwen.ai/blog?id=qwen3.6-27b"
         }
       ],
       "Cohere": [],
@@ -3912,7 +3916,12 @@
       "Kuaishou-Kling": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
-      "Tencent": [],
+      "Tencent": [
+        {
+          "name": "HY3-Preview",
+          "url": "https://huggingface.co/tencent/Hy3-preview"
+        }
+      ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
       "Microsoft": [],
