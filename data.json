@@ -3873,7 +3873,16 @@
           "url": "https://x.ai/news"
         }
       ],
-      "DeepSeek": [],
+      "DeepSeek": [
+        {
+          "name": "V4-Pro",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "V4-Flash",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.6-Max-Preview",
@@ -3913,6 +3922,10 @@
         {
           "name": "Ling-2.6-flash",
           "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling/#ling-26-flash"
+        },
+        {
+          "name": "Ling-2.6-1T",
+          "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling/#ling-26-1t"
         }
       ],
       "StepFun": [],
