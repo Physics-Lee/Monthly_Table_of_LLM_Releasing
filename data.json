@@ -3228,7 +3228,12 @@
           "url": "https://x.ai/news/grok-4-1-fast"
         }
       ],
-      "DeepSeek": [],
+      "DeepSeek": [
+        {
+          "name": "DeepSeek-Math-V2",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2"
+        }
+      ],
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [
