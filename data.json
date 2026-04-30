@@ -1589,7 +1589,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 1.0",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-proprietary-video-generation-model-kling/"
         }
       ],
       "Boss-Nanbeige": [],
@@ -2122,7 +2122,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 1.6",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://www.aibase.com/news/14103"
         }
       ],
       "Boss-Nanbeige": [],
@@ -2596,7 +2596,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.0",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-advances-20-era-empowering-everyone-tell-great-stories/"
         }
       ],
       "Boss-Nanbeige": [],
@@ -2707,7 +2707,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.1",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://bluelightningtv.com/2025/08/25/kling-ai-releases-2-1-update-enhanced-features-elevate-cinematic-production/"
         }
       ],
       "Boss-Nanbeige": [],
@@ -3001,7 +3001,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.5",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-25-turbo-video-model-industry-leading/"
         }
       ],
       "Boss-Nanbeige": [],
@@ -3081,7 +3081,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.5 Turbo",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-25-turbo-video-model-industry-leading/"
         }
       ],
       "Boss-Nanbeige": [],
@@ -3355,11 +3355,11 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling O1",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-o1-launches-worlds-first-unified-multimodal-video-model-0"
         },
         {
           "name": "Kling 2.6",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-video-26-model-simultaneous-audio-visual/"
         }
       ],
       "Boss-Nanbeige": [
@@ -3474,7 +3474,7 @@
       "Kuaishou-Kling": [
         {
           "name": "Kling 3.0",
-          "url": "https://klingai.kuaishou.com/"
+          "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/"
         }
       ],
       "Boss-Nanbeige": [],
@@ -3914,7 +3914,12 @@
           "url": "https://z.ai/blog/glm-5.1"
         }
       ],
-      "iFlytek": [],
+      "iFlytek": [
+        {
+          "name": "Spark X2-Flash",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwczph6763572.shtml"
+        }
+      ],
       "MiniMax": [],
       "Kimi-Moonshot": [
         {
