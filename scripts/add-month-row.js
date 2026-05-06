@@ -2,52 +2,21 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const { buildLinksJSON, parseDataJSON, renderCSV, renderMarkdownTable } = require('./build-json');
+const { ensureMonthRow } = require('./upsert-entry');
+
+const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 function parseArgs(argv) {
   const args = {};
+
   for (let i = 0; i < argv.length; i++) {
     const token = argv[i];
     if (!token.startsWith('--')) continue;
     args[token.slice(2)] = argv[i + 1];
     i++;
   }
+
   return args;
-}
-
-const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-function monthSortKey(month) {
-  const [yearText, monthText] = String(month).split('-');
-  const monthIndex = MONTH_NAMES.indexOf(monthText);
-  if (yearText == null || monthIndex === -1) {
-    throw new Error(`Invalid month: ${month}. Expected format like 26-May.`);
-  }
-  return Number(yearText) * 12 + monthIndex;
-}
-
-function compareMonth(a, b) {
-  return monthSortKey(a) - monthSortKey(b);
-}
-
-function ensureMonthRow(data, month) {
-  const existingIndex = data.rows.findIndex(row => row.Month === month);
-  if (existingIndex !== -1) {
-    return { created: false, row: data.rows[existingIndex] };
-  }
-
-  const newRow = { Month: month };
-  data.vendors.forEach(vendor => {
-    newRow[vendor] = [];
-  });
-
-  const insertIndex = data.rows.findIndex(row => compareMonth(month, row.Month) < 0);
-  if (insertIndex === -1) {
-    data.rows.push(newRow);
-  } else {
-    data.rows.splice(insertIndex, 0, newRow);
-  }
-
-  return { created: true, row: newRow };
 }
 
 function writeOutputs(data, dataPath, csvPath, mdPath, linksPath) {
@@ -59,33 +28,37 @@ function writeOutputs(data, dataPath, csvPath, mdPath, linksPath) {
 }
 
 function updateDateRange(filePath, oldRange, newRange) {
-  if (!fs.existsSync(filePath)) return false;
-  let content = fs.readFileSync(filePath, 'utf8');
+  if (!filePath || !fs.existsSync(filePath) || oldRange === newRange) return false;
+
+  const content = fs.readFileSync(filePath, 'utf8');
   if (!content.includes(oldRange)) return false;
-  const updated = content.replace(new RegExp(oldRange.replace(/[-~]/g, '[-~]'), 'g'), newRange);
+
+  const updated = content.replaceAll(oldRange, newRange);
   fs.writeFileSync(filePath, updated, 'utf8');
   return true;
 }
 
 function inferDateRange(rows) {
   if (rows.length === 0) return null;
-  const first = rows[0].Month;
-  const last = rows[rows.length - 1].Month;
-  return `${first} ~ ${last}`;
+  return `${rows[0].Month} ~ ${rows[rows.length - 1].Month}`;
 }
 
 function inferNumericDateRange(rows) {
   if (rows.length === 0) return null;
-  const first = rows[0].Month;
-  const last = rows[rows.length - 1].Month;
-  const fmt = (m) => {
-    const [yy, mon] = m.split('-');
+
+  const formatMonth = month => {
+    const [yy, mon] = month.split('-');
     const year = Number(yy) < 50 ? `20${yy}` : `19${yy}`;
-    const monthIdx = MONTH_NAMES.indexOf(mon);
-    const mm = String(monthIdx + 1).padStart(2, '0');
-    return `${year}-${mm}`;
+    const monthIndex = MONTH_NAMES.indexOf(mon);
+
+    if (monthIndex === -1) {
+      throw new Error(`Invalid month for numeric range: ${month}`);
+    }
+
+    return `${year}-${String(monthIndex + 1).padStart(2, '0')}`;
   };
-  return `${fmt(first)} ~ ${fmt(last)}`;
+
+  return `${formatMonth(rows[0].Month)} ~ ${formatMonth(rows[rows.length - 1].Month)}`;
 }
 
 function addMonthRow(options) {
@@ -99,47 +72,33 @@ function addMonthRow(options) {
     month
   } = options;
 
-  if (!month) {
-    throw new Error('month is required');
+  if (!dataPath || !csvPath || !mdPath || !linksPath || !month) {
+    throw new Error('dataPath, csvPath, mdPath, linksPath, and month are required');
   }
 
   const data = parseDataJSON(dataPath);
+  const previousRows = data.rows.map(row => ({ Month: row.Month }));
   const { created, row } = ensureMonthRow(data, month);
-
-  if (!created) {
-    return {
-      created: false,
-      month,
-      message: `Month ${month} already exists. No changes made.`
-    };
-  }
 
   writeOutputs(data, dataPath, csvPath, mdPath, linksPath);
 
-  // Update date ranges in user-facing files
   const updatedFiles = [];
-
-  // README uses short format: 22-Nov ~ 26-May
-  const oldShortRange = inferDateRange(data.rows.slice(0, -1));
+  const oldShortRange = inferDateRange(previousRows);
   const newShortRange = inferDateRange(data.rows);
-  if (readmePath && oldShortRange && newShortRange && oldShortRange !== newShortRange) {
-    if (updateDateRange(readmePath, oldShortRange, newShortRange)) {
-      updatedFiles.push(readmePath);
-    }
+  if (updateDateRange(readmePath, oldShortRange, newShortRange)) {
+    updatedFiles.push(readmePath);
   }
 
-  // index.html uses numeric format: 2022-11 ~ 2026-04
-  const oldNumericRange = inferNumericDateRange(data.rows.slice(0, -1));
+  const oldNumericRange = inferNumericDateRange(previousRows);
   const newNumericRange = inferNumericDateRange(data.rows);
-  if (indexPath && oldNumericRange && newNumericRange && oldNumericRange !== newNumericRange) {
-    if (updateDateRange(indexPath, oldNumericRange, newNumericRange)) {
-      updatedFiles.push(indexPath);
-    }
+  if (updateDateRange(indexPath, oldNumericRange, newNumericRange)) {
+    updatedFiles.push(indexPath);
   }
 
   return {
-    created: true,
-    month,
+    added: created,
+    created,
+    month: row.Month,
     rowCount: data.rows.length,
     updatedFiles
   };
@@ -181,4 +140,7 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { addMonthRow, ensureMonthRow };
+module.exports = {
+  addMonthRow,
+  ensureMonthRow
+};
