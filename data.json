@@ -3980,7 +3980,12 @@
     },
     {
       "Month": "26-May",
-      "Open-Source": [],
+      "Open-Source": [
+        {
+          "name": "DeepSeek-TUI",
+          "url": "https://github.com/Hmbown/DeepSeek-TUI"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-5.5 Instant",
