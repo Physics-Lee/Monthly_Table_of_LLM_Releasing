@@ -3981,7 +3981,12 @@
     {
       "Month": "26-May",
       "Open-Source": [],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "GPT-5.5 Instant",
+          "url": "https://openai.com/index/gpt-5-5-instant/"
+        }
+      ],
       "Anthropic": [],
       "Google": [],
       "Meta": [],
