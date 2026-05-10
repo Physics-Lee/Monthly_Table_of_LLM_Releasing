@@ -4006,7 +4006,12 @@
       "MiniMax": [],
       "Kimi-Moonshot": [],
       "Doubao-ByteDance": [],
-      "Ant-Group": [],
+      "Ant-Group": [
+        {
+          "name": "Ring-2.6-1T",
+          "url": "https://m.ithome.com/html/948095.htm"
+        }
+      ],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
