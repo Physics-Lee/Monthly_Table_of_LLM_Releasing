@@ -34,7 +34,7 @@ Month,Open-Source,OpenAI,Anthropic,Google,Meta,Mistral,xAI,DeepSeek,Qwen-Alibaba
 25-Jul,Hermes Agent,,,Gemma 3n + Gemini 2.5 Flash-Lite,,Devstral Medium + Voxtral,Grok 4,,Qwen3-Coder + Qwen-MT,Command A Vision,ERNIE 4.5 Open,GLM-4.5,,,Kimi K2,,Ming-Lite-Omni-1.5,Step 3,,,,,Hunyuan-TurboS,,,,,,,,,,LFM2,,,,,
 25-Aug,,GPT-5 + GPT-Realtime-1,Claude Opus 4.1,Genie 3,,,,DeepSeek-V3.1,Qoder,,,,,,Kimi K2 Turbo Preview,,,,,Kling 2.5,,,Hunyuan-T1,,,,,,,,,,,,,,,
 25-Sep,,Sora 2,Claude Sonnet 4.5,,,,,DeepSeek-V3.1-Terminus,Qwen CLI,,ERNIE X1.1,,,,Kimi K2 0905,,,,,Kling 2.5 Turbo,,,Hunyuan-large-role,,,,,,,,,,,,,CodeBuddy,,
-25-Oct,,,Claude Haiku 4.5,Veo 3.1,,,,,,,,,,,Kimi CLI,,,,,,Ling-1T + Ring-1T + Ming-flash-omni-Preview,,Nanbeige4-3B-Thinking-2510,,,,,,,,,Jamba Reasoning 3B,,,,,,
+25-Oct,,,Claude Haiku 4.5,Veo 3.1,,,,,,,,,,,Kimi CLI,,,,,,,,Nanbeige4-3B-Thinking-2510,,,,,,,,,Jamba Reasoning 3B,,,,,,
 25-Nov,OpenClaw,GPT-5.1,Claude Opus 4.5,Gemini 3,,,Grok 4.1 + Grok 4.1 Fast,DeepSeek-Math-V2,,,ERNIE 5.0,,,,Kimi K2 Thinking,Doubao Seed Code,,,MiMo-VL Miloco-7B + MiMo-Embodied-7B,,,,HY 2.0 Think + HY 2.0 Instruct,,,,,,,,,,,,OLMo 3,,,
 25-Dec,Oh-My-OpenAgent,GPT-5.2,,,,Mistral Large 3 + Ministral 3,,DeepSeek-V3.2,,,,,,,,,,,MiMo-V2-Flash,Kling O1 + Kling 2.6,Nanbeige4-3B,,,,,,,Nemotron 3 Nano,,Nova 2 Lite + Nova 2 Pro + Nova 2 Sonic,,,,,Molmo 2 + OLMo 3.1 + Tülu 3 405B,,NVIDIA Nemotron 3 Nano,CoreWeave raises another $8.5B to build data center
 26-Jan,andrej-karpathy-skills + oh-my-claudecode,,Claude Cowork,,,,,,,,,,,,Kimi K2.5,,AReaL-SEA,,,Kling 3.0,,,,,,,,,,,,Jamba 2,LFM2.5 + LFM2.5-1.2B-Thinking,,,,Microsoft Maia 200,
