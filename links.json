@@ -304,6 +304,7 @@
   "MiMo-7B": "https://arxiv.org/abs/2505.07608",
   "Kling 2.1": "https://bluelightningtv.com/2025/08/25/kling-ai-releases-2-1-update-enhanced-features-elevate-cinematic-production/",
   "o3-pro": "https://openai.com/index/introducing-o3-and-o4-mini/",
+  "GPT-Realtime-1.5": "https://openai.com/index/gpt-realtime-1-5/",
   "Gemini CLI": "https://blog.google/technology/developers/introducing-gemini-cli/",
   "Magistral Small 1.0": "https://mistral.ai/news/magistral/",
   "Magistral Medium 1.0": "https://mistral.ai/news/magistral/",
@@ -333,6 +334,7 @@
   "Hunyuan-TurboS": "https://cloud.tencent.cn/document/product/1729/104753",
   "LFM2": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models",
   "GPT-5": "https://openai.com/blog/introducing-gpt-5",
+  "GPT-Realtime-1": "https://openai.com/zh-Hans-CN/index/introducing-gpt-realtime/",
   "Claude Opus 4.1": "https://www.anthropic.com/news/claude-opus-4-1",
   "Genie 3": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
   "DeepSeek-V3.1": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
@@ -477,5 +479,6 @@
   "LFM2.5-VL-450M": "https://liquid.ai/blog/lfm2-5-vl-450m",
   "DeepSeek-TUI": "https://github.com/Hmbown/DeepSeek-TUI",
   "GPT-5.5 Instant": "https://openai.com/index/gpt-5-5-instant/",
+  "GPT-Realtime-2": "https://www.alphamatch.ai/zh/blog/openai-gpt-realtime-2-voice-intelligence-api-2026",
   "Ring-2.6-1T": "https://m.ithome.com/html/948095.htm"
 }
