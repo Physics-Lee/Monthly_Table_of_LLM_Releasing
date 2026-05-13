@@ -407,6 +407,7 @@
   "AReaL-SEA": "https://huggingface.co/inclusionAI",
   "Kling 3.0": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/",
   "MiniCPM-o 4.5": "https://github.com/OpenBMB/MiniCPM-o",
+  "AgentCPM-Explore": "https://github.com/OpenBMB/AgentCPM-Explore",
   "Jamba 2": "https://ai21.com/blog/introducing-jamba2",
   "LFM2.5": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai",
   "LFM2.5-1.2B-Thinking": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb",
@@ -484,6 +485,7 @@
   "Ling-2.6-1T": "https://developer.ant-ling.com/zh-CN/docs/models/ling/#ling-26-1t",
   "MiMo-V2.5": "https://mimo.xiaomi.com/mimo-v2-5/",
   "MiMo-V2.5-Pro": "https://mimo.xiaomi.com/mimo-v2-5-pro/",
+  "VoxCPM 2": "https://github.com/OpenBMB/VoxCPM",
   "HY3-Preview": "https://huggingface.co/tencent/Hy3-preview",
   "LFM2.5-VL-450M": "https://liquid.ai/blog/lfm2-5-vl-450m",
   "DeepSeek-TUI": "https://github.com/Hmbown/DeepSeek-TUI",
@@ -492,5 +494,6 @@
   "GPT-Realtime-Whisper": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
   "GPT-Realtime-Translate": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
   "Ring-2.6-1T": "https://m.ithome.com/html/948095.htm",
+  "MiniCPM-V 4.6 1.3B": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B",
   "TML-Interaction-Small": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
 }

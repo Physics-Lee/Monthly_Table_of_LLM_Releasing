@@ -3604,6 +3604,10 @@
         {
           "name": "MiniCPM-o 4.5",
           "url": "https://github.com/OpenBMB/MiniCPM-o"
+        },
+        {
+          "name": "AgentCPM-Explore",
+          "url": "https://github.com/OpenBMB/AgentCPM-Explore"
         }
       ],
       "Boss-Nanbeige": [],
@@ -4084,7 +4088,12 @@
         }
       ],
       "Kuaishou-Kling": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest/OpenBMB": [
+        {
+          "name": "VoxCPM 2",
+          "url": "https://github.com/OpenBMB/VoxCPM"
+        }
+      ],
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [
@@ -4163,7 +4172,12 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest/OpenBMB": [
+        {
+          "name": "MiniCPM-V 4.6 1.3B",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
+        }
+      ],
       "Boss-Nanbeige": [],
       "Huawei": [],
       "Tencent": [],
