@@ -4129,6 +4129,10 @@
         {
           "name": "DeepSeek-TUI",
           "url": "https://github.com/Hmbown/DeepSeek-TUI"
+        },
+        {
+          "name": "ELF (Embedded Language Flows)",
+          "url": "https://github.com/lillian039/ELF"
         }
       ],
       "OpenAI": [
