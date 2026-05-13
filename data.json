@@ -96,6 +96,10 @@
         {
           "name": "text-embedding-ada-002",
           "url": "https://openai.com/index/new-and-improved-embedding-model/"
+        },
+        {
+          "name": "Whisper large-v2",
+          "url": "https://github.com/openai/whisper/discussions/661"
         }
       ],
       "Anthropic": [],
@@ -824,6 +828,10 @@
         {
           "name": "GPT-4 Turbo",
           "url": "https://openai.com/index/gpt-4-turbo"
+        },
+        {
+          "name": "Whisper large-v3",
+          "url": "https://github.com/openai/whisper/releases/tag/v20231106"
         }
       ],
       "Anthropic": [],
@@ -1794,6 +1802,10 @@
         {
           "name": "o1-mini",
           "url": "https://openai.com/index/introducing-openai-o1-preview/"
+        },
+        {
+          "name": "Whisper large-v3-turbo",
+          "url": "https://github.com/openai/whisper/releases/tag/v20240930"
         }
       ],
       "Anthropic": [],
