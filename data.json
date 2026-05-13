@@ -3201,7 +3201,20 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Ant-Group": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-1T",
+          "url": "https://huggingface.co/inclusionAI/Ling-1T"
+        },
+        {
+          "name": "Ring-1T",
+          "url": "https://huggingface.co/inclusionAI/Ring-1T"
+        },
+        {
+          "name": "Ming-flash-omni-Preview",
+          "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
+        }
+      ],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
