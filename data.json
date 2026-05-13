@@ -4018,6 +4018,10 @@
         {
           "name": "GPT-Realtime-Whisper",
           "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+        },
+        {
+          "name": "GPT-Realtime-Translate",
+          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
         }
       ],
       "Anthropic": [],
