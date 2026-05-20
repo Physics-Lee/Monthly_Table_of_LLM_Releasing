@@ -4154,12 +4154,26 @@
         }
       ],
       "Anthropic": [],
-      "Google": [],
+      "Google": [
+        {
+          "name": "Gemini 3.5 Flash",
+          "url": "https://blog.google/intl/en-africa/products/explore-get-answers/gemini-3-5/"
+        },
+        {
+          "name": "Gemini Omni Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
+        }
+      ],
       "Meta": [],
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [],
-      "Qwen-Alibaba": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3.5-LiveTranslate-Flash",
+          "url": "https://qwen.ai/blog?id=qwen3.5-livetranslate"
+        }
+      ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [],
