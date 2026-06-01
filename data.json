@@ -4151,9 +4151,18 @@
         {
           "name": "GPT-Realtime-Translate",
           "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+        },
+        {
+          "name": "GPT-5.5-Cyber",
+          "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"
         }
       ],
-      "Anthropic": [],
+      "Anthropic": [
+        {
+          "name": "Claude Opus 4.8",
+          "url": "https://www.anthropic.com/news/claude-opus-4-8"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 3.5 Flash",
@@ -4172,10 +4181,19 @@
         {
           "name": "Qwen3.5-LiveTranslate-Flash",
           "url": "https://qwen.ai/blog?id=qwen3.5-livetranslate"
+        },
+        {
+          "name": "Qwen3.7-Max",
+          "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154"
         }
       ],
       "Cohere": [],
-      "Baidu": [],
+      "Baidu": [
+        {
+          "name": "ERNIE 5.1",
+          "url": "https://yiyan.baidu.com/blog/zh/posts/ernie-5.1-0508-release/"
+        }
+      ],
       "GLM-Z.ai": [],
       "iFlytek": [],
       "MiniMax": [],
@@ -4187,7 +4205,12 @@
           "url": "https://m.ithome.com/html/948095.htm"
         }
       ],
-      "StepFun": [],
+      "StepFun": [
+        {
+          "name": "Step 3.7 Flash",
+          "url": "https://static.stepfun.com/blog/step-3.7-flash/"
+        }
+      ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
       "ModelBest/OpenBMB": [
@@ -4208,7 +4231,12 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
-      "Liquid AI": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-8B-A1B",
+          "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+        }
+      ],
       "Thinking Machines Lab": [
         {
           "name": "TML-Interaction-Small",
