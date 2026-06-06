@@ -1,6 +1,6 @@
 # LLM Release Timeline
 
-> 持续追踪全球大模型发布动态 | 22-Nov ~ 26-May
+> 持续追踪全球大模型发布动态 | 22-Nov ~ 26-Jun
 
 ## 在线访问
 

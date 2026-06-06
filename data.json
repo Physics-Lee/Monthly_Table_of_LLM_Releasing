@@ -4247,6 +4247,58 @@
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
+    },
+    {
+      "Month": "26-Jun",
+      "Open-Source": [
+        {
+          "name": "Mellum2-12B-A2.5B",
+          "url": "https://huggingface.co/blog/JetBrains/mellum2-launch"
+        }
+      ],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [
+        {
+          "name": "MiniMax M3",
+          "url": "https://www.minimax.io/models/text/m3"
+        }
+      ],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "Liquid AI": [],
+      "Thinking Machines Lab": [],
+      "AI2": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     }
   ]
 }

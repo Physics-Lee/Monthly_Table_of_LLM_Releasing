@@ -505,5 +505,7 @@
   "Step 3.7 Flash": "https://static.stepfun.com/blog/step-3.7-flash/",
   "MiniCPM-V 4.6 1.3B": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B",
   "LFM2.5-8B-A1B": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-  "TML-Interaction-Small": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
+  "TML-Interaction-Small": "https://thinkingmachines.ai/blog/interaction-models/#introduction",
+  "Mellum2-12B-A2.5B": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+  "MiniMax M3": "https://www.minimax.io/models/text/m3"
 }

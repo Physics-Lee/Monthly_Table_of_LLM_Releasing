@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>半自动发布更新实现计划</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f4;
+      --paper: #ffffff;
+      --text: #202124;
+      --muted: #62656a;
+      --line: #dadde2;
+      --accent: #145a7a;
+      --code-bg: #f1f3f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(100% - 32px, 1040px);
+      margin: 32px auto;
+      padding: 36px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.3;
+      color: var(--text);
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 32px;
+    }
+
+    h2 {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-size: 24px;
+    }
+
+    h3 {
+      margin-top: 28px;
+      font-size: 19px;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    code {
+      padding: 2px 5px;
+      border-radius: 4px;
+      background: var(--code-bg);
+      font-family: Consolas, "SFMono-Regular", Menlo, monospace;
+      font-size: 0.95em;
+    }
+
+    pre {
+      overflow-x: auto;
+      padding: 14px 16px;
+      border-radius: 6px;
+      background: var(--code-bg);
+      border: 1px solid var(--line);
+    }
+
+    pre code {
+      padding: 0;
+      background: transparent;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .meta {
+      padding: 14px 16px;
+      border-left: 4px solid var(--accent);
+      background: #eef6f8;
+      border-radius: 4px;
+    }
+
+    .task {
+      padding-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>半自动发布更新实现计划</h1>
+
+    <div class="meta">
+      <p><strong>给执行者：</strong>实现本计划时，请按任务逐项执行，并在每个任务后运行对应验证命令。</p>
+    </div>
+
+    <p class="lead"><strong>目标：</strong>构建一个半自动工作流：脚本自动发现大模型发布候选项，人类审核确认后，再通过现有 <code>data.json</code> 更新链路写入正式表格。</p>
+
+    <p><strong>架构：</strong>继续保持 <code>data.json</code> 作为唯一真源。新增候选发现层，把尚未审核或尚未应用的数据写入 <code>pending-releases.json</code>；再新增一个应用脚本，复用现有的 upsert、build、check 逻辑。GitHub Actions 可以按需或定时运行发现流程，但只生成可审核结果，不静默修改正式表。</p>
+
+    <p><strong>技术栈：</strong>Node.js 20、现有 CommonJS 脚本、GitHub Actions、JSON 文件、现有 <code>scripts/upsert-entry.js</code>、<code>scripts/build-json.js</code>、<code>scripts/check-data-links.js</code>。</p>
+
+    <h2>前提假设</h2>
+    <ul>
+      <li>第一版不直接用脆弱的 HTML 解析去抓所有厂商网站。</li>
+      <li>第一版只支持少量明确配置的数据源，优先选择稳定的官方 RSS、Atom 或 API。</li>
+      <li>候选项必须经过人工批准后，才允许进入 <code>data.json</code>。</li>
+      <li>现有表格列是权威列；未知厂商只报告，不自动新增列。</li>
+      <li>正式数据的修改仍然通过现有单条更新链路完成。</li>
+    </ul>
+
+    <h2>成功标准</h2>
+    <ul>
+      <li>运行一个命令即可生成包含候选发布的 <code>pending-releases.json</code>。</li>
+      <li>运行一个命令即可校验候选文件，并报告缺字段、重复模型、未知厂商、已收录条目。</li>
+      <li>被批准的候选项可以写入 <code>data.json</code>，无需手工编辑整张表。</li>
+      <li>应用候选项后，CSV、MD、<code>links.json</code> 会自动重建，且 <code>check-data-links.js</code> 通过。</li>
+      <li>GitHub Actions 可以手动或定时运行发现流程，并产出可审核的 PR 或 artifact。</li>
+    </ul>
+
+    <h2>任务 1：定义候选数据格式</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>scripts/release-candidate-utils.js</code></li>
+        <li>新建：<code>scripts/release-candidate-utils.test.js</code></li>
+        <li>新建：<code>pending-releases.example.json</code></li>
+      </ul>
+
+      <h3>步骤 1：先写候选归一化测试</h3>
+      <ul>
+        <li>接受包含 <code>month</code>、<code>vendor</code>、<code>model</code>、<code>url</code>、<code>source</code>、<code>status</code> 的合法候选项。</li>
+        <li>缺少 <code>status</code> 时默认为 <code>pending</code>。</li>
+        <li>缺少 <code>month</code>、<code>vendor</code>、<code>model</code> 或 <code>url</code> 时拒绝。</li>
+        <li>拒绝非法 <code>status</code>。</li>
+        <li>清理字符串字段前后的空白。</li>
+      </ul>
+
+      <pre><code>node scripts/release-candidate-utils.test.js</code></pre>
+      <p>预期：失败，因为工具文件还不存在。</p>
+
+      <h3>步骤 2：实现最小工具函数</h3>
+      <ul>
+        <li><code>normalizeCandidate(candidate)</code></li>
+        <li><code>normalizeCandidates(candidates)</code></li>
+        <li><code>validateCandidate(candidate)</code></li>
+        <li><code>readCandidates(filePath)</code></li>
+        <li><code>writeCandidates(filePath, candidates)</code></li>
+      </ul>
+      <p>允许的状态：<code>pending</code>、<code>approved</code>、<code>rejected</code>、<code>applied</code>。</p>
+
+      <h3>步骤 3：添加示例候选文件</h3>
+      <pre><code>[
+  {
+    "month": "26-Jun",
+    "vendor": "OpenAI",
+    "model": "Example Model",
+    "url": "https://example.com/model",
+    "source": "manual example",
+    "status": "pending",
+    "notes": "Example only; do not apply."
+  }
+]</code></pre>
+
+      <h3>步骤 4：验证</h3>
+      <pre><code>node scripts/release-candidate-utils.test.js</code></pre>
+      <p>预期：通过。</p>
+    </section>
+
+    <h2>任务 2：添加候选校验脚本</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>scripts/check-release-candidates.js</code></li>
+        <li>新建：<code>scripts/check-release-candidates.test.js</code></li>
+        <li>修改：<code>SCRIPTS_README.md</code></li>
+      </ul>
+
+      <h3>步骤 1：写测试</h3>
+      <ul>
+        <li>未知厂商会被报告。</li>
+        <li><code>data.json</code> 中已经存在的候选模型会被报告为重复。</li>
+        <li>缺少必需字段会导致校验失败。</li>
+        <li><code>approved</code> 和 <code>pending</code> 候选项都要校验。</li>
+        <li><code>rejected</code> 和 <code>applied</code> 候选项不参与待应用检查。</li>
+      </ul>
+      <pre><code>node scripts/check-release-candidates.test.js</code></pre>
+      <p>预期：失败，因为脚本还不存在。</p>
+
+      <h3>步骤 2：实现校验脚本</h3>
+      <pre><code>node scripts/check-release-candidates.js pending-releases.json</code></pre>
+      <p>行为：</p>
+      <ul>
+        <li>加载 <code>data.json</code>。</li>
+        <li>加载候选文件。</li>
+        <li>使用 <code>release-candidate-utils.js</code> 校验格式。</li>
+        <li>分组输出非法候选、未知厂商、已存在模型、疑似非官方 URL。</li>
+        <li>格式非法或未知厂商时退出码为 <code>1</code>。</li>
+        <li>候选格式有效但存在已收录条目时退出码仍为 <code>0</code>，只给提示。</li>
+      </ul>
+
+      <h3>步骤 3：补充脚本文档</h3>
+      <pre><code>node scripts/check-release-candidates.js pending-releases.json</code></pre>
+      <p>说明它用于人工批准或应用之前的候选质量检查。</p>
+
+      <h3>步骤 4：验证</h3>
+      <pre><code>node scripts/check-release-candidates.test.js
+node scripts/check-release-candidates.js pending-releases.example.json</code></pre>
+      <p>预期：测试通过；示例文件结构校验通过，或明确提示它只是示例。</p>
+    </section>
+
+    <h2>任务 3：应用已批准候选项</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>scripts/apply-release-candidates.js</code></li>
+        <li>新建：<code>scripts/apply-release-candidates.test.js</code></li>
+        <li>修改：<code>SCRIPTS_README.md</code></li>
+      </ul>
+
+      <h3>步骤 1：写测试</h3>
+      <ul>
+        <li>只应用 <code>status: "approved"</code> 的候选项。</li>
+        <li><code>pending</code> 候选项保持不变。</li>
+        <li>成功应用后状态改为 <code>applied</code>。</li>
+        <li>复用 <code>upsert-entry.js</code> 对已有月份和新月份的处理行为。</li>
+        <li>已存在条目不会重复追加模型名。</li>
+      </ul>
+      <pre><code>node scripts/apply-release-candidates.test.js</code></pre>
+      <p>预期：失败，因为脚本还不存在。</p>
+
+      <h3>步骤 2：实现应用脚本</h3>
+      <pre><code>node scripts/apply-release-candidates.js pending-releases.json</code></pre>
+      <p>行为：</p>
+      <ul>
+        <li>读取候选文件。</li>
+        <li>先运行候选校验。</li>
+        <li>对每个 <code>approved</code> 候选项调用 <code>scripts/upsert-entry.js</code> 导出的 <code>upsertEntry()</code>。</li>
+        <li>顺序处理候选项，不并发写 <code>data.json</code>。</li>
+        <li>成功应用后标记为 <code>applied</code>。</li>
+        <li>写回更新后的候选文件。</li>
+        <li>运行或提醒调用者运行 <code>node scripts/check-data-links.js</code>。</li>
+      </ul>
+      <p>保持简单，不做数据库锁、队列或复杂冲突处理。</p>
+
+      <h3>步骤 3：添加 dry-run 模式</h3>
+      <pre><code>node scripts/apply-release-candidates.js pending-releases.json --dry-run</code></pre>
+      <p>只打印将要应用的内容，不写 <code>data.json</code>，也不写候选文件。</p>
+
+      <h3>步骤 4：验证</h3>
+      <pre><code>node scripts/apply-release-candidates.test.js
+node scripts/check-data-links.js</code></pre>
+      <p>预期：测试通过；链接检查通过。</p>
+    </section>
+
+    <h2>任务 4：添加第一版发现脚本</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>scripts/discover-releases.js</code></li>
+        <li>新建：<code>scripts/sources.example.json</code></li>
+        <li>新建：<code>scripts/discover-releases.test.js</code></li>
+        <li>修改：<code>SCRIPTS_README.md</code></li>
+      </ul>
+
+      <h3>步骤 1：定义最小来源配置</h3>
+      <pre><code>[
+  {
+    "vendor": "OpenAI",
+    "type": "rss",
+    "url": "https://example.com/feed.xml",
+    "enabled": false
+  }
+]</code></pre>
+      <p>第一版不要硬编码大量来源。</p>
+
+      <h3>步骤 2：围绕解析写测试，不测真实网络</h3>
+      <p>测试中使用本地 XML 或 JSON 字符串。</p>
+      <ul>
+        <li>把 feed item 标题和 URL 解析成候选项。</li>
+        <li>从 feed item 日期推断 <code>month</code>。</li>
+        <li>附加 <code>source</code>。</li>
+        <li>默认状态为 <code>pending</code>。</li>
+        <li>禁用来源不会产出候选项。</li>
+      </ul>
+      <pre><code>node scripts/discover-releases.test.js</code></pre>
+      <p>预期：失败，因为脚本还不存在。</p>
+
+      <h3>步骤 3：实现发现脚本</h3>
+      <pre><code>node scripts/discover-releases.js --sources scripts/sources.json --out pending-releases.json</code></pre>
+      <p>行为：</p>
+      <ul>
+        <li>读取来源配置。</li>
+        <li>抓取启用的来源。</li>
+        <li>第一版只解析 RSS 或 Atom。</li>
+        <li>生成粗略候选项。</li>
+        <li>与现有 <code>pending-releases.json</code> 合并。</li>
+        <li>用 <code>vendor + model + url</code> 避免重复。</li>
+        <li>绝不修改 <code>data.json</code>。</li>
+      </ul>
+
+      <h3>步骤 4：模型名提取保持保守</h3>
+      <p>第一版可以直接把 feed item 标题作为 <code>model</code>。等有审核数据后，再决定是否做更聪明的模型名提取。</p>
+
+      <h3>步骤 5：验证</h3>
+      <pre><code>node scripts/discover-releases.test.js
+node scripts/discover-releases.js --sources scripts/sources.example.json --out pending-releases.tmp.json
+node scripts/check-release-candidates.js pending-releases.tmp.json</code></pre>
+      <p>预期：测试通过；禁用示例来源产出空文件或无变化文件。</p>
+    </section>
+
+    <h2>任务 5：添加人工审核流程文档</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>note/semi_automated_update_workflow.md</code></li>
+        <li>修改：<code>AGENT_UPDATE_GUIDE.md</code></li>
+      </ul>
+
+      <h3>步骤 1：记录人工审核循环</h3>
+      <pre><code>node scripts/discover-releases.js --sources scripts/sources.json --out pending-releases.json
+node scripts/check-release-candidates.js pending-releases.json</code></pre>
+      <p>然后人类只修改状态：</p>
+      <ul>
+        <li><code>pending</code> -> <code>approved</code></li>
+        <li><code>pending</code> -> <code>rejected</code></li>
+      </ul>
+      <pre><code>node scripts/apply-release-candidates.js pending-releases.json
+node scripts/check-data-links.js</code></pre>
+
+      <h3>步骤 2：添加审核清单</h3>
+      <ul>
+        <li>这是不是一个真实的模型或产品发布？</li>
+        <li>月份是否正确？</li>
+        <li>厂商列是否正确？</li>
+        <li>URL 是否为官方且具体的页面？</li>
+        <li>它是否已经以另一个名字收录过？</li>
+      </ul>
+
+      <h3>步骤 3：更新 Agent 指南</h3>
+      <ul>
+        <li>已知单条更新仍使用 <code>upsert-entry.js</code>。</li>
+        <li>未知批量发现使用半自动候选流程。</li>
+        <li>没有明确批准时，Agent 不得应用 <code>pending</code> 候选项。</li>
+      </ul>
+    </section>
+
+    <h2>任务 6：添加 GitHub Actions 发现流程</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>.github/workflows/discover-releases.yml</code></li>
+        <li>修改：<code>.github/workflows/build.yml</code></li>
+      </ul>
+
+      <h3>步骤 1：先做手动触发 workflow</h3>
+      <pre><code>name: Discover Releases
+
+on:
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/discover-releases.js --sources scripts/sources.json --out pending-releases.json
+      - run: node scripts/check-release-candidates.js pending-releases.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pending-releases
+          path: pending-releases.json</code></pre>
+      <p>手动流程跑稳之后，再考虑加 schedule。</p>
+
+      <h3>步骤 2：可选添加 PR 创建</h3>
+      <p>如果 artifact 审核太别扭，再增加标准 PR action。这个作为后续增强，不放进第一版必要路径。</p>
+
+      <h3>步骤 3：整理旧 build workflow</h3>
+      <ul>
+        <li>把 <code>data.json</code> 加入监听路径。</li>
+        <li>把生成出来的 CSV 和 MD 加入 <code>git add</code>。</li>
+        <li>确认不会因为生成文件提交而无限循环。</li>
+      </ul>
+
+      <h3>步骤 4：本地验证</h3>
+      <pre><code>node scripts/discover-releases.test.js
+node scripts/check-release-candidates.test.js
+node scripts/apply-release-candidates.test.js
+node scripts/model-utils.test.js
+node scripts/upsert-entry.test.js
+node scripts/add-vendor-column.test.js
+node scripts/check-data-links.js</code></pre>
+      <p>预期：全部通过。</p>
+    </section>
+
+    <h2>任务 7：逐步接入真实来源</h2>
+    <section class="task">
+      <p><strong>涉及文件：</strong></p>
+      <ul>
+        <li>新建：<code>scripts/sources.json</code></li>
+        <li>修改：<code>note/semi_automated_update_workflow.md</code></li>
+      </ul>
+
+      <h3>步骤 1：先接 3 到 5 个来源</h3>
+      <p>优先选稳定的官方 feed 或结构化 API。可以先考虑：</p>
+      <ul>
+        <li>OpenAI 官方新闻或博客 feed，如果可用。</li>
+        <li>Anthropic 新闻 feed，如果可用。</li>
+        <li>Mistral 新闻 feed，如果可用。</li>
+        <li>Hugging Face 组织模型列表，但只在信号足够干净时接入。</li>
+        <li>已经在 <code>Open-Source</code> 列跟踪的项目 GitHub releases。</li>
+      </ul>
+
+      <h3>步骤 2：手动运行发现</h3>
+      <pre><code>node scripts/discover-releases.js --sources scripts/sources.json --out pending-releases.json
+node scripts/check-release-candidates.js pending-releases.json</code></pre>
+      <p>预期：候选列表可读，误报容易被拒绝。</p>
+
+      <h3>步骤 3：人工审核候选项</h3>
+      <p>只修改 <code>status</code> 和 <code>notes</code>，不要直接重写正式表格文件。</p>
+
+      <h3>步骤 4：应用已批准条目</h3>
+      <pre><code>node scripts/apply-release-candidates.js pending-releases.json --dry-run
+node scripts/apply-release-candidates.js pending-releases.json
+node scripts/check-data-links.js</code></pre>
+      <p>预期：已批准条目进入 <code>data.json</code>，生成文件同步，链接检查通过。</p>
+    </section>
+
+    <h2>第一版不做什么</h2>
+    <ul>
+      <li>不做完整浏览器自动化。</li>
+      <li>不做基于 LLM 的无人自主判断。</li>
+      <li>不自动创建厂商列。</li>
+      <li>不在没有人工批准时自动发布。</li>
+      <li>不抓取私有、付费墙或需要登录的来源。</li>
+      <li>不做复杂去重，只做精确匹配或简单归一化匹配。</li>
+    </ul>
+
+    <h2>最终验证命令</h2>
+    <p>实现完成前，运行：</p>
+    <pre><code>node scripts/release-candidate-utils.test.js
+node scripts/check-release-candidates.test.js
+node scripts/apply-release-candidates.test.js
+node scripts/discover-releases.test.js
+node scripts/model-utils.test.js
+node scripts/upsert-entry.test.js
+node scripts/add-vendor-column.test.js
+node scripts/check-data-links.js</code></pre>
+    <p>预期：所有测试通过；<code>check-data-links.js</code> 报告缺失链接为 0，孤儿链接为 0。</p>
+  </main>
+</body>
+</html>
