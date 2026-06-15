@@ -4257,7 +4257,16 @@
         }
       ],
       "OpenAI": [],
-      "Anthropic": [],
+      "Anthropic": [
+        {
+          "name": "Claude Fable 5",
+          "url": "https://www.axios.com/2026/06/15/anthropic-fable-security-leaders-trump-admin"
+        },
+        {
+          "name": "Claude Mythos 5",
+          "url": "https://www.businessinsider.com/why-white-house-ordered-export-controls-anthropic-mythos-fable-2026-6"
+        }
+      ],
       "Google": [],
       "Meta": [],
       "Mistral": [],
@@ -4288,7 +4297,12 @@
       "Baichuan-Intelligence": [],
       "Microsoft": [],
       "Apple": [],
-      "NVIDIA": [],
+      "NVIDIA": [
+        {
+          "name": "Cosmos 3",
+          "url": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/"
+        }
+      ],
       "Stability": [],
       "Amazon": [],
       "SenseTime": [],
