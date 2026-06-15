@@ -4275,7 +4275,12 @@
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [],
-      "GLM-Z.ai": [],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-5.2",
+          "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview"
+        }
+      ],
       "iFlytek": [],
       "MiniMax": [
         {
