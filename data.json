@@ -4283,7 +4283,12 @@
           "url": "https://www.minimax.io/models/text/m3"
         }
       ],
-      "Kimi-Moonshot": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.7-Code",
+          "url": "https://www.llmreference.com/model/kimi-k2-7-code"
+        }
+      ],
       "Doubao-ByteDance": [],
       "Ant-Group": [],
       "StepFun": [],
