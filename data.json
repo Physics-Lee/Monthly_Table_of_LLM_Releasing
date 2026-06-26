@@ -4272,7 +4272,28 @@
       "Mistral": [],
       "xAI": [],
       "DeepSeek": [],
-      "Qwen-Alibaba": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen-RobotManip",
+          "url": "https://arxiv.org/abs/2606.17846"
+        },
+        {
+          "name": "Qwen-RobotNav",
+          "url": "https://arxiv.org/abs/2606.17952"
+        },
+        {
+          "name": "Qwen-RobotWorld",
+          "url": "https://arxiv.org/abs/2606.17859"
+        },
+        {
+          "name": "Qwen-AgentWorld-35B-A3B",
+          "url": "https://arxiv.org/abs/2606.19150"
+        },
+        {
+          "name": "Qwen-AgentWorld-397B-A17B",
+          "url": "https://arxiv.org/abs/2606.19150"
+        }
+      ],
       "Cohere": [],
       "Baidu": [],
       "GLM-Z.ai": [
