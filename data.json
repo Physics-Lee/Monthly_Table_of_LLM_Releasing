@@ -4265,6 +4265,10 @@
         {
           "name": "Claude Mythos 5",
           "url": "https://www.businessinsider.com/why-white-house-ordered-export-controls-anthropic-mythos-fable-2026-6"
+        },
+        {
+          "name": "Claude Sonnet 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5"
         }
       ],
       "Google": [],
