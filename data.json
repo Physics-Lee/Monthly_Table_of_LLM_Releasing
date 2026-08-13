@@ -4411,6 +4411,58 @@
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
+    },
+    {
+      "Month": "26-Aug",
+      "Open-Source": [],
+      "OpenAI": [],
+      "Anthropic": [],
+      "Google": [],
+      "Meta": [],
+      "Mistral": [],
+      "xAI": [],
+      "DeepSeek": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3.8-Max",
+          "url": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+        }
+      ],
+      "Cohere": [],
+      "Baidu": [],
+      "GLM-Z.ai": [],
+      "iFlytek": [],
+      "MiniMax": [],
+      "Kimi-Moonshot": [],
+      "Doubao-ByteDance": [
+        {
+          "name": "Seedance 2.5",
+          "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+        }
+      ],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Xiaomi": [],
+      "Kuaishou-Kling": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Huawei": [],
+      "Tencent": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Microsoft": [],
+      "Apple": [],
+      "NVIDIA": [],
+      "Stability": [],
+      "Amazon": [],
+      "SenseTime": [],
+      "AI21": [],
+      "Liquid AI": [],
+      "Thinking Machines Lab": [],
+      "AI2": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     }
   ]
 }
