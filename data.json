@@ -4407,7 +4407,12 @@
       "Tencent": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
+      "Microsoft": [
+        {
+          "name": "MAI-Cyber-1-Flash",
+          "url": "https://www.geekwire.com/2026/microsoft-escalates-the-ai-cybersecurity-race-with-project-perception-and-a-new-in-house-model/"
+        }
+      ],
       "Apple": [],
       "NVIDIA": [],
       "Stability": [],
