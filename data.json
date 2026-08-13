@@ -4414,7 +4414,12 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
-      "Liquid AI": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-Encoders",
+          "url": "https://www.opensourceforu.com/2026/08/liquid-ai-launches-lfm2-5-encoders/"
+        }
+      ],
       "Thinking Machines Lab": [],
       "AI2": [],
       "LLM-Applications": [],
