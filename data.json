@@ -4434,7 +4434,12 @@
       "Google": [],
       "Meta": [],
       "Mistral": [],
-      "xAI": [],
+      "xAI": [
+        {
+          "name": "Grok 4.6",
+          "url": "https://x.ai/news/grok-4-6"
+        }
+      ],
       "DeepSeek": [],
       "Qwen-Alibaba": [
         {
