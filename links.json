@@ -529,5 +529,6 @@
   "Grok 4.6": "https://x.ai/news/grok-4-6",
   "Qwen3.8-Max": "https://help.aliyun.com/zh/model-studio/newly-released-models",
   "Seedance 2.5": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-  "Nemotron 3.5 Lightning": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
+  "Nemotron 3.5 Lightning": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+  "LFM2.5-2.6B": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
 }

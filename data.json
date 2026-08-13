@@ -4481,7 +4481,12 @@
       "Amazon": [],
       "SenseTime": [],
       "AI21": [],
-      "Liquid AI": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-2.6B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+        }
+      ],
       "Thinking Machines Lab": [],
       "AI2": [],
       "LLM-Applications": [],
