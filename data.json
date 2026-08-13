@@ -4471,7 +4471,12 @@
       "Baichuan-Intelligence": [],
       "Microsoft": [],
       "Apple": [],
-      "NVIDIA": [],
+      "NVIDIA": [
+        {
+          "name": "Nemotron 3.5 Lightning",
+          "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
+        }
+      ],
       "Stability": [],
       "Amazon": [],
       "SenseTime": [],
