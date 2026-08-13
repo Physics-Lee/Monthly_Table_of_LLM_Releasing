@@ -4442,7 +4442,12 @@
       "OpenAI": [],
       "Anthropic": [],
       "Google": [],
-      "Meta": [],
+      "Meta": [
+        {
+          "name": "Muse Spark 1.2",
+          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        }
+      ],
       "Mistral": [],
       "xAI": [
         {
