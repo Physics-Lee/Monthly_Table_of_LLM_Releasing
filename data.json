@@ -4374,7 +4374,12 @@
           "url": "https://x.ai/news/grok-4-5"
         }
       ],
-      "DeepSeek": [],
+      "DeepSeek": [
+        {
+          "name": "V4-Flash-0731",
+          "url": "https://www.guancha.cn/economy/2026_07_31_825764.shtml"
+        }
+      ],
       "Qwen-Alibaba": [],
       "Cohere": [],
       "Baidu": [],
