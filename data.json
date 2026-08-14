@@ -4442,7 +4442,12 @@
           "url": "https://www.opensourceforu.com/2026/08/liquid-ai-launches-lfm2-5-encoders/"
         }
       ],
-      "Thinking Machines Lab": [],
+      "Thinking Machines Lab": [
+        {
+          "name": "Inkling",
+          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+        }
+      ],
       "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
