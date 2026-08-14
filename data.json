@@ -4501,7 +4501,16 @@
           "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
         }
       ],
-      "Ant-Group": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-3.0-Flash",
+          "url": "https://huggingface.co/inclusionAI"
+        },
+        {
+          "name": "Ling-3.0-Tiny",
+          "url": "https://huggingface.co/inclusionAI"
+        }
+      ],
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
