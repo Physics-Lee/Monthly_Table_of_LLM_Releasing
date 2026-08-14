@@ -4453,7 +4453,12 @@
       "Open-Source": [],
       "OpenAI": [],
       "Anthropic": [],
-      "Google": [],
+      "Google": [
+        {
+          "name": "Gemini 3.7 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark 1.2",
