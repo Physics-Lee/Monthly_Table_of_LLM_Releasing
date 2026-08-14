@@ -4472,7 +4472,12 @@
           "url": "https://x.ai/news/grok-4-6"
         }
       ],
-      "DeepSeek": [],
+      "DeepSeek": [
+        {
+          "name": "V4-Pro-0813",
+          "url": "https://www.ithome.com/0/988/998.htm"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8-Max",
