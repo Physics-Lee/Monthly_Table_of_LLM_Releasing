@@ -541,5 +541,6 @@
   "Ling-3.0-Flash": "https://huggingface.co/inclusionAI",
   "Ling-3.0-Tiny": "https://huggingface.co/inclusionAI",
   "Nemotron 3.5 Lightning": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
-  "LFM2.5-2.6B": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+  "LFM2.5-2.6B": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+  "Motif 3": "https://artificialanalysis.ai/models/motif-3"
 }
