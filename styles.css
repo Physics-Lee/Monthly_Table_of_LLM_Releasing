@@ -219,6 +219,22 @@ header h1 {
   color: var(--text-tertiary);
 }
 
+/* Ranking Source */
+.ranking-source {
+  margin-bottom: 8px;
+  padding: 0 4px;
+  font-size: 12px;
+}
+
+.ranking-source a {
+  color: var(--text-tertiary);
+  text-decoration: underline dotted;
+}
+
+.ranking-source a:hover {
+  color: var(--text-secondary);
+}
+
 /* Table */
 .table-wrapper {
   overflow-x: auto;

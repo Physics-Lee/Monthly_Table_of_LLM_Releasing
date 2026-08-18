@@ -110,6 +110,19 @@ function pad(value, width) {
   return String(value).padEnd(width);
 }
 
+function writeRankingArtifact(leaderboard, data, root) {
+  const artifact = {
+    fetchedAt: leaderboard.fetchedAt,
+    generatedAt: new Date().toISOString(),
+    source: leaderboard.source,
+    ranked: buildRanking(leaderboard, data),
+    missingVendors: buildMissingVendors(leaderboard, data),
+    columnsWithoutEntry: buildColumnsWithoutEntry(data),
+    excludedColumns: NON_TEXT_COLUMNS
+  };
+  fs.writeFileSync(path.join(root, 'aa-ranking.json'), JSON.stringify(artifact, null, 2) + '\n', 'utf8');
+}
+
 function main() {
   const root = path.resolve(__dirname, '..');
   const leaderboard = JSON.parse(fs.readFileSync(path.join(__dirname, 'aa-leaderboard.json'), 'utf8'));
@@ -137,6 +150,10 @@ function main() {
   console.log(buildColumnsWithoutEntry(data).join(', '));
   console.log('');
   console.log(`(excluded from ranking: ${NON_TEXT_COLUMNS.join(', ')})`);
+
+  writeRankingArtifact(leaderboard, data, root);
+  console.log('');
+  console.log('Wrote aa-ranking.json');
 }
 
 if (require.main === module) {

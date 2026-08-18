@@ -1,0 +1,310 @@
+{
+  "fetchedAt": "2026-08-18T16:53:22+08:00",
+  "generatedAt": "2026-08-18T09:04:54.310Z",
+  "source": "https://artificialanalysis.ai/leaderboards/models",
+  "ranked": [
+    {
+      "column": "Anthropic",
+      "model": "Claude Opus 5 (max)",
+      "score": 63,
+      "estimated": false,
+      "aaRank": 1,
+      "rank": 1
+    },
+    {
+      "column": "OpenAI",
+      "model": "GPT-5.6 Sol (max)",
+      "score": 61,
+      "estimated": false,
+      "aaRank": 5,
+      "rank": 2
+    },
+    {
+      "column": "xAI",
+      "model": "Grok 4.6 (high)",
+      "score": 61,
+      "estimated": false,
+      "aaRank": 6,
+      "rank": 2
+    },
+    {
+      "column": "Kimi-Moonshot",
+      "model": "Kimi K3 (max)",
+      "score": 60,
+      "estimated": false,
+      "aaRank": 7,
+      "rank": 4
+    },
+    {
+      "column": "Qwen-Alibaba",
+      "model": "Qwen3.8 Max",
+      "score": 58,
+      "estimated": false,
+      "aaRank": 10,
+      "rank": 5
+    },
+    {
+      "column": "Meta",
+      "model": "Muse Spark 1.2 (xhigh)",
+      "score": 57,
+      "estimated": false,
+      "aaRank": 13,
+      "rank": 6
+    },
+    {
+      "column": "Google",
+      "model": "Gemini 3.7 Flash (high)",
+      "score": 56,
+      "estimated": false,
+      "aaRank": 15,
+      "rank": 7
+    },
+    {
+      "column": "DeepSeek",
+      "model": "DeepSeek V4 Pro 0813 (max)",
+      "score": 53,
+      "estimated": false,
+      "aaRank": 20,
+      "rank": 8
+    },
+    {
+      "column": "GLM-Z.ai",
+      "model": "GLM-5.2 (max)",
+      "score": 53,
+      "estimated": false,
+      "aaRank": 22,
+      "rank": 8
+    },
+    {
+      "column": "Motif",
+      "model": "Motif 3",
+      "score": 47,
+      "estimated": false,
+      "aaRank": 34,
+      "rank": 10
+    },
+    {
+      "column": "MiniMax",
+      "model": "MiniMax-M3",
+      "score": 45,
+      "estimated": false,
+      "aaRank": 39,
+      "rank": 11
+    },
+    {
+      "column": "Xiaomi",
+      "model": "MiMo-V2.5-Pro",
+      "score": 43,
+      "estimated": false,
+      "aaRank": 44,
+      "rank": 12
+    },
+    {
+      "column": "Thinking Machines Lab",
+      "model": "Inkling",
+      "score": 42,
+      "estimated": false,
+      "aaRank": 46,
+      "rank": 13
+    },
+    {
+      "column": "Tencent",
+      "model": "Hy3",
+      "score": 42,
+      "estimated": false,
+      "aaRank": 47,
+      "rank": 13
+    },
+    {
+      "column": "NVIDIA",
+      "model": "Nemotron 3 Ultra",
+      "score": 38,
+      "estimated": false,
+      "aaRank": 57,
+      "rank": 15
+    },
+    {
+      "column": "Ant-Group",
+      "model": "Ling 3.0 Flash",
+      "score": 38,
+      "estimated": false,
+      "aaRank": 59,
+      "rank": 15
+    },
+    {
+      "column": "StepFun",
+      "model": "Step 3.7 Flash",
+      "score": 31,
+      "estimated": false,
+      "aaRank": 88,
+      "rank": 17
+    },
+    {
+      "column": "Mistral",
+      "model": "Mistral Medium 3.5",
+      "score": 30,
+      "estimated": false,
+      "aaRank": 89,
+      "rank": 18
+    },
+    {
+      "column": "Doubao-ByteDance",
+      "model": "Doubao Seed Code",
+      "score": 26,
+      "estimated": true,
+      "aaRank": 98,
+      "rank": 19
+    },
+    {
+      "column": "Cohere",
+      "model": "Command A+",
+      "score": 23,
+      "estimated": false,
+      "aaRank": 109,
+      "rank": 20
+    },
+    {
+      "column": "Baidu",
+      "model": "ERNIE 5.0 Thinking Preview",
+      "score": 22,
+      "estimated": true,
+      "aaRank": 111,
+      "rank": 21
+    },
+    {
+      "column": "Amazon",
+      "model": "Nova 2.0 Pro Preview (medium)",
+      "score": 22,
+      "estimated": true,
+      "aaRank": 114,
+      "rank": 21
+    }
+  ],
+  "missingVendors": [
+    {
+      "vendor": "Nex AGI",
+      "model": "Nex-N2-Pro",
+      "score": 42,
+      "estimated": false
+    },
+    {
+      "vendor": "Upstage",
+      "model": "Solar Pro 4",
+      "score": 42,
+      "estimated": false
+    },
+    {
+      "vendor": "China Mobile",
+      "model": "JT-4.1 Flash 236B A21B",
+      "score": 40,
+      "estimated": true
+    },
+    {
+      "vendor": "Sapiens AI",
+      "model": "Agnes 2.5 Pro Alpha",
+      "score": 40,
+      "estimated": false
+    },
+    {
+      "vendor": "SK Telecom",
+      "model": "A.X-K2",
+      "score": 35,
+      "estimated": false
+    },
+    {
+      "vendor": "LongCat",
+      "model": "LongCat 2.0",
+      "score": 34,
+      "estimated": false
+    },
+    {
+      "vendor": "KwaiKAT",
+      "model": "KAT-Coder-Pro V2",
+      "score": 34,
+      "estimated": false
+    },
+    {
+      "vendor": "AI9Stars",
+      "model": "G9v3-39A5B",
+      "score": 32,
+      "estimated": true
+    },
+    {
+      "vendor": "LG AI Research",
+      "model": "K-EXAONE 2.0",
+      "score": 31,
+      "estimated": false
+    },
+    {
+      "vendor": "Inception",
+      "model": "Mercury 2",
+      "score": 22,
+      "estimated": false
+    },
+    {
+      "vendor": "ServiceNow",
+      "model": "Apriel-v1.6-15B-Thinker",
+      "score": 21,
+      "estimated": true
+    },
+    {
+      "vendor": "Arcee AI",
+      "model": "Trinity Large Thinking",
+      "score": 19,
+      "estimated": false
+    },
+    {
+      "vendor": "Multiverse Computing",
+      "model": "HyperNova 60B 2605",
+      "score": 18,
+      "estimated": false
+    },
+    {
+      "vendor": "MBZUAI Institute of Foundation Models",
+      "model": "K2 Think V2",
+      "score": 17,
+      "estimated": true
+    },
+    {
+      "vendor": "Naver",
+      "model": "HyperCLOVA X SEED Think (32B)",
+      "score": 17,
+      "estimated": true
+    },
+    {
+      "vendor": "Korea Telecom",
+      "model": "Mi:dm K 2.5 Pro",
+      "score": 17,
+      "estimated": true
+    },
+    {
+      "vendor": "Prime Intellect",
+      "model": "INTELLECT-3",
+      "score": 16,
+      "estimated": true
+    }
+  ],
+  "columnsWithoutEntry": [
+    "iFlytek",
+    "ModelBest/OpenBMB",
+    "Boss-Nanbeige",
+    "Huawei",
+    "01.AI",
+    "Baichuan-Intelligence",
+    "Microsoft",
+    "Apple",
+    "Stability",
+    "SenseTime",
+    "AI21",
+    "Liquid AI",
+    "AI2"
+  ],
+  "excludedColumns": [
+    "Open-Source",
+    "LLM-Applications",
+    "AI-Chips",
+    "AI-Cloud",
+    "Kuaishou-Kling",
+    "Vidu"
+  ]
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>列排名依据 | LLM Release Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .back-link {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+    .back-link a { color: var(--text-secondary); }
+    .snapshot-time {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin: 4px 0 20px;
+    }
+    .rank-section h2 {
+      font-size: 16px;
+      margin: 24px 0 10px;
+    }
+    .rank-note {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-top: 8px;
+    }
+    td.score-cell { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>列排名依据</h1>
+        <a href="./" class="back-link">← 返回时间线</a>
+      </div>
+      <p class="subtitle">各厂商列按其最强模型在 Artificial Analysis Intelligence Index 上的得分排序</p>
+      <p class="snapshot-time" id="snapshotTime">加载中...</p>
+    </header>
+
+    <div class="rank-section">
+      <h2>厂商列排名（按最强模型 AA 得分）</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="rankHead"></thead>
+          <tbody id="rankBody"></tbody>
+        </table>
+      </div>
+      <p class="rank-note">同分并列（名次跳跃）；带 * 的分数为 AA 标注的估计/不完整数据。</p>
+    </div>
+
+    <div class="rank-section">
+      <h2>AA 上有得分、但表格暂无对应列的厂商</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="missingHead"></thead>
+          <tbody id="missingBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="rank-section">
+      <h2>无 AA 榜单条目的表格列</h2>
+      <p class="rank-note" id="noEntry">加载中...</p>
+    </div>
+
+    <div class="footer">
+      <span class="source">数据来源：<a href="https://artificialanalysis.ai/leaderboards/models" target="_blank" rel="noopener">Artificial Analysis Intelligence Index</a>（仅含有得分模型）</span>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const res = await fetch('aa-ranking.json');
+      const data = await res.json();
+
+      const ts = new Date(data.fetchedAt);
+      document.getElementById('snapshotTime').textContent =
+        `AA 数据抓取时间：${ts.toLocaleString('zh-CN')} | 页面生成时间：${new Date(data.generatedAt).toLocaleString('zh-CN')}`;
+
+      document.getElementById('rankHead').innerHTML =
+        '<tr><th>#</th><th>AA 分数</th><th>厂商列</th><th>最强模型</th><th>AA 榜位</th></tr>';
+      document.getElementById('rankBody').innerHTML = data.ranked.map(item => `
+        <tr>
+          <td>${item.rank}</td>
+          <td class="score-cell">${item.score}${item.estimated ? '*' : ''}</td>
+          <td>${item.column}</td>
+          <td>${item.model}</td>
+          <td>#${item.aaRank}</td>
+        </tr>`).join('');
+
+      document.getElementById('missingHead').innerHTML =
+        '<tr><th>AA 分数</th><th>厂商</th><th>代表模型</th></tr>';
+      document.getElementById('missingBody').innerHTML = data.missingVendors.map(item => `
+        <tr>
+          <td class="score-cell">${item.score}${item.estimated ? '*' : ''}</td>
+          <td>${item.vendor}</td>
+          <td>${item.model}</td>
+        </tr>`).join('');
+
+      document.getElementById('noEntry').textContent =
+        `无 AA 条目：${data.columnsWithoutEntry.join('、')}　|　不参与排名：${data.excludedColumns.join('、')}`;
+    });
+  </script>
+</body>
+</html>
