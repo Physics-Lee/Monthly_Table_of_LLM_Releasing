@@ -4361,7 +4361,12 @@
           "url": "https://arxiv.org/abs/2606.19150"
         }
       ],
-      "Cohere": [],
+      "Cohere": [
+        {
+          "name": "North Mini Code",
+          "url": "https://cohere.com/blog/north-mini-code"
+        }
+      ],
       "Baidu": [],
       "GLM-Z.ai": [
         {
