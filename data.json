@@ -20,6 +20,7 @@
     "StepFun",
     "Xiaomi",
     "Kuaishou-Kling",
+    "Vidu",
     "ModelBest/OpenBMB",
     "Boss-Nanbeige",
     "Huawei",
@@ -74,6 +75,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -126,6 +128,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -174,6 +177,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -232,6 +236,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -317,6 +322,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -391,6 +397,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -449,6 +456,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -516,6 +524,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -593,6 +602,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [
@@ -684,6 +694,7 @@
         }
       ],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -747,6 +758,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -834,6 +846,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -928,6 +941,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1046,6 +1060,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1159,6 +1174,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1254,6 +1270,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM",
@@ -1364,6 +1381,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1461,6 +1479,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1558,6 +1577,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM 2.0",
@@ -1670,6 +1690,7 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-proprietary-video-generation-model-kling/"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [
@@ -1757,6 +1778,7 @@
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1825,6 +1847,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -1942,6 +1965,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2015,6 +2039,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2122,6 +2147,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2225,6 +2251,7 @@
           "url": "https://www.aibase.com/news/14103"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2356,6 +2383,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
@@ -2462,6 +2490,7 @@
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2571,6 +2600,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2716,6 +2746,7 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-advances-20-era-empowering-everyone-tell-great-stories/"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2830,6 +2861,7 @@
           "url": "https://bluelightningtv.com/2025/08/25/kling-ai-releases-2-1-update-enhanced-features-elevate-cinematic-production/"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -2919,6 +2951,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM 4.0",
@@ -3054,6 +3087,7 @@
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -3151,6 +3185,7 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-25-turbo-video-model-industry-leading/"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -3234,6 +3269,7 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-25-turbo-video-model-industry-leading/"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -3315,6 +3351,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
@@ -3431,6 +3468,7 @@
         }
       ],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -3526,6 +3564,7 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-video-26-model-simultaneous-audio-visual/"
         }
       ],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [
         {
@@ -3642,6 +3681,12 @@
         {
           "name": "Kling 3.0",
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/"
+        }
+      ],
+      "Vidu": [
+        {
+          "name": "Vidu Q3",
+          "url": "https://www.vidu.com/vidu-q3"
         }
       ],
       "ModelBest/OpenBMB": [
@@ -3815,6 +3860,7 @@
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [
         {
@@ -3963,6 +4009,7 @@
         }
       ],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -4135,6 +4182,7 @@
         }
       ],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "VoxCPM 2",
@@ -4266,6 +4314,7 @@
       ],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM-V 4.6 1.3B",
@@ -4392,6 +4441,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -4479,7 +4529,12 @@
       "Baidu": [],
       "GLM-Z.ai": [],
       "iFlytek": [],
-      "MiniMax": [],
+      "MiniMax": [
+        {
+          "name": "MiniMax H3",
+          "url": "https://www.minimax.io/blog/minimax-h3"
+        }
+      ],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K3",
@@ -4491,6 +4546,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
@@ -4573,6 +4629,10 @@
         {
           "name": "Qwen3.8-2.4T-A95B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
         }
       ],
       "Cohere": [],
@@ -4600,6 +4660,7 @@
       "StepFun": [],
       "Xiaomi": [],
       "Kuaishou-Kling": [],
+      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
       "Huawei": [],
