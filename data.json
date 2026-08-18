@@ -4546,6 +4546,10 @@
         {
           "name": "Muse Spark 1.2",
           "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "Muse Glimmer",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
         }
       ],
       "Mistral": [],
