@@ -4404,6 +4404,10 @@
         {
           "name": "Cosmos 3",
           "url": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/"
+        },
+        {
+          "name": "Nemotron 3 Ultra 550B A55B",
+          "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
         }
       ],
       "Stability": [],
