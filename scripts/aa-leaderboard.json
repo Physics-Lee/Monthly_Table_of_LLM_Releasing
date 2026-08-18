@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-08-18T16:51+08:00",
+  "fetchedAt": "2026-08-18T16:53:22+08:00",
   "source": "https://artificialanalysis.ai/leaderboards/models",
-  "note": "AA Intelligence Index leaderboard snapshot — SCORED entries only (AA FAQ said 'out of 161 models ranked' at fetch time; AA's /models directory shows 609 total text LLMs including unscored/deprecated ones, which are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). Re-fetch and update this file to refresh the ranking. ALWAYS stamp fetchedAt with the real fetch time.",
+  "note": "AA Intelligence Index leaderboard snapshot — SCORED entries only (AA FAQ says 'out of 161 models ranked'; AA's /models directory shows 609 total text LLMs including unscored/deprecated ones, which are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). Re-fetch and update this file to refresh the ranking. ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
     { "rank": 1, "model": "Claude Opus 5 (max)", "vendor": "Anthropic", "score": 63 },
     { "rank": 2, "model": "Claude Opus 5 (xhigh)", "vendor": "Anthropic", "score": 63 },
@@ -108,7 +108,7 @@
     { "rank": 103, "model": "Qwen3.6 35B A3B (Non-reasoning)", "vendor": "Alibaba", "score": 25 },
     { "rank": 104, "model": "Ling 3.0 Tiny", "vendor": "InclusionAI", "score": 25 },
     { "rank": 105, "model": "Qwen3.5 35B A3B (Non-reasoning)", "vendor": "Alibaba", "score": 24 },
-    { "rank": 106, "model": "Claude 4.5 Haiku", "vendor": "Anthropic", "score": 24, "estimated": true },
+    { "rank": 106, "model": "Claude 4.5 Haiku (Non-reasoning)", "vendor": "Anthropic", "score": 24, "estimated": true },
     { "rank": 107, "model": "gpt-oss-120b (high)", "vendor": "OpenAI", "score": 24 },
     { "rank": 108, "model": "Nemotron 3.5 Lightning", "vendor": "NVIDIA", "score": 24 },
     { "rank": 109, "model": "Command A+", "vendor": "Cohere", "score": 23 },
@@ -155,6 +155,14 @@
     { "rank": 150, "model": "gpt-oss-20b (high)", "vendor": "OpenAI", "score": 15 },
     { "rank": 151, "model": "Nemotron 3 Nano Omni 30B A3B", "vendor": "NVIDIA", "score": 15, "estimated": true },
     { "rank": 152, "model": "gpt-oss-120b (low)", "vendor": "OpenAI", "score": 15 },
-    { "rank": 153, "model": "Nemotron 3 Nano", "vendor": "NVIDIA", "score": 15 }
+    { "rank": 153, "model": "Nemotron 3 Nano (Reasoning)", "vendor": "NVIDIA", "score": 15 },
+    { "rank": 154, "model": "Solar Pro 3", "vendor": "Upstage", "score": 14 },
+    { "rank": 155, "model": "Llama 4 Maverick", "vendor": "Meta", "score": 14 },
+    { "rank": 156, "model": "Nova 2.0 Pro Preview", "vendor": "Amazon", "score": 14, "estimated": true },
+    { "rank": 157, "model": "gpt-oss-20b (low)", "vendor": "OpenAI", "score": 14, "estimated": true },
+    { "rank": 158, "model": "K2-V2 (high)", "vendor": "MBZUAI Institute of Foundation Models", "score": 14, "estimated": true },
+    { "rank": 159, "model": "Qwen3 Next 80B A3B (Instruct)", "vendor": "Alibaba", "score": 14, "estimated": true },
+    { "rank": 160, "model": "DiffusionGemma 26B A4B", "vendor": "Google", "score": 13, "estimated": true },
+    { "rank": 161, "model": "Gemma 4 12B (Non-reasoning)", "vendor": "Google", "score": 13 }
   ]
 }
