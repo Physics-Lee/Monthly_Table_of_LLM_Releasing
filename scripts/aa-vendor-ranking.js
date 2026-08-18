@@ -119,10 +119,10 @@ function main() {
   console.log('');
 
   console.log('== Vendor columns ranked by best AA model ==');
-  console.log(`${pad('#', 4)}${pad('score', 7)}${pad('column', 24)}top model (AA rank)`);
+  console.log(`${pad('#', 4)}${pad('score', 7)}${pad('column', 24)}${pad('top model', 32)}AA rank`);
   for (const item of buildRanking(leaderboard, data)) {
     const score = `${item.score}${item.estimated ? '*' : ''}`;
-    console.log(`${pad(item.rank, 4)}${pad(score, 7)}${pad(item.column, 24)}${item.model} (AA #${item.aaRank})`);
+    console.log(`${pad(item.rank, 4)}${pad(score, 7)}${pad(item.column, 24)}${pad(item.model, 32)}#${item.aaRank}`);
   }
   console.log('');
 
