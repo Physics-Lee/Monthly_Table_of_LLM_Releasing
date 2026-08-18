@@ -4325,7 +4325,12 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
         }
       ],
-      "Google": [],
+      "Google": [
+        {
+          "name": "Gemma 4 12B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        }
+      ],
       "Meta": [],
       "Mistral": [],
       "xAI": [],
