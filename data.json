@@ -3112,7 +3112,12 @@
       ],
       "Meta": [],
       "Mistral": [],
-      "xAI": [],
+      "xAI": [
+        {
+          "name": "Grok Code Fast 1",
+          "url": "https://x.ai/news/grok-code-fast-1"
+        }
+      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.1",
