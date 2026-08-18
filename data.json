@@ -4223,7 +4223,12 @@
       ],
       "Meta": [],
       "Mistral": [],
-      "xAI": [],
+      "xAI": [
+        {
+          "name": "Grok Build 0.1",
+          "url": "https://x.ai/news"
+        }
+      ],
       "DeepSeek": [],
       "Qwen-Alibaba": [
         {
