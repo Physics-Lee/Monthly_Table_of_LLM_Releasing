@@ -4569,6 +4569,10 @@
         {
           "name": "Qwen3.8-Max",
           "url": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+        },
+        {
+          "name": "Qwen3.8-2.4T-A95B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         }
       ],
       "Cohere": [],
