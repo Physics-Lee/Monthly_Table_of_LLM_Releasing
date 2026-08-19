@@ -123,6 +123,7 @@
   "Sonnet": "https://www.anthropic.com/news/claude-3-family",
   "Haiku": "https://www.anthropic.com/news/claude-3-haiku",
   "Grok-1.5": "https://x.ai/blog/grok-1.5",
+  "Grok-1 Open Weights": "https://huggingface.co/xai-org/grok-1",
   "DeepSeek-VL": "https://github.com/deepseek-ai/DeepSeek-VL",
   "Command R": "https://cohere.com/research/command-r",
   "Jamba": "https://www.ai21.com/blog/announcing-jamba/",

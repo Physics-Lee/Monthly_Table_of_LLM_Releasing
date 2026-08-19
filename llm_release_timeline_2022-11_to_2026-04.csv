@@ -15,7 +15,7 @@ Month,Anthropic,OpenAI,xAI,Kimi-Moonshot,GLM-Z.ai,Qwen-Alibaba,Meta,Google,DeepS
 23-Dec,Claude 2.1,,,,,,,Gemini 1.0 Ultra + Pro + Nano,,,abab5.5,,,,,Bailing 2.0,,Mixtral 8x7B + Mistral Medium,,,,,,,,,Phi-2,,RAGFlow,,,,,,,Ferret,,,,AMD MI300X + Google TPU v5p,Google AI Hypercomputer
 24-Jan,,text-embedding-3-small + text-embedding-3-large,,moonshot-v1,GLM-4,,,,DeepSeek-MoE,,,,,,,,,,,,,,,,,,,,AutoGen + LangGraph + SGLang + BGE-M3,Spark 3.0,,,,Yi-VL,Baichuan 3,,,,,,
 24-Feb,,Sora (demo),,,,Qwen1.5,,Gemma + Gemini 1.5 Pro + Genie,DeepSeek-Math,,,,,,Nemotron-4 15B,,,Mistral Large + Mistral Small,,Aya,,,MiniCPM,,,OLMo,,,,,,,,,,,Stable Diffusion 3,SenseNova 4.0,,,
-24-Mar,Claude 3 Opus + Sonnet + Haiku,,Grok-1 + Grok-1.5,,,,,,DeepSeek-VL,,,,,,,,,,,Command R,,,,,,,,Jamba,OpenHands,Spark 3.5,,,,,,,,,Windsurf,NVIDIA Blackwell B200,AWS Trainium2 GA
+24-Mar,Claude 3 Opus + Sonnet + Haiku,,Grok-1.5 + Grok-1 Open Weights,,,,,,DeepSeek-VL,,,,,,,,,,,Command R,,,,,,,,Jamba,OpenHands,Spark 3.5,,,,,,,,,Windsurf,NVIDIA Blackwell B200,AWS Trainium2 GA
 24-Apr,,,Grok-1.5V,,,Qwen1.5-110B + CodeQwen1.5,Llama 3,,,,ABAB 6.5,,,,,,,Mixtral 8x22B,,Command R Plus,,,,,,,Phi-3-mini,,,,,,,,,OpenELM,,,,Microsoft Maia 100,
 24-May,,GPT-4o,,,CogVLM2,,,Gemini 1.5 Flash + Veo,DeepSeek-V2,,,,,,,,,Codestral,,Aya 23,,Titan Text Premier,MiniCPM 2.0,,,,Phi-3-small + Phi-3-medium,,Cherry Studio,,,,,Yi-1.5,Baichuan 4,,,SenseChat,,,CoreWeave raises $7.5B to build GPU data center
 24-Jun,Claude 3.5 Sonnet,,,,,Qwen2,,Gemma 2,,,,,,,Nemotron-4 340B,,Step-1V,,,,,,,,,,,,,Spark 4.0,Kling 1.0,,PanGu 5.0,,,,,,,,
