@@ -36,7 +36,8 @@ const VENDOR_TO_COLUMN = {
   'Liquid AI': 'Liquid AI',
   'Allen Institute for AI': 'Allen',
   'Microsoft': 'Microsoft',
-  'AI21 Labs': 'AI21'
+  'AI21 Labs': 'AI21',
+  'Celeris': 'Celeris'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard

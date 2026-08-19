@@ -22,6 +22,7 @@
     "Cohere",
     "Baidu",
     "Amazon",
+    "Celeris",
     "ModelBest-OpenBMB",
     "Boss-Nanbeige",
     "Liquid AI",
@@ -72,6 +73,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -130,6 +132,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -179,6 +182,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -233,6 +237,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -315,6 +320,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -394,6 +400,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -453,6 +460,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -512,6 +520,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -604,6 +613,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -686,6 +696,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -765,6 +776,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -839,6 +851,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -957,6 +970,7 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1057,6 +1071,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1154,6 +1169,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1277,6 +1293,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM",
@@ -1373,6 +1390,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1481,6 +1499,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1579,6 +1598,7 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 2.0",
@@ -1687,6 +1707,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1780,6 +1801,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1854,6 +1876,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1967,6 +1990,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2046,6 +2070,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -2140,6 +2165,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2269,6 +2295,7 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2390,6 +2417,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
@@ -2492,6 +2520,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2602,6 +2631,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2738,6 +2768,7 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
         }
       ],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2858,6 +2889,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2958,6 +2990,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
@@ -3089,6 +3122,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -3187,6 +3221,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3271,6 +3306,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3353,6 +3389,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
@@ -3474,6 +3511,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3570,6 +3608,7 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [
         {
@@ -3671,6 +3710,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 4.5",
@@ -3852,6 +3892,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [
         {
@@ -4016,6 +4057,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -4184,6 +4226,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "VoxCPM 2",
@@ -4312,6 +4355,7 @@
         }
       ],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.6 1.3B",
@@ -4447,6 +4491,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -4557,6 +4602,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [
+        {
+          "name": "Celeris-1",
+          "url": "https://artificialanalysis.ai/models/celeris-1"
+        }
+      ],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -4677,6 +4728,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "Celeris": [],
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [

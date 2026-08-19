@@ -1031,6 +1031,12 @@
       "score": 13
     },
     {
+      "rank": 167,
+      "model": "Celeris-1",
+      "vendor": "Celeris",
+      "score": 12
+    },
+    {
       "rank": 171,
       "model": "MiniCPM5-1B",
       "vendor": "OpenBMB",

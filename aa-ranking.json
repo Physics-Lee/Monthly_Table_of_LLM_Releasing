@@ -1,6 +1,6 @@
 {
   "fetchedAt": "2026-08-19T15:42:44+08:00",
-  "generatedAt": "2026-08-19T08:06:31.157Z",
+  "generatedAt": "2026-08-19T08:40:00.295Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -180,6 +180,14 @@
       "rank": 21
     },
     {
+      "column": "Celeris",
+      "model": "Celeris-1",
+      "score": 12,
+      "estimated": false,
+      "aaRank": 167,
+      "rank": 23
+    },
+    {
       "column": "ModelBest-OpenBMB",
       "model": "MiniCPM5-1B",
       "score": 12,
@@ -193,7 +201,7 @@
       "score": 11,
       "estimated": true,
       "aaRank": 178,
-      "rank": 24
+      "rank": 25
     },
     {
       "column": "Liquid AI",
@@ -201,7 +209,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 202,
-      "rank": 25
+      "rank": 26
     },
     {
       "column": "Allen",
@@ -209,7 +217,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 204,
-      "rank": 25
+      "rank": 26
     },
     {
       "column": "Microsoft",
@@ -217,7 +225,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 218,
-      "rank": 27
+      "rank": 28
     },
     {
       "column": "AI21",
@@ -225,7 +233,7 @@
       "score": 5,
       "estimated": true,
       "aaRank": 223,
-      "rank": 28
+      "rank": 29
     }
   ],
   "missingVendors": [
