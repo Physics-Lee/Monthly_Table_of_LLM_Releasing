@@ -4,11 +4,11 @@
     "OpenAI",
     "xAI",
     "Kimi-Moonshot",
+    "GLM-Z.ai",
     "Qwen-Alibaba",
     "Meta",
     "Google",
     "DeepSeek",
-    "GLM-Z.ai",
     "Motif",
     "MiniMax",
     "Xiaomi",
@@ -54,11 +54,11 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -112,11 +112,11 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -161,11 +161,11 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -205,6 +205,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [
         {
@@ -219,7 +220,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -287,16 +287,16 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
-      "Meta": [],
-      "Google": [],
-      "DeepSeek": [],
       "GLM-Z.ai": [
         {
           "name": "ChatGLM",
           "url": "https://github.com/THUDM/ChatGLM"
         }
       ],
+      "Qwen-Alibaba": [],
+      "Meta": [],
+      "Google": [],
+      "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -376,11 +376,11 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -430,6 +430,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -439,7 +440,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -489,16 +489,16 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
-      "Meta": [],
-      "Google": [],
-      "DeepSeek": [],
       "GLM-Z.ai": [
         {
           "name": "ChatGLM2",
           "url": "https://github.com/THUDM/ChatGLM2-6B"
         }
       ],
+      "Qwen-Alibaba": [],
+      "Meta": [],
+      "Google": [],
+      "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -576,6 +576,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [
         {
@@ -585,7 +586,6 @@
       ],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -640,6 +640,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-7B",
@@ -657,7 +658,6 @@
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [
@@ -732,6 +732,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-14B",
@@ -741,7 +742,6 @@
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -806,16 +806,16 @@
           "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
         }
       ],
-      "Qwen-Alibaba": [],
-      "Meta": [],
-      "Google": [],
-      "DeepSeek": [],
       "GLM-Z.ai": [
         {
           "name": "ChatGLM3",
           "url": "https://github.com/THUDM/ChatGLM3"
         }
       ],
+      "Qwen-Alibaba": [],
+      "Meta": [],
+      "Google": [],
+      "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -893,6 +893,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-72B",
@@ -915,7 +916,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1007,6 +1007,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -1024,7 +1025,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1126,6 +1126,12 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-4",
+          "url": "https://github.com/THUDM/GLM-4"
+        }
+      ],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
@@ -1133,12 +1139,6 @@
         {
           "name": "DeepSeek-MoE",
           "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
-        }
-      ],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-4",
-          "url": "https://github.com/THUDM/GLM-4"
         }
       ],
       "Motif": [],
@@ -1217,6 +1217,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5",
@@ -1244,7 +1245,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Math"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -1345,6 +1345,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
@@ -1354,7 +1355,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-VL"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -1434,6 +1434,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5-110B",
@@ -1452,7 +1453,6 @@
       ],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1527,6 +1527,12 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [
+        {
+          "name": "CogVLM2",
+          "url": "https://github.com/THUDM/CogVLM2"
+        }
+      ],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -1543,12 +1549,6 @@
         {
           "name": "DeepSeek-V2",
           "url": "https://github.com/deepseek-ai/DeepSeek-V2/releases"
-        }
-      ],
-      "GLM-Z.ai": [
-        {
-          "name": "CogVLM2",
-          "url": "https://github.com/THUDM/CogVLM2"
         }
       ],
       "Motif": [],
@@ -1649,6 +1649,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2",
@@ -1663,7 +1664,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -1733,6 +1733,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2-Audio",
@@ -1752,7 +1753,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -1816,16 +1816,16 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Qwen-Alibaba": [],
-      "Meta": [],
-      "Google": [],
-      "DeepSeek": [],
       "GLM-Z.ai": [
         {
           "name": "GLM-4-Plus",
           "url": "https://www.aibase.com/news/11400"
         }
       ],
+      "Qwen-Alibaba": [],
+      "Meta": [],
+      "Google": [],
+      "DeepSeek": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1912,6 +1912,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5",
@@ -1938,7 +1939,6 @@
       ],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -2003,16 +2003,16 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
-      "Meta": [],
-      "Google": [],
-      "DeepSeek": [],
       "GLM-Z.ai": [
         {
           "name": "AutoGLM",
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
+      "Qwen-Alibaba": [],
+      "Meta": [],
+      "Google": [],
+      "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -2104,6 +2104,7 @@
       "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Coder Family",
@@ -2117,7 +2118,6 @@
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -2193,6 +2193,12 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-Zero-Preview",
+          "url": "https://www.ctol.digital/news/zhipu-ai-glm-zero-preview-vs-openai-o1-ai-race/"
+        }
+      ],
       "Qwen-Alibaba": [],
       "Meta": [
         {
@@ -2222,12 +2228,6 @@
         {
           "name": "DeepSeek-V2.5-1210",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
-        }
-      ],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-Zero-Preview",
-          "url": "https://www.ctol.digital/news/zhipu-ai-glm-zero-preview-vs-openai-o1-ai-race/"
         }
       ],
       "Motif": [],
@@ -2330,6 +2330,7 @@
           "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Max",
@@ -2348,7 +2349,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-R1"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -2455,6 +2455,7 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -2469,7 +2470,6 @@
           "url": "https://github.com/deepseek-ai/Janus"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -2528,6 +2528,12 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [
+        {
+          "name": "AutoGLM Rumination",
+          "url": "https://github.com/zai-org/Open-AutoGLM"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Omni",
@@ -2549,12 +2555,6 @@
         {
           "name": "DeepSeek-V3-0324",
           "url": "https://github.blog/changelog/2025-04-08-deepseek-v3-0324-is-now-generally-available-in-github-models/"
-        }
-      ],
-      "GLM-Z.ai": [
-        {
-          "name": "AutoGLM Rumination",
-          "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
       "Motif": [],
@@ -2672,6 +2672,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3",
@@ -2695,7 +2696,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -2803,6 +2803,7 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -2821,7 +2822,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [
@@ -2898,6 +2898,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -2907,7 +2908,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -3014,6 +3014,12 @@
           "url": "https://kimi-k2.org/"
         }
       ],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-4.5",
+          "url": "https://docs.z.ai/guides/llm/glm-4.5"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3-Coder",
@@ -3036,12 +3042,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-4.5",
-          "url": "https://docs.z.ai/guides/llm/glm-4.5"
-        }
-      ],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -3149,6 +3149,7 @@
           "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qoder",
@@ -3168,7 +3169,6 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -3233,6 +3233,7 @@
           "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen CLI",
@@ -3247,7 +3248,6 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -3317,6 +3317,7 @@
           "url": "https://github.com/MoonshotAI/kimi-cli"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -3326,7 +3327,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -3418,6 +3418,7 @@
           "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [
@@ -3432,7 +3433,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [
@@ -3515,6 +3515,7 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
@@ -3524,7 +3525,6 @@
           "url": "https://api-docs.deepseek.com/news/news251201"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [
@@ -3648,11 +3648,11 @@
           "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [],
       "Google": [],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -3767,6 +3767,12 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-5",
+          "url": "https://www.reuters.com/technology/chinas-ai-startup-zhipu-releases-new-flagship-model-glm-5-2026-02-11/"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-397B-A17B",
@@ -3793,12 +3799,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-5",
-          "url": "https://www.reuters.com/technology/chinas-ai-startup-zhipu-releases-new-flagship-model-glm-5-2026-02-11/"
-        }
-      ],
       "Motif": [],
       "MiniMax": [
         {
@@ -3922,6 +3922,12 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-5-Turbo",
+          "url": "https://www.aibase.com/zh/news/26283"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "QoderWork",
@@ -3960,12 +3966,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-5-Turbo",
-          "url": "https://www.aibase.com/zh/news/26283"
-        }
-      ],
       "Motif": [],
       "MiniMax": [
         {
@@ -4102,6 +4102,12 @@
           "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
         }
       ],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-5.1",
+          "url": "https://z.ai/blog/glm-5.1"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.6-Max-Preview",
@@ -4140,12 +4146,6 @@
         {
           "name": "V4-Flash",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
-        }
-      ],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-5.1",
-          "url": "https://z.ai/blog/glm-5.1"
         }
       ],
       "Motif": [],
@@ -4256,6 +4256,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-LiveTranslate-Flash",
@@ -4278,7 +4279,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [],
       "Xiaomi": [],
@@ -4375,6 +4375,12 @@
           "url": "https://www.llmreference.com/model/kimi-k2-7-code"
         }
       ],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-5.2",
+          "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-RobotManip",
@@ -4409,12 +4415,6 @@
         }
       ],
       "DeepSeek": [],
-      "GLM-Z.ai": [
-        {
-          "name": "GLM-5.2",
-          "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview"
-        }
-      ],
       "Motif": [],
       "MiniMax": [
         {
@@ -4510,6 +4510,7 @@
           "url": "https://apnews.com/article/kimi-k3-china-ai-0d8a5e268deb11a673f4d444fc597cc5"
         }
       ],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
       "Meta": [
         {
@@ -4529,7 +4530,6 @@
           "url": "https://www.guancha.cn/economy/2026_07_31_825764.shtml"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -4598,6 +4598,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8-Max",
@@ -4634,7 +4635,6 @@
           "url": "https://www.ithome.com/0/988/998.htm"
         }
       ],
-      "GLM-Z.ai": [],
       "Motif": [
         {
           "name": "Motif 3",
