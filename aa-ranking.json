@@ -1,6 +1,6 @@
 {
   "fetchedAt": "2026-08-19T15:42:44+08:00",
-  "generatedAt": "2026-08-19T07:47:52.696Z",
+  "generatedAt": "2026-08-19T08:05:30.394Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -180,7 +180,7 @@
       "rank": 21
     },
     {
-      "column": "ModelBest/OpenBMB",
+      "column": "ModelBest-OpenBMB",
       "model": "MiniCPM5-1B",
       "score": 12,
       "estimated": true,

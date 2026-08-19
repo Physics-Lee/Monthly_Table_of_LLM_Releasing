@@ -31,7 +31,7 @@ const VENDOR_TO_COLUMN = {
   'Cohere': 'Cohere',
   'Baidu': 'Baidu',
   'Amazon': 'Amazon',
-  'OpenBMB': 'ModelBest/OpenBMB',
+  'OpenBMB': 'ModelBest-OpenBMB',
   'Nanbeige': 'Boss-Nanbeige',
   'Liquid AI': 'Liquid AI',
   'Allen Institute for AI': 'AI2',

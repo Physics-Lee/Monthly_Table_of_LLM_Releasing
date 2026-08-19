@@ -22,7 +22,7 @@
     "Cohere",
     "Baidu",
     "Amazon",
-    "ModelBest/OpenBMB",
+    "ModelBest-OpenBMB",
     "Boss-Nanbeige",
     "Liquid AI",
     "AI2",
@@ -72,7 +72,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -130,7 +130,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -179,7 +179,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -233,7 +233,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -315,7 +315,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -394,7 +394,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -453,7 +453,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -512,7 +512,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -604,7 +604,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -686,7 +686,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -765,7 +765,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -839,7 +839,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -957,7 +957,7 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1057,7 +1057,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1154,7 +1154,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1277,7 +1277,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM",
           "url": "https://github.com/OpenBMB/MiniCPM"
@@ -1373,7 +1373,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1481,7 +1481,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1579,7 +1579,7 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 2.0",
           "url": "https://github.com/OpenBMB/MiniCPM"
@@ -1687,7 +1687,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1780,7 +1780,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1854,7 +1854,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -1967,7 +1967,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [
@@ -2046,7 +2046,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -2140,7 +2140,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [
@@ -2269,7 +2269,7 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [
@@ -2390,7 +2390,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
           "url": "https://github.com/OpenBMB/MiniCPM-o"
@@ -2492,7 +2492,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -2602,7 +2602,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [
@@ -2738,7 +2738,7 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
         }
       ],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -2858,7 +2858,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -2958,7 +2958,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
           "url": "https://github.com/openbmb/minicpm"
@@ -3089,7 +3089,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -3187,7 +3187,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -3271,7 +3271,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -3353,7 +3353,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5"
@@ -3474,7 +3474,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [
@@ -3570,7 +3570,7 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B",
@@ -3671,7 +3671,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 4.5",
           "url": "https://github.com/OpenBMB/MiniCPM-o"
@@ -3852,7 +3852,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.1-3B",
@@ -4016,7 +4016,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4184,7 +4184,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "VoxCPM 2",
           "url": "https://github.com/OpenBMB/VoxCPM"
@@ -4312,7 +4312,7 @@
         }
       ],
       "Amazon": [],
-      "ModelBest/OpenBMB": [
+      "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.6 1.3B",
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
@@ -4447,7 +4447,7 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "AI2": [],
@@ -4557,7 +4557,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4677,7 +4677,7 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "ModelBest/OpenBMB": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {

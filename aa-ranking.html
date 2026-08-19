@@ -26,6 +26,11 @@
       margin-top: 8px;
     }
     td.score-cell { font-weight: 600; }
+    td.intro-cell {
+      font-size: 12px;
+      color: var(--text-secondary);
+      min-width: 260px;
+    }
   </style>
 </head>
 <body>
@@ -58,6 +63,7 @@
           <tbody id="missingBody"></tbody>
         </table>
       </div>
+      <p class="rank-note">"简介"列为编者注（非 AA 官方数据），基于各厂商公开资料整理。</p>
     </div>
 
     <div class="rank-section">
@@ -124,13 +130,35 @@
           <td>#${item.aaRank}</td>
         </tr>`).join('');
 
+      // 编者注：厂商简介（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致）
+      const vendorIntros = {
+        'Nex AGI': '上海创新研究院发起的开源智能体联盟。Nex-N2-Pro 为 397B 总参 / 17B 激活的 MoE（基于 Qwen3.5 架构），开源权重，主打编程与长程智能体任务。',
+        'Upstage': '2020 年成立的韩国 AI 独角兽，由 Naver 前研究员创办。以 Solar 系列模型和文档理解 AI 著称，是韩国最活跃的模型创业公司之一。',
+        'China Mobile': '中国移动的大模型品牌"九天"（JT）。JT4.0 含 236B MoE 与 35B 稠密双版本，JT-4.1 主打安全可信，面向矿山、石化等工业场景。',
+        'Sapiens AI': '新加坡创业公司，面向东南亚语言与场景自研模型，公开资料较少。',
+        'SK Telecom': '韩国 SK 电信，模型品牌 A.X（前身为 A dot）。主打韩语本地化，面向韩国企业市场。',
+        'LongCat': '美团大模型团队孵化的独立品牌（LongCat.AI 平台由美团关联公司运营）。首发开源 LongCat-Flash-Chat（560B MoE），以"零计算专家"机制、性能追平 DeepSeek-V3.1 出名。',
+        'KwaiKAT': '快手 Kwaipilot 团队，编程助手 KwaiCoder 背后的模型力量。KAT-Coder 系列专攻智能体编程，Dev 系列开源，Pro 为闭源旗舰。',
+        'AI9Stars': '小型开源组织，主打 G9 系列轻量推理模型（G9v3 等），另有 Cheers 等模型与多模态、遥感方向研究，影响力有限。',
+        'LG AI Research': 'LG 集团旗下研究院，2021 年起发布 EXAONE 系列模型，韩国"主权 AI"主力之一。',
+        'Inception': '即 Inception Labs，扩散语言模型（dLLM）先驱。Mercury 2 为首个带推理能力的扩散 LLM，输出速度超 1000 tokens/s，主打超低延迟场景。',
+        'ServiceNow': '企业工作流软件巨头。Apriel 系列与 NVIDIA 合作训练，主打超低延迟的企业智能体工作流。',
+        'Arcee AI': '开源小模型专业户，以模型合并与蒸馏技术（Evolutionary Merging）出名，主打高性价比小模型。',
+        'Multiverse Computing': '西班牙量子计算公司，用张量网络压缩技术（CompactifAI）训练超紧凑模型，HyperNova 为其 60B 压缩模型线。',
+        'MBZUAI Institute of Foundation Models': '阿联酋 MBZUAI 大学基础模型研究所（IFM），与 G42 合作。K2 Think V2 为 70B"主权开源"推理模型（权重、数据、代码全开）；与 Moonshot 的 Kimi K2 同名但无关。',
+        'Naver': '韩国最大搜索门户。HyperCLOVA X 系列是韩国"主权 AI"的基石，SEED 为其开源分支。',
+        'Korea Telecom': '韩国 KT 电信，Mi:dm 系列模型主打韩语企业市场。',
+        'Prime Intellect': '去中心化训练实验室。INTELLECT-1/2 是去中心化训练的标志性开源模型，INTELLECT-3 为其续作。'
+      };
+
       document.getElementById('missingHead').innerHTML =
-        '<tr><th>AA 分数</th><th>厂商</th><th>代表模型</th></tr>';
+        '<tr><th>AA 分数</th><th>厂商</th><th>代表模型</th><th>简介</th></tr>';
       document.getElementById('missingBody').innerHTML = data.missingVendors.map(item => `
         <tr>
           <td class="score-cell">${item.score}${item.estimated ? '*' : ''}</td>
           <td>${item.vendor}</td>
           <td>${item.model}</td>
+          <td class="intro-cell">${vendorIntros[item.vendor] || ''}</td>
         </tr>`).join('');
 
       document.getElementById('noEntry').textContent =
