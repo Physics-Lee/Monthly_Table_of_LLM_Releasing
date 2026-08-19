@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-08-18T16:53:22+08:00",
+  "fetchedAt": "2026-08-19T11:28:55+08:00",
   "source": "https://artificialanalysis.ai/leaderboards/models",
-  "note": "AA Intelligence Index leaderboard snapshot — SCORED entries only (AA FAQ says 'out of 161 models ranked'; AA's /models directory shows 609 total text LLMs including unscored/deprecated ones, which are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). Re-fetch and update this file to refresh the ranking. ALWAYS stamp fetchedAt with the real fetch time.",
+  "note": "AA Intelligence Index leaderboard snapshot — SCORED entries only (AA FAQ says 'out of 161 models ranked'; AA's /models directory shows 609 total text LLMs including unscored/deprecated ones, which are NOT in this file). Ranks 1-161 complete; entries beyond rank 161 are PARTIAL (only vendors mapped in aa-vendor-ranking.js plus a few notable ones). estimated=true means AA marked the score with an asterisk (incomplete/approximate). Re-fetch and update this file to refresh the ranking. ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
     { "rank": 1, "model": "Claude Opus 5 (max)", "vendor": "Anthropic", "score": 63 },
     { "rank": 2, "model": "Claude Opus 5 (xhigh)", "vendor": "Anthropic", "score": 63 },
@@ -163,6 +163,13 @@
     { "rank": 158, "model": "K2-V2 (high)", "vendor": "MBZUAI Institute of Foundation Models", "score": 14, "estimated": true },
     { "rank": 159, "model": "Qwen3 Next 80B A3B (Instruct)", "vendor": "Alibaba", "score": 14, "estimated": true },
     { "rank": 160, "model": "DiffusionGemma 26B A4B", "vendor": "Google", "score": 13, "estimated": true },
-    { "rank": 161, "model": "Gemma 4 12B (Non-reasoning)", "vendor": "Google", "score": 13 }
+    { "rank": 161, "model": "Gemma 4 12B (Non-reasoning)", "vendor": "Google", "score": 13 },
+    { "rank": 171, "model": "MiniCPM5-1B", "vendor": "OpenBMB", "score": 12, "estimated": true },
+    { "rank": 177, "model": "Nanbeige4.1-3B", "vendor": "Nanbeige", "score": 11, "estimated": true },
+    { "rank": 189, "model": "ERNIE 4.5 300B A47B", "vendor": "Baidu", "score": 9, "estimated": true },
+    { "rank": 201, "model": "LFM2.5-8B-A1B", "vendor": "Liquid AI", "score": 8, "estimated": true },
+    { "rank": 203, "model": "Olmo 3.1 32B Think", "vendor": "Allen Institute for AI", "score": 8, "estimated": true },
+    { "rank": 217, "model": "Phi-4 Mini", "vendor": "Microsoft", "score": 6, "estimated": true },
+    { "rank": 222, "model": "Jamba 1.7 Large", "vendor": "AI21 Labs", "score": 5, "estimated": true }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-18T16:53:22+08:00",
-  "generatedAt": "2026-08-18T09:04:54.310Z",
+  "fetchedAt": "2026-08-19T11:28:55+08:00",
+  "generatedAt": "2026-08-19T03:29:22.104Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -178,6 +178,54 @@
       "estimated": true,
       "aaRank": 114,
       "rank": 21
+    },
+    {
+      "column": "ModelBest/OpenBMB",
+      "model": "MiniCPM5-1B",
+      "score": 12,
+      "estimated": true,
+      "aaRank": 171,
+      "rank": 23
+    },
+    {
+      "column": "Boss-Nanbeige",
+      "model": "Nanbeige4.1-3B",
+      "score": 11,
+      "estimated": true,
+      "aaRank": 177,
+      "rank": 24
+    },
+    {
+      "column": "Liquid AI",
+      "model": "LFM2.5-8B-A1B",
+      "score": 8,
+      "estimated": true,
+      "aaRank": 201,
+      "rank": 25
+    },
+    {
+      "column": "AI2",
+      "model": "Olmo 3.1 32B Think",
+      "score": 8,
+      "estimated": true,
+      "aaRank": 203,
+      "rank": 25
+    },
+    {
+      "column": "Microsoft",
+      "model": "Phi-4 Mini",
+      "score": 6,
+      "estimated": true,
+      "aaRank": 217,
+      "rank": 27
+    },
+    {
+      "column": "AI21",
+      "model": "Jamba 1.7 Large",
+      "score": 5,
+      "estimated": true,
+      "aaRank": 222,
+      "rank": 28
     }
   ],
   "missingVendors": [
@@ -286,18 +334,12 @@
   ],
   "columnsWithoutEntry": [
     "iFlytek",
-    "ModelBest/OpenBMB",
-    "Boss-Nanbeige",
     "Huawei",
     "01.AI",
     "Baichuan-Intelligence",
-    "Microsoft",
     "Apple",
     "Stability",
-    "SenseTime",
-    "AI21",
-    "Liquid AI",
-    "AI2"
+    "SenseTime"
   ],
   "excludedColumns": [
     "Open-Source",

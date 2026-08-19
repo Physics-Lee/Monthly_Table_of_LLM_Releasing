@@ -22,22 +22,22 @@
     "Cohere",
     "Baidu",
     "Amazon",
+    "ModelBest/OpenBMB",
+    "Boss-Nanbeige",
+    "Liquid AI",
+    "AI2",
+    "Microsoft",
+    "AI21",
     "Open-Source",
     "iFlytek",
     "Kuaishou-Kling",
     "Vidu",
-    "ModelBest/OpenBMB",
-    "Boss-Nanbeige",
     "Huawei",
     "01.AI",
     "Baichuan-Intelligence",
-    "Microsoft",
     "Apple",
     "Stability",
     "SenseTime",
-    "AI21",
-    "Liquid AI",
-    "AI2",
     "LLM-Applications",
     "AI-Chips",
     "AI-Cloud"
@@ -72,6 +72,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "LangChain",
@@ -81,18 +87,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -130,22 +130,22 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Perplexity",
@@ -179,22 +179,22 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -233,6 +233,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "vLLM",
@@ -242,18 +248,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Notion AI",
@@ -315,6 +315,17 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [
+        {
+          "name": "Jurassic-2",
+          "url": "https://www.ai21.com/blog/introducing-j2/"
+        }
+      ],
       "Open-Source": [
         {
           "name": "AutoGPT",
@@ -328,23 +339,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [
-        {
-          "name": "Jurassic-2",
-          "url": "https://www.ai21.com/blog/introducing-j2/"
-        }
-      ],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Cursor",
@@ -394,6 +394,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Axolotl",
@@ -403,18 +409,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Grammarly",
@@ -453,6 +453,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [
         {
@@ -462,18 +468,12 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "LM Studio",
@@ -512,6 +512,17 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [
+        {
+          "name": "Phi-1",
+          "url": "https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need/"
+        }
+      ],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Ollama",
@@ -530,8 +541,6 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [
@@ -544,18 +553,9 @@
           "url": "https://github.com/baichuan-inc/Baichuan-7B"
         }
       ],
-      "Microsoft": [
-        {
-          "name": "Phi-1",
-          "url": "https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need/"
-        }
-      ],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "AnythingLLM",
@@ -604,12 +604,16 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [
         {
           "name": "PanGu 3.0",
@@ -618,13 +622,9 @@
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -686,6 +686,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Jan",
@@ -700,18 +706,12 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -765,12 +765,21 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [
+        {
+          "name": "Phi-1.5",
+          "url": "https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need-ii-phi-1-5-technical-report/"
+        }
+      ],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [
@@ -779,18 +788,9 @@
           "url": "https://github.com/baichuan-inc/Baichuan-7B"
         }
       ],
-      "Microsoft": [
-        {
-          "name": "Phi-1.5",
-          "url": "https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need-ii-phi-1-5-technical-report/"
-        }
-      ],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -839,6 +839,12 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "CrewAI",
@@ -852,18 +858,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Raycast AI",
@@ -957,12 +957,16 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [
         {
@@ -975,7 +979,6 @@
         }
       ],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [
         {
           "name": "MLX",
@@ -984,9 +987,6 @@
       ],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1057,6 +1057,17 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [
+        {
+          "name": "Phi-2",
+          "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/"
+        }
+      ],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "RAGFlow",
@@ -1066,17 +1077,9 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [
-        {
-          "name": "Phi-2",
-          "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/"
-        }
-      ],
       "Apple": [
         {
           "name": "Ferret",
@@ -1085,9 +1088,6 @@
       ],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1154,6 +1154,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "AutoGen",
@@ -1180,8 +1186,6 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [
         {
@@ -1195,13 +1199,9 @@
           "url": "https://pandaily.com/baichuan-ai-releases-large-scale-model-baichuan-3/"
         }
       ],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1277,10 +1277,6 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM",
@@ -1288,10 +1284,22 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo",
+          "url": "https://allenai.org/olmo"
+        }
+      ],
+      "Microsoft": [],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [
         {
@@ -1303,14 +1311,6 @@
         {
           "name": "SenseNova 4.0",
           "url": "https://www.sensetime.com/"
-        }
-      ],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [
-        {
-          "name": "OLMo",
-          "url": "https://allenai.org/olmo"
         }
       ],
       "LLM-Applications": [],
@@ -1373,6 +1373,17 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [
+        {
+          "name": "Jamba",
+          "url": "https://www.ai21.com/blog/announcing-jamba/"
+        }
+      ],
       "Open-Source": [
         {
           "name": "OpenHands",
@@ -1387,23 +1398,12 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [
-        {
-          "name": "Jamba",
-          "url": "https://www.ai21.com/blog/announcing-jamba/"
-        }
-      ],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Windsurf",
@@ -1481,21 +1481,24 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
+      "Liquid AI": [],
+      "AI2": [],
       "Microsoft": [
         {
           "name": "Phi-3-mini",
           "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
         }
       ],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
       "Apple": [
         {
           "name": "OpenELM",
@@ -1504,9 +1507,6 @@
       ],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1579,6 +1579,26 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
+      "ModelBest/OpenBMB": [
+        {
+          "name": "MiniCPM 2.0",
+          "url": "https://github.com/OpenBMB/MiniCPM"
+        }
+      ],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [
+        {
+          "name": "Phi-3-small",
+          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
+        },
+        {
+          "name": "Phi-3-medium",
+          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
+        }
+      ],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Cherry Studio",
@@ -1588,13 +1608,6 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [
-        {
-          "name": "MiniCPM 2.0",
-          "url": "https://github.com/OpenBMB/MiniCPM"
-        }
-      ],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [
         {
@@ -1608,16 +1621,6 @@
           "url": "https://www.onetts.com/ai/company/baichuan/"
         }
       ],
-      "Microsoft": [
-        {
-          "name": "Phi-3-small",
-          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
-        },
-        {
-          "name": "Phi-3-medium",
-          "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/"
-        }
-      ],
       "Apple": [],
       "Stability": [],
       "SenseTime": [
@@ -1626,9 +1629,6 @@
           "url": "https://www.sensetime.com/"
         }
       ],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": [
@@ -1687,6 +1687,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [
         {
@@ -1701,8 +1707,6 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [
         {
           "name": "PanGu 5.0",
@@ -1711,13 +1715,9 @@
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1780,22 +1780,22 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -1854,19 +1854,11 @@
         }
       ],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
+      "Liquid AI": [],
+      "AI2": [],
       "Microsoft": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "AI21": [
         {
           "name": "Jamba 1.5 Mini",
@@ -1877,8 +1869,16 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
-      "Liquid AI": [],
-      "AI2": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1967,20 +1967,8 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Microsoft": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
-      "AI21": [],
       "Liquid AI": [],
       "AI2": [
         {
@@ -1988,6 +1976,18 @@
           "url": "https://allenai.org/blog/olmoe"
         }
       ],
+      "Microsoft": [],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2046,16 +2046,32 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [
+        {
+          "name": "LFM-1B",
+          "url": "https://www.liquid.ai/liquid-foundation-models"
+        },
+        {
+          "name": "LFM-3B",
+          "url": "https://www.liquid.ai/liquid-foundation-models"
+        },
+        {
+          "name": "LFM-40B",
+          "url": "https://www.liquid.ai/liquid-foundation-models"
+        }
+      ],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [
         {
           "name": "Apple Intelligence",
@@ -2073,22 +2089,6 @@
         }
       ],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [
-        {
-          "name": "LFM-1B",
-          "url": "https://www.liquid.ai/liquid-foundation-models"
-        },
-        {
-          "name": "LFM-3B",
-          "url": "https://www.liquid.ai/liquid-foundation-models"
-        },
-        {
-          "name": "LFM-40B",
-          "url": "https://www.liquid.ai/liquid-foundation-models"
-        }
-      ],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2140,6 +2140,21 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo 2",
+          "url": "https://allenai.org/blog/olmo2"
+        },
+        {
+          "name": "Tülu 3",
+          "url": "https://allenai.org/blog/tulu-3"
+        }
+      ],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Unsloth",
@@ -2153,27 +2168,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [
-        {
-          "name": "OLMo 2",
-          "url": "https://allenai.org/blog/olmo2"
-        },
-        {
-          "name": "Tülu 3",
-          "url": "https://allenai.org/blog/tulu-3"
-        }
-      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2269,6 +2269,17 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "Molmo",
+          "url": "https://allenai.org/blog/molmo"
+        }
+      ],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [
@@ -2278,12 +2289,9 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [
         {
           "name": "FastVLM",
@@ -2292,14 +2300,6 @@
       ],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [
-        {
-          "name": "Molmo",
-          "url": "https://allenai.org/blog/molmo"
-        }
-      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2390,10 +2390,6 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
@@ -2401,16 +2397,20 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Trae",
@@ -2492,22 +2492,22 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2602,19 +2602,16 @@
         }
       ],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
+      "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo 2 32B",
+          "url": "https://allenai.org/blog/olmo2-32b"
+        }
+      ],
       "Microsoft": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "AI21": [
         {
           "name": "Jamba 1.6",
@@ -2625,13 +2622,16 @@
           "url": "https://www.ai21.com/blog/maestro-ai-planning-orchestration/"
         }
       ],
-      "Liquid AI": [],
-      "AI2": [
-        {
-          "name": "OLMo 2 32B",
-          "url": "https://allenai.org/blog/olmo2-32b"
-        }
-      ],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [
         {
           "name": "Manus",
@@ -2738,6 +2738,12 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
         }
       ],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "OpenCode",
@@ -2757,12 +2763,9 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [
         {
           "name": "Apple Intelligence iOS 18.4",
@@ -2771,9 +2774,6 @@
       ],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2858,6 +2858,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [
@@ -2867,18 +2873,12 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -2958,10 +2958,6 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM 4.0",
@@ -2969,6 +2965,14 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
       "Huawei": [
         {
           "name": "PanGu 5.5",
@@ -2977,13 +2981,9 @@
       ],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3089,6 +3089,17 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2",
+          "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
+        }
+      ],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Hermes Agent",
@@ -3098,23 +3109,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2",
-          "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
-        }
-      ],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3187,6 +3187,12 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [
@@ -3196,18 +3202,12 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3271,6 +3271,12 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [],
       "Kuaishou-Kling": [
@@ -3280,18 +3286,12 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "CodeBuddy",
@@ -3353,10 +3353,6 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
@@ -3369,21 +3365,25 @@
           "url": "https://huggingface.co/Nanbeige"
         }
       ],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
+      "Liquid AI": [],
+      "AI2": [],
       "Microsoft": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "AI21": [
         {
           "name": "Jamba Reasoning 3B",
           "url": "https://www.ai21.com/blog/introducing-jamba-reasoning-3b/"
         }
       ],
-      "Liquid AI": [],
-      "AI2": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3474,6 +3474,17 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "OLMo 3",
+          "url": "https://allenai.org/blog/olmo3"
+        }
+      ],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "OpenClaw",
@@ -3483,23 +3494,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [
-        {
-          "name": "OLMo 3",
-          "url": "https://allenai.org/blog/olmo3"
-        }
-      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -3570,6 +3570,30 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [
+        {
+          "name": "Nanbeige4-3B",
+          "url": "https://huggingface.co/Nanbeige"
+        }
+      ],
+      "Liquid AI": [],
+      "AI2": [
+        {
+          "name": "Molmo 2",
+          "url": "https://allenai.org/blog/molmo2"
+        },
+        {
+          "name": "OLMo 3.1",
+          "url": "https://allenai.org/blog/olmo3"
+        },
+        {
+          "name": "Tülu 3 405B",
+          "url": "https://allenai.org/blog/tulu-3"
+        }
+      ],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Oh-My-OpenAgent",
@@ -3588,36 +3612,12 @@
         }
       ],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [
-        {
-          "name": "Nanbeige4-3B",
-          "url": "https://huggingface.co/Nanbeige"
-        }
-      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [
-        {
-          "name": "Molmo 2",
-          "url": "https://allenai.org/blog/molmo2"
-        },
-        {
-          "name": "OLMo 3.1",
-          "url": "https://allenai.org/blog/olmo3"
-        },
-        {
-          "name": "Tülu 3 405B",
-          "url": "https://allenai.org/blog/tulu-3"
-        }
-      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3671,6 +3671,35 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [
+        {
+          "name": "MiniCPM-o 4.5",
+          "url": "https://github.com/OpenBMB/MiniCPM-o"
+        },
+        {
+          "name": "AgentCPM-Explore",
+          "url": "https://github.com/OpenBMB/AgentCPM-Explore"
+        }
+      ],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5",
+          "url": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
+        },
+        {
+          "name": "LFM2.5-1.2B-Thinking",
+          "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
+        }
+      ],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [
+        {
+          "name": "Jamba 2",
+          "url": "https://ai21.com/blog/introducing-jamba2"
+        }
+      ],
       "Open-Source": [
         {
           "name": "andrej-karpathy-skills",
@@ -3694,41 +3723,12 @@
           "url": "https://www.vidu.com/vidu-q3"
         }
       ],
-      "ModelBest/OpenBMB": [
-        {
-          "name": "MiniCPM-o 4.5",
-          "url": "https://github.com/OpenBMB/MiniCPM-o"
-        },
-        {
-          "name": "AgentCPM-Explore",
-          "url": "https://github.com/OpenBMB/AgentCPM-Explore"
-        }
-      ],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [
-        {
-          "name": "Jamba 2",
-          "url": "https://ai21.com/blog/introducing-jamba2"
-        }
-      ],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5",
-          "url": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
-        },
-        {
-          "name": "LFM2.5-1.2B-Thinking",
-          "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
-        }
-      ],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3852,6 +3852,22 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [
+        {
+          "name": "Nanbeige4.1-3B",
+          "url": "https://huggingface.co/Nanbeige"
+        }
+      ],
+      "Liquid AI": [
+        {
+          "name": "LFM2-24B-A2B",
+          "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
+        }
+      ],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "oh-my-codex",
@@ -3866,28 +3882,12 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [
-        {
-          "name": "Nanbeige4.1-3B",
-          "url": "https://huggingface.co/Nanbeige"
-        }
-      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2-24B-A2B",
-          "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
-        }
-      ],
-      "AI2": [],
       "LLM-Applications": [
         {
           "name": "Kilo CLI",
@@ -4016,25 +4016,8 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Microsoft": [
-        {
-          "name": "Phi-4",
-          "url": "https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/"
-        }
-      ],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
-      "AI21": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-350M",
@@ -4042,6 +4025,23 @@
         }
       ],
       "AI2": [],
+      "Microsoft": [
+        {
+          "name": "Phi-4",
+          "url": "https://www.microsoft.com/en-us/research/publication/phi-4-reasoning-vision-15b-technical-report/"
+        }
+      ],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [
         {
           "name": "QClaw",
@@ -4184,6 +4184,22 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [
+        {
+          "name": "VoxCPM 2",
+          "url": "https://github.com/OpenBMB/VoxCPM"
+        }
+      ],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-VL-450M",
+          "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
+        }
+      ],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [],
       "iFlytek": [
         {
@@ -4193,28 +4209,12 @@
       ],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [
-        {
-          "name": "VoxCPM 2",
-          "url": "https://github.com/OpenBMB/VoxCPM"
-        }
-      ],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-VL-450M",
-          "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
-        }
-      ],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -4312,6 +4312,22 @@
         }
       ],
       "Amazon": [],
+      "ModelBest/OpenBMB": [
+        {
+          "name": "MiniCPM-V 4.6 1.3B",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
+        }
+      ],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-8B-A1B",
+          "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+        }
+      ],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "DeepSeek-TUI",
@@ -4325,28 +4341,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [
-        {
-          "name": "MiniCPM-V 4.6 1.3B",
-          "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
-        }
-      ],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-8B-A1B",
-          "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
-        }
-      ],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -4447,6 +4447,12 @@
       ],
       "Baidu": [],
       "Amazon": [],
+      "ModelBest/OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
       "Open-Source": [
         {
           "name": "Mellum2-12B-A2.5B",
@@ -4456,18 +4462,12 @@
       "iFlytek": [],
       "Kuaishou-Kling": [],
       "Vidu": [],
-      "ModelBest/OpenBMB": [],
-      "Boss-Nanbeige": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
-      "Microsoft": [],
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "AI21": [],
-      "Liquid AI": [],
-      "AI2": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -4557,25 +4557,8 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Microsoft": [
-        {
-          "name": "MAI-Cyber-1-Flash",
-          "url": "https://www.geekwire.com/2026/microsoft-escalates-the-ai-cybersecurity-race-with-project-perception-and-a-new-in-house-model/"
-        }
-      ],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
-      "AI21": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-Encoders",
@@ -4583,6 +4566,23 @@
         }
       ],
       "AI2": [],
+      "Microsoft": [
+        {
+          "name": "MAI-Cyber-1-Flash",
+          "url": "https://www.geekwire.com/2026/microsoft-escalates-the-ai-cybersecurity-race-with-project-perception-and-a-new-in-house-model/"
+        }
+      ],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
@@ -4672,20 +4672,8 @@
       "Cohere": [],
       "Baidu": [],
       "Amazon": [],
-      "Open-Source": [],
-      "iFlytek": [],
-      "Kuaishou-Kling": [],
-      "Vidu": [],
       "ModelBest/OpenBMB": [],
       "Boss-Nanbeige": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Microsoft": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
-      "AI21": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-2.6B",
@@ -4693,6 +4681,18 @@
         }
       ],
       "AI2": [],
+      "Microsoft": [],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []

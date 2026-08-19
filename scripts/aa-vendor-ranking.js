@@ -30,7 +30,13 @@ const VENDOR_TO_COLUMN = {
   'ByteDance Seed': 'Doubao-ByteDance',
   'Cohere': 'Cohere',
   'Baidu': 'Baidu',
-  'Amazon': 'Amazon'
+  'Amazon': 'Amazon',
+  'OpenBMB': 'ModelBest/OpenBMB',
+  'Nanbeige': 'Boss-Nanbeige',
+  'Liquid AI': 'Liquid AI',
+  'Allen Institute for AI': 'AI2',
+  'Microsoft': 'Microsoft',
+  'AI21 Labs': 'AI21'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard
