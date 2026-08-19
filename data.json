@@ -4598,7 +4598,12 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "GLM-Z.ai": [],
+      "GLM-Z.ai": [
+        {
+          "name": "GLM-5.3",
+          "url": "https://docs.bigmodel.cn/cn/update/new-releases"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8-Max",
