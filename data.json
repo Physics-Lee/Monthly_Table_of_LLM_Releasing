@@ -25,7 +25,7 @@
     "ModelBest-OpenBMB",
     "Boss-Nanbeige",
     "Liquid AI",
-    "AI2",
+    "Allen",
     "Microsoft",
     "AI21",
     "Open-Source",
@@ -75,7 +75,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -133,7 +133,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -182,7 +182,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -236,7 +236,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -318,7 +318,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [
         {
@@ -397,7 +397,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -456,7 +456,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -515,7 +515,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "Phi-1",
@@ -607,7 +607,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -689,7 +689,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -768,7 +768,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "Phi-1.5",
@@ -842,7 +842,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -960,7 +960,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -1060,7 +1060,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "Phi-2",
@@ -1157,7 +1157,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -1285,7 +1285,7 @@
       ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "OLMo",
           "url": "https://allenai.org/olmo"
@@ -1376,7 +1376,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [
         {
@@ -1484,7 +1484,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "Phi-3-mini",
@@ -1587,7 +1587,7 @@
       ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "Phi-3-small",
@@ -1690,7 +1690,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -1783,7 +1783,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -1857,7 +1857,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [
         {
@@ -1970,7 +1970,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "OLMoE",
           "url": "https://allenai.org/blog/olmoe"
@@ -2062,7 +2062,7 @@
           "url": "https://www.liquid.ai/liquid-foundation-models"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -2143,7 +2143,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "OLMo 2",
           "url": "https://allenai.org/blog/olmo2"
@@ -2272,7 +2272,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "Molmo",
           "url": "https://allenai.org/blog/molmo"
@@ -2398,7 +2398,7 @@
       ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -2495,7 +2495,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -2605,7 +2605,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "OLMo 2 32B",
           "url": "https://allenai.org/blog/olmo2-32b"
@@ -2741,7 +2741,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -2861,7 +2861,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -2966,7 +2966,7 @@
       ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -3097,7 +3097,7 @@
           "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -3190,7 +3190,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -3274,7 +3274,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -3366,7 +3366,7 @@
         }
       ],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [
         {
@@ -3477,7 +3477,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "OLMo 3",
           "url": "https://allenai.org/blog/olmo3"
@@ -3578,7 +3578,7 @@
         }
       ],
       "Liquid AI": [],
-      "AI2": [
+      "Allen": [
         {
           "name": "Molmo 2",
           "url": "https://allenai.org/blog/molmo2"
@@ -3692,7 +3692,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [
         {
@@ -3865,7 +3865,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -4024,7 +4024,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "Phi-4",
@@ -4197,7 +4197,7 @@
           "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
@@ -4325,7 +4325,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -4450,7 +4450,7 @@
       "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [
@@ -4565,7 +4565,7 @@
           "url": "https://www.opensourceforu.com/2026/08/liquid-ai-launches-lfm2-5-encoders/"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [
         {
           "name": "MAI-Cyber-1-Flash",
@@ -4685,7 +4685,7 @@
           "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
         }
       ],
-      "AI2": [],
+      "Allen": [],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],

@@ -34,7 +34,7 @@ const VENDOR_TO_COLUMN = {
   'OpenBMB': 'ModelBest-OpenBMB',
   'Nanbeige': 'Boss-Nanbeige',
   'Liquid AI': 'Liquid AI',
-  'Allen Institute for AI': 'AI2',
+  'Allen Institute for AI': 'Allen',
   'Microsoft': 'Microsoft',
   'AI21 Labs': 'AI21'
 };

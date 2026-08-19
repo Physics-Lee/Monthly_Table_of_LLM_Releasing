@@ -1,6 +1,6 @@
 {
   "fetchedAt": "2026-08-19T15:42:44+08:00",
-  "generatedAt": "2026-08-19T08:05:30.394Z",
+  "generatedAt": "2026-08-19T08:06:31.157Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -204,7 +204,7 @@
       "rank": 25
     },
     {
-      "column": "AI2",
+      "column": "Allen",
       "model": "Olmo 3.1 32B Think",
       "score": 8,
       "estimated": true,
