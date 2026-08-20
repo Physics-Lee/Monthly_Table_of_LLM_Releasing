@@ -105,6 +105,17 @@
       </div>
     </div>
 
+    <div class="rank-section">
+      <h2>评测口径：裸模型，非官方 harness</h2>
+      <p class="rank-note">
+        AA 分数测的是<strong>裸模型能力（raw model capability）</strong>：所有模型在 AA 自家的标准化 harness 下评测——智能体类评测用其开源
+        <a href="https://github.com/ArtificialAnalysis/Stirrup" target="_blank" rel="noopener">Stirrup</a> harness，Terminal-Bench 用 Terminus 2 + E2B 沙箱，τ³-Banking 用上游 τ-Bench 原版框架；
+        提示策略、温度（非推理 0 / 推理 0.6）、零样本设置全部统一，<strong>不使用任何厂商自家的智能体产品</strong>（如 OpenAI 的 Codex CLI、Anthropic 的 Claude Code、Kimi-CLI 等）。
+        因此 AA 分数反映的是"发动机"而非"整车"：各厂商官方 harness 的自报成绩（如 SWE-bench Verified 上"模型 + 自家 CLI"的组合）包含大量 harness 层工程优化，与本页 AA 口径<strong>不可直接对比</strong>；
+        同时该口径也会低估"模型深度适配自家 harness"带来的红利。详见 <a href="https://artificialanalysis.ai/methodology/intelligence-benchmarking" target="_blank" rel="noopener">AA 官方方法论</a>。
+      </p>
+    </div>
+
     <div class="footer">
       <span class="source">数据来源：<a href="https://artificialanalysis.ai/leaderboards/models" target="_blank" rel="noopener">Artificial Analysis Intelligence Index</a>（仅含有得分模型）</span>
     </div>
