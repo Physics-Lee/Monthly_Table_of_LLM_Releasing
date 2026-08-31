@@ -1,6 +1,5 @@
 {
-  "fetchedAt": "2026-08-31T08:27:51+08:00",
-  "generatedAt": "2026-08-31T00:28:06.239Z",
+  "fetchedAt": "2026-08-31T06:32:12.127Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -96,7 +95,7 @@
       "model": "MiMo-V2.5-Pro",
       "score": 43,
       "estimated": false,
-      "aaRank": 53,
+      "aaRank": 54,
       "rank": 12
     },
     {
@@ -104,7 +103,7 @@
       "model": "Inkling",
       "score": 42,
       "estimated": false,
-      "aaRank": 56,
+      "aaRank": 57,
       "rank": 13
     },
     {
@@ -112,7 +111,7 @@
       "model": "Hy3",
       "score": 42,
       "estimated": false,
-      "aaRank": 57,
+      "aaRank": 58,
       "rank": 13
     },
     {
@@ -120,7 +119,7 @@
       "model": "Nemotron 3 Ultra",
       "score": 38,
       "estimated": false,
-      "aaRank": 67,
+      "aaRank": 68,
       "rank": 15
     },
     {
@@ -128,7 +127,7 @@
       "model": "Ling 3.0 Flash",
       "score": 38,
       "estimated": false,
-      "aaRank": 69,
+      "aaRank": 70,
       "rank": 15
     },
     {
@@ -136,7 +135,7 @@
       "model": "Step 3.7 Flash",
       "score": 31,
       "estimated": false,
-      "aaRank": 99,
+      "aaRank": 100,
       "rank": 17
     },
     {
@@ -144,7 +143,7 @@
       "model": "Mistral Medium 3.5",
       "score": 30,
       "estimated": false,
-      "aaRank": 100,
+      "aaRank": 101,
       "rank": 18
     },
     {
@@ -152,7 +151,7 @@
       "model": "Doubao Seed Code",
       "score": 26,
       "estimated": true,
-      "aaRank": 109,
+      "aaRank": 110,
       "rank": 19
     },
     {
@@ -160,7 +159,7 @@
       "model": "Command A+",
       "score": 23,
       "estimated": false,
-      "aaRank": 121,
+      "aaRank": 122,
       "rank": 20
     },
     {
@@ -168,7 +167,7 @@
       "model": "ERNIE 5.0 Thinking Preview",
       "score": 22,
       "estimated": true,
-      "aaRank": 123,
+      "aaRank": 124,
       "rank": 21
     },
     {
@@ -176,7 +175,7 @@
       "model": "Nova 2.0 Pro Preview (medium)",
       "score": 22,
       "estimated": true,
-      "aaRank": 126,
+      "aaRank": 127,
       "rank": 21
     },
     {
@@ -184,7 +183,7 @@
       "model": "Celeris-1",
       "score": 12,
       "estimated": false,
-      "aaRank": 180,
+      "aaRank": 181,
       "rank": 23
     },
     {
@@ -192,7 +191,7 @@
       "model": "MiniCPM5-1B",
       "score": 12,
       "estimated": true,
-      "aaRank": 184,
+      "aaRank": 185,
       "rank": 23
     },
     {
@@ -200,7 +199,7 @@
       "model": "Nanbeige4.1-3B",
       "score": 11,
       "estimated": true,
-      "aaRank": 190,
+      "aaRank": 191,
       "rank": 25
     },
     {
@@ -208,7 +207,7 @@
       "model": "LFM2.5-2.6B",
       "score": 11,
       "estimated": false,
-      "aaRank": 191,
+      "aaRank": 192,
       "rank": 25
     },
     {
@@ -216,7 +215,7 @@
       "model": "Olmo 3.1 32B Think",
       "score": 8,
       "estimated": true,
-      "aaRank": 217,
+      "aaRank": 218,
       "rank": 27
     },
     {
@@ -224,7 +223,7 @@
       "model": "Phi-4 Mini",
       "score": 6,
       "estimated": true,
-      "aaRank": 231,
+      "aaRank": 232,
       "rank": 28
     },
     {
@@ -232,7 +231,7 @@
       "model": "Jamba 1.7 Large",
       "score": 5,
       "estimated": true,
-      "aaRank": 236,
+      "aaRank": 237,
       "rank": 29
     }
   ],
@@ -241,6 +240,12 @@
       "vendor": "Sapiens AI",
       "model": "Agnes 2.5 Pro Beta",
       "score": 49,
+      "estimated": false
+    },
+    {
+      "vendor": "Apodex",
+      "model": "Apodex 1.1",
+      "score": 44,
       "estimated": false
     },
     {
@@ -404,5 +409,6 @@
     "AI-Cloud",
     "Kuaishou-Kling",
     "Vidu"
-  ]
+  ],
+  "generatedAt": "2026-08-31T06:32:12.357Z"
 }
