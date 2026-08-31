@@ -4653,6 +4653,10 @@
         {
           "name": "GLM-5.3",
           "url": "https://docs.bigmodel.cn/cn/update/new-releases"
+        },
+        {
+          "name": "GLM-5.3-Flash",
+          "url": "https://z.ai/blog/glm-5.3-flash"
         }
       ],
       "Qwen-Alibaba": [
@@ -4667,6 +4671,10 @@
         {
           "name": "Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Qwen3.8-Flash-Next",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
         }
       ],
       "Meta": [
@@ -4689,6 +4697,10 @@
         {
           "name": "V4-Pro-0813",
           "url": "https://www.ithome.com/0/988/998.htm"
+        },
+        {
+          "name": "V4-Flash-Vision-Exp",
+          "url": "https://api-docs.deepseek.com/news/news260821/"
         }
       ],
       "Motif": [
