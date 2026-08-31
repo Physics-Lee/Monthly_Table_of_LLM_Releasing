@@ -120,14 +120,29 @@ function pad(value, width) {
 function writeRankingArtifact(leaderboard, data, root) {
   const artifact = {
     fetchedAt: leaderboard.fetchedAt,
-    generatedAt: new Date().toISOString(),
     source: leaderboard.source,
     ranked: buildRanking(leaderboard, data),
     missingVendors: buildMissingVendors(leaderboard, data),
     columnsWithoutEntry: buildColumnsWithoutEntry(data),
     excludedColumns: NON_TEXT_COLUMNS
   };
-  fs.writeFileSync(path.join(root, 'aa-ranking.json'), JSON.stringify(artifact, null, 2) + '\n', 'utf8');
+
+  // Skip the write when nothing but generatedAt would change, so unchanged
+  // daily runs stay commit-free (the page timestamp keeps its last-change value).
+  const outPath = path.join(root, 'aa-ranking.json');
+  try {
+    const existing = JSON.parse(fs.readFileSync(outPath, 'utf8'));
+    const { generatedAt: _existingStamp, ...existingPayload } = existing;
+    if (JSON.stringify(existingPayload) === JSON.stringify(artifact)) {
+      return false;
+    }
+  } catch {
+    // missing or invalid file -> write it
+  }
+
+  artifact.generatedAt = new Date().toISOString();
+  fs.writeFileSync(outPath, JSON.stringify(artifact, null, 2) + '\n', 'utf8');
+  return true;
 }
 
 function main() {
@@ -158,9 +173,9 @@ function main() {
   console.log('');
   console.log(`(excluded from ranking: ${NON_TEXT_COLUMNS.join(', ')})`);
 
-  writeRankingArtifact(leaderboard, data, root);
+  const written = writeRankingArtifact(leaderboard, data, root);
   console.log('');
-  console.log('Wrote aa-ranking.json');
+  console.log(written ? 'Wrote aa-ranking.json' : 'aa-ranking.json unchanged');
 }
 
 if (require.main === module) {

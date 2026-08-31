@@ -1,0 +1,86 @@
+name: AA Weekly Monthly-Table Update
+
+# Friday 08:00 Beijing time (00:00 UTC). Runs the daily refresh first, then
+# classifies newly seen AA models and adds high-confidence releases to the
+# monthly table, filing an audit Issue for everything it did or skipped.
+on:
+  schedule:
+    - cron: '0 0 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: aa-refresh
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch AA leaderboard
+        run: node scripts/fetch-aa.js
+
+      - name: Rebuild vendor ranking
+        run: node scripts/aa-vendor-ranking.js
+
+      - name: Commit snapshot if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add scripts/aa-leaderboard.json scripts/aa-first-seen.json aa-ranking.json
+          if ! git diff --cached --quiet; then
+            COUNT=$(node -p "require('./scripts/aa-leaderboard.json').entries.length")
+            git commit -m "data: auto-refresh AA snapshot (${COUNT} entries)"
+            git pull --rebase origin HEAD
+            git push
+          fi
+
+      - name: Update monthly table
+        id: monthly
+        run: |
+          set -eo pipefail
+          OUT=$(node scripts/update-monthly.js --report /tmp/aa-weekly-report.md 2>&1 | tee /dev/stderr)
+          ADDED=$(echo "$OUT" | grep -oE 'added=[0-9]+' | head -1 | cut -d= -f2)
+          echo "added=${ADDED:-0}" >> "$GITHUB_OUTPUT"
+
+      - name: Consistency check before committing
+        run: node scripts/check-data-links.js
+
+      - name: Commit monthly-table changes
+        if: success()
+        run: |
+          git add data.json links.json llm_release_timeline_2022-11_to_2026-04.csv llm_release_timeline_2022-11_to_2026-04.md
+          if ! git diff --cached --quiet; then
+            git commit -m "data: auto-add ${{ steps.monthly.outputs.added }} new models (AA weekly pass)"
+            git pull --rebase origin HEAD
+            git push
+          else
+            echo "No monthly-table changes"
+          fi
+
+      - name: File audit issue
+        if: ${{ always() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f /tmp/aa-weekly-report.md ]; then
+            gh issue create \
+              --title "AA 周报：月表更新（$(date -u +%F)）" \
+              --body-file /tmp/aa-weekly-report.md
+          else
+            echo "Nothing to report this week"
+          fi

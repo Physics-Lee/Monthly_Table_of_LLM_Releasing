@@ -175,6 +175,55 @@ node scripts/check-data-links.js
 
 ---
 
+## 自动化脚本（GitHub Actions）
+
+### `fetch-aa.js`
+
+作用：
+
+- 抓取 AA Intelligence Index 榜单（SSR HTML，纯 HTTP，无浏览器依赖）
+- 数据护栏校验（条目数区间、rank 连续性、分数单调性），不过则拒绝写入并以非零码退出
+- 更新 `scripts/aa-leaderboard.json`（含每条目的 `slug` 字段）
+- 维护 `scripts/aa-first-seen.json`（模型首次出现日期；首次运行时全部标记为 `baseline`，不算新模型）
+- entries 无实际变化时不重写文件（避免每日空提交）
+
+用法：
+
+```bash
+node scripts/fetch-aa.js
+AA_HTTP_PROXY=http://127.0.0.1:7897 node scripts/fetch-aa.js   # 本地需要代理时
+```
+
+### `update-monthly.js`
+
+作用：
+
+- 周五任务：识别本周新出现的 AA 模型并分类（确定性规则，无 AI）：
+  - 已在表中（含厂商前缀剥离匹配）→ 静默跳过
+  - 推理档位变体 / 改名（去后缀后基名已在表中）→ 跳过并记录
+  - 无对应表格列 → 跳过并记录
+  - 新出现 → 访问 AA 详情页解析 "was released on {date}"：
+    - 40 天内发布 → 自动加入对应月份行（URL 用 AA 模型页）
+    - 更早 → 仅记录为回填候选
+- 安全上限：单次最多自动添加 5 条
+- 生成周报（含缺编者注厂商提醒），无内容则不写报告文件
+
+用法：
+
+```bash
+node scripts/update-monthly.js --dry-run          # 只分类不改数据
+node scripts/update-monthly.js --report /tmp/aa-weekly-report.md
+```
+
+### 定时任务（`.github/workflows/`）
+
+- `aa-daily.yml`：每天北京时间 08:00，抓榜单 → 重建 `aa-ranking.json` → 有变化才提交推送
+- `aa-weekly.yml`：每周五北京时间 08:00，先执行每日流程，再运行 `update-monthly.js`，数据通过 `check-data-links.js` 后提交，并开 Issue 周报
+- 两个 workflow 共享 `concurrency: aa-refresh`，不会互相竞争
+- 注意：GitHub 定时任务只在默认分支生效；仓库 60 天无活动会被自动禁用
+
+---
+
 ## 辅助脚本
 
 ### `check-missing-links.js`
@@ -247,6 +296,35 @@ node scripts/upsert-entry.test.js
 
 ```bash
 node scripts/add-vendor-column.test.js
+```
+
+### `fetch-aa.test.js`
+
+验证：
+
+- SSR HTML 表格解析（估计分数、未评分行、slug 提取）
+- 数据护栏（条目数区间、rank 连续性、分数单调性）
+- first-seen 冷启动 baseline 与增量更新
+- 快照仅在实际变化时写入
+
+用法：
+
+```bash
+node scripts/fetch-aa.test.js
+```
+
+### `update-monthly.test.js`
+
+验证：
+
+- 名字规范化与推理档位后缀剥离
+- AA 详情页发布日期解析
+- 分类四桶（变体/无列/回填/自动添加）与 dry-run 不落盘
+
+用法：
+
+```bash
+node scripts/update-monthly.test.js
 ```
 
 ---

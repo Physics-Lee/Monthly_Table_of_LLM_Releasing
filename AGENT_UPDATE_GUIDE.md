@@ -129,6 +129,23 @@ node scripts/check-data-links.js
 
 ---
 
+## 自动化更新（已上线）
+
+AA 榜单相关更新已由 GitHub Actions 自动化：
+
+- **每天 08:00（北京时间）**：`aa-daily.yml` 抓榜单、重建 `aa-ranking.json`，有变化才提交
+- **每周五 08:00**：`aa-weekly.yml` 在每日流程基础上运行 `update-monthly.js`，把本周新发布的高置信模型自动写入月表，并开 Issue 周报（含跳过项、回填候选、缺编者注厂商）
+
+Agent 需要知道的规则：
+
+- `scripts/aa-leaderboard.json` 与 `scripts/aa-first-seen.json` 是自动化产物，不要再手工编辑
+- 新模型自动入表的判定依据是 AA 详情页的发布日期（40 天窗口），URL 统一用 AA 模型页；想换成官方链接时用 `upsert-entry.js` 更新
+- Issue 周报里的"存疑/回填"条目需要人工确认后用 `upsert-entry.js` 补录
+- 本地跑 `fetch-aa.js` 需要代理时设置 `AA_HTTP_PROXY` 环境变量
+- workflow 失败（护栏拦截 / 网络问题）会发邮件，按报错修复解析逻辑即可
+
+---
+
 ## 什么时候不用 upsert-entry.js
 
 以下情况不适合直接用 `upsert-entry.js`：

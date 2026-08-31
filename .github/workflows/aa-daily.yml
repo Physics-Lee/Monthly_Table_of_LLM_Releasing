@@ -1,0 +1,51 @@
+name: AA Daily Refresh
+
+# 08:00 Beijing time (00:00 UTC). Scheduled workflows only run on the default
+# branch and are disabled after 60 days without repository activity.
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never race the weekly job (they share the AA snapshot files).
+concurrency:
+  group: aa-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch AA leaderboard
+        run: node scripts/fetch-aa.js
+
+      - name: Rebuild vendor ranking
+        run: node scripts/aa-vendor-ranking.js
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add scripts/aa-leaderboard.json scripts/aa-first-seen.json aa-ranking.json
+          if git diff --cached --quiet; then
+            echo "No AA data changes"
+          else
+            COUNT=$(node -p "require('./scripts/aa-leaderboard.json').entries.length")
+            git commit -m "data: auto-refresh AA snapshot (${COUNT} entries)"
+            git pull --rebase origin HEAD
+            git push
+          fi
