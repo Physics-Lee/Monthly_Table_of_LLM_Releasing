@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-19T15:42:44+08:00",
-  "generatedAt": "2026-08-19T08:40:00.295Z",
+  "fetchedAt": "2026-08-31T08:27:51+08:00",
+  "generatedAt": "2026-08-31T00:28:06.239Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -32,7 +32,7 @@
       "model": "Kimi K3 (max)",
       "score": 60,
       "estimated": false,
-      "aaRank": 7,
+      "aaRank": 8,
       "rank": 4
     },
     {
@@ -40,7 +40,7 @@
       "model": "GLM-5.3 (max)",
       "score": 60,
       "estimated": false,
-      "aaRank": 8,
+      "aaRank": 9,
       "rank": 4
     },
     {
@@ -48,7 +48,7 @@
       "model": "Qwen3.8 Max",
       "score": 58,
       "estimated": false,
-      "aaRank": 11,
+      "aaRank": 13,
       "rank": 6
     },
     {
@@ -56,7 +56,7 @@
       "model": "Muse Spark 1.2 (xhigh)",
       "score": 57,
       "estimated": false,
-      "aaRank": 14,
+      "aaRank": 17,
       "rank": 7
     },
     {
@@ -64,7 +64,7 @@
       "model": "Gemini 3.7 Flash (high)",
       "score": 56,
       "estimated": false,
-      "aaRank": 16,
+      "aaRank": 19,
       "rank": 8
     },
     {
@@ -72,7 +72,7 @@
       "model": "DeepSeek V4 Pro 0813 (max)",
       "score": 53,
       "estimated": false,
-      "aaRank": 21,
+      "aaRank": 25,
       "rank": 9
     },
     {
@@ -80,7 +80,7 @@
       "model": "Motif 3",
       "score": 47,
       "estimated": false,
-      "aaRank": 35,
+      "aaRank": 42,
       "rank": 10
     },
     {
@@ -88,7 +88,7 @@
       "model": "MiniMax-M3",
       "score": 45,
       "estimated": false,
-      "aaRank": 40,
+      "aaRank": 47,
       "rank": 11
     },
     {
@@ -96,7 +96,7 @@
       "model": "MiMo-V2.5-Pro",
       "score": 43,
       "estimated": false,
-      "aaRank": 45,
+      "aaRank": 53,
       "rank": 12
     },
     {
@@ -104,7 +104,7 @@
       "model": "Inkling",
       "score": 42,
       "estimated": false,
-      "aaRank": 47,
+      "aaRank": 56,
       "rank": 13
     },
     {
@@ -112,7 +112,7 @@
       "model": "Hy3",
       "score": 42,
       "estimated": false,
-      "aaRank": 48,
+      "aaRank": 57,
       "rank": 13
     },
     {
@@ -120,7 +120,7 @@
       "model": "Nemotron 3 Ultra",
       "score": 38,
       "estimated": false,
-      "aaRank": 58,
+      "aaRank": 67,
       "rank": 15
     },
     {
@@ -128,7 +128,7 @@
       "model": "Ling 3.0 Flash",
       "score": 38,
       "estimated": false,
-      "aaRank": 60,
+      "aaRank": 69,
       "rank": 15
     },
     {
@@ -136,7 +136,7 @@
       "model": "Step 3.7 Flash",
       "score": 31,
       "estimated": false,
-      "aaRank": 89,
+      "aaRank": 99,
       "rank": 17
     },
     {
@@ -144,7 +144,7 @@
       "model": "Mistral Medium 3.5",
       "score": 30,
       "estimated": false,
-      "aaRank": 90,
+      "aaRank": 100,
       "rank": 18
     },
     {
@@ -152,7 +152,7 @@
       "model": "Doubao Seed Code",
       "score": 26,
       "estimated": true,
-      "aaRank": 99,
+      "aaRank": 109,
       "rank": 19
     },
     {
@@ -160,7 +160,7 @@
       "model": "Command A+",
       "score": 23,
       "estimated": false,
-      "aaRank": 110,
+      "aaRank": 121,
       "rank": 20
     },
     {
@@ -168,7 +168,7 @@
       "model": "ERNIE 5.0 Thinking Preview",
       "score": 22,
       "estimated": true,
-      "aaRank": 112,
+      "aaRank": 123,
       "rank": 21
     },
     {
@@ -176,7 +176,7 @@
       "model": "Nova 2.0 Pro Preview (medium)",
       "score": 22,
       "estimated": true,
-      "aaRank": 115,
+      "aaRank": 126,
       "rank": 21
     },
     {
@@ -184,7 +184,7 @@
       "model": "Celeris-1",
       "score": 12,
       "estimated": false,
-      "aaRank": 167,
+      "aaRank": 180,
       "rank": 23
     },
     {
@@ -192,7 +192,7 @@
       "model": "MiniCPM5-1B",
       "score": 12,
       "estimated": true,
-      "aaRank": 171,
+      "aaRank": 184,
       "rank": 23
     },
     {
@@ -200,31 +200,31 @@
       "model": "Nanbeige4.1-3B",
       "score": 11,
       "estimated": true,
-      "aaRank": 178,
+      "aaRank": 190,
       "rank": 25
     },
     {
       "column": "Liquid AI",
-      "model": "LFM2.5-8B-A1B",
-      "score": 8,
-      "estimated": true,
-      "aaRank": 202,
-      "rank": 26
+      "model": "LFM2.5-2.6B",
+      "score": 11,
+      "estimated": false,
+      "aaRank": 191,
+      "rank": 25
     },
     {
       "column": "Allen",
       "model": "Olmo 3.1 32B Think",
       "score": 8,
       "estimated": true,
-      "aaRank": 204,
-      "rank": 26
+      "aaRank": 217,
+      "rank": 27
     },
     {
       "column": "Microsoft",
       "model": "Phi-4 Mini",
       "score": 6,
       "estimated": true,
-      "aaRank": 218,
+      "aaRank": 231,
       "rank": 28
     },
     {
@@ -232,11 +232,17 @@
       "model": "Jamba 1.7 Large",
       "score": 5,
       "estimated": true,
-      "aaRank": 223,
+      "aaRank": 236,
       "rank": 29
     }
   ],
   "missingVendors": [
+    {
+      "vendor": "Sapiens AI",
+      "model": "Agnes 2.5 Pro Beta",
+      "score": 49,
+      "estimated": false
+    },
     {
       "vendor": "Nex AGI",
       "model": "Nex-N2-Pro",
@@ -256,15 +262,15 @@
       "estimated": true
     },
     {
-      "vendor": "Sapiens AI",
-      "model": "Agnes 2.5 Pro Alpha",
-      "score": 40,
-      "estimated": false
-    },
-    {
       "vendor": "SK Telecom",
       "model": "A.X-K2",
       "score": 35,
+      "estimated": false
+    },
+    {
+      "vendor": "AI9Stars",
+      "model": "G9v3-39A5B",
+      "score": 34,
       "estimated": false
     },
     {
@@ -280,15 +286,15 @@
       "estimated": false
     },
     {
-      "vendor": "AI9Stars",
-      "model": "G9v3-39A5B",
-      "score": 32,
-      "estimated": true
-    },
-    {
       "vendor": "LG AI Research",
       "model": "K-EXAONE 2.0",
       "score": 31,
+      "estimated": false
+    },
+    {
+      "vendor": "IBM",
+      "model": "Granite 4.2 30B",
+      "score": 24,
       "estimated": false
     },
     {
@@ -337,6 +343,48 @@
       "vendor": "Prime Intellect",
       "model": "INTELLECT-3",
       "score": 16,
+      "estimated": true
+    },
+    {
+      "vendor": "Trillion Labs",
+      "model": "Tri-21B-Think",
+      "score": 12,
+      "estimated": true
+    },
+    {
+      "vendor": "Sarvam",
+      "model": "Sarvam 105B (high)",
+      "score": 12,
+      "estimated": true
+    },
+    {
+      "vendor": "Nous Research",
+      "model": "Hermes 4 70B",
+      "score": 10,
+      "estimated": true
+    },
+    {
+      "vendor": "TII UAE",
+      "model": "Falcon-H1R-7B",
+      "score": 10,
+      "estimated": true
+    },
+    {
+      "vendor": "Perplexity",
+      "model": "R1 1776",
+      "score": 6,
+      "estimated": true
+    },
+    {
+      "vendor": "Reka AI",
+      "model": "Reka Flash 3",
+      "score": 4,
+      "estimated": true
+    },
+    {
+      "vendor": "Swiss AI Initiative",
+      "model": "Apertus 70B Instruct",
+      "score": 2,
       "estimated": true
     }
   ],
