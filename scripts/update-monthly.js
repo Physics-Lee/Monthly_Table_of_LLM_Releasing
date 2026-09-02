@@ -38,8 +38,15 @@ const AA_MODEL_URL = 'https://artificialanalysis.ai/models/';
 const MAX_AUTO_ADD = 5;
 const RECENT_WINDOW_DAYS = 40;
 
-// Reasoning-effort tokens stripped from AA names when computing the base name.
-const EFFORT_SUFFIX_PATTERN = /\s*\((?:non-reasoning(?:,\s*[a-z ]+)?|with fallback|reasoning|instruct|max|xhigh|ultra|high|medium|low|minimal|[a-z]{3}\s+\d{4})\)\s*$/i;
+// Reasoning-effort suffixes are token compositions: "(max)", "(Non-reasoning)",
+// "(max with fallback)", "(Non-reasoning, Low Effort)", "(Feb 2026)". A suffix
+// is stripped only when EVERY comma/space-separated token is a known effort
+// token or the whole content is a date, so "(Beta)" / "(preview)" stay put.
+const SUFFIX_TOKENS = new Set([
+  'non-reasoning', 'reasoning', 'instruct', 'with', 'fallback',
+  'max', 'xhigh', 'ultra', 'high', 'medium', 'low', 'minimal',
+  'effort', 'default'
+]);
 
 function parseArgs(argv) {
   const args = {};
@@ -62,7 +69,18 @@ function normalizeName(name) {
 }
 
 function stripEffortSuffix(name) {
-  return String(name).replace(EFFORT_SUFFIX_PATTERN, '').trim();
+  const text = String(name);
+  const match = text.match(/\s*\(([^()]*)\)\s*$/);
+  if (!match) return text.trim();
+
+  const content = match[1].toLowerCase().trim();
+  if (/^[a-z]{3,9} \d{4}$/.test(content)) return text.slice(0, match.index).trim();
+
+  const tokens = content.split(/[\s,]+/).filter(Boolean);
+  if (tokens.length > 0 && tokens.every(token => SUFFIX_TOKENS.has(token))) {
+    return text.slice(0, match.index).trim();
+  }
+  return text.trim();
 }
 
 // AA prefixes some model names with the vendor ("DeepSeek V4 Flash 0731") while
@@ -109,6 +127,12 @@ function parseReleaseDate(html) {
 
 function monthLabel(date) {
   return `${String(date.getFullYear()).slice(2)}-${MONTH_NAMES[date.getMonth()]}`;
+}
+
+// Local (not UTC) YYYY-MM-DD, so the report's release date always matches monthLabel.
+function localDateLabel(date) {
+  const pad = n => String(n).padStart(2, '0');
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
 }
 
 function daysAgo(date, now) {
@@ -158,6 +182,8 @@ async function classifyAndApply(options) {
   };
   let backlogSkipped = 0;
 
+  const isKnown = names => [...names].some(name => tableNames.has(name));
+
   for (const entry of snapshot.entries) {
     const column = VENDOR_TO_COLUMN[entry.vendor];
 
@@ -168,12 +194,12 @@ async function classifyAndApply(options) {
       continue;
     }
 
-    if ([...exactMatches(entry)].some(name => tableNames.has(name))) {
+    if (isKnown(exactMatches(entry))) {
       continue; // already tracked somewhere in the table
     }
 
     const base = stripEffortSuffix(entry.model);
-    if ([...baseMatches(entry)].some(name => tableNames.has(name))) {
+    if (isKnown(baseMatches(entry))) {
       if (isNewlySeen(firstSeen, entry.model)) {
         buckets.variant.push({ model: entry.model, base });
       }
@@ -202,7 +228,7 @@ async function classifyAndApply(options) {
 
     const age = daysAgo(releaseDate, now);
     if (age > RECENT_WINDOW_DAYS || age < -1) {
-      buckets.backfill.push({ model: entry.model, vendor: entry.vendor, reason: `发布于 ${releaseDate.toISOString().slice(0, 10)}，超出 ${RECENT_WINDOW_DAYS} 天自动窗口` });
+      buckets.backfill.push({ model: entry.model, vendor: entry.vendor, reason: `发布于 ${localDateLabel(releaseDate)}，超出 ${RECENT_WINDOW_DAYS} 天自动窗口` });
       continue;
     }
 
@@ -217,7 +243,10 @@ async function classifyAndApply(options) {
     if (!dryRun) {
       upsert = upsertEntry({ dataPath, csvPath, mdPath, linksPath, month, vendor: column, model: base, url });
     }
-    buckets.added.push({ model: base, column, month, url, released: releaseDate.toISOString().slice(0, 10), upsert });
+    buckets.added.push({ model: base, column, month, url, released: localDateLabel(releaseDate), upsert });
+    // Later variants of the same base (other effort levels) must not re-add it.
+    tableNames.add(normalizeName(base));
+    tableNames.add(normalizeName(withVendorPrefixStripped(base, entry.vendor)));
   }
 
   buckets.backlogSkipped = backlogSkipped;

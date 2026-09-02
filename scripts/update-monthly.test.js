@@ -18,8 +18,10 @@ function testNormalizations() {
 
   assert.equal(stripEffortSuffix('Grok 4.6 (xhigh)'), 'Grok 4.6');
   assert.equal(stripEffortSuffix('Claude Sonnet 4.6 (Non-reasoning, Low Effort)'), 'Claude Sonnet 4.6');
+  assert.equal(stripEffortSuffix('Claude Fable 5.1 (max with fallback)'), 'Claude Fable 5.1');
   assert.equal(stripEffortSuffix('MiMo-V2-Flash (Feb 2026)'), 'MiMo-V2-Flash');
   assert.equal(stripEffortSuffix('Agnes 2.5 Pro Beta'), 'Agnes 2.5 Pro Beta'); // non-effort parens stay
+  assert.equal(stripEffortSuffix('Nova 2.0 Pro Preview'), 'Nova 2.0 Pro Preview');
 }
 
 function testMatchSets() {
@@ -78,6 +80,8 @@ function makeWorkspace() {
   fs.mkdirSync(cacheDir);
   fs.writeFileSync(path.join(cacheDir, 'glm-5-3-flash.html'),
     '<p>GLM-5.3-Flash was released on August 26, 2026.</p>');
+  fs.writeFileSync(path.join(cacheDir, 'claude-fable-5-1.html'),
+    '<p>Claude Fable 5.1 was released on August 31, 2026.</p>');
   fs.writeFileSync(path.join(cacheDir, 'nemotron-3-nano-4b.html'),
     '<p>Nemotron 3 Nano 4B was released on March 16, 2026.</p>');
   fs.writeFileSync(path.join(cacheDir, 'mystery-model.html'),
@@ -86,6 +90,8 @@ function makeWorkspace() {
   const snapshot = {
     fetchedAt: '2026-08-31T00:00:00Z',
     entries: [
+      { rank: 1, model: 'Claude Fable 5.1 (max with fallback)', vendor: 'Anthropic', score: 66, slug: 'claude-fable-5-1' },
+      { rank: 2, model: 'Claude Fable 5.1 (xhigh with fallback)', vendor: 'Anthropic', score: 65, slug: 'claude-fable-5-1-xhigh' },
       { rank: 7, model: 'Grok 4.6 (xhigh)', vendor: 'SpaceXAI', score: 60, slug: 'grok-4-6-xhigh' },
       { rank: 30, model: 'Claude 4.5 Haiku', vendor: 'Anthropic', score: 30, slug: 'claude-4-5-haiku' },
       { rank: 15, model: 'GLM-5.3-Flash', vendor: 'Z AI', score: 57, slug: 'glm-5-3-flash' },
@@ -98,6 +104,8 @@ function makeWorkspace() {
   };
 
   const firstSeen = {
+    'Claude Fable 5.1 (max with fallback)': '2026-08-31',
+    'Claude Fable 5.1 (xhigh with fallback)': '2026-08-31',
     'Grok 4.6 (xhigh)': '2026-08-21',
     'Claude 4.5 Haiku': 'baseline',
     'GLM-5.3-Flash': '2026-08-27',
@@ -127,8 +135,13 @@ async function testClassifyDryRun() {
     now: ctx.now
   });
 
-  assert.deepEqual(buckets.added.map(i => i.model), ['GLM-5.3-Flash']);
-  assert.deepEqual(buckets.variant.map(i => i.model), ['Grok 4.6 (xhigh)', 'DeepSeek V4 Flash 0731 (high)']);
+  // one base model auto-added once; its other effort variants land in the variant bucket
+  assert.deepEqual(buckets.added.map(i => i.model), ['Claude Fable 5.1', 'GLM-5.3-Flash']);
+  assert.deepEqual(buckets.variant.map(i => i.model), [
+    'Claude Fable 5.1 (xhigh with fallback)',
+    'Grok 4.6 (xhigh)',
+    'DeepSeek V4 Flash 0731 (high)'
+  ]);
   assert.deepEqual(buckets.noColumn.map(i => i.model), ['Agnes 2.5 Pro Beta']);
   assert.deepEqual(buckets.backfill.map(i => i.model), ['Nemotron 3 Nano 4B']);
   assert.deepEqual(buckets.uncertain.map(i => i.model), ['Mystery Model']);
@@ -152,7 +165,7 @@ async function testClassifyApplies() {
     now: ctx.now
   });
 
-  const added = buckets.added[0];
+  const added = buckets.added.find(i => i.model === 'GLM-5.3-Flash');
   assert.equal(added.month, '26-Aug');
   assert.equal(added.column, 'GLM-Z.ai');
   assert.equal(added.url, 'https://artificialanalysis.ai/models/glm-5-3-flash');
@@ -163,6 +176,9 @@ async function testClassifyApplies() {
   assert.deepEqual(row['GLM-Z.ai'], [
     { name: 'GLM-5.3', url: 'https://z.ai/blog/glm-5.3' },
     { name: 'GLM-5.3-Flash', url: 'https://artificialanalysis.ai/models/glm-5-3-flash' }
+  ]);
+  assert.deepEqual(row.Anthropic, [
+    { name: 'Claude Fable 5.1', url: 'https://artificialanalysis.ai/models/claude-fable-5-1' }
   ]);
   assert.match(fs.readFileSync(ctx.csvPath, 'utf8'), /GLM-5\.3 \+ GLM-5\.3-Flash/);
   assert.match(fs.readFileSync(ctx.mdPath, 'utf8'), /\[GLM-5\.3-Flash\]\(https:\/\/artificialanalysis\.ai\/models\/glm-5-3-flash\)/);

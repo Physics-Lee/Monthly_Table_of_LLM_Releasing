@@ -249,6 +249,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  fetchPageHTML,
   parseLeaderboard,
   validateEntries,
   updateFirstSeen,
