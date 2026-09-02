@@ -1,4 +1,4 @@
-// Weekly monthly-table updater: spot newly released models on the AA leaderboard
+// Daily monthly-table updater: spot newly released models on the AA leaderboard
 // and add them to data.json, leaving an auditable report for everything else.
 //
 // Classification (deterministic rules, no AI - humans audit via the report):
@@ -262,7 +262,7 @@ function renderReport(buckets, dryRun) {
   const lines = [];
   const dateLabel = new Date().toISOString().slice(0, 10);
 
-  lines.push(`## AA 周报：月表更新（${dateLabel}）${dryRun ? ' — dry-run' : ''}`);
+  lines.push(`## AA 日报：月表更新（${dateLabel}）${dryRun ? ' — dry-run' : ''}`);
   lines.push('');
 
   lines.push(`### ✅ 已自动添加（${buckets.added.length}）`);

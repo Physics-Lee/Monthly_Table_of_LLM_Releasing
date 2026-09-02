@@ -133,8 +133,7 @@ node scripts/check-data-links.js
 
 AA 榜单相关更新已由 GitHub Actions 自动化：
 
-- **每天 08:00（北京时间）**：`aa-daily.yml` 抓榜单、重建 `aa-ranking.json`，有变化才提交
-- **每周五 08:00**：`aa-weekly.yml` 在每日流程基础上运行 `update-monthly.js`，把本周新发布的高置信模型自动写入月表，并开 Issue 周报（含跳过项、回填候选、缺编者注厂商）
+- **每天 08:00（北京时间）**：`aa-daily.yml` 一站式执行：抓榜单、重建 `aa-ranking.json`、运行 `update-monthly.js` 把新发布的高置信模型自动写入月表，有事时开 Issue 日报（含跳过项、回填候选、缺编者注厂商）
 
 Agent 需要知道的规则：
 

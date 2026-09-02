@@ -1,7 +1,10 @@
 name: AA Daily Refresh
 
-# 08:00 Beijing time (00:00 UTC). Scheduled workflows only run on the default
-# branch and are disabled after 60 days without repository activity.
+# Every day 08:00 Beijing time (00:00 UTC): refresh the AA snapshot, rebuild
+# the vendor ranking, then update the monthly table with newly released models
+# (update-monthly.js) and file an audit Issue when there is anything to report.
+# Scheduled workflows only run on the default branch and are disabled after
+# 60 days without repository activity.
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -9,16 +12,12 @@ on:
 
 permissions:
   contents: write
-
-# Never race the weekly job (they share the AA snapshot files).
-concurrency:
-  group: aa-refresh
-  cancel-in-progress: false
+  issues: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -35,17 +34,51 @@ jobs:
       - name: Rebuild vendor ranking
         run: node scripts/aa-vendor-ranking.js
 
-      - name: Commit and push if data changed
+      - name: Commit snapshot if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add scripts/aa-leaderboard.json scripts/aa-first-seen.json aa-ranking.json
-          if git diff --cached --quiet; then
-            echo "No AA data changes"
-          else
+          if ! git diff --cached --quiet; then
             COUNT=$(node -p "require('./scripts/aa-leaderboard.json').entries.length")
             git commit -m "data: auto-refresh AA snapshot (${COUNT} entries)"
             git pull --rebase origin HEAD
             git push
+          fi
+
+      - name: Update monthly table
+        id: monthly
+        run: |
+          set -eo pipefail
+          OUT=$(node scripts/update-monthly.js --report /tmp/aa-daily-report.md 2>&1 | tee /dev/stderr)
+          ADDED=$(echo "$OUT" | grep -oE 'added=[0-9]+' | head -1 | cut -d= -f2)
+          echo "added=${ADDED:-0}" >> "$GITHUB_OUTPUT"
+
+      - name: Consistency check before committing
+        run: node scripts/check-data-links.js
+
+      - name: Commit monthly-table changes
+        if: success()
+        run: |
+          git add data.json links.json llm_release_timeline_2022-11_to_2026-04.csv llm_release_timeline_2022-11_to_2026-04.md
+          if ! git diff --cached --quiet; then
+            git commit -m "data: auto-add ${{ steps.monthly.outputs.added }} new models (AA daily pass)"
+            git pull --rebase origin HEAD
+            git push
+          else
+            echo "No monthly-table changes"
+          fi
+
+      - name: File audit issue
+        if: ${{ always() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f /tmp/aa-daily-report.md ]; then
+            gh issue create \
+              --title "AA 日报：月表更新（$(date -u +%F)）" \
+              --body-file /tmp/aa-daily-report.md
+          else
+            echo "Nothing to report today"
           fi
