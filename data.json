@@ -4765,6 +4765,56 @@
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": []
+    },
+    {
+      "Month": "26-Sep",
+      "Anthropic": [
+        {
+          "name": "Claude Fable 5.1",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
+        }
+      ],
+      "OpenAI": [],
+      "xAI": [],
+      "Kimi-Moonshot": [],
+      "GLM-Z.ai": [],
+      "Qwen-Alibaba": [],
+      "Meta": [],
+      "Google": [],
+      "DeepSeek": [],
+      "Motif": [],
+      "MiniMax": [],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
+      "NVIDIA": [],
+      "Ant-Group": [],
+      "StepFun": [],
+      "Mistral": [],
+      "Doubao-ByteDance": [],
+      "Cohere": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Celeris": [],
+      "ModelBest-OpenBMB": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "Allen": [],
+      "Microsoft": [],
+      "AI21": [],
+      "Open-Source": [],
+      "iFlytek": [],
+      "Kuaishou-Kling": [],
+      "Vidu": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     }
   ]
 }

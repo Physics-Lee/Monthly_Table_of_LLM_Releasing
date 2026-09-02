@@ -560,5 +560,6 @@
   "Ling-3.0-Flash": "https://huggingface.co/inclusionAI",
   "Ling-3.0-Tiny": "https://huggingface.co/inclusionAI",
   "Seedance 2.5": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-  "LFM2.5-2.6B": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+  "LFM2.5-2.6B": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+  "Claude Fable 5.1": "https://artificialanalysis.ai/models/claude-fable-5-1"
 }
