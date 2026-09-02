@@ -46,6 +46,12 @@ const VENDOR_NAMES = {
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
+  const endDateEl = document.getElementById('endDate');
+  if (endDateEl) {
+    const now = new Date();
+    const label = now < new Date(2022, 10, 1) ? '今' : `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+    endDateEl.textContent = label;
+  }
   await loadData();
   updateVendorList();
   initFilters();
