@@ -212,7 +212,7 @@ AA_HTTP_PROXY=http://127.0.0.1:7897 node scripts/fetch-aa.js   # 本地需要代
 
 ```bash
 node scripts/update-monthly.js --dry-run          # 只分类不改数据
-node scripts/update-monthly.js --report /tmp/aa-weekly-report.md
+node scripts/update-monthly.js --report /tmp/aa-daily-report.md
 ```
 
 ### 定时任务（`.github/workflows/`）

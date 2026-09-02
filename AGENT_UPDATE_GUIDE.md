@@ -139,7 +139,7 @@ Agent 需要知道的规则：
 
 - `scripts/aa-leaderboard.json` 与 `scripts/aa-first-seen.json` 是自动化产物，不要再手工编辑
 - 新模型自动入表的判定依据是 AA 详情页的发布日期（40 天窗口），URL 统一用 AA 模型页；想换成官方链接时用 `upsert-entry.js` 更新
-- Issue 周报里的"存疑/回填"条目需要人工确认后用 `upsert-entry.js` 补录
+- Issue 日报里的"存疑/回填"条目需要人工确认后用 `upsert-entry.js` 补录
 - 本地跑 `fetch-aa.js` 需要代理时设置 `AA_HTTP_PROXY` 环境变量
 - workflow 失败（护栏拦截 / 网络问题）会发邮件，按报错修复解析逻辑即可
 
