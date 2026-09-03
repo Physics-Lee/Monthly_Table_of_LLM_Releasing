@@ -4779,8 +4779,18 @@
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
       "Qwen-Alibaba": [],
-      "Meta": [],
-      "Google": [],
+      "Meta": [
+        {
+          "name": "Muse Spark 1.3",
+          "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 3.8 Flash",
+          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+        }
+      ],
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
