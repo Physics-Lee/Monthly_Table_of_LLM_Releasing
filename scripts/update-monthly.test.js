@@ -92,6 +92,7 @@ function makeWorkspace() {
     entries: [
       { rank: 1, model: 'Claude Fable 5.1 (max with fallback)', vendor: 'Anthropic', score: 66, slug: 'claude-fable-5-1' },
       { rank: 2, model: 'Claude Fable 5.1 (xhigh with fallback)', vendor: 'Anthropic', score: 65, slug: 'claude-fable-5-1-xhigh' },
+      { rank: 3, model: 'Grok 4.6 (ultra)', vendor: 'SpaceXAI', score: 61, slug: 'grok-4-6-ultra' },
       { rank: 7, model: 'Grok 4.6 (xhigh)', vendor: 'SpaceXAI', score: 60, slug: 'grok-4-6-xhigh' },
       { rank: 30, model: 'Claude 4.5 Haiku', vendor: 'Anthropic', score: 30, slug: 'claude-4-5-haiku' },
       { rank: 15, model: 'GLM-5.3-Flash', vendor: 'Z AI', score: 57, slug: 'glm-5-3-flash' },
@@ -106,12 +107,13 @@ function makeWorkspace() {
   const firstSeen = {
     'Claude Fable 5.1 (max with fallback)': '2026-08-31',
     'Claude Fable 5.1 (xhigh with fallback)': '2026-08-31',
-    'Grok 4.6 (xhigh)': '2026-08-21',
+    'Grok 4.6 (ultra)': '2026-08-15',
+    'Grok 4.6 (xhigh)': '2026-08-28',
     'Claude 4.5 Haiku': 'baseline',
     'GLM-5.3-Flash': '2026-08-27',
     'Nemotron 3 Nano 4B': '2026-08-25',
     'Agnes 2.5 Pro Beta': '2026-08-28',
-    'DeepSeek V4 Flash 0731 (high)': '2026-08-20',
+    'DeepSeek V4 Flash 0731 (high)': '2026-08-29',
     'Mystery Model': '2026-08-30',
     'Old Backlog Model': 'baseline'
   };

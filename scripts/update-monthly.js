@@ -37,6 +37,10 @@ const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
 const AA_MODEL_URL = 'https://artificialanalysis.ai/models/';
 const MAX_AUTO_ADD = 5;
 const RECENT_WINDOW_DAYS = 40;
+// Report buckets (variant / no-column / backfill / uncertain) only cover items
+// that appeared within this window; older untracked entries are silently
+// skipped so daily Issues stay focused on fresh events.
+const REPORT_WINDOW_DAYS = 7;
 
 // Reasoning-effort suffixes are token compositions: "(max)", "(Non-reasoning)",
 // "(max with fallback)", "(Non-reasoning, Low Effort)", "(Feb 2026)". A suffix
@@ -188,7 +192,7 @@ async function classifyAndApply(options) {
     const column = VENDOR_TO_COLUMN[entry.vendor];
 
     if (!column || !data.vendors.includes(column)) {
-      if (isNewlySeen(firstSeen, entry.model)) {
+      if (isRecentlySeen(firstSeen, entry.model, now)) {
         buckets.noColumn.push({ model: entry.model, vendor: entry.vendor, score: entry.score });
       }
       continue;
@@ -200,7 +204,7 @@ async function classifyAndApply(options) {
 
     const base = stripEffortSuffix(entry.model);
     if (isKnown(baseMatches(entry))) {
-      if (isNewlySeen(firstSeen, entry.model)) {
+      if (isRecentlySeen(firstSeen, entry.model, now)) {
         buckets.variant.push({ model: entry.model, base });
       }
       continue;
@@ -222,13 +226,17 @@ async function classifyAndApply(options) {
     }
 
     if (!releaseDate) {
-      buckets.uncertain.push({ model: entry.model, vendor: entry.vendor, reason: pageError || '详情页解析不到发布日期' });
+      if (isRecentlySeen(firstSeen, entry.model, now)) {
+        buckets.uncertain.push({ model: entry.model, vendor: entry.vendor, reason: pageError || '详情页解析不到发布日期' });
+      }
       continue;
     }
 
     const age = daysAgo(releaseDate, now);
     if (age > RECENT_WINDOW_DAYS || age < -1) {
-      buckets.backfill.push({ model: entry.model, vendor: entry.vendor, reason: `发布于 ${localDateLabel(releaseDate)}，超出 ${RECENT_WINDOW_DAYS} 天自动窗口` });
+      if (isRecentlySeen(firstSeen, entry.model, now)) {
+        buckets.backfill.push({ model: entry.model, vendor: entry.vendor, reason: `发布于 ${localDateLabel(releaseDate)}，超出 ${RECENT_WINDOW_DAYS} 天自动窗口` });
+      }
       continue;
     }
 
@@ -256,6 +264,13 @@ async function classifyAndApply(options) {
 function isNewlySeen(firstSeen, model) {
   const seen = firstSeen[model];
   return Boolean(seen) && seen !== 'baseline';
+}
+
+// firstSeen is a real date AND within REPORT_WINDOW_DAYS of now.
+function isRecentlySeen(firstSeen, model, now) {
+  const seen = firstSeen[model];
+  if (!seen || seen === 'baseline') return false;
+  return (now - new Date(seen)) / 86400000 <= REPORT_WINDOW_DAYS;
 }
 
 function renderReport(buckets, dryRun) {
@@ -364,6 +379,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  REPORT_WINDOW_DAYS,
   normalizeName,
   stripEffortSuffix,
   exactMatches,
@@ -372,5 +388,6 @@ module.exports = {
   parseReleaseDate,
   monthLabel,
   classifyAndApply,
-  isNewlySeen
+  isNewlySeen,
+  isRecentlySeen
 };
