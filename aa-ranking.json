@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T01:57:53.035Z",
+  "fetchedAt": "2026-09-03T13:45:23.708Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -87,7 +87,7 @@
       "model": "MiniMax-M3",
       "score": 45,
       "estimated": false,
-      "aaRank": 57,
+      "aaRank": 58,
       "rank": 11
     },
     {
@@ -95,7 +95,7 @@
       "model": "MiMo-V2.5-Pro",
       "score": 43,
       "estimated": false,
-      "aaRank": 65,
+      "aaRank": 66,
       "rank": 12
     },
     {
@@ -103,7 +103,7 @@
       "model": "Inkling",
       "score": 42,
       "estimated": false,
-      "aaRank": 68,
+      "aaRank": 69,
       "rank": 13
     },
     {
@@ -111,7 +111,7 @@
       "model": "Hy3",
       "score": 42,
       "estimated": false,
-      "aaRank": 69,
+      "aaRank": 70,
       "rank": 13
     },
     {
@@ -119,7 +119,7 @@
       "model": "Nemotron 3 Ultra",
       "score": 38,
       "estimated": false,
-      "aaRank": 79,
+      "aaRank": 80,
       "rank": 15
     },
     {
@@ -127,7 +127,7 @@
       "model": "Ling 3.0 Flash",
       "score": 38,
       "estimated": false,
-      "aaRank": 81,
+      "aaRank": 82,
       "rank": 15
     },
     {
@@ -135,7 +135,7 @@
       "model": "Step 3.7 Flash",
       "score": 31,
       "estimated": false,
-      "aaRank": 111,
+      "aaRank": 112,
       "rank": 17
     },
     {
@@ -143,7 +143,7 @@
       "model": "Mistral Medium 3.5",
       "score": 30,
       "estimated": false,
-      "aaRank": 112,
+      "aaRank": 113,
       "rank": 18
     },
     {
@@ -151,7 +151,7 @@
       "model": "Doubao Seed Code",
       "score": 26,
       "estimated": true,
-      "aaRank": 121,
+      "aaRank": 122,
       "rank": 19
     },
     {
@@ -159,7 +159,7 @@
       "model": "Command A+",
       "score": 23,
       "estimated": false,
-      "aaRank": 133,
+      "aaRank": 134,
       "rank": 20
     },
     {
@@ -167,7 +167,7 @@
       "model": "ERNIE 5.0 Thinking Preview",
       "score": 22,
       "estimated": true,
-      "aaRank": 135,
+      "aaRank": 136,
       "rank": 21
     },
     {
@@ -175,7 +175,7 @@
       "model": "Nova 2.0 Pro Preview (medium)",
       "score": 22,
       "estimated": true,
-      "aaRank": 138,
+      "aaRank": 139,
       "rank": 21
     },
     {
@@ -183,7 +183,7 @@
       "model": "Celeris-1",
       "score": 12,
       "estimated": false,
-      "aaRank": 192,
+      "aaRank": 193,
       "rank": 23
     },
     {
@@ -191,7 +191,7 @@
       "model": "MiniCPM5-1B",
       "score": 12,
       "estimated": true,
-      "aaRank": 196,
+      "aaRank": 197,
       "rank": 23
     },
     {
@@ -199,7 +199,7 @@
       "model": "Nanbeige4.1-3B",
       "score": 11,
       "estimated": true,
-      "aaRank": 202,
+      "aaRank": 203,
       "rank": 25
     },
     {
@@ -207,7 +207,7 @@
       "model": "LFM2.5-2.6B",
       "score": 11,
       "estimated": false,
-      "aaRank": 203,
+      "aaRank": 204,
       "rank": 25
     },
     {
@@ -215,7 +215,7 @@
       "model": "Olmo 3.1 32B Think",
       "score": 8,
       "estimated": true,
-      "aaRank": 229,
+      "aaRank": 230,
       "rank": 27
     },
     {
@@ -223,7 +223,7 @@
       "model": "Phi-4 Mini",
       "score": 6,
       "estimated": true,
-      "aaRank": 243,
+      "aaRank": 244,
       "rank": 28
     },
     {
@@ -231,7 +231,7 @@
       "model": "Jamba 1.7 Large",
       "score": 5,
       "estimated": true,
-      "aaRank": 248,
+      "aaRank": 249,
       "rank": 29
     }
   ],
@@ -240,6 +240,12 @@
       "vendor": "Sapiens AI",
       "model": "Agnes 2.5 Pro Beta",
       "score": 49,
+      "estimated": false
+    },
+    {
+      "vendor": "MBZUAI Institute of Foundation Models",
+      "model": "K2 Horizon 375B A23B",
+      "score": 47,
       "estimated": false
     },
     {
@@ -327,12 +333,6 @@
       "estimated": false
     },
     {
-      "vendor": "MBZUAI Institute of Foundation Models",
-      "model": "K2 Think V2",
-      "score": 17,
-      "estimated": true
-    },
-    {
       "vendor": "Naver",
       "model": "HyperCLOVA X SEED Think (32B)",
       "score": 17,
@@ -410,5 +410,5 @@
     "Kuaishou-Kling",
     "Vidu"
   ],
-  "generatedAt": "2026-09-03T01:57:53.108Z"
+  "generatedAt": "2026-09-03T13:45:23.783Z"
 }
