@@ -47,6 +47,20 @@ jobs:
             git push
           fi
 
+      - name: Reorder vendor columns by AA ranking
+        run: node scripts/reorder-vendors.js
+
+      - name: Commit column reorder if changed
+        run: |
+          git add data.json links.json llm_release_timeline_2022-11_to_2026-04.csv llm_release_timeline_2022-11_to_2026-04.md
+          if ! git diff --cached --quiet; then
+            git commit -m "data: reorder vendor columns by AA ranking"
+            git pull --rebase origin HEAD
+            git push
+          else
+            echo "Column order unchanged"
+          fi
+
       - name: Update monthly table
         id: monthly
         run: |

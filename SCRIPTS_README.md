@@ -194,6 +194,20 @@ node scripts/fetch-aa.js
 AA_HTTP_PROXY=http://127.0.0.1:7897 node scripts/fetch-aa.js   # 本地需要代理时
 ```
 
+### `reorder-vendors.js`
+
+作用：
+
+- 按最新 AA 排名重排 `data.json` 的厂商列顺序（有得分的列按排名在前，无 AA 条目的列保持原相对顺序在后）
+- 顺序无变化时不写文件（no-op，不产生提交）
+- 重排后自动重建 csv / md / links.json
+
+用法：
+
+```bash
+node scripts/reorder-vendors.js
+```
+
 ### `update-monthly.js`
 
 作用：
@@ -217,7 +231,7 @@ node scripts/update-monthly.js --report /tmp/aa-daily-report.md
 
 ### 定时任务（`.github/workflows/`）
 
-- `aa-daily.yml`：每天北京时间 08:00 一站式执行：抓榜单 → 重建 `aa-ranking.json`（有变化才提交）→ `update-monthly.js` 更新月表（数据通过 `check-data-links.js` 后提交）→ 有内容时开 Issue 日报
+- `aa-daily.yml`：每天北京时间 08:00 一站式执行：抓榜单 → 重建 `aa-ranking.json`（有变化才提交）→ `reorder-vendors.js` 按排名重排列（有变化才提交）→ `update-monthly.js` 更新月表（数据通过 `check-data-links.js` 后提交）→ 有内容时开 Issue 日报
 - 注意：GitHub 定时任务只在默认分支生效；仓库 60 天无活动会被自动禁用
 
 ---
@@ -309,6 +323,20 @@ node scripts/add-vendor-column.test.js
 
 ```bash
 node scripts/fetch-aa.test.js
+```
+
+### `reorder-vendors.test.js`
+
+验证：
+
+- 排名列在前、无分列保持尾部相对顺序
+- 顺序已一致时 no-op（不写任何文件）
+- 重排后 data.json 行键顺序与 csv 表头同步
+
+用法：
+
+```bash
+node scripts/reorder-vendors.test.js
 ```
 
 ### `update-monthly.test.js`
