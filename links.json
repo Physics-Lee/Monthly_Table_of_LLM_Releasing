@@ -563,5 +563,6 @@
   "LFM2.5-2.6B": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
   "Claude Fable 5.1": "https://artificialanalysis.ai/models/claude-fable-5-1",
   "Muse Spark 1.3": "https://artificialanalysis.ai/models/muse-spark-1-3",
+  "GPT-6 Astra": "https://artificialanalysis.ai/models/gpt-6-astra",
   "Gemini 3.8 Flash": "https://artificialanalysis.ai/models/gemini-3-8-flash"
 }

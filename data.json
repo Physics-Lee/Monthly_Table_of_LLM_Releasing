@@ -4780,7 +4780,12 @@
           "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
         }
       ],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "GPT-6 Astra",
+          "url": "https://artificialanalysis.ai/models/gpt-6-astra"
+        }
+      ],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
