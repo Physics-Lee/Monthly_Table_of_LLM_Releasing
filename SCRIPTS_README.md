@@ -231,7 +231,7 @@ node scripts/update-monthly.js --report /tmp/aa-daily-report.md
 
 ### 定时任务（`.github/workflows/`）
 
-- `aa-daily.yml`：每天北京时间 08:00 一站式执行：抓榜单 → 重建 `aa-ranking.json`（有变化才提交）→ `reorder-vendors.js` 按排名重排列（有变化才提交）→ `update-monthly.js` 更新月表（数据通过 `check-data-links.js` 后提交）→ 有内容时开 Issue 日报
+- `aa-daily.yml`：每天北京时间 07:30 一站式执行：抓榜单 → 重建 `aa-ranking.json`（有变化才提交）→ `reorder-vendors.js` 按排名重排列（有变化才提交）→ `update-monthly.js` 更新月表（数据通过 `check-data-links.js` 后提交）→ 有内容时开 Issue 日报
 - 注意：GitHub 定时任务只在默认分支生效；仓库 60 天无活动会被自动禁用
 
 ---

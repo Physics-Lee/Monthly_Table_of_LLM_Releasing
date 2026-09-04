@@ -1,13 +1,12 @@
 name: AA Daily Refresh
 
-# Every day 08:00 Beijing time (00:00 UTC): refresh the AA snapshot, rebuild
-# the vendor ranking, then update the monthly table with newly released models
-# (update-monthly.js) and file an audit Issue when there is anything to report.
+# Every day 07:30 Beijing time (23:30 UTC — an off-peak minute, so GitHub's
+# cron queue delay stays in the minutes range instead of hours).
 # Scheduled workflows only run on the default branch and are disabled after
 # 60 days without repository activity.
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 23 * * *'
   workflow_dispatch:
 
 permissions:
