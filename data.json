@@ -1,8 +1,8 @@
 {
   "vendors": [
     "Anthropic",
-    "Meta",
     "OpenAI",
+    "Meta",
     "xAI",
     "Kimi-Moonshot",
     "GLM-Z.ai",
@@ -11,16 +11,16 @@
     "DeepSeek",
     "Motif",
     "MiniMax",
+    "Tencent",
     "Xiaomi",
     "Thinking Machines Lab",
-    "Tencent",
     "NVIDIA",
     "Ant-Group",
     "StepFun",
     "Mistral",
     "Doubao-ByteDance",
-    "Cohere",
     "Baidu",
+    "Cohere",
     "Amazon",
     "Celeris",
     "ModelBest-OpenBMB",
@@ -47,13 +47,13 @@
     {
       "Month": "22-Nov",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "ChatGPT GPT-3.5",
           "url": "https://openai.com/index/chatgpt/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -62,16 +62,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -102,7 +102,6 @@
     {
       "Month": "22-Dec",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "text-embedding-ada-002",
@@ -113,6 +112,7 @@
           "url": "https://github.com/openai/whisper/discussions/661"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -121,16 +121,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -161,8 +161,8 @@
     {
       "Month": "23-Jan",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -171,16 +171,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -206,13 +206,13 @@
     {
       "Month": "23-Feb",
       "Anthropic": [],
+      "OpenAI": [],
       "Meta": [
         {
           "name": "Llama 1",
           "url": "https://github.com/facebookresearch/llama"
         }
       ],
-      "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -226,16 +226,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -284,13 +284,13 @@
           "url": "https://www.anthropic.com/news/introducing-claude"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4",
           "url": "https://openai.com/index/gpt-4"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [
@@ -304,21 +304,21 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE Bot",
           "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -379,8 +379,8 @@
     {
       "Month": "23-Apr",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -389,16 +389,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -434,8 +434,8 @@
     {
       "Month": "23-May",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -449,16 +449,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -494,8 +494,8 @@
     {
       "Month": "23-Jun",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [
@@ -509,16 +509,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -582,13 +582,13 @@
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
+      "OpenAI": [],
       "Meta": [
         {
           "name": "Llama 2",
           "url": "https://ai.meta.com/blog/meta-llama-2/"
         }
       ],
-      "OpenAI": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -597,21 +597,21 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE 3.5",
           "url": "https://gigazine.net/gsc_news/en/20230628-baidu-ernie-3-5/"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -647,8 +647,8 @@
           "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -670,6 +670,7 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiLM-6B",
@@ -677,7 +678,6 @@
         }
       ],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -693,8 +693,8 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -735,13 +735,13 @@
     {
       "Month": "23-Sep",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4V",
           "url": "https://openai.com/index/gpt-4v-system-card/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -755,14 +755,14 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan",
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
@@ -773,8 +773,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -810,8 +810,8 @@
     {
       "Month": "23-Oct",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -830,9 +830,9 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -843,13 +843,13 @@
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE 4.0",
           "url": "https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -889,7 +889,6 @@
     {
       "Month": "23-Nov",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4 Turbo",
@@ -900,6 +899,7 @@
           "url": "https://github.com/openai/whisper/releases/tag/v20231106"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok-1",
@@ -936,19 +936,20 @@
           "url": "https://www.scmp.com/tech/big-tech/article/3240828/"
         }
       ],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan Standard",
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Embed v3",
@@ -959,7 +960,6 @@
           "url": "https://cohere.com/blog/rerank-3"
         }
       ],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Titan Text Express",
@@ -1018,8 +1018,8 @@
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -1046,9 +1046,9 @@
           "url": "https://www.reuters.com/technology/chinese-startup-minimax-launches-abab55-2023-12-05/"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -1068,8 +1068,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1124,7 +1124,6 @@
     {
       "Month": "24-Jan",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "text-embedding-3-small",
@@ -1135,6 +1134,7 @@
           "url": "https://openai.com/index/new-embedding-models-and-api-updates/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -1158,16 +1158,16 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1225,13 +1225,13 @@
     {
       "Month": "24-Feb",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "Sora (demo)",
           "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -1263,9 +1263,9 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 15B",
@@ -1285,13 +1285,13 @@
         }
       ],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Aya",
           "url": "https://cohere.com/research/aya"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -1350,8 +1350,8 @@
           "url": "https://www.anthropic.com/news/claude-3-haiku"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok-1.5",
@@ -1374,21 +1374,21 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Command R",
           "url": "https://cohere.com/research/command-r"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1444,13 +1444,13 @@
     {
       "Month": "24-Apr",
       "Anthropic": [],
+      "OpenAI": [],
       "Meta": [
         {
           "name": "Llama 3",
           "url": "https://ai.meta.com/blog/meta-llama-3/"
         }
       ],
-      "OpenAI": [],
       "xAI": [
         {
           "name": "Grok-1.5V",
@@ -1478,9 +1478,9 @@
           "url": "https://www.minimax.io/news/abab65-series"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
@@ -1491,13 +1491,13 @@
         }
       ],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Command R Plus",
           "url": "https://cohere.com/research/command-r"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1538,13 +1538,13 @@
     {
       "Month": "24-May",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4o",
           "url": "https://openai.com/index/gpt-4o"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [
@@ -1572,9 +1572,9 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
@@ -1585,13 +1585,13 @@
         }
       ],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Aya 23",
           "url": "https://cohere.com/research/aya"
         }
       ],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Titan Text Premier",
@@ -1666,8 +1666,8 @@
           "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -1686,9 +1686,9 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 340B",
@@ -1704,8 +1704,8 @@
       ],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1746,16 +1746,16 @@
     {
       "Month": "24-Jul",
       "Anthropic": [],
-      "Meta": [
-        {
-          "name": "Llama 3.1",
-          "url": "https://ai.meta.com/blog/meta-llama-3-1/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-4o mini",
           "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+        }
+      ],
+      "Meta": [
+        {
+          "name": "Llama 3.1",
+          "url": "https://ai.meta.com/blog/meta-llama-3-1/"
         }
       ],
       "xAI": [],
@@ -1776,9 +1776,9 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [
@@ -1798,8 +1798,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1825,8 +1825,8 @@
     {
       "Month": "24-Aug",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok-2 beta",
@@ -1855,9 +1855,9 @@
           "url": "https://www.scmp.com/tech/big-tech/article/3264825/"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Llama-3.1-Nemotron-70B-Reward",
@@ -1868,13 +1868,13 @@
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE 4.0 Turbo",
           "url": "https://www.reuters.com/technology/chinas-baidu-unveils-latest-version-its-ernie-ai-model-2023-10-17/"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -1919,12 +1919,6 @@
     {
       "Month": "24-Sep",
       "Anthropic": [],
-      "Meta": [
-        {
-          "name": "Llama 3.2",
-          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "o1-preview",
@@ -1937,6 +1931,12 @@
         {
           "name": "Whisper large-v3-turbo",
           "url": "https://github.com/openai/whisper/releases/tag/v20240930"
+        }
+      ],
+      "Meta": [
+        {
+          "name": "Llama 3.2",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
         }
       ],
       "xAI": [],
@@ -1969,9 +1969,9 @@
           "url": "https://www.minimax.io/news/video-01"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -1987,8 +1987,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -2024,8 +2024,8 @@
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [
@@ -2039,14 +2039,14 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-lite",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -2062,13 +2062,13 @@
         }
       ],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Aya Expanse",
           "url": "https://cohere.com/research/aya"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -2126,8 +2126,8 @@
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -2145,9 +2145,9 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
@@ -2162,8 +2162,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -2207,12 +2207,6 @@
     {
       "Month": "24-Dec",
       "Anthropic": [],
-      "Meta": [
-        {
-          "name": "Llama 3.3",
-          "url": "https://llama.meta.com/llama3_3/license/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "o1",
@@ -2221,6 +2215,12 @@
         {
           "name": "Sora",
           "url": "https://openai.com/index/sora-is-here/"
+        }
+      ],
+      "Meta": [
+        {
+          "name": "Llama 3.3",
+          "url": "https://llama.meta.com/llama3_3/license/"
         }
       ],
       "xAI": [],
@@ -2258,21 +2258,21 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "Command R7B",
           "url": "https://cohere.com/research/command-r"
         }
       ],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Nova Micro",
@@ -2344,13 +2344,13 @@
     {
       "Month": "25-Jan",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "o3-mini",
           "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -2387,9 +2387,9 @@
           "url": "https://github.com/MiniMax-AI/MiniMax-01"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 family (Nano/Super/Ultra)",
@@ -2414,8 +2414,8 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -2465,13 +2465,13 @@
           "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4.5",
           "url": "https://openai.com/blog/gpt-4-5"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok 3",
@@ -2500,9 +2500,9 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [
@@ -2517,8 +2517,8 @@
       ],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -2544,13 +2544,13 @@
     {
       "Month": "25-Mar",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "o1 Pro",
           "url": "https://openai.com/index/o1-pro/"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok-3 mini",
@@ -2588,9 +2588,9 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -2610,16 +2610,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [
-        {
-          "name": "Aya Vision",
-          "url": "https://cohere.com/research/aya"
-        },
-        {
-          "name": "Command A",
-          "url": "https://cohere.com/blog/command-a"
-        }
-      ],
       "Baidu": [
         {
           "name": "ERNIE 4.5",
@@ -2628,6 +2618,16 @@
         {
           "name": "X1",
           "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html"
+        }
+      ],
+      "Cohere": [
+        {
+          "name": "Aya Vision",
+          "url": "https://cohere.com/research/aya"
+        },
+        {
+          "name": "Command A",
+          "url": "https://cohere.com/blog/command-a"
         }
       ],
       "Amazon": [],
@@ -2674,16 +2674,6 @@
     {
       "Month": "25-Apr",
       "Anthropic": [],
-      "Meta": [
-        {
-          "name": "Llama 4 Scout",
-          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
-        },
-        {
-          "name": "Llama 4 Maverick",
-          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "Codex CLI",
@@ -2710,6 +2700,16 @@
           "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
         }
       ],
+      "Meta": [
+        {
+          "name": "Llama 4 Scout",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        {
+          "name": "Llama 4 Maverick",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        }
+      ],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -2733,9 +2733,9 @@
           "url": "https://www.minimax.io/news/minimax-speech-02"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [
@@ -2751,7 +2751,6 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE 4.5 Turbo",
@@ -2762,6 +2761,7 @@
           "url": "https://home.baidu.com/home/index/news_detail/id/18020"
         }
       ],
+      "Cohere": [],
       "Amazon": [
         {
           "name": "Nova Premier",
@@ -2821,13 +2821,13 @@
           "url": "https://www.anthropic.com/news/claude-4"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "Codex",
           "url": "https://openai.com/blog/introducing-codex"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -2855,6 +2855,7 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiMo-7B",
@@ -2862,7 +2863,6 @@
         }
       ],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -2886,8 +2886,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -2918,7 +2918,6 @@
     {
       "Month": "25-Jun",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "o3-pro",
@@ -2929,6 +2928,7 @@
           "url": "https://openai.com/index/gpt-realtime-1-5/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -2947,14 +2947,14 @@
           "url": "https://github.com/MiniMax-AI/MiniMax-01"
         }
       ],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-A13B",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -2987,8 +2987,8 @@
           "url": "https://seed.bytedance.com/en/blog/tech-report-of-seedance-1-0-is-now-publicly-available"
         }
       ],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -3034,8 +3034,8 @@
     {
       "Month": "25-Jul",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4",
@@ -3077,14 +3077,14 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-TurboS",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -3109,16 +3109,16 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [
-        {
-          "name": "Command A Vision",
-          "url": "https://cohere.com/blog/command-a-vision"
-        }
-      ],
       "Baidu": [
         {
           "name": "ERNIE 4.5 Open",
           "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        }
+      ],
+      "Cohere": [
+        {
+          "name": "Command A Vision",
+          "url": "https://cohere.com/blog/command-a-vision"
         }
       ],
       "Amazon": [],
@@ -3161,7 +3161,6 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-1"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5",
@@ -3172,6 +3171,7 @@
           "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-realtime/"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok Code Fast 1",
@@ -3205,21 +3205,21 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-T1",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -3255,13 +3255,13 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "Sora 2",
           "url": "https://openai.com/index/sora-2/"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -3285,26 +3285,26 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-large-role",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
+      "Xiaomi": [],
+      "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE X1.1",
           "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -3345,8 +3345,8 @@
           "url": "https://www.anthropic.com/news/claude-haiku-4-5"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -3365,9 +3365,9 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -3386,8 +3386,8 @@
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -3433,13 +3433,13 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-5"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.1",
           "url": "https://openai.com/blog/introducing-gpt-5-1"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4.1",
@@ -3472,6 +3472,16 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [
+        {
+          "name": "HY 2.0 Think",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        },
+        {
+          "name": "HY 2.0 Instruct",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Xiaomi": [
         {
           "name": "MiMo-VL Miloco-7B",
@@ -3483,16 +3493,6 @@
         }
       ],
       "Thinking Machines Lab": [],
-      "Tencent": [
-        {
-          "name": "HY 2.0 Think",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        },
-        {
-          "name": "HY 2.0 Instruct",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
@@ -3503,13 +3503,13 @@
           "url": "https://skywork.ai/blog/llm/doubao-seed-code-official-release-2025/"
         }
       ],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE 5.0",
           "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -3545,13 +3545,13 @@
     {
       "Month": "25-Dec",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.2",
           "url": "https://openai.com/blog/introducing-gpt-5-2"
         }
       ],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [],
       "GLM-Z.ai": [],
@@ -3565,6 +3565,7 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2-Flash",
@@ -3572,7 +3573,6 @@
         }
       ],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Nano",
@@ -3592,8 +3592,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [
         {
           "name": "Nova 2 Lite",
@@ -3679,8 +3679,8 @@
           "url": "https://www.anthropic.com/product/claude-cowork"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -3694,9 +3694,9 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -3707,8 +3707,8 @@
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -3794,13 +3794,13 @@
           "url": "https://docs.anthropic.com/en/docs/claude-code/agent-teams"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.3-Codex",
           "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4.2 Beta",
@@ -3850,9 +3850,9 @@
           "url": "https://www.minimax.io/models/text"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -3889,8 +3889,8 @@
           "url": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0"
         }
       ],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -3946,7 +3946,6 @@
     {
       "Month": "26-Mar",
       "Anthropic": [],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.4",
@@ -3957,6 +3956,7 @@
           "url": "https://developers.openai.com/codex/multi-agent/"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4.2 Multi-Agent",
@@ -4018,6 +4018,7 @@
           "url": "https://www.minimaxi.com/models/text/m27"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2-Pro",
@@ -4033,7 +4034,6 @@
         }
       ],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Super",
@@ -4054,8 +4054,8 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -4114,12 +4114,6 @@
           "url": "https://red.anthropic.com/2026/mythos-preview/"
         }
       ],
-      "Meta": [
-        {
-          "name": "Muse Spark",
-          "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5.4-Cyber",
@@ -4136,6 +4130,12 @@
         {
           "name": "GPT-5.5",
           "url": "https://openai.com/index/introducing-gpt-5-5/"
+        }
+      ],
+      "Meta": [
+        {
+          "name": "Muse Spark",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
         }
       ],
       "xAI": [
@@ -4192,6 +4192,12 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [
+        {
+          "name": "HY3-Preview",
+          "url": "https://huggingface.co/tencent/Hy3-preview"
+        }
+      ],
       "Xiaomi": [
         {
           "name": "MiMo-V2.5",
@@ -4203,12 +4209,6 @@
         }
       ],
       "Thinking Machines Lab": [],
-      "Tencent": [
-        {
-          "name": "HY3-Preview",
-          "url": "https://huggingface.co/tencent/Hy3-preview"
-        }
-      ],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -4223,8 +4223,8 @@
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -4270,7 +4270,6 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-8"
         }
       ],
-      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.5 Instant",
@@ -4293,6 +4292,7 @@
           "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"
         }
       ],
+      "Meta": [],
       "xAI": [
         {
           "name": "Grok Build 0.1",
@@ -4324,6 +4324,7 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [
         {
@@ -4331,7 +4332,6 @@
           "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
         }
       ],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [
         {
@@ -4347,13 +4347,13 @@
       ],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [
         {
           "name": "ERNIE 5.1",
           "url": "https://yiyan.baidu.com/blog/zh/posts/ernie-5.1-0508-release/"
         }
       ],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [
@@ -4411,8 +4411,8 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
         }
       ],
-      "Meta": [],
       "OpenAI": [],
+      "Meta": [],
       "xAI": [],
       "Kimi-Moonshot": [
         {
@@ -4466,9 +4466,9 @@
           "url": "https://www.minimax.io/models/text/m3"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Cosmos 3",
@@ -4483,13 +4483,13 @@
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
+      "Baidu": [],
       "Cohere": [
         {
           "name": "North Mini Code",
           "url": "https://cohere.com/blog/north-mini-code"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -4525,12 +4525,6 @@
           "url": "https://www.anthropic.com/news/claude-opus-5"
         }
       ],
-      "Meta": [
-        {
-          "name": "Muse Spark 1.1",
-          "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-Live",
@@ -4547,6 +4541,12 @@
         {
           "name": "GPT-5.6 Luna",
           "url": "https://openai.com/index/gpt-5-6/"
+        }
+      ],
+      "Meta": [
+        {
+          "name": "Muse Spark 1.1",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
         }
       ],
       "xAI": [
@@ -4582,6 +4582,7 @@
           "url": "https://www.minimax.io/blog/minimax-h3"
         }
       ],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [
         {
@@ -4593,14 +4594,13 @@
           "url": "https://thinkingmachines.ai/news/inkling-small/"
         }
       ],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [
         {
@@ -4641,6 +4641,7 @@
     {
       "Month": "26-Aug",
       "Anthropic": [],
+      "OpenAI": [],
       "Meta": [
         {
           "name": "Muse Spark 1.2",
@@ -4651,7 +4652,6 @@
           "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
         }
       ],
-      "OpenAI": [],
       "xAI": [
         {
           "name": "Grok 4.6",
@@ -4710,9 +4710,9 @@
         }
       ],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3.5 Lightning",
@@ -4737,8 +4737,8 @@
           "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
         }
       ],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
@@ -4774,16 +4774,16 @@
           "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
         }
       ],
-      "Meta": [
-        {
-          "name": "Muse Spark 1.3",
-          "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-6 Astra",
           "url": "https://artificialanalysis.ai/models/gpt-6-astra"
+        }
+      ],
+      "Meta": [
+        {
+          "name": "Muse Spark 1.3",
+          "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
         }
       ],
       "xAI": [],
@@ -4799,16 +4799,16 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Tencent": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [],
       "Ant-Group": [],
       "StepFun": [],
       "Mistral": [],
       "Doubao-ByteDance": [],
-      "Cohere": [],
       "Baidu": [],
+      "Cohere": [],
       "Amazon": [],
       "Celeris": [],
       "ModelBest-OpenBMB": [],
