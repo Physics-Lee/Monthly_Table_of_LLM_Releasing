@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-05T01:08:36.757Z",
+  "fetchedAt": "2026-09-06T01:07:47.027Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
@@ -339,25 +339,25 @@
     },
     {
       "rank": 47,
-      "model": "Qwen3.8 27B (xhigh)",
-      "vendor": "Alibaba",
-      "score": 42,
-      "slug": "qwen3-8-27b"
-    },
-    {
-      "rank": 48,
       "model": "GPT-5.6 Luna (xhigh)",
       "vendor": "OpenAI",
       "score": 42,
       "slug": "gpt-5-6-luna-xhigh"
     },
     {
-      "rank": 49,
+      "rank": 48,
       "model": "DeepSeek V4 Flash Vision (max)",
       "vendor": "DeepSeek",
       "score": 42,
       "estimated": true,
       "slug": "deepseek-v4-flash-vision"
+    },
+    {
+      "rank": 49,
+      "model": "Qwen3.8 27B (xhigh)",
+      "vendor": "Alibaba",
+      "score": 41,
+      "slug": "qwen3-8-27b"
     },
     {
       "rank": 50,
@@ -413,14 +413,6 @@
     },
     {
       "rank": 57,
-      "model": "Gemini 3.1 Pro Preview",
-      "vendor": "Google",
-      "score": 38,
-      "estimated": true,
-      "slug": "gemini-3-1-pro-preview"
-    },
-    {
-      "rank": 58,
       "model": "Gemini 3.5 Flash (medium)",
       "vendor": "Google",
       "score": 38,
@@ -428,7 +420,7 @@
       "slug": "gemini-3-5-flash-medium"
     },
     {
-      "rank": 59,
+      "rank": 58,
       "model": "Motif 3",
       "vendor": "Motif Technologies",
       "score": 38,
@@ -436,14 +428,14 @@
       "slug": "motif-3"
     },
     {
-      "rank": 60,
+      "rank": 59,
       "model": "K2 Horizon 375B A23B",
       "vendor": "MBZUAI Institute of Foundation Models",
       "score": 38,
       "slug": "k2-horizon-375b-a23b"
     },
     {
-      "rank": 61,
+      "rank": 60,
       "model": "GPT-5.6 Luna (high)",
       "vendor": "OpenAI",
       "score": 37,
@@ -451,7 +443,7 @@
       "slug": "gpt-5-6-luna-high"
     },
     {
-      "rank": 62,
+      "rank": 61,
       "model": "GPT-5.6 Terra (medium)",
       "vendor": "OpenAI",
       "score": 37,
@@ -459,7 +451,7 @@
       "slug": "gpt-5-6-terra-medium"
     },
     {
-      "rank": 63,
+      "rank": 62,
       "model": "GPT-5.3 Codex (xhigh)",
       "vendor": "OpenAI",
       "score": 37,
@@ -467,12 +459,19 @@
       "slug": "gpt-5-3-codex"
     },
     {
-      "rank": 64,
+      "rank": 63,
       "model": "Motif 3 (Beta)",
       "vendor": "Motif Technologies",
       "score": 37,
       "estimated": true,
       "slug": "motif-0714"
+    },
+    {
+      "rank": 64,
+      "model": "Gemini 3.1 Pro Preview",
+      "vendor": "Google",
+      "score": 37,
+      "slug": "gemini-3-1-pro-preview"
     },
     {
       "rank": 65,
@@ -1322,6 +1321,13 @@
     },
     {
       "rank": 172,
+      "model": "Mistral Large 3",
+      "vendor": "Mistral",
+      "score": 11,
+      "slug": "mistral-large-3"
+    },
+    {
+      "rank": 173,
       "model": "HyperCLOVA X SEED Think (32B)",
       "vendor": "Naver",
       "score": 11,
@@ -1329,7 +1335,7 @@
       "slug": "hyperclova-x-seed-think-32b"
     },
     {
-      "rank": 173,
+      "rank": 174,
       "model": "K-EXAONE (Non-reasoning)",
       "vendor": "LG AI Research",
       "score": 11,
@@ -1337,14 +1343,14 @@
       "slug": "k-exaone-non-reasoning"
     },
     {
-      "rank": 174,
+      "rank": 175,
       "model": "Granite 4.2 3B",
       "vendor": "IBM",
       "score": 11,
       "slug": "granite-4-2-3b"
     },
     {
-      "rank": 175,
+      "rank": 176,
       "model": "Qwen3 Next 80B A3B (Reasoning)",
       "vendor": "Alibaba",
       "score": 11,
@@ -1352,7 +1358,7 @@
       "slug": "qwen3-next-80b-a3b-reasoning"
     },
     {
-      "rank": 176,
+      "rank": 177,
       "model": "Nova 2.0 Omni (low)",
       "vendor": "Amazon",
       "score": 11,
@@ -1360,7 +1366,7 @@
       "slug": "nova-2-0-omni-reasoning-low"
     },
     {
-      "rank": 177,
+      "rank": 178,
       "model": "Mi:dm K 2.5 Pro",
       "vendor": "Korea Telecom",
       "score": 10,
@@ -1368,7 +1374,7 @@
       "slug": "mi-dm-k-2-5-pro-dec28"
     },
     {
-      "rank": 178,
+      "rank": 179,
       "model": "G9v3-3B",
       "vendor": "AI9Stars",
       "score": 10,
@@ -1376,20 +1382,12 @@
       "slug": "g9v3-3b"
     },
     {
-      "rank": 179,
+      "rank": 180,
       "model": "Qwen3.5 4B (Non-reasoning)",
       "vendor": "Alibaba",
       "score": 10,
       "estimated": true,
       "slug": "qwen3-5-4b-non-reasoning"
-    },
-    {
-      "rank": 180,
-      "model": "Mistral Large 3",
-      "vendor": "Mistral",
-      "score": 10,
-      "estimated": true,
-      "slug": "mistral-large-3"
     },
     {
       "rank": 181,

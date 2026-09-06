@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-05T01:08:36.757Z",
+  "fetchedAt": "2026-09-06T01:07:47.027Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -79,7 +79,7 @@
       "model": "Motif 3",
       "score": 38,
       "estimated": true,
-      "aaRank": 59,
+      "aaRank": 58,
       "rank": 10
     },
     {
@@ -410,5 +410,5 @@
     "Kuaishou-Kling",
     "Vidu"
   ],
-  "generatedAt": "2026-09-05T01:08:36.837Z"
+  "generatedAt": "2026-09-06T01:07:47.101Z"
 }
