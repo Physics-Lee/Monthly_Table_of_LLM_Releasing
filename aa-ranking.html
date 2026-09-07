@@ -20,6 +20,10 @@
       font-size: 16px;
       margin: 24px 0 10px;
     }
+    .rank-section h3 {
+      font-size: 14px;
+      margin: 18px 0 8px;
+    }
     .rank-note {
       font-size: 12px;
       color: var(--text-tertiary);
@@ -113,6 +117,72 @@
         提示策略、温度（非推理 0 / 推理 0.6）、零样本设置全部统一，<strong>不使用任何厂商自家的智能体产品</strong>（如 OpenAI 的 Codex CLI、Anthropic 的 Claude Code、Kimi-CLI 等）。
         因此 AA 分数反映的是"发动机"而非"整车"：各厂商官方 harness 的自报成绩（如 SWE-bench Verified 上"模型 + 自家 CLI"的组合）包含大量 harness 层工程优化，与本页 AA 口径<strong>不可直接对比</strong>；
         同时该口径也会低估"模型深度适配自家 harness"带来的红利。详见 <a href="https://artificialanalysis.ai/methodology/intelligence-benchmarking" target="_blank" rel="noopener">AA 官方方法论</a>。
+      </p>
+    </div>
+
+    <div class="rank-section">
+      <h2>编者按：AA 简史与争议</h2>
+      <p class="rank-note">以下内容含编者个人观察（非 AA 官方数据），史实部分基于公开资料整理。</p>
+
+      <h3>AA 的历史</h3>
+      <p class="rank-note">
+        Artificial Analysis 于 2023 年生成式 AI 热潮中创立（联合创始人兼 CEO 为 Micah Hill-Smith，
+        Sam Paech 是其评测结果最常露面的公开面孔），起步资金仅 $250K（AI Grant 投资），后据报道完成
+        Lux Capital 领投的 $30M 融资（估值约 $300M）。它起家于独立评测各家 LLM API 的<strong>价格、速度、延迟等"硬指标"</strong>——
+        这些指标可以脚本化复测、难以公关修饰，为它积累了"独立、中立"的声誉。2025 年推出旗舰产品
+        <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index" target="_blank" rel="noopener">Intelligence Index</a>
+        （当年 Q2 已迭代到 v2，年中加入 IFBench，现为 v4.2：十项评测、含私有测试集防刷分），逐渐成为
+        OpenAI / Anthropic 官方发布会直接引用的第三方榜单——例如 <a href="https://openai.com/index/gpt-6-astra/" target="_blank" rel="noopener">GPT-6 Astra 官宣</a>就引用了 v4.1.1 分数。
+      </p>
+
+      <h3>为什么 AA 在 2025 年秋冬开始受到重视（编者观点）</h3>
+      <p class="rank-note">
+        个人认为关键在于<strong>权重设计与时代偏好的对齐</strong>：AA 指数的构成为 agents / coding / 通用能力 / 科学推理四类各占 25%——
+        Agent 与 Coding 合计恰好 50%，而纯数学评测权重为零（见本页"补充排行榜参考"一节）。2025 年秋冬以来，
+        业界最看重的恰好就是 Agent 和 Coding：模型从"聊天工具"转向"干活引擎"，各家发布会的主打叙事从跑分变成了
+        "能独立完成多少真实工程任务"。当社区的关注点迁移到 Agent/Coding，权重过半押注在这两处的 AA 自然水涨船高；
+        相形之下，以数学、知识问答为主的传统榜单与实际能力的相关性被普遍质疑。AA 的走红一半是方法论，
+        一半是踩中了风口。
+      </p>
+
+      <h3>AA 的翻车：GPT-6 首测同分风波（2026-09）</h3>
+      <p class="rank-note">
+        2026 年 9 月初 GPT-6 Astra 发布，AA 首测只给出 61 分——与上代 GPT-5.6 Sol (max) <strong>完全同分</strong>，
+        "代际旗舰 ≈ 上代"的结论与公众感知严重不符，一时间"AA 测不出 GPT-6"的批评四起
+        （讽刺的是 AA 自己的文章还在讲 <a href="https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra" target="_blank" rel="noopener">Astra 在 Coding Agent Index 上进步显著</a>）。
+        随后几天内 AA 立刻更新了排行榜——对全指数做了重新标定（各模型分数普遍下移约 10 分），GPT-6 Astra (max) 与 GPT-5.6 Sol (max)
+        的差距从 0 分变为 4 分（55 : 51）。本仓库的每日快照恰好完整记录了这一过程，可复现如下：
+      </p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>快照日期</th><th>GPT-6 Astra (max)</th><th>GPT-5.6 Sol (max)</th><th>事件</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2026-09-04</td>
+              <td class="score-cell">61（#9）</td>
+              <td class="score-cell">61（#11）</td>
+              <td>GPT-6 首测，与上代同分，引发争议</td>
+            </tr>
+            <tr>
+              <td>2026-09-05</td>
+              <td class="score-cell">55（#2）</td>
+              <td class="score-cell">51（#14）</td>
+              <td>AA 重标全指数（普遍 −10 分左右），差距拉开</td>
+            </tr>
+            <tr>
+              <td>2026-09-07</td>
+              <td class="score-cell">55（#3）</td>
+              <td class="score-cell">51</td>
+              <td>分数稳定，榜位随其他模型得分微调</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="rank-note">
+        编者注：这件事的启示是双面的——它既暴露了复合指数在"代际跃迁"面前的钝感（新旧模型的差异可能被评测集的饱和度抹平），
+        也展示了 AA 的纠错速度（几天内完成重标并公开变更）。引用任何单一榜单分数时，记住它只是某个时点、某套权重的产物。
       </p>
     </div>
 
