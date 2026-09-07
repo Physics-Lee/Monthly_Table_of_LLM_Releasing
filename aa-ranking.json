@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T01:07:47.027Z",
+  "fetchedAt": "2026-09-07T01:08:38.558Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -15,7 +15,7 @@
       "model": "GPT-6 Astra (max)",
       "score": 55,
       "estimated": false,
-      "aaRank": 2,
+      "aaRank": 3,
       "rank": 2
     },
     {
@@ -23,7 +23,7 @@
       "model": "Muse Spark 1.3 (max)",
       "score": 53,
       "estimated": false,
-      "aaRank": 9,
+      "aaRank": 10,
       "rank": 3
     },
     {
@@ -31,7 +31,7 @@
       "model": "Grok 4.6 (high)",
       "score": 51,
       "estimated": false,
-      "aaRank": 15,
+      "aaRank": 17,
       "rank": 4
     },
     {
@@ -39,7 +39,7 @@
       "model": "Kimi K3 (max)",
       "score": 50,
       "estimated": false,
-      "aaRank": 16,
+      "aaRank": 18,
       "rank": 5
     },
     {
@@ -47,7 +47,7 @@
       "model": "GLM-5.3 (max)",
       "score": 49,
       "estimated": false,
-      "aaRank": 22,
+      "aaRank": 24,
       "rank": 6
     },
     {
@@ -71,7 +71,7 @@
       "model": "DeepSeek V4 Pro 0813 (max)",
       "score": 42,
       "estimated": false,
-      "aaRank": 45,
+      "aaRank": 43,
       "rank": 9
     },
     {
@@ -79,7 +79,7 @@
       "model": "Motif 3",
       "score": 38,
       "estimated": true,
-      "aaRank": 58,
+      "aaRank": 57,
       "rank": 10
     },
     {
@@ -87,39 +87,39 @@
       "model": "MiniMax-M3",
       "score": 36,
       "estimated": false,
-      "aaRank": 66,
+      "aaRank": 65,
       "rank": 11
-    },
-    {
-      "column": "Tencent",
-      "model": "Hy3",
-      "score": 33,
-      "estimated": true,
-      "aaRank": 74,
-      "rank": 12
     },
     {
       "column": "Xiaomi",
       "model": "MiMo-V2.5-Pro",
       "score": 33,
       "estimated": false,
-      "aaRank": 78,
+      "aaRank": 77,
       "rank": 12
     },
     {
-      "column": "Thinking Machines Lab",
-      "model": "Inkling",
+      "column": "Tencent",
+      "model": "Hy3",
       "score": 32,
       "estimated": false,
-      "aaRank": 81,
-      "rank": 14
+      "aaRank": 78,
+      "rank": 13
+    },
+    {
+      "column": "Thinking Machines Lab",
+      "model": "Inkling Small",
+      "score": 32,
+      "estimated": false,
+      "aaRank": 80,
+      "rank": 13
     },
     {
       "column": "NVIDIA",
       "model": "Nemotron 3 Ultra",
-      "score": 30,
-      "estimated": true,
-      "aaRank": 86,
+      "score": 29,
+      "estimated": false,
+      "aaRank": 88,
       "rank": 15
     },
     {
@@ -181,9 +181,9 @@
     {
       "column": "Celeris",
       "model": "Celeris-1",
-      "score": 6,
-      "estimated": true,
-      "aaRank": 202,
+      "score": 8,
+      "estimated": false,
+      "aaRank": 193,
       "rank": 23
     },
     {
@@ -192,7 +192,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 203,
-      "rank": 23
+      "rank": 24
     },
     {
       "column": "Boss-Nanbeige",
@@ -258,7 +258,7 @@
       "vendor": "Multiverse Computing",
       "model": "Quasar 438B (max)",
       "score": 34,
-      "estimated": true
+      "estimated": false
     },
     {
       "vendor": "Nex AGI",
@@ -410,5 +410,5 @@
     "Kuaishou-Kling",
     "Vidu"
   ],
-  "generatedAt": "2026-09-06T01:07:47.101Z"
+  "generatedAt": "2026-09-07T01:08:38.644Z"
 }
