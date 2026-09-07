@@ -11,8 +11,8 @@
     "DeepSeek",
     "Motif",
     "MiniMax",
-    "Tencent",
     "Xiaomi",
+    "Tencent",
     "Thinking Machines Lab",
     "NVIDIA",
     "Ant-Group",
@@ -62,8 +62,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -121,8 +121,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -171,8 +171,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -226,8 +226,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -304,8 +304,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -389,8 +389,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -449,8 +449,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -509,8 +509,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -597,8 +597,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -670,13 +670,13 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiLM-6B",
           "url": "https://github.com/XiaoMi/MiLM-6B"
         }
       ],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -755,13 +755,13 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan",
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -830,8 +830,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -936,13 +936,13 @@
           "url": "https://www.scmp.com/tech/big-tech/article/3240828/"
         }
       ],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan Standard",
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -1046,8 +1046,8 @@
           "url": "https://www.reuters.com/technology/chinese-startup-minimax-launches-abab55-2023-12-05/"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -1158,8 +1158,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -1263,8 +1263,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -1374,8 +1374,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -1478,8 +1478,8 @@
           "url": "https://www.minimax.io/news/abab65-series"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -1572,8 +1572,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -1686,8 +1686,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -1776,8 +1776,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -1855,8 +1855,8 @@
           "url": "https://www.scmp.com/tech/big-tech/article/3264825/"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -1969,8 +1969,8 @@
           "url": "https://www.minimax.io/news/video-01"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -2039,13 +2039,13 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan-lite",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -2145,8 +2145,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -2258,8 +2258,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -2387,8 +2387,8 @@
           "url": "https://github.com/MiniMax-AI/MiniMax-01"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -2500,8 +2500,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -2588,8 +2588,8 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -2733,8 +2733,8 @@
           "url": "https://www.minimax.io/news/minimax-speech-02"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -2855,13 +2855,13 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiMo-7B",
           "url": "https://arxiv.org/abs/2505.07608"
         }
       ],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -2947,13 +2947,13 @@
           "url": "https://github.com/MiniMax-AI/MiniMax-01"
         }
       ],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan-A13B",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -3077,13 +3077,13 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan-TurboS",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -3205,13 +3205,13 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan-T1",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -3285,13 +3285,13 @@
       ],
       "Motif": [],
       "MiniMax": [],
+      "Xiaomi": [],
       "Tencent": [
         {
           "name": "Hunyuan-large-role",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Xiaomi": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
@@ -3365,8 +3365,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -3472,16 +3472,6 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [
-        {
-          "name": "HY 2.0 Think",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        },
-        {
-          "name": "HY 2.0 Instruct",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
       "Xiaomi": [
         {
           "name": "MiMo-VL Miloco-7B",
@@ -3490,6 +3480,16 @@
         {
           "name": "MiMo-Embodied-7B",
           "url": "https://huggingface.co/XiaomiMiMo/MiMo-Embodied-7B"
+        }
+      ],
+      "Tencent": [
+        {
+          "name": "HY 2.0 Think",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        },
+        {
+          "name": "HY 2.0 Instruct",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
       "Thinking Machines Lab": [],
@@ -3565,13 +3565,13 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2-Flash",
           "url": "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
         }
       ],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -3694,8 +3694,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -3850,8 +3850,8 @@
           "url": "https://www.minimax.io/models/text"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [
@@ -4018,7 +4018,6 @@
           "url": "https://www.minimaxi.com/models/text/m27"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2-Pro",
@@ -4033,6 +4032,7 @@
           "url": "https://mimo.xiaomi.com"
         }
       ],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -4192,12 +4192,6 @@
       ],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [
-        {
-          "name": "HY3-Preview",
-          "url": "https://huggingface.co/tencent/Hy3-preview"
-        }
-      ],
       "Xiaomi": [
         {
           "name": "MiMo-V2.5",
@@ -4206,6 +4200,12 @@
         {
           "name": "MiMo-V2.5-Pro",
           "url": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        }
+      ],
+      "Tencent": [
+        {
+          "name": "HY3-Preview",
+          "url": "https://huggingface.co/tencent/Hy3-preview"
         }
       ],
       "Thinking Machines Lab": [],
@@ -4324,8 +4324,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [
         {
           "name": "TML-Interaction-Small",
@@ -4466,8 +4466,8 @@
           "url": "https://www.minimax.io/models/text/m3"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -4582,8 +4582,8 @@
           "url": "https://www.minimax.io/blog/minimax-h3"
         }
       ],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [
         {
           "name": "Inkling",
@@ -4710,8 +4710,8 @@
         }
       ],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [
         {
@@ -4799,8 +4799,8 @@
       "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
-      "Tencent": [],
       "Xiaomi": [],
+      "Tencent": [],
       "Thinking Machines Lab": [],
       "NVIDIA": [],
       "Ant-Group": [],
