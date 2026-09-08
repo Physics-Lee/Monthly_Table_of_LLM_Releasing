@@ -42,7 +42,13 @@ const VENDOR_TO_COLUMN = {
   'IBM': 'IBM',
   'LongCat': 'LongCat',
   'LG AI Research': 'EXAONE-LG',
-  'Sapiens AI': 'Agnes-Sapiens'
+  'Sapiens AI': 'Agnes-Sapiens',
+  'MBZUAI Institute of Foundation Models': 'MBZUAI',
+  'Nex AGI': 'Nex-AGI',
+  'Multiverse Computing': 'Multiverse',
+  'Upstage': 'Upstage',
+  'China Mobile': 'China-Mobile',
+  'KwaiKAT': 'Kuaishou-Kling'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard
@@ -51,8 +57,7 @@ const NON_TEXT_COLUMNS = [
   'LLM-Applications',
   'AI-Chips',
   'AI-Cloud',
-  'Kuaishou-Kling', // video models
-  'Vidu'            // video models
+  'Vidu' // video models
 ];
 
 function buildRanking(leaderboard, data) {
