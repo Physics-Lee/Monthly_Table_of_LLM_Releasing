@@ -2256,7 +2256,12 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
         }
       ],
-      "Motif": [],
+      "Motif": [
+        {
+          "name": "Llama-3-Motif-102B",
+          "url": "https://arxiv.org/abs/2509.03972"
+        }
+      ],
       "MiniMax": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
@@ -3203,7 +3208,12 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
         }
       ],
-      "Motif": [],
+      "Motif": [
+        {
+          "name": "Motif-2.6B",
+          "url": "https://huggingface.co/Motif-Technologies/Motif-2.6B"
+        }
+      ],
       "MiniMax": [],
       "Xiaomi": [],
       "Thinking Machines Lab": [],
@@ -3470,7 +3480,12 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2"
         }
       ],
-      "Motif": [],
+      "Motif": [
+        {
+          "name": "Motif-2-12.7B-Instruct",
+          "url": "https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Instruct"
+        }
+      ],
       "MiniMax": [],
       "Xiaomi": [
         {
@@ -3563,7 +3578,12 @@
           "url": "https://api-docs.deepseek.com/news/news251201"
         }
       ],
-      "Motif": [],
+      "Motif": [
+        {
+          "name": "Motif-2-12.7B-Reasoning",
+          "url": "https://artificialanalysis.ai/models/motif-2-12-7b"
+        }
+      ],
       "MiniMax": [],
       "Xiaomi": [
         {
@@ -4575,7 +4595,12 @@
           "url": "https://www.guancha.cn/economy/2026_07_31_825764.shtml"
         }
       ],
-      "Motif": [],
+      "Motif": [
+        {
+          "name": "Motif 3 (Beta)",
+          "url": "https://artificialanalysis.ai/models/motif-0714"
+        }
+      ],
       "MiniMax": [
         {
           "name": "MiniMax H3",
@@ -4701,6 +4726,10 @@
         {
           "name": "V4-Flash-Vision-Exp",
           "url": "https://api-docs.deepseek.com/news/news260821/"
+        },
+        {
+          "name": "DeepSeek Harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
         }
       ],
       "Motif": [
@@ -4819,7 +4848,12 @@
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
-      "Celeris": [],
+      "Celeris": [
+        {
+          "name": "Celeris-1 Magnus",
+          "url": "https://celeris.ai/celeris-1-magnus"
+        }
+      ],
       "Microsoft": [],
       "AI21": [],
       "Open-Source": [],
