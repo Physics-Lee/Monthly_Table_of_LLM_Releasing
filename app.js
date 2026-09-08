@@ -191,10 +191,10 @@ function render() {
 
   const visibleVendors = ['Month', ...allData.vendors.filter(vendor => activeVendors.has(vendor))];
 
-  // 厂商列名链接到厂商名录对应锚点；Month 与专题聚合列保持纯文本
+  // 厂商列名链接到厂商名录对应锚点（当前页跳转，target=_blank 会被部分内置浏览器拦掉）；Month 与专题聚合列保持纯文本
   const renderHeader = vendor => {
     if (vendor === 'Month' || NON_VENDOR_COLUMNS.has(vendor)) return `<th>${vendor}</th>`;
-    return `<th><a href="aa-vendors.html#v-${encodeURIComponent(vendor)}" target="_blank" rel="noopener">${vendor}</a></th>`;
+    return `<th><a href="aa-vendors.html#v-${encodeURIComponent(vendor)}">${vendor}</a></th>`;
   };
 
   thead.innerHTML = `<tr>${visibleVendors.map(renderHeader).join('')}</tr>`;
