@@ -4807,7 +4807,12 @@
       "StepFun": [],
       "Doubao-ByteDance": [],
       "Mistral": [],
-      "ModelBest-OpenBMB": [],
+      "ModelBest-OpenBMB": [
+        {
+          "name": "MiniCPM5-2B",
+          "url": "https://artificialanalysis.ai/models/minicpm5-2b"
+        }
+      ],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],

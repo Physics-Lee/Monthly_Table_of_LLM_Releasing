@@ -564,5 +564,6 @@
   "Claude Fable 5.1": "https://artificialanalysis.ai/models/claude-fable-5-1",
   "GPT-6 Astra": "https://artificialanalysis.ai/models/gpt-6-astra",
   "Muse Spark 1.3": "https://artificialanalysis.ai/models/muse-spark-1-3",
-  "Gemini 3.8 Flash": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+  "Gemini 3.8 Flash": "https://artificialanalysis.ai/models/gemini-3-8-flash",
+  "MiniCPM5-2B": "https://artificialanalysis.ai/models/minicpm5-2b"
 }
