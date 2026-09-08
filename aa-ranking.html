@@ -185,6 +185,58 @@
         编者注：这件事的启示是双面的——它既暴露了复合指数在"代际跃迁"面前的钝感（新旧模型的差异可能被评测集的饱和度抹平），
         也展示了 AA 的纠错速度（几天内完成重标并公开变更）。引用任何单一榜单分数时，记住它只是某个时点、某套权重的产物。
       </p>
+
+      <h3>编者观察：AA 的优点与局限</h3>
+      <p class="rank-note">优点（按编者认为的重要性排序）：</p>
+      <div class="table-wrapper">
+        <table>
+          <tbody>
+            <tr>
+              <td class="score-cell">1</td>
+              <td><strong>覆盖广、数据工程好、更新快</strong>：50 余家厂商在榜，小型实验室与国家 AI 计划亦不遗漏；新模型发布到出分约一天；数据结构化且公开可取——本页排名即基于其公开数据每日自动生成。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">2</td>
+              <td><strong>独立且口径统一</strong>：所有模型在 AA 自家标准化 harness 下评测（见上文"评测口径"一节），不收厂商自报成绩，避免"既当裁判又当运动员"。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">3</td>
+              <td><strong>防刷分设计</strong>：私有测试集防公开题库污染，提示词、温度、零样本设置全统一。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">4</td>
+              <td><strong>对错误诚实</strong>：未测完的分数标 * 公示；翻车后几天内公开重标并留痕。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="rank-note">局限：</p>
+      <div class="table-wrapper">
+        <table>
+          <tbody>
+            <tr>
+              <td class="score-cell">钝感</td>
+              <td><strong>复合指数对"代际跃迁"钝感</strong>：评测集饱和后，新旧模型的差异会被抹平，指数分辨率不够——GPT-6 首测与上代 61:61 同分即明证。单看 AA 分数判断"这代值不值得换"，会翻车。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">信任</td>
+              <td><strong>私有测试集的不可审计信任</strong>：公开题库可被污染，但人人可以复测审计；私有题库防了污染，却把审计权收归 AA 一家。若与厂商存在利益往来（Pro 订阅、early access、联合研究等软通道），题目遴选与评分是否存在系统性倾斜，外界原则上无法验证——2025 年 LMArena 私测风波（"Leaderboard Illusion" 报告）是行业前车之鉴。公开抽样题目、开放第三方复测、披露利益往来落地之前，其独立性是"自证的"。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">盲区</td>
+              <td><strong>口径盲区</strong>：纯数学权重为零、不测写作与文风、以英文文本为中心；数学天花板与真实使用偏好需配合 MathArena / LMArena 等榜单（见上文"补充排行榜参考"）。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">口径</td>
+              <td><strong>"裸模型"口径是双刃剑</strong>：测发动机不测整车，会系统性低估深度绑定自家 harness 的模型。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">权重</td>
+              <td><strong>均衡权重无理论依据</strong>：四类各 25% 是拍脑袋的产物，等于把一半权重押在饱和最快的智能体类基准上。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="footer">
