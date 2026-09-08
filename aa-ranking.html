@@ -303,12 +303,17 @@
         'Swiss AI Initiative': '瑞士国家 AI 计划（ETH 系院校联合），在瑞士阿尔卑斯（Alps）超算上训练 Apertus 系列开源模型。'
       };
 
+      // 编者注：厂商显示名（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致；不改数据源，仅改页面展示）
+      const vendorDisplayNames = {
+        'Apodex': 'Apodex/MiroMind'
+      };
+
       document.getElementById('missingHead').innerHTML =
         '<tr><th>AA 分数</th><th>厂商</th><th>代表模型</th><th>简介</th></tr>';
       document.getElementById('missingBody').innerHTML = data.missingVendors.map(item => `
         <tr>
           <td class="score-cell">${item.score}${item.estimated ? '*' : ''}</td>
-          <td>${item.vendor}</td>
+          <td>${vendorDisplayNames[item.vendor] || item.vendor}</td>
           <td>${item.model}</td>
           <td class="intro-cell">${vendorIntros[item.vendor] || ''}</td>
         </tr>`).join('');
