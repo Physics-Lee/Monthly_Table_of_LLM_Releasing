@@ -31,7 +31,7 @@ const path = require('node:path');
 const { fetchPageHTML } = require('./fetch-aa');
 const { parseDataJSON } = require('./build-json');
 const { upsertEntry } = require('./upsert-entry');
-const { VENDOR_TO_COLUMN, buildMissingVendors } = require('./aa-vendor-ranking');
+const { VENDOR_TO_COLUMN, buildMissingVendors, NON_TEXT_COLUMNS } = require('./aa-vendor-ranking');
 
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const AA_MODEL_URL = 'https://artificialanalysis.ai/models/';
@@ -143,18 +143,21 @@ function daysAgo(date, now) {
   return (now - date) / 86400000;
 }
 
-// Vendors listed in aa-ranking.json's missingVendors but lacking an intro entry
-// in aa-ranking.html (empty 简介 cell on the page).
+// Vendors (AA vendors without a column, or table columns) lacking an intro entry
+// in aa-vendors.html (empty 简介 cell on the page).
 function findMissingIntros(leaderboard, data) {
-  const htmlPath = path.resolve(__dirname, '..', 'aa-ranking.html');
+  const htmlPath = path.resolve(__dirname, '..', 'aa-vendors.html');
   if (!fs.existsSync(htmlPath)) return [];
   const html = fs.readFileSync(htmlPath, 'utf8');
-  const block = html.match(/const vendorIntros = \{[\s\S]*?\};/);
-  if (!block) return [];
-  const documented = new Set([...block[0].matchAll(/'([^']+)':/g)].map(m => m[1]));
-  return buildMissingVendors(leaderboard, data)
-    .map(item => item.vendor)
-    .filter(vendor => !documented.has(vendor));
+  const documented = new Set();
+  for (const block of html.matchAll(/const (vendorIntros|columnIntros) = \{[\s\S]*?\};/g)) {
+    for (const key of block[0].matchAll(/'([^']+)':/g)) documented.add(key[1]);
+  }
+  const candidates = [
+    ...buildMissingVendors(leaderboard, data).map(item => item.vendor),
+    ...data.vendors.filter(vendor => !NON_TEXT_COLUMNS.includes(vendor))
+  ];
+  return [...new Set(candidates)].filter(name => !documented.has(name));
 }
 
 async function fetchModelPage(slug, htmlCacheDir) {
@@ -352,7 +355,7 @@ async function main() {
 
   let report = renderReport(buckets, Boolean(args.dryRun));
   if (missingIntros.length > 0) {
-    report += `\n### 📝 缺编者注的厂商（aa-ranking.html vendorIntros）\n${missingIntros.map(v => `- ${v}`).join('\n')}\n`;
+    report += `\n### 📝 缺编者注的厂商（aa-vendors.html columnIntros / vendorIntros）\n${missingIntros.map(v => `- ${v}`).join('\n')}\n`;
   }
 
   const hasContent = buckets.added.length + buckets.variant.length + buckets.noColumn.length

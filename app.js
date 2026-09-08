@@ -7,6 +7,9 @@ let sortOrder = 'desc';
 
 const { flattenRowText, normalizeModelEntries } = window.ModelUtils;
 
+// 专题聚合列（非厂商），列名不链接到厂商名录
+const NON_VENDOR_COLUMNS = new Set(['Open-Source', 'LLM-Applications', 'AI-Chips', 'AI-Cloud']);
+
 const VENDOR_NAMES = {
   'OpenAI': 'OpenAI',
   'Anthropic': 'Anthropic',
@@ -188,7 +191,13 @@ function render() {
 
   const visibleVendors = ['Month', ...allData.vendors.filter(vendor => activeVendors.has(vendor))];
 
-  thead.innerHTML = `<tr>${visibleVendors.map(vendor => `<th>${vendor}</th>`).join('')}</tr>`;
+  // 厂商列名链接到厂商名录对应锚点；Month 与专题聚合列保持纯文本
+  const renderHeader = vendor => {
+    if (vendor === 'Month' || NON_VENDOR_COLUMNS.has(vendor)) return `<th>${vendor}</th>`;
+    return `<th><a href="aa-vendors.html#v-${encodeURIComponent(vendor)}" target="_blank" rel="noopener">${vendor}</a></th>`;
+  };
+
+  thead.innerHTML = `<tr>${visibleVendors.map(renderHeader).join('')}</tr>`;
 
   tbody.innerHTML = filteredRows.map(row => {
     return `<tr>${visibleVendors.map(vendor => {

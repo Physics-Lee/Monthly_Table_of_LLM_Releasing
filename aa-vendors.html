@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>厂商名录 | LLM Release Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .back-link {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+    .back-link a { color: var(--text-secondary); }
+    .snapshot-time {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin: 4px 0 20px;
+    }
+    .vendor-section h2 {
+      font-size: 16px;
+      margin: 24px 0 10px;
+    }
+    .vendor-note {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-top: 8px;
+    }
+    /* 从主月表列名锚点跳入时高亮该行 */
+    tr:target td {
+      background: #eef2ff;
+    }
+    td.score-cell { font-weight: 600; }
+    td.intro-cell {
+      font-size: 12px;
+      color: var(--text-secondary);
+      min-width: 260px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>厂商名录</h1>
+        <span class="back-link"><a href="./">← 返回时间线</a>　<a href="aa-ranking.html">列排名依据</a></span>
+      </div>
+      <p class="subtitle">月表所列厂商与 AA 在榜厂商的简介、最强模型与得分（主月表列名可跳转至此）</p>
+      <p class="snapshot-time" id="snapshotTime">加载中...</p>
+    </header>
+
+    <div class="vendor-section">
+      <h2>已收录厂商（月表列，按列序）</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="includedHead"></thead>
+          <tbody id="includedBody"></tbody>
+        </table>
+      </div>
+      <p class="vendor-note">"#"为按最强模型 AA 得分的列名次（同分并列，带 * 为估计/不完整数据）；视频模型列与无 AA 条目列不参与排名。简介为编者注（非 AA 官方数据），基于公开资料与本表收录事件整理。</p>
+    </div>
+
+    <div class="vendor-section">
+      <h2>AA 在榜、暂未收录厂商</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="missingHead"></thead>
+          <tbody id="missingBody"></tbody>
+        </table>
+      </div>
+      <p class="vendor-note">AA 得分仅供参考：本表仿《秦楚之际月表》体例、只记重大事件，是否设列取决于影响力和历史地位——影响力有限的小厂商不会收录。简介为编者注（非 AA 官方数据），基于各厂商公开资料整理。</p>
+    </div>
+
+    <div class="footer">
+      <span class="source">数据来源：<a href="https://artificialanalysis.ai/leaderboards/models" target="_blank" rel="noopener">Artificial Analysis Intelligence Index</a>（仅含有得分模型）</span>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const [aaRes, dataRes] = await Promise.all([
+        fetch('aa-ranking.json'),
+        fetch('data.json')
+      ]);
+      const aaData = await aaRes.json();
+      const timeline = await dataRes.json();
+
+      const ts = new Date(aaData.fetchedAt);
+      document.getElementById('snapshotTime').textContent =
+        `AA 数据抓取时间：${ts.toLocaleString('zh-CN')} | 页面生成时间：${new Date(aaData.generatedAt).toLocaleString('zh-CN')}`;
+
+      // 编者注：月表列简介（键须与 data.json 的 vendors 完全一致）
+      const columnIntros = {
+        'Anthropic': '2021 年由 OpenAI 前研究副总裁 Dario Amodei 等创立的"安全派"公司。Claude 系列常居本表最前（Opus/Sonnet 双旗舰档，另有 Mythos、Fable 等线），以宪法式 AI 与编程、智能体能力著称；Claude Fable 5.1 (max) 现居 AA 榜首。',
+        'OpenAI': '2022 年 11 月 30 日发布 ChatGPT，是本表时间轴的起点。GPT 旗舰线代代定义前沿（最新 GPT-6 Astra 与 Claude 旗舰同分），另有 GPT-Live 实时线与 Cyber 安全线；收录事件数（51 条）为本表之最。',
+        'Meta': 'FAIR 出身的开源旗手：Llama 1→4 以开放权重引爆全球开源生态。2026 年路线转向闭源旗舰，Muse 系列（Spark/Glimmer）直攻前沿榜。',
+        'GLM-Z.ai': '智谱（Zhipu AI，清华技术成果转化）的出海品牌。从 ChatGLM 到 GLM-5.3 坚持"开源权重 + API"双线，编程与智能体为强项，是国内厂商在 AA 榜的最佳名次保持者。',
+        'xAI': '马斯克 2023 年创立，走"最大算力 + 快迭代"路线（Colossus 集群）。Grok 系列 17 次迭代进入第一梯队；曾开放 Grok-1 权重。',
+        'Kimi-Moonshot': '月之暗面（杨植麟创立），2023 年以 20 万字无损长上下文 Kimi Chat 出圈。K2 系列为开源权重旗舰（K2 Thinking 一度全球刷榜），最新 Kimi K3 跻身第一梯队。',
+        'Qwen-Alibaba': '阿里通义千问，收录事件最多的厂商之一（50 条）。Qwen 全档位开源生态为全球最大（0.5B 到 2.4T MoE），Qwen3.8 一代四型号同发（Max / 2.4T-A95B / 27B / Flash-Next）。',
+        'Google': '从 Bard 翻车到 Gemini 常年前排，36 条发布仅次于 OpenAI 与 Qwen；另有 Gemma 开源线与 DiffusionGemma 扩散语言模型实验。',
+        'DeepSeek': '幻方量化背景的梁文锋创立，以极致性价比的开源权重震动行业（V3、R1 两度全球刷屏）。V4 系列延续"开源旗舰"路线。',
+        'Motif': 'Motif Technologies：2024 年 12 月以 Llama-3-Motif-102B 出道，随后深耕 2.6B–12.7B 高效小模型；2026 年 Motif 3 上探旗舰档并跻身 AA 前十，是本表前十中最年轻的厂商。',
+        'MiniMax': '闫俊杰创立的上海公司，abab 起家后 M 系列进入国内第一梯队，海内外 C 端产品声量大；另有 H 系列旗舰线。',
+        'Xiaomi': '小米大模型团队。2025 年 MiMo-7B 以小搏大出圈，现 MiMo-V2/V2.5 系覆盖 Omni、TTS 等多模态端侧方向。',
+        'Thinking Machines Lab': 'Mira Murati（前 OpenAI CTO）2024 年创立，长期低调。2026 年 5 月发布首个模型 TML-Interaction-Small，7 月的 Inkling 系列即进入 AA 榜——成立两年即上榜。',
+        'Tencent': '腾讯混元（Hunyuan → HY），国内大厂中开源权重较积极的一家（HY 2.0 Think/Instruct 开源）。最新 HY3 系列为现役旗舰。',
+        'Ant-Group': '蚂蚁集团：百灵 Ling 开源系列（最高 1T 参数）+ CodeFuse 代码线 + AReaL 强化学习开源框架，面向金融与产业场景。',
+        'NVIDIA': '算力霸主的模型部门：Nemotron 系（Nano/Super/Ultra 三档）配套 CUDA 生态开源，另有 Cosmos 世界模型线。',
+        'StepFun': '阶跃星辰（姜大昕创立），国内多模态最激进的创业公司之一（Step-Video / Step-Audio 为早期开源代表作）。',
+        'Doubao-ByteDance': '字节跳动豆包：国内 C 端用户量最大的 AI 助手；Seed 团队研究实力强（Seedance 视频线全球领先，Seed Code 专攻编程）。',
+        'Mistral': '欧洲旗舰，前 Meta 研究员 Guillaume Lample 等创立。Mistral 7B 与 Mixtral 8x7B 是开源史里程碑，现以闭源 API 与企业市场为主。',
+        'ModelBest-OpenBMB': '面壁智能（清华 OpenBMB 团队），端侧小模型代表：MiniCPM 系列以"以小搏大"著称，V / o 线覆盖多模态与全模态。',
+        'Baidu': '文心 ERNIE：国内最早对标 ChatGPT 的大厂（2023 年 3 月首发），X1 推理线与 5.x 旗舰线并行迭代。',
+        'Amazon': 'AWS 的 Nova 系列（前身为 Titan），依托 Bedrock 云生态主打企业市场，Sonic 线覆盖实时语音交互。',
+        'Cohere': 'Aidan Gomez（Transformer 论文作者之一）创立，企业 RAG 起家（Embed / Rerank），Command A 系为主力、Aya 系专攻多语种。',
+        'Boss-Nanbeige': 'Boss 直聘旗下南北阁（Nanbeige）团队，专攻 3B 级轻量模型，以招聘 / HR 场景为主，三代迭代节奏稳定。',
+        'Liquid AI': 'MIT 团队创立（液态神经网络出身），LFM 系（Liquid Foundation Models）以非 Transformer 架构主打端侧高吞吐。',
+        'Allen': '艾伦人工智能研究所（Ai2），非营利开源旗手：OLMo 系列权重、数据、训练代码全开，配套 Tülu 后训练与 Molmo 多模态。',
+        'Celeris': '2026 年 7 月首发 Celeris-1、9 月即推出加强版 Magnus，是本表最年轻的厂商列之一；AA 首测分数尚低，公开资料有限。',
+        'Microsoft': 'Phi 系列"教科书级数据"小模型的代表，长期定义端侧精品档；另有 MAI 安全线，同时是 OpenAI 的主要投资方。',
+        'AI21': '以色列公司（Jurassic 系起家），Jamba 系为 SSM + Transformer 混合架构先驱，另有 Maestro 编排平台。',
+        'iFlytek': '科大讯飞"星火"：语音技术起家二十余年的老厂，2023 年 5 月率先对标 ChatGPT，以华为昇腾全栈国产算力训练为卖点；X2 系为现役旗舰。',
+        'Kuaishou-Kling': '快手可灵（Kling）：视频生成全球头部，与 Sora 直接竞争，3.0 为本表收录的最新旗舰。',
+        'Vidu': '生数科技的国产视频模型（与可灵并称国内双雄之一），本表自 2026 年 1 月起收录（Q3）。',
+        'Huawei': '华为盘古（PanGu）：昇腾算力 + 鲲鹏生态的"主权 AI"路线，面向气象、矿山、政务等行业场景。',
+        '01.AI': '零一万物（李开复创立），Yi 系列曾是国产开源标杆；2025 年战略转向企业解决方案后渐归沉寂，本表最后一笔为 2024 年 5 月的 Yi-1.5。',
+        'Baichuan-Intelligence': '百川智能（王小川创立），主打医疗方向大模型；本表最后一笔为 2024 年 5 月的 Baichuan 4。',
+        'Apple': '不走 API 路线的端侧派：MLX 推理框架、OpenELM 与 Ferret 系研究开源，Apple Intelligence 直接集成进系统；因不提供公开 API，AA 文本指数无其条目。',
+        'Stability': 'Stable Diffusion 老牌文生图厂商，3.5 之后再无重磅发布，声势渐弱；图像模型，与 AA 文本指数无关。',
+        'SenseTime': '商汤"日日新"（SenseNova / SenseChat），多模态 + 大装置算力平台路线。'
+      };
+
+      // 编者注：AA 在榜厂商简介（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致）
+      const vendorIntros = {
+        'Nex AGI': '上海创新研究院发起的开源智能体联盟。Nex-N2-Pro 为 397B 总参 / 17B 激活的 MoE（基于 Qwen3.5 架构），开源权重，主打编程与长程智能体任务。',
+        'Upstage': '2020 年成立的韩国 AI 独角兽，由 Naver 前研究员创办。以 Solar 系列模型和文档理解 AI 著称，是韩国最活跃的模型创业公司之一。',
+        'China Mobile': '中国移动的大模型品牌"九天"（JT）。JT4.0（236B MoE 与 35B 稠密双版本）主打安全可信，JT-4.1 为其迭代，面向矿山、石化等工业场景。',
+        'Sapiens AI': '对外品牌为 Agnes AI，新加坡公司。以"免费全模态 API"为卖点：Agnes 2.5 Flash 等文本、图像、视频模型免费（OpenAI 兼容），在中文开发者社区以"永久免费"出圈，但免费尚无公开的商业模式说明；Pro 为付费旗舰线（1M 上下文）。AA 榜上的 Agnes 2.5 Pro Beta 为现行稳定版；前代 Pro Alpha 托管 API 已废弃，开源权重（Apache-2.0）。',
+        'Apodex': '面向复杂专业工作（法规/金融/科研）的智能体公司，主打"可验证执行"（端到端干活并内置结果核查，而非只写报告）。旗舰 Apodex 1.1 为闭源 API；开源的是 mini 版（~35B，基于 Qwen3.5-35B-A3B，Apache-2.0）。',
+        'SK Telecom': '韩国 SK 电信，模型品牌 A.X（为自家 A dot 助手供能）。A.X-K2 为 688B MoE、开源权重，主打韩语本地化与工业场景。',
+        'LongCat': '美团大模型团队孵化的独立品牌（LongCat.AI 平台由美团关联公司运营）。首发开源 LongCat-Flash-Chat（560B MoE），以"零计算专家"机制、性能追平 DeepSeek-V3.1 出名。',
+        'KwaiKAT': '快手 Kwaipilot 团队，编程助手 KwaiCoder 背后的模型力量。KAT-Coder 系列专攻智能体编程，Dev 系列开源，Pro 为闭源旗舰。',
+        'AI9Stars': '小型开源组织，主打 G9 系列轻量推理模型（G9v3 等），另有 Cheers 等模型与多模态、遥感方向研究，影响力有限。',
+        'LG AI Research': 'LG 集团旗下研究院，2021 年起发布 EXAONE 系列模型，韩国"主权 AI"主力之一。',
+        'IBM': '百年科技巨头。Granite 为企业级开源模型线（Apache 2.0，350M 至 30B 全档位覆盖），主打企业私有化部署与低价位性价比。',
+        'Inception': '即 Inception Labs，扩散语言模型（dLLM）先驱。Mercury 2 为首个带推理能力的扩散 LLM，输出速度超 1000 tokens/s，主打超低延迟场景。',
+        'ServiceNow': '企业工作流软件巨头。Apriel 系列与 NVIDIA 合作训练，主打超低延迟的企业智能体工作流。',
+        'Arcee AI': '开源小模型专业户，以模型合并与蒸馏技术（Evolutionary Merging）出名，主打高性价比小模型。',
+        'Multiverse Computing': '西班牙量子计算公司，用张量网络压缩技术（CompactifAI）训练超紧凑模型，HyperNova 为其 60B 压缩模型线。',
+        'MBZUAI Institute of Foundation Models': '阿联酋 MBZUAI 大学基础模型研究所（IFM），与 G42 合作。K2 Think V2 为 70B"主权开源"推理模型（权重、数据、代码全开）；与 Moonshot 的 Kimi K2 同名但无关。',
+        'Naver': '韩国最大搜索门户。HyperCLOVA X 系列是韩国"主权 AI"的基石，SEED 为其开源分支。',
+        'Korea Telecom': '韩国 KT 电信，Mi:dm 系列模型主打韩语企业市场。',
+        'Prime Intellect': '去中心化训练实验室。INTELLECT-1/2 是去中心化训练的标志性开源模型，INTELLECT-3 为其续作。',
+        'Trillion Labs': '韩国 AI 创业公司。Tri-21B（含 Think 推理版）为 21B 开源权重模型（Apache 2.0），主打单卡推理与英/韩/日三语，2026 年 2 月首发时曾进入全球榜单前 30。',
+        'Sarvam': '印度"全栈主权 AI"公司（2023 年成立），覆盖 22 种印度语言的语音与文本模型，旗舰 Sarvam 105B 主打印度本地语言企业场景。',
+        'Nous Research': '美国知名开源实验室。以 Hermes 系列后训练模型闻名，Hermes 4 为其开源旗舰线，社区影响力大于商业规模。',
+        'TII UAE': '阿布扎比科技创新研究院（TII），Falcon 系列出品方，中东"主权 AI"主力，Falcon-H1R 为其 SSM-Transformer 混合架构开源线。',
+        'Perplexity': 'AI 搜索引擎公司。R1 1776 为其开源的 DeepSeek R1 后训练版（去审查微调），主打中立性卖点。',
+        'Reka AI': '前 Google DeepMind / Meta 研究员创办的创业公司，以多模态 Flash 系列开源小模型著称。',
+        'Swiss AI Initiative': '瑞士国家 AI 计划（ETH 系院校联合），在瑞士阿尔卑斯（Alps）超算上训练 Apertus 系列开源模型。'
+      };
+
+      // 编者注：厂商显示名（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致；不改数据源，仅改页面展示）
+      const vendorDisplayNames = {
+        'Apodex': 'Apodex/MiroMind'
+      };
+
+      // ---- 分区一：月表已收录厂商（按主月表列序） ----
+      const TOPIC_COLUMNS = ['Open-Source', 'LLM-Applications', 'AI-Chips', 'AI-Cloud'];
+      const videoColumns = new Set(aaData.excludedColumns.filter(c => !TOPIC_COLUMNS.includes(c)));
+      const rankedByColumn = new Map(aaData.ranked.map(item => [item.column, item]));
+      const vendorColumns = timeline.vendors.filter(v => !TOPIC_COLUMNS.includes(v));
+
+      document.getElementById('includedHead').innerHTML =
+        '<tr><th>#</th><th>厂商列</th><th>最强模型（AA）</th><th>AA 分数</th><th>AA 榜位</th><th>简介</th></tr>';
+      document.getElementById('includedBody').innerHTML = vendorColumns.map(column => {
+        const intro = columnIntros[column] || '';
+        const ranked = rankedByColumn.get(column);
+        if (ranked) {
+          return `
+            <tr id="v-${column}">
+              <td>${ranked.rank}</td>
+              <td>${column}</td>
+              <td>${ranked.model}</td>
+              <td class="score-cell">${ranked.score}${ranked.estimated ? '*' : ''}</td>
+              <td>#${ranked.aaRank}</td>
+              <td class="intro-cell">${intro}</td>
+            </tr>`;
+        }
+        const status = videoColumns.has(column) ? '视频模型列' : '无 AA 条目';
+        return `
+          <tr id="v-${column}">
+            <td>—</td>
+            <td>${column}</td>
+            <td>${status}</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="intro-cell">${intro}</td>
+          </tr>`;
+      }).join('');
+
+      // ---- 分区二：AA 在榜、暂未收录厂商（按 AA 得分降序） ----
+      document.getElementById('missingHead').innerHTML =
+        '<tr><th>AA 分数</th><th>厂商</th><th>代表模型</th><th>简介</th></tr>';
+      document.getElementById('missingBody').innerHTML = aaData.missingVendors.map(item => `
+        <tr>
+          <td class="score-cell">${item.score}${item.estimated ? '*' : ''}</td>
+          <td>${vendorDisplayNames[item.vendor] || item.vendor}</td>
+          <td>${item.model}</td>
+          <td class="intro-cell">${vendorIntros[item.vendor] || ''}</td>
+        </tr>`).join('');
+    });
+  </script>
+</body>
+</html>
