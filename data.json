@@ -43,6 +43,7 @@
     "Open-Source",
     "iFlytek",
     "Vidu",
+    "Shanghai-AI-Lab",
     "Huawei",
     "01.AI",
     "Baichuan-Intelligence",
@@ -109,6 +110,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -173,6 +175,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -233,6 +236,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -303,6 +307,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -405,6 +410,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -486,6 +492,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -556,6 +563,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -640,6 +648,12 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternLM-7B（书生·浦语）",
+          "url": "https://github.com/InternLM/InternLM"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [
@@ -729,6 +743,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [
         {
           "name": "PanGu 3.0",
@@ -832,6 +847,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -917,6 +933,12 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternLM-20B",
+          "url": "https://github.com/InternLM/InternLM"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [
@@ -1006,6 +1028,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1126,6 +1149,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [
         {
@@ -1252,6 +1276,12 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternVL-14B（书生·万象）",
+          "url": "https://github.com/OpenGVLab/InternVL"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1372,6 +1402,12 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternLM2",
+          "url": "https://github.com/InternLM/InternLM"
+        }
+      ],
       "Huawei": [],
       "01.AI": [
         {
@@ -1494,6 +1530,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1606,6 +1643,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1715,6 +1753,12 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternVL 1.5",
+          "url": "https://github.com/OpenGVLab/InternVL"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -1843,6 +1887,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [
         {
@@ -1953,6 +1998,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [
         {
           "name": "PanGu 5.0",
@@ -2047,6 +2093,16 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternLM2.5",
+          "url": "https://github.com/InternLM/InternLM"
+        },
+        {
+          "name": "InternVL2",
+          "url": "https://github.com/OpenGVLab/InternVL"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2146,6 +2202,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2266,6 +2323,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2369,6 +2427,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2484,6 +2543,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2631,6 +2691,12 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternVL2.5",
+          "url": "https://github.com/OpenGVLab/InternVL"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2758,6 +2824,12 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternLM3",
+          "url": "https://github.com/InternLM/InternLM"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -2871,6 +2943,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3011,6 +3084,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3164,6 +3238,12 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternVL3",
+          "url": "https://github.com/OpenGVLab/InternVL"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3285,6 +3365,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3396,6 +3477,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [
         {
           "name": "PanGu 5.5",
@@ -3558,6 +3640,12 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "Intern-S1",
+          "url": "https://www.shlab.org.cn/news/5444185"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3677,6 +3765,12 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [
+        {
+          "name": "InternVL3.5",
+          "url": "https://huggingface.co/OpenGVLab/InternVL3_5-241B-A28B"
+        }
+      ],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3781,6 +3875,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -3899,6 +3994,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -4036,6 +4132,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -4185,6 +4282,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -4327,6 +4425,7 @@
           "url": "https://www.vidu.com/vidu-q3"
         }
       ],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -4502,6 +4601,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -4677,6 +4777,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -4886,6 +4987,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -5034,6 +5136,7 @@
       ],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -5191,6 +5294,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -5351,6 +5455,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -5517,6 +5622,7 @@
       "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
@@ -5625,6 +5731,7 @@
         }
       ],
       "Vidu": [],
+      "Shanghai-AI-Lab": [],
       "Huawei": [],
       "01.AI": [],
       "Baichuan-Intelligence": [],
