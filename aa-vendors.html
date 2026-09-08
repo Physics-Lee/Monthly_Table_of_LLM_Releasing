@@ -25,9 +25,14 @@
       color: var(--text-tertiary);
       margin-top: 8px;
     }
-    /* 从主月表列名锚点跳入时高亮该行 */
-    tr:target td {
+    /* 从主月表列名锚点跳入时高亮该行（:target 覆盖同页跳转；anchor-hit 兜底冷加载——
+       行是 fetch 后动态渲染的，浏览器解析锚点时行还不存在，:target 不会生效） */
+    tr:target td,
+    tr.anchor-hit td {
       background: #eef2ff;
+    }
+    tr.anchor-hit {
+      scroll-margin-top: 12px;
     }
     td.score-cell { font-weight: 600; }
     td.intro-cell {
@@ -209,6 +214,14 @@
           <td>${item.model}</td>
           <td class="intro-cell">${vendorIntros[item.vendor] || ''}</td>
         </tr>`).join('');
+
+      // 行渲染后兜底定位锚点（冷加载时浏览器解析锚点早于行渲染）
+      const hashId = decodeURIComponent(location.hash.slice(1));
+      const anchorRow = hashId && document.getElementById(hashId);
+      if (anchorRow) {
+        anchorRow.classList.add('anchor-hit');
+        anchorRow.scrollIntoView({ block: 'start' });
+      }
     });
   </script>
 </body>
