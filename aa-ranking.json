@@ -75,12 +75,28 @@
       "rank": 9
     },
     {
+      "column": "Agnes-Sapiens",
+      "model": "Agnes 2.5 Pro Beta",
+      "score": 35,
+      "estimated": true,
+      "aaRank": 47,
+      "rank": 10
+    },
+    {
       "column": "Motif",
       "model": "Motif 3",
       "score": 34,
       "estimated": true,
       "aaRank": 59,
-      "rank": 10
+      "rank": 11
+    },
+    {
+      "column": "Apodex-MiroMind",
+      "model": "Apodex 1.1",
+      "score": 30,
+      "estimated": true,
+      "aaRank": 66,
+      "rank": 12
     },
     {
       "column": "MiniMax",
@@ -88,7 +104,7 @@
       "score": 30,
       "estimated": false,
       "aaRank": 69,
-      "rank": 11
+      "rank": 12
     },
     {
       "column": "Xiaomi",
@@ -96,7 +112,7 @@
       "score": 26,
       "estimated": false,
       "aaRank": 81,
-      "rank": 12
+      "rank": 14
     },
     {
       "column": "Thinking Machines Lab",
@@ -104,7 +120,7 @@
       "score": 26,
       "estimated": false,
       "aaRank": 83,
-      "rank": 12
+      "rank": 14
     },
     {
       "column": "Tencent",
@@ -112,7 +128,7 @@
       "score": 26,
       "estimated": false,
       "aaRank": 86,
-      "rank": 12
+      "rank": 14
     },
     {
       "column": "Ant-Group",
@@ -120,7 +136,7 @@
       "score": 25,
       "estimated": true,
       "aaRank": 89,
-      "rank": 15
+      "rank": 17
     },
     {
       "column": "NVIDIA",
@@ -128,7 +144,23 @@
       "score": 23,
       "estimated": false,
       "aaRank": 96,
-      "rank": 16
+      "rank": 18
+    },
+    {
+      "column": "EXAONE-LG",
+      "model": "K-EXAONE 2.0",
+      "score": 20,
+      "estimated": true,
+      "aaRank": 115,
+      "rank": 19
+    },
+    {
+      "column": "LongCat",
+      "model": "LongCat 2.0",
+      "score": 20,
+      "estimated": false,
+      "aaRank": 116,
+      "rank": 19
     },
     {
       "column": "StepFun",
@@ -136,7 +168,7 @@
       "score": 19,
       "estimated": true,
       "aaRank": 117,
-      "rank": 17
+      "rank": 21
     },
     {
       "column": "Doubao-ByteDance",
@@ -144,7 +176,7 @@
       "score": 17,
       "estimated": true,
       "aaRank": 126,
-      "rank": 18
+      "rank": 22
     },
     {
       "column": "Mistral",
@@ -152,7 +184,15 @@
       "score": 15,
       "estimated": false,
       "aaRank": 135,
-      "rank": 19
+      "rank": 23
+    },
+    {
+      "column": "IBM",
+      "model": "Granite 4.2 30B",
+      "score": 15,
+      "estimated": true,
+      "aaRank": 136,
+      "rank": 23
     },
     {
       "column": "ModelBest-OpenBMB",
@@ -160,7 +200,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 139,
-      "rank": 20
+      "rank": 25
     },
     {
       "column": "Baidu",
@@ -168,7 +208,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 140,
-      "rank": 20
+      "rank": 25
     },
     {
       "column": "Amazon",
@@ -176,7 +216,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 142,
-      "rank": 20
+      "rank": 25
     },
     {
       "column": "Cohere",
@@ -184,7 +224,7 @@
       "score": 14,
       "estimated": false,
       "aaRank": 143,
-      "rank": 20
+      "rank": 25
     },
     {
       "column": "Boss-Nanbeige",
@@ -192,7 +232,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 208,
-      "rank": 24
+      "rank": 29
     },
     {
       "column": "Liquid AI",
@@ -200,7 +240,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 209,
-      "rank": 24
+      "rank": 29
     },
     {
       "column": "Allen",
@@ -208,7 +248,7 @@
       "score": 7,
       "estimated": true,
       "aaRank": 235,
-      "rank": 26
+      "rank": 31
     },
     {
       "column": "Celeris",
@@ -216,7 +256,7 @@
       "score": 6,
       "estimated": false,
       "aaRank": 249,
-      "rank": 27
+      "rank": 32
     },
     {
       "column": "Microsoft",
@@ -224,7 +264,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 250,
-      "rank": 27
+      "rank": 32
     },
     {
       "column": "AI21",
@@ -232,26 +272,14 @@
       "score": 6,
       "estimated": true,
       "aaRank": 255,
-      "rank": 27
+      "rank": 32
     }
   ],
   "missingVendors": [
     {
-      "vendor": "Sapiens AI",
-      "model": "Agnes 2.5 Pro Beta",
-      "score": 35,
-      "estimated": true
-    },
-    {
       "vendor": "MBZUAI Institute of Foundation Models",
       "model": "K2 Horizon 375B A23B",
       "score": 34,
-      "estimated": true
-    },
-    {
-      "vendor": "Apodex",
-      "model": "Apodex 1.1",
-      "score": 30,
       "estimated": true
     },
     {
@@ -294,24 +322,6 @@
       "vendor": "KwaiKAT",
       "model": "KAT-Coder-Pro V2",
       "score": 22,
-      "estimated": true
-    },
-    {
-      "vendor": "LG AI Research",
-      "model": "K-EXAONE 2.0",
-      "score": 20,
-      "estimated": true
-    },
-    {
-      "vendor": "LongCat",
-      "model": "LongCat 2.0",
-      "score": 20,
-      "estimated": false
-    },
-    {
-      "vendor": "IBM",
-      "model": "Granite 4.2 30B",
-      "score": 15,
       "estimated": true
     },
     {
@@ -410,5 +420,5 @@
     "Kuaishou-Kling",
     "Vidu"
   ],
-  "generatedAt": "2026-09-08T01:15:36.574Z"
+  "generatedAt": "2026-09-08T07:21:40.145Z"
 }

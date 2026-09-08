@@ -37,7 +37,12 @@ const VENDOR_TO_COLUMN = {
   'Allen Institute for AI': 'Allen',
   'Microsoft': 'Microsoft',
   'AI21 Labs': 'AI21',
-  'Celeris': 'Celeris'
+  'Celeris': 'Celeris',
+  'Apodex': 'Apodex-MiroMind',
+  'IBM': 'IBM',
+  'LongCat': 'LongCat',
+  'LG AI Research': 'EXAONE-LG',
+  'Sapiens AI': 'Agnes-Sapiens'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard

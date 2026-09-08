@@ -122,6 +122,11 @@
         'Liquid AI': 'MIT 团队创立（液态神经网络出身），LFM 系（Liquid Foundation Models）以非 Transformer 架构主打端侧高吞吐。',
         'Allen': '艾伦人工智能研究所（Ai2），非营利开源旗手：OLMo 系列权重、数据、训练代码全开，配套 Tülu 后训练与 Molmo 多模态。',
         'Celeris': '2026 年 7 月首发 Celeris-1、9 月即推出加强版 Magnus，是本表最年轻的厂商列之一；AA 首测分数尚低，公开资料有限。',
+        'Apodex-MiroMind': '陈天桥（盛大创始人）创立并亲任 CEO 的智能体公司（注册于美国，研发在美+新加坡），前身为 2025 年的 MiroMind，2026 年 4 月重组更名。从 MiroThinker 系列"深度研究智能体"到 Apodex 主打"可验证执行"（Heavy-Duty Solver）：旗舰 Apodex 1.1 为闭源 API，开源的是 mini 版（~35B，Apache-2.0）。',
+        'IBM': '百年科技巨头的 Granite 企业级开源线（Apache 2.0，350M 至 30B 全档位）：4.0 代改用混合 Mamba 架构主打低显存，最新 4.2 加入原生推理与企业智能体能力，另有 Granite Code 代码线与 Guardian 安全模型。',
+        'LongCat': '美团大模型团队 2025 年 8 月首发即开源 LongCat-Flash-Chat（560B MoE，动态计算机制），后续 Flash-Thinking / Flash-Lite 线持续开源；现役旗舰 LongCat 2.0 为万亿参数级、1M 上下文的 API 模型，另有 Video 视频生成线。',
+        'EXAONE-LG': 'LG 集团 2020 年末设立的研究院。EXAONE 系列 3.0 起开源（韩国首个开源 LLM），4.0 为混合推理模型；K-EXAONE（236B→750B MoE）是韩国科信部"主权 AI 基础模型项目"产物，2.0 为韩国最大开源模型。',
+        'Agnes-Sapiens': '新加坡公司 Sapiens AI，对外品牌 Agnes AI。以"免费全模态 API"出圈：2026 年 6 月起文本（Flash）/图像/视频线免费开放，中文开发者社区热度高；Pro 为付费旗舰线（1M 上下文），前代 Pro Alpha 已弃用并开源权重。',
         'Microsoft': 'Phi 系列"教科书级数据"小模型的代表，长期定义端侧精品档；另有 MAI 安全线，同时是 OpenAI 的主要投资方。',
         'AI21': '以色列公司（Jurassic 系起家），Jamba 系为 SSM + Transformer 混合架构先驱，另有 Maestro 编排平台。',
         'iFlytek': '科大讯飞"星火"：语音技术起家二十余年的老厂，2023 年 5 月率先对标 ChatGPT，以华为昇腾全栈国产算力训练为卖点；X2 系为现役旗舰。',
@@ -140,14 +145,9 @@
         'Nex AGI': '上海创新研究院发起的开源智能体联盟。Nex-N2-Pro 为 397B 总参 / 17B 激活的 MoE（基于 Qwen3.5 架构），开源权重，主打编程与长程智能体任务。',
         'Upstage': '2020 年成立的韩国 AI 独角兽，由 Naver 前研究员创办。以 Solar 系列模型和文档理解 AI 著称，是韩国最活跃的模型创业公司之一。',
         'China Mobile': '中国移动的大模型品牌"九天"（JT）。JT4.0（236B MoE 与 35B 稠密双版本）主打安全可信，JT-4.1 为其迭代，面向矿山、石化等工业场景。',
-        'Sapiens AI': '对外品牌为 Agnes AI，新加坡公司。以"免费全模态 API"为卖点：Agnes 2.5 Flash 等文本、图像、视频模型免费（OpenAI 兼容），在中文开发者社区以"永久免费"出圈，但免费尚无公开的商业模式说明；Pro 为付费旗舰线（1M 上下文）。AA 榜上的 Agnes 2.5 Pro Beta 为现行稳定版；前代 Pro Alpha 托管 API 已废弃，开源权重（Apache-2.0）。',
-        'Apodex': '面向复杂专业工作（法规/金融/科研）的智能体公司，主打"可验证执行"（端到端干活并内置结果核查，而非只写报告）。旗舰 Apodex 1.1 为闭源 API；开源的是 mini 版（~35B，基于 Qwen3.5-35B-A3B，Apache-2.0）。',
         'SK Telecom': '韩国 SK 电信，模型品牌 A.X（为自家 A dot 助手供能）。A.X-K2 为 688B MoE、开源权重，主打韩语本地化与工业场景。',
-        'LongCat': '美团大模型团队孵化的独立品牌（LongCat.AI 平台由美团关联公司运营）。首发开源 LongCat-Flash-Chat（560B MoE），以"零计算专家"机制、性能追平 DeepSeek-V3.1 出名。',
         'KwaiKAT': '快手 Kwaipilot 团队，编程助手 KwaiCoder 背后的模型力量。KAT-Coder 系列专攻智能体编程，Dev 系列开源，Pro 为闭源旗舰。',
         'AI9Stars': '小型开源组织，主打 G9 系列轻量推理模型（G9v3 等），另有 Cheers 等模型与多模态、遥感方向研究，影响力有限。',
-        'LG AI Research': 'LG 集团旗下研究院，2021 年起发布 EXAONE 系列模型，韩国"主权 AI"主力之一。',
-        'IBM': '百年科技巨头。Granite 为企业级开源模型线（Apache 2.0，350M 至 30B 全档位覆盖），主打企业私有化部署与低价位性价比。',
         'Inception': '即 Inception Labs，扩散语言模型（dLLM）先驱。Mercury 2 为首个带推理能力的扩散 LLM，输出速度超 1000 tokens/s，主打超低延迟场景。',
         'ServiceNow': '企业工作流软件巨头。Apriel 系列与 NVIDIA 合作训练，主打超低延迟的企业智能体工作流。',
         'Arcee AI': '开源小模型专业户，以模型合并与蒸馏技术（Evolutionary Merging）出名，主打高性价比小模型。',
@@ -166,9 +166,7 @@
       };
 
       // 编者注：厂商显示名（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致；不改数据源，仅改页面展示）
-      const vendorDisplayNames = {
-        'Apodex': 'Apodex/MiroMind'
-      };
+      const vendorDisplayNames = {};
 
       // ---- 分区一：月表已收录厂商（按主月表列序） ----
       const TOPIC_COLUMNS = ['Open-Source', 'LLM-Applications', 'AI-Chips', 'AI-Cloud'];
