@@ -30,10 +30,10 @@
     "Doubao-ByteDance",
     "Mistral",
     "IBM",
-    "ModelBest-OpenBMB",
     "Baidu",
     "Amazon",
     "Cohere",
+    "ModelBest-OpenBMB",
     "Boss-Nanbeige",
     "Liquid AI",
     "Allen",
@@ -92,10 +92,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -162,10 +162,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -223,10 +223,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -289,10 +289,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -378,7 +378,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE Bot",
@@ -387,6 +386,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -474,10 +474,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -545,10 +545,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -616,10 +616,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -725,7 +725,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 3.5",
@@ -734,6 +733,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -824,10 +824,10 @@
       ],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -915,10 +915,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1001,7 +1001,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 4.0",
@@ -1010,6 +1009,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1118,7 +1118,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [
         {
@@ -1140,6 +1139,7 @@
           "url": "https://cohere.com/blog/rerank-3"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1253,10 +1253,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1367,10 +1367,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1502,18 +1502,18 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [
-        {
-          "name": "MiniCPM",
-          "url": "https://github.com/OpenBMB/MiniCPM"
-        }
-      ],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
         {
           "name": "Aya",
           "url": "https://cohere.com/research/aya"
+        }
+      ],
+      "ModelBest-OpenBMB": [
+        {
+          "name": "MiniCPM",
+          "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
       "Boss-Nanbeige": [],
@@ -1610,7 +1610,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -1619,6 +1618,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1730,7 +1730,6 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -1739,6 +1738,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -1845,12 +1845,6 @@
           "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
         }
       ],
-      "ModelBest-OpenBMB": [
-        {
-          "name": "MiniCPM 2.0",
-          "url": "https://github.com/OpenBMB/MiniCPM"
-        }
-      ],
       "Baidu": [],
       "Amazon": [
         {
@@ -1862,6 +1856,12 @@
         {
           "name": "Aya 23",
           "url": "https://cohere.com/research/aya"
+        }
+      ],
+      "ModelBest-OpenBMB": [
+        {
+          "name": "MiniCPM 2.0",
+          "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
       "Boss-Nanbeige": [],
@@ -1980,10 +1980,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -2080,10 +2080,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -2175,7 +2175,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 4.0 Turbo",
@@ -2184,6 +2183,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -2305,10 +2305,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [
@@ -2396,7 +2396,6 @@
           "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
         }
       ],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -2405,6 +2404,7 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -2512,10 +2512,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [
@@ -2647,7 +2647,6 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
         }
       ],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [
         {
@@ -2677,6 +2676,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [
@@ -2806,15 +2806,15 @@
         }
       ],
       "IBM": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
           "url": "https://github.com/OpenBMB/MiniCPM-o"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -2930,10 +2930,10 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-2-open-source-reasoning-and-vision"
         }
       ],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -3039,7 +3039,6 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 4.5",
@@ -3061,6 +3060,7 @@
           "url": "https://cohere.com/blog/command-a"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [
@@ -3201,7 +3201,6 @@
           "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
         }
       ],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 4.5 Turbo",
@@ -3219,6 +3218,7 @@
         }
       ],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -3352,10 +3352,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -3459,15 +3459,15 @@
         }
       ],
       "IBM": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
           "url": "https://github.com/openbmb/minicpm"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -3607,7 +3607,6 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 4.5 Open",
@@ -3621,6 +3620,7 @@
           "url": "https://cohere.com/blog/command-a-vision"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -3752,10 +3752,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -3857,7 +3857,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE X1.1",
@@ -3866,6 +3865,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -3966,15 +3966,15 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
         }
       ],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B-Thinking-2510",
@@ -4104,7 +4104,6 @@
       ],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [
         {
           "name": "ERNIE 5.0",
@@ -4113,6 +4112,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [
@@ -4233,7 +4233,6 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [
         {
@@ -4250,6 +4249,7 @@
         }
       ],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B",
@@ -4375,6 +4375,9 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 4.5",
@@ -4385,9 +4388,6 @@
           "url": "https://github.com/OpenBMB/AgentCPM-Explore"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4568,10 +4568,10 @@
       ],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.1-3B",
@@ -4754,10 +4754,10 @@
         }
       ],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4959,15 +4959,15 @@
           "url": "https://www.ibm.com/granite/docs/models/granite4-1"
         }
       ],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "VoxCPM 2",
           "url": "https://github.com/OpenBMB/VoxCPM"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5099,12 +5099,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [
-        {
-          "name": "MiniCPM-V 4.6 1.3B",
-          "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
-        }
-      ],
       "Baidu": [
         {
           "name": "ERNIE 5.1",
@@ -5113,6 +5107,12 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [
+        {
+          "name": "MiniCPM-V 4.6 1.3B",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
+        }
+      ],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5266,7 +5266,6 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -5275,6 +5274,7 @@
           "url": "https://cohere.com/blog/north-mini-code"
         }
       ],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
@@ -5427,10 +5427,10 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5604,10 +5604,10 @@
           "url": "https://research.ibm.com/blog/introducing-granite-4-2"
         }
       ],
-      "ModelBest-OpenBMB": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5695,15 +5695,15 @@
       "Doubao-ByteDance": [],
       "Mistral": [],
       "IBM": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM5-2B",
           "url": "https://artificialanalysis.ai/models/minicpm5-2b"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Allen": [],
