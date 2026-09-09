@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T01:15:36.533Z",
+  "fetchedAt": "2026-09-09T01:19:07.274Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
@@ -1033,14 +1033,6 @@
     },
     {
       "rank": 139,
-      "model": "MiniCPM5-2B",
-      "vendor": "OpenBMB",
-      "score": 14,
-      "estimated": true,
-      "slug": "minicpm5-2b"
-    },
-    {
-      "rank": 140,
       "model": "ERNIE 5.0 Thinking Preview",
       "vendor": "Baidu",
       "score": 14,
@@ -1048,7 +1040,7 @@
       "slug": "ernie-5-0-thinking-preview"
     },
     {
-      "rank": 141,
+      "rank": 140,
       "model": "Gemma 4 12B",
       "vendor": "Google",
       "score": 14,
@@ -1056,7 +1048,7 @@
       "slug": "gemma-4-12b"
     },
     {
-      "rank": 142,
+      "rank": 141,
       "model": "Nova 2.0 Pro Preview (medium)",
       "vendor": "Amazon",
       "score": 14,
@@ -1064,14 +1056,14 @@
       "slug": "nova-2-0-pro-reasoning-medium"
     },
     {
-      "rank": 143,
+      "rank": 142,
       "model": "Command A+",
       "vendor": "Cohere",
       "score": 14,
       "slug": "command-a-plus"
     },
     {
-      "rank": 144,
+      "rank": 143,
       "model": "Gemma 4 31B (Non-reasoning)",
       "vendor": "Google",
       "score": 14,
@@ -1079,7 +1071,7 @@
       "slug": "gemma-4-31b-non-reasoning"
     },
     {
-      "rank": 145,
+      "rank": 144,
       "model": "Qwen3.5 9B",
       "vendor": "Alibaba",
       "score": 14,
@@ -1087,7 +1079,7 @@
       "slug": "qwen3-5-9b"
     },
     {
-      "rank": 146,
+      "rank": 145,
       "model": "Nova 2.0 Omni (medium)",
       "vendor": "Amazon",
       "score": 14,
@@ -1095,21 +1087,21 @@
       "slug": "nova-2-0-omni-reasoning-medium"
     },
     {
-      "rank": 147,
+      "rank": 146,
       "model": "Nemotron 3.5 Lightning",
       "vendor": "NVIDIA",
       "score": 14,
       "slug": "nemotron-3-5-lightning"
     },
     {
-      "rank": 148,
+      "rank": 147,
       "model": "Nemotron 3 Super",
       "vendor": "NVIDIA",
       "score": 14,
       "slug": "nvidia-nemotron-3-super-120b-a12b"
     },
     {
-      "rank": 149,
+      "rank": 148,
       "model": "Apriel-v1.6-15B-Thinker",
       "vendor": "ServiceNow",
       "score": 13,
@@ -1117,7 +1109,7 @@
       "slug": "apriel-v1-6-15b-thinker"
     },
     {
-      "rank": 150,
+      "rank": 149,
       "model": "Nova 2.0 Lite (high)",
       "vendor": "Amazon",
       "score": 13,
@@ -1125,7 +1117,7 @@
       "slug": "nova-2-0-lite-reasoning"
     },
     {
-      "rank": 151,
+      "rank": 150,
       "model": "Qwen3.5 9B (Non-reasoning)",
       "vendor": "Alibaba",
       "score": 13,
@@ -1133,12 +1125,19 @@
       "slug": "qwen3-5-9b-non-reasoning"
     },
     {
-      "rank": 152,
+      "rank": 151,
       "model": "EXAONE 4.5 33B",
       "vendor": "LG AI Research",
       "score": 13,
       "estimated": true,
       "slug": "exaone-4-5-33b"
+    },
+    {
+      "rank": 152,
+      "model": "MiniCPM5-2B",
+      "vendor": "OpenBMB",
+      "score": 13,
+      "slug": "minicpm5-2b"
     },
     {
       "rank": 153,

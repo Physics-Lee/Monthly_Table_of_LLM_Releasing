@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T01:15:36.533Z",
+  "fetchedAt": "2026-09-09T01:19:07.274Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -243,19 +243,11 @@
       "rank": 29
     },
     {
-      "column": "ModelBest-OpenBMB",
-      "model": "MiniCPM5-2B",
-      "score": 14,
-      "estimated": true,
-      "aaRank": 139,
-      "rank": 31
-    },
-    {
       "column": "Baidu",
       "model": "ERNIE 5.0 Thinking Preview",
       "score": 14,
       "estimated": true,
-      "aaRank": 140,
+      "aaRank": 139,
       "rank": 31
     },
     {
@@ -263,7 +255,7 @@
       "model": "Nova 2.0 Pro Preview (medium)",
       "score": 14,
       "estimated": true,
-      "aaRank": 142,
+      "aaRank": 141,
       "rank": 31
     },
     {
@@ -271,8 +263,16 @@
       "model": "Command A+",
       "score": 14,
       "estimated": false,
-      "aaRank": 143,
+      "aaRank": 142,
       "rank": 31
+    },
+    {
+      "column": "ModelBest-OpenBMB",
+      "model": "MiniCPM5-2B",
+      "score": 13,
+      "estimated": false,
+      "aaRank": 152,
+      "rank": 34
     },
     {
       "column": "Boss-Nanbeige",
@@ -432,5 +432,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-08T08:40:59.257Z"
+  "generatedAt": "2026-09-09T01:19:07.367Z"
 }
