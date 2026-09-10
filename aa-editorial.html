@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>编者按：AA 简史与争议 | LLM Release Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .back-link {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+    .back-link a { color: var(--text-secondary); }
+    .editorial-section {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .editorial-section h2 {
+      font-size: 16px;
+      margin: 24px 0 10px;
+    }
+    .editorial-note {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin: 8px 0;
+    }
+    /* 主表样式为 30+ 列设了 min-width:1400px，本页表格列数少，取消该下限 */
+    .table-wrapper table { min-width: 0; }
+    td.score-cell { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>编者按：AA 简史与争议</h1>
+        <span class="back-link"><a href="./">← 返回时间线</a>　<a href="aa-ranking.html">列排名依据</a></span>
+      </div>
+      <p class="models">以下内容含编者个人观察（非 AA 官方数据），史实部分基于公开资料整理。</p>
+    </header>
+
+    <section class="editorial-section">
+      <h2>AA 的历史</h2>
+      <p class="editorial-note">
+        Artificial Analysis 于 2023 年生成式 AI 热潮中创立（联合创始人兼 CEO 为 Micah Hill-Smith，Sam Paech 是其评测结果最常露面的公开面孔），起步资金仅 $250K（AI Grant 投资），后据报道完成 Lux Capital 领投的 $30M 融资（估值约 $300M）。它起家于独立评测各家 LLM API 的<strong>价格、速度、延迟等"硬指标"</strong>——这些指标可以脚本化复测、难以公关修饰，为它积累了"独立、中立"的声誉。2025 年推出旗舰产品
+        <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index" target="_blank" rel="noopener">Intelligence Index</a>
+        （当年 Q2 已迭代到 v2，年中加入 IFBench，现为 v4.2：十项评测、含私有测试集防刷分），成为行业广泛引用的第三方评测（按 AA 自述，OpenAI、Anthropic 等厂商常引用其结果）。不过经编者核查，<a href="https://openai.com/index/gpt-6-astra/" target="_blank" rel="noopener">GPT-6 Astra 官宣</a>并未直接引用 AA 综合分，而是引用了 Terminal-Bench 4.0、GPQA Diamond 等上游基准——其中 Terminal-Bench 正是 AA 指数的组成部分之一。
+      </p>
+    </section>
+
+    <section class="editorial-section">
+      <h2>为什么 AA 在 2025 年秋冬开始受到重视（编者观点）</h2>
+      <p class="editorial-note">
+        个人认为关键在于<strong>权重设计与时代偏好的对齐</strong>：AA 指数的构成为 agents / coding / 通用能力 / 科学推理四类各占 25%——Agent 与 Coding 合计恰好 50%，而纯数学评测权重为零（见<a href="aa-ranking.html#supplement-rankings">"补充排行榜参考"一节</a>）。2025 年秋冬以来，业界最看重的恰好就是 Agent 和 Coding：模型从"聊天工具"转向"干活引擎"，各家发布会的主打叙事从跑分变成了"能独立完成多少真实工程任务"。当社区的关注点迁移到 Agent/Coding，权重过半押注在这两处的 AA 自然水涨船高；相形之下，以数学、知识问答为主的传统榜单与实际能力的相关性被普遍质疑。AA 的走红一半是方法论，一半是踩中了风口。
+      </p>
+    </section>
+
+    <section class="editorial-section">
+      <h2>AA 的翻车：GPT-6 首测同分风波（2026-09）</h2>
+      <p class="editorial-note">
+        2026 年 9 月初 GPT-6 Astra 发布，AA 首测只给出 61 分——与上代 GPT-5.6 Sol (max) <strong>完全同分</strong>，"代际旗舰 ≈ 上代"的结论与公众感知严重不符，一时间"AA 测不出 GPT-6"的批评四起（讽刺的是 AA 自己的文章还在讲 <a href="https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra" target="_blank" rel="noopener">Astra 在 Coding Agent Index 上进步显著</a>）。随后几天内 AA 立刻更新了排行榜——对全指数做了重新标定（各模型分数普遍下移约 10 分），GPT-6 Astra (max) 与 GPT-5.6 Sol (max) 的差距从 0 分变为 4 分（55 : 51）。本仓库的每日快照恰好完整记录了这一过程，可复现如下：
+      </p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>快照日期</th><th>GPT-6 Astra (max)</th><th>GPT-5.6 Sol (max)</th><th>事件</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2026-09-04</td>
+              <td class="score-cell">61（#9）</td>
+              <td class="score-cell">61（#11）</td>
+              <td>GPT-6 首测，与上代同分，引发争议</td>
+            </tr>
+            <tr>
+              <td>2026-09-05</td>
+              <td class="score-cell">55（#2）</td>
+              <td class="score-cell">51（#14）</td>
+              <td>AA 重标全指数（普遍 −10 分左右），差距拉开</td>
+            </tr>
+            <tr>
+              <td>2026-09-07</td>
+              <td class="score-cell">55（#3）</td>
+              <td class="score-cell">51</td>
+              <td>分数稳定，榜位随其他模型得分微调</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="editorial-note">
+        编者注：这件事的启示是双面的——它既暴露了复合指数在"代际跃迁"面前的钝感（新旧模型的差异可能被评测集的饱和度抹平），也展示了 AA 的纠错速度（几天内完成重标并公开变更）。引用任何单一榜单分数时，记住它只是某个时点、某套权重的产物。
+      </p>
+    </section>
+
+    <section class="editorial-section">
+      <h2>一轩观察：AA 的优点与缺点</h2>
+      <p class="editorial-note">优点（按一轩认为的重要性排序）：</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>#</th><th>优点</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="score-cell">1</td>
+              <td><strong>覆盖广、数据工程好、更新快</strong>：50 余家厂商在榜，小型实验室与国家 AI 计划亦不遗漏；新模型发布到出分约一天；数据结构化且公开可取——<a href="aa-ranking.html">"列排名依据"页</a>的排名即基于其公开数据每日自动生成。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">2</td>
+              <td><strong>独立且口径统一</strong>：所有模型在 AA 自家标准化 harness 下评测（见<a href="aa-ranking.html#evaluation-setup">"评测口径"一节</a>），不收厂商自报成绩，避免"既当裁判又当运动员"。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">3</td>
+              <td><strong>防刷分设计</strong>：私有测试集防公开题库污染，提示词、温度、零样本设置全统一。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">4</td>
+              <td><strong>对错误诚实</strong>：未测完的分数标 * 公示；翻车后几天内公开重标并留痕。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="editorial-note">缺点（按一轩认为的重要性排序）：</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>#</th><th>缺点</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="score-cell">1</td>
+              <td><strong>复合指数对"代际跃迁"钝感</strong>：评测集饱和后，新旧模型的差异会被抹平，指数分辨率不够——GPT-6 首测与上代 61:61 同分即明证。单看 AA 分数判断"这代值不值得换"，会翻车。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">2</td>
+              <td><strong>私有测试集的不可审计信任</strong>——两类题库的信任结构截然相反：<br>
+                公开题库：可以被污染（蒸馏、背题），但人人可以审计——谁高分，公众可以复测验证；<br>
+                私有题库：防了污染，但把审计权收归 AA 一家——分数对不对，外界原则上无法验证，只能选择相信。<br>
+                若 AA 与厂商存在利益往来（Pro 订阅、early access、联合研究等软通道），题目遴选与评分是否发生系统性倾斜便无从察觉——2025 年 LMArena 私测风波（"Leaderboard Illusion" 报告）是行业前车之鉴。公开抽样题目、开放第三方复测、披露利益往来落地之前，其独立性是"自证的"。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">3</td>
+              <td><strong>口径盲区</strong>：纯数学权重为零、不测写作与文风、以英文文本为中心；数学天花板与真实使用偏好需配合 MathArena / LMArena 等榜单（见<a href="aa-ranking.html#supplement-rankings">"补充排行榜参考"</a>）。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">4</td>
+              <td><strong>"裸模型"口径是双刃剑</strong>：测发动机不测整车，会系统性低估深度绑定自家 harness 的模型。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">5</td>
+              <td><strong>均衡权重无理论依据</strong>：四类各 25% 是拍脑袋的产物，等于把一半权重押在饱和最快的智能体类基准上。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="footer">
+      <span class="source">数据来源：Artificial Analysis 官方页面、公开报道及编者观察</span>
+    </div>
+  </div>
+</body>
+</html>
