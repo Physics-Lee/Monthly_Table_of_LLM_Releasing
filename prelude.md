@@ -18,14 +18,14 @@
 
 ## 年表 · Pre-ChatGPT Era（2017–2022）
 
-| Year | OpenAI | Meta | GLM-Z.ai | Google | NVIDIA | Baidu | Microsoft | Open-Source | Huawei | Stability | LLM-Applications |
+| Year | OpenAI | Meta | GLM-Z.ai | Google | NVIDIA | Baidu | Microsoft | Huawei | Stability | Open-Source | LLM-Applications |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 2017 |  |  |  | [Transformer](https://arxiv.org/abs/1706.03762) |  |  |  |  |  |  |  |
 | 2018 | [GPT-1](https://openai.com/index/language-unsupervised/) |  |  | [BERT](https://arxiv.org/abs/1810.04805) |  |  |  |  |  |  |  |
 | 2019 | [GPT-2](https://openai.com/index/better-language-models/) | [RoBERTa](https://arxiv.org/abs/1907.11692) |  | [T5](https://arxiv.org/abs/1910.10683) |  | [ERNIE 2.0](https://arxiv.org/abs/1907.12412) |  |  |  |  |  |
 | 2020 | [GPT-3](https://openai.com/index/openai-api/) |  |  |  |  |  | [Turing-NLG](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) |  |  |  |  |
-| 2021 |  |  |  | [LaMDA](https://blog.google/technology/ai/lamda/) + [Gopher](https://arxiv.org/abs/2112.11446) | [MT-NLG 530B](https://developer.nvidia.com/blog/language-models-using-megatron-and-deep-speed/) | [ERNIE 3.0](https://arxiv.org/abs/2112.07473) | [Copilot Preview](https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/) | [GPT-J](https://arxiv.org/abs/2106.09685) | [盘古 α](https://arxiv.org/abs/2104.12369) |  |  |
-| 2022 | [InstructGPT](https://openai.com/index/instruction-following/) + [DALL·E 2](https://openai.com/index/dall-e-2/) + [Whisper](https://openai.com/index/whisper/) | [OPT-175B](https://arxiv.org/abs/2205.01068) | [GLM-130B](https://arxiv.org/abs/2210.02414) | [Chinchilla](https://arxiv.org/abs/2203.15556) + [Flamingo（DeepMind，视觉-语言）](https://arxiv.org/abs/2204.14198) + [PaLM](https://arxiv.org/abs/2204.02311) |  |  |  | [BLOOM](https://bigscience.huggingface.co/blog/bloom) |  | [Stable Diffusion](https://stability.ai/news/stable-diffusion-announcement) | [Midjourney](https://www.midjourney.com/) |
+| 2021 |  |  |  | [LaMDA](https://blog.google/technology/ai/lamda/) + [Gopher](https://arxiv.org/abs/2112.11446) | [MT-NLG 530B](https://developer.nvidia.com/blog/language-models-using-megatron-and-deep-speed/) | [ERNIE 3.0](https://arxiv.org/abs/2107.02137) | [Copilot Preview](https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/) | [盘古 α](https://arxiv.org/abs/2104.12369) |  | [GPT-J](https://arxiv.org/abs/2106.09685) |  |
+| 2022 | [InstructGPT](https://openai.com/index/instruction-following/) + [DALL·E 2](https://openai.com/index/dall-e-2/) + [Whisper](https://openai.com/index/whisper/) | [OPT-175B](https://arxiv.org/abs/2205.01068) | [GLM-130B](https://arxiv.org/abs/2210.02414) | [Chinchilla](https://arxiv.org/abs/2203.15556) + [Flamingo（DeepMind，视觉-语言）](https://arxiv.org/abs/2204.14198) + [PaLM](https://arxiv.org/abs/2204.02311) |  |  |  |  | [Stable Diffusion](https://stability.ai/news/stable-diffusion-announcement) | [BLOOM](https://bigscience.huggingface.co/blog/bloom) | [Midjourney](https://www.midjourney.com/) |
 
 注：年表仅收录月表中已有对应列、且在 ChatGPT 前存在公开发布的厂商；公司成立事件（如 Anthropic 2021 年成立）不计入。
 
