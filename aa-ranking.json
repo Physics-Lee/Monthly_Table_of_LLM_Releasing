@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T01:19:07.274Z",
+  "fetchedAt": "2026-09-10T01:12:30.627Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -51,17 +51,17 @@
       "rank": 5
     },
     {
-      "column": "Qwen-Alibaba",
-      "model": "Qwen3.8-Flash-Next",
-      "score": 42,
-      "estimated": true,
-      "aaRank": 28,
-      "rank": 7
-    },
-    {
       "column": "Google",
       "model": "Gemini 3.8 Flash (high)",
       "score": 41,
+      "estimated": false,
+      "aaRank": 29,
+      "rank": 7
+    },
+    {
+      "column": "Qwen-Alibaba",
+      "model": "Qwen3.8 Max",
+      "score": 40,
       "estimated": false,
       "aaRank": 30,
       "rank": 8
@@ -441,5 +441,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-10T01:07:18.581Z"
+  "generatedAt": "2026-09-10T01:12:30.756Z"
 }

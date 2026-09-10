@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T01:19:07.274Z",
+  "fetchedAt": "2026-09-10T01:12:30.627Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
@@ -194,46 +194,45 @@
     },
     {
       "rank": 28,
-      "model": "Qwen3.8-Flash-Next",
-      "vendor": "Alibaba",
-      "score": 42,
-      "estimated": true,
-      "slug": "qwen3-8-flash-next"
-    },
-    {
-      "rank": 29,
       "model": "GLM-5.3-Flash",
       "vendor": "Z AI",
       "score": 42,
       "slug": "glm-5-3-flash"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "model": "Gemini 3.8 Flash (high)",
       "vendor": "Google",
       "score": 41,
       "slug": "gemini-3-8-flash"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "model": "Qwen3.8 Max",
       "vendor": "Alibaba",
       "score": 40,
       "slug": "qwen3-8-max"
     },
     {
-      "rank": 32,
+      "rank": 31,
       "model": "Qwen3.8 2.4T A95B",
       "vendor": "Alibaba",
       "score": 40,
       "slug": "qwen3-8-2-4t-a95b"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "model": "Gemini 3.8 Flash (medium)",
       "vendor": "Google",
       "score": 40,
       "slug": "gemini-3-8-flash-medium"
+    },
+    {
+      "rank": 33,
+      "model": "Qwen3.8-Flash-Next",
+      "vendor": "Alibaba",
+      "score": 40,
+      "slug": "qwen3-8-flash-next"
     },
     {
       "rank": 34,
@@ -884,7 +883,7 @@
       "vendor": "DeepSeek",
       "score": 19,
       "estimated": true,
-      "slug": "deepseek-v4-flash-non-reasoning"
+      "slug": "deepseek-v4-flash-0420-non-reasoning"
     },
     {
       "rank": 120,
