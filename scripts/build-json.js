@@ -16,6 +16,12 @@ const DATA_PATH = dataArg || 'data.json';
 const CSV_PATH = csvArg || 'llm_release_timeline_2022-11_to_2026-04.csv';
 const MD_PATH = mdArg || 'llm_release_timeline_2022-11_to_2026-04.md';
 const LINKS_PATH = linksArg || 'links.json';
+const PRELUDE_PATH = path.join(__dirname, '..', 'prelude.md');
+
+function readPrelude() {
+  if (!fs.existsSync(PRELUDE_PATH)) return '';
+  return fs.readFileSync(PRELUDE_PATH, 'utf8').replace(/\s*$/, '') + '\n\n';
+}
 
 function parseDataJSON(dataPath) {
   const raw = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
@@ -92,7 +98,7 @@ function renderMarkdownTable(vendors, rows) {
     output.push(`| ${cells.join(' | ')} |`);
   });
 
-  return `${output.join('\n')}\n`;
+  return readPrelude() + `${output.join('\n')}\n`;
 }
 
 function main() {

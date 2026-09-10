@@ -32,8 +32,9 @@ data.json
 补充说明：
 
 - `data.json`：唯一真源
+- `prelude.md`：md 头部的世表/年表/说明部分，随每次导出自动拼回 md；改年表请编辑此文件，不要直接改 md
 - `llm_release_timeline_2022-11_to_2026-04.csv`：导出产物
-- `llm_release_timeline_2022-11_to_2026-04.md`：导出产物
+- `llm_release_timeline_2022-11_to_2026-04.md`：导出产物（= prelude.md + 月表）
 - `links.json`：导出产物，用于兼容和校验
 
 ---

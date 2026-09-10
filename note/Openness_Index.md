@@ -1,7 +1,8 @@
 # Artificial Analysis Openness Index
 
 > 本笔记整理 Artificial Analysis Openness Index 的评分维度、排名靠前的模型及关键洞察。
-> 最后更新：2026-04-22
+> 最后更新：2026-09-08
+> 更正（2026-09-08）：此前记录的"Apertus 满分 100"有误——线上实为 88.89，与 OLMo 3 并列榜首；原始分为 18 分制（非 27 分制），16/18 = 88.89。
 
 ---
 
@@ -17,13 +18,16 @@
 
 | 维度 | 含义 | 分值范围 |
 |------|------|----------|
-| **Model Availability** | 权重是否开放、API可访问性 | 0-6 |
-| **Model Transparency** | 训练代码/方法是否公开 | 0-12 |
+| **Model Availability** | 权重是否开放下载、权重许可证 | 0-6（权重获取 0-3 + 权重许可 0-3） |
+| **Model Transparency** | 数据要素 + 方法披露（下方四个 Data 子维度计入本项的数据要素部分） | 0-12（预/后训练数据要素取平均 0-6 + 方法披露 0-3 + 方法许可 0-3） |
 | **Pre-training Data Access** | 预训练数据是否可获取 | 0-3 |
 | **Pre-training Data License** | 预训练数据许可证 | 0-3 |
 | **Post-training Data Access** | 后训练数据是否可获取 | 0-3 |
+| **Post-training Data License** | 后训练数据许可证 | 0-3 |
 
-总分标准化为 **0-100 分**，越高越开放。
+原始分满分 **18 分**（Availability 6 + Transparency 12），标准化为 **0-100 分**（16/18 = 88.89），越高越开放。
+
+**数据许可评分档**：3 分 = 商用无需署名、无实质限制（CC0 级）；1 分 = 商用需署名（CC-BY / ODC-BY 级）。OLMo 与 Apertus 的数据许可均在此档（各得 1/3），这是榜首模型唯一的失分点。
 
 ---
 
@@ -42,15 +46,15 @@
 
 | 排名 | 模型 | 开放指数 | 机构 |
 |------|------|----------|------|
-| 1 | **Apertus 70B Instruct** | 100 | Apeirx |
-| 1 | **Apertus 8B Instruct** | 100 | Apeirx |
-| 3 | **Olmo 3 7B Instruct** | 89 | AI2 |
-| 4 | **Olmo 3.1 32B Instruct** | 88.89 | AI2 |
-| 4 | **Molmo 7B-D** | 88.89 | AI2 |
-| 4 | **Olmo 3.1 32B Think** | 89 | AI2 |
+| 1 | **Olmo 3 / 3.1 系列（Instruct/Think）** | 88.89 | AI2 |
+| 1 | **Apertus 70B / 8B Instruct** | 88.89 | Swiss AI Initiative |
+| 1 | **K2 Think V2 / K2-V2（high/medium/low）** | 88.89 | MBZUAI |
+| - | **Molmo 7B-D** | 88.89 | AI2 |
 | - | NVIDIA Nemotron Nano 9B v2 | 67 | NVIDIA |
 | - | Llama 3/4 系列 | 60-70 | Meta |
 | - | DeepSeek V3 | 60-70 | DeepSeek |
+
+榜首前 14 名并列 88.89（MBZUAI K2 系列 4 个变体、OLMo 3/3.1 家族、Apertus 70B/8B 等），成分分完全一致：权重、方法、数据获取全部满分，仅预训练/后训练数据许可各扣 2 分（"商用需署名"档各得 1/3）。该指数发布时官方明确**没有任何模型拿到满分**——满分要求训练语料达到 CC0 级许可，而语料大量来自署名许可来源，法律上几乎不可行。
 
 ## 排名垫底的模型
 
@@ -64,15 +68,15 @@
 
 ## 关键洞察
 
-### 1. AI2 霸榜开放性
+### 1. 榜首并列：AI2 / Apertus / MBZUAI
 
-AI2（Allen Institute for AI）的 OLMo 和 Molmo 系列是当时最透明的模型家族。OLMo 3.1 32B Think 得分 89，是综合表现最好的模型。
+AI2 的 OLMo/Molmo 系列、瑞士 Apertus、阿联酋 K2 Think V2 并列第一（88.89-89），成分分完全相同。
 
 **原因**：OLMo 系列不仅开源权重，还公开了完整的训练数据（Dolma）、训练代码（OLMo）、评估方法（OLMES）和训练配方（Recipe），真正实现"全流程可复现"。
 
-### 2. Apertus 满分
+### 2. 榜首无人满分，失分全在数据许可
 
-Apertus 是一个专门做完全开源的创业公司，70B 和 8B 均达满分 100，意味着在所有维度均达到最高开放标准。
+Apertus（Swiss AI Initiative：EPFL + ETH Zurich + CSCS 的瑞士国家项目，**非创业公司**）70B/8B 得分 88.89，与 OLMo 3 完全同级。两家唯一失分点相同：数据许可为"商用需署名"档。100 分需要 CC0 级数据许可，基本是理论值。
 
 ### 3. 闭源巨头垫底
 

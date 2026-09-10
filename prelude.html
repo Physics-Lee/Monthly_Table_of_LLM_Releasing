@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世表 · 年表 | LLM Release Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .back-link {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      margin-left: 16px;
+    }
+    .back-link a { color: var(--text-secondary); }
+    .prelude-section {
+      scroll-margin-top: 12px;
+    }
+    .prelude-section h2 {
+      font-size: 16px;
+      margin: 24px 0 10px;
+    }
+    .section-note {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin: 8px 0;
+    }
+    /* 主表样式为 30+ 列设了 min-width:1400px，本页两表列数少，按列数另设 */
+    .table-wrapper table { min-width: 0; }
+    .table-nian { min-width: 1100px; }
+    .table-shi td:last-child { min-width: 520px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>世表 · 年表</h1>
+        <span class="back-link"><a href="./">← 返回时间线</a></span>
+      </div>
+      <p class="models">
+        仿《史记》体例：三代不可纪年，作世表；春秋战国纪年，作年表；秦楚之际事繁变众，特作月表。<br>
+        本表同理——Transformer 之前（1948–2016）以<b>世代</b>记；ChatGPT 之前（2017–2022）以<b>年</b>记；此后（2022-11 起）以<b>月</b>记。
+      </p>
+    </header>
+
+    <section id="shibiao" class="prelude-section">
+      <h2>世表 · Pre-Transformer Era（1948–2016）</h2>
+      <p class="section-note">记世代、不记年份。表中仅列语言建模主线；语音、视觉等背景条目以〔旁支〕标注，不入主线。</p>
+      <div class="table-wrapper">
+        <table class="table-shi">
+          <thead>
+            <tr><th>世代</th><th>时期</th><th>主线事件</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>统计世代</td>
+              <td>1948–2003</td>
+              <td><a class="model-link" href="https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication" target="_blank" rel="noopener">香农以 n-gram 估计英语熵</a>（1948）；n-gram 成语言模型标准件，语音识别与统计机器翻译为两大应用（<a class="model-link" href="https://en.wikipedia.org/wiki/IBM_alignment_models" target="_blank" rel="noopener">IBM Model 1–5</a>，1980–90s）</td>
+            </tr>
+            <tr>
+              <td>神经萌芽</td>
+              <td>2003–2010</td>
+              <td><a class="model-link" href="https://www.jmlr.org/papers/v3/bengio03a.html" target="_blank" rel="noopener">NNLM 神经概率语言模型</a>（Bengio 等，2003）：词向量 + 神经网络语言建模的开端</td>
+            </tr>
+            <tr>
+              <td>RNN/LSTM 世代</td>
+              <td>2010–2016</td>
+              <td><a class="model-link" href="http://www.fit.vutbr.cz/~imikolov/rnnlm/" target="_blank" rel="noopener">RNNLM</a>（Mikolov，2010）开始替代 n-gram；<a class="model-link" href="https://arxiv.org/abs/1301.3781" target="_blank" rel="noopener">word2vec</a>（Google，2013）；<a class="model-link" href="https://arxiv.org/abs/1409.3215" target="_blank" rel="noopener">seq2seq</a>（Google，2014）；<a class="model-link" href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener">GNMT 神经机器翻译</a>（Google，2016）；<a class="model-link" href="https://fasttext.cc/" target="_blank" rel="noopener">fastText</a>（Meta，2016）</td>
+            </tr>
+            <tr>
+              <td>深度学习奠基</td>
+              <td>2012–2017</td>
+              <td><a class="model-link" href="https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html" target="_blank" rel="noopener">AlexNet</a>（2012）〔旁支：视觉〕引爆深度学习；<a class="model-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener">ResNet</a>（2015）〔旁支：视觉〕残差连接为 Transformer 所承；GPU/CUDA 大规模训练普及</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="section-note">〔旁支〕语音识别同期先行神经化：<a class="model-link" href="https://www.cs.toronto.edu/~graves/icml_2006.pdf" target="_blank" rel="noopener">CTC</a>（Graves，2006）、<a class="model-link" href="https://arxiv.org/abs/1303.5778" target="_blank" rel="noopener">深度 LSTM 声学模型</a>（Graves，2013）、<a class="model-link" href="https://arxiv.org/abs/1412.5567" target="_blank" rel="noopener">Deep Speech</a>（百度，2014）——声学端已换深度网络，语言端解码仍用 5-gram，两代技术同堂。</p>
+    </section>
+
+    <section id="nianbiao" class="prelude-section">
+      <h2>年表 · Pre-ChatGPT Era（2017–2022）</h2>
+      <div class="table-wrapper">
+        <table class="table-nian">
+          <thead>
+            <tr><th>Year</th><th>OpenAI</th><th>Meta</th><th>GLM-Z.ai</th><th>Google</th><th>NVIDIA</th><th>Baidu</th><th>Microsoft</th><th>Open-Source</th><th>Huawei</th><th>Stability</th><th>LLM-Applications</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2017</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener">Transformer</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td><a class="model-link" href="https://openai.com/index/language-unsupervised/" target="_blank" rel="noopener">GPT-1</a></td>
+              <td></td>
+              <td></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener">BERT</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td><a class="model-link" href="https://openai.com/index/better-language-models/" target="_blank" rel="noopener">GPT-2</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/1907.11692" target="_blank" rel="noopener">RoBERTa</a></td>
+              <td></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/1910.10683" target="_blank" rel="noopener">T5</a></td>
+              <td></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/1907.12412" target="_blank" rel="noopener">ERNIE 2.0</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td><a class="model-link" href="https://openai.com/index/openai-api/" target="_blank" rel="noopener">GPT-3</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a class="model-link" href="https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/" target="_blank" rel="noopener">Turing-NLG</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2021</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a class="model-link" href="https://blog.google/technology/ai/lamda/" target="_blank" rel="noopener">LaMDA</a> + <a class="model-link" href="https://arxiv.org/abs/2112.11446" target="_blank" rel="noopener">Gopher</a></td>
+              <td><a class="model-link" href="https://developer.nvidia.com/blog/language-models-using-megatron-and-deep-speed/" target="_blank" rel="noopener">MT-NLG 530B</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/2112.07473" target="_blank" rel="noopener">ERNIE 3.0</a></td>
+              <td><a class="model-link" href="https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/" target="_blank" rel="noopener">Copilot Preview</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/2106.09685" target="_blank" rel="noopener">GPT-J</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/2104.12369" target="_blank" rel="noopener">盘古 α</a></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td><a class="model-link" href="https://openai.com/index/instruction-following/" target="_blank" rel="noopener">InstructGPT</a> + <a class="model-link" href="https://openai.com/index/dall-e-2/" target="_blank" rel="noopener">DALL·E 2</a> + <a class="model-link" href="https://openai.com/index/whisper/" target="_blank" rel="noopener">Whisper</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/2205.01068" target="_blank" rel="noopener">OPT-175B</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/2210.02414" target="_blank" rel="noopener">GLM-130B</a></td>
+              <td><a class="model-link" href="https://arxiv.org/abs/2203.15556" target="_blank" rel="noopener">Chinchilla</a> + <a class="model-link" href="https://arxiv.org/abs/2204.14198" target="_blank" rel="noopener">Flamingo（DeepMind，视觉-语言）</a> + <a class="model-link" href="https://arxiv.org/abs/2204.02311" target="_blank" rel="noopener">PaLM</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a class="model-link" href="https://bigscience.huggingface.co/blog/bloom" target="_blank" rel="noopener">BLOOM</a></td>
+              <td></td>
+              <td><a class="model-link" href="https://stability.ai/news/stable-diffusion-announcement" target="_blank" rel="noopener">Stable Diffusion</a></td>
+              <td><a class="model-link" href="https://www.midjourney.com/" target="_blank" rel="noopener">Midjourney</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="section-note">注：年表仅收录月表中已有对应列、且在 ChatGPT 前存在公开发布的厂商；公司成立事件（如 Anthropic 2021 年成立）不计入。</p>
+    </section>
+
+    <section id="yuebiao" class="prelude-section">
+      <h2>月表 · ChatGPT Era（2022-11 起）</h2>
+      <p class="section-note">秦楚之际，事繁变众，以月记——即<a href="./">主页时间线</a>。</p>
+    </section>
+
+    <div class="footer">
+      <span class="source">数据来源：各厂商官方发布渠道及公开报道</span>
+    </div>
+  </div>
+</body>
+</html>

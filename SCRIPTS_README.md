@@ -12,15 +12,16 @@
 也就是说：
 
 - `data.json`：手工源 / 脚本源
+- `prelude.md`：md 头部内容（标题、世表、年表、月表标题），导出时自动拼接到 md 开头；改年表请编辑此文件
 - `csv`：导出产物
-- `md`：导出产物
+- `md`：导出产物（= prelude.md + 月表）
 - `links.json`：导出产物
 
 当前主数据流：
 
 ```text
 data.json -> csv
-data.json -> md
+data.json + prelude.md -> md
 data.json -> links.json
 ```
 
