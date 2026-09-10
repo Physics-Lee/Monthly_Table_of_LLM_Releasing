@@ -44,7 +44,6 @@
     "Celeris",
     "Microsoft",
     "AI21",
-    "Open-Source",
     "iFlytek",
     "Vidu",
     "Shanghai-AI-Lab",
@@ -54,10 +53,11 @@
     "Apple",
     "Stability",
     "SenseTime",
+    "Marin-Stanford",
+    "Open-Source",
     "LLM-Applications",
     "AI-Chips",
-    "AI-Cloud",
-    "Marin-Stanford"
+    "AI-Cloud"
   ],
   "rows": [
     {
@@ -111,12 +111,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "LangChain",
-          "url": "https://github.com/langchain-ai/langchain"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -126,10 +120,16 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "LangChain",
+          "url": "https://github.com/langchain-ai/langchain"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "22-Dec",
@@ -186,7 +186,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -196,6 +195,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [
         {
           "name": "Perplexity",
@@ -203,8 +204,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jan",
@@ -252,7 +252,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -262,10 +261,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Feb",
@@ -323,12 +323,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "vLLM",
-          "url": "https://github.com/vllm-project/vllm"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -338,6 +332,13 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "vLLM",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "Notion AI",
@@ -353,8 +354,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Mar",
@@ -427,6 +427,16 @@
           "url": "https://www.ai21.com/blog/introducing-j2/"
         }
       ],
+      "iFlytek": [],
+      "Vidu": [],
+      "Shanghai-AI-Lab": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
+      "Marin-Stanford": [],
       "Open-Source": [
         {
           "name": "AutoGPT",
@@ -437,15 +447,6 @@
           "url": "https://github.com/ggml-org/llama.cpp"
         }
       ],
-      "iFlytek": [],
-      "Vidu": [],
-      "Shanghai-AI-Lab": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "LLM-Applications": [
         {
           "name": "Cursor",
@@ -469,8 +470,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Apr",
@@ -518,12 +518,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Axolotl",
-          "url": "https://github.com/axolotl-ai-cloud/axolotl"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -533,6 +527,13 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Axolotl",
+          "url": "https://github.com/axolotl-ai-cloud/axolotl"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "Grammarly",
@@ -540,8 +541,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-May",
@@ -594,7 +594,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [
         {
           "name": "Spark 1.0",
@@ -609,6 +608,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [
         {
           "name": "LM Studio",
@@ -616,8 +617,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jun",
@@ -675,16 +675,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Ollama",
-          "url": "https://github.com/ollama/ollama"
-        },
-        {
-          "name": "LLaMA-Factory",
-          "url": "https://github.com/hiyouga/LLaMA-Factory"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark 1.5",
@@ -713,6 +703,17 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Ollama",
+          "url": "https://github.com/ollama/ollama"
+        },
+        {
+          "name": "LLaMA-Factory",
+          "url": "https://github.com/hiyouga/LLaMA-Factory"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "AnythingLLM",
@@ -720,8 +721,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Jul",
@@ -794,7 +794,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -809,10 +808,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Aug",
@@ -893,12 +893,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Jan",
-          "url": "https://github.com/janhq/jan"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark 2.0",
@@ -913,6 +907,13 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Jan",
+          "url": "https://github.com/janhq/jan"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -920,8 +921,7 @@
           "url": "https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/"
         }
       ],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Sep",
@@ -994,7 +994,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1014,10 +1013,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Oct",
@@ -1085,6 +1085,16 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "iFlytek": [],
+      "Vidu": [],
+      "Shanghai-AI-Lab": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
+      "Marin-Stanford": [],
       "Open-Source": [
         {
           "name": "CrewAI",
@@ -1095,15 +1105,6 @@
           "url": "https://github.com/stanfordnlp/dspy"
         }
       ],
-      "iFlytek": [],
-      "Vidu": [],
-      "Shanghai-AI-Lab": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "LLM-Applications": [
         {
           "name": "Raycast AI",
@@ -1111,8 +1112,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Nov",
@@ -1220,7 +1220,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1244,6 +1243,8 @@
       ],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1251,8 +1252,7 @@
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
       ],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "23-Dec",
@@ -1347,12 +1347,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "RAGFlow",
-          "url": "https://github.com/infiniflow/ragflow"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1372,6 +1366,13 @@
       ],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "RAGFlow",
+          "url": "https://github.com/infiniflow/ragflow"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1388,8 +1389,7 @@
           "name": "Google AI Hypercomputer",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "24-Jan",
@@ -1466,24 +1466,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "AutoGen",
-          "url": "https://github.com/microsoft/autogen"
-        },
-        {
-          "name": "LangGraph",
-          "url": "https://github.com/langchain-ai/langgraph"
-        },
-        {
-          "name": "SGLang",
-          "url": "https://github.com/sgl-project/sglang"
-        },
-        {
-          "name": "BGE-M3",
-          "url": "https://github.com/FlagOpen/FlagEmbedding"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark 3.0",
@@ -1513,10 +1495,28 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "AutoGen",
+          "url": "https://github.com/microsoft/autogen"
+        },
+        {
+          "name": "LangGraph",
+          "url": "https://github.com/langchain-ai/langgraph"
+        },
+        {
+          "name": "SGLang",
+          "url": "https://github.com/sgl-project/sglang"
+        },
+        {
+          "name": "BGE-M3",
+          "url": "https://github.com/FlagOpen/FlagEmbedding"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Feb",
@@ -1621,7 +1621,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1641,10 +1640,11 @@
           "url": "https://www.sensetime.com/"
         }
       ],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Mar",
@@ -1734,12 +1734,6 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
-      "Open-Source": [
-        {
-          "name": "OpenHands",
-          "url": "https://github.com/OpenHands/OpenHands"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark 3.5",
@@ -1754,6 +1748,13 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "OpenHands",
+          "url": "https://github.com/OpenHands/OpenHands"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "Windsurf",
@@ -1771,8 +1772,7 @@
           "name": "AWS Trainium2 GA",
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "24-Apr",
@@ -1859,7 +1859,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1879,6 +1878,8 @@
       ],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -1886,8 +1887,7 @@
           "url": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai/"
         }
       ],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-May",
@@ -1993,12 +1993,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Cherry Studio",
-          "url": "https://github.com/CherryHQ/cherry-studio"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2023,6 +2017,13 @@
           "url": "https://www.sensetime.com/"
         }
       ],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Cherry Studio",
+          "url": "https://github.com/CherryHQ/cherry-studio"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
       "AI-Cloud": [
@@ -2030,8 +2031,7 @@
           "name": "CoreWeave raises $7.5B to build GPU data center",
           "url": "https://www.coreweave.com/"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "24-Jun",
@@ -2109,7 +2109,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [
         {
           "name": "Spark 4.0",
@@ -2129,10 +2128,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Jul",
@@ -2214,7 +2214,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2233,10 +2232,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Aug",
@@ -2333,7 +2333,6 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2343,6 +2342,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2355,8 +2356,7 @@
           "name": "Lambda Labs raises $320M to expand GPU cloud",
           "url": "https://lambda.ai/"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "24-Sep",
@@ -2459,7 +2459,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2469,10 +2468,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Oct",
@@ -2568,7 +2568,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2592,10 +2591,11 @@
         }
       ],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Nov",
@@ -2685,6 +2685,16 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "iFlytek": [],
+      "Vidu": [],
+      "Shanghai-AI-Lab": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
+      "Marin-Stanford": [],
       "Open-Source": [
         {
           "name": "Unsloth",
@@ -2695,19 +2705,9 @@
           "url": "https://github.com/microsoft/markitdown"
         }
       ],
-      "iFlytek": [],
-      "Vidu": [],
-      "Shanghai-AI-Lab": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "24-Dec",
@@ -2847,7 +2847,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2867,6 +2866,8 @@
       ],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -2879,8 +2880,7 @@
           "name": "AWS AI Factories",
           "url": "https://aws.amazon.com/ai-factories/"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "25-Jan",
@@ -2985,7 +2985,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3000,6 +2999,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [
         {
           "name": "Trae",
@@ -3012,8 +3013,7 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Feb",
@@ -3114,7 +3114,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3124,10 +3123,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Mar",
@@ -3260,7 +3260,6 @@
           "url": "https://www.ai21.com/blog/maestro-ai-planning-orchestration/"
         }
       ],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3270,6 +3269,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [
         {
           "name": "Manus",
@@ -3277,8 +3278,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Apr",
@@ -3409,12 +3409,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "OpenCode",
-          "url": "https://github.com/anomalyco/opencode"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark X1",
@@ -3439,10 +3433,16 @@
       ],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "OpenCode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-May",
@@ -3556,7 +3556,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3566,9 +3565,6 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "LLM-Applications": [],
-      "AI-Chips": [],
-      "AI-Cloud": [],
       "Marin-Stanford": [
         {
           "name": "Marin 8B Base",
@@ -3578,7 +3574,11 @@
           "name": "Marin 8B Instruct",
           "url": "https://huggingface.co/marin-community/marin-8b-instruct"
         }
-      ]
+      ],
+      "Open-Source": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Jun",
@@ -3682,7 +3682,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3697,6 +3696,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -3709,8 +3710,7 @@
           "name": "AWS GPU price cut by 45%",
           "url": "https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "25-Jul",
@@ -3850,12 +3850,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Hermes Agent",
-          "url": "https://github.com/NousResearch/hermes-agent"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3870,10 +3864,16 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Hermes Agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Aug",
@@ -3990,7 +3990,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4005,10 +4004,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Sep",
@@ -4105,7 +4105,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4115,6 +4114,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [
         {
           "name": "CodeBuddy",
@@ -4122,8 +4123,7 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Oct",
@@ -4229,7 +4229,6 @@
           "url": "https://www.ai21.com/blog/introducing-jamba-reasoning-3b/"
         }
       ],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4239,15 +4238,16 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "LLM-Applications": [],
-      "AI-Chips": [],
-      "AI-Cloud": [],
       "Marin-Stanford": [
         {
           "name": "Marin 32B Base",
           "url": "https://huggingface.co/marin-community/marin-32b-base"
         }
-      ]
+      ],
+      "Open-Source": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "25-Nov",
@@ -4377,12 +4377,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "OpenClaw",
-          "url": "https://github.com/openclaw/openclaw"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4392,10 +4386,16 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "OpenClaw",
+          "url": "https://github.com/openclaw/openclaw"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "25-Dec",
@@ -4537,12 +4537,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Oh-My-OpenAgent",
-          "url": "https://github.com/code-yeongyu/oh-my-openagent"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4552,6 +4546,13 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Oh-My-OpenAgent",
+          "url": "https://github.com/code-yeongyu/oh-my-openagent"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -4564,8 +4565,7 @@
           "name": "CoreWeave raises another $8.5B to build data center",
           "url": "https://www.coreweave.com/"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "26-Jan",
@@ -4676,16 +4676,6 @@
           "url": "https://ai21.com/blog/introducing-jamba2"
         }
       ],
-      "Open-Source": [
-        {
-          "name": "andrej-karpathy-skills",
-          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
-        },
-        {
-          "name": "oh-my-claudecode",
-          "url": "https://github.com/yeachan-heo/oh-my-claudecode"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [
         {
@@ -4700,6 +4690,17 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "andrej-karpathy-skills",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        },
+        {
+          "name": "oh-my-claudecode",
+          "url": "https://github.com/yeachan-heo/oh-my-claudecode"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [
         {
@@ -4707,8 +4708,7 @@
           "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
         }
       ],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-Feb",
@@ -4861,12 +4861,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "oh-my-codex",
-          "url": "https://github.com/yeachan-heo/oh-my-codex"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark X2",
@@ -4881,6 +4875,13 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "oh-my-codex",
+          "url": "https://github.com/yeachan-heo/oh-my-codex"
+        }
+      ],
       "LLM-Applications": [
         {
           "name": "Kilo CLI",
@@ -4893,8 +4894,7 @@
           "name": "Microsoft and OpenAI invest $100B to build AI data center",
           "url": "https://openai.com/index/scaling-ai-for-everyone"
         }
-      ],
-      "Marin-Stanford": []
+      ]
     },
     {
       "Month": "26-Mar",
@@ -5057,7 +5057,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5067,6 +5066,8 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [
         {
           "name": "QClaw",
@@ -5083,8 +5084,7 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-Apr",
@@ -5267,7 +5267,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [
         {
           "name": "Spark X2-Flash",
@@ -5282,10 +5281,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-May",
@@ -5417,6 +5417,21 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "iFlytek": [],
+      "Vidu": [],
+      "Shanghai-AI-Lab": [],
+      "Huawei": [],
+      "01.AI": [],
+      "Baichuan-Intelligence": [],
+      "Apple": [],
+      "Stability": [],
+      "SenseTime": [],
+      "Marin-Stanford": [
+        {
+          "name": "Delphi scaling suite",
+          "url": "https://openathena.ai/blog/delphi"
+        }
+      ],
       "Open-Source": [
         {
           "name": "DeepSeek-TUI",
@@ -5427,24 +5442,9 @@
           "url": "https://github.com/lillian039/ELF"
         }
       ],
-      "iFlytek": [],
-      "Vidu": [],
-      "Shanghai-AI-Lab": [],
-      "Huawei": [],
-      "01.AI": [],
-      "Baichuan-Intelligence": [],
-      "Apple": [],
-      "Stability": [],
-      "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": [
-        {
-          "name": "Delphi scaling suite",
-          "url": "https://openathena.ai/blog/delphi"
-        }
-      ]
+      "AI-Cloud": []
     },
     {
       "Month": "26-Jun",
@@ -5584,12 +5584,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [
-        {
-          "name": "Mellum2-12B-A2.5B",
-          "url": "https://huggingface.co/blog/JetBrains/mellum2-launch"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark X2-VL",
@@ -5604,10 +5598,16 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [
+        {
+          "name": "Mellum2-12B-A2.5B",
+          "url": "https://huggingface.co/blog/JetBrains/mellum2-launch"
+        }
+      ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-Jul",
@@ -5770,7 +5770,6 @@
         }
       ],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5780,10 +5779,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     },
     {
       "Month": "26-Aug",
@@ -5947,7 +5947,6 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5957,15 +5956,16 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
-      "LLM-Applications": [],
-      "AI-Chips": [],
-      "AI-Cloud": [],
       "Marin-Stanford": [
         {
           "name": "Marin 535B-A23B (开训)",
           "url": "https://github.com/marin-community/marin/issues/8435"
         }
-      ]
+      ],
+      "Open-Source": [],
+      "LLM-Applications": [],
+      "AI-Chips": [],
+      "AI-Cloud": []
     },
     {
       "Month": "26-Sep",
@@ -6053,7 +6053,6 @@
       ],
       "Microsoft": [],
       "AI21": [],
-      "Open-Source": [],
       "iFlytek": [
         {
           "name": "Spark X2.5",
@@ -6076,10 +6075,11 @@
       "Apple": [],
       "Stability": [],
       "SenseTime": [],
+      "Marin-Stanford": [],
+      "Open-Source": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": [],
-      "Marin-Stanford": []
+      "AI-Cloud": []
     }
   ]
 }
