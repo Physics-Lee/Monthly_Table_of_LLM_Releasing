@@ -6,8 +6,8 @@
     "GLM-Z.ai",
     "xAI",
     "Kimi-Moonshot",
-    "Qwen-Alibaba",
     "Google",
+    "Qwen-Alibaba",
     "DeepSeek",
     "Agnes-Sapiens",
     "MBZUAI",
@@ -73,8 +73,8 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -148,8 +148,8 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -214,8 +214,8 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -280,13 +280,13 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Bard",
           "url": "https://blog.google/technology/ai/introducing-bard/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -379,8 +379,8 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -480,8 +480,8 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -551,13 +551,13 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "PaLM 2",
           "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -632,8 +632,8 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -741,8 +741,8 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -827,6 +827,7 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-7B",
@@ -841,7 +842,6 @@
           "url": "https://github.com/QwenLM/Qwen-VL"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -936,13 +936,13 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-14B",
           "url": "https://huggingface.co/Qwen"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -1037,8 +1037,8 @@
           "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -1136,6 +1136,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-72B",
@@ -1146,7 +1147,6 @@
           "url": "https://huggingface.co/Qwen/Qwen-Audio"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-LLM",
@@ -1267,7 +1267,6 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 1.0 Ultra",
@@ -1282,6 +1281,7 @@
           "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -1418,8 +1418,8 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-MoE",
@@ -1531,12 +1531,6 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen1.5",
-          "url": "https://huggingface.co/Qwen"
-        }
-      ],
       "Google": [
         {
           "name": "Gemma",
@@ -1549,6 +1543,12 @@
         {
           "name": "Genie",
           "url": "https://deepmind.google/research/publications/genie-generative-interactive-environments/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen1.5",
+          "url": "https://huggingface.co/Qwen"
         }
       ],
       "DeepSeek": [
@@ -1676,8 +1676,8 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-VL",
@@ -1792,6 +1792,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5-110B",
@@ -1802,7 +1803,6 @@
           "url": "https://qwenlm.github.io/blog/codeqwen1.5/"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -1907,7 +1907,6 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 1.5 Flash",
@@ -1918,6 +1917,7 @@
           "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V2",
@@ -2046,16 +2046,16 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen2",
-          "url": "https://huggingface.co/Qwen"
-        }
-      ],
       "Google": [
         {
           "name": "Gemma 2",
           "url": "https://blog.google/technology/developers/google-gemma-2/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen2",
+          "url": "https://huggingface.co/Qwen"
         }
       ],
       "DeepSeek": [],
@@ -2152,13 +2152,13 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2-Audio",
           "url": "https://huggingface.co/Qwen/Qwen2-Audio"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Coder-V2",
@@ -2261,8 +2261,8 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -2384,6 +2384,7 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5",
@@ -2402,7 +2403,6 @@
           "url": "https://qwenlm.github.io/blog/qwen2-vl/"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -2492,8 +2492,8 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -2610,6 +2610,7 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Coder Family",
@@ -2620,7 +2621,6 @@
           "url": "https://qwenlm.github.io/blog/qwq-32b-preview/"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -2736,7 +2736,6 @@
       ],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 2.0 Flash",
@@ -2751,6 +2750,7 @@
           "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3",
@@ -2900,6 +2900,7 @@
           "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
         }
       ],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Max",
@@ -2910,7 +2911,6 @@
           "url": "https://qwenlm.github.io/blog/qwen2.5-vl/"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-R1",
@@ -3047,13 +3047,13 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 2.0 Pro",
           "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "Janus-Pro",
@@ -3152,12 +3152,6 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen2.5-Omni",
-          "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
-        }
-      ],
       "Google": [
         {
           "name": "Gemini 2.5 Pro",
@@ -3166,6 +3160,12 @@
         {
           "name": "Gemma 3",
           "url": "https://blog.google/technology/developers/gemma-3/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen2.5-Omni",
+          "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
         }
       ],
       "DeepSeek": [
@@ -3322,16 +3322,16 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen3",
-          "url": "https://huggingface.co/Qwen"
-        }
-      ],
       "Google": [
         {
           "name": "Gemini 2.5 Flash",
           "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3",
+          "url": "https://huggingface.co/Qwen"
         }
       ],
       "DeepSeek": [],
@@ -3471,13 +3471,13 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Veo 3",
           "url": "https://deepmind.google/veo"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-R1-0528",
@@ -3597,13 +3597,13 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini CLI",
           "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -3735,16 +3735,6 @@
           "url": "https://kimi-k2.org/"
         }
       ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen3-Coder",
-          "url": "https://huggingface.co/Qwen"
-        },
-        {
-          "name": "Qwen-MT",
-          "url": "https://qwenlm.github.io/blog/qwen-mt/"
-        }
-      ],
       "Google": [
         {
           "name": "Gemma 3n",
@@ -3753,6 +3743,16 @@
         {
           "name": "Gemini 2.5 Flash-Lite",
           "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3-Coder",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen-MT",
+          "url": "https://qwenlm.github.io/blog/qwen-mt/"
         }
       ],
       "DeepSeek": [],
@@ -3907,16 +3907,16 @@
           "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
         }
       ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qoder",
-          "url": "https://qoder.com/"
-        }
-      ],
       "Google": [
         {
           "name": "Genie 3",
           "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qoder",
+          "url": "https://qoder.com/"
         }
       ],
       "DeepSeek": [
@@ -4033,13 +4033,13 @@
           "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
         }
       ],
+      "Google": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen CLI",
           "url": "https://github.com/QwenLM/qwen-code"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.1-Terminus",
@@ -4143,13 +4143,13 @@
           "url": "https://github.com/MoonshotAI/kimi-cli"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Veo 3.1",
           "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [],
@@ -4281,13 +4281,13 @@
           "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 3",
           "url": "https://blog.google/products/gemini/gemini-3/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Math-V2",
@@ -4410,8 +4410,8 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.2",
@@ -4585,8 +4585,8 @@
           "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [
@@ -4746,6 +4746,12 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Google": [
+        {
+          "name": "Gemini 3.1 Pro",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-397B-A17B",
@@ -4762,12 +4768,6 @@
         {
           "name": "Qwen3.5-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.5-27B"
-        }
-      ],
-      "Google": [
-        {
-          "name": "Gemini 3.1 Pro",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
         }
       ],
       "DeepSeek": [],
@@ -4923,6 +4923,16 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Google": [
+        {
+          "name": "Gemini 3.1 Flash-Lite",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
+        },
+        {
+          "name": "Gemini 3.1 Flash Live",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "QoderWork",
@@ -4947,16 +4957,6 @@
         {
           "name": "Qwen3.5-Omni",
           "url": "https://qwen.ai/blog?id=qwen3.5-omni"
-        }
-      ],
-      "Google": [
-        {
-          "name": "Gemini 3.1 Flash-Lite",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
-        },
-        {
-          "name": "Gemini 3.1 Flash Live",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
         }
       ],
       "DeepSeek": [],
@@ -5140,6 +5140,12 @@
           "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemma 4",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.6-Max-Preview",
@@ -5156,12 +5162,6 @@
         {
           "name": "Qwen3.6-27B",
           "url": "https://qwen.ai/blog?id=qwen3.6-27b"
-        }
-      ],
-      "Google": [
-        {
-          "name": "Gemma 4",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
         }
       ],
       "DeepSeek": [
@@ -5326,16 +5326,6 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen3.5-LiveTranslate-Flash",
-          "url": "https://qwen.ai/blog?id=qwen3.5-livetranslate"
-        },
-        {
-          "name": "Qwen3.7-Max",
-          "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154"
-        }
-      ],
       "Google": [
         {
           "name": "Gemini 3.5 Flash",
@@ -5344,6 +5334,16 @@
         {
           "name": "Gemini Omni Flash",
           "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3.5-LiveTranslate-Flash",
+          "url": "https://qwen.ai/blog?id=qwen3.5-livetranslate"
+        },
+        {
+          "name": "Qwen3.7-Max",
+          "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154"
         }
       ],
       "DeepSeek": [],
@@ -5477,6 +5477,16 @@
           "url": "https://www.llmreference.com/model/kimi-k2-7-code"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemma 4 12B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        },
+        {
+          "name": "DiffusionGemma 26B A4B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-RobotManip",
@@ -5497,16 +5507,6 @@
         {
           "name": "Qwen-AgentWorld-397B-A17B",
           "url": "https://arxiv.org/abs/2606.19150"
-        }
-      ],
-      "Google": [
-        {
-          "name": "Gemma 4 12B",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
-        },
-        {
-          "name": "DiffusionGemma 26B A4B",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
         }
       ],
       "DeepSeek": [],
@@ -5654,13 +5654,13 @@
           "url": "https://apnews.com/article/kimi-k3-china-ai-0d8a5e268deb11a673f4d444fc597cc5"
         }
       ],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 3.6 Flash",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "V4-Flash-0731",
@@ -5816,6 +5816,12 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Google": [
+        {
+          "name": "Gemini 3.7 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8-Max",
@@ -5832,12 +5838,6 @@
         {
           "name": "Qwen3.8-Flash-Next",
           "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
-        }
-      ],
-      "Google": [
-        {
-          "name": "Gemini 3.7 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
         }
       ],
       "DeepSeek": [
@@ -5990,13 +5990,13 @@
       "GLM-Z.ai": [],
       "xAI": [],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
       "Google": [
         {
           "name": "Gemini 3.8 Flash",
           "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
         }
       ],
+      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "MBZUAI": [
