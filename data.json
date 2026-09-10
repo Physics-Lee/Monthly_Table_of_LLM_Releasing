@@ -23,6 +23,8 @@
     "Tencent",
     "Ant-Group",
     "NVIDIA",
+    "SK-Telecom",
+    "AI9Stars",
     "Kuaishou-Kling",
     "EXAONE-LG",
     "LongCat",
@@ -34,8 +36,10 @@
     "Amazon",
     "Cohere",
     "ModelBest-OpenBMB",
+    "Prime-Intellect",
     "Boss-Nanbeige",
     "Liquid AI",
+    "Nous",
     "Allen",
     "Celeris",
     "Microsoft",
@@ -52,7 +56,8 @@
     "SenseTime",
     "LLM-Applications",
     "AI-Chips",
-    "AI-Cloud"
+    "AI-Cloud",
+    "Marin-Stanford"
   ],
   "rows": [
     {
@@ -85,6 +90,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -96,8 +103,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -119,7 +128,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "22-Dec",
@@ -155,6 +165,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -166,8 +178,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -189,7 +203,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Jan",
@@ -216,6 +231,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -227,8 +244,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -245,7 +264,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Feb",
@@ -282,6 +302,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -293,8 +315,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -329,7 +353,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Mar",
@@ -371,6 +396,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -387,8 +414,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -440,7 +469,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Apr",
@@ -467,6 +497,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -478,8 +510,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -506,7 +540,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-May",
@@ -538,6 +573,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -549,8 +586,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -577,7 +616,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Jun",
@@ -609,6 +649,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -620,8 +662,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [
@@ -676,7 +720,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Jul",
@@ -713,6 +758,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [
         {
@@ -734,8 +781,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [
+        {
+          "name": "Nous-Hermes-13B (Llama-2)",
+          "url": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b"
+        }
+      ],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -757,7 +811,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Aug",
@@ -812,6 +867,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -828,8 +885,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -861,7 +920,8 @@
           "url": "https://news.skhynix.com/sk-hynix-begins-volume-production-of-industry-first-hbm3e/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Sep",
@@ -903,6 +963,8 @@
       ],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -919,8 +981,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [
@@ -952,7 +1016,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Oct",
@@ -994,6 +1059,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1010,8 +1077,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -1042,7 +1111,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Nov",
@@ -1111,6 +1181,8 @@
       ],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1140,8 +1212,10 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -1177,7 +1251,8 @@
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "23-Dec",
@@ -1237,6 +1312,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1257,8 +1334,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [
@@ -1309,7 +1388,8 @@
           "name": "Google AI Hypercomputer",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Jan",
@@ -1360,6 +1440,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1371,8 +1453,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [
+        {
+          "name": "Hermes 2 (Mixtral 8x7B)",
+          "url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
+        }
+      ],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -1426,7 +1515,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Feb",
@@ -1486,6 +1576,8 @@
           "url": "https://arxiv.org/abs/2402.16819"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1516,8 +1608,10 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "OLMo",
@@ -1549,7 +1643,8 @@
       ],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Mar",
@@ -1603,6 +1698,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1619,8 +1716,15 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [
+        {
+          "name": "Hermes 2 Pro (Mistral 7B)",
+          "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B"
+        }
+      ],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -1667,7 +1771,8 @@
           "name": "AWS Trainium2 GA",
           "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Apr",
@@ -1718,6 +1823,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1739,8 +1846,10 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [
@@ -1777,7 +1886,8 @@
           "url": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-May",
@@ -1828,6 +1938,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -1864,8 +1976,10 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [
@@ -1916,7 +2030,8 @@
           "name": "CoreWeave raises $7.5B to build GPU data center",
           "url": "https://www.coreweave.com/"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Jun",
@@ -1963,6 +2078,8 @@
           "url": "https://arxiv.org/abs/2406.11704"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 1.0",
@@ -1984,8 +2101,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -2012,7 +2131,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Jul",
@@ -2059,6 +2179,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -2084,8 +2206,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -2111,7 +2235,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Aug",
@@ -2163,6 +2288,8 @@
           "url": "https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [
         {
@@ -2184,8 +2311,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [
+        {
+          "name": "Hermes 3 (Llama 3.1 405B)",
+          "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B"
+        }
+      ],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -2221,7 +2355,8 @@
           "name": "Lambda Labs raises $320M to expand GPU cloud",
           "url": "https://lambda.ai/"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Sep",
@@ -2293,6 +2428,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -2309,8 +2446,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "OLMoE",
@@ -2332,7 +2471,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Oct",
@@ -2379,6 +2519,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -2405,6 +2547,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -2420,6 +2563,7 @@
           "url": "https://www.liquid.ai/liquid-foundation-models"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -2450,7 +2594,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Nov",
@@ -2496,6 +2641,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -2516,8 +2663,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [
+        {
+          "name": "INTELLECT-1",
+          "url": "https://www.primeintellect.ai/blog/intellect-1-release"
+        }
+      ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "OLMo 2",
@@ -2552,7 +2706,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "24-Dec",
@@ -2625,6 +2780,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 1.6",
@@ -2677,8 +2834,10 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "Molmo",
@@ -2720,7 +2879,8 @@
           "name": "AWS AI Factories",
           "url": "https://aws.amazon.com/ai-factories/"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Jan",
@@ -2785,6 +2945,8 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -2815,8 +2977,10 @@
           "url": "https://github.com/OpenBMB/MiniCPM-o"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -2848,7 +3012,8 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Feb",
@@ -2909,6 +3074,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -2934,8 +3101,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [
+        {
+          "name": "DeepHermes-3 Preview",
+          "url": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview"
+        }
+      ],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -2952,7 +3126,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Mar",
@@ -3022,6 +3197,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [
         {
@@ -3061,8 +3238,10 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "OLMo 2 32B",
@@ -3098,7 +3277,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Apr",
@@ -3174,6 +3354,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.0",
@@ -3219,8 +3401,10 @@
       ],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -3257,7 +3441,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-May",
@@ -3331,6 +3516,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.1",
@@ -3356,8 +3543,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [
+        {
+          "name": "INTELLECT-2",
+          "url": "https://www.primeintellect.ai/blog/intellect-2-release"
+        }
+      ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -3374,7 +3568,17 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": [
+        {
+          "name": "Marin 8B Base",
+          "url": "https://huggingface.co/marin-community/marin-8b-base"
+        },
+        {
+          "name": "Marin 8B Instruct",
+          "url": "https://huggingface.co/marin-community/marin-8b-instruct"
+        }
+      ]
     },
     {
       "Month": "25-Jun",
@@ -3430,6 +3634,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -3468,8 +3674,10 @@
           "url": "https://github.com/openbmb/minicpm"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -3501,7 +3709,8 @@
           "name": "AWS GPU price cut by 45%",
           "url": "https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Jul",
@@ -3581,6 +3790,13 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [
+        {
+          "name": "A.X 4.0",
+          "url": "https://huggingface.co/skt/A.X-4.0"
+        }
+      ],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [
         {
@@ -3621,6 +3837,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -3628,6 +3845,7 @@
           "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -3654,7 +3872,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Aug",
@@ -3735,6 +3954,8 @@
       ],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.5",
@@ -3756,8 +3977,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [
+        {
+          "name": "Hermes 4",
+          "url": "https://huggingface.co/NousResearch/Hermes-4-70B"
+        }
+      ],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -3779,7 +4007,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Sep",
@@ -3836,6 +4065,8 @@
       ],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 2.5 Turbo",
@@ -3866,8 +4097,10 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -3889,7 +4122,8 @@
         }
       ],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Oct",
@@ -3944,6 +4178,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "KAT-Coder-Pro",
@@ -3975,6 +4211,7 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B-Thinking-2510",
@@ -3982,6 +4219,7 @@
         }
       ],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -4003,7 +4241,13 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": [
+        {
+          "name": "Marin 32B Base",
+          "url": "https://huggingface.co/marin-community/marin-32b-base"
+        }
+      ]
     },
     {
       "Month": "25-Nov",
@@ -4092,6 +4336,8 @@
       ],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -4113,8 +4359,15 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [
+        {
+          "name": "INTELLECT-3",
+          "url": "https://www.primeintellect.ai/blog/intellect-3"
+        }
+      ],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "OLMo 3",
@@ -4141,7 +4394,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "25-Dec",
@@ -4203,6 +4457,13 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "SK-Telecom": [
+        {
+          "name": "A.X K1",
+          "url": "https://huggingface.co/skt/A.X-K1"
+        }
+      ],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling O1",
@@ -4250,6 +4511,7 @@
       ],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B",
@@ -4257,6 +4519,7 @@
         }
       ],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [
         {
           "name": "Molmo 2",
@@ -4301,7 +4564,8 @@
           "name": "CoreWeave raises another $8.5B to build data center",
           "url": "https://www.coreweave.com/"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-Jan",
@@ -4358,6 +4622,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [
         {
           "name": "Kling 3.0",
@@ -4388,6 +4654,7 @@
           "url": "https://github.com/OpenBMB/AgentCPM-Explore"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4399,6 +4666,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -4439,7 +4707,8 @@
           "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-Feb",
@@ -4542,6 +4811,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [
@@ -4572,6 +4843,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.1-3B",
@@ -4584,6 +4856,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -4620,7 +4893,8 @@
           "name": "Microsoft and OpenAI invest $100B to build AI data center",
           "url": "https://openai.com/index/scaling-ai-for-everyone"
         }
-      ]
+      ],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-Mar",
@@ -4737,6 +5011,13 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [
+        {
+          "name": "Cheers",
+          "url": "https://huggingface.co/ai9stars/Cheers"
+        }
+      ],
       "Kuaishou-Kling": [
         {
           "name": "KAT-Coder-Pro V2",
@@ -4758,6 +5039,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4765,6 +5047,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [
@@ -4800,7 +5083,8 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families/"
         }
       ],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-Apr",
@@ -4937,6 +5221,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [
         {
@@ -4968,6 +5254,7 @@
           "url": "https://github.com/OpenBMB/VoxCPM"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -4975,6 +5262,7 @@
           "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -4996,7 +5284,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-May",
@@ -5087,6 +5376,8 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -5113,6 +5404,7 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5120,6 +5412,7 @@
           "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -5145,7 +5438,13 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": [
+        {
+          "name": "Delphi scaling suite",
+          "url": "https://openathena.ai/blog/delphi"
+        }
+      ]
     },
     {
       "Month": "26-Jun",
@@ -5254,6 +5553,8 @@
           "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [
@@ -5275,8 +5576,10 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -5303,7 +5606,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-Jul",
@@ -5410,6 +5714,18 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [
+        {
+          "name": "A.X-K2",
+          "url": "https://huggingface.co/skt/A.X-K2"
+        }
+      ],
+      "AI9Stars": [
+        {
+          "name": "G9v3-3B",
+          "url": "https://huggingface.co/ai9stars/G9v3-3B"
+        }
+      ],
       "Kuaishou-Kling": [
         {
           "name": "KAT-Coder-V2.5-Dev",
@@ -5431,6 +5747,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5438,6 +5755,7 @@
           "url": "https://www.opensourceforu.com/2026/08/liquid-ai-launches-lfm2-5-encoders/"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [
         {
@@ -5464,7 +5782,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     },
     {
       "Month": "26-Aug",
@@ -5587,6 +5906,13 @@
           "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
         }
       ],
+      "SK-Telecom": [],
+      "AI9Stars": [
+        {
+          "name": "G9v3-39A5B",
+          "url": "https://huggingface.co/ai9stars/G9v3-39A5B"
+        }
+      ],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -5608,6 +5934,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
         {
@@ -5615,6 +5942,7 @@
           "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
         }
       ],
+      "Nous": [],
       "Allen": [],
       "Celeris": [],
       "Microsoft": [],
@@ -5631,7 +5959,13 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": [
+        {
+          "name": "Marin 535B-A23B (开训)",
+          "url": "https://github.com/marin-community/marin/issues/8435"
+        }
+      ]
     },
     {
       "Month": "26-Sep",
@@ -5688,6 +6022,8 @@
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
@@ -5704,8 +6040,10 @@
           "url": "https://artificialanalysis.ai/models/minicpm5-2b"
         }
       ],
+      "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
+      "Nous": [],
       "Allen": [],
       "Celeris": [
         {
@@ -5740,7 +6078,8 @@
       "SenseTime": [],
       "LLM-Applications": [],
       "AI-Chips": [],
-      "AI-Cloud": []
+      "AI-Cloud": [],
+      "Marin-Stanford": []
     }
   ]
 }

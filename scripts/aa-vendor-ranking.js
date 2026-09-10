@@ -48,7 +48,11 @@ const VENDOR_TO_COLUMN = {
   'Multiverse Computing': 'Multiverse',
   'Upstage': 'Upstage',
   'China Mobile': 'China-Mobile',
-  'KwaiKAT': 'Kuaishou-Kling'
+  'KwaiKAT': 'Kuaishou-Kling',
+  'SK Telecom': 'SK-Telecom',
+  'AI9Stars': 'AI9Stars',
+  'Prime Intellect': 'Prime-Intellect',
+  'Nous Research': 'Nous'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard

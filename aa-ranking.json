@@ -187,12 +187,28 @@
       "rank": 23
     },
     {
+      "column": "SK-Telecom",
+      "model": "A.X-K2",
+      "score": 23,
+      "estimated": true,
+      "aaRank": 98,
+      "rank": 23
+    },
+    {
+      "column": "AI9Stars",
+      "model": "G9v3-39A5B",
+      "score": 22,
+      "estimated": true,
+      "aaRank": 108,
+      "rank": 25
+    },
+    {
       "column": "Kuaishou-Kling",
       "model": "KAT-Coder-Pro V2",
       "score": 22,
       "estimated": true,
       "aaRank": 109,
-      "rank": 24
+      "rank": 25
     },
     {
       "column": "EXAONE-LG",
@@ -200,7 +216,7 @@
       "score": 20,
       "estimated": true,
       "aaRank": 115,
-      "rank": 25
+      "rank": 27
     },
     {
       "column": "LongCat",
@@ -208,7 +224,7 @@
       "score": 20,
       "estimated": false,
       "aaRank": 116,
-      "rank": 25
+      "rank": 27
     },
     {
       "column": "StepFun",
@@ -216,7 +232,7 @@
       "score": 19,
       "estimated": true,
       "aaRank": 117,
-      "rank": 27
+      "rank": 29
     },
     {
       "column": "Doubao-ByteDance",
@@ -224,7 +240,7 @@
       "score": 17,
       "estimated": true,
       "aaRank": 126,
-      "rank": 28
+      "rank": 30
     },
     {
       "column": "Mistral",
@@ -232,7 +248,7 @@
       "score": 15,
       "estimated": false,
       "aaRank": 135,
-      "rank": 29
+      "rank": 31
     },
     {
       "column": "IBM",
@@ -240,7 +256,7 @@
       "score": 15,
       "estimated": true,
       "aaRank": 136,
-      "rank": 29
+      "rank": 31
     },
     {
       "column": "Baidu",
@@ -248,7 +264,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 139,
-      "rank": 31
+      "rank": 33
     },
     {
       "column": "Amazon",
@@ -256,7 +272,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 141,
-      "rank": 31
+      "rank": 33
     },
     {
       "column": "Cohere",
@@ -264,7 +280,7 @@
       "score": 14,
       "estimated": false,
       "aaRank": 142,
-      "rank": 31
+      "rank": 33
     },
     {
       "column": "ModelBest-OpenBMB",
@@ -272,7 +288,15 @@
       "score": 13,
       "estimated": false,
       "aaRank": 152,
-      "rank": 34
+      "rank": 36
+    },
+    {
+      "column": "Prime-Intellect",
+      "model": "INTELLECT-3",
+      "score": 11,
+      "estimated": true,
+      "aaRank": 179,
+      "rank": 37
     },
     {
       "column": "Boss-Nanbeige",
@@ -280,7 +304,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 208,
-      "rank": 35
+      "rank": 38
     },
     {
       "column": "Liquid AI",
@@ -288,7 +312,15 @@
       "score": 8,
       "estimated": true,
       "aaRank": 209,
-      "rank": 35
+      "rank": 38
+    },
+    {
+      "column": "Nous",
+      "model": "Hermes 4 70B",
+      "score": 8,
+      "estimated": true,
+      "aaRank": 213,
+      "rank": 38
     },
     {
       "column": "Allen",
@@ -296,7 +328,7 @@
       "score": 7,
       "estimated": true,
       "aaRank": 235,
-      "rank": 37
+      "rank": 41
     },
     {
       "column": "Celeris",
@@ -304,7 +336,7 @@
       "score": 6,
       "estimated": false,
       "aaRank": 249,
-      "rank": 38
+      "rank": 42
     },
     {
       "column": "Microsoft",
@@ -312,7 +344,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 250,
-      "rank": 38
+      "rank": 42
     },
     {
       "column": "AI21",
@@ -320,22 +352,10 @@
       "score": 6,
       "estimated": true,
       "aaRank": 255,
-      "rank": 38
+      "rank": 42
     }
   ],
   "missingVendors": [
-    {
-      "vendor": "SK Telecom",
-      "model": "A.X-K2",
-      "score": 23,
-      "estimated": true
-    },
-    {
-      "vendor": "AI9Stars",
-      "model": "G9v3-39A5B",
-      "score": 22,
-      "estimated": true
-    },
     {
       "vendor": "ServiceNow",
       "model": "Apriel-v1.6-15B-Thinker",
@@ -367,12 +387,6 @@
       "estimated": false
     },
     {
-      "vendor": "Prime Intellect",
-      "model": "INTELLECT-3",
-      "score": 11,
-      "estimated": true
-    },
-    {
       "vendor": "Trillion Labs",
       "model": "Tri-21B-Think",
       "score": 9,
@@ -382,12 +396,6 @@
       "vendor": "Sarvam",
       "model": "Sarvam 105B (high)",
       "score": 9,
-      "estimated": true
-    },
-    {
-      "vendor": "Nous Research",
-      "model": "Hermes 4 70B",
-      "score": 8,
       "estimated": true
     },
     {
@@ -423,7 +431,8 @@
     "Baichuan-Intelligence",
     "Apple",
     "Stability",
-    "SenseTime"
+    "SenseTime",
+    "Marin-Stanford"
   ],
   "excludedColumns": [
     "Open-Source",
@@ -432,5 +441,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-09T01:19:07.367Z"
+  "generatedAt": "2026-09-10T01:07:18.581Z"
 }
