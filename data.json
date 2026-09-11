@@ -5997,7 +5997,12 @@
         }
       ],
       "Qwen-Alibaba": [],
-      "DeepSeek": [],
+      "DeepSeek": [
+        {
+          "name": "DeepSeek V4.1 Flash",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
+        }
+      ],
       "Agnes-Sapiens": [],
       "MBZUAI": [
         {
@@ -6020,7 +6025,12 @@
       "Xiaomi": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "Ant-Group": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-3.0-flash-VL",
+          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl"
+        }
+      ],
       "NVIDIA": [],
       "SK-Telecom": [],
       "AI9Stars": [],
