@@ -6003,7 +6003,12 @@
           "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
         }
       ],
-      "Agnes-Sapiens": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 3.0 Flash",
+          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
+        }
+      ],
       "Motif": [],
       "MBZUAI": [
         {
