@@ -291,12 +291,20 @@
       "rank": 36
     },
     {
+      "column": "Inception",
+      "model": "Mercury 2",
+      "score": 12,
+      "estimated": false,
+      "aaRank": 171,
+      "rank": 37
+    },
+    {
       "column": "Prime-Intellect",
       "model": "INTELLECT-3",
       "score": 11,
       "estimated": true,
       "aaRank": 183,
-      "rank": 37
+      "rank": 38
     },
     {
       "column": "Boss-Nanbeige",
@@ -304,7 +312,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 212,
-      "rank": 38
+      "rank": 39
     },
     {
       "column": "Liquid AI",
@@ -312,7 +320,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 213,
-      "rank": 38
+      "rank": 39
     },
     {
       "column": "Nous",
@@ -320,7 +328,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 217,
-      "rank": 38
+      "rank": 39
     },
     {
       "column": "Allen",
@@ -328,7 +336,7 @@
       "score": 7,
       "estimated": true,
       "aaRank": 239,
-      "rank": 41
+      "rank": 42
     },
     {
       "column": "Celeris",
@@ -336,7 +344,7 @@
       "score": 6,
       "estimated": false,
       "aaRank": 253,
-      "rank": 42
+      "rank": 43
     },
     {
       "column": "Microsoft",
@@ -344,7 +352,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 254,
-      "rank": 42
+      "rank": 43
     },
     {
       "column": "AI21",
@@ -352,7 +360,15 @@
       "score": 6,
       "estimated": true,
       "aaRank": 259,
-      "rank": 42
+      "rank": 43
+    },
+    {
+      "column": "Swiss-AI-Initiative",
+      "model": "Apertus 70B Instruct",
+      "score": 5,
+      "estimated": true,
+      "aaRank": 286,
+      "rank": 46
     }
   ],
   "missingVendors": [
@@ -361,12 +377,6 @@
       "model": "Apriel-v1.6-15B-Thinker",
       "score": 13,
       "estimated": true
-    },
-    {
-      "vendor": "Inception",
-      "model": "Mercury 2",
-      "score": 12,
-      "estimated": false
     },
     {
       "vendor": "Naver",
@@ -415,12 +425,6 @@
       "model": "Reka Flash 3",
       "score": 6,
       "estimated": true
-    },
-    {
-      "vendor": "Swiss AI Initiative",
-      "model": "Apertus 70B Instruct",
-      "score": 5,
-      "estimated": true
     }
   ],
   "columnsWithoutEntry": [
@@ -441,5 +445,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-13T01:12:54.430Z"
+  "generatedAt": "2026-09-14T08:41:15.501Z"
 }

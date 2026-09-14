@@ -115,6 +115,7 @@
         'Doubao-ByteDance': '字节跳动豆包：国内 C 端用户量最大的 AI 助手；Seed 团队研究实力强（Seedance 视频线全球领先，Seed Code 专攻编程）。',
         'Mistral': '欧洲旗舰，前 Meta 研究员 Guillaume Lample 等创立。Mistral 7B 与 Mixtral 8x7B 是开源史里程碑，现以闭源 API 与企业市场为主。',
         'ModelBest-OpenBMB': '面壁智能（清华 OpenBMB 团队），端侧小模型代表：MiniCPM 系列以"以小搏大"著称，V / o 线覆盖多模态与全模态。',
+        'Inception': 'Inception Labs（Stefano Ermon 等斯坦福学者创立），扩散语言模型（dLLM）先驱：以并行解码取代逐 token 自回归，千 tokens/s 级输出主打超低延迟。25-02 的 Mercury Coder 为首个商业级 dLLM，25-06 扩容并发技术报告；26-02 的 Mercury 2 为首个带推理能力的扩散 LLM，经 Mercury 2 for Search（26-08）迭代至 Mercury 2.5（26-09，智能提升约 40%）。',
         'Baidu': '文心 ERNIE：国内最早对标 ChatGPT 的大厂（2023 年 3 月首发），X1 推理线与 5.x 旗舰线并行迭代。',
         'Amazon': 'AWS 的 Nova 系列（前身为 Titan），依托 Bedrock 云生态主打企业市场，Sonic 线覆盖实时语音交互。',
         'Cohere': 'Aidan Gomez（Transformer 论文作者之一）创立，企业 RAG 起家（Embed / Rerank），Command A 系为主力、Aya 系专攻多语种。',
@@ -139,6 +140,7 @@
         'Nous': '美国开源实验室（Teknium 等创立），社区驱动后训练旗手。Hermes 系列从 Llama-2 时代迭代至今：Hermes 3 为 405B 首个全参数社区微调、Hermes 4 转向混合推理；DeepHermes 3 首创"推理开关"。社区影响力大于商业规模。',
         'Microsoft': 'Phi 系列"教科书级数据"小模型的代表，长期定义端侧精品档；另有 MAI 安全线，同时是 OpenAI 的主要投资方。',
         'AI21': '以色列公司（Jurassic 系起家），Jamba 系为 SSM + Transformer 混合架构先驱，另有 Maestro 编排平台。',
+        'Swiss-AI-Initiative': '瑞士国家 AI 计划（EPFL + ETH Zurich + CSCS 联合），在瑞士阿尔卑斯（Alps）超算上训练 Apertus 系列全开源模型（Apache-2.0）：25-09 首发 70B/8B（15T tokens、覆盖千余语言，AA 开放指数 88.89 与 OLMo 3 并列榜首）；26-06 推出 Apertus Mini 蒸馏小模型家族，26-07 的 1.5 版引入多模态与可选思考模式（262K 上下文），Apertus 2 预期"以月计"到来。',
         'iFlytek': '科大讯飞"星火"：语音技术起家二十余年的老厂，2023 年 5 月率先对标 ChatGPT，以华为昇腾全栈国产算力训练为卖点；X2 系为现役旗舰。',
         'Kuaishou-Kling': '快手双线：可灵（Kling）视频生成全球头部，与 Sora 直接竞争，3.0 为最新旗舰；KAT-Coder 系（Kwaipilot 团队）为智能体编程线，开源 Dev/Exp 系曾登顶 SWE-Bench 开源榜，Pro 为闭源旗舰。',
         'Vidu': '生数科技的国产视频模型（与可灵并称国内双雄之一），本表自 2026 年 1 月起收录（Q3）。',
@@ -153,7 +155,6 @@
 
       // 编者注：AA 在榜厂商简介（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致）
       const vendorIntros = {
-        'Inception': '即 Inception Labs，扩散语言模型（dLLM）先驱。Mercury 2 为首个带推理能力的扩散 LLM，输出速度超 1000 tokens/s，主打超低延迟场景。',
         'ServiceNow': '企业工作流软件巨头。Apriel 系列与 NVIDIA 合作训练，主打超低延迟的企业智能体工作流。',
         'Arcee AI': '开源小模型专业户，以模型合并与蒸馏技术（Evolutionary Merging）出名，主打高性价比小模型。',
         'Naver': '韩国最大搜索门户。HyperCLOVA X 系列是韩国"主权 AI"的基石，SEED 为其开源分支。',
@@ -162,8 +163,7 @@
         'Sarvam': '印度"全栈主权 AI"公司（2023 年成立），覆盖 22 种印度语言的语音与文本模型，旗舰 Sarvam 105B 主打印度本地语言企业场景。',
         'TII UAE': '阿布扎比科技创新研究院（TII），Falcon 系列出品方，中东"主权 AI"主力，Falcon-H1R 为其 SSM-Transformer 混合架构开源线。',
         'Perplexity': 'AI 搜索引擎公司。R1 1776 为其开源的 DeepSeek R1 后训练版（去审查微调），主打中立性卖点。',
-        'Reka AI': '前 Google DeepMind / Meta 研究员创办的创业公司，以多模态 Flash 系列开源小模型著称。',
-        'Swiss AI Initiative': '瑞士国家 AI 计划（ETH 系院校联合），在瑞士阿尔卑斯（Alps）超算上训练 Apertus 系列开源模型。'
+        'Reka AI': '前 Google DeepMind / Meta 研究员创办的创业公司，以多模态 Flash 系列开源小模型著称。'
       };
 
       // 编者注：厂商显示名（键须与 aa-ranking.json 的 missingVendors[].vendor 完全一致；不改数据源，仅改页面展示）

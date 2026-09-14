@@ -52,7 +52,9 @@ const VENDOR_TO_COLUMN = {
   'SK Telecom': 'SK-Telecom',
   'AI9Stars': 'AI9Stars',
   'Prime Intellect': 'Prime-Intellect',
-  'Nous Research': 'Nous'
+  'Nous Research': 'Nous',
+  'Inception': 'Inception',
+  'Swiss AI Initiative': 'Swiss-AI-Initiative'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard

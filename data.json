@@ -36,6 +36,7 @@
     "Amazon",
     "Cohere",
     "ModelBest-OpenBMB",
+    "Inception",
     "Prime-Intellect",
     "Boss-Nanbeige",
     "Liquid AI",
@@ -44,6 +45,7 @@
     "Celeris",
     "Microsoft",
     "AI21",
+    "Swiss-AI-Initiative",
     "iFlytek",
     "Vidu",
     "Shanghai-AI-Lab",
@@ -103,6 +105,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -111,6 +114,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -178,6 +182,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -186,6 +191,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -244,6 +250,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -252,6 +259,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -315,6 +323,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -323,6 +332,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -414,6 +424,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -427,6 +438,7 @@
           "url": "https://www.ai21.com/blog/introducing-j2/"
         }
       ],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -510,6 +522,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -518,6 +531,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -586,6 +600,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -594,6 +609,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark 1.0",
@@ -662,6 +678,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -675,6 +692,7 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark 1.5",
@@ -781,6 +799,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -794,6 +813,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -885,6 +905,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -893,6 +914,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark 2.0",
@@ -981,6 +1003,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -994,6 +1017,7 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1077,6 +1101,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1085,6 +1110,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1212,6 +1238,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1220,6 +1247,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1334,6 +1362,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1347,6 +1376,7 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1453,6 +1483,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1466,6 +1497,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark 3.0",
@@ -1608,6 +1640,7 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1621,6 +1654,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1716,6 +1750,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1734,6 +1769,7 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark 3.5",
@@ -1846,6 +1882,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1859,6 +1896,7 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1976,6 +2014,7 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1993,6 +2032,7 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2101,6 +2141,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2109,6 +2150,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark 4.0",
@@ -2206,6 +2248,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2214,6 +2257,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2311,6 +2355,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2333,6 +2378,7 @@
           "url": "https://www.ai21.com/blog/announcing-jamba/"
         }
       ],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2446,6 +2492,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2459,6 +2506,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2547,6 +2595,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -2568,6 +2617,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2663,6 +2713,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-1",
@@ -2685,6 +2736,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2834,6 +2886,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2847,6 +2900,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2977,6 +3031,7 @@
           "url": "https://github.com/OpenBMB/MiniCPM-o"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2985,6 +3040,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3101,6 +3157,12 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [
+        {
+          "name": "Mercury Coder",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury"
+        }
+      ],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3114,6 +3176,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3238,6 +3301,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3260,6 +3324,7 @@
           "url": "https://www.ai21.com/blog/maestro-ai-planning-orchestration/"
         }
       ],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3401,6 +3466,7 @@
       ],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3409,6 +3475,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark X1",
@@ -3543,6 +3610,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-2",
@@ -3556,6 +3624,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3674,6 +3743,12 @@
           "url": "https://github.com/openbmb/minicpm"
         }
       ],
+      "Inception": [
+        {
+          "name": "Mercury (scale-up)",
+          "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed"
+        }
+      ],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3682,6 +3757,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3837,6 +3913,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -3850,6 +3927,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3977,6 +4055,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3990,6 +4069,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4097,6 +4177,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -4105,6 +4186,16 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [
+        {
+          "name": "Apertus 70B Instruct",
+          "url": "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509"
+        },
+        {
+          "name": "Apertus 8B Instruct",
+          "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509"
+        }
+      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4211,6 +4302,7 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4229,6 +4321,7 @@
           "url": "https://www.ai21.com/blog/introducing-jamba-reasoning-3b/"
         }
       ],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4359,6 +4452,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-3",
@@ -4377,6 +4471,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4511,6 +4606,7 @@
       ],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4537,6 +4633,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4654,6 +4751,7 @@
           "url": "https://github.com/OpenBMB/AgentCPM-Explore"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -4676,6 +4774,7 @@
           "url": "https://ai21.com/blog/introducing-jamba2"
         }
       ],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [
         {
@@ -4843,6 +4942,12 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [
+        {
+          "name": "Mercury 2",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2"
+        }
+      ],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4861,6 +4966,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark X2",
@@ -5039,6 +5145,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5057,6 +5164,7 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5254,6 +5362,7 @@
           "url": "https://github.com/OpenBMB/VoxCPM"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5267,6 +5376,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark X2-Flash",
@@ -5404,6 +5514,7 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5417,6 +5528,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5576,6 +5688,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -5584,6 +5697,12 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [
+        {
+          "name": "Apertus Mini",
+          "url": "https://www.apertus-ai.org/articles/2026-06-apertus-mini/"
+        }
+      ],
       "iFlytek": [
         {
           "name": "Spark X2-VL",
@@ -5747,6 +5866,7 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5770,6 +5890,12 @@
         }
       ],
       "AI21": [],
+      "Swiss-AI-Initiative": [
+        {
+          "name": "Apertus 1.5",
+          "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
+        }
+      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5934,6 +6060,12 @@
       "Amazon": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [
+        {
+          "name": "Mercury 2 for Search",
+          "url": "https://www.inceptionlabs.ai/blog/mercury-2-for-search"
+        }
+      ],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5947,6 +6079,7 @@
       "Celeris": [],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -6055,6 +6188,12 @@
           "url": "https://artificialanalysis.ai/models/minicpm5-2b"
         }
       ],
+      "Inception": [
+        {
+          "name": "Mercury 2.5",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
+        }
+      ],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -6068,6 +6207,7 @@
       ],
       "Microsoft": [],
       "AI21": [],
+      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark X2.5",
