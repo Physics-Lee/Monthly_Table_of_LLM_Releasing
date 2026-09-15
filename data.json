@@ -6147,6 +6147,22 @@
         {
           "name": "K2 Horizon 375B A23B",
           "url": "https://huggingface.co/IFM/K2-Horizon-375B-A23B"
+        },
+        {
+          "name": "K2 Horizon MoVA 36B A4B",
+          "url": "https://artificialanalysis.ai/models/k2-mova-36b-mid5"
+        },
+        {
+          "name": "K2 Horizon 7B",
+          "url": "https://artificialanalysis.ai/models/k2-7b-ph2"
+        },
+        {
+          "name": "K2 Horizon 3.7B",
+          "url": "https://artificialanalysis.ai/models/k2-4b-ph1"
+        },
+        {
+          "name": "K2 Horizon 0.9B",
+          "url": "https://artificialanalysis.ai/models/k2-1b-final"
         }
       ],
       "Apodex-MiroMind": [],
