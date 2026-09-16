@@ -282,6 +282,7 @@
   "Qwen3.8 27B (medium)": "baseline",
   "Qwen3.8 27B (xhigh)": "baseline",
   "Qwen3.8 Max": "baseline",
+  "Qwen3.8 Max (0902)": "2026-09-16",
   "Qwen3.8-Flash-Next": "baseline",
   "R1 1776": "baseline",
   "Reka Flash 3": "baseline",
