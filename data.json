@@ -6128,7 +6128,12 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
-      "StepFun": [],
+      "StepFun": [
+        {
+          "name": "Step 5 Preview",
+          "url": "https://artificialanalysis.ai/models/step-5"
+        }
+      ],
       "Kimi-Moonshot": [],
       "Google": [
         {
