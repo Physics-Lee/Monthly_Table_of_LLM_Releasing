@@ -6,20 +6,20 @@
     "Qwen-Alibaba",
     "GLM-Z.ai",
     "xAI",
+    "StepFun",
     "Kimi-Moonshot",
     "Google",
     "DeepSeek",
     "Agnes-Sapiens",
     "Motif",
-    "MBZUAI",
     "Apodex-MiroMind",
     "MiniMax",
     "Nex-AGI",
     "Upstage",
+    "Thinking Machines Lab",
     "China-Mobile",
     "Multiverse",
     "Xiaomi",
-    "Thinking Machines Lab",
     "Tencent",
     "Ant-Group",
     "NVIDIA",
@@ -28,15 +28,14 @@
     "Kuaishou-Kling",
     "EXAONE-LG",
     "LongCat",
-    "StepFun",
     "Doubao-ByteDance",
-    "Mistral",
     "IBM",
     "Baidu",
+    "Mistral",
     "Amazon",
+    "Inception",
     "Cohere",
     "ModelBest-OpenBMB",
-    "Inception",
     "Prime-Intellect",
     "Boss-Nanbeige",
     "Liquid AI",
@@ -46,6 +45,7 @@
     "Microsoft",
     "AI21",
     "Swiss-AI-Initiative",
+    "MBZUAI",
     "iFlytek",
     "Vidu",
     "Shanghai-AI-Lab",
@@ -75,20 +75,20 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -97,15 +97,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -115,6 +114,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -152,20 +152,20 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -174,15 +174,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -192,6 +191,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -220,20 +220,20 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -242,15 +242,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -260,6 +259,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -288,6 +288,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -298,15 +299,14 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -315,15 +315,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -333,6 +332,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -389,20 +389,20 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -411,9 +411,7 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -421,10 +419,11 @@
           "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -439,6 +438,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -492,20 +492,20 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -514,15 +514,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -532,6 +531,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -565,6 +565,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -575,15 +576,14 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -592,15 +592,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -610,6 +609,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 1.0",
@@ -648,20 +648,20 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -670,15 +670,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -693,6 +692,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 1.5",
@@ -759,20 +759,20 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -786,9 +786,7 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -796,10 +794,11 @@
           "url": "https://gigazine.net/gsc_news/en/20230628-baidu-ernie-3-5/"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -814,6 +813,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -860,16 +860,17 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [
@@ -878,7 +879,6 @@
           "url": "https://github.com/XiaoMi/MiLM-6B"
         }
       ],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -892,20 +892,19 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [
         {
           "name": "Doubao",
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -915,6 +914,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 2.0",
@@ -963,20 +963,20 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan",
@@ -990,20 +990,19 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral 7B",
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1018,6 +1017,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1056,6 +1056,7 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi Chat",
@@ -1066,15 +1067,14 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -1088,9 +1088,7 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -1098,10 +1096,11 @@
           "url": "https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1111,6 +1110,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1171,6 +1171,7 @@
           "url": "https://techcrunch.com/2023/11/04/xai-launches-grok-its-gpt-4-rival-built-by-xai/"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [
@@ -1185,7 +1186,6 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -1195,10 +1195,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan Standard",
@@ -1212,11 +1212,10 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [
         {
           "name": "Titan Text Express",
@@ -1227,6 +1226,7 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Embed v3",
@@ -1238,7 +1238,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1248,6 +1247,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1295,6 +1295,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -1313,7 +1314,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -1328,10 +1328,10 @@
           "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
         }
       ],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -1345,8 +1345,9 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mixtral 8x7B",
@@ -1357,12 +1358,10 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1377,6 +1376,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1443,6 +1443,7 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "moonshot-v1",
@@ -1458,15 +1459,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1475,15 +1475,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1498,6 +1497,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 3.0",
@@ -1568,6 +1568,7 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -1591,15 +1592,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -1613,8 +1613,9 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Large",
@@ -1625,9 +1626,8 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Aya",
@@ -1640,7 +1640,6 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1655,6 +1654,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1710,6 +1710,7 @@
           "url": "https://huggingface.co/xai-org/grok-1"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [
@@ -1720,15 +1721,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1737,12 +1737,12 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Command R",
@@ -1750,7 +1750,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1770,6 +1769,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 3.5",
@@ -1837,12 +1837,12 @@
           "url": "https://x.ai/blog/grok-1.5v"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -1852,10 +1852,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1864,17 +1864,17 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mixtral 8x22B",
           "url": "https://mistral.ai/news/mixtral-8x22b/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Command R Plus",
@@ -1882,7 +1882,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1897,6 +1896,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1945,6 +1945,7 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -1964,15 +1965,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1981,14 +1981,7 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [
-        {
-          "name": "Codestral",
-          "url": "https://mistral.ai/news/codestral/"
-        }
-      ],
       "IBM": [
         {
           "name": "Granite Code 34B",
@@ -1996,12 +1989,19 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [
+        {
+          "name": "Codestral",
+          "url": "https://mistral.ai/news/codestral/"
+        }
+      ],
       "Amazon": [
         {
           "name": "Titan Text Premier",
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Aya 23",
@@ -2014,7 +2014,6 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2033,6 +2032,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2091,6 +2091,12 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [
+        {
+          "name": "Step-1V",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -2101,15 +2107,14 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -2128,20 +2133,14 @@
       ],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [
-        {
-          "name": "Step-1V",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2151,6 +2150,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 4.0",
@@ -2199,6 +2199,12 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [
+        {
+          "name": "Step-2",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [
@@ -2209,15 +2215,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2226,13 +2231,9 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [
-        {
-          "name": "Step-2",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Large 2",
@@ -2243,12 +2244,10 @@
           "url": "https://mistral.ai/news/mistral-nemo"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2258,6 +2257,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2300,6 +2300,7 @@
           "url": "https://x.ai/news/grok-2"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "moonshot-v1-auto",
@@ -2310,7 +2311,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -2320,10 +2320,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -2342,9 +2342,7 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -2352,10 +2350,11 @@
           "url": "https://www.reuters.com/technology/chinas-baidu-unveils-latest-version-its-ernie-ai-model-2023-10-17/"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2379,6 +2378,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2447,12 +2447,12 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -2462,10 +2462,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -2479,20 +2479,19 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Pixtral 12B",
           "url": "https://mistral.ai/news/pixtral-12b/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2507,6 +2506,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2540,20 +2540,20 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-lite",
@@ -2572,14 +2572,7 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [
-        {
-          "name": "Ministral 8B",
-          "url": "https://mistral.ai/news/ministraux/"
-        }
-      ],
       "IBM": [
         {
           "name": "Granite 3.0 8B",
@@ -2587,7 +2580,14 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [
+        {
+          "name": "Ministral 8B",
+          "url": "https://mistral.ai/news/ministraux/"
+        }
+      ],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Aya Expanse",
@@ -2595,7 +2595,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -2618,6 +2617,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2669,12 +2669,12 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -2684,10 +2684,10 @@
           "url": "https://huggingface.co/upstage/solar-pro-preview-instruct"
         }
       ],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2696,8 +2696,9 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Large 2.1",
@@ -2708,12 +2709,10 @@
           "url": "https://mistral.ai/news/pixtral-large-2501/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-1",
@@ -2737,6 +2736,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2788,6 +2788,7 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -2820,15 +2821,14 @@
           "url": "https://arxiv.org/abs/2509.03972"
         }
       ],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2847,9 +2847,7 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [
         {
           "name": "Granite 3.1 8B",
@@ -2857,6 +2855,7 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [
         {
           "name": "Nova Micro",
@@ -2879,6 +2878,7 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Command R7B",
@@ -2886,7 +2886,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2901,6 +2900,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2958,6 +2958,7 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K1.5",
@@ -2973,7 +2974,6 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -2987,10 +2987,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -3004,13 +3004,14 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [
         {
           "name": "Doubao 1.5",
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Small 3",
@@ -3021,9 +3022,8 @@
           "url": "https://mistral.ai/news/codestral-2501/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -3031,7 +3031,6 @@
           "url": "https://github.com/OpenBMB/MiniCPM-o"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3041,6 +3040,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3098,6 +3098,16 @@
           "url": "https://x.ai/news/grok-3"
         }
       ],
+      "StepFun": [
+        {
+          "name": "Step-Video-T2V",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        },
+        {
+          "name": "Step-Audio",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
       "Kimi-Moonshot": [
         {
           "name": "kimi-latest",
@@ -3118,15 +3128,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -3135,18 +3144,7 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [
-        {
-          "name": "Step-Video-T2V",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        },
-        {
-          "name": "Step-Audio",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [
         {
           "name": "Granite 3.2 8B",
@@ -3154,15 +3152,16 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [],
       "Inception": [
         {
           "name": "Mercury Coder",
           "url": "https://www.inceptionlabs.ai/blog/introducing-mercury"
         }
       ],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3177,6 +3176,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3220,6 +3220,7 @@
           "url": "https://techcrunch.com/2025/03/17/xai-launches-grok-3-and-grok-3-mini/"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -3239,15 +3240,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -3270,14 +3270,7 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [
-        {
-          "name": "Mistral Small 3.1",
-          "url": "https://mistral.ai/news/mistral-small-2402/"
-        }
-      ],
       "IBM": [],
       "Baidu": [
         {
@@ -3289,7 +3282,14 @@
           "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html"
         }
       ],
+      "Mistral": [
+        {
+          "name": "Mistral Small 3.1",
+          "url": "https://mistral.ai/news/mistral-small-2402/"
+        }
+      ],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Aya Vision",
@@ -3301,7 +3301,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3325,6 +3324,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3392,6 +3392,12 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [
+        {
+          "name": "Step-R1-V-Mini",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -3402,7 +3408,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -3412,10 +3417,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -3429,19 +3434,12 @@
       ],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [
-        {
-          "name": "Step-R1-V-Mini",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
       "Doubao-ByteDance": [
         {
           "name": "Doubao 1.5 Thinking",
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Mistral": [],
       "IBM": [
         {
           "name": "Granite 3.3 8B",
@@ -3458,15 +3456,16 @@
           "url": "https://home.baidu.com/home/index/news_detail/id/18020"
         }
       ],
+      "Mistral": [],
       "Amazon": [
         {
           "name": "Nova Premier",
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
         }
       ],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3476,6 +3475,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X1",
@@ -3533,6 +3533,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "kimi-thinking-preview",
@@ -3557,11 +3558,11 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [
@@ -3570,7 +3571,6 @@
           "url": "https://arxiv.org/abs/2505.07608"
         }
       ],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -3593,8 +3593,9 @@
       ],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Medium 3",
@@ -3605,12 +3606,10 @@
           "url": "https://mistral.ai/news/devstral/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-2",
@@ -3625,6 +3624,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3666,6 +3666,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -3676,7 +3677,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -3686,10 +3686,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-A13B",
@@ -3708,7 +3708,6 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [
         {
           "name": "Doubao 1.6",
@@ -3719,6 +3718,8 @@
           "url": "https://seed.bytedance.com/en/blog/tech-report-of-seedance-1-0-is-now-publicly-available"
         }
       ],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Magistral Small 1.0",
@@ -3733,20 +3734,18 @@
           "url": "https://mistral.ai/news/mistral-small-3-2/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [
+        {
+          "name": "Mercury (scale-up)",
+          "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed"
+        }
+      ],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
           "url": "https://github.com/openbmb/minicpm"
-        }
-      ],
-      "Inception": [
-        {
-          "name": "Mercury (scale-up)",
-          "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed"
         }
       ],
       "Prime-Intellect": [],
@@ -3758,6 +3757,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3815,6 +3815,12 @@
           "url": "https://x.ai/blog/grok-4"
         }
       ],
+      "StepFun": [
+        {
+          "name": "Step 3",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2",
@@ -3834,7 +3840,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -3844,6 +3849,7 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
         }
       ],
+      "Thinking Machines Lab": [],
       "China-Mobile": [
         {
           "name": "九天基础大模型 3.0",
@@ -3852,7 +3858,6 @@
       ],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-TurboS",
@@ -3881,13 +3886,14 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [
+      "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [
         {
-          "name": "Step 3",
-          "url": "https://hub.baai.ac.cn/view/38402"
+          "name": "ERNIE 4.5 Open",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
         }
       ],
-      "Doubao-ByteDance": [],
       "Mistral": [
         {
           "name": "Devstral Medium",
@@ -3898,14 +3904,8 @@
           "url": "https://mistral.ai/news/voxtral/"
         }
       ],
-      "IBM": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 4.5 Open",
-          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
-        }
-      ],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "Command A Vision",
@@ -3913,7 +3913,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -3928,6 +3927,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3985,6 +3985,7 @@
           "url": "https://x.ai/news/grok-code-fast-1"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2 Turbo Preview",
@@ -4010,7 +4011,6 @@
           "url": "https://huggingface.co/Motif-Technologies/Motif-2.6B"
         }
       ],
-      "MBZUAI": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroMind ODR",
@@ -4020,10 +4020,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-T1",
@@ -4047,15 +4047,14 @@
           "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"
         }
       ],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -4070,6 +4069,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4113,6 +4113,7 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2 0905",
@@ -4128,15 +4129,14 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-large-role",
@@ -4164,9 +4164,7 @@
           "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking"
         }
       ],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -4174,10 +4172,11 @@
           "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -4196,6 +4195,7 @@
           "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509"
         }
       ],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4229,6 +4229,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi CLI",
@@ -4244,15 +4245,14 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -4284,9 +4284,7 @@
           "url": "https://tech.meituan.com/2025/10/27/LongCat-Video.html"
         }
       ],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [
         {
           "name": "Granite 4.0 H Small",
@@ -4294,7 +4292,9 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -4302,7 +4302,6 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4322,6 +4321,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4369,6 +4369,7 @@
           "url": "https://x.ai/news/grok-4-1-fast"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2 Thinking",
@@ -4394,7 +4395,6 @@
           "url": "https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Instruct"
         }
       ],
-      "MBZUAI": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker v1.0 72B",
@@ -4404,6 +4404,7 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [
@@ -4416,7 +4417,6 @@
           "url": "https://huggingface.co/XiaomiMiMo/MiMo-Embodied-7B"
         }
       ],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "HY 2.0 Think",
@@ -4434,14 +4434,12 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [
         {
           "name": "Doubao Seed Code",
           "url": "https://skywork.ai/blog/llm/doubao-seed-code-official-release-2025/"
         }
       ],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -4449,10 +4447,11 @@
           "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-3",
@@ -4472,6 +4471,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4505,6 +4505,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [
@@ -4520,12 +4521,6 @@
           "url": "https://artificialanalysis.ai/models/motif-2-12-7b"
         }
       ],
-      "MBZUAI": [
-        {
-          "name": "K2-V2 70B",
-          "url": "https://huggingface.co/IFM/K2-V2-Instruct"
-        }
-      ],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -4535,6 +4530,7 @@
           "url": "https://huggingface.co/upstage/Solar-Open-100B"
         }
       ],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [
@@ -4543,7 +4539,6 @@
           "url": "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
         }
       ],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -4576,8 +4571,9 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Large 3",
@@ -4588,8 +4584,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/mistral-large-3-ministral-3-family-available-amazon-bedrock/"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Nova 2 Lite",
@@ -4604,9 +4598,9 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4634,6 +4628,12 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [
+        {
+          "name": "K2-V2 70B",
+          "url": "https://huggingface.co/IFM/K2-V2-Instruct"
+        }
+      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4677,6 +4677,7 @@
       "Qwen-Alibaba": [],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2.5",
@@ -4687,12 +4688,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [
-        {
-          "name": "K2 Think V2",
-          "url": "https://huggingface.co/IFM/K2-Think-V2"
-        }
-      ],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker 1.5 30B",
@@ -4702,6 +4697,7 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [
         {
@@ -4710,7 +4706,6 @@
         }
       ],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -4734,12 +4729,12 @@
           "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601"
         }
       ],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -4751,7 +4746,6 @@
           "url": "https://github.com/OpenBMB/AgentCPM-Explore"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -4775,6 +4769,12 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [
+        {
+          "name": "K2 Think V2",
+          "url": "https://huggingface.co/IFM/K2-Think-V2"
+        }
+      ],
       "iFlytek": [],
       "Vidu": [
         {
@@ -4862,6 +4862,12 @@
           "url": "https://gigazine.net/gsc_news/en/20260218-grok-4-2-public-beta"
         }
       ],
+      "StepFun": [
+        {
+          "name": "Step 3.5 Flash",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -4872,7 +4878,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -4886,10 +4891,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -4920,12 +4925,6 @@
           "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite"
         }
       ],
-      "StepFun": [
-        {
-          "name": "Step 3.5 Flash",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
       "Doubao-ByteDance": [
         {
           "name": "Doubao-Seed-2.0",
@@ -4936,18 +4935,18 @@
           "url": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0"
         }
       ],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [],
       "Inception": [
         {
           "name": "Mercury 2",
           "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2"
         }
       ],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4967,6 +4966,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X2",
@@ -5054,6 +5054,7 @@
           "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -5068,7 +5069,6 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker 1.7 & H1",
@@ -5087,6 +5087,7 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [
@@ -5103,7 +5104,6 @@
           "url": "https://mimo.xiaomi.com"
         }
       ],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -5132,20 +5132,19 @@
       ],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
       "Mistral": [
         {
           "name": "Mistral Small 4",
           "url": "https://mistral.ai/news/mistral-small-4"
         }
       ],
-      "IBM": [],
-      "Baidu": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5165,6 +5164,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5260,6 +5260,7 @@
           "url": "https://x.ai/news"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2.6",
@@ -5284,7 +5285,6 @@
       ],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -5294,6 +5294,7 @@
           "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
         }
       ],
+      "Thinking Machines Lab": [],
       "China-Mobile": [
         {
           "name": "九天 JT4.0",
@@ -5311,7 +5312,6 @@
           "url": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
         }
       ],
-      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "HY3-Preview",
@@ -5344,9 +5344,7 @@
           "url": "https://longcat.chat/platform/docs/zh/change-log"
         }
       ],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [
         {
           "name": "Granite 4.1 30B",
@@ -5354,7 +5352,9 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -5362,7 +5362,6 @@
           "url": "https://github.com/OpenBMB/VoxCPM"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5377,6 +5376,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X2-Flash",
@@ -5445,6 +5445,12 @@
           "url": "https://x.ai/news"
         }
       ],
+      "StepFun": [
+        {
+          "name": "Step 3.7 Flash",
+          "url": "https://static.stepfun.com/blog/step-3.7-flash/"
+        }
+      ],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -5459,11 +5465,16 @@
       "DeepSeek": [],
       "Agnes-Sapiens": [],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
+      "Thinking Machines Lab": [
+        {
+          "name": "TML-Interaction-Small",
+          "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
+        }
+      ],
       "China-Mobile": [],
       "Multiverse": [
         {
@@ -5472,12 +5483,6 @@
         }
       ],
       "Xiaomi": [],
-      "Thinking Machines Lab": [
-        {
-          "name": "TML-Interaction-Small",
-          "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
-        }
-      ],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -5491,14 +5496,7 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [
-        {
-          "name": "Step 3.7 Flash",
-          "url": "https://static.stepfun.com/blog/step-3.7-flash/"
-        }
-      ],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [
         {
@@ -5506,7 +5504,9 @@
           "url": "https://yiyan.baidu.com/blog/zh/posts/ernie-5.1-0508-release/"
         }
       ],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -5514,7 +5514,6 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
         }
       ],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5529,6 +5528,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5605,6 +5605,7 @@
         }
       ],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2.7-Code",
@@ -5629,7 +5630,6 @@
         }
       ],
       "Motif": [],
-      "MBZUAI": [],
       "Apodex-MiroMind": [
         {
           "name": "Apodex 1.0",
@@ -5649,10 +5649,10 @@
         }
       ],
       "Upstage": [],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -5675,12 +5675,12 @@
           "url": "https://longcat.chat/"
         }
       ],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [
         {
           "name": "North Mini Code",
@@ -5688,7 +5688,6 @@
         }
       ],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -5703,6 +5702,7 @@
           "url": "https://www.apertus-ai.org/articles/2026-06-apertus-mini/"
         }
       ],
+      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X2-VL",
@@ -5768,6 +5768,7 @@
           "url": "https://x.ai/news/grok-4-5"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K3",
@@ -5802,7 +5803,6 @@
           "url": "https://artificialanalysis.ai/models/motif-0714"
         }
       ],
-      "MBZUAI": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
         {
@@ -5812,14 +5812,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [
-        {
-          "name": "九天 JT4.1",
-          "url": "https://m.c114.com.cn/w16-1314195.html"
-        }
-      ],
-      "Multiverse": [],
-      "Xiaomi": [],
       "Thinking Machines Lab": [
         {
           "name": "Inkling",
@@ -5830,6 +5822,14 @@
           "url": "https://thinkingmachines.ai/news/inkling-small/"
         }
       ],
+      "China-Mobile": [
+        {
+          "name": "九天 JT4.1",
+          "url": "https://m.c114.com.cn/w16-1314195.html"
+        }
+      ],
+      "Multiverse": [],
+      "Xiaomi": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -5858,15 +5858,14 @@
         }
       ],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [],
-      "Mistral": [],
       "IBM": [],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
+      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
-      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5896,6 +5895,7 @@
           "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
         }
       ],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5959,6 +5959,7 @@
           "url": "https://x.ai/news/grok-4-6"
         }
       ],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -5992,7 +5993,6 @@
           "url": "https://artificialanalysis.ai/models/motif-3"
         }
       ],
-      "MBZUAI": [],
       "Apodex-MiroMind": [
         {
           "name": "Apodex 1.1",
@@ -6011,10 +6011,10 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-4"
         }
       ],
+      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Xiaomi": [],
-      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -6042,14 +6042,12 @@
       "Kuaishou-Kling": [],
       "EXAONE-LG": [],
       "LongCat": [],
-      "StepFun": [],
       "Doubao-ByteDance": [
         {
           "name": "Seedance 2.5",
           "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
         }
       ],
-      "Mistral": [],
       "IBM": [
         {
           "name": "Granite 4.2 30B",
@@ -6057,15 +6055,16 @@
         }
       ],
       "Baidu": [],
+      "Mistral": [],
       "Amazon": [],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [],
       "Inception": [
         {
           "name": "Mercury 2 for Search",
           "url": "https://www.inceptionlabs.ai/blog/mercury-2-for-search"
         }
       ],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -6080,6 +6079,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -6128,6 +6128,7 @@
       ],
       "GLM-Z.ai": [],
       "xAI": [],
+      "StepFun": [],
       "Kimi-Moonshot": [],
       "Google": [
         {
@@ -6148,6 +6149,68 @@
         }
       ],
       "Motif": [],
+      "Apodex-MiroMind": [],
+      "MiniMax": [],
+      "Nex-AGI": [],
+      "Upstage": [],
+      "Thinking Machines Lab": [],
+      "China-Mobile": [],
+      "Multiverse": [
+        {
+          "name": "Quasar 438B",
+          "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
+        }
+      ],
+      "Xiaomi": [],
+      "Tencent": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-3.0-flash-VL",
+          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl"
+        },
+        {
+          "name": "Ling-3.0-flash-Fin",
+          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-fin"
+        }
+      ],
+      "NVIDIA": [],
+      "SK-Telecom": [],
+      "AI9Stars": [],
+      "Kuaishou-Kling": [],
+      "EXAONE-LG": [],
+      "LongCat": [],
+      "Doubao-ByteDance": [],
+      "IBM": [],
+      "Baidu": [],
+      "Mistral": [],
+      "Amazon": [],
+      "Inception": [
+        {
+          "name": "Mercury 2.5",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
+        }
+      ],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [
+        {
+          "name": "MiniCPM5-2B",
+          "url": "https://artificialanalysis.ai/models/minicpm5-2b"
+        }
+      ],
+      "Prime-Intellect": [],
+      "Boss-Nanbeige": [],
+      "Liquid AI": [],
+      "Nous": [],
+      "Allen": [],
+      "Celeris": [
+        {
+          "name": "Celeris-1 Magnus",
+          "url": "https://celeris.ai/celeris-1-magnus"
+        }
+      ],
+      "Microsoft": [],
+      "AI21": [],
+      "Swiss-AI-Initiative": [],
       "MBZUAI": [
         {
           "name": "K2 Horizon 375B A23B",
@@ -6170,69 +6233,6 @@
           "url": "https://artificialanalysis.ai/models/k2-1b-final"
         }
       ],
-      "Apodex-MiroMind": [],
-      "MiniMax": [],
-      "Nex-AGI": [],
-      "Upstage": [],
-      "China-Mobile": [],
-      "Multiverse": [
-        {
-          "name": "Quasar 438B",
-          "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
-        }
-      ],
-      "Xiaomi": [],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
-      "Ant-Group": [
-        {
-          "name": "Ling-3.0-flash-VL",
-          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl"
-        },
-        {
-          "name": "Ling-3.0-flash-Fin",
-          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-fin"
-        }
-      ],
-      "NVIDIA": [],
-      "SK-Telecom": [],
-      "AI9Stars": [],
-      "Kuaishou-Kling": [],
-      "EXAONE-LG": [],
-      "LongCat": [],
-      "StepFun": [],
-      "Doubao-ByteDance": [],
-      "Mistral": [],
-      "IBM": [],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [
-        {
-          "name": "MiniCPM5-2B",
-          "url": "https://artificialanalysis.ai/models/minicpm5-2b"
-        }
-      ],
-      "Inception": [
-        {
-          "name": "Mercury 2.5",
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
-        }
-      ],
-      "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
-      "Liquid AI": [],
-      "Nous": [],
-      "Allen": [],
-      "Celeris": [
-        {
-          "name": "Celeris-1 Magnus",
-          "url": "https://celeris.ai/celeris-1-magnus"
-        }
-      ],
-      "Microsoft": [],
-      "AI21": [],
-      "Swiss-AI-Initiative": [],
       "iFlytek": [
         {
           "name": "Spark X2.5",
