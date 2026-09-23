@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-09-22T01:39:29.662Z",
+  "fetchedAt": "2026-09-23T01:34:05.785Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
       "column": "Anthropic",
-      "model": "Claude Fable 5.1 (max with fallback)",
-      "score": 53,
+      "model": "Claude Opus 5.5 (max with fallback)",
+      "score": 58,
       "estimated": false,
       "aaRank": 1,
       "rank": 1
@@ -15,15 +15,15 @@
       "model": "GPT-6 Astra (max)",
       "score": 53,
       "estimated": false,
-      "aaRank": 3,
-      "rank": 1
+      "aaRank": 6,
+      "rank": 2
     },
     {
       "column": "Meta",
       "model": "Muse Spark 1.3 (max)",
       "score": 48,
       "estimated": false,
-      "aaRank": 12,
+      "aaRank": 13,
       "rank": 3
     },
     {
@@ -31,7 +31,7 @@
       "model": "Grok 4.7 (xhigh)",
       "score": 46,
       "estimated": false,
-      "aaRank": 15,
+      "aaRank": 16,
       "rank": 4
     },
     {
@@ -39,7 +39,7 @@
       "model": "MiMo-V2.6-Pro",
       "score": 46,
       "estimated": false,
-      "aaRank": 17,
+      "aaRank": 18,
       "rank": 4
     },
     {
@@ -47,7 +47,7 @@
       "model": "Qwen3.8 Max (0902)",
       "score": 45,
       "estimated": false,
-      "aaRank": 19,
+      "aaRank": 20,
       "rank": 6
     },
     {
@@ -79,7 +79,7 @@
       "model": "Gemini 3.8 Flash (high)",
       "score": 41,
       "estimated": false,
-      "aaRank": 32,
+      "aaRank": 33,
       "rank": 10
     },
     {
@@ -87,7 +87,7 @@
       "model": "DeepSeek V4.1 Flash (max)",
       "score": 39,
       "estimated": false,
-      "aaRank": 36,
+      "aaRank": 38,
       "rank": 11
     },
     {
@@ -103,7 +103,7 @@
       "model": "Motif 3",
       "score": 34,
       "estimated": true,
-      "aaRank": 52,
+      "aaRank": 53,
       "rank": 13
     },
     {
@@ -119,7 +119,7 @@
       "model": "MiniMax-M3",
       "score": 29,
       "estimated": false,
-      "aaRank": 63,
+      "aaRank": 64,
       "rank": 15
     },
     {
@@ -143,7 +143,7 @@
       "model": "Inkling Small",
       "score": 28,
       "estimated": true,
-      "aaRank": 68,
+      "aaRank": 69,
       "rank": 16
     },
     {
@@ -151,7 +151,7 @@
       "model": "JT-4.1 Flash 236B A21B",
       "score": 27,
       "estimated": true,
-      "aaRank": 71,
+      "aaRank": 72,
       "rank": 19
     },
     {
@@ -159,7 +159,7 @@
       "model": "Quasar 438B (max)",
       "score": 27,
       "estimated": false,
-      "aaRank": 73,
+      "aaRank": 74,
       "rank": 19
     },
     {
@@ -167,7 +167,7 @@
       "model": "Hy3",
       "score": 25,
       "estimated": false,
-      "aaRank": 79,
+      "aaRank": 80,
       "rank": 21
     },
     {
@@ -231,7 +231,7 @@
       "model": "Doubao Seed Code",
       "score": 17,
       "estimated": true,
-      "aaRank": 113,
+      "aaRank": 114,
       "rank": 29
     },
     {
@@ -443,5 +443,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-22T01:39:29.755Z"
+  "generatedAt": "2026-09-23T01:34:06.017Z"
 }
