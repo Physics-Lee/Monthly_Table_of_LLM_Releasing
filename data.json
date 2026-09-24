@@ -33,9 +33,9 @@
     "Baidu",
     "Mistral",
     "Amazon",
-    "Inception",
     "Cohere",
     "ModelBest-OpenBMB",
+    "Inception",
     "Prime-Intellect",
     "Boss-Nanbeige",
     "Liquid AI",
@@ -102,9 +102,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -179,9 +179,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -247,9 +247,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -320,9 +320,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -421,9 +421,9 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -519,9 +519,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -597,9 +597,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -675,9 +675,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -796,9 +796,9 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -902,9 +902,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1000,9 +1000,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1098,9 +1098,9 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1226,7 +1226,6 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Embed v3",
@@ -1238,6 +1237,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1359,9 +1359,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1480,9 +1480,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1627,7 +1627,6 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Aya",
@@ -1640,6 +1639,7 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1742,7 +1742,6 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Command R",
@@ -1750,6 +1749,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -1874,7 +1874,6 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Command R Plus",
@@ -1882,6 +1881,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2001,7 +2001,6 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Aya 23",
@@ -2014,6 +2013,7 @@
           "url": "https://github.com/OpenBMB/MiniCPM"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2138,9 +2138,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2245,9 +2245,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2352,9 +2352,9 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2489,9 +2489,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -2587,7 +2587,6 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Aya Expanse",
@@ -2595,6 +2594,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -2710,9 +2710,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-1",
@@ -2878,7 +2878,6 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Command R7B",
@@ -2886,6 +2885,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3023,7 +3023,6 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -3031,6 +3030,7 @@
           "url": "https://github.com/OpenBMB/MiniCPM-o"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3154,14 +3154,14 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Inception": [
         {
           "name": "Mercury Coder",
           "url": "https://www.inceptionlabs.ai/blog/introducing-mercury"
         }
       ],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3289,7 +3289,6 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Aya Vision",
@@ -3301,6 +3300,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3463,9 +3463,9 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
         }
       ],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -3607,9 +3607,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-2",
@@ -3735,17 +3735,17 @@
         }
       ],
       "Amazon": [],
-      "Inception": [
-        {
-          "name": "Mercury (scale-up)",
-          "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed"
-        }
-      ],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
           "url": "https://github.com/openbmb/minicpm"
+        }
+      ],
+      "Inception": [
+        {
+          "name": "Mercury (scale-up)",
+          "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed"
         }
       ],
       "Prime-Intellect": [],
@@ -3905,7 +3905,6 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "Command A Vision",
@@ -3913,6 +3912,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -4052,9 +4052,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -4174,9 +4174,9 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -4294,7 +4294,6 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -4302,6 +4301,7 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4449,9 +4449,9 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [
         {
           "name": "INTELLECT-3",
@@ -4598,9 +4598,9 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -4734,7 +4734,6 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -4746,6 +4745,7 @@
           "url": "https://github.com/OpenBMB/AgentCPM-Explore"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -4939,14 +4939,14 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Inception": [
         {
           "name": "Mercury 2",
           "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2"
         }
       ],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [
         {
@@ -5142,9 +5142,9 @@
         }
       ],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5354,7 +5354,6 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -5362,6 +5361,7 @@
           "url": "https://github.com/OpenBMB/VoxCPM"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5506,7 +5506,6 @@
       ],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
@@ -5514,6 +5513,7 @@
           "url": "https://huggingface.co/openbmb/MiniCPM-V-4_6-1.3B"
         }
       ],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -5680,7 +5680,6 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [
         {
           "name": "North Mini Code",
@@ -5688,6 +5687,7 @@
         }
       ],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [],
@@ -5863,9 +5863,9 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [],
       "Cohere": [],
       "ModelBest-OpenBMB": [],
+      "Inception": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -6057,14 +6057,14 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
+      "Cohere": [],
+      "ModelBest-OpenBMB": [],
       "Inception": [
         {
           "name": "Mercury 2 for Search",
           "url": "https://www.inceptionlabs.ai/blog/mercury-2-for-search"
         }
       ],
-      "Cohere": [],
-      "ModelBest-OpenBMB": [],
       "Prime-Intellect": [],
       "Boss-Nanbeige": [],
       "Liquid AI": [
@@ -6211,17 +6211,17 @@
       "Baidu": [],
       "Mistral": [],
       "Amazon": [],
-      "Inception": [
-        {
-          "name": "Mercury 2.5",
-          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
-        }
-      ],
       "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM5-2B",
           "url": "https://artificialanalysis.ai/models/minicpm5-2b"
+        }
+      ],
+      "Inception": [
+        {
+          "name": "Mercury 2.5",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
         }
       ],
       "Prime-Intellect": [],
