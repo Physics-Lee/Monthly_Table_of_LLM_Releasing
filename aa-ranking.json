@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T01:34:05.785Z",
+  "fetchedAt": "2026-09-24T01:30:33.290Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -267,28 +267,28 @@
       "rank": 31
     },
     {
-      "column": "Inception",
-      "model": "Mercury 2",
-      "score": 14,
-      "estimated": true,
-      "aaRank": 129,
-      "rank": 31
-    },
-    {
       "column": "Cohere",
       "model": "Command A+",
       "score": 13,
       "estimated": false,
-      "aaRank": 136,
-      "rank": 35
+      "aaRank": 135,
+      "rank": 34
     },
     {
       "column": "ModelBest-OpenBMB",
       "model": "MiniCPM5-2B",
       "score": 12,
       "estimated": false,
+      "aaRank": 143,
+      "rank": 35
+    },
+    {
+      "column": "Inception",
+      "model": "Mercury 2.5",
+      "score": 12,
+      "estimated": false,
       "aaRank": 144,
-      "rank": 36
+      "rank": 35
     },
     {
       "column": "Prime-Intellect",
@@ -303,7 +303,7 @@
       "model": "Nanbeige4.1-3B",
       "score": 8,
       "estimated": true,
-      "aaRank": 192,
+      "aaRank": 190,
       "rank": 38
     },
     {
@@ -311,7 +311,7 @@
       "model": "LFM2.5-2.6B",
       "score": 8,
       "estimated": true,
-      "aaRank": 193,
+      "aaRank": 191,
       "rank": 38
     },
     {
@@ -319,7 +319,7 @@
       "model": "Hermes 4 70B",
       "score": 8,
       "estimated": true,
-      "aaRank": 197,
+      "aaRank": 195,
       "rank": 38
     },
     {
@@ -327,7 +327,7 @@
       "model": "Olmo 3.1 32B Think",
       "score": 7,
       "estimated": true,
-      "aaRank": 218,
+      "aaRank": 214,
       "rank": 41
     },
     {
@@ -335,7 +335,7 @@
       "model": "Celeris-1",
       "score": 6,
       "estimated": false,
-      "aaRank": 230,
+      "aaRank": 225,
       "rank": 42
     },
     {
@@ -343,7 +343,7 @@
       "model": "Phi-4 Mini",
       "score": 6,
       "estimated": true,
-      "aaRank": 231,
+      "aaRank": 226,
       "rank": 42
     },
     {
@@ -351,7 +351,7 @@
       "model": "Jamba 1.7 Large",
       "score": 6,
       "estimated": true,
-      "aaRank": 236,
+      "aaRank": 231,
       "rank": 42
     },
     {
@@ -359,7 +359,7 @@
       "model": "Apertus 70B Instruct",
       "score": 5,
       "estimated": true,
-      "aaRank": 261,
+      "aaRank": 256,
       "rank": 45
     }
   ],
@@ -443,5 +443,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-23T01:34:06.017Z"
+  "generatedAt": "2026-09-24T01:30:33.386Z"
 }
