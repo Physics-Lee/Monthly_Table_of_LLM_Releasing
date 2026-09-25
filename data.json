@@ -11,7 +11,6 @@
     "Kimi-Moonshot",
     "Google",
     "DeepSeek",
-    "Agnes-Sapiens",
     "Motif",
     "Apodex-MiroMind",
     "MiniMax",
@@ -45,6 +44,7 @@
     "Microsoft",
     "AI21",
     "Swiss-AI-Initiative",
+    "Agnes-Sapiens",
     "MBZUAI",
     "iFlytek",
     "Vidu",
@@ -80,7 +80,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -114,6 +113,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -157,7 +157,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -191,6 +190,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -225,7 +225,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -259,6 +258,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -298,7 +298,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -332,6 +331,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -394,7 +394,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -438,6 +437,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -497,7 +497,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -531,6 +530,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -575,7 +575,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -609,6 +608,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -653,7 +653,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -692,6 +691,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -764,7 +764,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -813,6 +812,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -870,7 +870,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -914,6 +913,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -968,7 +968,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -1017,6 +1016,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -1066,7 +1066,6 @@
       ],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -1110,6 +1109,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -1185,7 +1185,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -1247,6 +1246,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -1313,7 +1313,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -1376,6 +1375,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -1458,7 +1458,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -1497,6 +1496,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -1591,7 +1591,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Math"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -1654,6 +1653,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -1720,7 +1720,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-VL"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -1769,6 +1768,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -1842,7 +1842,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -1896,6 +1895,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -1964,7 +1964,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-V2/releases"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -2032,6 +2031,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2106,7 +2106,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -2150,6 +2149,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -2214,7 +2214,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -2257,6 +2256,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2310,7 +2310,6 @@
       ],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -2378,6 +2377,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2452,7 +2452,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -2506,6 +2505,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2545,7 +2545,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -2617,6 +2616,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2674,7 +2674,6 @@
       "Kimi-Moonshot": [],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -2736,6 +2735,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2815,7 +2815,6 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [
         {
           "name": "Llama-3-Motif-102B",
@@ -2900,6 +2899,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -2973,7 +2973,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-R1"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -3040,6 +3039,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -3127,7 +3127,6 @@
           "url": "https://github.com/deepseek-ai/Janus"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -3176,6 +3175,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -3239,7 +3239,6 @@
           "url": "https://github.blog/changelog/2025-04-08-deepseek-v3-0324-is-now-generally-available-in-github-models/"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -3324,6 +3323,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -3407,7 +3407,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -3475,6 +3474,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -3562,7 +3562,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -3624,6 +3623,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -3676,7 +3676,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -3757,6 +3756,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -3839,7 +3839,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -3927,6 +3926,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -4005,7 +4005,6 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [
         {
           "name": "Motif-2.6B",
@@ -4069,6 +4068,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -4128,7 +4128,6 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -4195,6 +4194,7 @@
           "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509"
         }
       ],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -4244,7 +4244,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -4321,6 +4320,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -4398,7 +4398,6 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [
         {
           "name": "Motif-2-12.7B-Instruct",
@@ -4471,6 +4470,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -4520,7 +4520,6 @@
           "url": "https://api-docs.deepseek.com/news/news251201"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [
         {
           "name": "Motif-2-12.7B-Reasoning",
@@ -4628,6 +4627,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [
         {
           "name": "K2-V2 70B",
@@ -4687,7 +4687,6 @@
       ],
       "Google": [],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [
         {
@@ -4769,6 +4768,7 @@
         }
       ],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [
         {
           "name": "K2 Think V2",
@@ -4877,7 +4877,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [
@@ -4966,6 +4965,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -5081,7 +5081,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [
         {
@@ -5164,6 +5163,7 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -5293,7 +5293,6 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
         }
       ],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -5376,6 +5375,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [
         {
@@ -5464,7 +5464,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -5528,6 +5527,7 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -5624,12 +5624,6 @@
         }
       ],
       "DeepSeek": [],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.0 Flash",
-          "url": "https://platform.agnes-ai.com/"
-        }
-      ],
       "Motif": [],
       "Apodex-MiroMind": [
         {
@@ -5700,6 +5694,12 @@
         {
           "name": "Apertus Mini",
           "url": "https://www.apertus-ai.org/articles/2026-06-apertus-mini/"
+        }
+      ],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.0 Flash",
+          "url": "https://platform.agnes-ai.com/"
         }
       ],
       "MBZUAI": [],
@@ -5786,16 +5786,6 @@
         {
           "name": "V4-Flash-0731",
           "url": "https://www.guancha.cn/economy/2026_07_31_825764.shtml"
-        }
-      ],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.5 Flash",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-flash"
-        },
-        {
-          "name": "Agnes 2.5 Pro Alpha",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
         }
       ],
       "Motif": [
@@ -5895,6 +5885,16 @@
           "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
         }
       ],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Flash",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-flash"
+        },
+        {
+          "name": "Agnes 2.5 Pro Alpha",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
+        }
+      ],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -5980,12 +5980,6 @@
         {
           "name": "DeepSeek Harness",
           "url": "https://github.com/deepseek-ai/deepseek-harness"
-        }
-      ],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.5 Pro Beta",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
         }
       ],
       "Motif": [
@@ -6079,6 +6073,12 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Pro Beta",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
+        }
+      ],
       "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
@@ -6170,12 +6170,6 @@
           "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
         }
       ],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 3.0 Flash",
-          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
-        }
-      ],
       "Motif": [],
       "Apodex-MiroMind": [],
       "MiniMax": [],
@@ -6238,6 +6232,12 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 3.0 Flash",
+          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
+        }
+      ],
       "MBZUAI": [
         {
           "name": "K2 Horizon 375B A23B",
