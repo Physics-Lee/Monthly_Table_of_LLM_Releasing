@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T01:39:23.151Z",
+  "fetchedAt": "2026-09-26T01:44:01.941Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -99,60 +99,60 @@
       "rank": 12
     },
     {
-      "column": "Apodex-MiroMind",
-      "model": "Apodex 1.1",
-      "score": 30,
-      "estimated": true,
-      "aaRank": 59,
-      "rank": 13
-    },
-    {
       "column": "MiniMax",
       "model": "MiniMax-M3",
       "score": 29,
       "estimated": false,
-      "aaRank": 63,
-      "rank": 14
+      "aaRank": 62,
+      "rank": 13
     },
     {
       "column": "Nex-AGI",
       "model": "Nex-N2-Pro",
       "score": 28,
       "estimated": true,
-      "aaRank": 64,
-      "rank": 15
+      "aaRank": 63,
+      "rank": 14
     },
     {
       "column": "Upstage",
       "model": "Solar Pro 4",
       "score": 28,
       "estimated": true,
-      "aaRank": 65,
-      "rank": 15
+      "aaRank": 64,
+      "rank": 14
     },
     {
       "column": "Thinking Machines Lab",
       "model": "Inkling Small",
       "score": 28,
       "estimated": true,
-      "aaRank": 68,
-      "rank": 15
+      "aaRank": 67,
+      "rank": 14
     },
     {
       "column": "China-Mobile",
       "model": "JT-4.1 Flash 236B A21B",
       "score": 27,
       "estimated": true,
-      "aaRank": 71,
-      "rank": 18
+      "aaRank": 70,
+      "rank": 17
     },
     {
       "column": "Multiverse",
       "model": "Quasar 438B (max)",
       "score": 27,
       "estimated": false,
+      "aaRank": 71,
+      "rank": 17
+    },
+    {
+      "column": "Apodex-MiroMind",
+      "model": "Apodex 1.1",
+      "score": 26,
+      "estimated": false,
       "aaRank": 72,
-      "rank": 18
+      "rank": 19
     },
     {
       "column": "Tencent",
@@ -435,5 +435,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-09-25T01:39:23.395Z"
+  "generatedAt": "2026-09-26T01:44:02.043Z"
 }

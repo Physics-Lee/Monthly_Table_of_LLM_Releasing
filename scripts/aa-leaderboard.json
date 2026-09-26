@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-25T01:39:23.151Z",
+  "fetchedAt": "2026-09-26T01:44:01.941Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
@@ -415,42 +415,34 @@
     },
     {
       "rank": 59,
-      "model": "Apodex 1.1",
-      "vendor": "Apodex",
-      "score": 30,
-      "estimated": true,
-      "slug": "apodex-1-1"
-    },
-    {
-      "rank": 60,
       "model": "GPT-5.6 Terra (medium)",
       "vendor": "OpenAI",
       "score": 30,
       "slug": "gpt-5-6-terra-medium"
     },
     {
-      "rank": 61,
+      "rank": 60,
       "model": "Gemini 3.1 Pro Preview",
       "vendor": "Google",
       "score": 30,
       "slug": "gemini-3-1-pro-preview"
     },
     {
-      "rank": 62,
+      "rank": 61,
       "model": "GPT-6 Luna (medium)",
       "vendor": "OpenAI",
       "score": 29,
       "slug": "gpt-6-luna-medium"
     },
     {
-      "rank": 63,
+      "rank": 62,
       "model": "MiniMax-M3",
       "vendor": "MiniMax",
       "score": 29,
       "slug": "minimax-m3"
     },
     {
-      "rank": 64,
+      "rank": 63,
       "model": "Nex-N2-Pro",
       "vendor": "Nex AGI",
       "score": 28,
@@ -458,7 +450,7 @@
       "slug": "nex-n2-pro"
     },
     {
-      "rank": 65,
+      "rank": 64,
       "model": "Solar Pro 4",
       "vendor": "Upstage",
       "score": 28,
@@ -466,21 +458,21 @@
       "slug": "solar-pro4"
     },
     {
-      "rank": 66,
+      "rank": 65,
       "model": "GPT-6 Sol (Non-reasoning)",
       "vendor": "OpenAI",
       "score": 28,
       "slug": "gpt-6-sol-non-reasoning"
     },
     {
-      "rank": 67,
+      "rank": 66,
       "model": "Claude Sonnet 5 (medium)",
       "vendor": "Anthropic",
       "score": 28,
       "slug": "claude-sonnet-5-medium"
     },
     {
-      "rank": 68,
+      "rank": 67,
       "model": "Inkling Small",
       "vendor": "Thinking Machines",
       "score": 28,
@@ -488,21 +480,21 @@
       "slug": "inkling-small"
     },
     {
-      "rank": 69,
+      "rank": 68,
       "model": "Qwen3.8 27B (medium)",
       "vendor": "Alibaba",
       "score": 28,
       "slug": "qwen3-8-27b-medium"
     },
     {
-      "rank": 70,
+      "rank": 69,
       "model": "GPT-5.6 Terra (low)",
       "vendor": "OpenAI",
       "score": 27,
       "slug": "gpt-5-6-terra-low"
     },
     {
-      "rank": 71,
+      "rank": 70,
       "model": "JT-4.1 Flash 236B A21B",
       "vendor": "China Mobile",
       "score": 27,
@@ -510,11 +502,18 @@
       "slug": "jt-4-1-flash-236b-a21b"
     },
     {
-      "rank": 72,
+      "rank": 71,
       "model": "Quasar 438B (max)",
       "vendor": "Multiverse Computing",
       "score": 27,
       "slug": "quasar-438b"
+    },
+    {
+      "rank": 72,
+      "model": "Apodex 1.1",
+      "vendor": "Apodex",
+      "score": 26,
+      "slug": "apodex-1-1"
     },
     {
       "rank": 73,
