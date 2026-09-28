@@ -6142,6 +6142,10 @@
         {
           "name": "MiMo-V2.6-Pro",
           "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
+        },
+        {
+          "name": "MiMo-V2.6-Flash",
+          "url": "https://artificialanalysis.ai/models/mimo-v2-6-flash"
         }
       ],
       "Qwen-Alibaba": [
