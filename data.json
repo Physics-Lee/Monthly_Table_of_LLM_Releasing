@@ -15,10 +15,10 @@
     "MiniMax",
     "Nex-AGI",
     "Upstage",
-    "Thinking Machines Lab",
     "China-Mobile",
     "Multiverse",
     "Apodex-MiroMind",
+    "Thinking Machines Lab",
     "Tencent",
     "Ant-Group",
     "NVIDIA",
@@ -84,10 +84,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -161,10 +161,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -229,10 +229,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -302,10 +302,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -398,10 +398,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -501,10 +501,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -579,10 +579,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -657,10 +657,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -768,10 +768,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -874,10 +874,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -972,10 +972,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan",
@@ -1070,10 +1070,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -1194,10 +1194,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan Standard",
@@ -1327,10 +1327,10 @@
           "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
         }
       ],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -1462,10 +1462,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1595,10 +1595,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -1724,10 +1724,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1851,10 +1851,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -1968,10 +1968,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2110,10 +2110,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -2218,10 +2218,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2319,10 +2319,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -2461,10 +2461,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -2549,10 +2549,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-lite",
@@ -2683,10 +2683,10 @@
           "url": "https://huggingface.co/upstage/solar-pro-preview-instruct"
         }
       ],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2824,10 +2824,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -2986,10 +2986,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -3131,10 +3131,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -3243,10 +3243,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -3416,10 +3416,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -3566,10 +3566,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -3685,10 +3685,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-A13B",
@@ -3848,7 +3848,6 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
         }
       ],
-      "Thinking Machines Lab": [],
       "China-Mobile": [
         {
           "name": "九天基础大模型 3.0",
@@ -3857,6 +3856,7 @@
       ],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-TurboS",
@@ -4014,7 +4014,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
@@ -4023,6 +4022,7 @@
           "url": "https://www.miromind.ai/blog/miromind-research-agent"
         }
       ],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-T1",
@@ -4132,10 +4132,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "Hunyuan-large-role",
@@ -4248,10 +4248,10 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -4407,7 +4407,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
@@ -4416,6 +4415,7 @@
           "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B"
         }
       ],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "HY 2.0 Think",
@@ -4534,10 +4534,10 @@
           "url": "https://huggingface.co/upstage/Solar-Open-100B"
         }
       ],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -4691,7 +4691,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [
         {
@@ -4705,6 +4704,7 @@
           "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.5-30B"
         }
       ],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -4890,10 +4890,10 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -5094,7 +5094,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
@@ -5103,6 +5102,7 @@
           "url": "https://arxiv.org/abs/2603.15726"
         }
       ],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -5302,7 +5302,6 @@
           "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
         }
       ],
-      "Thinking Machines Lab": [],
       "China-Mobile": [
         {
           "name": "九天 JT4.0",
@@ -5311,6 +5310,7 @@
       ],
       "Multiverse": [],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [
         {
           "name": "HY3-Preview",
@@ -5468,12 +5468,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [
-        {
-          "name": "TML-Interaction-Small",
-          "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
-        }
-      ],
       "China-Mobile": [],
       "Multiverse": [
         {
@@ -5482,6 +5476,12 @@
         }
       ],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [
+        {
+          "name": "TML-Interaction-Small",
+          "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
+        }
+      ],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -5638,7 +5638,6 @@
         }
       ],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
@@ -5647,6 +5646,7 @@
           "url": "https://www.apodex.com/blog/apodex-1.0"
         }
       ],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [
@@ -5802,6 +5802,14 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
+      "China-Mobile": [
+        {
+          "name": "九天 JT4.1",
+          "url": "https://m.c114.com.cn/w16-1314195.html"
+        }
+      ],
+      "Multiverse": [],
+      "Apodex-MiroMind": [],
       "Thinking Machines Lab": [
         {
           "name": "Inkling",
@@ -5812,14 +5820,6 @@
           "url": "https://thinkingmachines.ai/news/inkling-small/"
         }
       ],
-      "China-Mobile": [
-        {
-          "name": "九天 JT4.1",
-          "url": "https://m.c114.com.cn/w16-1314195.html"
-        }
-      ],
-      "Multiverse": [],
-      "Apodex-MiroMind": [],
       "Tencent": [],
       "Ant-Group": [],
       "NVIDIA": [],
@@ -6000,7 +6000,6 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-4"
         }
       ],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
@@ -6009,6 +6008,7 @@
           "url": "https://arxiv.org/abs/2608.23283"
         }
       ],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
@@ -6182,7 +6182,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "Thinking Machines Lab": [],
       "China-Mobile": [],
       "Multiverse": [
         {
@@ -6191,6 +6190,7 @@
         }
       ],
       "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
       "Tencent": [],
       "Ant-Group": [
         {
