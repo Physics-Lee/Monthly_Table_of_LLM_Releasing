@@ -2,6 +2,7 @@
   "vendors": [
     "Anthropic",
     "OpenAI",
+    "Google",
     "Meta",
     "xAI",
     "Xiaomi",
@@ -9,13 +10,12 @@
     "GLM-Z.ai",
     "StepFun",
     "Kimi-Moonshot",
-    "Google",
     "DeepSeek",
+    "China-Mobile",
     "Motif",
     "MiniMax",
     "Nex-AGI",
     "Upstage",
-    "China-Mobile",
     "Multiverse",
     "Apodex-MiroMind",
     "Thinking Machines Lab",
@@ -71,6 +71,7 @@
           "url": "https://openai.com/index/chatgpt/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -78,13 +79,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -148,6 +148,7 @@
           "url": "https://github.com/openai/whisper/discussions/661"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -155,13 +156,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -216,6 +216,7 @@
       "Month": "23-Jan",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -223,13 +224,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -279,6 +279,12 @@
       "Month": "23-Feb",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "Bard",
+          "url": "https://blog.google/technology/ai/introducing-bard/"
+        }
+      ],
       "Meta": [
         {
           "name": "Llama 1",
@@ -291,18 +297,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Bard",
-          "url": "https://blog.google/technology/ai/introducing-bard/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -380,6 +380,7 @@
           "url": "https://openai.com/index/gpt-4"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -392,13 +393,12 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -488,6 +488,7 @@
       "Month": "23-Apr",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -495,13 +496,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -561,6 +561,12 @@
       "Month": "23-May",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "PaLM 2",
+          "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -568,18 +574,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "PaLM 2",
-          "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -639,6 +639,7 @@
       "Month": "23-Jun",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -651,13 +652,12 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -750,6 +750,7 @@
         }
       ],
       "OpenAI": [],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 2",
@@ -762,13 +763,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -843,6 +843,7 @@
         }
       ],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [
@@ -868,13 +869,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -954,6 +954,7 @@
           "url": "https://openai.com/index/gpt-4v-system-card/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -966,13 +967,12 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1047,6 +1047,7 @@
       "Month": "23-Oct",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -1064,13 +1065,12 @@
           "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1153,6 +1153,7 @@
           "url": "https://github.com/openai/whisper/releases/tag/v20231106"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [
         {
@@ -1174,7 +1175,6 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-LLM",
@@ -1185,6 +1185,7 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1194,7 +1195,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1291,13 +1291,6 @@
         }
       ],
       "OpenAI": [],
-      "Meta": [],
-      "xAI": [],
-      "Xiaomi": [],
-      "Qwen-Alibaba": [],
-      "GLM-Z.ai": [],
-      "StepFun": [],
-      "Kimi-Moonshot": [],
       "Google": [
         {
           "name": "Gemini 1.0 Ultra",
@@ -1312,7 +1305,15 @@
           "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
         }
       ],
+      "Meta": [],
+      "xAI": [],
+      "Xiaomi": [],
+      "Qwen-Alibaba": [],
+      "GLM-Z.ai": [],
+      "StepFun": [],
+      "Kimi-Moonshot": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1327,7 +1328,6 @@
           "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
         }
       ],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1434,6 +1434,7 @@
           "url": "https://openai.com/index/new-embedding-models-and-api-updates/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -1451,18 +1452,17 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-MoE",
           "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1559,18 +1559,6 @@
           "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
         }
       ],
-      "Meta": [],
-      "xAI": [],
-      "Xiaomi": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen1.5",
-          "url": "https://huggingface.co/Qwen"
-        }
-      ],
-      "GLM-Z.ai": [],
-      "StepFun": [],
-      "Kimi-Moonshot": [],
       "Google": [
         {
           "name": "Gemma",
@@ -1585,17 +1573,29 @@
           "url": "https://deepmind.google/research/publications/genie-generative-interactive-environments/"
         }
       ],
+      "Meta": [],
+      "xAI": [],
+      "Xiaomi": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen1.5",
+          "url": "https://huggingface.co/Qwen"
+        }
+      ],
+      "GLM-Z.ai": [],
+      "StepFun": [],
+      "Kimi-Moonshot": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Math",
           "url": "https://github.com/deepseek-ai/DeepSeek-Math"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1697,6 +1697,7 @@
         }
       ],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [
         {
@@ -1713,18 +1714,17 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-VL",
           "url": "https://github.com/deepseek-ai/DeepSeek-VL"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1814,6 +1814,7 @@
       "Month": "24-Apr",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 3",
@@ -1840,8 +1841,8 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -1851,7 +1852,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1936,6 +1936,16 @@
           "url": "https://openai.com/index/gpt-4o"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 1.5 Flash",
+          "url": "https://blog.google/technology/ai/google-gemini-1-5-flash/"
+        },
+        {
+          "name": "Veo",
+          "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -1948,27 +1958,17 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 1.5 Flash",
-          "url": "https://blog.google/technology/ai/google-gemini-1-5-flash/"
-        },
-        {
-          "name": "Veo",
-          "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-V2",
           "url": "https://github.com/deepseek-ai/DeepSeek-V2/releases"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2082,6 +2082,12 @@
         }
       ],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "Gemma 2",
+          "url": "https://blog.google/technology/developers/google-gemma-2/"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -2099,18 +2105,12 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemma 2",
-          "url": "https://blog.google/technology/developers/google-gemma-2/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2185,6 +2185,7 @@
           "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
         }
       ],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 3.1",
@@ -2207,18 +2208,17 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Coder-V2",
           "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2286,6 +2286,7 @@
       "Month": "24-Aug",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [
         {
@@ -2308,8 +2309,8 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -2319,7 +2320,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2421,6 +2421,7 @@
           "url": "https://github.com/openai/whisper/releases/tag/v20240930"
         }
       ],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 3.2",
@@ -2450,8 +2451,8 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -2461,7 +2462,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2531,6 +2531,7 @@
         }
       ],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -2543,13 +2544,12 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2656,6 +2656,7 @@
         }
       ],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -2672,8 +2673,8 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -2683,7 +2684,6 @@
           "url": "https://huggingface.co/upstage/solar-pro-preview-instruct"
         }
       ],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2774,6 +2774,20 @@
           "url": "https://openai.com/index/sora-is-here/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 2.0 Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+        },
+        {
+          "name": "Veo 2",
+          "url": "https://deepmind.google/blog/state-of-the-art-video-and-image-generation-with-veo-2-and-imagen-3/"
+        },
+        {
+          "name": "Genie 2",
+          "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
+        }
+      ],
       "Meta": [
         {
           "name": "Llama 3.3",
@@ -2791,20 +2805,6 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 2.0 Flash",
-          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
-        },
-        {
-          "name": "Veo 2",
-          "url": "https://deepmind.google/blog/state-of-the-art-video-and-image-generation-with-veo-2-and-imagen-3/"
-        },
-        {
-          "name": "Genie 2",
-          "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3",
@@ -2815,6 +2815,7 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
         }
       ],
+      "China-Mobile": [],
       "Motif": [
         {
           "name": "Llama-3-Motif-102B",
@@ -2824,7 +2825,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2945,6 +2945,7 @@
           "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -2966,13 +2967,13 @@
           "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-R1",
           "url": "https://github.com/deepseek-ai/DeepSeek-R1"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -2986,7 +2987,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3089,6 +3089,12 @@
           "url": "https://openai.com/blog/gpt-4-5"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 2.0 Pro",
+          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -3115,23 +3121,17 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 2.0 Pro",
-          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "Janus-Pro",
           "url": "https://github.com/deepseek-ai/Janus"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3201,6 +3201,16 @@
           "url": "https://openai.com/index/o1-pro/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 2.5 Pro",
+          "url": "https://blog.google/products/gemini/gemini-2-5-pro-latest-preview"
+        },
+        {
+          "name": "Gemma 3",
+          "url": "https://blog.google/technology/developers/gemma-3/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -3223,27 +3233,17 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 2.5 Pro",
-          "url": "https://blog.google/products/gemini/gemini-2-5-pro-latest-preview"
-        },
-        {
-          "name": "Gemma 3",
-          "url": "https://blog.google/technology/developers/gemma-3/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3-0324",
           "url": "https://github.blog/changelog/2025-04-08-deepseek-v3-0324-is-now-generally-available-in-github-models/"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3374,6 +3374,12 @@
           "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 2.5 Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
+        }
+      ],
       "Meta": [
         {
           "name": "Llama 4 Scout",
@@ -3400,13 +3406,8 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 2.5 Flash",
-          "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -3416,7 +3417,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3529,6 +3529,12 @@
           "url": "https://openai.com/blog/introducing-codex"
         }
       ],
+      "Google": [
+        {
+          "name": "Veo 3",
+          "url": "https://deepmind.google/veo"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [
@@ -3546,12 +3552,6 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
-      "Google": [
-        {
-          "name": "Veo 3",
-          "url": "https://deepmind.google/veo"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-R1-0528",
@@ -3562,11 +3562,11 @@
           "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3662,6 +3662,12 @@
           "url": "https://openai.com/index/gpt-realtime-1-5/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini CLI",
+          "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -3669,13 +3675,8 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini CLI",
-          "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -3685,7 +3686,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3792,6 +3792,16 @@
       "Month": "25-Jul",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "Gemma 3n",
+          "url": "https://huggingface.co/google/gemma-3n-E2B-it"
+        },
+        {
+          "name": "Gemini 2.5 Flash-Lite",
+          "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -3828,17 +3838,13 @@
           "url": "https://kimi-k2.org/"
         }
       ],
-      "Google": [
+      "DeepSeek": [],
+      "China-Mobile": [
         {
-          "name": "Gemma 3n",
-          "url": "https://huggingface.co/google/gemma-3n-E2B-it"
-        },
-        {
-          "name": "Gemini 2.5 Flash-Lite",
-          "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
+          "name": "九天基础大模型 3.0",
+          "url": "https://www.10086.cn/aboutus/news/groupnews/index_detail_53246.html"
         }
       ],
-      "DeepSeek": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -3846,12 +3852,6 @@
         {
           "name": "Solar Pro 2",
           "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
-        }
-      ],
-      "China-Mobile": [
-        {
-          "name": "九天基础大模型 3.0",
-          "url": "https://www.10086.cn/aboutus/news/groupnews/index_detail_53246.html"
         }
       ],
       "Multiverse": [],
@@ -3971,6 +3971,12 @@
           "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-realtime/"
         }
       ],
+      "Google": [
+        {
+          "name": "Genie 3",
+          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -3993,18 +3999,13 @@
           "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
         }
       ],
-      "Google": [
-        {
-          "name": "Genie 3",
-          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
         }
       ],
+      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif-2.6B",
@@ -4014,7 +4015,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
         {
@@ -4104,6 +4104,7 @@
           "url": "https://openai.com/index/sora-2/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -4121,18 +4122,17 @@
           "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
         }
       ],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.1-Terminus",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -4225,6 +4225,12 @@
         }
       ],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "Veo 3.1",
+          "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -4237,18 +4243,12 @@
           "url": "https://github.com/MoonshotAI/kimi-cli"
         }
       ],
-      "Google": [
-        {
-          "name": "Veo 3.1",
-          "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -4356,6 +4356,12 @@
           "url": "https://openai.com/blog/introducing-gpt-5-1"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3",
+          "url": "https://blog.google/products/gemini/gemini-3/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -4386,18 +4392,13 @@
           "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3",
-          "url": "https://blog.google/products/gemini/gemini-3/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-Math-V2",
           "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2"
         }
       ],
+      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif-2-12.7B-Instruct",
@@ -4407,7 +4408,6 @@
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
         {
@@ -4501,6 +4501,7 @@
           "url": "https://openai.com/blog/introducing-gpt-5-2"
         }
       ],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [
@@ -4513,13 +4514,13 @@
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.2",
           "url": "https://api-docs.deepseek.com/news/news251201"
         }
       ],
+      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif-2-12.7B-Reasoning",
@@ -4534,7 +4535,6 @@
           "url": "https://huggingface.co/upstage/Solar-Open-100B"
         }
       ],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -4673,6 +4673,7 @@
         }
       ],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -4685,13 +4686,12 @@
           "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
         }
       ],
-      "Google": [],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [
         {
           "name": "HyperNova 60B",
@@ -4831,6 +4831,12 @@
           "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.1 Pro",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -4870,13 +4876,8 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 3.1 Pro",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -4890,7 +4891,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -5015,6 +5015,16 @@
           "url": "https://developers.openai.com/codex/multi-agent/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.1 Flash-Lite",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
+        },
+        {
+          "name": "Gemini 3.1 Flash Live",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -5070,17 +5080,8 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 3.1 Flash-Lite",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
-        },
-        {
-          "name": "Gemini 3.1 Flash Live",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -5094,7 +5095,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
         {
@@ -5224,6 +5224,12 @@
           "url": "https://openai.com/index/introducing-gpt-5-5/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemma 4",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark",
@@ -5277,12 +5283,6 @@
           "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemma 4",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "V4-Pro",
@@ -5293,6 +5293,12 @@
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
         }
       ],
+      "China-Mobile": [
+        {
+          "name": "九天 JT4.0",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-04-29/doc-inhwefve6705653.shtml"
+        }
+      ],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
@@ -5300,12 +5306,6 @@
         {
           "name": "Solar Pro 3",
           "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
-        }
-      ],
-      "China-Mobile": [
-        {
-          "name": "九天 JT4.0",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-04-29/doc-inhwefve6705653.shtml"
         }
       ],
       "Multiverse": [],
@@ -5427,6 +5427,16 @@
           "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.5 Flash",
+          "url": "https://blog.google/intl/en-africa/products/explore-get-answers/gemini-3-5/"
+        },
+        {
+          "name": "Gemini Omni Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
+        }
+      ],
       "Meta": [],
       "xAI": [
         {
@@ -5453,22 +5463,12 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 3.5 Flash",
-          "url": "https://blog.google/intl/en-africa/products/explore-get-answers/gemini-3-5/"
-        },
-        {
-          "name": "Gemini Omni Flash",
-          "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [
         {
           "name": "HyperNova 60B 2605",
@@ -5575,6 +5575,16 @@
         }
       ],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "Gemma 4 12B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        },
+        {
+          "name": "DiffusionGemma 26B A4B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
+        }
+      ],
       "Meta": [],
       "xAI": [],
       "Xiaomi": [],
@@ -5613,17 +5623,8 @@
           "url": "https://www.llmreference.com/model/kimi-k2-7-code"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemma 4 12B",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
-        },
-        {
-          "name": "DiffusionGemma 26B A4B",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
-        }
-      ],
       "DeepSeek": [],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [
         {
@@ -5638,7 +5639,6 @@
         }
       ],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
         {
@@ -5754,6 +5754,12 @@
           "url": "https://openai.com/index/gpt-5-6/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.6 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark 1.1",
@@ -5776,16 +5782,16 @@
           "url": "https://apnews.com/article/kimi-k3-china-ai-0d8a5e268deb11a673f4d444fc597cc5"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3.6 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "V4-Flash-0731",
           "url": "https://www.guancha.cn/economy/2026_07_31_825764.shtml"
+        }
+      ],
+      "China-Mobile": [
+        {
+          "name": "九天 JT4.1",
+          "url": "https://m.c114.com.cn/w16-1314195.html"
         }
       ],
       "Motif": [
@@ -5802,12 +5808,6 @@
       ],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [
-        {
-          "name": "九天 JT4.1",
-          "url": "https://m.c114.com.cn/w16-1314195.html"
-        }
-      ],
       "Multiverse": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [
@@ -5915,6 +5915,12 @@
       "Month": "26-Aug",
       "Anthropic": [],
       "OpenAI": [],
+      "Google": [
+        {
+          "name": "Gemini 3.7 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark 1.2",
@@ -5962,12 +5968,6 @@
       ],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 3.7 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "V4-Pro-0813",
@@ -5982,6 +5982,7 @@
           "url": "https://github.com/deepseek-ai/deepseek-harness"
         }
       ],
+      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif 3",
@@ -6000,7 +6001,6 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-4"
         }
       ],
-      "China-Mobile": [],
       "Multiverse": [],
       "Apodex-MiroMind": [
         {
@@ -6134,6 +6134,12 @@
           "url": "https://artificialanalysis.ai/models/gpt-6-1-sol"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.8 Flash",
+          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark 1.3",
@@ -6170,23 +6176,17 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Google": [
-        {
-          "name": "Gemini 3.8 Flash",
-          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek V4.1 Flash",
           "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
         }
       ],
+      "China-Mobile": [],
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
-      "China-Mobile": [],
       "Multiverse": [
         {
           "name": "Quasar 438B",
