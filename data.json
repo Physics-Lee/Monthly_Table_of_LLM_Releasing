@@ -6138,6 +6138,10 @@
         {
           "name": "Gemini 3.8 Flash",
           "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+        },
+        {
+          "name": "Gemini 4 Argon",
+          "url": "https://artificialanalysis.ai/models/gemini-4-argon"
         }
       ],
       "Meta": [
@@ -6186,7 +6190,12 @@
       "Motif": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
+      "Upstage": [
+        {
+          "name": "Solar Mini 4",
+          "url": "https://artificialanalysis.ai/models/solar-mini4"
+        }
+      ],
       "Multiverse": [
         {
           "name": "Quasar 438B",
