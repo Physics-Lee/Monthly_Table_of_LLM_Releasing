@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T02:07:42.313Z",
+  "fetchedAt": "2026-10-07T02:31:08.621Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -83,115 +83,115 @@
       "rank": 9
     },
     {
+      "column": "Ant-Group",
+      "model": "Ling 3.1 Flash",
+      "score": 41,
+      "estimated": false,
+      "aaRank": 37,
+      "rank": 11
+    },
+    {
       "column": "DeepSeek",
       "model": "DeepSeek V4.1 Flash (max)",
       "score": 39,
       "estimated": false,
-      "aaRank": 42,
-      "rank": 11
+      "aaRank": 43,
+      "rank": 12
+    },
+    {
+      "column": "Mistral",
+      "model": "Mistral Large 4 Preview",
+      "score": 38,
+      "estimated": false,
+      "aaRank": 44,
+      "rank": 13
     },
     {
       "column": "China-Mobile",
       "model": "JT-4.1 Flash 236B A21B",
       "score": 34,
       "estimated": false,
-      "aaRank": 52,
-      "rank": 12
+      "aaRank": 54,
+      "rank": 14
     },
     {
       "column": "Motif",
       "model": "Motif 3",
       "score": 34,
       "estimated": true,
-      "aaRank": 54,
-      "rank": 12
+      "aaRank": 56,
+      "rank": 14
     },
     {
       "column": "MiniMax",
       "model": "MiniMax-M3",
       "score": 29,
       "estimated": false,
-      "aaRank": 63,
-      "rank": 14
+      "aaRank": 65,
+      "rank": 16
     },
     {
       "column": "Nex-AGI",
       "model": "Nex-N2-Pro",
       "score": 28,
       "estimated": true,
-      "aaRank": 64,
-      "rank": 15
+      "aaRank": 66,
+      "rank": 17
     },
     {
       "column": "Upstage",
       "model": "Solar Pro 4",
       "score": 28,
       "estimated": true,
-      "aaRank": 65,
-      "rank": 15
+      "aaRank": 67,
+      "rank": 17
     },
     {
       "column": "Multiverse",
       "model": "Quasar 438B (max)",
       "score": 27,
       "estimated": false,
-      "aaRank": 69,
-      "rank": 17
+      "aaRank": 71,
+      "rank": 19
     },
     {
       "column": "Apodex-MiroMind",
       "model": "Apodex 1.1",
       "score": 26,
       "estimated": false,
-      "aaRank": 70,
-      "rank": 18
+      "aaRank": 72,
+      "rank": 20
     },
     {
       "column": "Thinking Machines Lab",
       "model": "Inkling Small",
       "score": 26,
       "estimated": false,
-      "aaRank": 74,
-      "rank": 18
+      "aaRank": 76,
+      "rank": 20
     },
     {
       "column": "Tencent",
       "model": "Hy3",
       "score": 25,
       "estimated": false,
-      "aaRank": 76,
-      "rank": 20
-    },
-    {
-      "column": "Ant-Group",
-      "model": "Ling-3.0-flash-VL",
-      "score": 25,
-      "estimated": false,
-      "aaRank": 81,
-      "rank": 20
+      "aaRank": 78,
+      "rank": 22
     },
     {
       "column": "NVIDIA",
       "model": "Nemotron 3 Ultra",
       "score": 23,
       "estimated": false,
-      "aaRank": 83,
-      "rank": 22
-    },
-    {
-      "column": "SK-Telecom",
-      "model": "A.X-K2",
-      "score": 23,
-      "estimated": true,
-      "aaRank": 84,
-      "rank": 22
+      "aaRank": 85,
+      "rank": 23
     },
     {
       "column": "AI9Stars",
       "model": "G9v3-39A5B",
       "score": 22,
       "estimated": true,
-      "aaRank": 87,
+      "aaRank": 88,
       "rank": 24
     },
     {
@@ -199,71 +199,71 @@
       "model": "KAT-Coder-Pro V2",
       "score": 22,
       "estimated": true,
-      "aaRank": 88,
+      "aaRank": 89,
       "rank": 24
+    },
+    {
+      "column": "SK-Telecom",
+      "model": "A.X-K2",
+      "score": 21,
+      "estimated": false,
+      "aaRank": 91,
+      "rank": 26
     },
     {
       "column": "EXAONE-LG",
       "model": "K-EXAONE 2.0",
       "score": 20,
       "estimated": true,
-      "aaRank": 98,
-      "rank": 26
+      "aaRank": 100,
+      "rank": 27
     },
     {
       "column": "LongCat",
       "model": "LongCat 2.0",
       "score": 19,
       "estimated": false,
-      "aaRank": 99,
-      "rank": 27
+      "aaRank": 101,
+      "rank": 28
     },
     {
       "column": "Doubao-ByteDance",
       "model": "Doubao Seed Code",
       "score": 17,
       "estimated": true,
-      "aaRank": 106,
-      "rank": 28
+      "aaRank": 108,
+      "rank": 29
     },
     {
       "column": "IBM",
       "model": "Granite 4.2 30B",
       "score": 15,
       "estimated": true,
-      "aaRank": 114,
-      "rank": 29
+      "aaRank": 116,
+      "rank": 30
     },
     {
       "column": "Baidu",
       "model": "ERNIE 5.0 Thinking Preview",
       "score": 14,
       "estimated": true,
-      "aaRank": 116,
-      "rank": 30
-    },
-    {
-      "column": "Mistral",
-      "model": "Mistral Medium 3.5",
-      "score": 14,
-      "estimated": false,
-      "aaRank": 117,
-      "rank": 30
+      "aaRank": 118,
+      "rank": 31
     },
     {
       "column": "Amazon",
       "model": "Nova 2.0 Pro Preview (medium)",
       "score": 14,
       "estimated": true,
-      "aaRank": 119,
-      "rank": 30
+      "aaRank": 121,
+      "rank": 31
     },
     {
       "column": "Cohere",
       "model": "Command A+",
       "score": 13,
       "estimated": false,
-      "aaRank": 126,
+      "aaRank": 128,
       "rank": 33
     },
     {
@@ -271,7 +271,7 @@
       "model": "MiniCPM5-2B",
       "score": 12,
       "estimated": false,
-      "aaRank": 134,
+      "aaRank": 136,
       "rank": 34
     },
     {
@@ -279,7 +279,7 @@
       "model": "Mercury 2.5",
       "score": 12,
       "estimated": false,
-      "aaRank": 135,
+      "aaRank": 137,
       "rank": 34
     },
     {
@@ -287,7 +287,7 @@
       "model": "INTELLECT-3",
       "score": 11,
       "estimated": true,
-      "aaRank": 155,
+      "aaRank": 157,
       "rank": 36
     },
     {
@@ -295,7 +295,7 @@
       "model": "Nanbeige4.1-3B",
       "score": 8,
       "estimated": true,
-      "aaRank": 183,
+      "aaRank": 185,
       "rank": 37
     },
     {
@@ -303,7 +303,7 @@
       "model": "LFM2.5-2.6B",
       "score": 8,
       "estimated": true,
-      "aaRank": 184,
+      "aaRank": 186,
       "rank": 37
     },
     {
@@ -311,7 +311,7 @@
       "model": "Hermes 4 70B",
       "score": 8,
       "estimated": true,
-      "aaRank": 188,
+      "aaRank": 190,
       "rank": 37
     },
     {
@@ -319,7 +319,7 @@
       "model": "Olmo 3.1 32B Think",
       "score": 7,
       "estimated": true,
-      "aaRank": 207,
+      "aaRank": 208,
       "rank": 40
     },
     {
@@ -327,7 +327,7 @@
       "model": "Celeris-1",
       "score": 6,
       "estimated": false,
-      "aaRank": 218,
+      "aaRank": 219,
       "rank": 41
     },
     {
@@ -335,7 +335,7 @@
       "model": "Phi-4 Mini",
       "score": 6,
       "estimated": true,
-      "aaRank": 219,
+      "aaRank": 220,
       "rank": 41
     },
     {
@@ -343,7 +343,7 @@
       "model": "Jamba 1.7 Large",
       "score": 6,
       "estimated": true,
-      "aaRank": 224,
+      "aaRank": 225,
       "rank": 41
     },
     {
@@ -351,7 +351,7 @@
       "model": "Apertus 70B Instruct",
       "score": 5,
       "estimated": true,
-      "aaRank": 249,
+      "aaRank": 250,
       "rank": 44
     }
   ],
@@ -435,5 +435,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-10-03T02:07:42.398Z"
+  "generatedAt": "2026-10-07T02:31:08.691Z"
 }
