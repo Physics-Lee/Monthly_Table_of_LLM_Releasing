@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T02:31:08.621Z",
+  "fetchedAt": "2026-10-08T02:46:30.315Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -87,7 +87,7 @@
       "model": "Ling 3.1 Flash",
       "score": 41,
       "estimated": false,
-      "aaRank": 37,
+      "aaRank": 39,
       "rank": 11
     },
     {
@@ -95,7 +95,7 @@
       "model": "DeepSeek V4.1 Flash (max)",
       "score": 39,
       "estimated": false,
-      "aaRank": 43,
+      "aaRank": 45,
       "rank": 12
     },
     {
@@ -103,7 +103,7 @@
       "model": "Mistral Large 4 Preview",
       "score": 38,
       "estimated": false,
-      "aaRank": 44,
+      "aaRank": 46,
       "rank": 13
     },
     {
@@ -111,7 +111,7 @@
       "model": "JT-4.1 Flash 236B A21B",
       "score": 34,
       "estimated": false,
-      "aaRank": 54,
+      "aaRank": 58,
       "rank": 14
     },
     {
@@ -119,7 +119,7 @@
       "model": "Motif 3",
       "score": 34,
       "estimated": true,
-      "aaRank": 56,
+      "aaRank": 60,
       "rank": 14
     },
     {
@@ -127,7 +127,7 @@
       "model": "MiniMax-M3",
       "score": 29,
       "estimated": false,
-      "aaRank": 65,
+      "aaRank": 70,
       "rank": 16
     },
     {
@@ -135,7 +135,7 @@
       "model": "Nex-N2-Pro",
       "score": 28,
       "estimated": true,
-      "aaRank": 66,
+      "aaRank": 71,
       "rank": 17
     },
     {
@@ -143,7 +143,7 @@
       "model": "Solar Pro 4",
       "score": 28,
       "estimated": true,
-      "aaRank": 67,
+      "aaRank": 72,
       "rank": 17
     },
     {
@@ -151,7 +151,7 @@
       "model": "Quasar 438B (max)",
       "score": 27,
       "estimated": false,
-      "aaRank": 71,
+      "aaRank": 76,
       "rank": 19
     },
     {
@@ -159,7 +159,7 @@
       "model": "Apodex 1.1",
       "score": 26,
       "estimated": false,
-      "aaRank": 72,
+      "aaRank": 77,
       "rank": 20
     },
     {
@@ -167,7 +167,7 @@
       "model": "Inkling Small",
       "score": 26,
       "estimated": false,
-      "aaRank": 76,
+      "aaRank": 81,
       "rank": 20
     },
     {
@@ -175,7 +175,7 @@
       "model": "Hy3",
       "score": 25,
       "estimated": false,
-      "aaRank": 78,
+      "aaRank": 83,
       "rank": 22
     },
     {
@@ -183,7 +183,7 @@
       "model": "Nemotron 3 Ultra",
       "score": 23,
       "estimated": false,
-      "aaRank": 85,
+      "aaRank": 90,
       "rank": 23
     },
     {
@@ -191,7 +191,7 @@
       "model": "G9v3-39A5B",
       "score": 22,
       "estimated": true,
-      "aaRank": 88,
+      "aaRank": 93,
       "rank": 24
     },
     {
@@ -199,7 +199,7 @@
       "model": "KAT-Coder-Pro V2",
       "score": 22,
       "estimated": true,
-      "aaRank": 89,
+      "aaRank": 94,
       "rank": 24
     },
     {
@@ -207,7 +207,7 @@
       "model": "A.X-K2",
       "score": 21,
       "estimated": false,
-      "aaRank": 91,
+      "aaRank": 96,
       "rank": 26
     },
     {
@@ -215,7 +215,7 @@
       "model": "K-EXAONE 2.0",
       "score": 20,
       "estimated": true,
-      "aaRank": 100,
+      "aaRank": 104,
       "rank": 27
     },
     {
@@ -223,7 +223,7 @@
       "model": "LongCat 2.0",
       "score": 19,
       "estimated": false,
-      "aaRank": 101,
+      "aaRank": 105,
       "rank": 28
     },
     {
@@ -231,7 +231,7 @@
       "model": "Doubao Seed Code",
       "score": 17,
       "estimated": true,
-      "aaRank": 108,
+      "aaRank": 112,
       "rank": 29
     },
     {
@@ -239,7 +239,7 @@
       "model": "Granite 4.2 30B",
       "score": 15,
       "estimated": true,
-      "aaRank": 116,
+      "aaRank": 120,
       "rank": 30
     },
     {
@@ -247,7 +247,7 @@
       "model": "ERNIE 5.0 Thinking Preview",
       "score": 14,
       "estimated": true,
-      "aaRank": 118,
+      "aaRank": 122,
       "rank": 31
     },
     {
@@ -255,7 +255,7 @@
       "model": "Nova 2.0 Pro Preview (medium)",
       "score": 14,
       "estimated": true,
-      "aaRank": 121,
+      "aaRank": 125,
       "rank": 31
     },
     {
@@ -263,7 +263,7 @@
       "model": "Command A+",
       "score": 13,
       "estimated": false,
-      "aaRank": 128,
+      "aaRank": 132,
       "rank": 33
     },
     {
@@ -271,7 +271,7 @@
       "model": "MiniCPM5-2B",
       "score": 12,
       "estimated": false,
-      "aaRank": 136,
+      "aaRank": 140,
       "rank": 34
     },
     {
@@ -279,7 +279,7 @@
       "model": "Mercury 2.5",
       "score": 12,
       "estimated": false,
-      "aaRank": 137,
+      "aaRank": 141,
       "rank": 34
     },
     {
@@ -287,7 +287,7 @@
       "model": "INTELLECT-3",
       "score": 11,
       "estimated": true,
-      "aaRank": 157,
+      "aaRank": 161,
       "rank": 36
     },
     {
@@ -295,7 +295,7 @@
       "model": "Nanbeige4.1-3B",
       "score": 8,
       "estimated": true,
-      "aaRank": 185,
+      "aaRank": 188,
       "rank": 37
     },
     {
@@ -303,7 +303,7 @@
       "model": "LFM2.5-2.6B",
       "score": 8,
       "estimated": true,
-      "aaRank": 186,
+      "aaRank": 189,
       "rank": 37
     },
     {
@@ -311,7 +311,7 @@
       "model": "Hermes 4 70B",
       "score": 8,
       "estimated": true,
-      "aaRank": 190,
+      "aaRank": 193,
       "rank": 37
     },
     {
@@ -319,7 +319,7 @@
       "model": "Olmo 3.1 32B Think",
       "score": 7,
       "estimated": true,
-      "aaRank": 208,
+      "aaRank": 211,
       "rank": 40
     },
     {
@@ -327,7 +327,7 @@
       "model": "Celeris-1",
       "score": 6,
       "estimated": false,
-      "aaRank": 219,
+      "aaRank": 222,
       "rank": 41
     },
     {
@@ -335,7 +335,7 @@
       "model": "Phi-4 Mini",
       "score": 6,
       "estimated": true,
-      "aaRank": 220,
+      "aaRank": 223,
       "rank": 41
     },
     {
@@ -343,7 +343,7 @@
       "model": "Jamba 1.7 Large",
       "score": 6,
       "estimated": true,
-      "aaRank": 225,
+      "aaRank": 228,
       "rank": 41
     },
     {
@@ -351,7 +351,7 @@
       "model": "Apertus 70B Instruct",
       "score": 5,
       "estimated": true,
-      "aaRank": 250,
+      "aaRank": 253,
       "rank": 44
     }
   ],
@@ -435,5 +435,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-10-07T02:31:08.691Z"
+  "generatedAt": "2026-10-08T02:46:30.424Z"
 }
