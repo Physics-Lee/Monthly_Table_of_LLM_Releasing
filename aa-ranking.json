@@ -123,12 +123,20 @@
       "rank": 14
     },
     {
+      "column": "MBZUAI",
+      "model": "K2 Horizon 375B A23B",
+      "score": 31,
+      "estimated": false,
+      "aaRank": 64,
+      "rank": 16
+    },
+    {
       "column": "MiniMax",
       "model": "MiniMax-M3",
       "score": 29,
       "estimated": false,
       "aaRank": 70,
-      "rank": 16
+      "rank": 17
     },
     {
       "column": "Nex-AGI",
@@ -136,7 +144,7 @@
       "score": 28,
       "estimated": true,
       "aaRank": 71,
-      "rank": 17
+      "rank": 18
     },
     {
       "column": "Upstage",
@@ -144,7 +152,7 @@
       "score": 28,
       "estimated": true,
       "aaRank": 72,
-      "rank": 17
+      "rank": 18
     },
     {
       "column": "Multiverse",
@@ -152,7 +160,7 @@
       "score": 27,
       "estimated": false,
       "aaRank": 76,
-      "rank": 19
+      "rank": 20
     },
     {
       "column": "Apodex-MiroMind",
@@ -160,7 +168,7 @@
       "score": 26,
       "estimated": false,
       "aaRank": 77,
-      "rank": 20
+      "rank": 21
     },
     {
       "column": "Thinking Machines Lab",
@@ -168,7 +176,7 @@
       "score": 26,
       "estimated": false,
       "aaRank": 81,
-      "rank": 20
+      "rank": 21
     },
     {
       "column": "Tencent",
@@ -176,7 +184,7 @@
       "score": 25,
       "estimated": false,
       "aaRank": 83,
-      "rank": 22
+      "rank": 23
     },
     {
       "column": "NVIDIA",
@@ -184,7 +192,7 @@
       "score": 23,
       "estimated": false,
       "aaRank": 90,
-      "rank": 23
+      "rank": 24
     },
     {
       "column": "AI9Stars",
@@ -192,7 +200,7 @@
       "score": 22,
       "estimated": true,
       "aaRank": 93,
-      "rank": 24
+      "rank": 25
     },
     {
       "column": "Kuaishou-Kling",
@@ -200,7 +208,7 @@
       "score": 22,
       "estimated": true,
       "aaRank": 94,
-      "rank": 24
+      "rank": 25
     },
     {
       "column": "SK-Telecom",
@@ -208,7 +216,7 @@
       "score": 21,
       "estimated": false,
       "aaRank": 96,
-      "rank": 26
+      "rank": 27
     },
     {
       "column": "EXAONE-LG",
@@ -216,7 +224,7 @@
       "score": 20,
       "estimated": true,
       "aaRank": 104,
-      "rank": 27
+      "rank": 28
     },
     {
       "column": "LongCat",
@@ -224,7 +232,7 @@
       "score": 19,
       "estimated": false,
       "aaRank": 105,
-      "rank": 28
+      "rank": 29
     },
     {
       "column": "Doubao-ByteDance",
@@ -232,7 +240,7 @@
       "score": 17,
       "estimated": true,
       "aaRank": 112,
-      "rank": 29
+      "rank": 30
     },
     {
       "column": "IBM",
@@ -240,7 +248,7 @@
       "score": 15,
       "estimated": true,
       "aaRank": 120,
-      "rank": 30
+      "rank": 31
     },
     {
       "column": "Baidu",
@@ -248,7 +256,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 122,
-      "rank": 31
+      "rank": 32
     },
     {
       "column": "Amazon",
@@ -256,7 +264,7 @@
       "score": 14,
       "estimated": true,
       "aaRank": 125,
-      "rank": 31
+      "rank": 32
     },
     {
       "column": "Cohere",
@@ -264,7 +272,7 @@
       "score": 13,
       "estimated": false,
       "aaRank": 132,
-      "rank": 33
+      "rank": 34
     },
     {
       "column": "ModelBest-OpenBMB",
@@ -272,7 +280,7 @@
       "score": 12,
       "estimated": false,
       "aaRank": 140,
-      "rank": 34
+      "rank": 35
     },
     {
       "column": "Inception",
@@ -280,7 +288,7 @@
       "score": 12,
       "estimated": false,
       "aaRank": 141,
-      "rank": 34
+      "rank": 35
     },
     {
       "column": "Prime-Intellect",
@@ -288,7 +296,7 @@
       "score": 11,
       "estimated": true,
       "aaRank": 161,
-      "rank": 36
+      "rank": 37
     },
     {
       "column": "Boss-Nanbeige",
@@ -296,7 +304,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 188,
-      "rank": 37
+      "rank": 38
     },
     {
       "column": "Liquid AI",
@@ -304,7 +312,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 189,
-      "rank": 37
+      "rank": 38
     },
     {
       "column": "Nous",
@@ -312,7 +320,7 @@
       "score": 8,
       "estimated": true,
       "aaRank": 193,
-      "rank": 37
+      "rank": 38
     },
     {
       "column": "Allen",
@@ -320,7 +328,7 @@
       "score": 7,
       "estimated": true,
       "aaRank": 211,
-      "rank": 40
+      "rank": 41
     },
     {
       "column": "Celeris",
@@ -328,7 +336,7 @@
       "score": 6,
       "estimated": false,
       "aaRank": 222,
-      "rank": 41
+      "rank": 42
     },
     {
       "column": "Microsoft",
@@ -336,7 +344,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 223,
-      "rank": 41
+      "rank": 42
     },
     {
       "column": "AI21",
@@ -344,7 +352,7 @@
       "score": 6,
       "estimated": true,
       "aaRank": 228,
-      "rank": 41
+      "rank": 42
     },
     {
       "column": "Swiss-AI-Initiative",
@@ -352,16 +360,10 @@
       "score": 5,
       "estimated": true,
       "aaRank": 253,
-      "rank": 44
+      "rank": 45
     }
   ],
   "missingVendors": [
-    {
-      "vendor": "Institute of Foundation Models",
-      "model": "K2 Horizon 375B A23B",
-      "score": 31,
-      "estimated": false
-    },
     {
       "vendor": "ServiceNow",
       "model": "Apriel-v1.6-15B-Thinker",
@@ -435,5 +437,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-10-08T02:46:30.424Z"
+  "generatedAt": "2026-10-08T06:52:37.482Z"
 }

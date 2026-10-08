@@ -15,6 +15,7 @@
     "Mistral",
     "China-Mobile",
     "Motif",
+    "MBZUAI",
     "MiniMax",
     "Nex-AGI",
     "Upstage",
@@ -45,7 +46,6 @@
     "AI21",
     "Swiss-AI-Initiative",
     "Agnes-Sapiens",
-    "MBZUAI",
     "iFlytek",
     "Vidu",
     "Shanghai-AI-Lab",
@@ -84,6 +84,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -114,7 +115,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -161,6 +161,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -191,7 +192,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -229,6 +229,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -259,7 +260,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -302,6 +302,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -332,7 +333,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -398,6 +398,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -438,7 +439,6 @@
       ],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -501,6 +501,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -531,7 +532,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -579,6 +579,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -609,7 +610,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 1.0",
@@ -657,6 +657,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -692,7 +693,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 1.5",
@@ -768,6 +768,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -813,7 +814,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -879,6 +879,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -914,7 +915,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 2.0",
@@ -977,6 +977,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -1017,7 +1018,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1075,6 +1075,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -1110,7 +1111,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1189,6 +1189,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "abab5",
@@ -1247,7 +1248,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1331,6 +1331,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "abab5.5",
@@ -1376,7 +1377,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1462,6 +1462,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -1497,7 +1498,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 3.0",
@@ -1604,6 +1604,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -1654,7 +1655,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1724,6 +1724,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -1769,7 +1770,6 @@
       ],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 3.5",
@@ -1851,6 +1851,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "ABAB 6.5",
@@ -1896,7 +1897,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1973,6 +1973,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -2032,7 +2033,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2110,6 +2110,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -2150,7 +2151,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark 4.0",
@@ -2227,6 +2227,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -2257,7 +2258,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2314,6 +2314,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "Hailuo AI",
@@ -2378,7 +2379,6 @@
       ],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2466,6 +2466,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "Video-01",
@@ -2506,7 +2507,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2559,6 +2559,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -2617,7 +2618,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2687,6 +2687,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [
@@ -2736,7 +2737,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2824,6 +2824,7 @@
           "url": "https://arxiv.org/abs/2509.03972"
         }
       ],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -2900,7 +2901,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2986,6 +2986,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "MiniMax-Text-01",
@@ -3040,7 +3041,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3131,6 +3131,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -3176,7 +3177,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3257,6 +3257,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -3324,7 +3325,6 @@
       ],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3411,6 +3411,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "Speech-02",
@@ -3475,7 +3476,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X1",
@@ -3584,6 +3584,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -3624,7 +3625,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3698,6 +3698,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "MiniMax-M1",
@@ -3757,7 +3758,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3862,6 +3862,7 @@
         }
       ],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [
@@ -3927,7 +3928,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4014,6 +4014,7 @@
           "url": "https://huggingface.co/Motif-Technologies/Motif-2.6B"
         }
       ],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -4069,7 +4070,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4132,6 +4132,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -4195,7 +4196,6 @@
         }
       ],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4261,6 +4261,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -4321,7 +4322,6 @@
       ],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4407,6 +4407,7 @@
           "url": "https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Instruct"
         }
       ],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -4471,7 +4472,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4536,6 +4536,12 @@
         {
           "name": "Motif-2-12.7B-Reasoning",
           "url": "https://artificialanalysis.ai/models/motif-2-12-7b"
+        }
+      ],
+      "MBZUAI": [
+        {
+          "name": "K2-V2 70B",
+          "url": "https://huggingface.co/IFM/K2-V2-Instruct"
         }
       ],
       "MiniMax": [],
@@ -4628,12 +4634,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [
-        {
-          "name": "K2-V2 70B",
-          "url": "https://huggingface.co/IFM/K2-V2-Instruct"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4696,6 +4696,12 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [
+        {
+          "name": "K2 Think V2",
+          "url": "https://huggingface.co/IFM/K2-Think-V2"
+        }
+      ],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -4769,12 +4775,6 @@
       ],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [
-        {
-          "name": "K2 Think V2",
-          "url": "https://huggingface.co/IFM/K2-Think-V2"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [
         {
@@ -4898,6 +4898,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "MiniMax-M2.5",
@@ -4966,7 +4967,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X2",
@@ -5095,6 +5095,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "MiniMax-M2.7",
@@ -5164,7 +5165,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5311,6 +5311,7 @@
         }
       ],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [
@@ -5376,7 +5377,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X2-Flash",
@@ -5473,6 +5473,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -5528,7 +5529,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5628,6 +5628,7 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "MiniMax M3",
@@ -5702,7 +5703,6 @@
           "url": "https://platform.agnes-ai.com/"
         }
       ],
-      "MBZUAI": [],
       "iFlytek": [
         {
           "name": "Spark X2-VL",
@@ -5802,6 +5802,7 @@
           "url": "https://artificialanalysis.ai/models/motif-0714"
         }
       ],
+      "MBZUAI": [],
       "MiniMax": [
         {
           "name": "MiniMax H3",
@@ -5895,7 +5896,6 @@
           "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
         }
       ],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -6000,6 +6000,7 @@
           "url": "https://artificialanalysis.ai/models/motif-3"
         }
       ],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [
@@ -6079,7 +6080,6 @@
           "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
         }
       ],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -6199,6 +6199,28 @@
       "Mistral": [],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [
+        {
+          "name": "K2 Horizon 375B A23B",
+          "url": "https://huggingface.co/IFM/K2-Horizon-375B-A23B"
+        },
+        {
+          "name": "K2 Horizon MoVA 36B A4B",
+          "url": "https://artificialanalysis.ai/models/k2-mova-36b-mid5"
+        },
+        {
+          "name": "K2 Horizon 7B",
+          "url": "https://artificialanalysis.ai/models/k2-7b-ph2"
+        },
+        {
+          "name": "K2 Horizon 3.7B",
+          "url": "https://artificialanalysis.ai/models/k2-4b-ph1"
+        },
+        {
+          "name": "K2 Horizon 0.9B",
+          "url": "https://artificialanalysis.ai/models/k2-1b-final"
+        }
+      ],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [
@@ -6257,28 +6279,6 @@
         {
           "name": "Agnes 3.0 Flash",
           "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
-        }
-      ],
-      "MBZUAI": [
-        {
-          "name": "K2 Horizon 375B A23B",
-          "url": "https://huggingface.co/IFM/K2-Horizon-375B-A23B"
-        },
-        {
-          "name": "K2 Horizon MoVA 36B A4B",
-          "url": "https://artificialanalysis.ai/models/k2-mova-36b-mid5"
-        },
-        {
-          "name": "K2 Horizon 7B",
-          "url": "https://artificialanalysis.ai/models/k2-7b-ph2"
-        },
-        {
-          "name": "K2 Horizon 3.7B",
-          "url": "https://artificialanalysis.ai/models/k2-4b-ph1"
-        },
-        {
-          "name": "K2 Horizon 0.9B",
-          "url": "https://artificialanalysis.ai/models/k2-1b-final"
         }
       ],
       "iFlytek": [
@@ -6341,6 +6341,7 @@
       ],
       "China-Mobile": [],
       "Motif": [],
+      "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
       "Upstage": [],
@@ -6371,7 +6372,6 @@
       "AI21": [],
       "Swiss-AI-Initiative": [],
       "Agnes-Sapiens": [],
-      "MBZUAI": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
