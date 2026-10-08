@@ -43,16 +43,16 @@
     <section class="editorial-section">
       <h2>AA 的历史</h2>
       <p class="editorial-note">
-        Artificial Analysis 于 2023 年生成式 AI 热潮中创立（联合创始人兼 CEO 为 Micah Hill-Smith，Sam Paech 是其评测结果最常露面的公开面孔），起步资金仅 $250K（AI Grant 投资），后据报道完成 Lux Capital 领投的 $30M 融资（估值约 $300M）。它起家于独立评测各家 LLM API 的<strong>价格、速度、延迟等"硬指标"</strong>——这些指标可以脚本化复测、难以公关修饰，为它积累了"独立、中立"的声誉。2025 年推出旗舰产品
+        Artificial Analysis 于 2023 年生成式 AI 热潮中创立（联合创始人兼 CEO 为 Micah Hill-Smith，Sam Paech 是其评测结果最常露面的公开面孔），起步资金仅 $250K（AI Grant 投资），后据报道完成 Lux Capital 领投的 $30M 融资（估值约 $300M）。它起家于独立评测各家 LLM API 的<strong>价格、速度、延迟等"硬指标"</strong>——这些指标可以脚本化复测、难以公关修饰，为它积累了"独立、中立"的声誉。2024 年初推出旗舰产品
         <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index" target="_blank" rel="noopener">Intelligence Index</a>
-        （当年 Q2 已迭代到 v2，年中加入 IFBench，现为 v4.2：十项评测、含私有测试集防刷分），成为行业广泛引用的第三方评测（按 AA 自述，OpenAI、Anthropic 等厂商常引用其结果）。不过经编者核查，<a href="https://openai.com/index/gpt-6-astra/" target="_blank" rel="noopener">GPT-6 Astra 官宣</a>并未直接引用 AA 综合分，而是引用了 Terminal-Bench 4.0、GPQA Diamond 等上游基准——其中 Terminal-Bench 正是 AA 指数的组成部分之一。
+        （2025 年初迭代到 v2，同年 8 月加入 IFBench，现为 v4.3.2：十项评测、含私有测试集防刷分，版本沿革见下文），成为行业广泛引用的第三方评测（按 AA 自述，OpenAI、Anthropic 等厂商常引用其结果）。不过经编者核查，<a href="https://openai.com/index/gpt-6-astra/" target="_blank" rel="noopener">GPT-6 Astra 官宣</a>并未直接引用 AA 综合分，而是引用了 Terminal-Bench 4.0、GPQA Diamond 等上游基准——其中 Terminal-Bench 正是 AA 指数的组成部分之一。
       </p>
     </section>
 
     <section class="editorial-section">
       <h2>为什么 AA 在 2025 年秋冬开始受到重视（编者观点）</h2>
       <p class="editorial-note">
-        个人认为关键在于<strong>权重设计与时代偏好的对齐</strong>：AA 指数的构成为 agents / coding / 通用能力 / 科学推理四类各占 25%——Agent 与 Coding 合计恰好 50%，而纯数学评测权重为零（见<a href="aa-ranking.html#supplement-rankings">"补充排行榜参考"一节</a>）。2025 年秋冬以来，业界最看重的恰好就是 Agent 和 Coding：模型从"聊天工具"转向"干活引擎"，各家发布会的主打叙事从跑分变成了"能独立完成多少真实工程任务"。当社区的关注点迁移到 Agent/Coding，权重过半押注在这两处的 AA 自然水涨船高；相形之下，以数学、知识问答为主的传统榜单与实际能力的相关性被普遍质疑。AA 的走红一半是方法论，一半是踩中了风口。
+        个人认为关键在于<strong>权重设计与时代偏好的对齐</strong>：AA 指数自 2026 年初的 v4.0 起按 agents / coding / 通用能力 / 科学推理四类加权（v4.0 为各占 25%，现为 30% / 20% / 30% / 20%，见下文“AA 分数的计算方法的历史变迁”）——Agent 与 Coding 合计恰好 50%，而纯数学评测权重为零（见<a href="aa-ranking.html#supplement-rankings">"补充排行榜参考"一节</a>）。2025 年秋冬以来，业界最看重的恰好就是 Agent 和 Coding：模型从"聊天工具"转向"干活引擎"，各家发布会的主打叙事从跑分变成了"能独立完成多少真实工程任务"。当社区的关注点迁移到 Agent/Coding，权重过半押注在这两处的 AA 自然水涨船高；相形之下，以数学、知识问答为主的传统榜单与实际能力的相关性被普遍质疑。AA 的走红一半是方法论，一半是踩中了风口。
       </p>
     </section>
 
@@ -90,6 +90,60 @@
       </div>
       <p class="editorial-note">
         编者注：这件事的启示是双面的——它既暴露了复合指数在"代际跃迁"面前的钝感（新旧模型的差异可能被评测集的饱和度抹平），也展示了 AA 的纠错速度（几天内完成重标并公开变更）。引用任何单一榜单分数时，记住它只是某个时点、某套权重的产物。
+      </p>
+    </section>
+
+    <section class="editorial-section">
+      <h2>AA 分数的计算方法的历史变迁</h2>
+      <p class="editorial-note">
+        AA 的<a href="https://artificialanalysis.ai/methodology/intelligence-benchmarking" target="_blank" rel="noopener">官方方法论页</a>按版本记录了指数计算的历次变更。从 2024 年初的 v1.0 到 2026 年 9 月的 v4.3.2，不到三年历经七代，主线有三条：<strong>题库之变</strong>——从公开学术基准的加权平均，到智能体沙箱任务与 AA 自建的私有题库占据近半权重（现为 45%）；<strong>数学之变</strong>——纯数学评测从在榜（MATH-500、AIME）到 v4.0 起清零；<strong>权重之变</strong>——从逐基准加权，到 v4.0 的四类均衡（各 25%），再到向 Agent 倾斜（现为 30%）。各版本要点：
+      </p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>版本</th><th>生效时间</th><th>计算方法的变化</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="score-cell">v1.0–1.3</td>
+              <td>2024-01 ~ 2025-02</td>
+              <td>初代指数：公开学术基准的加权平均；MATH-500、AIME 2024 等数学题库在列（二者直至 v2.1 才被移除）。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">v2.0 ~ v2.2</td>
+              <td>2025-02 ~ 2025-09</td>
+              <td>v2.0 的具体变更官方未详列；v2.1：+IFBench、+AIME 2025，−MATH-500、−AIME 2024；v2.2：+AA-LCR（AA 自建的长上下文推理评测）。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">v3.0</td>
+              <td>2025-09 ~ 2025-12</td>
+              <td>首次纳入智能体评测：+Terminal-Bench Hard、+𝜏²-Bench Telecom；同时纳入 MMLU-Pro 与 LiveCodeBench；更新权重。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">v4.0（含 v4.0.x）</td>
+              <td>2026-01 ~ 2026-06</td>
+              <td>结构性改版：+GDPval-AA（知识工作）、+AA-Omniscience（知识与幻觉）、+CritPt（物理推理）；−MMLU-Pro、−LiveCodeBench、−AIME 2025，纯数学清零；改为四类各占 25% 的类别权重。其间小版本仅更换判卷模型与 Elo 锚点。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">v4.1（含 v4.1.1）</td>
+              <td>2026-06 ~ 2026-09</td>
+              <td>GDPval-AA 升级 v2（Elo 以人类专家表现为 1000 重新定基）；Terminal-Bench Hard→2.1、𝜏²-Bench Telecom→𝜏³-Banking；−IFBench；权重向 Agent 倾斜：34% / 24% / 24% / 18%（Agent / Coding / 科学推理 / 通用）；v4.1.1 将判卷模型升级为 GPT-5.6 Luna。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">v4.2</td>
+              <td>2026-09-04/05</td>
+              <td>即上文 GPT-6 风波后的全榜重标：+AA-Briefcase（15%，私有）、+GDP.pdf（10%）；−GPQA Diamond；AA-LCR 升级 v1.1；私有题库权重升至 40%。</td>
+            </tr>
+            <tr>
+              <td class="score-cell">v4.3 ~ v4.3.2</td>
+              <td>2026-09-07 至今</td>
+              <td>𝜏³-Banking→AutomationBench-AA、Terminal-Bench 2.1→4.0；判卷模型与 Elo 锚点随前沿模型更替微调。现为十项评测，四类权重 Agent / 通用各 30%，Coding / 科学推理各 20%，私有题库占 45%。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="editorial-note">
+        编者注：版本号就是“分数不可比”的边界——每次大版本切换都意味着换题库、换权重、甚至换判卷模型，全榜分数随之整体重定（上文 GPT-6 风波中“普遍 −10 分”的重标，正是 v4.2 上线）。本仓库的每日快照按日期留痕，恰好把这些版本断点记录在案；引用 AA 分数时，应同时注明版本与日期。
       </p>
     </section>
 
