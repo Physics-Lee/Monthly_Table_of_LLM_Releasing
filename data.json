@@ -6311,7 +6311,12 @@
     },
     {
       "Month": "26-Oct",
-      "Anthropic": [],
+      "Anthropic": [
+        {
+          "name": "Claude Haiku 5.5",
+          "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
+        }
+      ],
       "OpenAI": [],
       "Google": [],
       "Meta": [],
