@@ -220,18 +220,12 @@ header h1 {
 }
 
 /* Ranking Source */
-.ranking-source {
-  margin-bottom: 8px;
-  padding: 0 4px;
-  font-size: 12px;
-}
-
-.ranking-source a {
+.table-hint-right a {
   color: var(--text-tertiary);
   text-decoration: underline dotted;
 }
 
-.ranking-source a:hover {
+.table-hint-right a:hover {
   color: var(--text-secondary);
 }
 
