@@ -6179,7 +6179,12 @@
           "url": "https://artificialanalysis.ai/models/step-5"
         }
       ],
-      "Kimi-Moonshot": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.8 Preview",
+          "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html"
+        }
+      ],
       "Ant-Group": [
         {
           "name": "Ling-3.0-flash-VL",
