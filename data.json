@@ -30,10 +30,10 @@
     "EXAONE-LG",
     "LongCat",
     "Doubao-ByteDance",
-    "IBM",
     "Baidu",
     "Amazon",
     "Cohere",
+    "IBM",
     "ModelBest-OpenBMB",
     "Inception",
     "Prime-Intellect",
@@ -99,10 +99,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -176,10 +176,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -244,10 +244,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -317,10 +317,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -413,7 +413,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE Bot",
@@ -422,6 +421,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -516,10 +516,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -594,10 +594,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -672,10 +672,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -788,7 +788,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 3.5",
@@ -797,6 +796,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -899,10 +899,10 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -997,10 +997,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1090,7 +1090,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 4.0",
@@ -1099,6 +1098,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1214,7 +1214,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [
         {
@@ -1236,6 +1235,7 @@
           "url": "https://cohere.com/blog/rerank-3"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1356,10 +1356,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1477,10 +1477,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1624,7 +1624,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -1633,6 +1632,7 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM",
@@ -1739,7 +1739,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -1748,6 +1747,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1871,7 +1871,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -1880,6 +1879,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1988,12 +1988,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [
-        {
-          "name": "Granite Code 34B",
-          "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
-        }
-      ],
       "Baidu": [],
       "Amazon": [
         {
@@ -2005,6 +1999,12 @@
         {
           "name": "Aya 23",
           "url": "https://cohere.com/research/aya"
+        }
+      ],
+      "IBM": [
+        {
+          "name": "Granite Code 34B",
+          "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
         }
       ],
       "ModelBest-OpenBMB": [
@@ -2135,10 +2135,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2242,10 +2242,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2344,7 +2344,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 4.0 Turbo",
@@ -2353,6 +2352,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2486,10 +2486,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2579,18 +2579,18 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [
-        {
-          "name": "Granite 3.0 8B",
-          "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
-        }
-      ],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
         {
           "name": "Aya Expanse",
           "url": "https://cohere.com/research/aya"
+        }
+      ],
+      "IBM": [
+        {
+          "name": "Granite 3.0 8B",
+          "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
         }
       ],
       "ModelBest-OpenBMB": [],
@@ -2707,10 +2707,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [
@@ -2849,12 +2849,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [
-        {
-          "name": "Granite 3.1 8B",
-          "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
-        }
-      ],
       "Baidu": [],
       "Amazon": [
         {
@@ -2882,6 +2876,12 @@
         {
           "name": "Command R7B",
           "url": "https://cohere.com/research/command-r"
+        }
+      ],
+      "IBM": [
+        {
+          "name": "Granite 3.1 8B",
+          "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
         }
       ],
       "ModelBest-OpenBMB": [],
@@ -3020,10 +3020,10 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
@@ -3146,15 +3146,15 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "IBM": [
         {
           "name": "Granite 3.2 8B",
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-2-open-source-reasoning-and-vision"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
         {
@@ -3277,7 +3277,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 4.5",
@@ -3299,6 +3298,7 @@
           "url": "https://cohere.com/blog/command-a"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -3441,12 +3441,6 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "IBM": [
-        {
-          "name": "Granite 3.3 8B",
-          "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
-        }
-      ],
       "Baidu": [
         {
           "name": "ERNIE 4.5 Turbo",
@@ -3464,6 +3458,12 @@
         }
       ],
       "Cohere": [],
+      "IBM": [
+        {
+          "name": "Granite 3.3 8B",
+          "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+        }
+      ],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -3604,10 +3604,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [
@@ -3732,10 +3732,10 @@
           "url": "https://seed.bytedance.com/en/blog/tech-report-of-seedance-1-0-is-now-publicly-available"
         }
       ],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
@@ -3897,7 +3897,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 4.5 Open",
@@ -3911,6 +3910,7 @@
           "url": "https://cohere.com/blog/command-a-vision"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4049,10 +4049,10 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4166,7 +4166,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE X1.1",
@@ -4175,6 +4174,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4286,15 +4286,15 @@
         }
       ],
       "Doubao-ByteDance": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "IBM": [
         {
           "name": "Granite 4.0 H Small",
           "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
@@ -4441,7 +4441,6 @@
           "url": "https://skywork.ai/blog/llm/doubao-seed-code-official-release-2025/"
         }
       ],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 5.0",
@@ -4450,6 +4449,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [
@@ -4587,7 +4587,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [
         {
@@ -4604,6 +4603,7 @@
         }
       ],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4736,10 +4736,10 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 4.5",
@@ -4936,10 +4936,10 @@
           "url": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0"
         }
       ],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
         {
@@ -5139,10 +5139,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -5346,15 +5346,15 @@
         }
       ],
       "Doubao-ByteDance": [],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "IBM": [
         {
           "name": "Granite 4.1 30B",
           "url": "https://www.ibm.com/granite/docs/models/granite4-1"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "ModelBest-OpenBMB": [
         {
           "name": "VoxCPM 2",
@@ -5498,7 +5498,6 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [
         {
           "name": "ERNIE 5.1",
@@ -5507,6 +5506,7 @@
       ],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.6 1.3B",
@@ -5672,7 +5672,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [
@@ -5681,6 +5680,7 @@
           "url": "https://cohere.com/blog/north-mini-code"
         }
       ],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -5851,10 +5851,10 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -6044,15 +6044,15 @@
           "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
         }
       ],
+      "Baidu": [],
+      "Amazon": [],
+      "Cohere": [],
       "IBM": [
         {
           "name": "Granite 4.2 30B",
           "url": "https://research.ibm.com/blog/introducing-granite-4-2"
         }
       ],
-      "Baidu": [],
-      "Amazon": [],
-      "Cohere": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
         {
@@ -6250,10 +6250,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM5-2B",
@@ -6361,10 +6361,10 @@
       "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "IBM": [],
       "Baidu": [],
       "Amazon": [],
       "Cohere": [],
+      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
