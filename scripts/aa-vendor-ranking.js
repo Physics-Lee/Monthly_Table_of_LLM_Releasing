@@ -43,7 +43,7 @@ const VENDOR_TO_COLUMN = {
   'LongCat': 'LongCat',
   'LG AI Research': 'EXAONE-LG',
   'Sapiens AI': 'Agnes-Sapiens',
-  'MBZUAI Institute of Foundation Models': 'MBZUAI',
+  'Institute of Foundation Models': 'MBZUAI',
   'Nex AGI': 'Nex-AGI',
   'Multiverse Computing': 'Multiverse',
   'Upstage': 'Upstage',
