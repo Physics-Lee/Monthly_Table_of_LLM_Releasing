@@ -1,0 +1,39 @@
+{
+  "iso_count": 249,
+  "country_count": 195,
+  "extra_count": 54,
+  "population_subtotal": 39558623,
+  "population_covered_entries": 47,
+  "population_unavailable_codes": [
+    "AQ",
+    "BV",
+    "GS",
+    "HM",
+    "IO",
+    "TF",
+    "UM"
+  ],
+  "UN_2023_subtotal": 39520475,
+  "top5": [
+    [
+      "中国台湾",
+      23317145
+    ],
+    [
+      "中国香港",
+      7442738
+    ],
+    [
+      "波多黎各",
+      3242022
+    ],
+    [
+      "留尼汪",
+      874883
+    ],
+    [
+      "中国澳门",
+      713916
+    ]
+  ]
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>国家覆盖对比（仅主权国家） | LLM Release Timeline</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .back-link {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+    .back-link a { color: var(--text-secondary); }
+    .snapshot-time {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin: 4px 0 20px;
+    }
+    .lede {
+      font-size: 13px;
+      color: var(--text-secondary);
+      max-width: 900px;
+      margin: 0 auto 28px;
+      line-height: 1.7;
+      text-align: left;
+    }
+    .section h2 {
+      font-size: 16px;
+      margin: 28px 0 12px;
+    }
+    .section-note {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-top: 8px;
+      line-height: 1.7;
+    }
+    table { min-width: 900px; }
+
+    /* 条形图（纯 CSS，无外部依赖） */
+    .chart {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 210px 1fr 120px;
+      align-items: center;
+      gap: 12px;
+    }
+    .bar-label {
+      font-size: 13px;
+      font-weight: 500;
+      text-align: right;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .bar-label small {
+      color: var(--text-tertiary);
+      font-weight: 400;
+    }
+    .bar-track {
+      height: 22px;
+      background: var(--bg-tertiary);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    }
+    .bar-value {
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .bar-value .approx { color: var(--text-tertiary); font-weight: 400; }
+    /* 满分参考行：主权国家总数 195 */
+    .bar-track.ref {
+      position: relative;
+      background: transparent;
+      border: 1px dashed var(--border-color);
+    }
+    .bar-track.ref::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(45deg, transparent, transparent 6px, rgba(148,163,184,0.25) 6px, rgba(148,163,184,0.25) 8px);
+    }
+    .chart-axis {
+      display: grid;
+      grid-template-columns: 210px 1fr 120px;
+      gap: 12px;
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+    .chart-axis .ticks {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--border-color);
+      padding-top: 4px;
+    }
+    @media (max-width: 768px) {
+      .bar-row, .chart-axis { grid-template-columns: 130px 1fr 96px; }
+      .bar-label { font-size: 12px; }
+    }
+
+    td.num-cell { font-weight: 600; white-space: nowrap; }
+    td.num-cell .approx { color: var(--text-tertiary); font-weight: 400; }
+    td.note-cell {
+      font-size: 12px;
+      color: var(--text-secondary);
+      min-width: 200px;
+      line-height: 1.6;
+    }
+    td.src-cell { font-size: 12px; }
+    td.src-cell a { color: var(--accent-primary); text-decoration: none; }
+    td.src-cell a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>国家覆盖对比（仅主权国家）</h1>
+        <span class="back-link"><a href="../">← 返回时间线</a>　<a href="country-coverage-full.html">← 含地区口径</a>　<a href="../aa-vendors.html">厂商名录</a></span>
+      </div>
+      <p class="subtitle">按联合国会员国 193 + 观察员国 2 的集合折算官方清单，明确区分 API 与网页版</p>
+      <p class="snapshot-time">数据核查与折算时间：2026-10-11（编者按各官方清单逐项清点与分类；清单动态变化，本页为快照）</p>
+    </header>
+
+    <p class="lede">
+      按“193 个联合国会员国 + 2 个观察员国”的统计口径，<strong>OpenAI API 覆盖 187 个国家（95.9%），Gemini API / AI Studio 覆盖 186 个，Anthropic 覆盖 184 个</strong>。
+      本页比较明确列出的服务范围；含地区版引用的 Gemini 网页版与 API 版是不同产品，不能将两页差异解释为仅由剔除地区条目造成。
+      Gemini 网页版排除仅限 Workspace 的中国大陆条目后，可折算为 187 个国家，与 OpenAI API 持平（详见口径说明）。
+    </p>
+
+    <div class="section">
+      <h2>主权国家覆盖（官方清单折算，降序）</h2>
+      <div class="chart" id="chart"></div>
+      <p class="section-note">三家均有官方逐项清单，可精确折算；虚线框为满分线 195（193 会员国 + 梵蒂冈、巴勒斯坦 2 观察员国）。Gemini 行采用 Gemini API / AI Studio 官方地区清单折算（见口径说明），非消费版应用的官方数字。</p>
+    </div>
+
+    <div class="section">
+      <h2>折算明细</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="rankHead"></thead>
+          <tbody id="rankBody"></tbody>
+        </table>
+      </div>
+      <p class="section-note">本页采用“联合国会员国 + 观察员国（圣座／梵蒂冈、巴勒斯坦）”作为国家统计集合；其他条目不计入。折算为编者完成，基于各家官方清单原文；不将所有未计入条目统称为属地。</p>
+    </div>
+
+    <div class="section">
+      <h2>无法折算的服务</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="convHead"></thead>
+          <tbody id="convBody"></tbody>
+        </table>
+      </div>
+      <p class="section-note">这些服务只公布"国家与地区"混合总数、或干脆没有清单，无法拆出主权国家数——混合口径的对比见<a href="country-coverage-full.html">含地区版页面</a>。</p>
+    </div>
+
+    <div class="section">
+      <h2>口径说明</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>事项</th><th>说明</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>国家统计口径</td><td class="note-cell"><a href="https://www.un.org/zh/about-us/member-states" target="_blank" rel="noopener">联合国会员国</a> 193 个 + 观察员国 2 个（圣座／梵蒂冈、巴勒斯坦）= 195 个，作为本页统计集合。科索沃、中国台湾、西撒哈拉、库克群岛、纽埃等均不在此集合内，故不计入；该分类仅用于本页统计。</td></tr>
+            <tr><td>各家清单的折算</td><td class="note-cell">OpenAI API：188 项 = 185 会员国 + 2 观察员国 + 1 其他条目（中国台湾）；Gemini API：230 项 = 184 会员国 + 2 观察员国 + 44 个其他条目；Anthropic：185 项 = 182 会员国 + 2 观察员国 + 1 其他条目（中国台湾）。Gemini API 的其他条目包含属地、南极洲及科索沃等，不宜统一称为属地。Anthropic 还支持已列国家的属地，185 不是完整覆盖地区数，但不影响本页国家数折算。</td></tr>
+            <tr><td>Gemini 的产品范围</td><td class="note-cell">本页图表采用<a href="https://ai.google.dev/gemini-api/docs/available-regions" target="_blank" rel="noopener">Gemini API / AI Studio 清单</a>（230 项）折算为 186 个国家。<a href="https://support.google.com/gemini/answer/13575153" target="_blank" rel="noopener">Gemini 网页版帮助页</a>也有逐项清单，本次清点为 242 项；排除仅限 Workspace 的中国大陆条目后，为 185 会员国 + 2 观察员国 + 54 个其他条目，共覆盖 187 个本页口径的国家。网页版与 API 版支持地区不同。</td></tr>
+            <tr><td>跨页面比较</td><td class="note-cell"><a href="country-coverage-full.html" target="_blank" rel="noopener">含地区版</a>同时列出清单计数、下限与历史公告数字，不能用于严格排名；其中 Gemini 网页版与本页 API 版的范围也不同。不能据此宣称“只剔除属地后，OpenAI 反超 Gemini”。</td></tr>
+            <tr><td>多覆盖了哪些国家</td><td class="note-cell">相较 Gemini API，OpenAI API 多支持阿富汗、缅甸；Gemini API 多支持委内瑞拉。Anthropic 比 OpenAI API 另缺阿富汗、缅甸、也门。图表中的三项服务覆盖数为 184～187，不能据此推导用户数量或市场份额。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="source">来源：OpenAI / Anthropic / Google 各官方支持清单（见折算明细"清单"列链接），折算为编者逐项完成</span>
+    </div>
+  </div>
+
+  <script>
+    // 编者注：主权国家口径折算结果（满分 195 = 193 会员国 + 2 观察员国；均为 2026-10-11 清单快照）
+    const ranked = [
+      {
+        vendor: 'OpenAI', listName: 'API 支持清单', total: 188, sovereign: 187,
+        members: 185, observers: 2,
+        regions: '1（中国台湾）',
+        absent: '中国大陆、俄罗斯、伊朗、朝鲜、古巴、白俄罗斯、委内瑞拉、叙利亚（8 国）',
+        source: 'https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories'
+      },
+      {
+        vendor: 'Google', listName: 'Gemini API / AI Studio 地区清单', total: 230, sovereign: 186,
+        members: 184, observers: 2,
+        regions: '44 个其他条目（含属地、南极洲、科索沃等）',
+        absent: '中国大陆、俄罗斯、伊朗、朝鲜、古巴、白俄罗斯、叙利亚、阿富汗、缅甸（9 国）',
+        source: 'https://ai.google.dev/gemini-api/docs/available-regions'
+      },
+      {
+        vendor: 'Anthropic', listName: '支持国家清单', total: 185, sovereign: 184,
+        members: 182, observers: 2,
+        regions: '1（中国台湾）',
+        absent: 'OpenAI 缺的 8 国 + 阿富汗、缅甸、也门（11 国）',
+        source: 'https://www.anthropic.com/supported-countries'
+      }
+    ];
+
+    // 编者注：只有混合口径总数、无法折算主权国家数的服务
+    const unconvertible = [
+      { vendor: 'Microsoft', service: 'Copilot Pro（2024 公告：222 国家/地区）', note: '所引历史公告未提供逐项清单，无法折算；本次未确认当前覆盖总数' },
+      { vendor: 'Meta', service: 'Meta AI（2025 Q2：200+ 国家与地区）', note: '所引财报仅有混合口径总量，未提供逐项清单' },
+      { vendor: 'Microsoft', service: 'Copilot（历史文档：170+ 市场）', note: '历史文档表述；原链接现已重定向，本次未确认当前总数或完整清单' },
+      { vendor: 'xAI / Mistral / DeepSeek / Z.ai / Qwen / Kimi / 豆包', service: '已查官方资料，没找到完整国家名单', note: '已查到一些使用范围和限制，但还算不出一共支持多少个国家。<a href="country-coverage-full.html#coverage-audit">查看各项说明与官方链接 →</a>' }
+    ];
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // ---- 条形图（满分 195） ----
+      const MAX = 195;
+      const chart = document.getElementById('chart');
+      chart.innerHTML = ranked.map(item => {
+        const pct = (item.sovereign / MAX * 100).toFixed(1);
+        return `
+          <div class="bar-row">
+            <span class="bar-label" title="${item.vendor} · ${item.listName}">${item.vendor} <small>(${item.listName})</small></span>
+            <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+            <span class="bar-value">${item.sovereign} <span class="approx">/ 195（${pct}%）</span></span>
+          </div>`;
+      }).join('') + `
+          <div class="bar-row">
+            <span class="bar-label"><small>满分线</small></span>
+            <div class="bar-track ref"></div>
+            <span class="bar-value approx">195</span>
+          </div>
+        <div class="chart-axis">
+          <span></span>
+          <div class="ticks"><span>0</span><span>49</span><span>98</span><span>146</span><span>195</span></div>
+          <span></span>
+        </div>`;
+
+      // ---- 折算明细表 ----
+      document.getElementById('rankHead').innerHTML =
+        '<tr><th>#</th><th>厂商</th><th>清单（总项数）</th><th>主权国家</th><th>其中会员国/观察员</th><th>剔除的地区条目</th><th>缺席的联合国会员国</th></tr>';
+      document.getElementById('rankBody').innerHTML = ranked.map((item, i) => `
+        <tr>
+          <td>${i + 1}</td>
+          <td>${item.vendor}</td>
+          <td class="src-cell"><a href="${item.source}" target="_blank" rel="noopener">${item.listName}</a>（${item.total} 项）</td>
+          <td class="num-cell">${item.sovereign} <span class="approx">/ 195</span></td>
+          <td class="num-cell">${item.members} <span class="approx">/</span> ${item.observers}</td>
+          <td class="note-cell">${item.regions}</td>
+          <td class="note-cell">${item.absent}</td>
+        </tr>`).join('');
+
+      // ---- 无法折算表 ----
+      document.getElementById('convHead').innerHTML =
+        '<tr><th>厂商</th><th>服务（官方口径）</th><th>为何无法折算</th></tr>';
+      document.getElementById('convBody').innerHTML = unconvertible.map(item => `
+        <tr>
+          <td>${item.vendor}</td>
+          <td>${item.service}</td>
+          <td class="note-cell">${item.note}</td>
+        </tr>`).join('');
+    });
+  </script>
+</body>
+</html>

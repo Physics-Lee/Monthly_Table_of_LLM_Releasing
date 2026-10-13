@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>国家覆盖对比（含地区） | LLM Release Timeline</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .back-link {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+    .back-link a { color: var(--text-secondary); }
+    .snapshot-time {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin: 4px 0 20px;
+    }
+    .lede {
+      font-size: 13px;
+      color: var(--text-secondary);
+      max-width: 900px;
+      margin: 0 auto 28px;
+      line-height: 1.7;
+      text-align: left;
+    }
+    .section h2 {
+      font-size: 16px;
+      margin: 28px 0 12px;
+    }
+    .section-note {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-top: 8px;
+      line-height: 1.7;
+    }
+    table { min-width: 900px; }
+
+    /* 条形图（纯 CSS，无外部依赖） */
+    .chart {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 200px 1fr 72px;
+      align-items: center;
+      gap: 12px;
+    }
+    .bar-label {
+      font-size: 13px;
+      font-weight: 500;
+      text-align: right;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .bar-label small {
+      color: var(--text-tertiary);
+      font-weight: 400;
+    }
+    .bar-track {
+      height: 22px;
+      background: var(--bg-tertiary);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    }
+    .bar-fill.exact {
+      background: linear-gradient(90deg, var(--accent-primary), #4f46e5);
+    }
+    .bar-value {
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .bar-value .approx { color: var(--text-tertiary); font-weight: 400; }
+    .chart-axis {
+      display: grid;
+      grid-template-columns: 200px 1fr 72px;
+      gap: 12px;
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+    .chart-axis .ticks {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--border-color);
+      padding-top: 4px;
+    }
+    @media (max-width: 768px) {
+      .bar-row, .chart-axis { grid-template-columns: 120px 1fr 58px; }
+      .bar-label { font-size: 12px; }
+    }
+
+    td.num-cell { font-weight: 600; white-space: nowrap; }
+    td.num-cell .approx { color: var(--text-tertiary); font-weight: 400; }
+    td.note-cell {
+      font-size: 12px;
+      color: var(--text-secondary);
+      min-width: 240px;
+      line-height: 1.6;
+    }
+    td.src-cell { font-size: 12px; }
+    td.src-cell a { color: var(--accent-primary); text-decoration: none; }
+    td.src-cell a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>国家覆盖对比（含地区）</h1>
+        <span class="back-link"><a href="../">← 返回时间线</a>　<a href="country-coverage-sovereign.html">仅主权国家口径 →</a>　<a href="../aa-vendors.html">厂商名录</a>　<a href="../aa-ranking.html">列排名依据</a></span>
+      </div>
+      <p class="subtitle">主要 AI 服务的官方公布数字与支持清单：区分产品、清单条目、覆盖总数与历史数据</p>
+      <p class="snapshot-time">资料核查时间：2026-10-11（清单计数为当日快照；历史公告另标发布日期，不代表当前覆盖）</p>
+    </header>
+
+    <p class="lede">
+      <strong>Gemini 网页版官方公布覆盖 230+ 个国家与地区</strong>；同页清单逐项计数为 242 项，其中中国大陆仅限 Workspace 用户。
+      OpenAI API 清单列出 188 项；Anthropic 清单列出 185 项，并明确支持已列国家的属地，因此 185 并非其全部覆盖地区数。
+      Meta AI 的 200+ 与 Copilot Pro 的 222 分别来自 2025 年财报和 2024 年公告。
+      <strong>这些数字的产品、时间与统计口径不同；“X+”仅为下限，不能据此确定严格排名。</strong>
+    </p>
+
+    <div class="section">
+      <h2>官方公布数字对照（非严格排名）</h2>
+      <div class="chart" id="chart"></div>
+      <p class="section-note">深色条 = 清单计数或公告中的确定数字；渐变条 = “X+”下限。历史数据在服务名称中标注年份。Anthropic 的属地覆盖未逐项列举，不绘入此图。图中条目按所引用数字排列，不能视为当前覆盖排名；梵蒂冈、巴勒斯坦计入本页国家口径。</p>
+    </div>
+
+    <div class="section">
+      <h2>有官方数字的服务</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="officialHead"></thead>
+          <tbody id="officialBody"></tbody>
+        </table>
+      </div>
+      <p class="section-note">"编者清点"指本页核查时对官方列表的逐项计数，非厂商自报数字。</p>
+    </div>
+
+    <div class="section">
+      <h2 id="coverage-audit">其他服务的使用范围</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead id="openHead"></thead>
+          <tbody id="openBody"></tbody>
+        </table>
+      </div>
+      <p class="section-note">核查日期：2026-10-11。这七项服务都没找到完整的支持国家名单，所以暂不比较覆盖数量。下表只写官方资料能确认的情况。“没找到名单”不等于“所有国家都能用”。</p>
+    </div>
+
+    <div class="section">
+      <h2>口径说明</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>事项</th><th>说明</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>国家统计口径</td><td class="note-cell">本项目采用<a href="https://www.un.org/zh/about-us/member-states" target="_blank" rel="noopener">联合国会员国</a> 193 个 + 观察员国 2 个（圣座／梵蒂冈、巴勒斯坦）= 195 个作为国家统计集合。该集合是本页的操作口径，其他条目不计入其中；不将所有其他条目统称为属地。</td></tr>
+            <tr><td>清单条目 ≠ 完整覆盖地区数</td><td class="note-cell">OpenAI API 的 188 为清单条目数，本页不以此代替消费级 ChatGPT 的清单。Anthropic 的 185 同样为列举条目数；其官方政策明确支持已列国家的属地（例如波多黎各），因此不能将 185 当作完整覆盖地区数与其他厂商直接排名。</td></tr>
+            <tr><td>Gemini 的产品范围</td><td class="note-cell">Gemini 网页版帮助页既公布“230+”，也提供逐项清单（本次清点 242 项，中国大陆仅限 Workspace）。Gemini API / AI Studio 清单则为 230 项；两者支持地区不同，不能互换。移动应用也可能有不同的覆盖范围。</td></tr>
+            <tr><td>覆盖 ≠ 份额</td><td class="note-cell">服务覆盖范围不能直接推导用户数量或市场份额；本页不统计这些指标。</td></tr>
+            <tr><td>历史数据与下限</td><td class="note-cell">Copilot Pro 的 222 来自 2024-03-14 公告；Meta AI 的 200+ 来自 2025 Q2 财报。Copilot 的 170+ 为历史支持文档表述，原链接现已重定向，本次未确认当前总数。历史数字不代表 2026 年现状，“200+”等下限也不能确定实际名次。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="source">来源：各厂商官方支持页 / 财报电话会 / 官方博客（见"来源"列链接）</span>
+      <span class="source">OpenAI 与 Anthropic 的计数为编者对官方清单的逐项清点</span>
+    </div>
+  </div>
+
+  <script>
+    // 编者注：官方清单计数或历史公布数字；approx=true 表示下限
+    const official = [
+      {
+        vendor: 'Google', service: 'Gemini 网页版', count: 230, approx: true,
+        scope: '国家与地区',
+        source: 'https://support.google.com/gemini/answer/13575153',
+        sourceName: 'Google 支持页',
+        sourceQuote: '"70+ 种语言、230+ 国家与地区"',
+        missing: '中国大陆仅限 Workspace；普通用户不在支持范围内'
+      },
+      {
+        vendor: 'Microsoft', service: 'Copilot Pro（2024 公告）', count: 222, approx: false,
+        scope: '国家/地区',
+        source: 'https://www.microsoft.com/en-us/copilot/blog/2024/03/14/bringing-copilot-to-more-customers-worldwide-across-life-and-work/',
+        sourceName: 'Microsoft 官方博客（2024-03-14）',
+        sourceQuote: '"Copilot 可用的全部 222 个国家/地区"',
+        missing: '历史数字；本次未核实当前完整覆盖及缺席名单'
+      },
+      {
+        vendor: 'Meta', service: 'Meta AI（2025 Q2）', count: 200, approx: true,
+        scope: '国家与地区',
+        source: 'https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/META-Q2-2025-Earnings-Call-Transcript.pdf',
+        sourceName: 'Meta 2025 Q2 财报电话会',
+        sourceQuote: '"now available in over 200 countries and territories"',
+        missing: '该财报未提供完整缺席名单'
+      },
+      {
+        vendor: 'OpenAI', service: 'API', count: 188, approx: false,
+        scope: '国家与地区',
+        source: 'https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories',
+        sourceName: 'OpenAI API 支持清单',
+        sourceQuote: '编者逐项清点（2026-10-11）',
+        missing: '中国大陆及港澳、俄罗斯、伊朗、朝鲜、古巴、白俄罗斯、委内瑞拉、叙利亚等'
+      },
+      {
+        vendor: 'Anthropic', service: 'Claude', count: 185, approx: false,
+        scope: '列举条目（另支持已列国家属地）',
+        source: 'https://www.anthropic.com/supported-countries',
+        sourceName: 'Anthropic 支持国家页',
+        sourceQuote: '编者逐项清点；完整地区覆盖不能仅按条目数计算',
+        missing: 'OpenAI 缺的之外另缺：阿富汗、缅甸、也门'
+      },
+      {
+        vendor: 'Microsoft', service: 'Copilot（历史文档）', count: 170, approx: true,
+        scope: '市场',
+        source: 'https://support.microsoft.com/en-au/microsoft-copilot/supported-regions-and-languages-in-microsoft-copilot',
+        sourceName: '历史支持文档（原链接现已重定向）',
+        sourceQuote: '"available globally in over 170 markets"',
+        missing: '历史数字；本次未核实当前完整覆盖及缺席名单'
+      }
+    ];
+
+    // 编者注：2026-10-11 官方公开资料核查；未找到完整覆盖清单，不推算总数
+    const openAccess = [
+      {
+        vendor: 'xAI', service: 'Grok', kind: '未找到总数',
+        note: 'X 里的 Grok 跟随 X 的可用范围。Grok 自己的网站和 App，免费功能和订阅会因地区而不同，也受美国制裁和禁运规定限制。',
+        sources: [
+          { name: 'X 内 Grok 帮助', url: 'https://help.x.com/en/using-x/about-grok' },
+          { name: '独立 Grok FAQ', url: 'https://x.ai/legal/faq' },
+          { name: '使用条款', url: 'https://x.ai/legal/terms-of-service' }
+        ]
+      },
+      {
+        vendor: 'Mistral', service: 'Vibe（原 Le Chat）', kind: '未找到总数',
+        note: 'Le Chat 已改名为 Vibe。官方条款列出的受限地区包括古巴、伊朗、朝鲜、叙利亚，以及乌克兰的克里米亚、顿涅茨克和卢甘斯克。其他地方也可能有限制。',
+        sources: [
+          { name: '官方更名说明', url: 'https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe' },
+          { name: '欧洲经济区以外用户的使用条款', url: 'https://legal.mistral.ai/terms/row-consumer-terms/' }
+        ]
+      },
+      {
+        vendor: 'DeepSeek', service: 'DeepSeek', kind: '未找到总数',
+        note: '官方为欧洲等地的用户写了专门的隐私说明。API（供程序调用的服务）还限制受制裁的用户。这些说明没有列出所有能用的国家。',
+        sources: [
+          { name: '隐私说明', url: 'https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html' },
+          { name: 'API 使用条款', url: 'https://cdn.deepseek.com/policies/zh-CN/deepseek-open-platform-terms-of-service.html' }
+        ]
+      },
+      {
+        vendor: 'GLM-Z.ai', service: 'Z.ai', kind: '未找到总数',
+        note: '使用时要遵守当地法律。官方还限制向某些国家或个人提供产品，但没有在这份条款里列出具体名单。',
+        sources: [
+          { name: '使用条款', url: 'https://chat.z.ai/legal-agreement/terms-of-service' }
+        ]
+      },
+      {
+        vendor: 'Qwen-Alibaba', service: 'Qwen', kind: '未找到总数',
+        note: '注册用户不能属于受制裁或贸易禁运限制的对象。官方条款没有列出完整的支持国家名单。',
+        sources: [
+          { name: '使用条款（搜索结果中的官方原文）', url: 'https://qwen.ai/termsservice' }
+        ]
+      },
+      {
+        vendor: 'Kimi-Moonshot', service: 'Kimi', kind: '未找到总数',
+        note: '可以用手机号或第三方账号注册。编程工具和 API 有专门的海外入口，但这不能说明 Kimi 网页版在所有国家都能用。',
+        sources: [
+          { name: '用户协议', url: 'https://www.kimi.com/user/agreement/modeluse?version=v2' },
+          { name: '编程工具与 API 的海外入口', url: 'https://www.kimi.com/en/help/kimi-code/membership-guide' }
+        ]
+      },
+      {
+        vendor: 'Doubao-ByteDance', service: '豆包', kind: '未找到总数',
+        note: '官方说明可用手机号、苹果账号或抖音账号等方式登录，但没有说明每个国家是否都能用。不能因此认定豆包只支持中国大陆。',
+        sources: [
+          { name: '豆包用户协议', url: 'https://www.doubao.com/legal/terms' },
+          { name: '账号登录说明', url: 'https://www.doubao.com/legal/doubao_account_service_terms' }
+        ]
+      }
+    ];
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // ---- 条形图 ----
+      const MAX = 240;
+      const chart = document.getElementById('chart');
+      chart.innerHTML = official.filter(item => item.vendor !== 'Anthropic').map(item => {
+        const pct = (item.count / MAX * 100).toFixed(1);
+        const value = item.approx
+          ? `${item.count}<span class="approx">+</span>`
+          : `${item.count}`;
+        return `
+          <div class="bar-row">
+            <span class="bar-label" title="${item.vendor} · ${item.service}">${item.vendor} <small>(${item.service})</small></span>
+            <div class="bar-track"><div class="bar-fill${item.approx ? '' : ' exact'}" style="width:${pct}%"></div></div>
+            <span class="bar-value">${value}</span>
+          </div>`;
+      }).join('') + `
+        <div class="chart-axis">
+          <span></span>
+          <div class="ticks"><span>0</span><span>60</span><span>120</span><span>180</span><span>240</span></div>
+          <span></span>
+        </div>`;
+
+      // ---- 表一：有官方数字 ----
+      document.getElementById('officialHead').innerHTML =
+        '<tr><th>#</th><th>厂商</th><th>服务</th><th>公布数 / 清单条目数</th><th>来源</th><th>范围与限制备注</th></tr>';
+      document.getElementById('officialBody').innerHTML = official.map((item, i) => `
+        <tr>
+          <td>${i + 1}</td>
+          <td>${item.vendor}</td>
+          <td>${item.service}</td>
+          <td class="num-cell">${item.count}${item.approx ? '<span class="approx">+</span>' : ''} <span class="approx">${item.scope}</span></td>
+          <td class="src-cell"><a href="${item.source}" target="_blank" rel="noopener">${item.sourceName}</a><br><span class="approx">${item.sourceQuote}</span></td>
+          <td class="note-cell">${item.missing}</td>
+        </tr>`).join('');
+
+      // ---- 表二：官方覆盖资料核查 ----
+      document.getElementById('openHead').innerHTML =
+        '<tr><th>厂商</th><th>服务</th><th>覆盖国家数</th><th>使用范围与限制</th><th>官方来源</th></tr>';
+      document.getElementById('openBody').innerHTML = openAccess.map(item => `
+        <tr>
+          <td>${item.vendor}</td>
+          <td>${item.service}</td>
+          <td>${item.kind}</td>
+          <td class="note-cell">${item.note}</td>
+          <td class="src-cell">${item.sources.map(source => `<a href="${source.url}" target="_blank" rel="noopener">${source.name}</a>`).join('<br>')}</td>
+        </tr>`).join('');
+    });
+  </script>
+</body>
+</html>
