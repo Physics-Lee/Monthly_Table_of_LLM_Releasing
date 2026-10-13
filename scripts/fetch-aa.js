@@ -46,11 +46,19 @@ function parseArgs(argv) {
   return args;
 }
 
+// Shared caches (Cloudflare) key on the full URL, and have served CI runners a
+// page frozen for days, so force a cache miss with a per-request query param.
+function bustCache(url) {
+  const sep = url.includes('?') ? '&' : '?';
+  return `${url}${sep}_=${Date.now()}`;
+}
+
 function fetchPageHTML(url) {
+  const target = bustCache(url);
   const proxy = process.env.AA_HTTP_PROXY;
   if (proxy) {
     return new Promise((resolve, reject) => {
-      execFile('curl', ['-s', '-m', '90', '--compressed', '--proxy', proxy, '-H', `User-Agent: ${USER_AGENT}`, url],
+      execFile('curl', ['-s', '-m', '90', '--compressed', '--proxy', proxy, '-H', `User-Agent: ${USER_AGENT}`, '-H', 'Cache-Control: no-cache', target],
         { maxBuffer: 32 * 1024 * 1024 }, (error, stdout) => {
           if (error) reject(new Error(`curl via ${proxy} failed: ${error.message}`));
           else if (!stdout || stdout.length < 10000) reject(new Error(`curl via ${proxy} returned ${stdout ? stdout.length : 0} bytes`));
@@ -58,7 +66,7 @@ function fetchPageHTML(url) {
         });
     });
   }
-  return fetch(url, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(120000) })
+  return fetch(target, { headers: { 'User-Agent': USER_AGENT, 'Cache-Control': 'no-cache' }, signal: AbortSignal.timeout(120000) })
     .then(res => {
       if (!res.ok) throw new Error(`HTTP ${res.status} fetching ${url}`);
       return res.text();

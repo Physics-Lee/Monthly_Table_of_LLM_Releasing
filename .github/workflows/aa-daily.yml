@@ -46,6 +46,33 @@ jobs:
             git push
           fi
 
+      # fetchedAt only advances when entries actually change, so a multi-day
+      # frozen value means CI is being served a stale cache of the page again
+      # (seen 2026-10-10..12: runs green, data days old).
+      - name: Alert if AA snapshot is stale
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STALE_AFTER_DAYS=3
+          SNAPSHOT=scripts/aa-leaderboard.json
+          AGE_DAYS=$(node -p "Math.floor((Date.now() - Date.parse(require('./${SNAPSHOT}').fetchedAt)) / 864e5)")
+          echo "AA snapshot last real change: ${AGE_DAYS} days ago"
+          if [ "$AGE_DAYS" -ge "$STALE_AFTER_DAYS" ]; then
+            if [ -n "$(gh issue list --state open --search "stale-snapshot" --json number --jq '.[].number')" ]; then
+              echo "An open stale-snapshot issue already exists; not filing another"
+            else
+              COUNT=$(node -p "require('./${SNAPSHOT}').entries.length")
+              LAST=$(node -p "require('./${SNAPSHOT}').fetchedAt")
+              gh issue create \
+                --title "[stale-snapshot] AA 快照已 ${AGE_DAYS} 天无数据变化" \
+                --body "AA 快照 fetchedAt 停留在 ${LAST}，已 ${AGE_DAYS} 天无任何数据变化（当前 ${COUNT} 条）。AA 榜单几乎每天都有分数变动，连续多天零变化大概率是 CI 又被边缘缓存挡住了。
+
+          排查建议：
+          - 本地运行 node scripts/fetch-aa.js 与线上数据比对
+          - 检查 fetch-aa.js 的 cache-busting 是否仍有效（Cloudflare 缓存策略可能已调整）"
+            fi
+          fi
+
       - name: Reorder vendor columns by AA ranking
         run: node scripts/reorder-vendors.js
 
