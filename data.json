@@ -6322,7 +6322,16 @@
           "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
         }
       ],
-      "Meta": [],
+      "Meta": [
+        {
+          "name": "Muse Wonder Full",
+          "url": "https://artificialanalysis.ai/models/muse-wonder-full"
+        },
+        {
+          "name": "Muse Wonder",
+          "url": "https://artificialanalysis.ai/models/muse-wonder"
+        }
+      ],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
