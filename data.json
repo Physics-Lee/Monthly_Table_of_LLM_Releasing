@@ -1,9 +1,9 @@
 {
   "vendors": [
     "Anthropic",
+    "Meta",
     "OpenAI",
     "Google",
-    "Meta",
     "xAI",
     "Xiaomi",
     "Qwen-Alibaba",
@@ -65,6 +65,7 @@
     {
       "Month": "22-Nov",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "ChatGPT GPT-3.5",
@@ -72,7 +73,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -138,6 +138,7 @@
     {
       "Month": "22-Dec",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "text-embedding-ada-002",
@@ -149,7 +150,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -215,9 +215,9 @@
     {
       "Month": "23-Jan",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -278,17 +278,17 @@
     {
       "Month": "23-Feb",
       "Anthropic": [],
+      "Meta": [
+        {
+          "name": "Llama 1",
+          "url": "https://github.com/facebookresearch/llama"
+        }
+      ],
       "OpenAI": [],
       "Google": [
         {
           "name": "Bard",
           "url": "https://blog.google/technology/ai/introducing-bard/"
-        }
-      ],
-      "Meta": [
-        {
-          "name": "Llama 1",
-          "url": "https://github.com/facebookresearch/llama"
         }
       ],
       "xAI": [],
@@ -374,6 +374,7 @@
           "url": "https://www.anthropic.com/news/introducing-claude"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4",
@@ -381,7 +382,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -487,9 +487,9 @@
     {
       "Month": "23-Apr",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -560,6 +560,7 @@
     {
       "Month": "23-May",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [
         {
@@ -567,7 +568,6 @@
           "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -638,9 +638,9 @@
     {
       "Month": "23-Jun",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -749,14 +749,14 @@
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
-      "OpenAI": [],
-      "Google": [],
       "Meta": [
         {
           "name": "Llama 2",
           "url": "https://ai.meta.com/blog/meta-llama-2/"
         }
       ],
+      "OpenAI": [],
+      "Google": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -842,9 +842,9 @@
           "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [
         {
@@ -948,6 +948,7 @@
     {
       "Month": "23-Sep",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4V",
@@ -955,7 +956,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -1046,9 +1046,9 @@
     {
       "Month": "23-Oct",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -1143,6 +1143,7 @@
     {
       "Month": "23-Nov",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4 Turbo",
@@ -1154,7 +1155,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok-1",
@@ -1290,6 +1290,7 @@
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [
         {
@@ -1305,7 +1306,6 @@
           "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -1424,6 +1424,7 @@
     {
       "Month": "24-Jan",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "text-embedding-3-small",
@@ -1435,7 +1436,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -1553,6 +1553,7 @@
     {
       "Month": "24-Feb",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "Sora (demo)",
@@ -1573,7 +1574,6 @@
           "url": "https://deepmind.google/research/publications/genie-generative-interactive-environments/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -1696,9 +1696,9 @@
           "url": "https://www.anthropic.com/news/claude-3-haiku"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok-1.5",
@@ -1813,14 +1813,14 @@
     {
       "Month": "24-Apr",
       "Anthropic": [],
-      "OpenAI": [],
-      "Google": [],
       "Meta": [
         {
           "name": "Llama 3",
           "url": "https://ai.meta.com/blog/meta-llama-3/"
         }
       ],
+      "OpenAI": [],
+      "Google": [],
       "xAI": [
         {
           "name": "Grok-1.5V",
@@ -1930,6 +1930,7 @@
     {
       "Month": "24-May",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4o",
@@ -1946,7 +1947,6 @@
           "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -2081,6 +2081,7 @@
           "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [
         {
@@ -2088,7 +2089,6 @@
           "url": "https://blog.google/technology/developers/google-gemma-2/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -2179,6 +2179,12 @@
     {
       "Month": "24-Jul",
       "Anthropic": [],
+      "Meta": [
+        {
+          "name": "Llama 3.1",
+          "url": "https://ai.meta.com/blog/meta-llama-3-1/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-4o mini",
@@ -2186,12 +2192,6 @@
         }
       ],
       "Google": [],
-      "Meta": [
-        {
-          "name": "Llama 3.1",
-          "url": "https://ai.meta.com/blog/meta-llama-3-1/"
-        }
-      ],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -2285,9 +2285,9 @@
     {
       "Month": "24-Aug",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok-2 beta",
@@ -2407,6 +2407,12 @@
     {
       "Month": "24-Sep",
       "Anthropic": [],
+      "Meta": [
+        {
+          "name": "Llama 3.2",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "o1-preview",
@@ -2422,12 +2428,6 @@
         }
       ],
       "Google": [],
-      "Meta": [
-        {
-          "name": "Llama 3.2",
-          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-        }
-      ],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -2530,9 +2530,9 @@
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -2655,9 +2655,9 @@
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -2764,6 +2764,12 @@
     {
       "Month": "24-Dec",
       "Anthropic": [],
+      "Meta": [
+        {
+          "name": "Llama 3.3",
+          "url": "https://llama.meta.com/llama3_3/license/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "o1",
@@ -2786,12 +2792,6 @@
         {
           "name": "Genie 2",
           "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
-        }
-      ],
-      "Meta": [
-        {
-          "name": "Llama 3.3",
-          "url": "https://llama.meta.com/llama3_3/license/"
         }
       ],
       "xAI": [],
@@ -2939,6 +2939,7 @@
     {
       "Month": "25-Jan",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "o3-mini",
@@ -2946,7 +2947,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -3083,6 +3083,7 @@
           "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-4.5",
@@ -3095,7 +3096,6 @@
           "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok 3",
@@ -3195,6 +3195,7 @@
     {
       "Month": "25-Mar",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "o1 Pro",
@@ -3211,7 +3212,6 @@
           "url": "https://blog.google/technology/developers/gemma-3/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok-3 mini",
@@ -3348,6 +3348,16 @@
     {
       "Month": "25-Apr",
       "Anthropic": [],
+      "Meta": [
+        {
+          "name": "Llama 4 Scout",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        {
+          "name": "Llama 4 Maverick",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "Codex CLI",
@@ -3378,16 +3388,6 @@
         {
           "name": "Gemini 2.5 Flash",
           "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
-        }
-      ],
-      "Meta": [
-        {
-          "name": "Llama 4 Scout",
-          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
-        },
-        {
-          "name": "Llama 4 Maverick",
-          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
         }
       ],
       "xAI": [],
@@ -3523,6 +3523,7 @@
           "url": "https://www.anthropic.com/news/claude-4"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "Codex",
@@ -3535,7 +3536,6 @@
           "url": "https://deepmind.google/veo"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [
         {
@@ -3652,6 +3652,7 @@
     {
       "Month": "25-Jun",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "o3-pro",
@@ -3668,7 +3669,6 @@
           "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -3791,6 +3791,7 @@
     {
       "Month": "25-Jul",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [],
       "Google": [
         {
@@ -3802,7 +3803,6 @@
           "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4",
@@ -3961,6 +3961,7 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-1"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5",
@@ -3977,7 +3978,6 @@
           "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok Code Fast 1",
@@ -4098,6 +4098,7 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "Sora 2",
@@ -4105,7 +4106,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -4224,6 +4224,7 @@
           "url": "https://www.anthropic.com/news/claude-haiku-4-5"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [
         {
@@ -4231,7 +4232,6 @@
           "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -4350,6 +4350,7 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-5"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.1",
@@ -4362,7 +4363,6 @@
           "url": "https://blog.google/products/gemini/gemini-3/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4.1",
@@ -4495,6 +4495,7 @@
     {
       "Month": "25-Dec",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.2",
@@ -4502,7 +4503,6 @@
         }
       ],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [
         {
@@ -4672,9 +4672,9 @@
           "url": "https://www.anthropic.com/product/claude-cowork"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
@@ -4825,6 +4825,7 @@
           "url": "https://docs.anthropic.com/en/docs/claude-code/agent-teams"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.3-Codex",
@@ -4837,7 +4838,6 @@
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4.2 Beta",
@@ -5005,6 +5005,7 @@
     {
       "Month": "26-Mar",
       "Anthropic": [],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.4",
@@ -5025,7 +5026,6 @@
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok 4.2 Multi-Agent",
@@ -5206,6 +5206,12 @@
           "url": "https://red.anthropic.com/2026/mythos-preview/"
         }
       ],
+      "Meta": [
+        {
+          "name": "Muse Spark",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-5.4-Cyber",
@@ -5228,12 +5234,6 @@
         {
           "name": "Gemma 4",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
-        }
-      ],
-      "Meta": [
-        {
-          "name": "Muse Spark",
-          "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
         }
       ],
       "xAI": [
@@ -5405,6 +5405,7 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-8"
         }
       ],
+      "Meta": [],
       "OpenAI": [
         {
           "name": "GPT-5.5 Instant",
@@ -5437,7 +5438,6 @@
           "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
         }
       ],
-      "Meta": [],
       "xAI": [
         {
           "name": "Grok Build 0.1",
@@ -5574,6 +5574,7 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [
         {
@@ -5585,7 +5586,6 @@
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
         }
       ],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [
@@ -5736,6 +5736,12 @@
           "url": "https://www.anthropic.com/news/claude-opus-5"
         }
       ],
+      "Meta": [
+        {
+          "name": "Muse Spark 1.1",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-Live",
@@ -5758,12 +5764,6 @@
         {
           "name": "Gemini 3.6 Flash",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
-        }
-      ],
-      "Meta": [
-        {
-          "name": "Muse Spark 1.1",
-          "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
         }
       ],
       "xAI": [
@@ -5914,13 +5914,6 @@
     {
       "Month": "26-Aug",
       "Anthropic": [],
-      "OpenAI": [],
-      "Google": [
-        {
-          "name": "Gemini 3.7 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
-        }
-      ],
       "Meta": [
         {
           "name": "Muse Spark 1.2",
@@ -5929,6 +5922,13 @@
         {
           "name": "Muse Glimmer",
           "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+        }
+      ],
+      "OpenAI": [],
+      "Google": [
+        {
+          "name": "Gemini 3.7 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
         }
       ],
       "xAI": [
@@ -6116,6 +6116,12 @@
           "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
         }
       ],
+      "Meta": [
+        {
+          "name": "Muse Spark 1.3",
+          "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-6 Astra",
@@ -6142,12 +6148,6 @@
         {
           "name": "Gemini 4 Argon",
           "url": "https://artificialanalysis.ai/models/gemini-4-argon"
-        }
-      ],
-      "Meta": [
-        {
-          "name": "Muse Spark 1.3",
-          "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
         }
       ],
       "xAI": [
@@ -6322,9 +6322,9 @@
           "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
         }
       ],
+      "Meta": [],
       "OpenAI": [],
       "Google": [],
-      "Meta": [],
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
