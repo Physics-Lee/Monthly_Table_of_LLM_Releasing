@@ -13,6 +13,7 @@
     "Ant-Group",
     "DeepSeek",
     "Mistral",
+    "Agnes-Sapiens",
     "China-Mobile",
     "Motif",
     "MBZUAI",
@@ -45,7 +46,6 @@
     "Microsoft",
     "AI21",
     "Swiss-AI-Initiative",
-    "Agnes-Sapiens",
     "iFlytek",
     "Vidu",
     "Shanghai-AI-Lab",
@@ -82,6 +82,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -114,7 +115,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -159,6 +159,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -191,7 +192,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -227,6 +227,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -259,7 +260,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -300,6 +300,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -332,7 +333,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -396,6 +396,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -438,7 +439,6 @@
         }
       ],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -499,6 +499,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -531,7 +532,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -577,6 +577,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -609,7 +610,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark 1.0",
@@ -655,6 +655,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -692,7 +693,6 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark 1.5",
@@ -766,6 +766,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -813,7 +814,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -877,6 +877,7 @@
       ],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -914,7 +915,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark 2.0",
@@ -975,6 +975,7 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1017,7 +1018,6 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1073,6 +1073,7 @@
       ],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1110,7 +1111,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1187,6 +1187,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1247,7 +1248,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1329,6 +1329,7 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1376,7 +1377,6 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1460,6 +1460,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1497,7 +1498,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark 3.0",
@@ -1602,6 +1602,7 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1654,7 +1655,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -1722,6 +1722,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1769,7 +1770,6 @@
         }
       ],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark 3.5",
@@ -1849,6 +1849,7 @@
           "url": "https://mistral.ai/news/mixtral-8x22b/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -1896,7 +1897,6 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -1971,6 +1971,7 @@
           "url": "https://mistral.ai/news/codestral/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2032,7 +2033,6 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2108,6 +2108,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2150,7 +2151,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark 4.0",
@@ -2225,6 +2225,7 @@
           "url": "https://mistral.ai/news/mistral-nemo"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2257,7 +2258,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2312,6 +2312,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2378,7 +2379,6 @@
         }
       ],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2464,6 +2464,7 @@
           "url": "https://mistral.ai/news/pixtral-12b/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2506,7 +2507,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2557,6 +2557,7 @@
           "url": "https://mistral.ai/news/ministraux/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2617,7 +2618,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2685,6 +2685,7 @@
           "url": "https://mistral.ai/news/pixtral-large-2501/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -2736,7 +2737,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -2817,6 +2817,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -2900,7 +2901,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -2984,6 +2984,7 @@
           "url": "https://mistral.ai/news/codestral-2501/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -3040,7 +3041,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -3129,6 +3129,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -3176,7 +3177,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3255,6 +3255,7 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -3324,7 +3325,6 @@
         }
       ],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3409,6 +3409,7 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -3475,7 +3476,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark X1",
@@ -3582,6 +3582,7 @@
           "url": "https://mistral.ai/news/devstral/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -3624,7 +3625,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3696,6 +3696,7 @@
           "url": "https://mistral.ai/news/mistral-small-3-2/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -3757,7 +3758,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -3855,6 +3855,7 @@
           "url": "https://mistral.ai/news/voxtral/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [
         {
           "name": "九天基础大模型 3.0",
@@ -3927,7 +3928,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4007,6 +4007,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -4069,7 +4070,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [
@@ -4130,6 +4130,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -4195,7 +4196,6 @@
           "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509"
         }
       ],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4259,6 +4259,7 @@
       ],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -4321,7 +4322,6 @@
         }
       ],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4400,6 +4400,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -4471,7 +4472,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4531,6 +4531,7 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/mistral-large-3-ministral-3-family-available-amazon-bedrock/"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -4633,7 +4634,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -4694,6 +4694,7 @@
       ],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [
@@ -4774,7 +4775,6 @@
         }
       ],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [
         {
@@ -4896,6 +4896,7 @@
       ],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -4966,7 +4967,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark X2",
@@ -5093,6 +5093,7 @@
           "url": "https://mistral.ai/news/mistral-small-4"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -5164,7 +5165,6 @@
       ],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5304,6 +5304,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [
         {
           "name": "九天 JT4.0",
@@ -5376,7 +5377,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [
         {
           "name": "Spark X2-Flash",
@@ -5471,6 +5471,7 @@
       ],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -5528,7 +5529,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -5626,6 +5626,12 @@
       "Ant-Group": [],
       "DeepSeek": [],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.0 Flash",
+          "url": "https://platform.agnes-ai.com/"
+        }
+      ],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -5695,12 +5701,6 @@
         {
           "name": "Apertus Mini",
           "url": "https://www.apertus-ai.org/articles/2026-06-apertus-mini/"
-        }
-      ],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.0 Flash",
-          "url": "https://platform.agnes-ai.com/"
         }
       ],
       "iFlytek": [
@@ -5790,6 +5790,16 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Flash",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-flash"
+        },
+        {
+          "name": "Agnes 2.5 Pro Alpha",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
+        }
+      ],
       "China-Mobile": [
         {
           "name": "九天 JT4.1",
@@ -5884,16 +5894,6 @@
         {
           "name": "Apertus 1.5",
           "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
-        }
-      ],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.5 Flash",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-flash"
-        },
-        {
-          "name": "Agnes 2.5 Pro Alpha",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
         }
       ],
       "iFlytek": [],
@@ -5993,6 +5993,12 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Pro Beta",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
+        }
+      ],
       "China-Mobile": [],
       "Motif": [
         {
@@ -6074,12 +6080,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.5 Pro Beta",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
-        }
-      ],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
@@ -6202,6 +6202,12 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 3.0 Flash",
+          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
+        }
+      ],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [
@@ -6280,12 +6286,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 3.0 Flash",
-          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
-        }
-      ],
       "iFlytek": [
         {
           "name": "Spark X2.5",
@@ -6353,6 +6353,7 @@
           "url": "https://artificialanalysis.ai/models/mistral-large-4"
         }
       ],
+      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "MBZUAI": [],
@@ -6385,7 +6386,6 @@
       "Microsoft": [],
       "AI21": [],
       "Swiss-AI-Initiative": [],
-      "Agnes-Sapiens": [],
       "iFlytek": [],
       "Vidu": [],
       "Shanghai-AI-Lab": [],
