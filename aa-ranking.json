@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T02:00:31.214Z",
+  "fetchedAt": "2026-10-15T01:36:02.207Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -327,7 +327,7 @@
       "model": "Hermes 4 70B",
       "score": 8,
       "estimated": true,
-      "aaRank": 194,
+      "aaRank": 193,
       "rank": 39
     },
     {
@@ -335,7 +335,7 @@
       "model": "Olmo 3.1 32B Think",
       "score": 7,
       "estimated": true,
-      "aaRank": 212,
+      "aaRank": 211,
       "rank": 42
     },
     {
@@ -445,5 +445,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-10-14T02:00:31.283Z"
+  "generatedAt": "2026-10-15T01:36:02.274Z"
 }
