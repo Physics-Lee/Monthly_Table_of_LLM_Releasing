@@ -21,10 +21,10 @@
     "Nex-AGI",
     "Upstage",
     "Multiverse",
+    "NVIDIA",
     "Apodex-MiroMind",
     "Thinking Machines Lab",
     "Tencent",
-    "NVIDIA",
     "AI9Stars",
     "Kuaishou-Kling",
     "SK-Telecom",
@@ -90,10 +90,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -167,10 +167,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -235,10 +235,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -308,10 +308,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -404,10 +404,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -507,10 +507,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -585,10 +585,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -663,10 +663,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -774,10 +774,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -885,10 +885,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -983,6 +983,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -991,7 +992,6 @@
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1081,10 +1081,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1200,6 +1200,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -1208,7 +1209,6 @@
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1347,10 +1347,10 @@
         }
       ],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1468,10 +1468,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1610,15 +1610,15 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
-      "Apodex-MiroMind": [],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 15B",
           "url": "https://arxiv.org/abs/2402.16819"
         }
       ],
+      "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1730,10 +1730,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1862,10 +1862,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1979,10 +1979,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2116,15 +2116,15 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
-      "Apodex-MiroMind": [],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 340B",
           "url": "https://arxiv.org/abs/2406.11704"
         }
       ],
+      "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2233,10 +2233,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2325,15 +2325,15 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
-      "Apodex-MiroMind": [],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Llama-3.1-Nemotron-70B-Reward",
           "url": "https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/"
         }
       ],
+      "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2477,10 +2477,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2565,6 +2565,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -2573,7 +2574,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2698,10 +2698,10 @@
         }
       ],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2830,10 +2830,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3001,15 +3001,15 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
-      "Apodex-MiroMind": [],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 family (Nano/Super/Ultra)",
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3137,10 +3137,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3263,10 +3263,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3422,10 +3422,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3590,10 +3590,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3709,6 +3709,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -3717,7 +3718,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3873,6 +3873,7 @@
         }
       ],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -3881,7 +3882,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [
@@ -4020,6 +4020,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroMind ODR",
@@ -4033,7 +4034,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4138,6 +4138,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -4146,7 +4147,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4267,10 +4267,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4413,6 +4413,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker v1.0 72B",
@@ -4430,7 +4431,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -4554,15 +4554,15 @@
         }
       ],
       "Multiverse": [],
-      "Apodex-MiroMind": [],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Nano",
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "Apodex-MiroMind": [],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4712,6 +4712,7 @@
           "url": "https://huggingface.co/MultiverseComputingCAI/HyperNova-60B"
         }
       ],
+      "NVIDIA": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker 1.5 30B",
@@ -4720,7 +4721,6 @@
       ],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4913,10 +4913,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5110,6 +5110,12 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [
+        {
+          "name": "Nemotron 3 Super",
+          "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
+        }
+      ],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker 1.7 & H1",
@@ -5118,12 +5124,6 @@
       ],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [
-        {
-          "name": "Nemotron 3 Super",
-          "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
-        }
-      ],
       "AI9Stars": [
         {
           "name": "Cheers",
@@ -5322,6 +5322,7 @@
         }
       ],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [
@@ -5330,7 +5331,6 @@
           "url": "https://huggingface.co/tencent/Hy3-preview"
         }
       ],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5484,6 +5484,7 @@
           "url": "https://multiversecomputing.com/resources/introducing-hypernova-60b-2605"
         }
       ],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [
         {
@@ -5492,7 +5493,6 @@
         }
       ],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5649,14 +5649,6 @@
       ],
       "Upstage": [],
       "Multiverse": [],
-      "Apodex-MiroMind": [
-        {
-          "name": "Apodex 1.0",
-          "url": "https://www.apodex.com/blog/apodex-1.0"
-        }
-      ],
-      "Thinking Machines Lab": [],
-      "Tencent": [],
       "NVIDIA": [
         {
           "name": "Cosmos 3",
@@ -5667,6 +5659,14 @@
           "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
         }
       ],
+      "Apodex-MiroMind": [
+        {
+          "name": "Apodex 1.0",
+          "url": "https://www.apodex.com/blog/apodex-1.0"
+        }
+      ],
+      "Thinking Machines Lab": [],
+      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5822,6 +5822,7 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [
         {
@@ -5834,7 +5835,6 @@
         }
       ],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [
         {
           "name": "G9v3-3B",
@@ -6020,6 +6020,12 @@
         }
       ],
       "Multiverse": [],
+      "NVIDIA": [
+        {
+          "name": "Nemotron 3.5 Lightning",
+          "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
+        }
+      ],
       "Apodex-MiroMind": [
         {
           "name": "Apodex 1.1",
@@ -6028,12 +6034,6 @@
       ],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [
-        {
-          "name": "Nemotron 3.5 Lightning",
-          "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
-        }
-      ],
       "AI9Stars": [
         {
           "name": "G9v3-39A5B",
@@ -6246,10 +6246,10 @@
           "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
         }
       ],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -6361,10 +6361,10 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
+      "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
-      "NVIDIA": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
