@@ -696,6 +696,9 @@
   "Claude Haiku 5.5": "https://artificialanalysis.ai/models/claude-haiku-5-5",
   "Muse Wonder Full": "https://artificialanalysis.ai/models/muse-wonder-full",
   "Muse Wonder": "https://artificialanalysis.ai/models/muse-wonder",
+  "Muse Spark Open": "https://artificialanalysis.ai/models/muse-spark-open",
   "Ling 3.1 Flash": "https://artificialanalysis.ai/models/ling-3-1-flash",
-  "Mistral Large 4 Preview": "https://artificialanalysis.ai/models/mistral-large-4"
+  "Mistral Large 4 Preview": "https://artificialanalysis.ai/models/mistral-large-4",
+  "Nemotron 3.5 Super VL": "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
+  "Nemotron 3.5 Bolt 74B-A9B": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
 }

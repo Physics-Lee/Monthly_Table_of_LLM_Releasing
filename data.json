@@ -6330,6 +6330,10 @@
         {
           "name": "Muse Wonder",
           "url": "https://artificialanalysis.ai/models/muse-wonder"
+        },
+        {
+          "name": "Muse Spark Open",
+          "url": "https://artificialanalysis.ai/models/muse-spark-open"
         }
       ],
       "OpenAI": [],
@@ -6361,7 +6365,16 @@
       "Nex-AGI": [],
       "Upstage": [],
       "Multiverse": [],
-      "NVIDIA": [],
+      "NVIDIA": [
+        {
+          "name": "Nemotron 3.5 Super VL",
+          "url": "https://artificialanalysis.ai/models/nemotron-3-5-super-vl"
+        },
+        {
+          "name": "Nemotron 3.5 Bolt 74B-A9B",
+          "url": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
+        }
+      ],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
       "Tencent": [],
