@@ -19,8 +19,8 @@
     "MBZUAI",
     "MiniMax",
     "Nex-AGI",
-    "Upstage",
     "Multiverse",
+    "Upstage",
     "NVIDIA",
     "Apodex-MiroMind",
     "Thinking Machines Lab",
@@ -88,8 +88,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -165,8 +165,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -233,8 +233,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -306,8 +306,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -402,8 +402,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -505,8 +505,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -583,8 +583,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -661,8 +661,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -772,8 +772,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -883,8 +883,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -981,8 +981,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1079,8 +1079,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1198,8 +1198,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1340,13 +1340,13 @@
         }
       ],
       "Nex-AGI": [],
+      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar 10.7B",
           "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
         }
       ],
-      "Multiverse": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1466,8 +1466,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1608,8 +1608,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 15B",
@@ -1728,8 +1728,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1860,8 +1860,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -1977,8 +1977,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2114,8 +2114,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 340B",
@@ -2231,8 +2231,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2323,8 +2323,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Llama-3.1-Nemotron-70B-Reward",
@@ -2475,8 +2475,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2563,8 +2563,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2691,13 +2691,13 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
+      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar Pro",
           "url": "https://huggingface.co/upstage/solar-pro-preview-instruct"
         }
       ],
-      "Multiverse": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2828,8 +2828,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -2999,8 +2999,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 family (Nano/Super/Ultra)",
@@ -3135,8 +3135,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3261,8 +3261,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3420,8 +3420,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3588,8 +3588,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3707,8 +3707,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -3866,13 +3866,13 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
+      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar Pro 2",
           "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
         }
       ],
-      "Multiverse": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -4018,8 +4018,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [
         {
@@ -4136,8 +4136,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -4265,8 +4265,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -4411,8 +4411,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [
         {
@@ -4547,13 +4547,13 @@
       ],
       "MiniMax": [],
       "Nex-AGI": [],
+      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar Open 100B",
           "url": "https://huggingface.co/upstage/Solar-Open-100B"
         }
       ],
-      "Multiverse": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Nano",
@@ -4705,13 +4705,13 @@
       ],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [
         {
           "name": "HyperNova 60B",
           "url": "https://huggingface.co/MultiverseComputingCAI/HyperNova-60B"
         }
       ],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [
         {
@@ -4911,8 +4911,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -5108,8 +5108,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Super",
@@ -5315,13 +5315,13 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
+      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar Pro 3",
           "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
         }
       ],
-      "Multiverse": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [],
@@ -5477,13 +5477,13 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [
         {
           "name": "HyperNova 60B 2605",
           "url": "https://multiversecomputing.com/resources/introducing-hypernova-60b-2605"
         }
       ],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [
@@ -5647,8 +5647,8 @@
           "url": "https://www.sii.edu.cn/2026/0607/c27a1089/page.htm"
         }
       ],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Cosmos 3",
@@ -5820,8 +5820,8 @@
         }
       ],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [],
       "Apodex-MiroMind": [],
       "Thinking Machines Lab": [
@@ -6009,6 +6009,7 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
+      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar Open2 250B",
@@ -6019,7 +6020,6 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-4"
         }
       ],
-      "Multiverse": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3.5 Lightning",
@@ -6234,16 +6234,16 @@
       ],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [
-        {
-          "name": "Solar Mini 4",
-          "url": "https://artificialanalysis.ai/models/solar-mini4"
-        }
-      ],
       "Multiverse": [
         {
           "name": "Quasar 438B",
           "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
+        }
+      ],
+      "Upstage": [
+        {
+          "name": "Solar Mini 4",
+          "url": "https://artificialanalysis.ai/models/solar-mini4"
         }
       ],
       "NVIDIA": [],
@@ -6363,8 +6363,8 @@
       "MBZUAI": [],
       "MiniMax": [],
       "Nex-AGI": [],
-      "Upstage": [],
       "Multiverse": [],
+      "Upstage": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3.5 Super VL",
