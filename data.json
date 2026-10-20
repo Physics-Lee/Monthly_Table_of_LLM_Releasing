@@ -6341,11 +6341,21 @@
       "xAI": [],
       "Xiaomi": [],
       "Qwen-Alibaba": [],
-      "DeepSeek": [],
+      "DeepSeek": [
+        {
+          "name": "DeepSeek V4.1 Flash 1017",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+        }
+      ],
       "GLM-Z.ai": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
-      "MiniMax": [],
+      "MiniMax": [
+        {
+          "name": "MiniMax-M3.1-Flash",
+          "url": "https://artificialanalysis.ai/models/minimax-m3-1-flash"
+        }
+      ],
       "Ant-Group": [
         {
           "name": "Ling 3.1 Flash",
