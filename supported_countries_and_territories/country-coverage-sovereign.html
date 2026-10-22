@@ -133,7 +133,7 @@
         <span class="back-link"><a href="../">← 返回时间线</a>　<a href="country-coverage-full.html">← 含地区口径</a>　<a href="../aa-vendors.html">厂商名录</a></span>
       </div>
       <p class="subtitle">按联合国会员国 193 + 观察员国 2 的集合折算官方清单，明确区分 API 与网页版</p>
-      <p class="snapshot-time">数据核查与折算时间：2026-10-11（编者按各官方清单逐项清点与分类；清单动态变化，本页为快照）</p>
+      <p class="snapshot-time">数据核查与折算时间：2026-10-11（编者按各官方清单逐项清点与分类；清单动态变化，本页为快照）；OpenAI 清单于 2026-10-22 复核更新（188 项 → 208 项，主权国折算不变）</p>
     </header>
 
     <p class="lede">
@@ -179,7 +179,7 @@
           </thead>
           <tbody>
             <tr><td>国家统计口径</td><td class="note-cell"><a href="https://www.un.org/zh/about-us/member-states" target="_blank" rel="noopener">联合国会员国</a> 193 个 + 观察员国 2 个（圣座／梵蒂冈、巴勒斯坦）= 195 个，作为本页统计集合。科索沃、中国台湾、西撒哈拉、库克群岛、纽埃等均不在此集合内，故不计入；该分类仅用于本页统计。</td></tr>
-            <tr><td>各家清单的折算</td><td class="note-cell">OpenAI API：188 项 = 185 会员国 + 2 观察员国 + 1 其他条目（中国台湾）；Gemini API：230 项 = 184 会员国 + 2 观察员国 + 44 个其他条目；Anthropic：185 项 = 182 会员国 + 2 观察员国 + 1 其他条目（中国台湾）。Gemini API 的其他条目包含属地、南极洲及科索沃等，不宜统一称为属地。Anthropic 还支持已列国家的属地，185 不是完整覆盖地区数，但不影响本页国家数折算。</td></tr>
+            <tr><td>各家清单的折算</td><td class="note-cell">OpenAI API：208 项 = 185 会员国 + 2 观察员国 + 21 个其他条目（中国台湾及 20 个属地；2026-10-22 复核）；Gemini API：230 项 = 184 会员国 + 2 观察员国 + 44 个其他条目；Anthropic：185 项 = 182 会员国 + 2 观察员国 + 1 其他条目（中国台湾）。Gemini API 的其他条目包含属地、南极洲及科索沃等，不宜统一称为属地。Anthropic 还支持已列国家的属地，185 不是完整覆盖地区数，但不影响本页国家数折算。</td></tr>
             <tr><td>Gemini 的产品范围</td><td class="note-cell">本页图表采用<a href="https://ai.google.dev/gemini-api/docs/available-regions" target="_blank" rel="noopener">Gemini API / AI Studio 清单</a>（230 项）折算为 186 个国家。<a href="https://support.google.com/gemini/answer/13575153" target="_blank" rel="noopener">Gemini 网页版帮助页</a>也有逐项清单，本次清点为 242 项；排除仅限 Workspace 的中国大陆条目后，为 185 会员国 + 2 观察员国 + 54 个其他条目，共覆盖 187 个本页口径的国家。网页版与 API 版支持地区不同。</td></tr>
             <tr><td>跨页面比较</td><td class="note-cell"><a href="country-coverage-full.html" target="_blank" rel="noopener">含地区版</a>同时列出清单计数、下限与历史公告数字，不能用于严格排名；其中 Gemini 网页版与本页 API 版的范围也不同。不能据此宣称“只剔除属地后，OpenAI 反超 Gemini”。</td></tr>
             <tr><td>多覆盖了哪些国家</td><td class="note-cell">相较 Gemini API，OpenAI API 多支持阿富汗、缅甸；Gemini API 多支持委内瑞拉。Anthropic 比 OpenAI API 另缺阿富汗、缅甸、也门。图表中的三项服务覆盖数为 184～187，不能据此推导用户数量或市场份额。</td></tr>
@@ -194,12 +194,12 @@
   </div>
 
   <script>
-    // 编者注：主权国家口径折算结果（满分 195 = 193 会员国 + 2 观察员国；均为 2026-10-11 清单快照）
+    // 编者注：主权国家口径折算结果（满分 195 = 193 会员国 + 2 观察员国；OpenAI 为 2026-10-22 复核，其余为 2026-10-11 清单快照）
     const ranked = [
       {
-        vendor: 'OpenAI', listName: 'API 支持清单', total: 188, sovereign: 187,
+        vendor: 'OpenAI', listName: 'API 支持清单', total: 208, sovereign: 187,
         members: 185, observers: 2,
-        regions: '1（中国台湾）',
+        regions: '21 个其他条目（中国台湾及奥兰、阿鲁巴、百慕大、开曼、法罗群岛、格陵兰等 20 个属地）',
         absent: '中国大陆、俄罗斯、伊朗、朝鲜、古巴、白俄罗斯、委内瑞拉、叙利亚（8 国）',
         source: 'https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories'
       },
@@ -214,7 +214,7 @@
         vendor: 'Anthropic', listName: '支持国家清单', total: 185, sovereign: 184,
         members: 182, observers: 2,
         regions: '1（中国台湾）',
-        absent: 'OpenAI 缺的 8 国 + 阿富汗、缅甸、也门（11 国）',
+        absent: '中国大陆、俄罗斯、伊朗、朝鲜、古巴、白俄罗斯、委内瑞拉、叙利亚、阿富汗、缅甸、也门（11 国）',
         source: 'https://www.anthropic.com/supported-countries'
       }
     ];
