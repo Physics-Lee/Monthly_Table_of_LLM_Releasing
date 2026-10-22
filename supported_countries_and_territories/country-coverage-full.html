@@ -124,7 +124,7 @@
         <span class="back-link"><a href="../">← 返回时间线</a>　<a href="country-coverage-sovereign.html">仅主权国家口径 →</a>　<a href="../aa-vendors.html">厂商名录</a>　<a href="../aa-ranking.html">列排名依据</a></span>
       </div>
       <p class="subtitle">主要 AI 服务的官方公布数字与支持清单：区分产品、清单条目、覆盖总数与历史数据</p>
-      <p class="snapshot-time">资料核查时间：2026-10-11（清单计数为当日快照；历史公告另标发布日期，不代表当前覆盖）</p>
+      <p class="snapshot-time">资料核查时间：2026-10-11（清单计数为当日快照；历史公告另标发布日期，不代表当前覆盖）；港澳判定与 ISO 249 地区完整性补核：2026-10-22</p>
     </header>
 
     <p class="lede">
@@ -175,6 +175,44 @@
             <tr><td>Gemini 的产品范围</td><td class="note-cell">Gemini 网页版帮助页既公布“230+”，也提供逐项清单（本次清点 242 项，中国大陆仅限 Workspace）。Gemini API / AI Studio 清单则为 230 项；两者支持地区不同，不能互换。移动应用也可能有不同的覆盖范围。</td></tr>
             <tr><td>覆盖 ≠ 份额</td><td class="note-cell">服务覆盖范围不能直接推导用户数量或市场份额；本页不统计这些指标。</td></tr>
             <tr><td>历史数据与下限</td><td class="note-cell">Copilot Pro 的 222 来自 2024-03-14 公告；Meta AI 的 200+ 来自 2025 Q2 财报。Copilot 的 170+ 为历史支持文档表述，原链接现已重定向，本次未确认当前总数。历史数字不代表 2026 年现状，“200+”等下限也不能确定实际名次。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>补核：港澳判定依据与 ISO 249 全量核对（2026-10-22）</h2>
+      <p class="section-note">针对两个问题补充核查：港澳如何确认"不支持"；除港澳外是否遗漏其他不被支持的地区。方法：将 ISO 3166-1 全部 249 个官方代码条目对三份清单（Anthropic、OpenAI API、ChatGPT）重新做补集运算，并复核两家的成文判定规则。本节人口为 2023 年联合国估计（与"国家及地区名单"目录口径一致）。结论与 2026-10-11 快照一致：港澳至今未出现在任何一份清单中。</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>核查项</th><th>结果与依据</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>"不支持"的判定规则（厂商成文）</td>
+              <td class="note-cell">两家都把判定方式写进了页面原文。OpenAI（API 与 ChatGPT 两篇均载）："We do not publish a separate list of countries and territories that we do not support. If a location is not included in the list below, our API is not supported there."——不存在另一份"不支持名单"，不在清单上即不支持。Anthropic："Territories and dependencies of a listed country are also supported (for example, Puerto Rico as a territory of the United States). Any country or region not listed is unsupported."——属地随宗主国支持，未列出即不支持。</td>
+            </tr>
+            <tr>
+              <td>港澳如何判定</td>
+              <td class="note-cell">三层证据：(1) 三份清单全文检索 Hong Kong / Macao / Macau / China 均为 0 次出现；(2) Taiwan 是三份清单的独立条目，证明清单为逐条目刻意枚举，"没写"不是"忘了写"；(3) Anthropic 的属地继承规则前提是宗主国在名单上（其官方例子为波多黎各随美国），而港澳的宗主国中国大陆不在任何一份清单上，继承规则不适用。港澳属于"未枚举且无宗主国可继承"，按两家成文规则均不支持。</td>
+            </tr>
+            <tr>
+              <td>195 主权国口径核对</td>
+              <td class="note-cell">补集运算结果与<a href="openai_and_anthropic/anthropic_openai_unsupported_2026-10-11.csv">不支持名单 CSV</a> 完全一致：Anthropic 不支持 11 国（中国、俄罗斯、伊朗、缅甸、阿富汗、也门、委内瑞拉、朝鲜、叙利亚、古巴、白俄罗斯），OpenAI 两份清单不支持其中 8 国（缅甸、阿富汗、也门在 OpenAI 名单上）。乌克兰为局部限制而非整国不支持：Anthropic 原文 "Ukraine (except Crimea, Donetsk, Kherson, Luhansk, and Zaporizhzhia regions)"，OpenAI 原文 "Ukraine (with certain exceptions)"。</td>
+            </tr>
+            <tr>
+              <td>195 之外 54 个地区的核对</td>
+              <td class="note-cell">OpenAI 名单枚举了其中 19 个（台湾、奥兰、阿鲁巴、百慕大、开曼、法罗群岛、法属圭亚那、格陵兰、瓜德罗普、马提尼克、马约特、新喀里多尼亚、留尼汪、圣赫勒拿、法属圣马丁、圣皮埃尔和密克隆、斯瓦尔巴和扬马延、法属南方领地、瓦利斯和富图纳）；其余 35 个未枚举——包括波多黎各（约 324 万人）、关岛（约 17 万）、直布罗陀、库拉索、美属与英属维尔京群岛、根西、泽西、马恩岛、福克兰群岛等——按 OpenAI 自己的成文规则不在其支持范围。其中 31 个可经 Anthropic 属地规则支持（宗主国英、法、美、荷、澳、新西兰、丹麦、挪威、芬兰均在名单上）。</td>
+            </tr>
+            <tr>
+              <td>双方均无支持依据的地区</td>
+              <td class="note-cell">249 条全量核对后仅 4 个：香港（约 744 万）、澳门（约 71 万）、南极洲（无常住人口）、西撒哈拉（约 58 万；联合国列为非自治领土，地位有争议，能否经摩洛哥继承支持存疑）。另有库克群岛（约 1.4 万）、纽埃（约 1,800）为与新西兰自由联系的自治实体，是否落入 Anthropic "属地"定义取决于解释；托克劳为明确的新西兰属地，视为经继承支持。港澳是仅有的"两家均无支持依据且人口百万级"的地区。</td>
+            </tr>
+            <tr>
+              <td>口径边界</td>
+              <td class="note-cell">不支持名单 CSV 的统计全集为 195 主权国 + 港澳两个补充行，其总计行已注明"非全球完整地区并集"，即未对 54 个地区做完整性声明。本次全量核对显示：如需全球地区严格口径，应知悉 OpenAI 侧另有 35 个未枚举地区，其中西撒哈拉与港澳同为双方无支持依据的条目；南极洲及无人岛屿因无常住人口未计入人口汇总。</td>
+            </tr>
           </tbody>
         </table>
       </div>
