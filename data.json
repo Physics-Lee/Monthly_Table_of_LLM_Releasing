@@ -9,10 +9,10 @@
     "Qwen-Alibaba",
     "DeepSeek",
     "GLM-Z.ai",
+    "Ant-Group",
     "StepFun",
     "Kimi-Moonshot",
     "MiniMax",
-    "Ant-Group",
     "Mistral",
     "Agnes-Sapiens",
     "China-Mobile",
@@ -78,10 +78,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -155,10 +155,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -223,10 +223,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -296,10 +296,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -392,10 +392,10 @@
           "url": "https://github.com/THUDM/ChatGLM"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -495,10 +495,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -573,10 +573,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -651,10 +651,10 @@
           "url": "https://github.com/THUDM/ChatGLM2-6B"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -762,10 +762,10 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -868,15 +868,15 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
-      "StepFun": [],
-      "Kimi-Moonshot": [],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "Bailing",
           "url": "https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [],
+      "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -966,10 +966,10 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mistral 7B",
@@ -1059,6 +1059,12 @@
           "url": "https://github.com/THUDM/ChatGLM3"
         }
       ],
+      "Ant-Group": [
+        {
+          "name": "CodeFuse",
+          "url": "https://github.com/codefuse-ai"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -1067,12 +1073,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [
-        {
-          "name": "CodeFuse",
-          "url": "https://github.com/codefuse-ai"
-        }
-      ],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -1183,6 +1183,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
@@ -1191,7 +1192,6 @@
           "url": "https://www.scmp.com/tech/big-tech/article/3240828/"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -1311,18 +1311,18 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "Bailing 2.0",
+          "url": "https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "abab5.5",
           "url": "https://www.reuters.com/technology/chinese-startup-minimax-launches-abab55-2023-12-05/"
-        }
-      ],
-      "Ant-Group": [
-        {
-          "name": "Bailing 2.0",
-          "url": "https://www.reuters.com/technology/ant-group-launches-ai-model-bailing-2023-07-18/"
         }
       ],
       "Mistral": [
@@ -1451,6 +1451,7 @@
           "url": "https://github.com/THUDM/GLM-4"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -1459,7 +1460,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -1589,10 +1589,10 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mistral Large",
@@ -1718,10 +1718,10 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -1840,6 +1840,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
@@ -1848,7 +1849,6 @@
           "url": "https://www.minimax.io/news/abab65-series"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mixtral 8x22B",
@@ -1962,10 +1962,10 @@
           "url": "https://github.com/THUDM/CogVLM2"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Codestral",
@@ -2099,6 +2099,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [
         {
           "name": "Step-1V",
@@ -2107,7 +2108,6 @@
       ],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -2207,6 +2207,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [
         {
           "name": "Step-2",
@@ -2215,7 +2216,6 @@
       ],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mistral Large 2",
@@ -2303,6 +2303,7 @@
           "url": "https://www.aibase.com/news/11400"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -2316,7 +2317,6 @@
           "url": "https://www.scmp.com/tech/big-tech/article/3264825/"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -2450,18 +2450,18 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "Zhixiaobao",
+          "url": "https://www.businesswire.com/news/home/20240904932587/en/Ant-Group-Launches-AI-Powered-Mobile-App-Zhixiaobao-at-2024-INCLUSIONConference-on-the-Bund"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "Video-01",
           "url": "https://www.minimax.io/news/video-01"
-        }
-      ],
-      "Ant-Group": [
-        {
-          "name": "Zhixiaobao",
-          "url": "https://www.businesswire.com/news/home/20240904932587/en/Ant-Group-Launches-AI-Powered-Mobile-App-Zhixiaobao-at-2024-INCLUSIONConference-on-the-Bund"
         }
       ],
       "Mistral": [
@@ -2543,15 +2543,15 @@
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
-      "StepFun": [],
-      "Kimi-Moonshot": [],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "CodeFuse-CGM",
           "url": "https://github.com/codefuse-ai"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [],
+      "MiniMax": [],
       "Mistral": [
         {
           "name": "Ministral 8B",
@@ -2672,10 +2672,10 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mistral Large 2.1",
@@ -2813,10 +2813,10 @@
           "url": "https://www.ctol.digital/news/zhipu-ai-glm-zero-preview-vs-openai-o1-ai-race/"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -2966,6 +2966,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -2983,7 +2984,6 @@
           "url": "https://github.com/MiniMax-AI/MiniMax-01"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mistral Small 3",
@@ -3111,6 +3111,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [
         {
           "name": "Step-Video-T2V",
@@ -3128,7 +3129,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -3237,9 +3237,6 @@
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
-      "StepFun": [],
-      "Kimi-Moonshot": [],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "Ling-Plus",
@@ -3250,6 +3247,9 @@
           "url": "https://huggingface.co/inclusionAI"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [],
+      "MiniMax": [],
       "Mistral": [
         {
           "name": "Mistral Small 3.1",
@@ -3400,6 +3400,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [
         {
           "name": "Step-R1-V-Mini",
@@ -3413,7 +3414,6 @@
           "url": "https://www.minimax.io/news/minimax-speech-02"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -3555,14 +3555,6 @@
         }
       ],
       "GLM-Z.ai": [],
-      "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "kimi-thinking-preview",
-          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
-        }
-      ],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "Ling-lite-1.5",
@@ -3573,6 +3565,14 @@
           "url": "https://huggingface.co/inclusionAI/Ming-Lite-Omni"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "kimi-thinking-preview",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
+      ],
+      "MiniMax": [],
       "Mistral": [
         {
           "name": "Mistral Medium 3",
@@ -3674,18 +3674,18 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "Ring-lite",
+          "url": "https://huggingface.co/inclusionAI/Ring-lite"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "MiniMax-M1",
           "url": "https://github.com/MiniMax-AI/MiniMax-01"
-        }
-      ],
-      "Ant-Group": [
-        {
-          "name": "Ring-lite",
-          "url": "https://huggingface.co/inclusionAI/Ring-lite"
         }
       ],
       "Mistral": [
@@ -3827,6 +3827,12 @@
           "url": "https://docs.z.ai/guides/llm/glm-4.5"
         }
       ],
+      "Ant-Group": [
+        {
+          "name": "Ming-Lite-Omni-1.5",
+          "url": "https://huggingface.co/inclusionAI/Ming-Lite-Omni"
+        }
+      ],
       "StepFun": [
         {
           "name": "Step 3",
@@ -3840,12 +3846,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [
-        {
-          "name": "Ming-Lite-Omni-1.5",
-          "url": "https://huggingface.co/inclusionAI/Ming-Lite-Omni"
-        }
-      ],
       "Mistral": [
         {
           "name": "Devstral Medium",
@@ -3998,6 +3998,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -4006,7 +4007,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -4121,6 +4121,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -4129,7 +4130,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -4237,14 +4237,6 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
-      "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi CLI",
-          "url": "https://github.com/MoonshotAI/kimi-cli"
-        }
-      ],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "Ling-1T",
@@ -4259,6 +4251,14 @@
           "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi CLI",
+          "url": "https://github.com/MoonshotAI/kimi-cli"
+        }
+      ],
+      "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -4391,6 +4391,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -4399,7 +4400,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -4518,10 +4518,10 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [],
       "Mistral": [
         {
           "name": "Mistral Large 3",
@@ -4680,6 +4680,12 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "AReaL-SEA",
+          "url": "https://huggingface.co/inclusionAI"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -4688,12 +4694,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [
-        {
-          "name": "AReaL-SEA",
-          "url": "https://huggingface.co/inclusionAI"
-        }
-      ],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -4870,23 +4870,6 @@
           "url": "https://www.reuters.com/technology/chinas-ai-startup-zhipu-releases-new-flagship-model-glm-5-2026-02-11/"
         }
       ],
-      "StepFun": [
-        {
-          "name": "Step 3.5 Flash",
-          "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
-      "Kimi-Moonshot": [],
-      "MiniMax": [
-        {
-          "name": "MiniMax-M2.5",
-          "url": "https://www.minimax.io/news/minimax-m25"
-        },
-        {
-          "name": "MiniMax-M2.5-Highspeed",
-          "url": "https://www.minimax.io/models/text"
-        }
-      ],
       "Ant-Group": [
         {
           "name": "Ring-2.5-1T",
@@ -4903,6 +4886,23 @@
         {
           "name": "LLaDA2.1",
           "url": "https://github.com/inclusionAI/LLaDA2.X"
+        }
+      ],
+      "StepFun": [
+        {
+          "name": "Step 3.5 Flash",
+          "url": "https://hub.baai.ac.cn/view/38402"
+        }
+      ],
+      "Kimi-Moonshot": [],
+      "MiniMax": [
+        {
+          "name": "MiniMax-M2.5",
+          "url": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "MiniMax-M2.5-Highspeed",
+          "url": "https://www.minimax.io/models/text"
         }
       ],
       "Mistral": [],
@@ -5079,6 +5079,12 @@
           "url": "https://www.aibase.com/zh/news/26283"
         }
       ],
+      "Ant-Group": [
+        {
+          "name": "AReaL-tau2",
+          "url": "https://huggingface.co/inclusionAI"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
@@ -5089,12 +5095,6 @@
         {
           "name": "MiniMax-2.7-Highspeed",
           "url": "https://www.minimaxi.com/models/text/m27"
-        }
-      ],
-      "Ant-Group": [
-        {
-          "name": "AReaL-tau2",
-          "url": "https://huggingface.co/inclusionAI"
         }
       ],
       "Mistral": [
@@ -5286,14 +5286,6 @@
           "url": "https://z.ai/blog/glm-5.1"
         }
       ],
-      "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2.6",
-          "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
-        }
-      ],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "Ling-2.6-flash",
@@ -5304,6 +5296,14 @@
           "url": "https://developer.ant-ling.com/zh-CN/docs/models/ling/#ling-26-1t"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.6",
+          "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
+        }
+      ],
+      "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [
@@ -5457,6 +5457,12 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "Ring-2.6-1T",
+          "url": "https://m.ithome.com/html/948095.htm"
+        }
+      ],
       "StepFun": [
         {
           "name": "Step 3.7 Flash",
@@ -5465,12 +5471,6 @@
       ],
       "Kimi-Moonshot": [],
       "MiniMax": [],
-      "Ant-Group": [
-        {
-          "name": "Ring-2.6-1T",
-          "url": "https://m.ithome.com/html/948095.htm"
-        }
-      ],
       "Mistral": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
@@ -5617,6 +5617,7 @@
           "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview"
         }
       ],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -5630,7 +5631,6 @@
           "url": "https://www.minimax.io/models/text/m3"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [
         {
@@ -5781,6 +5781,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [],
       "StepFun": [],
       "Kimi-Moonshot": [
         {
@@ -5794,7 +5795,6 @@
           "url": "https://www.minimax.io/blog/minimax-h3"
         }
       ],
-      "Ant-Group": [],
       "Mistral": [],
       "Agnes-Sapiens": [
         {
@@ -5980,9 +5980,6 @@
           "url": "https://z.ai/blog/glm-5.3-flash"
         }
       ],
-      "StepFun": [],
-      "Kimi-Moonshot": [],
-      "MiniMax": [],
       "Ant-Group": [
         {
           "name": "Ling-3.0-Flash",
@@ -5993,6 +5990,9 @@
           "url": "https://huggingface.co/inclusionAI"
         }
       ],
+      "StepFun": [],
+      "Kimi-Moonshot": [],
+      "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [
         {
@@ -6179,6 +6179,16 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-3.0-flash-VL",
+          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl"
+        },
+        {
+          "name": "Ling-3.0-flash-Fin",
+          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-fin"
+        }
+      ],
       "StepFun": [
         {
           "name": "Step 5 Preview",
@@ -6192,16 +6202,6 @@
         }
       ],
       "MiniMax": [],
-      "Ant-Group": [
-        {
-          "name": "Ling-3.0-flash-VL",
-          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl"
-        },
-        {
-          "name": "Ling-3.0-flash-Fin",
-          "url": "https://artificialanalysis.ai/models/ling-3-0-flash-fin"
-        }
-      ],
       "Mistral": [],
       "Agnes-Sapiens": [
         {
@@ -6348,18 +6348,18 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Ant-Group": [
+        {
+          "name": "Ling 3.1 Flash",
+          "url": "https://artificialanalysis.ai/models/ling-3-1-flash"
+        }
+      ],
       "StepFun": [],
       "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "MiniMax-M3.1-Flash",
           "url": "https://artificialanalysis.ai/models/minimax-m3-1-flash"
-        }
-      ],
-      "Ant-Group": [
-        {
-          "name": "Ling 3.1 Flash",
-          "url": "https://artificialanalysis.ai/models/ling-3-1-flash"
         }
       ],
       "Mistral": [
