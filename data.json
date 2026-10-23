@@ -6352,6 +6352,10 @@
         {
           "name": "Ling 3.1 Flash",
           "url": "https://artificialanalysis.ai/models/ling-3-1-flash"
+        },
+        {
+          "name": "Ling 3.1 Flash 1019",
+          "url": "https://artificialanalysis.ai/models/ling-3-1-flash-1019"
         }
       ],
       "StepFun": [],
