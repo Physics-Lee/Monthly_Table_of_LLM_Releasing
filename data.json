@@ -2,6 +2,7 @@
   "vendors": [
     "Anthropic",
     "Meta",
+    "Kimi-Moonshot",
     "OpenAI",
     "Google",
     "xAI",
@@ -11,7 +12,6 @@
     "GLM-Z.ai",
     "Ant-Group",
     "StepFun",
-    "Kimi-Moonshot",
     "MiniMax",
     "Mistral",
     "Agnes-Sapiens",
@@ -66,6 +66,7 @@
       "Month": "22-Nov",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "ChatGPT GPT-3.5",
@@ -80,7 +81,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -139,6 +139,7 @@
       "Month": "22-Dec",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "text-embedding-ada-002",
@@ -157,7 +158,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -216,6 +216,7 @@
       "Month": "23-Jan",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -225,7 +226,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -284,6 +284,7 @@
           "url": "https://github.com/facebookresearch/llama"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [
         {
@@ -298,7 +299,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -375,6 +375,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-4",
@@ -394,7 +395,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -488,6 +488,7 @@
       "Month": "23-Apr",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -497,7 +498,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -561,6 +561,7 @@
       "Month": "23-May",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [
         {
@@ -575,7 +576,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -639,6 +639,7 @@
       "Month": "23-Jun",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -653,7 +654,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -755,6 +755,7 @@
           "url": "https://ai.meta.com/blog/meta-llama-2/"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -764,7 +765,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -843,6 +843,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -875,7 +876,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -949,6 +949,7 @@
       "Month": "23-Sep",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-4V",
@@ -968,7 +969,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -1047,6 +1047,12 @@
       "Month": "23-Oct",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi Chat",
+          "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
+        }
+      ],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -1066,12 +1072,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi Chat",
-          "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -1144,6 +1144,7 @@
       "Month": "23-Nov",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-4 Turbo",
@@ -1185,7 +1186,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "abab5",
@@ -1291,6 +1291,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [
         {
@@ -1318,7 +1319,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "abab5.5",
@@ -1425,6 +1425,12 @@
       "Month": "24-Jan",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "moonshot-v1",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
+      ],
       "OpenAI": [
         {
           "name": "text-embedding-3-small",
@@ -1453,12 +1459,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "moonshot-v1",
-          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -1554,6 +1554,7 @@
       "Month": "24-Feb",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "Sora (demo)",
@@ -1591,7 +1592,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -1697,6 +1697,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [
@@ -1720,7 +1721,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -1819,6 +1819,7 @@
           "url": "https://ai.meta.com/blog/meta-llama-3/"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [
@@ -1842,7 +1843,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "ABAB 6.5",
@@ -1931,6 +1931,7 @@
       "Month": "24-May",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-4o",
@@ -1964,7 +1965,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -2082,6 +2082,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [
         {
@@ -2106,7 +2107,6 @@
           "url": "https://hub.baai.ac.cn/view/38402"
         }
       ],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -2185,6 +2185,7 @@
           "url": "https://ai.meta.com/blog/meta-llama-3-1/"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-4o mini",
@@ -2214,7 +2215,6 @@
           "url": "https://hub.baai.ac.cn/view/38402"
         }
       ],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -2286,6 +2286,12 @@
       "Month": "24-Aug",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "moonshot-v1-auto",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
+      ],
       "OpenAI": [],
       "Google": [],
       "xAI": [
@@ -2305,12 +2311,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "moonshot-v1-auto",
-          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
-        }
-      ],
       "MiniMax": [
         {
           "name": "Hailuo AI",
@@ -2413,6 +2413,7 @@
           "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "o1-preview",
@@ -2457,7 +2458,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "Video-01",
@@ -2531,6 +2531,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -2550,7 +2551,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -2656,6 +2656,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -2674,7 +2675,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -2770,6 +2770,7 @@
           "url": "https://llama.meta.com/llama3_3/license/"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "o1",
@@ -2815,7 +2816,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -2940,6 +2940,12 @@
       "Month": "25-Jan",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K1.5",
+          "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
+        }
+      ],
       "OpenAI": [
         {
           "name": "o3-mini",
@@ -2968,12 +2974,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K1.5",
-          "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
-        }
-      ],
       "MiniMax": [
         {
           "name": "MiniMax-Text-01",
@@ -3084,6 +3084,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "kimi-latest",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-4.5",
@@ -3120,12 +3126,6 @@
         {
           "name": "Step-Audio",
           "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
-      "Kimi-Moonshot": [
-        {
-          "name": "kimi-latest",
-          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
       "MiniMax": [],
@@ -3196,6 +3196,7 @@
       "Month": "25-Mar",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "o1 Pro",
@@ -3248,7 +3249,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -3358,6 +3358,7 @@
           "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "Codex CLI",
@@ -3407,7 +3408,6 @@
           "url": "https://hub.baai.ac.cn/view/38402"
         }
       ],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "Speech-02",
@@ -3524,6 +3524,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "kimi-thinking-preview",
+          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
+        }
+      ],
       "OpenAI": [
         {
           "name": "Codex",
@@ -3566,12 +3572,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "kimi-thinking-preview",
-          "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [
         {
@@ -3653,6 +3653,7 @@
       "Month": "25-Jun",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "o3-pro",
@@ -3681,7 +3682,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "MiniMax-M1",
@@ -3792,6 +3792,12 @@
       "Month": "25-Jul",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2",
+          "url": "https://kimi-k2.org/"
+        }
+      ],
       "OpenAI": [],
       "Google": [
         {
@@ -3837,12 +3843,6 @@
         {
           "name": "Step 3",
           "url": "https://hub.baai.ac.cn/view/38402"
-        }
-      ],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2",
-          "url": "https://kimi-k2.org/"
         }
       ],
       "MiniMax": [],
@@ -3962,6 +3962,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2 Turbo Preview",
+          "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-5",
@@ -4000,12 +4006,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2 Turbo Preview",
-          "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -4099,6 +4099,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2 0905",
+          "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
+        }
+      ],
       "OpenAI": [
         {
           "name": "Sora 2",
@@ -4123,12 +4129,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2 0905",
-          "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -4225,6 +4225,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi CLI",
+          "url": "https://github.com/MoonshotAI/kimi-cli"
+        }
+      ],
       "OpenAI": [],
       "Google": [
         {
@@ -4252,12 +4258,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi CLI",
-          "url": "https://github.com/MoonshotAI/kimi-cli"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -4351,6 +4351,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2 Thinking",
+          "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-5.1",
@@ -4393,12 +4399,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2 Thinking",
-          "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -4496,6 +4496,7 @@
       "Month": "25-Dec",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-5.2",
@@ -4520,7 +4521,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [
         {
@@ -4673,6 +4673,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.5",
+          "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
+        }
+      ],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -4687,12 +4693,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2.5",
-          "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -4826,6 +4826,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-5.3-Codex",
@@ -4894,7 +4895,6 @@
           "url": "https://hub.baai.ac.cn/view/38402"
         }
       ],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "MiniMax-M2.5",
@@ -5006,6 +5006,7 @@
       "Month": "26-Mar",
       "Anthropic": [],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-5.4",
@@ -5086,7 +5087,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "MiniMax-M2.7",
@@ -5212,6 +5212,12 @@
           "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
         }
       ],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.6",
+          "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-5.4-Cyber",
@@ -5297,12 +5303,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2.6",
-          "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
-        }
-      ],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -5406,6 +5406,7 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [],
       "OpenAI": [
         {
           "name": "GPT-5.5 Instant",
@@ -5469,7 +5470,6 @@
           "url": "https://static.stepfun.com/blog/step-3.7-flash/"
         }
       ],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
@@ -5575,6 +5575,12 @@
         }
       ],
       "Meta": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.7-Code",
+          "url": "https://www.llmreference.com/model/kimi-k2-7-code"
+        }
+      ],
       "OpenAI": [],
       "Google": [
         {
@@ -5619,12 +5625,6 @@
       ],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2.7-Code",
-          "url": "https://www.llmreference.com/model/kimi-k2-7-code"
-        }
-      ],
       "MiniMax": [
         {
           "name": "MiniMax M3",
@@ -5742,6 +5742,12 @@
           "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
         }
       ],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K3",
+          "url": "https://apnews.com/article/kimi-k3-china-ai-0d8a5e268deb11a673f4d444fc597cc5"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-Live",
@@ -5783,12 +5789,6 @@
       "GLM-Z.ai": [],
       "Ant-Group": [],
       "StepFun": [],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K3",
-          "url": "https://apnews.com/article/kimi-k3-china-ai-0d8a5e268deb11a673f4d444fc597cc5"
-        }
-      ],
       "MiniMax": [
         {
           "name": "MiniMax H3",
@@ -5924,6 +5924,7 @@
           "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [
         {
@@ -5991,7 +5992,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [],
       "Mistral": [],
       "Agnes-Sapiens": [
@@ -6122,6 +6122,12 @@
           "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
         }
       ],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K2.8 Preview",
+          "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html"
+        }
+      ],
       "OpenAI": [
         {
           "name": "GPT-6 Astra",
@@ -6193,12 +6199,6 @@
         {
           "name": "Step 5 Preview",
           "url": "https://artificialanalysis.ai/models/step-5"
-        }
-      ],
-      "Kimi-Moonshot": [
-        {
-          "name": "Kimi K2.8 Preview",
-          "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html"
         }
       ],
       "MiniMax": [],
@@ -6336,6 +6336,7 @@
           "url": "https://artificialanalysis.ai/models/muse-spark-open"
         }
       ],
+      "Kimi-Moonshot": [],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
@@ -6359,7 +6360,6 @@
         }
       ],
       "StepFun": [],
-      "Kimi-Moonshot": [],
       "MiniMax": [
         {
           "name": "MiniMax-M3.1-Flash",
