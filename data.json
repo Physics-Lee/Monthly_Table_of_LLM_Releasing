@@ -6336,7 +6336,12 @@
           "url": "https://artificialanalysis.ai/models/muse-spark-open"
         }
       ],
-      "Kimi-Moonshot": [],
+      "Kimi-Moonshot": [
+        {
+          "name": "Kimi K3.1 Pro",
+          "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
+        }
+      ],
       "OpenAI": [],
       "Google": [],
       "xAI": [],
