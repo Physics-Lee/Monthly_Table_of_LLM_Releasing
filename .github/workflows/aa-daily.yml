@@ -122,3 +122,21 @@ jobs:
           else
             echo "Nothing to report today"
           fi
+
+      # The stale-snapshot alert above never runs when an early step (typically
+      # fetch-aa.js guardrails) fails the job, so surface those failures too —
+      # otherwise broken runs are silent for days (seen 2026-10-28..29).
+      - name: File failure issue
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$(gh issue list --state open --search "workflow-failure" --json number --jq '.[].number')" ]; then
+            echo "An open workflow-failure issue already exists; not filing another"
+          else
+            gh issue create \
+              --title "[workflow-failure] AA Daily Refresh 运行失败 $(date -u +%F)" \
+              --body "本次定时运行失败，管道未完整执行：${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+
+          常见原因：fetch-aa.js 护栏拒绝（AA 页面改版/结构变化）或抓取失败。注意 fetch 一失败，后面的月表更新和 stale-snapshot 告警步骤都不会执行，请尽快排查。"
+          fi

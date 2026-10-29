@@ -31,8 +31,11 @@ const { execFile } = require('node:child_process');
 const DEFAULT_URL = 'https://artificialanalysis.ai/leaderboards/models';
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 
-// Guardrail bounds for the parsed snapshot (current baseline: 272 scored entries).
-const MIN_ENTRIES = 200;
+// Guardrail bounds for the parsed snapshot. The floor is temporarily low:
+// AA's Intelligence Index v5.0 rollout (2026-10-28) left only 77 of 273 listed
+// models scored ("--" for the rest), so the pre-v5.0 floor of 200 rejected
+// every daily run. Raise it back once AA backfills v5.0 scores for older models.
+const MIN_ENTRIES = 50;
 const MAX_ENTRIES = 400;
 
 function parseArgs(argv) {
