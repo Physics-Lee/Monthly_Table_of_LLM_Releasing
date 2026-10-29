@@ -1,2003 +1,546 @@
 {
-  "fetchedAt": "2026-10-27T02:11:49.659Z",
+  "fetchedAt": "2026-10-29T05:04:57.565Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
     {
       "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "vendor": "Google",
+      "score": 59,
+      "slug": "gemini-4-carbon"
+    },
+    {
+      "rank": 2,
       "model": "Claude Opus 5.5 (max with fallback)",
       "vendor": "Anthropic",
       "score": 58,
       "slug": "claude-opus-5-5"
     },
     {
-      "rank": 2,
-      "model": "Claude Sonnet 5.5 (max with fallback)",
-      "vendor": "Anthropic",
-      "score": 56,
-      "slug": "claude-sonnet-5-5"
-    },
-    {
       "rank": 3,
       "model": "Claude Opus 5.5 (xhigh with fallback)",
       "vendor": "Anthropic",
-      "score": 56,
+      "score": 57,
       "slug": "claude-opus-5-5-xhigh"
     },
     {
       "rank": 4,
-      "model": "Muse Wonder Full (max)",
-      "vendor": "Meta",
-      "score": 56,
-      "slug": "muse-wonder-full"
-    },
-    {
-      "rank": 5,
-      "model": "Kimi K3.1 Pro",
-      "vendor": "Kimi",
-      "score": 55,
-      "slug": "kimi-k3-1-pro"
-    },
-    {
-      "rank": 6,
-      "model": "Claude Opus 5.5 (high with fallback)",
-      "vendor": "Anthropic",
-      "score": 54,
-      "slug": "claude-opus-5-5-high"
-    },
-    {
-      "rank": 7,
-      "model": "Claude Fable 5.1 (max with fallback)",
-      "vendor": "Anthropic",
-      "score": 53,
-      "slug": "claude-fable-5-1"
-    },
-    {
-      "rank": 8,
-      "model": "Claude Fable 5.1 (xhigh with fallback)",
-      "vendor": "Anthropic",
-      "score": 53,
-      "slug": "claude-fable-5-1-xhigh"
-    },
-    {
-      "rank": 9,
       "model": "GPT-6 Astra (max)",
       "vendor": "OpenAI",
-      "score": 53,
+      "score": 57,
       "slug": "gpt-6-astra"
     },
     {
-      "rank": 10,
-      "model": "Gemini 4 Argon (high)",
-      "vendor": "Google",
-      "score": 53,
-      "slug": "gemini-4-argon"
-    },
-    {
-      "rank": 11,
-      "model": "Muse Wonder (max)",
-      "vendor": "Meta",
-      "score": 52,
-      "slug": "muse-wonder"
-    },
-    {
-      "rank": 12,
+      "rank": 5,
       "model": "GPT-6 Astra (xhigh)",
       "vendor": "OpenAI",
-      "score": 52,
+      "score": 55,
       "slug": "gpt-6-astra-xhigh"
     },
     {
-      "rank": 13,
-      "model": "Claude Sonnet 5.5 (xhigh with fallback)",
-      "vendor": "Anthropic",
-      "score": 52,
-      "slug": "claude-sonnet-5-5-xhigh"
-    },
-    {
-      "rank": 14,
-      "model": "GPT-6.1 Sol (max)",
-      "vendor": "OpenAI",
-      "score": 52,
-      "slug": "gpt-6-1-sol"
-    },
-    {
-      "rank": 15,
-      "model": "Claude Opus 5.5 (medium with fallback)",
-      "vendor": "Anthropic",
-      "score": 51,
-      "slug": "claude-opus-5-5-medium"
-    },
-    {
-      "rank": 16,
-      "model": "Claude Fable 5.1 (high with fallback)",
-      "vendor": "Anthropic",
-      "score": 51,
-      "slug": "claude-fable-5-1-high"
-    },
-    {
-      "rank": 17,
-      "model": "GPT-6.1 Sol (xhigh)",
-      "vendor": "OpenAI",
-      "score": 51,
-      "slug": "gpt-6-1-sol-xhigh"
-    },
-    {
-      "rank": 18,
+      "rank": 6,
       "model": "GPT-6 Astra (high)",
       "vendor": "OpenAI",
-      "score": 51,
+      "score": 55,
       "slug": "gpt-6-astra-high"
     },
     {
-      "rank": 19,
+      "rank": 7,
+      "model": "GPT-6.1 Sol (max)",
+      "vendor": "OpenAI",
+      "score": 55,
+      "slug": "gpt-6-1-sol"
+    },
+    {
+      "rank": 8,
+      "model": "Claude Sonnet 5.5 (max with fallback)",
+      "vendor": "Anthropic",
+      "score": 54,
+      "slug": "claude-sonnet-5-5"
+    },
+    {
+      "rank": 9,
+      "model": "GPT-6.1 Sol (xhigh)",
+      "vendor": "OpenAI",
+      "score": 52,
+      "slug": "gpt-6-1-sol-xhigh"
+    },
+    {
+      "rank": 10,
+      "model": "Claude Opus 5.5 (high with fallback)",
+      "vendor": "Anthropic",
+      "score": 52,
+      "slug": "claude-opus-5-5-high"
+    },
+    {
+      "rank": 11,
+      "model": "GPT-6 Astra (medium)",
+      "vendor": "OpenAI",
+      "score": 51,
+      "slug": "gpt-6-astra-medium"
+    },
+    {
+      "rank": 12,
+      "model": "GPT-6.1 Terra (max)",
+      "vendor": "OpenAI",
+      "score": 51,
+      "slug": "gpt-6-1-terra"
+    },
+    {
+      "rank": 13,
+      "model": "Gemini 4 Argon (high)",
+      "vendor": "Google",
+      "score": 50,
+      "slug": "gemini-4-argon"
+    },
+    {
+      "rank": 14,
       "model": "GPT-6.1 Sol (high)",
       "vendor": "OpenAI",
       "score": 50,
       "slug": "gpt-6-1-sol-high"
     },
     {
-      "rank": 20,
-      "model": "GPT-6 Astra (medium)",
-      "vendor": "OpenAI",
+      "rank": 15,
+      "model": "Muse Wonder Full (max)",
+      "vendor": "Meta",
       "score": 50,
-      "slug": "gpt-6-astra-medium"
+      "slug": "muse-wonder-full"
+    },
+    {
+      "rank": 16,
+      "model": "Claude Fable 5.1 (xhigh with fallback)",
+      "vendor": "Anthropic",
+      "score": 50,
+      "slug": "claude-fable-5-1-xhigh"
+    },
+    {
+      "rank": 17,
+      "model": "Claude Sonnet 5.5 (xhigh with fallback)",
+      "vendor": "Anthropic",
+      "score": 50,
+      "slug": "claude-sonnet-5-5-xhigh"
+    },
+    {
+      "rank": 18,
+      "model": "Claude Fable 5.1 (max with fallback)",
+      "vendor": "Anthropic",
+      "score": 49,
+      "slug": "claude-fable-5-1"
+    },
+    {
+      "rank": 19,
+      "model": "Claude Opus 5.5 (medium with fallback)",
+      "vendor": "Anthropic",
+      "score": 48,
+      "slug": "claude-opus-5-5-medium"
+    },
+    {
+      "rank": 20,
+      "model": "Claude Fable 5.1 (high with fallback)",
+      "vendor": "Anthropic",
+      "score": 47,
+      "slug": "claude-fable-5-1-high"
     },
     {
       "rank": 21,
-      "model": "Claude Fable 5.1 (medium with fallback)",
-      "vendor": "Anthropic",
-      "score": 49,
-      "slug": "claude-fable-5-1-medium"
-    },
-    {
-      "rank": 22,
-      "model": "GPT-6.1 Terra (max)",
-      "vendor": "OpenAI",
-      "score": 48,
-      "slug": "gpt-6-1-terra"
-    },
-    {
-      "rank": 23,
       "model": "GPT-6.1 Sol (medium)",
       "vendor": "OpenAI",
-      "score": 48,
+      "score": 46,
       "slug": "gpt-6-1-sol-medium"
     },
     {
-      "rank": 24,
-      "model": "Claude Fable 5.1 (low with fallback)",
-      "vendor": "Anthropic",
-      "score": 47,
-      "slug": "claude-fable-5-1-low"
-    },
-    {
-      "rank": 25,
-      "model": "Claude Sonnet 5.5 (high with fallback)",
-      "vendor": "Anthropic",
-      "score": 47,
-      "slug": "claude-sonnet-5-5-high"
-    },
-    {
-      "rank": 26,
-      "model": "Grok 4.7 (xhigh)",
-      "vendor": "SpaceXAI",
+      "rank": 22,
+      "model": "Kimi K3.1 Pro",
+      "vendor": "Kimi",
       "score": 46,
-      "slug": "grok-4-7"
+      "slug": "kimi-k3-1-pro"
     },
     {
-      "rank": 27,
-      "model": "Grok 4.7 (high)",
-      "vendor": "SpaceXAI",
-      "score": 46,
-      "slug": "grok-4-7-high"
-    },
-    {
-      "rank": 28,
-      "model": "MiMo-V2.6-Pro",
-      "vendor": "Xiaomi",
-      "score": 46,
-      "slug": "mimo-v2-6-pro"
-    },
-    {
-      "rank": 29,
-      "model": "GPT-6 Astra (low)",
-      "vendor": "OpenAI",
-      "score": 46,
-      "slug": "gpt-6-astra-low"
-    },
-    {
-      "rank": 30,
-      "model": "Qwen3.8 Max (0902)",
-      "vendor": "Alibaba",
-      "score": 45,
-      "slug": "qwen3-8-max"
-    },
-    {
-      "rank": 31,
+      "rank": 23,
       "model": "GPT-6.1 Terra (xhigh)",
       "vendor": "OpenAI",
       "score": 45,
       "slug": "gpt-6-1-terra-xhigh"
     },
     {
-      "rank": 32,
-      "model": "DeepSeek V4.1 Flash 1017 (max)",
-      "vendor": "DeepSeek",
-      "score": 45,
-      "slug": "deepseek-v4-1-flash-1017"
+      "rank": 24,
+      "model": "Muse Wonder (max)",
+      "vendor": "Meta",
+      "score": 43,
+      "slug": "muse-wonder"
     },
     {
-      "rank": 33,
-      "model": "GLM-5.3 (max)",
-      "vendor": "Z AI",
-      "score": 45,
-      "slug": "glm-5-3"
+      "rank": 25,
+      "model": "GPT-6 Astra (low)",
+      "vendor": "OpenAI",
+      "score": 43,
+      "slug": "gpt-6-astra-low"
     },
     {
-      "rank": 34,
-      "model": "Ling 3.1 Flash 1019",
-      "vendor": "InclusionAI",
-      "score": 44,
-      "slug": "ling-3-1-flash-1019"
+      "rank": 26,
+      "model": "Claude Fable 5.1 (medium with fallback)",
+      "vendor": "Anthropic",
+      "score": 43,
+      "slug": "claude-fable-5-1-medium"
     },
     {
-      "rank": 35,
+      "rank": 27,
       "model": "GPT-6.1 Terra (high)",
       "vendor": "OpenAI",
-      "score": 44,
+      "score": 42,
       "slug": "gpt-6-1-terra-high"
     },
     {
-      "rank": 36,
-      "model": "Step 5 Preview",
-      "vendor": "StepFun",
-      "score": 44,
-      "slug": "step-5"
+      "rank": 28,
+      "model": "Claude Sonnet 5.5 (high with fallback)",
+      "vendor": "Anthropic",
+      "score": 41,
+      "slug": "claude-sonnet-5-5-high"
     },
     {
-      "rank": 37,
+      "rank": 29,
+      "model": "Claude Fable 5.1 (low with fallback)",
+      "vendor": "Anthropic",
+      "score": 38,
+      "slug": "claude-fable-5-1-low"
+    },
+    {
+      "rank": 30,
+      "model": "GPT-6.1 Terra (medium)",
+      "vendor": "OpenAI",
+      "score": 38,
+      "slug": "gpt-6-1-terra-medium"
+    },
+    {
+      "rank": 31,
       "model": "Claude Haiku 5.5 (max)",
       "vendor": "Anthropic",
-      "score": 43,
+      "score": 36,
       "slug": "claude-haiku-5-5"
     },
     {
+      "rank": 32,
+      "model": "Grok 4.7 (high)",
+      "vendor": "SpaceXAI",
+      "score": 35,
+      "slug": "grok-4-7-high"
+    },
+    {
+      "rank": 33,
+      "model": "GPT-6.1 Sol (low)",
+      "vendor": "OpenAI",
+      "score": 35,
+      "slug": "gpt-6-1-sol-low"
+    },
+    {
+      "rank": 34,
+      "model": "Claude Opus 5.5 (low with fallback)",
+      "vendor": "Anthropic",
+      "score": 35,
+      "slug": "claude-opus-5-5-low"
+    },
+    {
+      "rank": 35,
+      "model": "Claude Haiku 5.5 (xhigh)",
+      "vendor": "Anthropic",
+      "score": 34,
+      "slug": "claude-haiku-5-5-xhigh"
+    },
+    {
+      "rank": 36,
+      "model": "Grok 4.7 (xhigh)",
+      "vendor": "SpaceXAI",
+      "score": 34,
+      "slug": "grok-4-7"
+    },
+    {
+      "rank": 37,
+      "model": "Qwen3.8 Max (0902)",
+      "vendor": "Alibaba",
+      "score": 34,
+      "slug": "qwen3-8-max"
+    },
+    {
       "rank": 38,
-      "model": "MiniMax-M3.1-Flash",
-      "vendor": "MiniMax",
-      "score": 43,
-      "slug": "minimax-m3-1-flash"
+      "model": "DeepSeek V4.1 Flash 1017 (max)",
+      "vendor": "DeepSeek",
+      "score": 32,
+      "slug": "deepseek-v4-1-flash-1017"
     },
     {
       "rank": 39,
-      "model": "Claude Opus 5.5 (low with fallback)",
-      "vendor": "Anthropic",
-      "score": 42,
-      "slug": "claude-opus-5-5-low"
+      "model": "GLM-5.3 (max)",
+      "vendor": "Z AI",
+      "score": 32,
+      "slug": "glm-5-3"
     },
     {
       "rank": 40,
       "model": "Grok 4.7 (low)",
       "vendor": "SpaceXAI",
-      "score": 42,
+      "score": 31,
       "slug": "grok-4-7-low"
     },
     {
       "rank": 41,
-      "model": "GPT-6.1 Sol (low)",
-      "vendor": "OpenAI",
-      "score": 42,
-      "slug": "gpt-6-1-sol-low"
-    },
-    {
-      "rank": 42,
-      "model": "GLM-5.3-Flash",
-      "vendor": "Z AI",
-      "score": 42,
-      "slug": "glm-5-3-flash"
-    },
-    {
-      "rank": 43,
-      "model": "GPT-6.1 Terra (medium)",
-      "vendor": "OpenAI",
-      "score": 41,
-      "slug": "gpt-6-1-terra-medium"
-    },
-    {
-      "rank": 44,
-      "model": "Claude Haiku 5.5 (xhigh)",
-      "vendor": "Anthropic",
-      "score": 41,
-      "slug": "claude-haiku-5-5-xhigh"
-    },
-    {
-      "rank": 45,
-      "model": "Ling 3.1 Flash",
-      "vendor": "InclusionAI",
-      "score": 41,
-      "slug": "ling-3-1-flash"
-    },
-    {
-      "rank": 46,
       "model": "Gemini 3.8 Flash (high)",
       "vendor": "Google",
-      "score": 41,
+      "score": 31,
       "slug": "gemini-3-8-flash"
     },
     {
-      "rank": 47,
-      "model": "Claude Sonnet 5.5 (medium with fallback)",
-      "vendor": "Anthropic",
-      "score": 41,
-      "slug": "claude-sonnet-5-5-medium"
-    },
-    {
-      "rank": 48,
-      "model": "Qwen3.8 2.4T A95B",
-      "vendor": "Alibaba",
-      "score": 40,
-      "slug": "qwen3-8-2-4t-a95b"
-    },
-    {
-      "rank": 49,
-      "model": "Qwen3.8-Flash-Next",
-      "vendor": "Alibaba",
-      "score": 40,
-      "slug": "qwen3-8-flash-next"
-    },
-    {
-      "rank": 50,
-      "model": "Gemini 3.8 Flash (medium)",
-      "vendor": "Google",
-      "score": 40,
-      "slug": "gemini-3-8-flash-medium"
-    },
-    {
-      "rank": 51,
-      "model": "Muse Spark Open (xhigh)",
-      "vendor": "Meta",
-      "score": 39,
-      "slug": "muse-spark-open"
-    },
-    {
-      "rank": 52,
-      "model": "Mistral Large 4 Preview",
-      "vendor": "Mistral",
-      "score": 38,
-      "slug": "mistral-large-4"
-    },
-    {
-      "rank": 53,
-      "model": "GPT-6 Luna (max)",
-      "vendor": "OpenAI",
-      "score": 38,
-      "slug": "gpt-6-luna"
-    },
-    {
-      "rank": 54,
-      "model": "MiMo-V2.6-Flash",
-      "vendor": "Xiaomi",
-      "score": 38,
-      "slug": "mimo-v2-6-flash"
-    },
-    {
-      "rank": 55,
-      "model": "Claude Haiku 5.5 (high)",
-      "vendor": "Anthropic",
-      "score": 38,
-      "slug": "claude-haiku-5-5-high"
-    },
-    {
-      "rank": 56,
-      "model": "GPT-6.1 Terra (low)",
-      "vendor": "OpenAI",
-      "score": 36,
-      "slug": "gpt-6-1-terra-low"
-    },
-    {
-      "rank": 57,
-      "model": "DeepSeek V4 Pro 0813 (max)",
-      "vendor": "DeepSeek",
-      "score": 36,
-      "slug": "deepseek-v4-pro"
-    },
-    {
-      "rank": 58,
-      "model": "Claude Sonnet 5.5 (low with fallback)",
-      "vendor": "Anthropic",
-      "score": 36,
-      "slug": "claude-sonnet-5-5-low"
-    },
-    {
-      "rank": 59,
-      "model": "Agnes 2.5 Pro Beta",
-      "vendor": "Sapiens AI",
-      "score": 35,
-      "estimated": true,
-      "slug": "agnes-2-5-pro-beta"
-    },
-    {
-      "rank": 60,
-      "model": "DeepSeek V4 Flash Vision (max)",
-      "vendor": "DeepSeek",
-      "score": 35,
-      "slug": "deepseek-v4-flash-vision"
-    },
-    {
-      "rank": 61,
-      "model": "GPT-6 Luna (xhigh)",
-      "vendor": "OpenAI",
-      "score": 35,
-      "slug": "gpt-6-luna-xhigh"
-    },
-    {
-      "rank": 62,
-      "model": "Claude Haiku 5.5 (medium)",
-      "vendor": "Anthropic",
-      "score": 34,
-      "slug": "claude-haiku-5-5-medium"
-    },
-    {
-      "rank": 63,
-      "model": "GLM-5.3 (low)",
-      "vendor": "Z AI",
-      "score": 34,
-      "slug": "glm-5-3-low"
-    },
-    {
-      "rank": 64,
-      "model": "JT-4.1 Flash 236B A21B",
-      "vendor": "China Mobile",
-      "score": 34,
-      "slug": "jt-4-1-flash-236b-a21b"
-    },
-    {
-      "rank": 65,
-      "model": "Qwen3.8 27B (xhigh)",
-      "vendor": "Alibaba",
-      "score": 34,
-      "slug": "qwen3-8-27b"
-    },
-    {
-      "rank": 66,
-      "model": "Motif 3",
-      "vendor": "Motif Technologies",
-      "score": 34,
-      "estimated": true,
-      "slug": "motif-3"
-    },
-    {
-      "rank": 67,
+      "rank": 42,
       "model": "GPT-6.1 Terra (non-reasoning)",
       "vendor": "OpenAI",
-      "score": 33,
+      "score": 30,
       "slug": "gpt-6-1-terra-non-reasoning"
     },
     {
-      "rank": 68,
+      "rank": 43,
+      "model": "Claude Sonnet 5.5 (medium with fallback)",
+      "vendor": "Anthropic",
+      "score": 30,
+      "slug": "claude-sonnet-5-5-medium"
+    },
+    {
+      "rank": 44,
+      "model": "Gemini 3.8 Flash (medium)",
+      "vendor": "Google",
+      "score": 30,
+      "slug": "gemini-3-8-flash-medium"
+    },
+    {
+      "rank": 45,
+      "model": "MiMo-V2.6-Pro",
+      "vendor": "Xiaomi",
+      "score": 30,
+      "slug": "mimo-v2-6-pro"
+    },
+    {
+      "rank": 46,
+      "model": "Claude Haiku 5.5 (high)",
+      "vendor": "Anthropic",
+      "score": 30,
+      "slug": "claude-haiku-5-5-high"
+    },
+    {
+      "rank": 47,
+      "model": "Ling 3.1 Flash 1019",
+      "vendor": "InclusionAI",
+      "score": 29,
+      "slug": "ling-3-1-flash-1019"
+    },
+    {
+      "rank": 48,
+      "model": "GPT-6.1 Terra (low)",
+      "vendor": "OpenAI",
+      "score": 29,
+      "slug": "gpt-6-1-terra-low"
+    },
+    {
+      "rank": 49,
+      "model": "MiniMax-M3.1-Flash",
+      "vendor": "MiniMax",
+      "score": 29,
+      "slug": "minimax-m3-1-flash"
+    },
+    {
+      "rank": 50,
+      "model": "Step 5 Preview",
+      "vendor": "StepFun",
+      "score": 29,
+      "slug": "step-5"
+    },
+    {
+      "rank": 51,
+      "model": "GPT-6 Luna (max)",
+      "vendor": "OpenAI",
+      "score": 28,
+      "slug": "gpt-6-luna"
+    },
+    {
+      "rank": 52,
+      "model": "MiMo-V2.6-Flash",
+      "vendor": "Xiaomi",
+      "score": 27,
+      "slug": "mimo-v2-6-flash"
+    },
+    {
+      "rank": 53,
+      "model": "Claude Sonnet 5.5 (low with fallback)",
+      "vendor": "Anthropic",
+      "score": 25,
+      "slug": "claude-sonnet-5-5-low"
+    },
+    {
+      "rank": 54,
+      "model": "Mistral Large 4 Preview",
+      "vendor": "Mistral",
+      "score": 25,
+      "slug": "mistral-large-4"
+    },
+    {
+      "rank": 55,
+      "model": "Muse Spark Open (xhigh)",
+      "vendor": "Meta",
+      "score": 25,
+      "slug": "muse-spark-open"
+    },
+    {
+      "rank": 56,
+      "model": "Claude Haiku 5.5 (medium)",
+      "vendor": "Anthropic",
+      "score": 25,
+      "slug": "claude-haiku-5-5-medium"
+    },
+    {
+      "rank": 57,
+      "model": "GPT-6 Luna (xhigh)",
+      "vendor": "OpenAI",
+      "score": 23,
+      "slug": "gpt-6-luna-xhigh"
+    },
+    {
+      "rank": 58,
+      "model": "DeepSeek V4 Pro 0813 (max)",
+      "vendor": "DeepSeek",
+      "score": 23,
+      "slug": "deepseek-v4-pro"
+    },
+    {
+      "rank": 59,
+      "model": "GLM-5.3 (low)",
+      "vendor": "Z AI",
+      "score": 23,
+      "slug": "glm-5-3-low"
+    },
+    {
+      "rank": 60,
       "model": "Gemini 3.8 Flash (low)",
       "vendor": "Google",
-      "score": 33,
+      "score": 22,
       "slug": "gemini-3-8-flash-low"
     },
     {
-      "rank": 69,
+      "rank": 61,
       "model": "GPT-6 Luna (high)",
       "vendor": "OpenAI",
-      "score": 33,
+      "score": 21,
       "slug": "gpt-6-luna-high"
     },
     {
-      "rank": 70,
-      "model": "GPT-5.3 Codex (xhigh)",
-      "vendor": "OpenAI",
-      "score": 33,
-      "estimated": true,
-      "slug": "gpt-5-3-codex"
+      "rank": 62,
+      "model": "Qwen3.8 27B (xhigh)",
+      "vendor": "Alibaba",
+      "score": 20,
+      "slug": "qwen3-8-27b"
     },
     {
-      "rank": 71,
-      "model": "K2 Horizon 375B A23B",
-      "vendor": "Institute of Foundation Models",
-      "score": 31,
-      "slug": "k2-horizon-375b-a23b"
-    },
-    {
-      "rank": 72,
-      "model": "Beam 1.0",
-      "vendor": "Reflection",
-      "score": 30,
-      "slug": "reflection-beam"
-    },
-    {
-      "rank": 73,
-      "model": "GPT-6 Luna (medium)",
-      "vendor": "OpenAI",
-      "score": 30,
-      "slug": "gpt-6-luna-medium"
-    },
-    {
-      "rank": 74,
-      "model": "Gemini 3.1 Pro Preview",
-      "vendor": "Google",
-      "score": 30,
-      "slug": "gemini-3-1-pro-preview"
-    },
-    {
-      "rank": 75,
-      "model": "Claude Haiku 5.5 (low)",
-      "vendor": "Anthropic",
-      "score": 29,
-      "slug": "claude-haiku-5-5-low"
-    },
-    {
-      "rank": 76,
+      "rank": 63,
       "model": "MiniMax-M3",
       "vendor": "MiniMax",
-      "score": 29,
+      "score": 19,
       "slug": "minimax-m3"
     },
     {
-      "rank": 77,
-      "model": "Nex-N2-Pro",
-      "vendor": "Nex AGI",
-      "score": 28,
-      "estimated": true,
-      "slug": "nex-n2-pro"
+      "rank": 64,
+      "model": "Claude Haiku 5.5 (low)",
+      "vendor": "Anthropic",
+      "score": 19,
+      "slug": "claude-haiku-5-5-low"
     },
     {
-      "rank": 78,
-      "model": "Qwen3.8 27B (medium)",
-      "vendor": "Alibaba",
-      "score": 28,
-      "slug": "qwen3-8-27b-medium"
+      "rank": 65,
+      "model": "GPT-6 Luna (medium)",
+      "vendor": "OpenAI",
+      "score": 18,
+      "slug": "gpt-6-luna-medium"
     },
     {
-      "rank": 79,
-      "model": "JT-4.1 Flash 236B A21B (non-reasoning)",
-      "vendor": "China Mobile",
-      "score": 27,
-      "estimated": true,
-      "slug": "jt-4-1-flash-236b-a21b-non-reasoning"
+      "rank": 66,
+      "model": "K2 Horizon 375B A23B",
+      "vendor": "Institute of Foundation Models",
+      "score": 18,
+      "slug": "k2-horizon-375b-a23b"
     },
     {
-      "rank": 80,
-      "model": "Quasar 438B (max)",
-      "vendor": "Multiverse Computing",
-      "score": 27,
-      "slug": "quasar-438b"
+      "rank": 67,
+      "model": "Beam 1.0",
+      "vendor": "Reflection",
+      "score": 18,
+      "slug": "reflection-beam"
     },
     {
-      "rank": 81,
-      "model": "Solar Pro 4",
-      "vendor": "Upstage",
-      "score": 27,
-      "slug": "solar-pro4"
-    },
-    {
-      "rank": 82,
+      "rank": 68,
       "model": "Nemotron 3.5 Super VL",
       "vendor": "NVIDIA",
-      "score": 26,
+      "score": 14,
       "slug": "nemotron-3-5-super-vl"
     },
     {
-      "rank": 83,
-      "model": "Apodex 1.1",
-      "vendor": "Apodex",
-      "score": 26,
-      "slug": "apodex-1-1"
-    },
-    {
-      "rank": 84,
-      "model": "Qwen3.8 27B (low)",
-      "vendor": "Alibaba",
-      "score": 26,
-      "slug": "qwen3-8-27b-low"
-    },
-    {
-      "rank": 85,
-      "model": "GPT-5.5 Instant (June 2026)",
-      "vendor": "OpenAI",
-      "score": 26,
-      "slug": "gpt-5-5-instant-06-26"
-    },
-    {
-      "rank": 86,
-      "model": "Kimi K2.7 Code",
-      "vendor": "Kimi",
-      "score": 26,
-      "slug": "kimi-k2-7-code"
-    },
-    {
-      "rank": 87,
+      "rank": 69,
       "model": "Inkling Small",
       "vendor": "Thinking Machines",
-      "score": 26,
+      "score": 13,
       "slug": "inkling-small"
     },
     {
-      "rank": 88,
-      "model": "K2 Horizon MoVA 36B A4B",
-      "vendor": "Institute of Foundation Models",
-      "score": 25,
-      "slug": "k2-horizon-mova-36b-a4b"
-    },
-    {
-      "rank": 89,
-      "model": "Hy3",
-      "vendor": "Tencent",
-      "score": 25,
-      "slug": "hy3"
-    },
-    {
-      "rank": 90,
-      "model": "Qwen3.7 Plus",
-      "vendor": "Alibaba",
-      "score": 25,
-      "slug": "qwen3-7-plus"
-    },
-    {
-      "rank": 91,
+      "rank": 70,
       "model": "Inkling (xhigh)",
       "vendor": "Thinking Machines",
-      "score": 25,
+      "score": 12,
       "slug": "inkling"
     },
     {
-      "rank": 92,
-      "model": "Solar Open2 250B",
-      "vendor": "Upstage",
-      "score": 25,
-      "estimated": true,
-      "slug": "solar-open2-250b"
-    },
-    {
-      "rank": 93,
-      "model": "Ling-3.0-flash-VL",
-      "vendor": "InclusionAI",
-      "score": 25,
-      "slug": "ling-3-0-flash-vl"
-    },
-    {
-      "rank": 94,
-      "model": "Solar Mini 4",
-      "vendor": "Upstage",
-      "score": 24,
-      "slug": "solar-mini4"
-    },
-    {
-      "rank": 95,
+      "rank": 71,
       "model": "Nemotron 3 Ultra",
       "vendor": "NVIDIA",
-      "score": 23,
+      "score": 12,
       "slug": "nvidia-nemotron-3-ultra-550b-a55b"
     },
     {
-      "rank": 96,
-      "model": "Ling-3.0-flash-Fin",
-      "vendor": "InclusionAI",
-      "score": 23,
-      "slug": "ling-3-0-flash-fin"
-    },
-    {
-      "rank": 97,
+      "rank": 72,
       "model": "Gemini 3.5 Flash-Lite",
       "vendor": "Google",
-      "score": 22,
+      "score": 12,
       "slug": "gemini-3-5-flash-lite"
     },
     {
-      "rank": 98,
-      "model": "G9v3-39A5B",
-      "vendor": "AI9Stars",
-      "score": 22,
-      "estimated": true,
-      "slug": "g9v3-39a5b"
-    },
-    {
-      "rank": 99,
-      "model": "KAT-Coder-Pro V2",
-      "vendor": "KwaiKAT",
-      "score": 22,
-      "estimated": true,
-      "slug": "kat-coder-pro-v2"
-    },
-    {
-      "rank": 100,
+      "rank": 73,
       "model": "GPT-6 Luna (low)",
       "vendor": "OpenAI",
-      "score": 22,
+      "score": 10,
       "slug": "gpt-6-luna-low"
     },
     {
-      "rank": 101,
-      "model": "A.X-K2",
-      "vendor": "SK Telecom",
-      "score": 21,
-      "slug": "a-x-k2"
-    },
-    {
-      "rank": 102,
-      "model": "Qwen3.5 397B A17B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 21,
-      "estimated": true,
-      "slug": "qwen3-5-397b-a17b-non-reasoning"
-    },
-    {
-      "rank": 103,
-      "model": "Nemotron 3.5 Bolt 74B-A9B",
-      "vendor": "NVIDIA",
-      "score": 21,
-      "slug": "nemotron-3-5-bolt-74b-a9b"
-    },
-    {
-      "rank": 104,
-      "model": "K2 Horizon 7B",
-      "vendor": "Institute of Foundation Models",
-      "score": 21,
-      "slug": "k2-horizon-7b"
-    },
-    {
-      "rank": 105,
-      "model": "Qwen3.5 Omni Plus",
-      "vendor": "Alibaba",
-      "score": 20,
-      "estimated": true,
-      "slug": "qwen3-5-omni-plus"
-    },
-    {
-      "rank": 106,
-      "model": "DeepSeek V4 Pro 0813 (non-reasoning)",
-      "vendor": "DeepSeek",
-      "score": 20,
-      "slug": "deepseek-v4-pro-non-reasoning"
-    },
-    {
-      "rank": 107,
-      "model": "o3",
-      "vendor": "OpenAI",
-      "score": 20,
-      "estimated": true,
-      "slug": "o3"
-    },
-    {
-      "rank": 108,
-      "model": "Qwen3.8 27B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 20,
-      "slug": "qwen3-8-27b-non-reasoning"
-    },
-    {
-      "rank": 109,
-      "model": "K-EXAONE 2.0",
-      "vendor": "LG AI Research",
-      "score": 20,
-      "estimated": true,
-      "slug": "k-exaone-2-0-0803"
-    },
-    {
-      "rank": 110,
-      "model": "LongCat 2.0",
-      "vendor": "LongCat",
-      "score": 19,
-      "slug": "longcat-2-0"
-    },
-    {
-      "rank": 111,
-      "model": "JT-35B-Flash",
-      "vendor": "China Mobile",
-      "score": 19,
-      "estimated": true,
-      "slug": "jt-35b-flash"
-    },
-    {
-      "rank": 112,
+      "rank": 74,
       "model": "GPT-6 Luna (non-reasoning)",
       "vendor": "OpenAI",
-      "score": 18,
+      "score": 9,
       "slug": "gpt-6-luna-non-reasoning"
     },
     {
-      "rank": 113,
-      "model": "Qwen3.5 397B A17B",
-      "vendor": "Alibaba",
-      "score": 18,
-      "slug": "qwen3-5-397b-a17b"
-    },
-    {
-      "rank": 114,
-      "model": "Qwen3.6 35B A3B",
-      "vendor": "Alibaba",
-      "score": 18,
-      "slug": "qwen3-6-35b-a3b"
-    },
-    {
-      "rank": 115,
-      "model": "Qwen3.5 122B A10B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 18,
-      "estimated": true,
-      "slug": "qwen3-5-122b-a10b-non-reasoning"
-    },
-    {
-      "rank": 116,
+      "rank": 75,
       "model": "Muse Glimmer (high)",
       "vendor": "Meta",
-      "score": 17,
+      "score": 6,
       "slug": "muse-glimmer"
     },
     {
-      "rank": 117,
-      "model": "Doubao Seed Code",
-      "vendor": "ByteDance Seed",
-      "score": 17,
-      "estimated": true,
-      "slug": "doubao-seed-code"
-    },
-    {
-      "rank": 118,
-      "model": "Gemma 4 26B A4B",
-      "vendor": "Google",
-      "score": 17,
-      "estimated": true,
-      "slug": "gemma-4-26b-a4b"
-    },
-    {
-      "rank": 119,
-      "model": "Ring-2.6-1T",
-      "vendor": "InclusionAI",
-      "score": 17,
-      "slug": "ring-2-6-1t"
-    },
-    {
-      "rank": 120,
-      "model": "K2 Horizon 3.7B",
-      "vendor": "Institute of Foundation Models",
-      "score": 16,
-      "slug": "k2-horizon-3-7b"
-    },
-    {
-      "rank": 121,
-      "model": "Qwen3.5 122B A10B",
-      "vendor": "Alibaba",
-      "score": 16,
-      "slug": "qwen3-5-122b-a10b"
-    },
-    {
-      "rank": 122,
-      "model": "Qwen3.6 35B A3B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 15,
-      "estimated": true,
-      "slug": "qwen3-6-35b-a3b-non-reasoning"
-    },
-    {
-      "rank": 123,
-      "model": "Gemma 4 31B",
-      "vendor": "Google",
-      "score": 15,
-      "slug": "gemma-4-31b"
-    },
-    {
-      "rank": 124,
-      "model": "ERNIE 5.0 Thinking Preview",
-      "vendor": "Baidu",
-      "score": 14,
-      "estimated": true,
-      "slug": "ernie-5-0-thinking-preview"
-    },
-    {
-      "rank": 125,
-      "model": "Mistral Medium 3.5",
-      "vendor": "Mistral",
-      "score": 14,
-      "slug": "mistral-medium-3-5"
-    },
-    {
-      "rank": 126,
-      "model": "Gemma 4 12B",
-      "vendor": "Google",
-      "score": 14,
-      "estimated": true,
-      "slug": "gemma-4-12b"
-    },
-    {
-      "rank": 127,
-      "model": "Nova 2.0 Pro Preview (medium)",
-      "vendor": "Amazon",
-      "score": 14,
-      "estimated": true,
-      "slug": "nova-2-0-pro-reasoning-medium"
-    },
-    {
-      "rank": 128,
-      "model": "Gemma 4 31B (non-reasoning)",
-      "vendor": "Google",
-      "score": 14,
-      "estimated": true,
-      "slug": "gemma-4-31b-non-reasoning"
-    },
-    {
-      "rank": 129,
-      "model": "Nova 2.0 Omni (medium)",
-      "vendor": "Amazon",
-      "score": 14,
-      "estimated": true,
-      "slug": "nova-2-0-omni-reasoning-medium"
-    },
-    {
-      "rank": 130,
-      "model": "Apriel-v1.6-15B-Thinker",
-      "vendor": "ServiceNow",
-      "score": 13,
-      "estimated": true,
-      "slug": "apriel-v1-6-15b-thinker"
-    },
-    {
-      "rank": 131,
-      "model": "Nova 2.0 Lite (high)",
-      "vendor": "Amazon",
-      "score": 13,
-      "estimated": true,
-      "slug": "nova-2-0-lite-reasoning"
-    },
-    {
-      "rank": 132,
-      "model": "Qwen3.5 9B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 13,
-      "estimated": true,
-      "slug": "qwen3-5-9b-non-reasoning"
-    },
-    {
-      "rank": 133,
-      "model": "EXAONE 4.5 33B",
-      "vendor": "LG AI Research",
-      "score": 13,
-      "estimated": true,
-      "slug": "exaone-4-5-33b"
-    },
-    {
-      "rank": 134,
+      "rank": 76,
       "model": "Command A+",
       "vendor": "Cohere",
-      "score": 13,
+      "score": 6,
       "slug": "command-a-plus"
     },
     {
-      "rank": 135,
-      "model": "Gemma 4 26B A4B (non-reasoning)",
-      "vendor": "Google",
-      "score": 13,
-      "estimated": true,
-      "slug": "gemma-4-26b-a4b-non-reasoning"
-    },
-    {
-      "rank": 136,
-      "model": "Qwen3.5 4B",
-      "vendor": "Alibaba",
-      "score": 13,
-      "estimated": true,
-      "slug": "qwen3-5-4b"
-    },
-    {
-      "rank": 137,
-      "model": "Nemotron 3.5 Lightning",
-      "vendor": "NVIDIA",
-      "score": 13,
-      "slug": "nemotron-3-5-lightning"
-    },
-    {
-      "rank": 138,
-      "model": "Nova 2.0 Pro Preview (low)",
-      "vendor": "Amazon",
-      "score": 13,
-      "estimated": true,
-      "slug": "nova-2-0-pro-reasoning-low"
-    },
-    {
-      "rank": 139,
-      "model": "Granite 4.2 30B",
-      "vendor": "IBM",
-      "score": 13,
-      "slug": "granite-4-2-30b"
-    },
-    {
-      "rank": 140,
-      "model": "Nova 2.0 Lite (medium)",
-      "vendor": "Amazon",
-      "score": 12,
-      "estimated": true,
-      "slug": "nova-2-0-lite-reasoning-medium"
-    },
-    {
-      "rank": 141,
-      "model": "Qwen3.5 Omni Flash",
-      "vendor": "Alibaba",
-      "score": 12,
-      "estimated": true,
-      "slug": "qwen3-5-omni-flash"
-    },
-    {
-      "rank": 142,
-      "model": "MiniCPM5-2B",
-      "vendor": "OpenBMB",
-      "score": 12,
-      "slug": "minicpm5-2b"
-    },
-    {
-      "rank": 143,
-      "model": "Mercury 2.5",
-      "vendor": "Inception",
-      "score": 12,
-      "slug": "mercury-2-5"
-    },
-    {
-      "rank": 144,
-      "model": "JT-MINI",
-      "vendor": "China Mobile",
-      "score": 12,
-      "estimated": true,
-      "slug": "jt-mini"
-    },
-    {
-      "rank": 145,
-      "model": "Magistral Medium 1.2",
-      "vendor": "Mistral",
-      "score": 12,
-      "estimated": true,
-      "slug": "magistral-medium-2509"
-    },
-    {
-      "rank": 146,
-      "model": "Nova 2.0 Lite (low)",
-      "vendor": "Amazon",
-      "score": 12,
-      "estimated": true,
-      "slug": "nova-2-0-lite-reasoning-low"
-    },
-    {
-      "rank": 147,
-      "model": "HyperNova 60B 2605 (high)",
-      "vendor": "Multiverse Computing",
-      "score": 12,
-      "estimated": true,
-      "slug": "hypernova-60b"
-    },
-    {
-      "rank": 148,
-      "model": "Nemotron Cascade 2 30B A3B",
-      "vendor": "NVIDIA",
-      "score": 12,
-      "estimated": true,
-      "slug": "nemotron-cascade-2-30b-a3b"
-    },
-    {
-      "rank": 149,
-      "model": "gpt-oss-120b (high)",
-      "vendor": "OpenAI",
-      "score": 12,
-      "slug": "gpt-oss-120b"
-    },
-    {
-      "rank": 150,
-      "model": "K2 Think V2",
-      "vendor": "Institute of Foundation Models",
-      "score": 11,
-      "estimated": true,
-      "slug": "k2-think-v2"
-    },
-    {
-      "rank": 151,
-      "model": "LongCat Flash Lite",
-      "vendor": "LongCat",
-      "score": 11,
-      "estimated": true,
-      "slug": "longcat-flash-lite"
-    },
-    {
-      "rank": 152,
-      "model": "HyperCLOVA X SEED Think (32B)",
-      "vendor": "Naver",
-      "score": 11,
-      "estimated": true,
-      "slug": "hyperclova-x-seed-think-32b"
-    },
-    {
-      "rank": 153,
-      "model": "Mistral Small 4",
-      "vendor": "Mistral",
-      "score": 11,
-      "slug": "mistral-small-4"
-    },
-    {
-      "rank": 154,
-      "model": "Qwen3 Next 80B A3B",
-      "vendor": "Alibaba",
-      "score": 11,
-      "estimated": true,
-      "slug": "qwen3-next-80b-a3b-reasoning"
-    },
-    {
-      "rank": 155,
-      "model": "Qwen3.5 9B",
-      "vendor": "Alibaba",
-      "score": 11,
-      "slug": "qwen3-5-9b"
-    },
-    {
-      "rank": 156,
-      "model": "Nova 2.0 Omni (low)",
-      "vendor": "Amazon",
-      "score": 11,
-      "estimated": true,
-      "slug": "nova-2-0-omni-reasoning-low"
-    },
-    {
-      "rank": 157,
-      "model": "Granite 4.2 8B",
-      "vendor": "IBM",
-      "score": 11,
-      "slug": "granite-4-2-8b"
-    },
-    {
-      "rank": 158,
-      "model": "Ling 3.0 Tiny",
-      "vendor": "InclusionAI",
-      "score": 11,
-      "slug": "ling-3-0-tiny"
-    },
-    {
-      "rank": 159,
-      "model": "Mi:dm K 2.5 Pro",
-      "vendor": "Korea Telecom",
-      "score": 11,
-      "estimated": true,
-      "slug": "mi-dm-k-2-5-pro-dec28"
-    },
-    {
-      "rank": 160,
-      "model": "G9v3-3B",
-      "vendor": "AI9Stars",
-      "score": 11,
-      "estimated": true,
-      "slug": "g9v3-3b"
-    },
-    {
-      "rank": 161,
-      "model": "Trinity Large Thinking",
-      "vendor": "Arcee AI",
-      "score": 11,
-      "slug": "trinity-large-thinking"
-    },
-    {
-      "rank": 162,
-      "model": "Qwen3.5 4B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 11,
-      "estimated": true,
-      "slug": "qwen3-5-4b-non-reasoning"
-    },
-    {
-      "rank": 163,
-      "model": "INTELLECT-3",
-      "vendor": "Prime Intellect",
-      "score": 11,
-      "estimated": true,
-      "slug": "intellect-3"
-    },
-    {
-      "rank": 164,
-      "model": "Solar Open 100B",
-      "vendor": "Upstage",
-      "score": 10,
-      "estimated": true,
-      "slug": "solar-open-100b-reasoning"
-    },
-    {
-      "rank": 165,
-      "model": "Nemotron 3 Nano Omni 30B A3B",
-      "vendor": "NVIDIA",
-      "score": 10,
-      "estimated": true,
-      "slug": "nemotron-3-nano-omni-30b-a3b"
-    },
-    {
-      "rank": 166,
-      "model": "gpt-oss-120b (low)",
-      "vendor": "OpenAI",
-      "score": 10,
-      "estimated": true,
-      "slug": "gpt-oss-120b-low"
-    },
-    {
-      "rank": 167,
-      "model": "Nova 2.0 Pro Preview (non-reasoning)",
-      "vendor": "Amazon",
-      "score": 10,
-      "estimated": true,
-      "slug": "nova-2-0-pro"
-    },
-    {
-      "rank": 168,
-      "model": "gpt-oss-20b (low)",
-      "vendor": "OpenAI",
-      "score": 10,
-      "estimated": true,
-      "slug": "gpt-oss-20b-low"
-    },
-    {
-      "rank": 169,
-      "model": "North Mini Code",
-      "vendor": "Cohere",
-      "score": 10,
-      "slug": "north-mini-code"
-    },
-    {
-      "rank": 170,
-      "model": "K2-V2 (high)",
-      "vendor": "Institute of Foundation Models",
-      "score": 10,
-      "estimated": true,
-      "slug": "k2-v2"
-    },
-    {
-      "rank": 171,
-      "model": "Qwen3 Next 80B A3B",
-      "vendor": "Alibaba",
-      "score": 10,
-      "estimated": true,
-      "slug": "qwen3-next-80b-a3b-instruct"
-    },
-    {
-      "rank": 172,
-      "model": "DiffusionGemma 26B A4B",
-      "vendor": "Google",
-      "score": 10,
-      "estimated": true,
-      "slug": "diffusiongemma-26b-a4b"
-    },
-    {
-      "rank": 173,
-      "model": "Gemma 4 12B (non-reasoning)",
-      "vendor": "Google",
-      "score": 9,
-      "estimated": true,
-      "slug": "gemma-4-12b-non-reasoning"
-    },
-    {
-      "rank": 174,
-      "model": "Llama 4 Maverick",
-      "vendor": "Meta",
-      "score": 9,
-      "slug": "llama-4-maverick"
-    },
-    {
-      "rank": 175,
-      "model": "Qwen3 Coder Next",
-      "vendor": "Alibaba",
-      "score": 9,
-      "slug": "qwen3-coder-next"
-    },
-    {
-      "rank": 176,
-      "model": "Motif-2-12.7B",
-      "vendor": "Motif Technologies",
-      "score": 9,
-      "estimated": true,
-      "slug": "motif-2-12-7b"
-    },
-    {
-      "rank": 177,
-      "model": "Nova Premier",
-      "vendor": "Amazon",
-      "score": 9,
-      "estimated": true,
-      "slug": "nova-premier"
-    },
-    {
-      "rank": 178,
-      "model": "Granite 4.2 3B",
-      "vendor": "IBM",
-      "score": 9,
-      "slug": "granite-4-2-3b"
-    },
-    {
-      "rank": 179,
-      "model": "K2-V2 (medium)",
-      "vendor": "Institute of Foundation Models",
-      "score": 9,
-      "estimated": true,
-      "slug": "k2-v2-medium"
-    },
-    {
-      "rank": 180,
-      "model": "Mistral Small 4 (non-reasoning)",
-      "vendor": "Mistral",
-      "score": 9,
-      "estimated": true,
-      "slug": "mistral-small-4-non-reasoning"
-    },
-    {
-      "rank": 181,
-      "model": "Tri-21B-Think",
-      "vendor": "Trillion Labs",
-      "score": 9,
-      "estimated": true,
-      "slug": "tri-21b-think-v0-5"
-    },
-    {
-      "rank": 182,
-      "model": "gpt-oss-20b (high)",
-      "vendor": "OpenAI",
-      "score": 9,
-      "slug": "gpt-oss-20b"
-    },
-    {
-      "rank": 183,
-      "model": "Gemma 4 E4B",
-      "vendor": "Google",
-      "score": 9,
-      "slug": "gemma-4-e4b"
-    },
-    {
-      "rank": 184,
-      "model": "Nemotron 3 Nano",
-      "vendor": "NVIDIA",
-      "score": 9,
-      "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning"
-    },
-    {
-      "rank": 185,
-      "model": "MiniCPM5-1B",
-      "vendor": "OpenBMB",
-      "score": 9,
-      "estimated": true,
-      "slug": "minicpm5-1b"
-    },
-    {
-      "rank": 186,
-      "model": "Sarvam 105B (high)",
-      "vendor": "Sarvam",
-      "score": 9,
-      "estimated": true,
-      "slug": "sarvam-105b"
-    },
-    {
-      "rank": 187,
-      "model": "Nova 2.0 Lite (non-reasoning)",
-      "vendor": "Amazon",
-      "score": 9,
-      "estimated": true,
-      "slug": "nova-2-0-lite"
-    },
-    {
-      "rank": 188,
-      "model": "MiniCPM5-1B (non-reasoning)",
-      "vendor": "OpenBMB",
-      "score": 9,
-      "estimated": true,
-      "slug": "minicpm5-1b-non-reasoning"
-    },
-    {
-      "rank": 189,
-      "model": "Magistral Small 1.2",
-      "vendor": "Mistral",
-      "score": 9,
-      "estimated": true,
-      "slug": "magistral-small-2509"
-    },
-    {
-      "rank": 190,
-      "model": "Nanbeige4.1-3B",
-      "vendor": "Nanbeige",
-      "score": 8,
-      "estimated": true,
-      "slug": "nanbeige4-1-3b"
-    },
-    {
-      "rank": 191,
-      "model": "LFM2.5-2.6B",
-      "vendor": "Liquid AI",
-      "score": 8,
-      "estimated": true,
-      "slug": "lfm2-5-2-6b"
-    },
-    {
-      "rank": 192,
-      "model": "EXAONE 4.0 32B",
-      "vendor": "LG AI Research",
-      "score": 8,
-      "estimated": true,
-      "slug": "exaone-4-0-32b-reasoning"
-    },
-    {
-      "rank": 193,
-      "model": "Nova 2.0 Omni (non-reasoning)",
-      "vendor": "Amazon",
-      "score": 8,
-      "estimated": true,
-      "slug": "nova-2-0-omni"
-    },
-    {
-      "rank": 194,
-      "model": "Hermes 4 70B",
-      "vendor": "Nous Research",
-      "score": 8,
-      "estimated": true,
-      "slug": "hermes-4-llama-3-1-70b-reasoning"
-    },
-    {
-      "rank": 195,
-      "model": "Falcon-H1R-7B",
-      "vendor": "TII UAE",
-      "score": 8,
-      "estimated": true,
-      "slug": "falcon-h1r-7b"
-    },
-    {
-      "rank": 196,
-      "model": "Gemma 4 E2B",
-      "vendor": "Google",
-      "score": 8,
-      "estimated": true,
-      "slug": "gemma-4-e2b"
-    },
-    {
-      "rank": 197,
-      "model": "Qwen3 Omni 30B A3B",
-      "vendor": "Alibaba",
-      "score": 8,
-      "estimated": true,
-      "slug": "qwen3-omni-30b-a3b-reasoning"
-    },
-    {
-      "rank": 198,
-      "model": "Step3 VL 10B",
-      "vendor": "StepFun",
-      "score": 8,
-      "estimated": true,
-      "slug": "step-3-vl-10b"
-    },
-    {
-      "rank": 199,
-      "model": "Llama 3.3 70B",
-      "vendor": "Meta",
-      "score": 8,
-      "estimated": true,
-      "slug": "llama-3-3-instruct-70b"
-    },
-    {
-      "rank": 200,
-      "model": "Llama Nemotron Ultra",
-      "vendor": "NVIDIA",
-      "score": 8,
-      "estimated": true,
-      "slug": "llama-3-1-nemotron-ultra-253b-v1-reasoning"
-    },
-    {
-      "rank": 201,
-      "model": "ERNIE 4.5 300B A47B",
-      "vendor": "Baidu",
-      "score": 8,
-      "estimated": true,
-      "slug": "ernie-4-5-300b-a47b"
-    },
-    {
-      "rank": 202,
-      "model": "Hermes 4 405B",
-      "vendor": "Nous Research",
-      "score": 7,
-      "estimated": true,
-      "slug": "hermes-4-llama-3-1-405b-reasoning"
-    },
-    {
-      "rank": 203,
-      "model": "NVIDIA Nemotron Nano 12B v2 VL",
-      "vendor": "NVIDIA",
-      "score": 7,
-      "estimated": true,
-      "slug": "nvidia-nemotron-nano-12b-v2-vl-reasoning"
-    },
-    {
-      "rank": 204,
-      "model": "Gemma 4 E4B (non-reasoning)",
-      "vendor": "Google",
-      "score": 7,
-      "estimated": true,
-      "slug": "gemma-4-e4b-non-reasoning"
-    },
-    {
-      "rank": 205,
-      "model": "NVIDIA Nemotron Nano 9B V2",
-      "vendor": "NVIDIA",
-      "score": 7,
-      "estimated": true,
-      "slug": "nvidia-nemotron-nano-9b-v2-reasoning"
-    },
-    {
-      "rank": 206,
-      "model": "Hermes 4 405B (non-reasoning)",
-      "vendor": "Nous Research",
-      "score": 7,
-      "estimated": true,
-      "slug": "hermes-4-llama-3-1-405b"
-    },
-    {
-      "rank": 207,
-      "model": "K2-V2 (low)",
-      "vendor": "Institute of Foundation Models",
-      "score": 7,
-      "estimated": true,
-      "slug": "k2-v2-low"
-    },
-    {
-      "rank": 208,
-      "model": "Kimi Linear 48B A3B Instruct",
-      "vendor": "Kimi",
-      "score": 7,
-      "estimated": true,
-      "slug": "kimi-linear-48b-a3b-instruct"
-    },
-    {
-      "rank": 209,
-      "model": "Llama 3.1 405B",
-      "vendor": "Meta",
-      "score": 7,
-      "estimated": true,
-      "slug": "llama-3-1-instruct-405b"
-    },
-    {
-      "rank": 210,
-      "model": "LFM2.5-8B-A1B",
-      "vendor": "Liquid AI",
-      "score": 7,
-      "estimated": true,
-      "slug": "lfm2-5-8b-a1b"
-    },
-    {
-      "rank": 211,
-      "model": "Ring-flash-2.0",
-      "vendor": "InclusionAI",
-      "score": 7,
-      "estimated": true,
-      "slug": "ring-flash-2-0"
-    },
-    {
-      "rank": 212,
-      "model": "Olmo 3.1 32B Think",
-      "vendor": "Allen Institute for AI",
-      "score": 7,
-      "estimated": true,
-      "slug": "olmo-3-1-32b-think"
-    },
-    {
-      "rank": 213,
-      "model": "Command A",
-      "vendor": "Cohere",
-      "score": 7,
-      "estimated": true,
-      "slug": "command-a"
-    },
-    {
-      "rank": 214,
-      "model": "Qwen3.5 2B",
-      "vendor": "Alibaba",
-      "score": 7,
-      "estimated": true,
-      "slug": "qwen3-5-2b"
-    },
-    {
-      "rank": 215,
-      "model": "Nemotron 3 Nano (non-reasoning)",
-      "vendor": "NVIDIA",
-      "score": 7,
-      "estimated": true,
-      "slug": "nvidia-nemotron-3-nano-30b-a3b"
-    },
-    {
-      "rank": 216,
-      "model": "NVIDIA Nemotron Nano 9B V2 (non-reasoning)",
-      "vendor": "NVIDIA",
-      "score": 7,
-      "estimated": true,
-      "slug": "nvidia-nemotron-nano-9b-v2"
-    },
-    {
-      "rank": 217,
-      "model": "Hermes 4 70B (non-reasoning)",
-      "vendor": "Nous Research",
-      "score": 7,
-      "estimated": true,
-      "slug": "hermes-4-llama-3-1-70b"
-    },
-    {
-      "rank": 218,
-      "model": "Sarvam 30B (high)",
-      "vendor": "Sarvam",
-      "score": 7,
-      "estimated": true,
-      "slug": "sarvam-30b"
-    },
-    {
-      "rank": 219,
-      "model": "Olmo 3.1 32B Instruct",
-      "vendor": "Allen Institute for AI",
-      "score": 6,
-      "estimated": true,
-      "slug": "olmo-3-1-32b-instruct"
-    },
-    {
-      "rank": 220,
-      "model": "Gemma 4 E2B (non-reasoning)",
-      "vendor": "Google",
-      "score": 6,
-      "estimated": true,
-      "slug": "gemma-4-e2b-non-reasoning"
-    },
-    {
-      "rank": 221,
-      "model": "Llama 4 Scout",
-      "vendor": "Meta",
-      "score": 6,
-      "slug": "llama-4-scout"
-    },
-    {
-      "rank": 222,
-      "model": "R1 1776",
-      "vendor": "Perplexity",
-      "score": 6,
-      "estimated": true,
-      "slug": "r1-1776"
-    },
-    {
-      "rank": 223,
-      "model": "Llama 3.2 90B (Vision)",
-      "vendor": "Meta",
-      "score": 6,
-      "estimated": true,
-      "slug": "llama-3-2-instruct-90b-vision"
-    },
-    {
-      "rank": 224,
-      "model": "Celeris-1",
-      "vendor": "Celeris",
-      "score": 6,
-      "slug": "celeris-1"
-    },
-    {
-      "rank": 225,
-      "model": "Phi-4 Mini",
-      "vendor": "Microsoft",
-      "score": 6,
-      "estimated": true,
-      "slug": "phi-4-mini"
-    },
-    {
-      "rank": 226,
-      "model": "EXAONE 4.0 32B (non-reasoning)",
-      "vendor": "LG AI Research",
-      "score": 6,
-      "estimated": true,
-      "slug": "exaone-4-0-32b"
-    },
-    {
-      "rank": 227,
-      "model": "Qwen3.5 2B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 6,
-      "estimated": true,
-      "slug": "qwen3-5-2b-non-reasoning"
-    },
-    {
-      "rank": 228,
-      "model": "Qwen3.5 0.8B",
-      "vendor": "Alibaba",
-      "score": 6,
-      "estimated": true,
-      "slug": "qwen3-5-0-8b"
-    },
-    {
-      "rank": 229,
-      "model": "DeepHermes 3 - Mistral 24B (non-reasoning)",
-      "vendor": "Nous Research",
-      "score": 6,
-      "estimated": true,
-      "slug": "deephermes-3-mistral-24b-preview"
-    },
-    {
-      "rank": 230,
-      "model": "Jamba 1.7 Large",
-      "vendor": "AI21 Labs",
-      "score": 6,
-      "estimated": true,
-      "slug": "jamba-1-7-large"
-    },
-    {
-      "rank": 231,
-      "model": "Granite 4.0 H Small",
-      "vendor": "IBM",
-      "score": 6,
-      "estimated": true,
-      "slug": "granite-4-0-h-small"
-    },
-    {
-      "rank": 232,
-      "model": "Ministral 3 14B",
-      "vendor": "Mistral",
-      "score": 6,
-      "slug": "ministral-3-14b"
-    },
-    {
-      "rank": 233,
-      "model": "Qwen3 Omni 30B A3B",
-      "vendor": "Alibaba",
-      "score": 6,
-      "estimated": true,
-      "slug": "qwen3-omni-30b-a3b-instruct"
-    },
-    {
-      "rank": 234,
-      "model": "LFM2 24B A2B",
-      "vendor": "Liquid AI",
-      "score": 6,
-      "estimated": true,
-      "slug": "lfm2-24b-a2b"
-    },
-    {
-      "rank": 235,
-      "model": "Phi-4",
-      "vendor": "Microsoft",
-      "score": 6,
-      "estimated": true,
-      "slug": "phi-4"
-    },
-    {
-      "rank": 236,
-      "model": "Nova Micro",
-      "vendor": "Amazon",
-      "score": 6,
-      "estimated": true,
-      "slug": "nova-micro"
-    },
-    {
-      "rank": 237,
-      "model": "NVIDIA Nemotron Nano 12B v2 VL (non-reasoning)",
-      "vendor": "NVIDIA",
-      "score": 6,
-      "estimated": true,
-      "slug": "nvidia-nemotron-nano-12b-v2-vl"
-    },
-    {
-      "rank": 238,
-      "model": "Phi-4 Multimodal",
-      "vendor": "Microsoft",
-      "score": 6,
-      "estimated": true,
-      "slug": "phi-4-multimodal"
-    },
-    {
-      "rank": 239,
-      "model": "MiniCPM-V 4.6 1.3B",
-      "vendor": "OpenBMB",
-      "score": 6,
-      "estimated": true,
-      "slug": "minicpm-v4-6-1-3b"
-    },
-    {
-      "rank": 240,
-      "model": "Jamba Reasoning 3B",
-      "vendor": "AI21 Labs",
-      "score": 6,
-      "estimated": true,
-      "slug": "jamba-reasoning-3b"
-    },
-    {
-      "rank": 241,
-      "model": "Reka Flash 3",
-      "vendor": "Reka AI",
-      "score": 6,
-      "estimated": true,
-      "slug": "reka-flash-3"
-    },
-    {
-      "rank": 242,
-      "model": "Olmo 3 7B Think",
-      "vendor": "Allen Institute for AI",
-      "score": 6,
-      "estimated": true,
-      "slug": "olmo-3-7b-think"
-    },
-    {
-      "rank": 243,
-      "model": "Molmo 7B-D",
-      "vendor": "Allen Institute for AI",
-      "score": 6,
-      "estimated": true,
-      "slug": "molmo-7b-d"
-    },
-    {
-      "rank": 244,
-      "model": "Ministral 3 8B",
-      "vendor": "Mistral",
-      "score": 5,
-      "slug": "ministral-3-8b"
-    },
-    {
-      "rank": 245,
-      "model": "Llama 3.2 11B (Vision)",
-      "vendor": "Meta",
-      "score": 5,
-      "estimated": true,
-      "slug": "llama-3-2-instruct-11b-vision"
-    },
-    {
-      "rank": 246,
-      "model": "Qwen3.5 0.8B (non-reasoning)",
-      "vendor": "Alibaba",
-      "score": 5,
-      "estimated": true,
-      "slug": "qwen3-5-0-8b-non-reasoning"
-    },
-    {
-      "rank": 247,
-      "model": "Exaone 4.0 1.2B",
-      "vendor": "LG AI Research",
-      "score": 5,
-      "estimated": true,
-      "slug": "exaone-4-0-1-2b-reasoning"
-    },
-    {
-      "rank": 248,
-      "model": "Olmo 3 7B",
-      "vendor": "Allen Institute for AI",
-      "score": 5,
-      "estimated": true,
-      "slug": "olmo-3-7b-instruct"
-    },
-    {
-      "rank": 249,
-      "model": "Exaone 4.0 1.2B (non-reasoning)",
-      "vendor": "LG AI Research",
-      "score": 5,
-      "estimated": true,
-      "slug": "exaone-4-0-1-2b"
-    },
-    {
-      "rank": 250,
-      "model": "LFM2.5-1.2B-Thinking",
-      "vendor": "Liquid AI",
-      "score": 5,
-      "estimated": true,
-      "slug": "lfm2-5-1-2b-thinking"
-    },
-    {
-      "rank": 251,
-      "model": "Jamba 1.7 Mini",
-      "vendor": "AI21 Labs",
-      "score": 5,
-      "estimated": true,
-      "slug": "jamba-1-7-mini"
-    },
-    {
-      "rank": 252,
-      "model": "LFM2.5-1.2B-Instruct",
-      "vendor": "Liquid AI",
-      "score": 5,
-      "estimated": true,
-      "slug": "lfm2-5-1-2b-instruct"
-    },
-    {
-      "rank": 253,
-      "model": "Granite 4.0 H 1B",
-      "vendor": "IBM",
-      "score": 5,
-      "estimated": true,
-      "slug": "granite-4-0-h-nano-1b"
-    },
-    {
-      "rank": 254,
-      "model": "Gemma 3 270M",
-      "vendor": "Google",
-      "score": 5,
-      "estimated": true,
-      "slug": "gemma-3-270m"
-    },
-    {
-      "rank": 255,
-      "model": "Apertus 70B Instruct",
-      "vendor": "Swiss AI Initiative",
-      "score": 5,
-      "estimated": true,
-      "slug": "apertus-70b-instruct"
-    },
-    {
-      "rank": 256,
-      "model": "Granite 4.0 Micro",
-      "vendor": "IBM",
-      "score": 5,
-      "estimated": true,
-      "slug": "granite-4-0-micro"
-    },
-    {
-      "rank": 257,
-      "model": "DeepHermes 3 - Llama-3.1 8B (non-reasoning)",
-      "vendor": "Nous Research",
-      "score": 5,
-      "estimated": true,
-      "slug": "deephermes-3-llama-3-1-8b-preview"
-    },
-    {
-      "rank": 258,
-      "model": "Molmo2-8B",
-      "vendor": "Allen Institute for AI",
-      "score": 5,
-      "estimated": true,
-      "slug": "molmo2-8b"
-    },
-    {
-      "rank": 259,
-      "model": "Ministral 3 3B",
-      "vendor": "Mistral",
-      "score": 5,
-      "slug": "ministral-3-3b"
-    },
-    {
-      "rank": 260,
-      "model": "LFM2.5-VL-1.6B",
-      "vendor": "Liquid AI",
-      "score": 5,
-      "estimated": true,
-      "slug": "lfm2-5-vl-1-6b"
-    },
-    {
-      "rank": 261,
-      "model": "Granite 4.0 350M",
-      "vendor": "IBM",
-      "score": 5,
-      "estimated": true,
-      "slug": "granite-4-0-350m"
-    },
-    {
-      "rank": 262,
-      "model": "Tiny Aya Global",
-      "vendor": "Cohere",
-      "score": 5,
-      "estimated": true,
-      "slug": "tiny-aya-global"
-    },
-    {
-      "rank": 263,
-      "model": "Apertus 8B Instruct",
-      "vendor": "Swiss AI Initiative",
-      "score": 5,
-      "estimated": true,
-      "slug": "apertus-8b-instruct"
-    },
-    {
-      "rank": 264,
-      "model": "Granite 4.0 H 350M",
-      "vendor": "IBM",
-      "score": 5,
-      "estimated": true,
-      "slug": "granite-4-0-h-350m"
-    },
-    {
-      "rank": 265,
+      "rank": 77,
       "model": "Nemotron 3 Nano 4B",
       "vendor": "NVIDIA",
-      "score": 5,
+      "score": 2,
       "slug": "nvidia-nemotron-3-nano-4b"
-    },
-    {
-      "rank": 266,
-      "model": "K2 Horizon 0.9B",
-      "vendor": "Institute of Foundation Models",
-      "score": 3,
-      "slug": "k2-horizon-0-9b"
     }
   ]
 }
