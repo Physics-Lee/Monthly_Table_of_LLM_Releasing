@@ -61,13 +61,8 @@
     </div>
 
     <div class="rank-section">
-      <h2>AA 上有得分、但表格暂无对应列的厂商</h2>
-      <p class="rank-note">该名录已扩充为独立的厂商简介页（收录月表全部厂商 + AA 在榜厂商）：<a href="aa-vendors.html">厂商名录 →</a></p>
-    </div>
-
-    <div class="rank-section">
-      <h2>无 AA 榜单条目的表格列</h2>
-      <p class="rank-note" id="noEntry">加载中...</p>
+      <h2><a href="aa-vendors.html">厂商名录</a></h2>
+      <p class="rank-note">月表全部厂商 + AA 在榜厂商的简介。</p>
     </div>
 
     <div class="rank-section" id="supplement-rankings">
@@ -146,9 +141,6 @@
         </tr>`).join('');
 
       // 编者注：厂商名录（含本表全部厂商的简介）已移至 aa-vendors.html
-
-      document.getElementById('noEntry').textContent =
-        `无 AA 条目：${data.columnsWithoutEntry.join('、')}　|　不参与排名：${data.excludedColumns.join('、')}`;
     });
   </script>
 </body>
