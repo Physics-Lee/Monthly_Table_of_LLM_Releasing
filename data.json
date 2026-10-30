@@ -6385,6 +6385,10 @@
         {
           "name": "Mistral Large 4 Preview",
           "url": "https://artificialanalysis.ai/models/mistral-large-4"
+        },
+        {
+          "name": "Mistral Large 4",
+          "url": "https://artificialanalysis.ai/models/mistral-large-4"
         }
       ],
       "MBZUAI": [],
