@@ -278,6 +278,8 @@
   "Ministral 3 3B": "baseline",
   "Ministral 3 8B": "baseline",
   "Mistral Large 3": "baseline",
+  "Mistral Large 4 (high)": "2026-10-30",
+  "Mistral Large 4 (medium)": "2026-10-30",
   "Mistral Large 4 Preview": "2026-10-07",
   "Mistral Medium 3.5": "baseline",
   "Mistral Small 4": "baseline",
