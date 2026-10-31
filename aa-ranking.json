@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T02:43:45.596Z",
+  "fetchedAt": "2026-10-31T02:32:56.314Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -119,7 +119,7 @@
       "model": "K2 Horizon 375B A23B",
       "score": 18,
       "estimated": false,
-      "aaRank": 68,
+      "aaRank": 69,
       "rank": 15
     },
     {
@@ -127,7 +127,7 @@
       "model": "Nemotron 3.5 Super VL",
       "score": 14,
       "estimated": false,
-      "aaRank": 72,
+      "aaRank": 73,
       "rank": 16
     },
     {
@@ -135,7 +135,7 @@
       "model": "Inkling Small",
       "score": 13,
       "estimated": false,
-      "aaRank": 73,
+      "aaRank": 74,
       "rank": 17
     },
     {
@@ -143,8 +143,16 @@
       "model": "Command A+",
       "score": 6,
       "estimated": false,
-      "aaRank": 80,
+      "aaRank": 82,
       "rank": 18
+    },
+    {
+      "column": "IBM",
+      "model": "Granite 4.2 3B",
+      "score": 5,
+      "estimated": false,
+      "aaRank": 84,
+      "rank": 19
     }
   ],
   "missingVendors": [
@@ -173,5 +181,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-10-30T02:43:45.704Z"
+  "generatedAt": "2026-10-31T02:32:56.402Z"
 }

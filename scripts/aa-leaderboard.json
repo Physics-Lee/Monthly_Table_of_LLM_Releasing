@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T02:43:45.596Z",
+  "fetchedAt": "2026-10-31T02:32:56.314Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
   "entries": [
@@ -467,118 +467,139 @@
     },
     {
       "rank": 67,
+      "model": "DeepSeek V4.1 Flash 1017 (non-reasoning)",
+      "vendor": "DeepSeek",
+      "score": 19,
+      "slug": "deepseek-v4-1-flash-1017-non-reasoning"
+    },
+    {
+      "rank": 68,
       "model": "GPT-6 Luna (medium)",
       "vendor": "OpenAI",
       "score": 18,
       "slug": "gpt-6-luna-medium"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "model": "K2 Horizon 375B A23B",
       "vendor": "Institute of Foundation Models",
       "score": 18,
       "slug": "k2-horizon-375b-a23b"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "model": "Beam 1.0",
       "vendor": "Reflection",
       "score": 18,
       "slug": "reflection-beam"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "model": "Qwen3.8 27B (medium)",
       "vendor": "Alibaba",
       "score": 17,
       "slug": "qwen3-8-27b-medium"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "model": "Qwen3.8 27B (low)",
       "vendor": "Alibaba",
       "score": 16,
       "slug": "qwen3-8-27b-low"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "model": "Nemotron 3.5 Super VL",
       "vendor": "NVIDIA",
       "score": 14,
       "slug": "nemotron-3-5-super-vl"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "model": "Inkling Small",
       "vendor": "Thinking Machines",
       "score": 13,
       "slug": "inkling-small"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "model": "Inkling (xhigh)",
       "vendor": "Thinking Machines",
       "score": 12,
       "slug": "inkling"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "model": "Nemotron 3 Ultra",
       "vendor": "NVIDIA",
       "score": 12,
       "slug": "nvidia-nemotron-3-ultra-550b-a55b"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "model": "Gemini 3.5 Flash-Lite",
       "vendor": "Google",
       "score": 12,
       "slug": "gemini-3-5-flash-lite"
     },
     {
-      "rank": 77,
+      "rank": 78,
+      "model": "Qwen3.8 27B (non-reasoning)",
+      "vendor": "Alibaba",
+      "score": 10,
+      "slug": "qwen3-8-27b-non-reasoning"
+    },
+    {
+      "rank": 79,
       "model": "GPT-6 Luna (low)",
       "vendor": "OpenAI",
       "score": 10,
       "slug": "gpt-6-luna-low"
     },
     {
-      "rank": 78,
+      "rank": 80,
       "model": "GPT-6 Luna (non-reasoning)",
       "vendor": "OpenAI",
       "score": 9,
       "slug": "gpt-6-luna-non-reasoning"
     },
     {
-      "rank": 79,
+      "rank": 81,
       "model": "Muse Glimmer (high)",
       "vendor": "Meta",
       "score": 6,
       "slug": "muse-glimmer"
     },
     {
-      "rank": 80,
+      "rank": 82,
       "model": "Command A+",
       "vendor": "Cohere",
       "score": 6,
       "slug": "command-a-plus"
     },
     {
-      "rank": 81,
+      "rank": 83,
       "model": "Nemotron 3.5 Lightning",
       "vendor": "NVIDIA",
       "score": 6,
       "slug": "nemotron-3-5-lightning"
     },
     {
-      "rank": 82,
+      "rank": 84,
+      "model": "Granite 4.2 3B",
+      "vendor": "IBM",
+      "score": 5,
+      "slug": "granite-4-2-3b"
+    },
+    {
+      "rank": 85,
       "model": "Mistral Small 4",
       "vendor": "Mistral",
       "score": 4,
       "slug": "mistral-small-4"
     },
     {
-      "rank": 83,
+      "rank": 86,
       "model": "Nemotron 3 Nano 4B",
       "vendor": "NVIDIA",
       "score": 2,
