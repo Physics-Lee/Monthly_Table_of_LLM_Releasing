@@ -18,6 +18,7 @@
     "NVIDIA",
     "Thinking Machines Lab",
     "Cohere",
+    "IBM",
     "Agnes-Sapiens",
     "China-Mobile",
     "Motif",
@@ -34,7 +35,6 @@
     "Doubao-ByteDance",
     "Baidu",
     "Amazon",
-    "IBM",
     "ModelBest-OpenBMB",
     "Inception",
     "Prime-Intellect",
@@ -87,6 +87,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -103,7 +104,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -164,6 +164,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -180,7 +181,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -232,6 +232,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -248,7 +249,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -305,6 +305,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -321,7 +322,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -401,6 +401,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -422,7 +423,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -504,6 +504,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -520,7 +521,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -582,6 +582,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -598,7 +599,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -660,6 +660,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -676,7 +677,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -771,6 +771,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -797,7 +798,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -882,6 +882,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -903,7 +904,6 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -980,6 +980,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1001,7 +1002,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1078,6 +1078,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1099,7 +1100,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1206,6 +1206,7 @@
           "url": "https://cohere.com/blog/rerank-3"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1236,7 +1237,6 @@
           "url": "https://aws.amazon.com/bedrock/titan/"
         }
       ],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1339,6 +1339,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1360,7 +1361,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1465,6 +1465,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1481,7 +1482,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1617,6 +1617,7 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1633,7 +1634,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM",
@@ -1732,6 +1732,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1748,7 +1749,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1864,6 +1864,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -1880,7 +1881,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -1981,6 +1981,12 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "IBM": [
+        {
+          "name": "Granite Code 34B",
+          "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2000,12 +2006,6 @@
         {
           "name": "Titan Text Premier",
           "url": "https://aws.amazon.com/bedrock/titan/"
-        }
-      ],
-      "IBM": [
-        {
-          "name": "Granite Code 34B",
-          "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
         }
       ],
       "ModelBest-OpenBMB": [
@@ -2118,6 +2118,7 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2139,7 +2140,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2230,6 +2230,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2246,7 +2247,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2327,6 +2327,7 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2353,7 +2354,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2474,6 +2474,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2490,7 +2491,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2567,6 +2567,12 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "IBM": [
+        {
+          "name": "Granite 3.0 8B",
+          "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2588,12 +2594,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [
-        {
-          "name": "Granite 3.0 8B",
-          "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
-        }
-      ],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -2690,6 +2690,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -2711,7 +2712,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [
@@ -2827,6 +2827,12 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "IBM": [
+        {
+          "name": "Granite 3.1 8B",
+          "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
@@ -2877,12 +2883,6 @@
         {
           "name": "Nova Reel",
           "url": "https://aws.amazon.com/nova/"
-        }
-      ],
-      "IBM": [
-        {
-          "name": "Granite 3.1 8B",
-          "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
         }
       ],
       "ModelBest-OpenBMB": [],
@@ -3003,6 +3003,7 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -3024,7 +3025,6 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 2.6",
@@ -3134,6 +3134,12 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [
+        {
+          "name": "Granite 3.2 8B",
+          "url": "https://www.ibm.com/new/announcements/ibm-granite-3-2-open-source-reasoning-and-vision"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -3150,12 +3156,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [
-        {
-          "name": "Granite 3.2 8B",
-          "url": "https://www.ibm.com/new/announcements/ibm-granite-3-2-open-source-reasoning-and-vision"
-        }
-      ],
       "ModelBest-OpenBMB": [],
       "Inception": [
         {
@@ -3269,6 +3269,7 @@
           "url": "https://cohere.com/blog/command-a"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -3299,7 +3300,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -3419,6 +3419,12 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [
+        {
+          "name": "Granite 3.3 8B",
+          "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -3457,12 +3463,6 @@
         {
           "name": "Nova Premier",
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/"
-        }
-      ],
-      "IBM": [
-        {
-          "name": "Granite 3.3 8B",
-          "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
         }
       ],
       "ModelBest-OpenBMB": [],
@@ -3587,6 +3587,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -3608,7 +3609,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [
@@ -3706,6 +3706,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -3736,7 +3737,6 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM 4.0",
@@ -3865,6 +3865,7 @@
           "url": "https://cohere.com/blog/command-a-vision"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [
         {
@@ -3911,7 +3912,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4012,6 +4012,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
@@ -4053,7 +4054,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4135,6 +4135,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -4175,7 +4176,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4264,6 +4264,12 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [
+        {
+          "name": "Granite 4.0 H Small",
+          "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -4290,12 +4296,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [
-        {
-          "name": "Granite 4.0 H Small",
-          "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
-        }
-      ],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.5",
@@ -4405,6 +4405,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
@@ -4450,7 +4451,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [
@@ -4546,6 +4546,7 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
@@ -4604,7 +4605,6 @@
           "url": "https://aws.amazon.com/nova/"
         }
       ],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -4704,6 +4704,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -4740,7 +4741,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-o 4.5",
@@ -4910,6 +4910,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -4940,7 +4941,6 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
         {
@@ -5112,6 +5112,7 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -5143,7 +5144,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -5309,6 +5309,12 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [
+        {
+          "name": "Granite 4.1 30B",
+          "url": "https://www.ibm.com/granite/docs/models/granite4-1"
+        }
+      ],
       "Agnes-Sapiens": [],
       "China-Mobile": [
         {
@@ -5350,12 +5356,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [
-        {
-          "name": "Granite 4.1 30B",
-          "url": "https://www.ibm.com/granite/docs/models/granite4-1"
-        }
-      ],
       "ModelBest-OpenBMB": [
         {
           "name": "VoxCPM 2",
@@ -5481,6 +5481,7 @@
         }
       ],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -5507,7 +5508,6 @@
         }
       ],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM-V 4.6 1.3B",
@@ -5650,6 +5650,7 @@
           "url": "https://cohere.com/blog/north-mini-code"
         }
       ],
+      "IBM": [],
       "Agnes-Sapiens": [
         {
           "name": "Agnes 2.0 Flash",
@@ -5686,7 +5687,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -5809,6 +5809,7 @@
         }
       ],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [
         {
           "name": "Agnes 2.5 Flash",
@@ -5864,7 +5865,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
@@ -6003,6 +6003,12 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [
+        {
+          "name": "Granite 4.2 30B",
+          "url": "https://research.ibm.com/blog/introducing-granite-4-2"
+        }
+      ],
       "Agnes-Sapiens": [
         {
           "name": "Agnes 2.5 Pro Beta",
@@ -6053,12 +6059,6 @@
       ],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [
-        {
-          "name": "Granite 4.2 30B",
-          "url": "https://research.ibm.com/blog/introducing-granite-4-2"
-        }
-      ],
       "ModelBest-OpenBMB": [],
       "Inception": [
         {
@@ -6228,6 +6228,7 @@
       "NVIDIA": [],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [
         {
           "name": "Agnes 3.0 Flash",
@@ -6259,7 +6260,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [
         {
           "name": "MiniCPM5-2B",
@@ -6404,6 +6404,7 @@
       ],
       "Thinking Machines Lab": [],
       "Cohere": [],
+      "IBM": [],
       "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
@@ -6420,7 +6421,6 @@
       "Doubao-ByteDance": [],
       "Baidu": [],
       "Amazon": [],
-      "IBM": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
