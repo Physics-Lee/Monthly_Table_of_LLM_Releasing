@@ -6391,7 +6391,12 @@
           "url": "https://artificialanalysis.ai/models/mistral-large-4"
         }
       ],
-      "Boss-Nanbeige": [],
+      "Boss-Nanbeige": [
+        {
+          "name": "Nanbeige4.3-33B",
+          "url": "https://artificialanalysis.ai/models/nanbeige4-3-33b"
+        }
+      ],
       "MBZUAI": [],
       "NVIDIA": [
         {
