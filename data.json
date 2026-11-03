@@ -14,6 +14,7 @@
     "MiniMax",
     "StepFun",
     "Mistral",
+    "Boss-Nanbeige",
     "MBZUAI",
     "NVIDIA",
     "Thinking Machines Lab",
@@ -38,7 +39,6 @@
     "ModelBest-OpenBMB",
     "Inception",
     "Prime-Intellect",
-    "Boss-Nanbeige",
     "Liquid AI",
     "Nous",
     "Allen",
@@ -83,6 +83,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -107,7 +108,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -160,6 +160,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -184,7 +185,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -228,6 +228,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -252,7 +253,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -301,6 +301,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -325,7 +326,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -397,6 +397,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -426,7 +427,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -500,6 +500,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -524,7 +525,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -578,6 +578,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -602,7 +603,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -656,6 +656,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -680,7 +681,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -767,6 +767,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -801,7 +802,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [
         {
@@ -878,6 +878,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -907,7 +908,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -976,6 +976,7 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1005,7 +1006,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -1074,6 +1074,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1103,7 +1104,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -1193,6 +1193,7 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1240,7 +1241,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -1335,6 +1335,7 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1364,7 +1365,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -1461,6 +1461,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1485,7 +1486,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [
         {
@@ -1603,6 +1603,7 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -1642,7 +1643,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -1723,6 +1723,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1752,7 +1753,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [
         {
@@ -1855,6 +1855,7 @@
           "url": "https://mistral.ai/news/mixtral-8x22b/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -1884,7 +1885,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -1972,6 +1972,7 @@
           "url": "https://mistral.ai/news/codestral/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -2016,7 +2017,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -2109,6 +2109,7 @@
         }
       ],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -2143,7 +2144,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -2226,6 +2226,7 @@
           "url": "https://mistral.ai/news/mistral-nemo"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -2250,7 +2251,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -2318,6 +2318,7 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -2357,7 +2358,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [
         {
@@ -2470,6 +2470,7 @@
           "url": "https://mistral.ai/news/pixtral-12b/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -2494,7 +2495,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -2558,6 +2558,7 @@
           "url": "https://mistral.ai/news/ministraux/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -2597,7 +2598,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM-1B",
@@ -2686,6 +2686,7 @@
           "url": "https://mistral.ai/news/pixtral-large-2501/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -2720,7 +2721,6 @@
           "url": "https://www.primeintellect.ai/blog/intellect-1-release"
         }
       ],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -2818,6 +2818,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -2888,7 +2889,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -2994,6 +2994,7 @@
           "url": "https://mistral.ai/news/codestral-2501/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -3033,7 +3034,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -3130,6 +3130,7 @@
         }
       ],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -3164,7 +3165,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [
         {
@@ -3256,6 +3256,7 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -3303,7 +3304,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -3415,6 +3415,7 @@
         }
       ],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -3468,7 +3469,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -3583,6 +3583,7 @@
           "url": "https://mistral.ai/news/devstral/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -3617,7 +3618,6 @@
           "url": "https://www.primeintellect.ai/blog/intellect-2-release"
         }
       ],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -3702,6 +3702,7 @@
           "url": "https://mistral.ai/news/mistral-small-3-2/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -3750,7 +3751,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -3856,6 +3856,7 @@
           "url": "https://mistral.ai/news/voxtral/"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -3915,7 +3916,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2",
@@ -4008,6 +4008,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -4057,7 +4058,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [
         {
@@ -4131,6 +4131,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -4179,7 +4180,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -4260,6 +4260,12 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [
+        {
+          "name": "Nanbeige4-3B-Thinking-2510",
+          "url": "https://huggingface.co/Nanbeige"
+        }
+      ],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -4304,12 +4310,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [
-        {
-          "name": "Nanbeige4-3B-Thinking-2510",
-          "url": "https://huggingface.co/Nanbeige"
-        }
-      ],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -4401,6 +4401,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -4459,7 +4460,6 @@
           "url": "https://www.primeintellect.ai/blog/intellect-3"
         }
       ],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -4530,6 +4530,12 @@
         {
           "name": "Ministral 3",
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/mistral-large-3-ministral-3-family-available-amazon-bedrock/"
+        }
+      ],
+      "Boss-Nanbeige": [
+        {
+          "name": "Nanbeige4-3B",
+          "url": "https://huggingface.co/Nanbeige"
         }
       ],
       "MBZUAI": [
@@ -4608,12 +4614,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [
-        {
-          "name": "Nanbeige4-3B",
-          "url": "https://huggingface.co/Nanbeige"
-        }
-      ],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [
@@ -4695,6 +4695,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [
         {
           "name": "K2 Think V2",
@@ -4753,7 +4754,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2.5",
@@ -4906,6 +4906,12 @@
         }
       ],
       "Mistral": [],
+      "Boss-Nanbeige": [
+        {
+          "name": "Nanbeige4.1-3B",
+          "url": "https://huggingface.co/Nanbeige"
+        }
+      ],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -4949,12 +4955,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [
-        {
-          "name": "Nanbeige4.1-3B",
-          "url": "https://huggingface.co/Nanbeige"
-        }
-      ],
       "Liquid AI": [
         {
           "name": "LFM2-24B-A2B",
@@ -5103,6 +5103,7 @@
           "url": "https://mistral.ai/news/mistral-small-4"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -5147,7 +5148,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-350M",
@@ -5305,6 +5305,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [],
@@ -5364,7 +5365,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-VL-450M",
@@ -5472,6 +5472,7 @@
         }
       ],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [
@@ -5516,7 +5517,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-8B-A1B",
@@ -5632,6 +5632,7 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -5690,7 +5691,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -5796,6 +5796,7 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "Thinking Machines Lab": [
@@ -5868,7 +5869,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-Encoders",
@@ -5994,6 +5994,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -6067,7 +6068,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [
         {
           "name": "LFM2.5-2.6B",
@@ -6203,6 +6203,7 @@
         }
       ],
       "Mistral": [],
+      "Boss-Nanbeige": [],
       "MBZUAI": [
         {
           "name": "K2 Horizon 375B A23B",
@@ -6273,7 +6274,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
@@ -6391,6 +6391,7 @@
           "url": "https://artificialanalysis.ai/models/mistral-large-4"
         }
       ],
+      "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
         {
@@ -6424,7 +6425,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Boss-Nanbeige": [],
       "Liquid AI": [],
       "Nous": [],
       "Allen": [],
