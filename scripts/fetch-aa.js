@@ -21,7 +21,8 @@
 // Env:  AA_HTTP_PROXY — optional proxy ("http://127.0.0.1:7897") for local runs;
 //       CI runners connect directly and leave it unset.
 //
-// Exit 0 on success (file only rewritten when entries actually changed),
+// Exit 0 on success (fetchedAt is refreshed on every run so daily runs always
+// commit a heartbeat; lastChangedAt only advances when entries actually change),
 // exit 1 when fetching fails or the guardrails reject the parsed data.
 
 const fs = require('node:fs');
@@ -198,27 +199,32 @@ function updateFirstSeen(entries, firstSeenPath, today) {
   return sorted;
 }
 
-function buildSnapshot(entries, fetchedAt) {
+function buildSnapshot(entries, fetchedAt, lastChangedAt) {
   return {
     fetchedAt,
+    lastChangedAt,
     source: DEFAULT_URL,
-    note: 'AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.',
+    note: 'AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). fetchedAt is stamped on every successful fetch; lastChangedAt only advances when entries actually change (stale-cache detection signal).',
     entries
   };
 }
 
-// Only rewrite the snapshot when the entries actually changed, so daily runs
-// without data changes produce no commit (the page timestamp = last real change).
-function writeSnapshotIfChanged(entries, outPath, fetchedAt) {
-  const next = buildSnapshot(entries, fetchedAt);
+// Always rewrite the snapshot so fetchedAt reflects every successful fetch
+// (unchanged days still produce a heartbeat commit). lastChangedAt only
+// advances when the entries actually changed, so a multi-day frozen
+// lastChangedAt still exposes CI being served a stale cached page.
+function writeSnapshot(entries, outPath, fetchedAt) {
+  let changed = true;
+  let lastChangedAt = fetchedAt;
   if (fs.existsSync(outPath)) {
     const current = JSON.parse(fs.readFileSync(outPath, 'utf8'));
     if (JSON.stringify(current.entries) === JSON.stringify(entries)) {
-      return false;
+      changed = false;
+      lastChangedAt = current.lastChangedAt || current.fetchedAt || fetchedAt;
     }
   }
-  fs.writeFileSync(outPath, JSON.stringify(next, null, 2) + '\n', 'utf8');
-  return true;
+  fs.writeFileSync(outPath, JSON.stringify(buildSnapshot(entries, fetchedAt, lastChangedAt), null, 2) + '\n', 'utf8');
+  return changed;
 }
 
 async function main() {
@@ -243,13 +249,13 @@ async function main() {
   }
 
   const fetchedAt = new Date().toISOString();
-  const changed = writeSnapshotIfChanged(entries, outPath, fetchedAt);
+  const changed = writeSnapshot(entries, outPath, fetchedAt);
   updateFirstSeen(entries, firstSeenPath, todayISO());
 
   console.log(`Fetched ${url}`);
   console.log(`  rows parsed: ${parsedRows} (scored ${entries.length}, unscored ${unscoredRows})`);
   console.log(`  first-seen map: ${fs.existsSync(firstSeenPath) ? 'updated' : 'created'} at ${firstSeenPath}`);
-  console.log(changed ? `  wrote ${outPath} (entries changed)` : `  ${outPath} unchanged (entries identical)`);
+  console.log(changed ? `  wrote ${outPath} (entries changed)` : `  wrote ${outPath} (entries unchanged, fetchedAt refreshed)`);
 }
 
 if (require.main === module) {
@@ -265,6 +271,6 @@ module.exports = {
   validateEntries,
   updateFirstSeen,
   buildSnapshot,
-  writeSnapshotIfChanged,
+  writeSnapshot,
   unescapeEntities
 };

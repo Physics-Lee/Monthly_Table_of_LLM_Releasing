@@ -7,7 +7,7 @@ const {
   parseLeaderboard,
   validateEntries,
   updateFirstSeen,
-  writeSnapshotIfChanged
+  writeSnapshot
 } = require('./fetch-aa');
 
 // Mirrors the real SSR structure: <td><div>…</div></td> cells, vendor as
@@ -118,25 +118,34 @@ function testUpdateFirstSeen() {
   assert.equal(warm['Model C'], '2026-09-05');
 }
 
-function testWriteSnapshotIfChanged() {
+function testWriteSnapshot() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'aa-snapshot-'));
   const outPath = path.join(dir, 'aa-leaderboard.json');
   const entries = [{ rank: 1, model: 'A', vendor: 'X', score: 63, slug: 'a' }];
 
-  assert.equal(writeSnapshotIfChanged(entries, outPath, '2026-08-31T00:00:00Z'), true);
-  const first = fs.readFileSync(outPath, 'utf8');
-  assert.match(first, /"fetchedAt": "2026-08-31T00:00:00Z"/);
+  assert.equal(writeSnapshot(entries, outPath, '2026-08-31T00:00:00Z'), true);
+  assert.match(fs.readFileSync(outPath, 'utf8'), /"fetchedAt": "2026-08-31T00:00:00Z"/);
+  assert.match(fs.readFileSync(outPath, 'utf8'), /"lastChangedAt": "2026-08-31T00:00:00Z"/);
 
-  // identical entries: no rewrite, so fetchedAt keeps its original value
-  assert.equal(writeSnapshotIfChanged(entries, outPath, '2026-09-01T00:00:00Z'), false);
-  assert.equal(fs.readFileSync(outPath, 'utf8'), first);
+  // identical entries: fetchedAt still advances (heartbeat), lastChangedAt freezes
+  assert.equal(writeSnapshot(entries, outPath, '2026-09-01T00:00:00Z'), false);
+  const refreshed = fs.readFileSync(outPath, 'utf8');
+  assert.match(refreshed, /"fetchedAt": "2026-09-01T00:00:00Z"/);
+  assert.match(refreshed, /"lastChangedAt": "2026-08-31T00:00:00Z"/);
 
-  assert.equal(writeSnapshotIfChanged([...entries, { rank: 2, model: 'B', vendor: 'X', score: 60, slug: 'b' }], outPath, '2026-09-02T00:00:00Z'), true);
-  assert.match(fs.readFileSync(outPath, 'utf8'), /"model": "B"/);
+  // pre-lastChangedAt snapshot: the old fetchedAt becomes lastChangedAt
+  fs.writeFileSync(outPath, JSON.stringify({ fetchedAt: '2026-08-20T00:00:00Z', entries }));
+  assert.equal(writeSnapshot(entries, outPath, '2026-09-01T00:00:00Z'), false);
+  assert.match(fs.readFileSync(outPath, 'utf8'), /"lastChangedAt": "2026-08-20T00:00:00Z"/);
+
+  assert.equal(writeSnapshot([...entries, { rank: 2, model: 'B', vendor: 'X', score: 60, slug: 'b' }], outPath, '2026-09-02T00:00:00Z'), true);
+  const grown = fs.readFileSync(outPath, 'utf8');
+  assert.match(grown, /"model": "B"/);
+  assert.match(grown, /"lastChangedAt": "2026-09-02T00:00:00Z"/);
 }
 
 testParseLeaderboard();
 testValidateEntries();
 testUpdateFirstSeen();
-testWriteSnapshotIfChanged();
+testWriteSnapshot();
 console.log('fetch-aa tests passed');

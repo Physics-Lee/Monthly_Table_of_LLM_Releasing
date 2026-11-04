@@ -46,26 +46,29 @@ jobs:
             git push
           fi
 
-      # fetchedAt only advances when entries actually change, so a multi-day
-      # frozen value means CI is being served a stale cache of the page again
-      # (seen 2026-10-10..12: runs green, data days old).
+      # fetchedAt advances on every successful fetch (daily heartbeat commit),
+      # so staleness is tracked via lastChangedAt, which only advances when the
+      # entries actually change. A multi-day frozen lastChangedAt means CI is
+      # being served a stale cache of the page again (seen 2026-10-10..12:
+      # runs green, data days old).
       - name: Alert if AA snapshot is stale
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           STALE_AFTER_DAYS=3
           SNAPSHOT=scripts/aa-leaderboard.json
-          AGE_DAYS=$(node -p "Math.floor((Date.now() - Date.parse(require('./${SNAPSHOT}').fetchedAt)) / 864e5)")
+          LAST_CHANGE=$(node -p "require('./${SNAPSHOT}').lastChangedAt || require('./${SNAPSHOT}').fetchedAt")
+          AGE_DAYS=$(node -p "Math.floor((Date.now() - Date.parse('${LAST_CHANGE}')) / 864e5)")
           echo "AA snapshot last real change: ${AGE_DAYS} days ago"
           if [ "$AGE_DAYS" -ge "$STALE_AFTER_DAYS" ]; then
             if [ -n "$(gh issue list --state open --search "stale-snapshot" --json number --jq '.[].number')" ]; then
               echo "An open stale-snapshot issue already exists; not filing another"
             else
               COUNT=$(node -p "require('./${SNAPSHOT}').entries.length")
-              LAST=$(node -p "require('./${SNAPSHOT}').fetchedAt")
+              FETCHED=$(node -p "require('./${SNAPSHOT}').fetchedAt")
               gh issue create \
                 --title "[stale-snapshot] AA 快照已 ${AGE_DAYS} 天无数据变化" \
-                --body "AA 快照 fetchedAt 停留在 ${LAST}，已 ${AGE_DAYS} 天无任何数据变化（当前 ${COUNT} 条）。AA 榜单几乎每天都有分数变动，连续多天零变化大概率是 CI 又被边缘缓存挡住了。
+                --body "AA 快照 lastChangedAt 停留在 ${LAST_CHANGE}（最近一次抓取 ${FETCHED}），已 ${AGE_DAYS} 天无任何数据变化（当前 ${COUNT} 条）。AA 榜单几乎每天都有分数变动，连续多天零变化大概率是 CI 又被边缘缓存挡住了。
 
           排查建议：
           - 本地运行 node scripts/fetch-aa.js 与线上数据比对
