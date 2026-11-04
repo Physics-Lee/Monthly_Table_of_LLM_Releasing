@@ -1,20 +1,21 @@
 {
-  "fetchedAt": "2026-11-03T03:57:35.243Z",
+  "fetchedAt": "2026-11-04T03:03:50.591Z",
+  "lastChangedAt": "2026-11-04T03:03:50.591Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
-  "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). ALWAYS stamp fetchedAt with the real fetch time.",
+  "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). fetchedAt is stamped on every successful fetch; lastChangedAt only advances when entries actually change (stale-cache detection signal).",
   "entries": [
     {
       "rank": 1,
       "model": "Gemini 4 Carbon (high)",
       "vendor": "Google",
-      "score": 59,
+      "score": 60,
       "slug": "gemini-4-carbon"
     },
     {
       "rank": 2,
       "model": "Claude Opus 5.5 (max with fallback)",
       "vendor": "Anthropic",
-      "score": 58,
+      "score": 59,
       "slug": "claude-opus-5-5"
     },
     {
@@ -63,7 +64,7 @@
       "rank": 9,
       "model": "Claude Sonnet 5.5 (max with fallback)",
       "vendor": "Anthropic",
-      "score": 54,
+      "score": 55,
       "slug": "claude-sonnet-5-5"
     },
     {
@@ -91,7 +92,7 @@
       "rank": 13,
       "model": "GPT-6 Astra (medium)",
       "vendor": "OpenAI",
-      "score": 51,
+      "score": 52,
       "slug": "gpt-6-astra-medium"
     },
     {
@@ -159,17 +160,17 @@
     },
     {
       "rank": 23,
-      "model": "GPT-6.1 Sol (medium)",
-      "vendor": "OpenAI",
-      "score": 46,
-      "slug": "gpt-6-1-sol-medium"
-    },
-    {
-      "rank": 24,
       "model": "Kimi K3.1 Pro",
       "vendor": "Kimi",
       "score": 46,
       "slug": "kimi-k3-1-pro"
+    },
+    {
+      "rank": 24,
+      "model": "GPT-6.1 Sol (medium)",
+      "vendor": "OpenAI",
+      "score": 46,
+      "slug": "gpt-6-1-sol-medium"
     },
     {
       "rank": 25,
@@ -182,7 +183,7 @@
       "rank": 26,
       "model": "Muse Wonder (max)",
       "vendor": "Meta",
-      "score": 43,
+      "score": 44,
       "slug": "muse-wonder"
     },
     {
@@ -210,14 +211,14 @@
       "rank": 30,
       "model": "Claude Sonnet 5.5 (high with fallback)",
       "vendor": "Anthropic",
-      "score": 41,
+      "score": 42,
       "slug": "claude-sonnet-5-5-high"
     },
     {
       "rank": 31,
       "model": "Claude Fable 5.1 (low with fallback)",
       "vendor": "Anthropic",
-      "score": 38,
+      "score": 39,
       "slug": "claude-fable-5-1-low"
     },
     {
@@ -266,7 +267,7 @@
       "rank": 38,
       "model": "Claude Haiku 5.5 (xhigh)",
       "vendor": "Anthropic",
-      "score": 34,
+      "score": 35,
       "slug": "claude-haiku-5-5-xhigh"
     },
     {
@@ -280,7 +281,7 @@
       "rank": 40,
       "model": "DeepSeek V4.1 Flash 1017 (max)",
       "vendor": "DeepSeek",
-      "score": 32,
+      "score": 33,
       "slug": "deepseek-v4-1-flash-1017"
     },
     {
@@ -306,17 +307,17 @@
     },
     {
       "rank": 44,
-      "model": "GPT-6.1 Terra (non-reasoning)",
-      "vendor": "OpenAI",
-      "score": 30,
-      "slug": "gpt-6-1-terra-non-reasoning"
+      "model": "Claude Sonnet 5.5 (medium with fallback)",
+      "vendor": "Anthropic",
+      "score": 31,
+      "slug": "claude-sonnet-5-5-medium"
     },
     {
       "rank": 45,
-      "model": "Claude Sonnet 5.5 (medium with fallback)",
-      "vendor": "Anthropic",
-      "score": 30,
-      "slug": "claude-sonnet-5-5-medium"
+      "model": "GPT-6.1 Terra (non-reasoning)",
+      "vendor": "OpenAI",
+      "score": 31,
+      "slug": "gpt-6-1-terra-non-reasoning"
     },
     {
       "rank": 46,
@@ -343,7 +344,7 @@
       "rank": 49,
       "model": "Ling 3.1 Flash 1019",
       "vendor": "InclusionAI",
-      "score": 29,
+      "score": 30,
       "slug": "ling-3-1-flash-1019"
     },
     {
@@ -406,7 +407,7 @@
       "rank": 58,
       "model": "Claude Sonnet 5.5 (low with fallback)",
       "vendor": "Anthropic",
-      "score": 25,
+      "score": 26,
       "slug": "claude-sonnet-5-5-low"
     },
     {
@@ -439,23 +440,23 @@
     },
     {
       "rank": 63,
-      "model": "DeepSeek V4 Pro 0813 (max)",
-      "vendor": "DeepSeek",
-      "score": 23,
-      "slug": "deepseek-v4-pro"
-    },
-    {
-      "rank": 64,
       "model": "GLM-5.3 (low)",
       "vendor": "Z AI",
       "score": 23,
       "slug": "glm-5-3-low"
     },
     {
+      "rank": 64,
+      "model": "DeepSeek V4 Pro 0813 (max)",
+      "vendor": "DeepSeek",
+      "score": 23,
+      "slug": "deepseek-v4-pro"
+    },
+    {
       "rank": 65,
       "model": "Gemini 3.8 Flash (low)",
       "vendor": "Google",
-      "score": 22,
+      "score": 23,
       "slug": "gemini-3-8-flash-low"
     },
     {

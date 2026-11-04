@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-03T03:57:35.243Z",
+  "fetchedAt": "2026-11-04T03:03:50.591Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
       "column": "Google",
       "model": "Gemini 4 Carbon (high)",
-      "score": 59,
+      "score": 60,
       "estimated": false,
       "aaRank": 1,
       "rank": 1
@@ -13,7 +13,7 @@
     {
       "column": "Anthropic",
       "model": "Claude Opus 5.5 (max with fallback)",
-      "score": 58,
+      "score": 59,
       "estimated": false,
       "aaRank": 2,
       "rank": 2
@@ -39,7 +39,7 @@
       "model": "Kimi K3.1 Pro",
       "score": 46,
       "estimated": false,
-      "aaRank": 24,
+      "aaRank": 23,
       "rank": 5
     },
     {
@@ -61,7 +61,7 @@
     {
       "column": "DeepSeek",
       "model": "DeepSeek V4.1 Flash 1017 (max)",
-      "score": 32,
+      "score": 33,
       "estimated": false,
       "aaRank": 40,
       "rank": 8
@@ -72,7 +72,7 @@
       "score": 32,
       "estimated": false,
       "aaRank": 41,
-      "rank": 8
+      "rank": 9
     },
     {
       "column": "Xiaomi",
@@ -85,10 +85,10 @@
     {
       "column": "Ant-Group",
       "model": "Ling 3.1 Flash 1019",
-      "score": 29,
+      "score": 30,
       "estimated": false,
       "aaRank": 49,
-      "rank": 11
+      "rank": 10
     },
     {
       "column": "MiniMax",
@@ -96,7 +96,7 @@
       "score": 29,
       "estimated": false,
       "aaRank": 51,
-      "rank": 11
+      "rank": 12
     },
     {
       "column": "StepFun",
@@ -104,7 +104,7 @@
       "score": 29,
       "estimated": false,
       "aaRank": 53,
-      "rank": 11
+      "rank": 12
     },
     {
       "column": "Mistral",
@@ -189,5 +189,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-11-03T03:57:35.328Z"
+  "generatedAt": "2026-11-04T03:03:50.644Z"
 }
