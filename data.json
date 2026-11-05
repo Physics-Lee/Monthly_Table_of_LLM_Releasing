@@ -6460,7 +6460,12 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
-      "Tencent": [],
+      "Tencent": [
+        {
+          "name": "Hy4",
+          "url": "https://artificialanalysis.ai/models/hunyuan-dev1030-aa"
+        }
+      ],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],

@@ -708,5 +708,6 @@
   "Mistral Large 4": "https://artificialanalysis.ai/models/mistral-large-4",
   "Nanbeige4.3-33B": "https://artificialanalysis.ai/models/nanbeige4-3-33b",
   "Nemotron 3.5 Super VL": "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
-  "Nemotron 3.5 Bolt 74B-A9B": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
+  "Nemotron 3.5 Bolt 74B-A9B": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b",
+  "Hy4": "https://artificialanalysis.ai/models/hunyuan-dev1030-aa"
 }
