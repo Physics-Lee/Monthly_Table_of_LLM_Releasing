@@ -6,6 +6,7 @@
     "Meta",
     "Kimi-Moonshot",
     "xAI",
+    "Tencent",
     "Qwen-Alibaba",
     "DeepSeek",
     "GLM-Z.ai",
@@ -27,7 +28,6 @@
     "Multiverse",
     "Upstage",
     "Apodex-MiroMind",
-    "Tencent",
     "AI9Stars",
     "Kuaishou-Kling",
     "SK-Telecom",
@@ -75,6 +75,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -96,7 +97,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -152,6 +152,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -173,7 +174,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -220,6 +220,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -241,7 +242,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -293,6 +293,7 @@
       ],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -314,7 +315,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -384,6 +384,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
@@ -410,7 +411,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -492,6 +492,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -513,7 +514,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -570,6 +570,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -591,7 +592,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -643,6 +643,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
@@ -669,7 +670,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -759,6 +759,7 @@
       ],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -780,7 +781,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -847,6 +847,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-7B",
@@ -891,7 +892,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -958,6 +958,12 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [
+        {
+          "name": "Hunyuan",
+          "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-14B",
@@ -989,12 +995,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "Hunyuan",
-          "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1056,6 +1056,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
@@ -1087,7 +1088,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1162,6 +1162,12 @@
           "url": "https://techcrunch.com/2023/11/04/xai-launches-grok-its-gpt-4-rival-built-by-xai/"
         }
       ],
+      "Tencent": [
+        {
+          "name": "Hunyuan Standard",
+          "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-72B",
@@ -1215,12 +1221,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "Hunyuan Standard",
-          "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1308,6 +1308,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -1353,7 +1354,6 @@
         }
       ],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1443,6 +1443,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -1474,7 +1475,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1576,6 +1576,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5",
@@ -1626,7 +1627,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1710,6 +1710,7 @@
           "url": "https://huggingface.co/xai-org/grok-1"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -1741,7 +1742,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1828,6 +1828,7 @@
           "url": "https://x.ai/blog/grok-1.5v"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5-110B",
@@ -1873,7 +1874,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1949,6 +1949,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -1995,7 +1996,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2091,6 +2091,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2",
@@ -2127,7 +2128,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2194,6 +2194,7 @@
       ],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2-Audio",
@@ -2239,7 +2240,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2300,6 +2300,7 @@
           "url": "https://x.ai/news/grok-2"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
@@ -2336,7 +2337,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2430,6 +2430,7 @@
       ],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5",
@@ -2483,7 +2484,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2535,6 +2535,12 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [
+        {
+          "name": "Hunyuan-lite",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
@@ -2581,12 +2587,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "Hunyuan-lite",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2660,6 +2660,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Coder Family",
@@ -2704,7 +2705,6 @@
         }
       ],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2796,6 +2796,7 @@
       ],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -2846,7 +2847,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2954,6 +2954,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Max",
@@ -3012,7 +3013,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3108,6 +3108,7 @@
           "url": "https://x.ai/news/grok-3"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -3148,7 +3149,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3219,6 +3219,7 @@
           "url": "https://techcrunch.com/2025/03/17/xai-launches-grok-3-and-grok-3-mini/"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Omni",
@@ -3278,7 +3279,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3392,6 +3392,7 @@
       ],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3",
@@ -3433,7 +3434,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3543,6 +3543,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -3596,7 +3597,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3671,6 +3671,12 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [
+        {
+          "name": "Hunyuan-A13B",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -3715,12 +3721,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "Hunyuan-A13B",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3815,6 +3815,12 @@
           "url": "https://x.ai/blog/grok-4"
         }
       ],
+      "Tencent": [
+        {
+          "name": "Hunyuan-TurboS",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3-Coder",
@@ -3884,12 +3890,6 @@
         }
       ],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "Hunyuan-TurboS",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [
@@ -3990,6 +3990,12 @@
           "url": "https://x.ai/news/grok-code-fast-1"
         }
       ],
+      "Tencent": [
+        {
+          "name": "Hunyuan-T1",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qoder",
@@ -4029,12 +4035,6 @@
         {
           "name": "MiroMind ODR",
           "url": "https://www.miromind.ai/blog/miromind-research-agent"
-        }
-      ],
-      "Tencent": [
-        {
-          "name": "Hunyuan-T1",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
       "AI9Stars": [],
@@ -4113,6 +4113,12 @@
         }
       ],
       "xAI": [],
+      "Tencent": [
+        {
+          "name": "Hunyuan-large-role",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen CLI",
@@ -4144,12 +4150,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "Hunyuan-large-role",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4239,6 +4239,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -4283,7 +4284,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4379,6 +4379,16 @@
           "url": "https://x.ai/news/grok-4-1-fast"
         }
       ],
+      "Tencent": [
+        {
+          "name": "HY 2.0 Think",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        },
+        {
+          "name": "HY 2.0 Instruct",
+          "url": "https://cloud.tencent.cn/document/product/1729/104753"
+        }
+      ],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -4422,16 +4432,6 @@
         {
           "name": "MiroThinker v1.0 72B",
           "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B"
-        }
-      ],
-      "Tencent": [
-        {
-          "name": "HY 2.0 Think",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        },
-        {
-          "name": "HY 2.0 Instruct",
-          "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
       "AI9Stars": [],
@@ -4505,6 +4505,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -4570,7 +4571,6 @@
         }
       ],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4682,6 +4682,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -4723,7 +4724,6 @@
           "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.5-30B"
         }
       ],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4845,6 +4845,7 @@
           "url": "https://gigazine.net/gsc_news/en/20260218-grok-4-2-public-beta"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-397B-A17B",
@@ -4924,7 +4925,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5033,6 +5033,7 @@
           "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "QoderWork",
@@ -5126,7 +5127,6 @@
           "url": "https://arxiv.org/abs/2603.15726"
         }
       ],
-      "Tencent": [],
       "AI9Stars": [
         {
           "name": "Cheers",
@@ -5248,6 +5248,12 @@
           "url": "https://x.ai/news"
         }
       ],
+      "Tencent": [
+        {
+          "name": "HY3-Preview",
+          "url": "https://huggingface.co/tencent/Hy3-preview"
+        }
+      ],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.6-Max-Preview",
@@ -5333,12 +5339,6 @@
         }
       ],
       "Apodex-MiroMind": [],
-      "Tencent": [
-        {
-          "name": "HY3-Preview",
-          "url": "https://huggingface.co/tencent/Hy3-preview"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5445,6 +5445,7 @@
           "url": "https://x.ai/news"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-LiveTranslate-Flash",
@@ -5495,7 +5496,6 @@
       ],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5593,6 +5593,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-RobotManip",
@@ -5674,7 +5675,6 @@
           "url": "https://www.apodex.com/blog/apodex-1.0"
         }
       ],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5778,6 +5778,7 @@
           "url": "https://x.ai/news/grok-4-5"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -5837,7 +5838,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [
         {
           "name": "G9v3-3B",
@@ -5938,6 +5938,7 @@
           "url": "https://x.ai/news/grok-4-6"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8-Max",
@@ -6041,7 +6042,6 @@
           "url": "https://arxiv.org/abs/2608.23283"
         }
       ],
-      "Tencent": [],
       "AI9Stars": [
         {
           "name": "G9v3-39A5B",
@@ -6162,6 +6162,7 @@
           "url": "https://artificialanalysis.ai/models/grok-4-7"
         }
       ],
+      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8 Max (0902)",
@@ -6252,7 +6253,6 @@
         }
       ],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -6355,6 +6355,7 @@
         }
       ],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [
         {
@@ -6418,7 +6419,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -6460,6 +6460,7 @@
       "Meta": [],
       "Kimi-Moonshot": [],
       "xAI": [],
+      "Tencent": [],
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
@@ -6481,7 +6482,6 @@
       "Multiverse": [],
       "Upstage": [],
       "Apodex-MiroMind": [],
-      "Tencent": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
