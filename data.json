@@ -10,6 +10,7 @@
     "Qwen-Alibaba",
     "DeepSeek",
     "GLM-Z.ai",
+    "Thinking Machines Lab",
     "Xiaomi",
     "Ant-Group",
     "MiniMax",
@@ -18,7 +19,6 @@
     "Boss-Nanbeige",
     "MBZUAI",
     "NVIDIA",
-    "Thinking Machines Lab",
     "Cohere",
     "IBM",
     "Agnes-Sapiens",
@@ -79,6 +79,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -87,7 +88,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -156,6 +156,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -164,7 +165,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -224,6 +224,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -232,7 +233,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -297,6 +297,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -305,7 +306,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -393,6 +393,7 @@
           "url": "https://github.com/THUDM/ChatGLM"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -401,7 +402,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -496,6 +496,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -504,7 +505,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -574,6 +574,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -582,7 +583,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -652,6 +652,7 @@
           "url": "https://github.com/THUDM/ChatGLM2-6B"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -660,7 +661,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -763,6 +763,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -771,7 +772,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -864,6 +864,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiLM-6B",
@@ -882,7 +883,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -972,6 +972,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -985,7 +986,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1065,6 +1065,7 @@
           "url": "https://github.com/THUDM/ChatGLM3"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -1078,7 +1079,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1189,6 +1189,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -1202,7 +1203,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Embed v3",
@@ -1312,6 +1312,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -1339,7 +1340,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1457,6 +1457,7 @@
           "url": "https://github.com/THUDM/GLM-4"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -1465,7 +1466,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1590,6 +1590,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -1612,7 +1613,6 @@
           "url": "https://arxiv.org/abs/2402.16819"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Aya",
@@ -1719,6 +1719,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -1727,7 +1728,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Command R",
@@ -1841,6 +1841,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -1859,7 +1860,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Command R Plus",
@@ -1963,6 +1963,7 @@
           "url": "https://github.com/THUDM/CogVLM2"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -1976,7 +1977,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Aya 23",
@@ -2100,6 +2100,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -2118,7 +2119,6 @@
           "url": "https://arxiv.org/abs/2406.11704"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2208,6 +2208,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -2230,7 +2231,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2309,6 +2309,7 @@
           "url": "https://www.aibase.com/news/11400"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -2327,7 +2328,6 @@
           "url": "https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2451,6 +2451,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -2474,7 +2475,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2549,6 +2549,7 @@
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -2567,7 +2568,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Aya Expanse",
@@ -2673,6 +2673,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -2690,7 +2691,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2814,6 +2814,7 @@
           "url": "https://www.ctol.digital/news/zhipu-ai-glm-zero-preview-vs-openai-o1-ai-race/"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -2822,7 +2823,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Command R7B",
@@ -2972,6 +2972,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -3003,7 +3004,6 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -3117,6 +3117,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -3134,7 +3135,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [
         {
@@ -3238,6 +3238,7 @@
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -3260,7 +3261,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Aya Vision",
@@ -3401,6 +3401,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -3419,7 +3420,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [
         {
@@ -3556,6 +3556,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiMo-7B",
@@ -3587,7 +3588,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -3680,6 +3680,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -3711,7 +3712,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -3838,6 +3838,7 @@
           "url": "https://docs.z.ai/guides/llm/glm-4.5"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -3865,7 +3866,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "Command A Vision",
@@ -4009,6 +4009,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -4017,7 +4018,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4132,6 +4132,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -4140,7 +4141,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4243,6 +4243,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -4269,7 +4270,6 @@
       ],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [
         {
@@ -4397,6 +4397,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiMo-VL Miloco-7B",
@@ -4414,7 +4415,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4514,6 +4514,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2-Flash",
@@ -4551,7 +4552,6 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4686,6 +4686,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -4704,7 +4705,6 @@
         }
       ],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4871,6 +4871,7 @@
           "url": "https://www.reuters.com/technology/chinas-ai-startup-zhipu-releases-new-flagship-model-glm-5-2026-02-11/"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -4915,7 +4916,6 @@
       ],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -5067,6 +5067,7 @@
           "url": "https://www.aibase.com/zh/news/26283"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2-Pro",
@@ -5112,7 +5113,6 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -5288,6 +5288,7 @@
           "url": "https://z.ai/blog/glm-5.1"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2.5",
@@ -5314,7 +5315,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [
         {
@@ -5458,6 +5458,12 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [
+        {
+          "name": "TML-Interaction-Small",
+          "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
+        }
+      ],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -5476,12 +5482,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [
-        {
-          "name": "TML-Interaction-Small",
-          "url": "https://thinkingmachines.ai/blog/interaction-models/#introduction"
-        }
-      ],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -5623,6 +5623,7 @@
           "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -5645,7 +5646,6 @@
           "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [
         {
           "name": "North Mini Code",
@@ -5787,6 +5787,16 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [
+        {
+          "name": "Inkling",
+          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+        },
+        {
+          "name": "Inkling Small",
+          "url": "https://thinkingmachines.ai/news/inkling-small/"
+        }
+      ],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [
@@ -5800,16 +5810,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [
-        {
-          "name": "Inkling",
-          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
-        },
-        {
-          "name": "Inkling Small",
-          "url": "https://thinkingmachines.ai/news/inkling-small/"
-        }
-      ],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [
@@ -5981,6 +5981,7 @@
           "url": "https://z.ai/blog/glm-5.3-flash"
         }
       ],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -6003,7 +6004,6 @@
           "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [
         {
@@ -6176,6 +6176,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [
         {
           "name": "MiMo-V2.6-Pro",
@@ -6228,7 +6229,6 @@
         }
       ],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [
@@ -6364,6 +6364,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
         {
@@ -6409,7 +6410,6 @@
           "url": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
         }
       ],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -6469,6 +6469,7 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
@@ -6477,7 +6478,6 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
-      "Thinking Machines Lab": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
