@@ -6469,7 +6469,12 @@
       "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
-      "Thinking Machines Lab": [],
+      "Thinking Machines Lab": [
+        {
+          "name": "Inkling 2 Small",
+          "url": "https://artificialanalysis.ai/models/inkling-2-small"
+        }
+      ],
       "Xiaomi": [],
       "Ant-Group": [],
       "MiniMax": [],
