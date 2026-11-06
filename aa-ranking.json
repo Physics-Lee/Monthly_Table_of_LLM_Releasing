@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T03:34:30.817Z",
+  "fetchedAt": "2026-11-06T03:29:25.596Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "column": "Tencent",
-      "model": "Hy4",
+      "model": "Tencent Hy4",
       "score": 35,
       "estimated": false,
       "aaRank": 40,
@@ -83,73 +83,73 @@
       "rank": 10
     },
     {
+      "column": "Thinking Machines Lab",
+      "model": "Inkling 2 Small",
+      "score": 31,
+      "estimated": false,
+      "aaRank": 47,
+      "rank": 11
+    },
+    {
       "column": "Xiaomi",
       "model": "MiMo-V2.6-Pro",
       "score": 30,
       "estimated": false,
-      "aaRank": 49,
-      "rank": 11
+      "aaRank": 50,
+      "rank": 12
     },
     {
       "column": "Ant-Group",
       "model": "Ling 3.1 Flash 1019",
       "score": 30,
       "estimated": false,
-      "aaRank": 51,
-      "rank": 11
+      "aaRank": 52,
+      "rank": 12
     },
     {
       "column": "MiniMax",
       "model": "MiniMax-M3.1-Flash",
       "score": 29,
       "estimated": false,
-      "aaRank": 53,
-      "rank": 13
+      "aaRank": 54,
+      "rank": 14
     },
     {
       "column": "StepFun",
       "model": "Step 5 Preview",
       "score": 29,
       "estimated": false,
-      "aaRank": 55,
-      "rank": 13
+      "aaRank": 56,
+      "rank": 14
     },
     {
       "column": "Mistral",
       "model": "Mistral Large 4 (high)",
       "score": 26,
       "estimated": false,
-      "aaRank": 59,
-      "rank": 15
+      "aaRank": 60,
+      "rank": 16
     },
     {
       "column": "Boss-Nanbeige",
       "model": "Nanbeige4.3-33B",
       "score": 20,
       "estimated": false,
-      "aaRank": 69,
-      "rank": 16
+      "aaRank": 70,
+      "rank": 17
     },
     {
       "column": "MBZUAI",
       "model": "K2 Horizon 375B A23B",
       "score": 18,
       "estimated": false,
-      "aaRank": 75,
-      "rank": 17
+      "aaRank": 76,
+      "rank": 18
     },
     {
       "column": "NVIDIA",
       "model": "Nemotron 3.5 Super VL",
       "score": 14,
-      "estimated": false,
-      "aaRank": 79,
-      "rank": 18
-    },
-    {
-      "column": "Thinking Machines Lab",
-      "model": "Inkling Small",
-      "score": 13,
       "estimated": false,
       "aaRank": 80,
       "rank": 19
@@ -159,7 +159,7 @@
       "model": "Command A+",
       "score": 6,
       "estimated": false,
-      "aaRank": 89,
+      "aaRank": 90,
       "rank": 20
     },
     {
@@ -167,7 +167,7 @@
       "model": "Granite 4.2 8B",
       "score": 5,
       "estimated": false,
-      "aaRank": 91,
+      "aaRank": 92,
       "rank": 21
     }
   ],
@@ -197,5 +197,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-11-05T03:34:30.925Z"
+  "generatedAt": "2026-11-06T03:29:25.724Z"
 }
