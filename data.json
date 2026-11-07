@@ -19,6 +19,7 @@
     "Boss-Nanbeige",
     "MBZUAI",
     "NVIDIA",
+    "EXAONE-LG",
     "Cohere",
     "IBM",
     "Agnes-Sapiens",
@@ -31,7 +32,6 @@
     "AI9Stars",
     "Kuaishou-Kling",
     "SK-Telecom",
-    "EXAONE-LG",
     "LongCat",
     "Doubao-ByteDance",
     "Baidu",
@@ -88,6 +88,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -100,7 +101,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -165,6 +165,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -177,7 +178,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -233,6 +233,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -245,7 +246,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -306,6 +306,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -318,7 +319,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -402,6 +402,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -414,7 +415,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -505,6 +505,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -517,7 +518,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -583,6 +583,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -595,7 +596,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -661,6 +661,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -673,7 +674,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -772,6 +772,12 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [
+        {
+          "name": "EXAONE 2.0",
+          "url": "https://www.lgcorp.com/media/release/27378"
+        }
+      ],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -784,12 +790,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [
-        {
-          "name": "EXAONE 2.0",
-          "url": "https://www.lgcorp.com/media/release/27378"
-        }
-      ],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -883,6 +883,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -895,7 +896,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -986,6 +986,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -998,7 +999,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1079,6 +1079,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1091,7 +1092,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -1203,6 +1203,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "Embed v3",
@@ -1224,7 +1225,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1340,6 +1340,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1357,7 +1358,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1466,6 +1466,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -1478,7 +1479,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1613,6 +1613,7 @@
           "url": "https://arxiv.org/abs/2402.16819"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "Aya",
@@ -1630,7 +1631,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1728,6 +1728,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "Command R",
@@ -1745,7 +1746,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1860,6 +1860,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "Command R Plus",
@@ -1877,7 +1878,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1977,6 +1977,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "Aya 23",
@@ -1999,7 +2000,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2119,6 +2119,7 @@
           "url": "https://arxiv.org/abs/2406.11704"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2136,7 +2137,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2231,6 +2231,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2243,7 +2244,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2328,6 +2328,12 @@
           "url": "https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/"
         }
       ],
+      "EXAONE-LG": [
+        {
+          "name": "EXAONE 3.0 7.8B",
+          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct"
+        }
+      ],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2340,12 +2346,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [
-        {
-          "name": "EXAONE 3.0 7.8B",
-          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct"
-        }
-      ],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -2475,6 +2475,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2487,7 +2488,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2568,6 +2568,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "Aya Expanse",
@@ -2590,7 +2591,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2691,6 +2691,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -2708,7 +2709,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2823,6 +2823,12 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [
+        {
+          "name": "EXAONE 3.5 32B",
+          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+        }
+      ],
       "Cohere": [
         {
           "name": "Command R7B",
@@ -2855,12 +2861,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [
-        {
-          "name": "EXAONE 3.5 32B",
-          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
-        }
-      ],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -3004,6 +3004,7 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -3016,7 +3017,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -3135,6 +3135,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [
         {
@@ -3152,7 +3153,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -3261,6 +3261,12 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [
+        {
+          "name": "EXAONE Deep 32B",
+          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-32B"
+        }
+      ],
       "Cohere": [
         {
           "name": "Aya Vision",
@@ -3282,12 +3288,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [
-        {
-          "name": "EXAONE Deep 32B",
-          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-32B"
-        }
-      ],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -3420,6 +3420,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [
         {
@@ -3442,7 +3443,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -3588,6 +3588,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -3605,7 +3606,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -3712,6 +3712,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -3724,7 +3725,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -3866,6 +3866,12 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [
+        {
+          "name": "EXAONE 4.0 32B",
+          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B"
+        }
+      ],
       "Cohere": [
         {
           "name": "Command A Vision",
@@ -3896,12 +3902,6 @@
         {
           "name": "A.X 4.0",
           "url": "https://huggingface.co/skt/A.X-4.0"
-        }
-      ],
-      "EXAONE-LG": [
-        {
-          "name": "EXAONE 4.0 32B",
-          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B"
         }
       ],
       "LongCat": [],
@@ -4018,6 +4018,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4045,7 +4046,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Chat",
@@ -4141,6 +4141,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4162,7 +4163,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Thinking",
@@ -4270,6 +4270,7 @@
       ],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [
         {
@@ -4292,7 +4293,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [
         {
           "name": "LongCat-Video",
@@ -4415,6 +4415,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4437,7 +4438,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -4552,6 +4552,12 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "EXAONE-LG": [
+        {
+          "name": "K-EXAONE",
+          "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B"
+        }
+      ],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4586,12 +4592,6 @@
         {
           "name": "A.X K1",
           "url": "https://huggingface.co/skt/A.X-K1"
-        }
-      ],
-      "EXAONE-LG": [
-        {
-          "name": "K-EXAONE",
-          "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B"
         }
       ],
       "LongCat": [],
@@ -4705,6 +4705,7 @@
         }
       ],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4732,7 +4733,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Thinking-2601",
@@ -4916,6 +4916,7 @@
       ],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -4928,7 +4929,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Lite",
@@ -5113,6 +5113,7 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -5140,7 +5141,6 @@
         }
       ],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -5315,6 +5315,12 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [
+        {
+          "name": "EXAONE 4.5 33B",
+          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B"
+        }
+      ],
       "Cohere": [],
       "IBM": [
         {
@@ -5342,12 +5348,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [
-        {
-          "name": "EXAONE 4.5 33B",
-          "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B"
-        }
-      ],
       "LongCat": [
         {
           "name": "LongCat-2.0-Preview",
@@ -5482,6 +5482,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -5499,7 +5500,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -5646,6 +5646,7 @@
           "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [
         {
           "name": "North Mini Code",
@@ -5678,7 +5679,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [
         {
           "name": "LongCat 2.0",
@@ -5810,6 +5810,12 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [
+        {
+          "name": "K-EXAONE 2.0",
+          "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B"
+        }
+      ],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [
@@ -5854,12 +5860,6 @@
         {
           "name": "A.X-K2",
           "url": "https://huggingface.co/skt/A.X-K2"
-        }
-      ],
-      "EXAONE-LG": [
-        {
-          "name": "K-EXAONE 2.0",
-          "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B"
         }
       ],
       "LongCat": [],
@@ -6004,6 +6004,7 @@
           "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [
         {
@@ -6050,7 +6051,6 @@
       ],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -6229,6 +6229,7 @@
         }
       ],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [
@@ -6256,7 +6257,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -6410,6 +6410,7 @@
           "url": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
         }
       ],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -6422,7 +6423,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -6483,6 +6483,7 @@
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
+      "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
       "Agnes-Sapiens": [],
@@ -6495,7 +6496,6 @@
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
-      "EXAONE-LG": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
