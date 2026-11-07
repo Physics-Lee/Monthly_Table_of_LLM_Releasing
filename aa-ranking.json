@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T03:29:25.596Z",
+  "fetchedAt": "2026-11-07T02:57:20.947Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -155,20 +155,28 @@
       "rank": 19
     },
     {
+      "column": "EXAONE-LG",
+      "model": "K-EXAONE 2.0",
+      "score": 8,
+      "estimated": false,
+      "aaRank": 89,
+      "rank": 20
+    },
+    {
       "column": "Cohere",
       "model": "Command A+",
       "score": 6,
       "estimated": false,
-      "aaRank": 90,
-      "rank": 20
+      "aaRank": 91,
+      "rank": 21
     },
     {
       "column": "IBM",
       "model": "Granite 4.2 8B",
       "score": 5,
       "estimated": false,
-      "aaRank": 92,
-      "rank": 21
+      "aaRank": 93,
+      "rank": 22
     }
   ],
   "missingVendors": [
@@ -197,5 +205,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-11-06T03:29:25.724Z"
+  "generatedAt": "2026-11-07T02:57:21.037Z"
 }

@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T03:29:25.596Z",
-  "lastChangedAt": "2026-11-06T03:29:25.596Z",
+  "fetchedAt": "2026-11-07T02:57:20.947Z",
+  "lastChangedAt": "2026-11-07T02:57:20.947Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). fetchedAt is stamped on every successful fetch; lastChangedAt only advances when entries actually change (stale-cache detection signal).",
   "entries": [
@@ -622,69 +622,76 @@
     },
     {
       "rank": 89,
+      "model": "K-EXAONE 2.0",
+      "vendor": "LG AI Research",
+      "score": 8,
+      "slug": "k-exaone-2-0-0803"
+    },
+    {
+      "rank": 90,
       "model": "Muse Glimmer (high)",
       "vendor": "Meta",
       "score": 6,
       "slug": "muse-glimmer"
     },
     {
-      "rank": 90,
+      "rank": 91,
       "model": "Command A+",
       "vendor": "Cohere",
       "score": 6,
       "slug": "command-a-plus"
     },
     {
-      "rank": 91,
+      "rank": 92,
       "model": "Nemotron 3.5 Lightning",
       "vendor": "NVIDIA",
       "score": 6,
       "slug": "nemotron-3-5-lightning"
     },
     {
-      "rank": 92,
+      "rank": 93,
       "model": "Granite 4.2 8B",
       "vendor": "IBM",
       "score": 5,
       "slug": "granite-4-2-8b"
     },
     {
-      "rank": 93,
+      "rank": 94,
       "model": "Granite 4.2 3B",
       "vendor": "IBM",
       "score": 5,
       "slug": "granite-4-2-3b"
     },
     {
-      "rank": 94,
+      "rank": 95,
       "model": "Mistral Medium 3.5",
       "vendor": "Mistral",
       "score": 5,
       "slug": "mistral-medium-3-5"
     },
     {
-      "rank": 95,
+      "rank": 96,
       "model": "Gemma 4 31B",
       "vendor": "Google",
       "score": 4,
       "slug": "gemma-4-31b"
     },
     {
-      "rank": 96,
+      "rank": 97,
       "model": "Mistral Small 4",
       "vendor": "Mistral",
       "score": 4,
       "slug": "mistral-small-4"
     },
     {
-      "rank": 97,
+      "rank": 98,
       "model": "North Mini Code",
       "vendor": "Cohere",
       "score": 3,
       "slug": "north-mini-code"
     },
     {
-      "rank": 98,
+      "rank": 99,
       "model": "Nemotron 3 Nano 4B",
       "vendor": "NVIDIA",
       "score": 2,
