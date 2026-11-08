@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T02:57:20.947Z",
+  "fetchedAt": "2026-11-08T02:34:56.014Z",
   "lastChangedAt": "2026-11-07T02:57:20.947Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). fetchedAt is stamped on every successful fetch; lastChangedAt only advances when entries actually change (stale-cache detection signal).",
