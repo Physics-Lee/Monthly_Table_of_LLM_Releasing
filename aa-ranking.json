@@ -1,21 +1,21 @@
 {
-  "fetchedAt": "2026-11-09T02:47:26.221Z",
+  "fetchedAt": "2026-11-10T04:41:33.949Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
-      "column": "Google",
-      "model": "Gemini 4 Carbon (high)",
-      "score": 60,
+      "column": "Anthropic",
+      "model": "Claude Fable 5.2 (max)",
+      "score": 65,
       "estimated": false,
       "aaRank": 1,
       "rank": 1
     },
     {
-      "column": "Anthropic",
-      "model": "Claude Opus 5.5 (max)",
-      "score": 59,
+      "column": "Google",
+      "model": "Gemini 4 Carbon (high)",
+      "score": 60,
       "estimated": false,
-      "aaRank": 2,
+      "aaRank": 4,
       "rank": 2
     },
     {
@@ -23,7 +23,7 @@
       "model": "GPT-6 Astra (max)",
       "score": 57,
       "estimated": false,
-      "aaRank": 5,
+      "aaRank": 8,
       "rank": 3
     },
     {
@@ -31,7 +31,7 @@
       "model": "Muse Wonder Full (max)",
       "score": 50,
       "estimated": false,
-      "aaRank": 17,
+      "aaRank": 22,
       "rank": 4
     },
     {
@@ -39,7 +39,7 @@
       "model": "Kimi K3.1 Pro",
       "score": 46,
       "estimated": false,
-      "aaRank": 23,
+      "aaRank": 25,
       "rank": 5
     },
     {
@@ -47,7 +47,7 @@
       "model": "Grok 4.7 (xhigh)",
       "score": 35,
       "estimated": false,
-      "aaRank": 35,
+      "aaRank": 36,
       "rank": 6
     },
     {
@@ -55,7 +55,7 @@
       "model": "Tencent Hy4",
       "score": 35,
       "estimated": false,
-      "aaRank": 40,
+      "aaRank": 41,
       "rank": 6
     },
     {
@@ -63,7 +63,7 @@
       "model": "Qwen3.8 Max (0902)",
       "score": 34,
       "estimated": false,
-      "aaRank": 41,
+      "aaRank": 43,
       "rank": 8
     },
     {
@@ -71,7 +71,7 @@
       "model": "DeepSeek V4.1 Flash 1017 (max)",
       "score": 33,
       "estimated": false,
-      "aaRank": 42,
+      "aaRank": 44,
       "rank": 9
     },
     {
@@ -79,7 +79,7 @@
       "model": "GLM-5.3 (max)",
       "score": 32,
       "estimated": false,
-      "aaRank": 43,
+      "aaRank": 45,
       "rank": 10
     },
     {
@@ -87,7 +87,7 @@
       "model": "Inkling 2 Small",
       "score": 31,
       "estimated": false,
-      "aaRank": 47,
+      "aaRank": 49,
       "rank": 11
     },
     {
@@ -95,7 +95,7 @@
       "model": "MiMo-V2.6-Pro",
       "score": 30,
       "estimated": false,
-      "aaRank": 50,
+      "aaRank": 52,
       "rank": 12
     },
     {
@@ -103,7 +103,7 @@
       "model": "Ling 3.1 Flash 1019",
       "score": 30,
       "estimated": false,
-      "aaRank": 52,
+      "aaRank": 54,
       "rank": 12
     },
     {
@@ -111,7 +111,7 @@
       "model": "MiniMax-M3.1-Flash",
       "score": 29,
       "estimated": false,
-      "aaRank": 54,
+      "aaRank": 56,
       "rank": 14
     },
     {
@@ -119,7 +119,7 @@
       "model": "Step 5 Preview",
       "score": 29,
       "estimated": false,
-      "aaRank": 56,
+      "aaRank": 58,
       "rank": 14
     },
     {
@@ -127,56 +127,64 @@
       "model": "Mistral Large 4 (high)",
       "score": 26,
       "estimated": false,
-      "aaRank": 60,
+      "aaRank": 62,
       "rank": 16
+    },
+    {
+      "column": "Agnes-Sapiens",
+      "model": "Agnes 2.5 Pro Theta",
+      "score": 24,
+      "estimated": false,
+      "aaRank": 66,
+      "rank": 17
     },
     {
       "column": "Boss-Nanbeige",
       "model": "Nanbeige4.3-33B",
       "score": 20,
       "estimated": false,
-      "aaRank": 70,
-      "rank": 17
+      "aaRank": 73,
+      "rank": 18
     },
     {
       "column": "MBZUAI",
       "model": "K2 Horizon 375B A23B",
       "score": 18,
       "estimated": false,
-      "aaRank": 76,
-      "rank": 18
+      "aaRank": 79,
+      "rank": 19
     },
     {
       "column": "NVIDIA",
       "model": "Nemotron 3.5 Super VL",
       "score": 14,
       "estimated": false,
-      "aaRank": 80,
-      "rank": 19
+      "aaRank": 83,
+      "rank": 20
     },
     {
       "column": "EXAONE-LG",
       "model": "K-EXAONE 2.0",
       "score": 8,
       "estimated": false,
-      "aaRank": 89,
-      "rank": 20
+      "aaRank": 92,
+      "rank": 21
     },
     {
       "column": "Cohere",
       "model": "Command A+",
       "score": 6,
       "estimated": false,
-      "aaRank": 91,
-      "rank": 21
+      "aaRank": 94,
+      "rank": 22
     },
     {
       "column": "IBM",
       "model": "Granite 4.2 8B",
       "score": 5,
       "estimated": false,
-      "aaRank": 93,
-      "rank": 22
+      "aaRank": 96,
+      "rank": 23
     }
   ],
   "missingVendors": [
@@ -205,5 +213,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-11-09T02:47:26.284Z"
+  "generatedAt": "2026-11-10T04:41:34.057Z"
 }
