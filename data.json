@@ -1,7 +1,7 @@
 {
   "vendors": [
-    "Google",
     "Anthropic",
+    "Google",
     "OpenAI",
     "Meta",
     "Kimi-Moonshot",
@@ -16,13 +16,13 @@
     "MiniMax",
     "StepFun",
     "Mistral",
+    "Agnes-Sapiens",
     "Boss-Nanbeige",
     "MBZUAI",
     "NVIDIA",
     "EXAONE-LG",
     "Cohere",
     "IBM",
-    "Agnes-Sapiens",
     "China-Mobile",
     "Motif",
     "Nex-AGI",
@@ -64,8 +64,8 @@
   "rows": [
     {
       "Month": "22-Nov",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "ChatGPT GPT-3.5",
@@ -85,13 +85,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -137,8 +137,8 @@
     },
     {
       "Month": "22-Dec",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "text-embedding-ada-002",
@@ -162,13 +162,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -214,8 +214,8 @@
     },
     {
       "Month": "23-Jan",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -230,13 +230,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -277,13 +277,13 @@
     },
     {
       "Month": "23-Feb",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Bard",
           "url": "https://blog.google/technology/ai/introducing-bard/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [],
       "Meta": [
         {
@@ -303,13 +303,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -368,13 +368,13 @@
     },
     {
       "Month": "23-Mar",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude 1",
           "url": "https://www.anthropic.com/news/introducing-claude"
         }
       ],
+      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4",
@@ -399,13 +399,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -486,8 +486,8 @@
     },
     {
       "Month": "23-Apr",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -502,13 +502,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -559,13 +559,13 @@
     },
     {
       "Month": "23-May",
+      "Anthropic": [],
       "Google": [
         {
           "name": "PaLM 2",
           "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -580,13 +580,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -637,8 +637,8 @@
     },
     {
       "Month": "23-Jun",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -658,13 +658,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -743,13 +743,13 @@
     },
     {
       "Month": "23-Jul",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude 2",
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
+      "Google": [],
       "OpenAI": [],
       "Meta": [
         {
@@ -769,6 +769,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -780,7 +781,6 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -836,13 +836,13 @@
     },
     {
       "Month": "23-Aug",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude Instant 1.2",
           "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
         }
       ],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -880,13 +880,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -947,8 +947,8 @@
     },
     {
       "Month": "23-Sep",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4V",
@@ -983,13 +983,13 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1045,8 +1045,8 @@
     },
     {
       "Month": "23-Oct",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
@@ -1076,13 +1076,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1142,8 +1142,8 @@
     },
     {
       "Month": "23-Nov",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4 Turbo",
@@ -1200,6 +1200,7 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -1215,7 +1216,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1284,6 +1284,12 @@
     },
     {
       "Month": "23-Dec",
+      "Anthropic": [
+        {
+          "name": "Claude 2.1",
+          "url": "https://www.anthropic.com/news/claude-2"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 1.0 Ultra",
@@ -1296,12 +1302,6 @@
         {
           "name": "Nano",
           "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
-        }
-      ],
-      "Anthropic": [
-        {
-          "name": "Claude 2.1",
-          "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
       "OpenAI": [],
@@ -1337,13 +1337,13 @@
           "url": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1423,8 +1423,8 @@
     },
     {
       "Month": "24-Jan",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "text-embedding-3-small",
@@ -1463,13 +1463,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1552,6 +1552,7 @@
     },
     {
       "Month": "24-Feb",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemma",
@@ -1566,7 +1567,6 @@
           "url": "https://deepmind.google/research/publications/genie-generative-interactive-environments/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "Sora (demo)",
@@ -1605,6 +1605,7 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -1621,7 +1622,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1682,7 +1682,6 @@
     },
     {
       "Month": "24-Mar",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude 3 Opus",
@@ -1697,6 +1696,7 @@
           "url": "https://www.anthropic.com/news/claude-3-haiku"
         }
       ],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -1725,6 +1725,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -1736,7 +1737,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1812,8 +1812,8 @@
     },
     {
       "Month": "24-Apr",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [
         {
@@ -1857,6 +1857,7 @@
           "url": "https://mistral.ai/news/mixtral-8x22b/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -1868,7 +1869,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -1929,6 +1929,7 @@
     },
     {
       "Month": "24-May",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini 1.5 Flash",
@@ -1939,7 +1940,6 @@
           "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "GPT-4o",
@@ -1974,6 +1974,7 @@
           "url": "https://mistral.ai/news/codestral/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -1990,7 +1991,6 @@
           "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2075,16 +2075,16 @@
     },
     {
       "Month": "24-Jun",
-      "Google": [
-        {
-          "name": "Gemma 2",
-          "url": "https://blog.google/technology/developers/google-gemma-2/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude 3.5 Sonnet",
           "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemma 2",
+          "url": "https://blog.google/technology/developers/google-gemma-2/"
         }
       ],
       "OpenAI": [],
@@ -2111,6 +2111,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -2122,7 +2123,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2178,8 +2178,8 @@
     },
     {
       "Month": "24-Jul",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4o mini",
@@ -2228,13 +2228,13 @@
           "url": "https://mistral.ai/news/mistral-nemo"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2284,8 +2284,8 @@
     },
     {
       "Month": "24-Aug",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
@@ -2320,6 +2320,7 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -2336,7 +2337,6 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2406,8 +2406,8 @@
     },
     {
       "Month": "24-Sep",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "o1-preview",
@@ -2472,13 +2472,13 @@
           "url": "https://mistral.ai/news/pixtral-12b/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2524,13 +2524,13 @@
     },
     {
       "Month": "24-Oct",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude 3.5 Sonnet v2",
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -2565,6 +2565,7 @@
           "url": "https://mistral.ai/news/ministraux/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -2581,7 +2582,6 @@
           "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2649,13 +2649,13 @@
     },
     {
       "Month": "24-Nov",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude 3.5 Haiku",
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -2688,13 +2688,13 @@
           "url": "https://mistral.ai/news/pixtral-large-2501/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2763,6 +2763,7 @@
     },
     {
       "Month": "24-Dec",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini 2.0 Flash",
@@ -2777,7 +2778,6 @@
           "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "o1",
@@ -2820,6 +2820,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -2841,7 +2842,6 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -2938,8 +2938,8 @@
     },
     {
       "Month": "25-Jan",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "o3-mini",
@@ -2996,6 +2996,7 @@
           "url": "https://mistral.ai/news/codestral-2501/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -3007,7 +3008,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3073,12 +3073,6 @@
     },
     {
       "Month": "25-Feb",
-      "Google": [
-        {
-          "name": "Gemini 2.0 Pro",
-          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude 3.7 Sonnet",
@@ -3087,6 +3081,12 @@
         {
           "name": "Claude Code",
           "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 2.0 Pro",
+          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
         }
       ],
       "OpenAI": [
@@ -3132,6 +3132,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -3143,7 +3144,6 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-2-open-source-reasoning-and-vision"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3194,6 +3194,7 @@
     },
     {
       "Month": "25-Mar",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini 2.5 Pro",
@@ -3204,7 +3205,6 @@
           "url": "https://blog.google/technology/developers/gemma-3/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "o1 Pro",
@@ -3258,6 +3258,7 @@
           "url": "https://mistral.ai/news/mistral-small-2402/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -3278,7 +3279,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3347,13 +3347,13 @@
     },
     {
       "Month": "25-Apr",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini 2.5 Flash",
           "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "Codex CLI",
@@ -3417,6 +3417,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -3428,7 +3429,6 @@
           "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3513,12 +3513,6 @@
     },
     {
       "Month": "25-May",
-      "Google": [
-        {
-          "name": "Veo 3",
-          "url": "https://deepmind.google/veo"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude 4 Sonnet",
@@ -3527,6 +3521,12 @@
         {
           "name": "Claude 4 Opus",
           "url": "https://www.anthropic.com/news/claude-4"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Veo 3",
+          "url": "https://deepmind.google/veo"
         }
       ],
       "OpenAI": [
@@ -3585,13 +3585,13 @@
           "url": "https://mistral.ai/news/devstral/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3651,13 +3651,13 @@
     },
     {
       "Month": "25-Jun",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini CLI",
           "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "o3-pro",
@@ -3709,13 +3709,13 @@
           "url": "https://mistral.ai/news/mistral-small-3-2/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3790,6 +3790,7 @@
     },
     {
       "Month": "25-Jul",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemma 3n",
@@ -3800,7 +3801,6 @@
           "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
@@ -3863,6 +3863,7 @@
           "url": "https://mistral.ai/news/voxtral/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -3879,7 +3880,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [
         {
           "name": "九天基础大模型 3.0",
@@ -3955,16 +3955,16 @@
     },
     {
       "Month": "25-Aug",
-      "Google": [
-        {
-          "name": "Genie 3",
-          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Opus 4.1",
           "url": "https://www.anthropic.com/news/claude-opus-4-1"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Genie 3",
+          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
         }
       ],
       "OpenAI": [
@@ -4015,13 +4015,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -4092,13 +4092,13 @@
     },
     {
       "Month": "25-Sep",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude Sonnet 4.5",
           "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
         }
       ],
+      "Google": [],
       "OpenAI": [
         {
           "name": "Sora 2",
@@ -4138,13 +4138,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -4218,16 +4218,16 @@
     },
     {
       "Month": "25-Oct",
-      "Google": [
-        {
-          "name": "Veo 3.1",
-          "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Haiku 4.5",
           "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Veo 3.1",
+          "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
         }
       ],
       "OpenAI": [],
@@ -4262,6 +4262,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B-Thinking-2510",
@@ -4278,7 +4279,6 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -4344,16 +4344,16 @@
     },
     {
       "Month": "25-Nov",
-      "Google": [
-        {
-          "name": "Gemini 3",
-          "url": "https://blog.google/products/gemini/gemini-3/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Opus 4.5",
           "url": "https://www.anthropic.com/news/claude-opus-4-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 3",
+          "url": "https://blog.google/products/gemini/gemini-3/"
         }
       ],
       "OpenAI": [
@@ -4412,13 +4412,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -4494,8 +4494,8 @@
     },
     {
       "Month": "25-Dec",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-5.2",
@@ -4534,6 +4534,7 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/mistral-large-3-ministral-3-family-available-amazon-bedrock/"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B",
@@ -4560,7 +4561,6 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [
         {
@@ -4666,13 +4666,13 @@
     },
     {
       "Month": "26-Jan",
-      "Google": [],
       "Anthropic": [
         {
           "name": "Claude Cowork",
           "url": "https://www.anthropic.com/product/claude-cowork"
         }
       ],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
@@ -4697,6 +4697,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [
         {
@@ -4708,7 +4709,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -4811,12 +4811,6 @@
     },
     {
       "Month": "26-Feb",
-      "Google": [
-        {
-          "name": "Gemini 3.1 Pro",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Sonnet 4.6",
@@ -4829,6 +4823,12 @@
         {
           "name": "Claude Code Agent Teams",
           "url": "https://docs.anthropic.com/en/docs/claude-code/agent-teams"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 3.1 Pro",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
         }
       ],
       "OpenAI": [
@@ -4908,6 +4908,7 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.1-3B",
@@ -4919,7 +4920,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -5004,6 +5004,7 @@
     },
     {
       "Month": "26-Mar",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini 3.1 Flash-Lite",
@@ -5014,7 +5015,6 @@
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [
         {
           "name": "GPT-5.4",
@@ -5105,6 +5105,7 @@
           "url": "https://mistral.ai/news/mistral-small-4"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -5116,7 +5117,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -5196,12 +5196,6 @@
     },
     {
       "Month": "26-Apr",
-      "Google": [
-        {
-          "name": "Gemma 4",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Opus 4.7",
@@ -5210,6 +5204,12 @@
         {
           "name": "Claude Mythos Preview",
           "url": "https://red.anthropic.com/2026/mythos-preview/"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemma 4",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
         }
       ],
       "OpenAI": [
@@ -5312,6 +5312,7 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -5328,7 +5329,6 @@
           "url": "https://www.ibm.com/granite/docs/models/granite4-1"
         }
       ],
-      "Agnes-Sapiens": [],
       "China-Mobile": [
         {
           "name": "九天 JT4.0",
@@ -5399,6 +5399,12 @@
     },
     {
       "Month": "26-May",
+      "Anthropic": [
+        {
+          "name": "Claude Opus 4.8",
+          "url": "https://www.anthropic.com/news/claude-opus-4-8"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 3.5 Flash",
@@ -5407,12 +5413,6 @@
         {
           "name": "Gemini Omni Flash",
           "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
-        }
-      ],
-      "Anthropic": [
-        {
-          "name": "Claude Opus 4.8",
-          "url": "https://www.anthropic.com/news/claude-opus-4-8"
         }
       ],
       "OpenAI": [
@@ -5479,13 +5479,13 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -5560,16 +5560,6 @@
     },
     {
       "Month": "26-Jun",
-      "Google": [
-        {
-          "name": "Gemma 4 12B",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
-        },
-        {
-          "name": "DiffusionGemma 26B A4B",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Fable 5",
@@ -5582,6 +5572,16 @@
         {
           "name": "Claude Sonnet 5",
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemma 4 12B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        },
+        {
+          "name": "DiffusionGemma 26B A4B",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
         }
       ],
       "OpenAI": [],
@@ -5634,6 +5634,12 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.0 Flash",
+          "url": "https://platform.agnes-ai.com/"
+        }
+      ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -5654,12 +5660,6 @@
         }
       ],
       "IBM": [],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.0 Flash",
-          "url": "https://platform.agnes-ai.com/"
-        }
-      ],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [
@@ -5730,16 +5730,16 @@
     },
     {
       "Month": "26-Jul",
-      "Google": [
-        {
-          "name": "Gemini 3.6 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Opus 5",
           "url": "https://www.anthropic.com/news/claude-opus-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 3.6 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
         }
       ],
       "OpenAI": [
@@ -5807,6 +5807,16 @@
       ],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Flash",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-flash"
+        },
+        {
+          "name": "Agnes 2.5 Pro Alpha",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
+        }
+      ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
@@ -5818,16 +5828,6 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.5 Flash",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-flash"
-        },
-        {
-          "name": "Agnes 2.5 Pro Alpha",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
-        }
-      ],
       "China-Mobile": [
         {
           "name": "九天 JT4.1",
@@ -5913,13 +5913,13 @@
     },
     {
       "Month": "26-Aug",
+      "Anthropic": [],
       "Google": [
         {
           "name": "Gemini 3.7 Flash",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
         }
       ],
-      "Anthropic": [],
       "OpenAI": [],
       "Meta": [
         {
@@ -5996,6 +5996,12 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Pro Beta",
+          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
+        }
+      ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [
@@ -6010,12 +6016,6 @@
         {
           "name": "Granite 4.2 30B",
           "url": "https://research.ibm.com/blog/introducing-granite-4-2"
-        }
-      ],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 2.5 Pro Beta",
-          "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
         }
       ],
       "China-Mobile": [],
@@ -6102,16 +6102,6 @@
     },
     {
       "Month": "26-Sep",
-      "Google": [
-        {
-          "name": "Gemini 3.8 Flash",
-          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
-        },
-        {
-          "name": "Gemini 4 Argon",
-          "url": "https://artificialanalysis.ai/models/gemini-4-argon"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Fable 5.1",
@@ -6124,6 +6114,16 @@
         {
           "name": "Claude Sonnet 5.5",
           "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 3.8 Flash",
+          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+        },
+        {
+          "name": "Gemini 4 Argon",
+          "url": "https://artificialanalysis.ai/models/gemini-4-argon"
         }
       ],
       "OpenAI": [
@@ -6205,6 +6205,12 @@
         }
       ],
       "Mistral": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 3.0 Flash",
+          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
+        }
+      ],
       "Boss-Nanbeige": [],
       "MBZUAI": [
         {
@@ -6232,12 +6238,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [
-        {
-          "name": "Agnes 3.0 Flash",
-          "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
-        }
-      ],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -6316,16 +6316,16 @@
     },
     {
       "Month": "26-Oct",
-      "Google": [
-        {
-          "name": "Gemini 4 Carbon",
-          "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
-        }
-      ],
       "Anthropic": [
         {
           "name": "Claude Haiku 5.5",
           "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 4 Carbon",
+          "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
         }
       ],
       "OpenAI": [
@@ -6393,6 +6393,7 @@
           "url": "https://artificialanalysis.ai/models/mistral-large-4"
         }
       ],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.3-33B",
@@ -6413,7 +6414,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -6454,8 +6454,8 @@
     },
     {
       "Month": "26-Nov",
-      "Google": [],
       "Anthropic": [],
+      "Google": [],
       "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
@@ -6480,13 +6480,13 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
+      "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "Agnes-Sapiens": [],
       "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
