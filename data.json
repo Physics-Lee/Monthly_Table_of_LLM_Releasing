@@ -6454,10 +6454,20 @@
     },
     {
       "Month": "26-Nov",
-      "Anthropic": [],
+      "Anthropic": [
+        {
+          "name": "Claude Fable 5.2",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+        }
+      ],
       "Google": [],
       "OpenAI": [],
-      "Meta": [],
+      "Meta": [
+        {
+          "name": "Muse Ember",
+          "url": "https://artificialanalysis.ai/models/muse-ember"
+        }
+      ],
       "Kimi-Moonshot": [],
       "xAI": [],
       "Tencent": [
@@ -6480,7 +6490,12 @@
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
-      "Agnes-Sapiens": [],
+      "Agnes-Sapiens": [
+        {
+          "name": "Agnes 2.5 Pro Theta",
+          "url": "https://artificialanalysis.ai/models/agnes-2-5-pro-theta"
+        }
+      ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
       "NVIDIA": [],

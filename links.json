@@ -709,6 +709,9 @@
   "Nanbeige4.3-33B": "https://artificialanalysis.ai/models/nanbeige4-3-33b",
   "Nemotron 3.5 Super VL": "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
   "Nemotron 3.5 Bolt 74B-A9B": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b",
+  "Claude Fable 5.2": "https://artificialanalysis.ai/models/claude-fable-5-2",
+  "Muse Ember": "https://artificialanalysis.ai/models/muse-ember",
   "Hy4": "https://artificialanalysis.ai/models/hunyuan-dev1030-aa",
-  "Inkling 2 Small": "https://artificialanalysis.ai/models/inkling-2-small"
+  "Inkling 2 Small": "https://artificialanalysis.ai/models/inkling-2-small",
+  "Agnes 2.5 Pro Theta": "https://artificialanalysis.ai/models/agnes-2-5-pro-theta"
 }
