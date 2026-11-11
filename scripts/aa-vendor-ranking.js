@@ -54,7 +54,8 @@ const VENDOR_TO_COLUMN = {
   'Prime Intellect': 'Prime-Intellect',
   'Nous Research': 'Nous',
   'Inception': 'Inception',
-  'Swiss AI Initiative': 'Swiss-AI-Initiative'
+  'Swiss AI Initiative': 'Swiss-AI-Initiative',
+  'Reflection': 'Reflection'
 };
 
 // Columns that never appear on the text-model Intelligence Index leaderboard

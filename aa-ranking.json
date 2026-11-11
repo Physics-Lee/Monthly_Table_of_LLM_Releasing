@@ -155,12 +155,20 @@
       "rank": 19
     },
     {
+      "column": "Reflection",
+      "model": "Beam 1.0",
+      "score": 18,
+      "estimated": false,
+      "aaRank": 80,
+      "rank": 19
+    },
+    {
       "column": "Apodex-MiroMind",
       "model": "Apodex 1.1",
       "score": 14,
       "estimated": false,
       "aaRank": 83,
-      "rank": 20
+      "rank": 21
     },
     {
       "column": "NVIDIA",
@@ -168,7 +176,7 @@
       "score": 14,
       "estimated": false,
       "aaRank": 84,
-      "rank": 20
+      "rank": 21
     },
     {
       "column": "EXAONE-LG",
@@ -176,7 +184,7 @@
       "score": 8,
       "estimated": false,
       "aaRank": 93,
-      "rank": 22
+      "rank": 23
     },
     {
       "column": "Cohere",
@@ -184,7 +192,7 @@
       "score": 6,
       "estimated": false,
       "aaRank": 95,
-      "rank": 23
+      "rank": 24
     },
     {
       "column": "IBM",
@@ -192,17 +200,10 @@
       "score": 5,
       "estimated": false,
       "aaRank": 97,
-      "rank": 24
+      "rank": 25
     }
   ],
-  "missingVendors": [
-    {
-      "vendor": "Reflection",
-      "model": "Beam 1.0",
-      "score": 18,
-      "estimated": false
-    }
-  ],
+  "missingVendors": [],
   "columnsWithoutEntry": [
     "iFlytek",
     "Shanghai-AI-Lab",
@@ -221,5 +222,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-11-11T02:52:42.036Z"
+  "generatedAt": "2026-11-11T08:14:30.024Z"
 }
