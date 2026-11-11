@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T04:41:33.949Z",
-  "lastChangedAt": "2026-11-10T04:41:33.949Z",
+  "fetchedAt": "2026-11-11T02:52:41.972Z",
+  "lastChangedAt": "2026-11-11T02:52:41.972Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "note": "AA Intelligence Index leaderboard snapshot - SCORED entries only, COMPLETE for the current-models view (default filters: Status Current, sorted by Intelligence Index; unscored and deprecated models are NOT in this file). estimated=true means AA marked the score with an asterisk (incomplete/approximate). slug is the AA model-page path used by update-monthly.js. Auto-refreshed by scripts/fetch-aa.js (aa-daily workflow). fetchedAt is stamped on every successful fetch; lastChangedAt only advances when entries actually change (stale-cache detection signal).",
   "entries": [
@@ -580,146 +580,153 @@
     },
     {
       "rank": 83,
+      "model": "Apodex 1.1",
+      "vendor": "Apodex",
+      "score": 14,
+      "slug": "apodex-1-1"
+    },
+    {
+      "rank": 84,
       "model": "Nemotron 3.5 Super VL",
       "vendor": "NVIDIA",
       "score": 14,
       "slug": "nemotron-3-5-super-vl"
     },
     {
-      "rank": 84,
+      "rank": 85,
       "model": "Inkling Small",
       "vendor": "Thinking Machines",
       "score": 13,
       "slug": "inkling-small"
     },
     {
-      "rank": 85,
+      "rank": 86,
       "model": "DeepSeek V4 Pro 0813 (non-reasoning)",
       "vendor": "DeepSeek",
       "score": 13,
       "slug": "deepseek-v4-pro-non-reasoning"
     },
     {
-      "rank": 86,
+      "rank": 87,
       "model": "Inkling (xhigh)",
       "vendor": "Thinking Machines",
       "score": 12,
       "slug": "inkling"
     },
     {
-      "rank": 87,
+      "rank": 88,
       "model": "Nemotron 3 Ultra",
       "vendor": "NVIDIA",
       "score": 12,
       "slug": "nvidia-nemotron-3-ultra-550b-a55b"
     },
     {
-      "rank": 88,
+      "rank": 89,
       "model": "Gemini 3.5 Flash-Lite",
       "vendor": "Google",
       "score": 12,
       "slug": "gemini-3-5-flash-lite"
     },
     {
-      "rank": 89,
+      "rank": 90,
       "model": "Qwen3.8 27B (non-reasoning)",
       "vendor": "Alibaba",
       "score": 10,
       "slug": "qwen3-8-27b-non-reasoning"
     },
     {
-      "rank": 90,
+      "rank": 91,
       "model": "GPT-6 Luna (low)",
       "vendor": "OpenAI",
       "score": 10,
       "slug": "gpt-6-luna-low"
     },
     {
-      "rank": 91,
+      "rank": 92,
       "model": "GPT-6 Luna (non-reasoning)",
       "vendor": "OpenAI",
       "score": 9,
       "slug": "gpt-6-luna-non-reasoning"
     },
     {
-      "rank": 92,
+      "rank": 93,
       "model": "K-EXAONE 2.0",
       "vendor": "LG AI Research",
       "score": 8,
       "slug": "k-exaone-2-0-0803"
     },
     {
-      "rank": 93,
+      "rank": 94,
       "model": "Muse Glimmer (high)",
       "vendor": "Meta",
       "score": 6,
       "slug": "muse-glimmer"
     },
     {
-      "rank": 94,
+      "rank": 95,
       "model": "Command A+",
       "vendor": "Cohere",
       "score": 6,
       "slug": "command-a-plus"
     },
     {
-      "rank": 95,
+      "rank": 96,
       "model": "Nemotron 3.5 Lightning",
       "vendor": "NVIDIA",
       "score": 6,
       "slug": "nemotron-3-5-lightning"
     },
     {
-      "rank": 96,
+      "rank": 97,
       "model": "Granite 4.2 8B",
       "vendor": "IBM",
       "score": 5,
       "slug": "granite-4-2-8b"
     },
     {
-      "rank": 97,
+      "rank": 98,
       "model": "Granite 4.2 3B",
       "vendor": "IBM",
       "score": 5,
       "slug": "granite-4-2-3b"
     },
     {
-      "rank": 98,
+      "rank": 99,
       "model": "Mistral Medium 3.5",
       "vendor": "Mistral",
       "score": 5,
       "slug": "mistral-medium-3-5"
     },
     {
-      "rank": 99,
+      "rank": 100,
       "model": "Gemma 4 31B",
       "vendor": "Google",
       "score": 4,
       "slug": "gemma-4-31b"
     },
     {
-      "rank": 100,
+      "rank": 101,
       "model": "Mistral Small 4",
       "vendor": "Mistral",
       "score": 4,
       "slug": "mistral-small-4"
     },
     {
-      "rank": 101,
+      "rank": 102,
       "model": "gpt-oss-120b (high)",
       "vendor": "OpenAI",
       "score": 4,
       "slug": "gpt-oss-120b"
     },
     {
-      "rank": 102,
+      "rank": 103,
       "model": "North Mini Code",
       "vendor": "Cohere",
       "score": 3,
       "slug": "north-mini-code"
     },
     {
-      "rank": 103,
+      "rank": 104,
       "model": "Nemotron 3 Nano 4B",
       "vendor": "NVIDIA",
       "score": 2,
