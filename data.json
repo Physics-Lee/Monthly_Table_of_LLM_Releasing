@@ -19,6 +19,7 @@
     "Agnes-Sapiens",
     "Boss-Nanbeige",
     "MBZUAI",
+    "Apodex-MiroMind",
     "NVIDIA",
     "EXAONE-LG",
     "Cohere",
@@ -28,7 +29,6 @@
     "Nex-AGI",
     "Multiverse",
     "Upstage",
-    "Apodex-MiroMind",
     "AI9Stars",
     "Kuaishou-Kling",
     "SK-Telecom",
@@ -88,6 +88,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -97,7 +98,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -165,6 +165,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -174,7 +175,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -233,6 +233,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -242,7 +243,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -306,6 +306,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -315,7 +316,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -402,6 +402,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -411,7 +412,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -505,6 +505,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -514,7 +515,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -583,6 +583,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -592,7 +593,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -661,6 +661,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -670,7 +671,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -772,6 +772,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
         {
@@ -786,7 +787,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -883,6 +883,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -892,7 +893,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -986,6 +986,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -995,7 +996,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1079,6 +1079,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -1088,7 +1089,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1203,6 +1203,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [
@@ -1221,7 +1222,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1340,6 +1340,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -1354,7 +1355,6 @@
           "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
         }
       ],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1466,6 +1466,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -1475,7 +1476,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1608,6 +1608,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 15B",
@@ -1627,7 +1628,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1728,6 +1728,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [
@@ -1742,7 +1743,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1860,6 +1860,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [
@@ -1874,7 +1875,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1977,6 +1977,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [
@@ -1996,7 +1997,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2114,6 +2114,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [
         {
           "name": "Nemotron-4 340B",
@@ -2128,7 +2129,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2231,6 +2231,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -2240,7 +2241,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2323,6 +2323,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [
         {
           "name": "Llama-3.1-Nemotron-70B-Reward",
@@ -2342,7 +2343,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2475,6 +2475,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -2484,7 +2485,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2568,6 +2568,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [
@@ -2587,7 +2588,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2691,6 +2691,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -2705,7 +2706,6 @@
           "url": "https://huggingface.co/upstage/solar-pro-preview-instruct"
         }
       ],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2823,6 +2823,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
         {
@@ -2852,7 +2853,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2999,6 +2999,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 family (Nano/Super/Ultra)",
@@ -3013,7 +3014,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3135,6 +3135,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -3149,7 +3150,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3261,6 +3261,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
         {
@@ -3284,7 +3285,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3420,6 +3420,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -3434,7 +3435,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3588,6 +3588,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -3597,7 +3598,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3712,6 +3712,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -3721,7 +3722,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3866,6 +3866,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
         {
@@ -3895,7 +3896,6 @@
           "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
         }
       ],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [
@@ -4018,6 +4018,12 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [
+        {
+          "name": "MiroMind ODR",
+          "url": "https://www.miromind.ai/blog/miromind-research-agent"
+        }
+      ],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -4032,12 +4038,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [
-        {
-          "name": "MiroMind ODR",
-          "url": "https://www.miromind.ai/blog/miromind-research-agent"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4141,6 +4141,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -4150,7 +4151,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4270,6 +4270,7 @@
         }
       ],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -4284,7 +4285,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4415,6 +4415,12 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [
+        {
+          "name": "MiroThinker v1.0 72B",
+          "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B"
+        }
+      ],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -4429,12 +4435,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [
-        {
-          "name": "MiroThinker v1.0 72B",
-          "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -4547,6 +4547,7 @@
           "url": "https://huggingface.co/IFM/K2-V2-Instruct"
         }
       ],
+      "Apodex-MiroMind": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Nano",
@@ -4576,7 +4577,6 @@
           "url": "https://huggingface.co/upstage/Solar-Open-100B"
         }
       ],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4705,6 +4705,12 @@
           "url": "https://huggingface.co/IFM/K2-Think-V2"
         }
       ],
+      "Apodex-MiroMind": [
+        {
+          "name": "MiroThinker 1.5 30B",
+          "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.5-30B"
+        }
+      ],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -4719,12 +4725,6 @@
         }
       ],
       "Upstage": [],
-      "Apodex-MiroMind": [
-        {
-          "name": "MiroThinker 1.5 30B",
-          "url": "https://huggingface.co/miromind-ai/MiroThinker-v1.5-30B"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4916,6 +4916,7 @@
         }
       ],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -4925,7 +4926,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5108,6 +5108,12 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [
+        {
+          "name": "MiroThinker 1.7 & H1",
+          "url": "https://arxiv.org/abs/2603.15726"
+        }
+      ],
       "NVIDIA": [
         {
           "name": "Nemotron 3 Super",
@@ -5122,12 +5128,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [
-        {
-          "name": "MiroThinker 1.7 & H1",
-          "url": "https://arxiv.org/abs/2603.15726"
-        }
-      ],
       "AI9Stars": [
         {
           "name": "Cheers",
@@ -5315,6 +5315,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
         {
@@ -5344,7 +5345,6 @@
           "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
         }
       ],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5482,6 +5482,7 @@
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -5496,7 +5497,6 @@
         }
       ],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5642,6 +5642,12 @@
       ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [
+        {
+          "name": "Apodex 1.0",
+          "url": "https://www.apodex.com/blog/apodex-1.0"
+        }
+      ],
       "NVIDIA": [
         {
           "name": "Cosmos 3",
@@ -5670,12 +5676,6 @@
       ],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [
-        {
-          "name": "Apodex 1.0",
-          "url": "https://www.apodex.com/blog/apodex-1.0"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5819,6 +5819,7 @@
       ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
         {
@@ -5843,7 +5844,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [
         {
           "name": "G9v3-3B",
@@ -6004,6 +6004,12 @@
       ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [
+        {
+          "name": "Apodex 1.1",
+          "url": "https://arxiv.org/abs/2608.23283"
+        }
+      ],
       "NVIDIA": [
         {
           "name": "Nemotron 3.5 Lightning",
@@ -6035,12 +6041,6 @@
         {
           "name": "Solar Pro 4",
           "url": "https://www.upstage.ai/blog/en/solar-pro-4"
-        }
-      ],
-      "Apodex-MiroMind": [
-        {
-          "name": "Apodex 1.1",
-          "url": "https://arxiv.org/abs/2608.23283"
         }
       ],
       "AI9Stars": [
@@ -6234,6 +6234,7 @@
           "url": "https://artificialanalysis.ai/models/k2-1b-final"
         }
       ],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -6253,7 +6254,6 @@
           "url": "https://artificialanalysis.ai/models/solar-mini4"
         }
       ],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -6401,6 +6401,7 @@
         }
       ],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [
         {
           "name": "Nemotron 3.5 Super VL",
@@ -6419,7 +6420,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -6498,6 +6498,7 @@
       ],
       "Boss-Nanbeige": [],
       "MBZUAI": [],
+      "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
@@ -6507,7 +6508,6 @@
       "Nex-AGI": [],
       "Multiverse": [],
       "Upstage": [],
-      "Apodex-MiroMind": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
