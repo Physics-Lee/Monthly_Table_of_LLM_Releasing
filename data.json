@@ -18,18 +18,18 @@
     "Mistral",
     "Agnes-Sapiens",
     "Boss-Nanbeige",
+    "China-Mobile",
     "MBZUAI",
     "Reflection",
+    "Upstage",
     "Apodex-MiroMind",
     "NVIDIA",
     "EXAONE-LG",
     "Cohere",
     "IBM",
-    "China-Mobile",
     "Motif",
     "Nex-AGI",
     "Multiverse",
-    "Upstage",
     "AI9Stars",
     "Kuaishou-Kling",
     "SK-Telecom",
@@ -88,18 +88,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -166,18 +166,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -235,18 +235,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -309,18 +309,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -406,18 +406,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -510,18 +510,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -589,18 +589,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -668,18 +668,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -780,8 +780,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
@@ -792,11 +794,9 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -892,18 +892,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -996,18 +996,18 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1090,18 +1090,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1215,8 +1215,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -1231,11 +1233,9 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1353,23 +1353,23 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
-      "Apodex-MiroMind": [],
-      "NVIDIA": [],
-      "EXAONE-LG": [],
-      "Cohere": [],
-      "IBM": [],
-      "China-Mobile": [],
-      "Motif": [],
-      "Nex-AGI": [],
-      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar 10.7B",
           "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
         }
       ],
+      "Apodex-MiroMind": [],
+      "NVIDIA": [],
+      "EXAONE-LG": [],
+      "Cohere": [],
+      "IBM": [],
+      "Motif": [],
+      "Nex-AGI": [],
+      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1480,18 +1480,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1623,8 +1623,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [
         {
@@ -1640,11 +1642,9 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1744,8 +1744,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -1756,11 +1758,9 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1877,8 +1877,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -1889,11 +1891,9 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -1995,8 +1995,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -2012,11 +2014,9 @@
           "url": "https://huggingface.co/ibm-granite/granite-34b-code-base-8k"
         }
       ],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2133,8 +2133,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [
         {
@@ -2145,11 +2147,9 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2251,18 +2251,18 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2344,8 +2344,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [
         {
@@ -2361,11 +2363,9 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2497,18 +2497,18 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2591,8 +2591,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -2608,11 +2610,9 @@
           "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
         }
       ],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2715,23 +2715,23 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
-      "Apodex-MiroMind": [],
-      "NVIDIA": [],
-      "EXAONE-LG": [],
-      "Cohere": [],
-      "IBM": [],
-      "China-Mobile": [],
-      "Motif": [],
-      "Nex-AGI": [],
-      "Multiverse": [],
       "Upstage": [
         {
           "name": "Solar Pro",
           "url": "https://huggingface.co/upstage/solar-pro-preview-instruct"
         }
       ],
+      "Apodex-MiroMind": [],
+      "NVIDIA": [],
+      "EXAONE-LG": [],
+      "Cohere": [],
+      "IBM": [],
+      "Motif": [],
+      "Nex-AGI": [],
+      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -2848,8 +2848,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
@@ -2870,7 +2872,6 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-1-powerful-performance-longer-context-and-more"
         }
       ],
-      "China-Mobile": [],
       "Motif": [
         {
           "name": "Llama-3-Motif-102B",
@@ -2879,7 +2880,6 @@
       ],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3025,8 +3025,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [
         {
@@ -3037,11 +3039,9 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3162,8 +3162,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -3174,11 +3176,9 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-3-2-open-source-reasoning-and-vision"
         }
       ],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3289,8 +3289,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
@@ -3310,11 +3312,9 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3449,8 +3449,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -3461,11 +3463,9 @@
           "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
         }
       ],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3618,18 +3618,18 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3743,18 +3743,18 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -3898,8 +3898,20 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [
+        {
+          "name": "九天基础大模型 3.0",
+          "url": "https://www.10086.cn/aboutus/news/groupnews/index_detail_53246.html"
+        }
+      ],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [
+        {
+          "name": "Solar Pro 2",
+          "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
+        }
+      ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
@@ -3915,21 +3927,9 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [
-        {
-          "name": "九天基础大模型 3.0",
-          "url": "https://www.10086.cn/aboutus/news/groupnews/index_detail_53246.html"
-        }
-      ],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [
-        {
-          "name": "Solar Pro 2",
-          "url": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [
@@ -4051,8 +4051,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroMind ODR",
@@ -4063,7 +4065,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif-2.6B",
@@ -4072,7 +4073,6 @@
       ],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4175,18 +4175,18 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4305,8 +4305,10 @@
           "url": "https://huggingface.co/Nanbeige"
         }
       ],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
@@ -4317,11 +4319,9 @@
           "url": "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
         }
       ],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4451,8 +4451,10 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker v1.0 72B",
@@ -4463,7 +4465,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif-2-12.7B-Instruct",
@@ -4472,7 +4473,6 @@
       ],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -4579,6 +4579,7 @@
           "url": "https://huggingface.co/Nanbeige"
         }
       ],
+      "China-Mobile": [],
       "MBZUAI": [
         {
           "name": "K2-V2 70B",
@@ -4586,6 +4587,12 @@
         }
       ],
       "Reflection": [],
+      "Upstage": [
+        {
+          "name": "Solar Open 100B",
+          "url": "https://huggingface.co/upstage/Solar-Open-100B"
+        }
+      ],
       "Apodex-MiroMind": [],
       "NVIDIA": [
         {
@@ -4601,7 +4608,6 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif-2-12.7B-Reasoning",
@@ -4610,12 +4616,6 @@
       ],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [
-        {
-          "name": "Solar Open 100B",
-          "url": "https://huggingface.co/upstage/Solar-Open-100B"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4738,6 +4738,7 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [
         {
           "name": "K2 Think V2",
@@ -4745,6 +4746,7 @@
         }
       ],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker 1.5 30B",
@@ -4755,7 +4757,6 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [
@@ -4764,7 +4765,6 @@
           "url": "https://huggingface.co/MultiverseComputingCAI/HyperNova-60B"
         }
       ],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4955,18 +4955,18 @@
           "url": "https://huggingface.co/Nanbeige"
         }
       ],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5148,8 +5148,10 @@
       ],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [
         {
           "name": "MiroThinker 1.7 & H1",
@@ -5165,11 +5167,9 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [
         {
           "name": "Cheers",
@@ -5356,8 +5356,20 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [
+        {
+          "name": "九天 JT4.0",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-04-29/doc-inhwefve6705653.shtml"
+        }
+      ],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [
+        {
+          "name": "Solar Pro 3",
+          "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
+        }
+      ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
@@ -5373,21 +5385,9 @@
           "url": "https://www.ibm.com/granite/docs/models/granite4-1"
         }
       ],
-      "China-Mobile": [
-        {
-          "name": "九天 JT4.0",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-04-29/doc-inhwefve6705653.shtml"
-        }
-      ],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [
-        {
-          "name": "Solar Pro 3",
-          "url": "https://artificialanalysis.ai/articles/upstage-solar-pro-4"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5524,14 +5524,15 @@
       "Mistral": [],
       "Agnes-Sapiens": [],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [
@@ -5540,7 +5541,6 @@
           "url": "https://multiversecomputing.com/resources/introducing-hypernova-60b-2605"
         }
       ],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5685,8 +5685,10 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [
         {
           "name": "Apodex 1.0",
@@ -5711,7 +5713,6 @@
         }
       ],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [
         {
@@ -5720,7 +5721,6 @@
         }
       ],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -5863,8 +5863,15 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "China-Mobile": [
+        {
+          "name": "九天 JT4.1",
+          "url": "https://m.c114.com.cn/w16-1314195.html"
+        }
+      ],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [
@@ -5875,12 +5882,6 @@
       ],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [
-        {
-          "name": "九天 JT4.1",
-          "url": "https://m.c114.com.cn/w16-1314195.html"
-        }
-      ],
       "Motif": [
         {
           "name": "Motif 3 (Beta)",
@@ -5889,7 +5890,6 @@
       ],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [
         {
           "name": "G9v3-3B",
@@ -6049,8 +6049,19 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [
+        {
+          "name": "Solar Open2 250B",
+          "url": "https://huggingface.co/upstage/Solar-Open2-250B"
+        },
+        {
+          "name": "Solar Pro 4",
+          "url": "https://www.upstage.ai/blog/en/solar-pro-4"
+        }
+      ],
       "Apodex-MiroMind": [
         {
           "name": "Apodex 1.1",
@@ -6071,7 +6082,6 @@
           "url": "https://research.ibm.com/blog/introducing-granite-4-2"
         }
       ],
-      "China-Mobile": [],
       "Motif": [
         {
           "name": "Motif 3",
@@ -6080,16 +6090,6 @@
       ],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [
-        {
-          "name": "Solar Open2 250B",
-          "url": "https://huggingface.co/upstage/Solar-Open2-250B"
-        },
-        {
-          "name": "Solar Pro 4",
-          "url": "https://www.upstage.ai/blog/en/solar-pro-4"
-        }
-      ],
       "AI9Stars": [
         {
           "name": "G9v3-39A5B",
@@ -6259,6 +6259,7 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [
         {
           "name": "K2 Horizon 375B A23B",
@@ -6282,24 +6283,23 @@
         }
       ],
       "Reflection": [],
+      "Upstage": [
+        {
+          "name": "Solar Mini 4",
+          "url": "https://artificialanalysis.ai/models/solar-mini4"
+        }
+      ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [
         {
           "name": "Quasar 438B",
           "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
-        }
-      ],
-      "Upstage": [
-        {
-          "name": "Solar Mini 4",
-          "url": "https://artificialanalysis.ai/models/solar-mini4"
         }
       ],
       "AI9Stars": [],
@@ -6448,6 +6448,7 @@
           "url": "https://artificialanalysis.ai/models/nanbeige4-3-33b"
         }
       ],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [
         {
@@ -6455,6 +6456,7 @@
           "url": "https://artificialanalysis.ai/models/reflection-beam"
         }
       ],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [
         {
@@ -6469,11 +6471,9 @@
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
@@ -6551,18 +6551,18 @@
         }
       ],
       "Boss-Nanbeige": [],
+      "China-Mobile": [],
       "MBZUAI": [],
       "Reflection": [],
+      "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
       "EXAONE-LG": [],
       "Cohere": [],
       "IBM": [],
-      "China-Mobile": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
-      "Upstage": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "SK-Telecom": [],
