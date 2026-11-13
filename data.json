@@ -6514,7 +6514,12 @@
           "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
         }
       ],
-      "Google": [],
+      "Google": [
+        {
+          "name": "Gemini 4 Hydrogen",
+          "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+        }
+      ],
       "OpenAI": [],
       "Meta": [
         {
