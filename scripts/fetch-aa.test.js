@@ -10,26 +10,26 @@ const {
   writeSnapshot
 } = require('./fetch-aa');
 
-// Mirrors the real SSR structure: <td><div>…</div></td> cells, vendor as
-// <img alt>/<span> pair, estimated scores as "1<!-- -->*", unscored as "--".
-function row(model, ctx, vendor, score, slug) {
+// Mirrors the real SSR structure (2026-11 redesign): vendor logo <img alt> and
+// model text (plus optional subtitle span) in the first cell, score in the
+// second cell, estimated scores as "1<!-- -->*", unscored as "--".
+function row(model, subtitle, vendor, score, slug) {
+  const sub = subtitle ? `<!-- --> <span class="font-normal">${subtitle}</span>` : '';
   return ''
     + '<tr>'
-    + `<td><div class="font-semibold">${model}</div></td>`
-    + `<td><div>${ctx}</div></td>`
-    + `<td><div><img alt="${vendor}" src="/img/logos/x.svg"/><span>${vendor}</span></div></td>`
-    + `<td><div>${score}</div></td>`
-    + '<td><div>$1.00</div></td><td><div>50</div></td><td><div>1.00</div></td><td><div>10.00</div></td>'
-    + `<td><div><a target="_blank" href="/models/${slug}">Model</a><div></div><a target="_blank" href="/models/${slug}/providers">Providers</a></div></td>`
+    + `<td><div class="font-semibold"><button type="button"><img alt="${vendor}" src="/img/logos/x.svg"/>${model}${sub}<svg></svg></button></div></td>`
+    + `<td><div class="text-center">${score}</div></td>`
+    + '<td><div>$1.00</div></td><td><div>50</div></td><td><div>1.00</div></td><td><div>1M</div></td>'
+    + `<td><div><a target="_blank" href="/models/${slug}">Model</a><a target="_blank" href="/models/${slug}/providers">Providers</a></div></td>`
     + '</tr>';
 }
 
 const HTML_FIXTURE = '<table><thead><tr><th>Model</th></tr><tr><th>Intelligence</th></tr></thead><tbody>'
-  + row('Claude Opus 5 (max)', '1M', 'Anthropic', '63', 'claude-opus-5')
-  + row('Claude Opus 5 (xhigh)', '1M', 'Anthropic', '63', 'claude-opus-5-xhigh')
-  + row('GLM-5.3-Flash', '1M', 'Z AI', '57', 'glm-5-3-flash')
-  + row('Granite 4.0 H 350M', '32.8k', 'IBM', '1<!-- -->*', 'granite-4-0-h-350m')
-  + row('GPT-5.5 Pro (xhigh)', '922k', 'OpenAI', '--', 'gpt-5-5-pro-xhigh')
+  + row('Claude Opus 5', 'Max', 'Anthropic', '63', 'claude-opus-5')
+  + row('Claude Opus 5', 'Xhigh', 'Anthropic', '63', 'claude-opus-5-xhigh')
+  + row('GLM-5.3-Flash', null, 'Z AI', '57', 'glm-5-3-flash')
+  + row('Granite 4.0 H 350M', null, 'IBM', '1<!-- -->*', 'granite-4-0-h-350m')
+  + row('GPT-5.5 Pro', 'Xhigh', 'OpenAI', '--', 'gpt-5-5-pro-xhigh')
   + '</tbody></table>';
 
 function testParseLeaderboard() {

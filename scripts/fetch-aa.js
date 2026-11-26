@@ -2,13 +2,15 @@
 //
 // The leaderboard is fully server-side rendered: plain HTTP GET returns a <table>
 // whose rows are already sorted by Intelligence Index (default filters), so no
-// browser is needed. Each data row is:
-//   <td><div>Model</div></td>
-//   <td><div>1M</div></td>                                   context window
-//   <td><div><img alt="Z AI"/><span>Z AI</span></div></td>   creator
-//   <td><div>57</div></td>                                   score ("1<!-- -->*" when estimated)
-//   ... price / speed / latency cells ...
+// browser is needed. Since the 2026-11 redesign each data row has 7 cells:
+//   <td><div><button><img alt="Anthropic"/>Claude Fable 5.2<!-- --> <span>Max, Default Fallback</span></button></div></td>
+//   <td><div>65</div></td>                                   score ("1<!-- -->*" when estimated)
+//   ... price / speed / latency / features cells ...
 //   <td><div><a href="/models/<slug>">Model</a>...</div></td>
+// The standalone creator column is gone (vendor now comes from the logo's
+// img alt); the effort/mode subtitle span is folded back into the model name
+// as "(max, ...)" — the pre-redesign SSR rendered suffixes that way, and
+// update-monthly.js matches against that naming convention.
 //
 // The script also maintains scripts/aa-first-seen.json: the date each model first
 // appeared in a snapshot (used by update-monthly.js to spot new releases). On the
@@ -101,18 +103,24 @@ function parseLeaderboard(html) {
 
   for (const row of rows) {
     const tds = row.match(/<td[^>]*>[\s\S]*?<\/td>/g) || [];
-    if (tds.length < 8) continue;
+    if (tds.length < 7) continue;
 
-    const model = firstDivText(tds[0]);
-    if (!model || model === 'Model') continue;
+    const modelMatch = tds[0].match(/<img[^>]*\/>\s*([^<]+)/);
+    if (!modelMatch) continue;
+    const baseName = unescapeEntities(modelMatch[1]).trim();
+    if (!baseName || baseName === 'Model') continue;
+
+    const subtitleMatch = tds[0].match(/<span[^>]*>([^<]*)<\/span>/);
+    const subtitle = subtitleMatch ? unescapeEntities(subtitleMatch[1]).trim().toLowerCase() : '';
+    const model = subtitle ? `${baseName} (${subtitle})` : baseName;
 
     parsedRows += 1;
 
-    const vendorMatch = tds[2].match(/<span[^>]*>([^<]*)<\/span>/);
+    const vendorMatch = tds[0].match(/<img[^>]*\balt="([^"]+)"/);
     const vendor = vendorMatch ? unescapeEntities(vendorMatch[1]).trim() : null;
 
     // React hydration comments split the score from its asterisk: 1<!-- -->*
-    const scoreHtml = tds[3].replace(/<!--[\s\S]*?-->/g, '');
+    const scoreHtml = tds[1].replace(/<!--[\s\S]*?-->/g, '');
     const scoreText = firstDivText(scoreHtml) || '';
     const scoreMatch = scoreText.match(/^(\d+(?:\.\d+)?)(\*?)$/);
     if (!scoreMatch) {
