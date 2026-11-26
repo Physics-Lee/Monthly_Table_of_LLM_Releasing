@@ -6514,11 +6514,24 @@
           "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
         }
       ],
-      "OpenAI": [],
+      "OpenAI": [
+        {
+          "name": "GPT-6.2 Astra",
+          "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+        },
+        {
+          "name": "GPT-6.2 Sol",
+          "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 4 Hydrogen",
           "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+        },
+        {
+          "name": "Gemini 4 Neon",
+          "url": "https://artificialanalysis.ai/models/gemini-4-neon"
         }
       ],
       "Meta": [
@@ -6528,7 +6541,12 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "Qwen-Alibaba": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen4 Max",
+          "url": "https://artificialanalysis.ai/models/qwen4-max"
+        }
+      ],
       "xAI": [],
       "Tencent": [
         {
@@ -6545,7 +6563,12 @@
         }
       ],
       "Xiaomi": [],
-      "Ant-Group": [],
+      "Ant-Group": [
+        {
+          "name": "Ling-3.2-air",
+          "url": "https://artificialanalysis.ai/models/ling-3-2-air"
+        }
+      ],
       "MiniMax": [],
       "StepFun": [],
       "Mistral": [],
