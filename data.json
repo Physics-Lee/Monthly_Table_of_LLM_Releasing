@@ -1,13 +1,13 @@
 {
   "vendors": [
     "Anthropic",
-    "Google",
     "OpenAI",
+    "Google",
     "Meta",
     "Kimi-Moonshot",
+    "Qwen-Alibaba",
     "xAI",
     "Tencent",
-    "Qwen-Alibaba",
     "DeepSeek",
     "GLM-Z.ai",
     "Thinking Machines Lab",
@@ -24,15 +24,16 @@
     "Upstage",
     "Apodex-MiroMind",
     "NVIDIA",
+    "SK-Telecom",
     "EXAONE-LG",
     "Cohere",
+    "Liquid AI",
     "IBM",
     "Motif",
     "Nex-AGI",
     "Multiverse",
     "AI9Stars",
     "Kuaishou-Kling",
-    "SK-Telecom",
     "LongCat",
     "Doubao-ByteDance",
     "Baidu",
@@ -40,7 +41,6 @@
     "ModelBest-OpenBMB",
     "Inception",
     "Prime-Intellect",
-    "Liquid AI",
     "Nous",
     "Allen",
     "Celeris",
@@ -66,18 +66,18 @@
     {
       "Month": "22-Nov",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "ChatGPT GPT-3.5",
           "url": "https://openai.com/index/chatgpt/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -94,15 +94,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -110,7 +111,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -140,7 +140,6 @@
     {
       "Month": "22-Dec",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "text-embedding-ada-002",
@@ -151,11 +150,12 @@
           "url": "https://github.com/openai/whisper/discussions/661"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -172,15 +172,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -188,7 +189,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -218,13 +218,13 @@
     {
       "Month": "23-Jan",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -241,15 +241,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -257,7 +258,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -282,13 +282,13 @@
     {
       "Month": "23-Feb",
       "Anthropic": [],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Bard",
           "url": "https://blog.google/technology/ai/introducing-bard/"
         }
       ],
-      "OpenAI": [],
       "Meta": [
         {
           "name": "Llama 1",
@@ -296,9 +296,9 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -315,15 +315,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -331,7 +332,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -379,18 +379,18 @@
           "url": "https://www.anthropic.com/news/introducing-claude"
         }
       ],
-      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4",
           "url": "https://openai.com/index/gpt-4"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -412,15 +412,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -433,7 +434,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -493,13 +493,13 @@
     {
       "Month": "23-Apr",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -516,15 +516,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -532,7 +533,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -567,18 +567,18 @@
     {
       "Month": "23-May",
       "Anthropic": [],
+      "OpenAI": [],
       "Google": [
         {
           "name": "PaLM 2",
           "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
         }
       ],
-      "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -595,15 +595,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -611,7 +612,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -646,13 +646,13 @@
     {
       "Month": "23-Jun",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -674,15 +674,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -690,7 +691,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -758,8 +758,8 @@
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 2",
@@ -767,9 +767,9 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -786,6 +786,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [
         {
           "name": "EXAONE 2.0",
@@ -793,13 +794,13 @@
         }
       ],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -812,7 +813,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [
         {
           "name": "Nous-Hermes-13B (Llama-2)",
@@ -852,12 +852,10 @@
           "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
         }
       ],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-7B",
@@ -872,6 +870,8 @@
           "url": "https://github.com/QwenLM/Qwen-VL"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -898,15 +898,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -919,7 +920,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -959,26 +959,26 @@
     {
       "Month": "23-Sep",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4V",
           "url": "https://openai.com/index/gpt-4v-system-card/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen-14B",
+          "url": "https://huggingface.co/Qwen"
+        }
+      ],
       "xAI": [],
       "Tencent": [
         {
           "name": "Hunyuan",
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
-        }
-      ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen-14B",
-          "url": "https://huggingface.co/Qwen"
         }
       ],
       "DeepSeek": [],
@@ -1002,15 +1002,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1018,7 +1019,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -1058,8 +1058,8 @@
     {
       "Month": "23-Oct",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -1067,9 +1067,9 @@
           "url": "https://techcrunch.com/2023/10/16/moonshot-ai-launches-kimi-a-chatbot-that-can-answer-questions-in-chinese/"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -1096,15 +1096,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -1117,7 +1118,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -1156,7 +1156,6 @@
     {
       "Month": "23-Nov",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4 Turbo",
@@ -1167,8 +1166,19 @@
           "url": "https://github.com/openai/whisper/releases/tag/v20231106"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen-72B",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen-Audio",
+          "url": "https://huggingface.co/Qwen/Qwen-Audio"
+        }
+      ],
       "xAI": [
         {
           "name": "Grok-1",
@@ -1179,16 +1189,6 @@
         {
           "name": "Hunyuan Standard",
           "url": "https://cloud.tencent.com.cn/document/product/1729/97765"
-        }
-      ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen-72B",
-          "url": "https://huggingface.co/Qwen"
-        },
-        {
-          "name": "Qwen-Audio",
-          "url": "https://huggingface.co/Qwen/Qwen-Audio"
         }
       ],
       "DeepSeek": [
@@ -1221,6 +1221,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -1232,13 +1233,13 @@
           "url": "https://cohere.com/blog/rerank-3"
         }
       ],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1255,7 +1256,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -1304,6 +1304,7 @@
           "url": "https://www.anthropic.com/news/claude-2"
         }
       ],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Gemini 1.0 Ultra",
@@ -1318,12 +1319,11 @@
           "url": "https://blog.google/company-news/technology/introducing-gemini-our-largest-and-most-capable-ai-model"
         }
       ],
-      "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -1364,15 +1364,16 @@
       ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1380,7 +1381,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -1439,7 +1439,6 @@
     {
       "Month": "24-Jan",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "text-embedding-3-small",
@@ -1450,6 +1449,7 @@
           "url": "https://openai.com/index/new-embedding-models-and-api-updates/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -1457,9 +1457,9 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-MoE",
@@ -1486,15 +1486,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1502,7 +1503,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [
         {
           "name": "Hermes 2 (Mixtral 8x7B)",
@@ -1569,6 +1569,12 @@
     {
       "Month": "24-Feb",
       "Anthropic": [],
+      "OpenAI": [
+        {
+          "name": "Sora (demo)",
+          "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
+        }
+      ],
       "Google": [
         {
           "name": "Gemma",
@@ -1583,22 +1589,16 @@
           "url": "https://deepmind.google/research/publications/genie-generative-interactive-environments/"
         }
       ],
-      "OpenAI": [
-        {
-          "name": "Sora (demo)",
-          "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
-        }
-      ],
       "Meta": [],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5",
           "url": "https://huggingface.co/Qwen"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Math",
@@ -1634,6 +1634,7 @@
           "url": "https://arxiv.org/abs/2402.16819"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -1641,13 +1642,13 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1660,7 +1661,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -1713,10 +1713,11 @@
           "url": "https://www.anthropic.com/news/claude-3-haiku"
         }
       ],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [
         {
           "name": "Grok-1.5",
@@ -1728,7 +1729,6 @@
         }
       ],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-VL",
@@ -1750,6 +1750,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -1757,13 +1758,13 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1771,7 +1772,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [
         {
           "name": "Hermes 2 Pro (Mistral 7B)",
@@ -1831,8 +1831,8 @@
     {
       "Month": "24-Apr",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 3",
@@ -1840,13 +1840,6 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "xAI": [
-        {
-          "name": "Grok-1.5V",
-          "url": "https://x.ai/blog/grok-1.5v"
-        }
-      ],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen1.5-110B",
@@ -1857,6 +1850,13 @@
           "url": "https://qwenlm.github.io/blog/codeqwen1.5/"
         }
       ],
+      "xAI": [
+        {
+          "name": "Grok-1.5V",
+          "url": "https://x.ai/blog/grok-1.5v"
+        }
+      ],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -1883,6 +1883,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -1890,13 +1891,13 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -1904,7 +1905,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -1949,6 +1949,12 @@
     {
       "Month": "24-May",
       "Anthropic": [],
+      "OpenAI": [
+        {
+          "name": "GPT-4o",
+          "url": "https://openai.com/index/gpt-4o"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 1.5 Flash",
@@ -1959,17 +1965,11 @@
           "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/"
         }
       ],
-      "OpenAI": [
-        {
-          "name": "GPT-4o",
-          "url": "https://openai.com/index/gpt-4o"
-        }
-      ],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V2",
@@ -2001,6 +2001,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -2008,6 +2009,7 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
+      "Liquid AI": [],
       "IBM": [
         {
           "name": "Granite Code 34B",
@@ -2019,7 +2021,6 @@
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2037,7 +2038,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -2101,23 +2101,23 @@
           "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
         }
       ],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Gemma 2",
           "url": "https://blog.google/technology/developers/google-gemma-2/"
         }
       ],
-      "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2",
           "url": "https://huggingface.co/Qwen"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -2144,8 +2144,10 @@
           "url": "https://arxiv.org/abs/2406.11704"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -2157,7 +2159,6 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-proprietary-video-generation-model-kling/"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2165,7 +2166,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -2200,13 +2200,13 @@
     {
       "Month": "24-Jul",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-4o mini",
           "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
         }
       ],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 3.1",
@@ -2214,14 +2214,14 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2-Audio",
           "url": "https://huggingface.co/Qwen/Qwen2-Audio"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Coder-V2",
@@ -2257,15 +2257,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2273,7 +2274,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -2307,8 +2307,8 @@
     {
       "Month": "24-Aug",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -2316,6 +2316,7 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [
         {
           "name": "Grok-2 beta",
@@ -2323,7 +2324,6 @@
         }
       ],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -2355,6 +2355,7 @@
           "url": "https://developer.nvidia.com/blog/leverage-our-latest-open-models-for-synthetic-data-generation-with-nvidia-nemotron-4-340b/"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [
         {
           "name": "EXAONE 3.0 7.8B",
@@ -2362,13 +2363,13 @@
         }
       ],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -2381,7 +2382,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [
         {
           "name": "Hermes 3 (Llama 3.1 405B)",
@@ -2430,7 +2430,6 @@
     {
       "Month": "24-Sep",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "o1-preview",
@@ -2445,6 +2444,7 @@
           "url": "https://github.com/openai/whisper/releases/tag/v20240930"
         }
       ],
+      "Google": [],
       "Meta": [
         {
           "name": "Llama 3.2",
@@ -2452,8 +2452,6 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5",
@@ -2472,6 +2470,8 @@
           "url": "https://qwenlm.github.io/blog/qwen2-vl/"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -2503,15 +2503,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2519,7 +2520,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -2554,10 +2554,11 @@
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [
         {
@@ -2565,7 +2566,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -2597,6 +2597,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -2604,25 +2605,6 @@
           "url": "https://cohere.com/research/aya"
         }
       ],
-      "IBM": [
-        {
-          "name": "Granite 3.0 8B",
-          "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
-        }
-      ],
-      "Motif": [],
-      "Nex-AGI": [],
-      "Multiverse": [],
-      "AI9Stars": [],
-      "Kuaishou-Kling": [],
-      "SK-Telecom": [],
-      "LongCat": [],
-      "Doubao-ByteDance": [],
-      "Baidu": [],
-      "Amazon": [],
-      "ModelBest-OpenBMB": [],
-      "Inception": [],
-      "Prime-Intellect": [],
       "Liquid AI": [
         {
           "name": "LFM-1B",
@@ -2637,6 +2619,24 @@
           "url": "https://www.liquid.ai/liquid-foundation-models"
         }
       ],
+      "IBM": [
+        {
+          "name": "Granite 3.0 8B",
+          "url": "https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business"
+        }
+      ],
+      "Motif": [],
+      "Nex-AGI": [],
+      "Multiverse": [],
+      "AI9Stars": [],
+      "Kuaishou-Kling": [],
+      "LongCat": [],
+      "Doubao-ByteDance": [],
+      "Baidu": [],
+      "Amazon": [],
+      "ModelBest-OpenBMB": [],
+      "Inception": [],
+      "Prime-Intellect": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -2680,12 +2680,10 @@
           "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         }
       ],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Coder Family",
@@ -2696,6 +2694,8 @@
           "url": "https://qwenlm.github.io/blog/qwq-32b-preview/"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -2726,15 +2726,16 @@
       ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2747,7 +2748,6 @@
           "url": "https://www.primeintellect.ai/blog/intellect-1-release"
         }
       ],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -2790,6 +2790,16 @@
     {
       "Month": "24-Dec",
       "Anthropic": [],
+      "OpenAI": [
+        {
+          "name": "o1",
+          "url": "https://openai.com/blog/learning-to-reason-with-llms"
+        },
+        {
+          "name": "Sora",
+          "url": "https://openai.com/index/sora-is-here/"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 2.0 Flash",
@@ -2804,16 +2814,6 @@
           "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
         }
       ],
-      "OpenAI": [
-        {
-          "name": "o1",
-          "url": "https://openai.com/blog/learning-to-reason-with-llms"
-        },
-        {
-          "name": "Sora",
-          "url": "https://openai.com/index/sora-is-here/"
-        }
-      ],
       "Meta": [
         {
           "name": "Llama 3.3",
@@ -2821,9 +2821,9 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3",
@@ -2854,6 +2854,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [
         {
           "name": "EXAONE 3.5 32B",
@@ -2866,6 +2867,7 @@
           "url": "https://cohere.com/research/command-r"
         }
       ],
+      "Liquid AI": [],
       "IBM": [
         {
           "name": "Granite 3.1 8B",
@@ -2887,7 +2889,6 @@
           "url": "https://www.aibase.com/news/14103"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -2916,7 +2917,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -2966,13 +2966,13 @@
     {
       "Month": "25-Jan",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "o3-mini",
           "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -2980,8 +2980,6 @@
           "url": "https://www.testingcatalog.com/kimi-k1-5-by-moonshotai-achieves-sota-benchmarks-in-reasoning/"
         }
       ],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen2.5-Max",
@@ -2992,6 +2990,8 @@
           "url": "https://qwenlm.github.io/blog/qwen2.5-vl/"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-R1",
@@ -3036,15 +3036,16 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -3062,7 +3063,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -3111,16 +3111,16 @@
           "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 2.0 Pro",
-          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-4.5",
           "url": "https://openai.com/blog/gpt-4-5"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 2.0 Pro",
+          "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
         }
       ],
       "Meta": [],
@@ -3130,6 +3130,7 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [
         {
           "name": "Grok 3",
@@ -3137,7 +3138,6 @@
         }
       ],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "Janus-Pro",
@@ -3168,8 +3168,10 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [
         {
           "name": "Granite 3.2 8B",
@@ -3181,7 +3183,6 @@
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -3194,7 +3195,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [
         {
           "name": "DeepHermes-3 Preview",
@@ -3224,6 +3224,12 @@
     {
       "Month": "25-Mar",
       "Anthropic": [],
+      "OpenAI": [
+        {
+          "name": "o1 Pro",
+          "url": "https://openai.com/index/o1-pro/"
+        }
+      ],
       "Google": [
         {
           "name": "Gemini 2.5 Pro",
@@ -3234,14 +3240,14 @@
           "url": "https://blog.google/technology/developers/gemma-3/"
         }
       ],
-      "OpenAI": [
-        {
-          "name": "o1 Pro",
-          "url": "https://openai.com/index/o1-pro/"
-        }
-      ],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen2.5-Omni",
+          "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
+        }
+      ],
       "xAI": [
         {
           "name": "Grok-3 mini",
@@ -3249,12 +3255,6 @@
         }
       ],
       "Tencent": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen2.5-Omni",
-          "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3-0324",
@@ -3295,6 +3295,7 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [
         {
           "name": "EXAONE Deep 32B",
@@ -3311,13 +3312,13 @@
           "url": "https://cohere.com/blog/command-a"
         }
       ],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -3334,7 +3335,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -3378,12 +3378,6 @@
     {
       "Month": "25-Apr",
       "Anthropic": [],
-      "Google": [
-        {
-          "name": "Gemini 2.5 Flash",
-          "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "Codex CLI",
@@ -3410,6 +3404,12 @@
           "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 2.5 Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/"
+        }
+      ],
       "Meta": [
         {
           "name": "Llama 4 Scout",
@@ -3421,14 +3421,14 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3",
           "url": "https://huggingface.co/Qwen"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -3455,8 +3455,10 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [
         {
           "name": "Granite 3.3 8B",
@@ -3473,7 +3475,6 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-advances-20-era-empowering-everyone-tell-great-stories/"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -3500,7 +3501,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -3554,16 +3554,16 @@
           "url": "https://www.anthropic.com/news/claude-4"
         }
       ],
-      "Google": [
-        {
-          "name": "Veo 3",
-          "url": "https://deepmind.google/veo"
-        }
-      ],
       "OpenAI": [
         {
           "name": "Codex",
           "url": "https://openai.com/blog/introducing-codex"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Veo 3",
+          "url": "https://deepmind.google/veo"
         }
       ],
       "Meta": [],
@@ -3573,9 +3573,9 @@
           "url": "https://platform.moonshot.cn/blog/posts/kimi-latest"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-R1-0528",
@@ -3624,8 +3624,10 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -3637,7 +3639,6 @@
           "url": "https://bluelightningtv.com/2025/08/25/kling-ai-releases-2-1-update-enhanced-features-elevate-cinematic-production/"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -3650,7 +3651,6 @@
           "url": "https://www.primeintellect.ai/blog/intellect-2-release"
         }
       ],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -3684,12 +3684,6 @@
     {
       "Month": "25-Jun",
       "Anthropic": [],
-      "Google": [
-        {
-          "name": "Gemini CLI",
-          "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "o3-pro",
@@ -3700,8 +3694,15 @@
           "url": "https://openai.com/index/gpt-realtime-1-5/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini CLI",
+          "url": "https://blog.google/technology/developers/introducing-gemini-cli/"
+        }
+      ],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [
         {
@@ -3709,7 +3710,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -3749,15 +3749,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -3784,7 +3785,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -3824,6 +3824,7 @@
     {
       "Month": "25-Jul",
       "Anthropic": [],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Gemma 3n",
@@ -3834,12 +3835,21 @@
           "url": "https://developers.googleblog.com/gemini-25-flash-lite-is-now-stable-and-generally-available/"
         }
       ],
-      "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2",
           "url": "https://kimi-k2.org/"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3-Coder",
+          "url": "https://huggingface.co/Qwen"
+        },
+        {
+          "name": "Qwen-MT",
+          "url": "https://qwenlm.github.io/blog/qwen-mt/"
         }
       ],
       "xAI": [
@@ -3852,16 +3862,6 @@
         {
           "name": "Hunyuan-TurboS",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen3-Coder",
-          "url": "https://huggingface.co/Qwen"
-        },
-        {
-          "name": "Qwen-MT",
-          "url": "https://qwenlm.github.io/blog/qwen-mt/"
         }
       ],
       "DeepSeek": [],
@@ -3914,6 +3914,12 @@
       ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [
+        {
+          "name": "A.X 4.0",
+          "url": "https://huggingface.co/skt/A.X-4.0"
+        }
+      ],
       "EXAONE-LG": [
         {
           "name": "EXAONE 4.0 32B",
@@ -3926,18 +3932,18 @@
           "url": "https://cohere.com/blog/command-a-vision"
         }
       ],
+      "Liquid AI": [
+        {
+          "name": "LFM2",
+          "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
+        }
+      ],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [
-        {
-          "name": "A.X 4.0",
-          "url": "https://huggingface.co/skt/A.X-4.0"
-        }
-      ],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -3950,12 +3956,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2",
-          "url": "https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -3995,12 +3995,6 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-1"
         }
       ],
-      "Google": [
-        {
-          "name": "Genie 3",
-          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5",
@@ -4011,11 +4005,23 @@
           "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-realtime/"
         }
       ],
+      "Google": [
+        {
+          "name": "Genie 3",
+          "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
+        }
+      ],
       "Meta": [],
       "Kimi-Moonshot": [
         {
           "name": "Kimi K2 Turbo Preview",
           "url": "https://kimi-k2.org/de/blog/08-kimi-k2-turbo-preview-en"
+        }
+      ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qoder",
+          "url": "https://qoder.com/"
         }
       ],
       "xAI": [
@@ -4028,12 +4034,6 @@
         {
           "name": "Hunyuan-T1",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qoder",
-          "url": "https://qoder.com/"
         }
       ],
       "DeepSeek": [
@@ -4062,8 +4062,10 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [
         {
@@ -4080,7 +4082,6 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-25-turbo-video-model-industry-leading/"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Chat",
@@ -4093,7 +4094,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [
         {
           "name": "Hermes 4",
@@ -4133,13 +4133,13 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
         }
       ],
-      "Google": [],
       "OpenAI": [
         {
           "name": "Sora 2",
           "url": "https://openai.com/index/sora-2/"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -4147,17 +4147,17 @@
           "url": "https://platform.kimi.ai/docs/guide/kimi-k2-quickstart"
         }
       ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen CLI",
+          "url": "https://github.com/QwenLM/qwen-code"
+        }
+      ],
       "xAI": [],
       "Tencent": [
         {
           "name": "Hunyuan-large-role",
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
-        }
-      ],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen CLI",
-          "url": "https://github.com/QwenLM/qwen-code"
         }
       ],
       "DeepSeek": [
@@ -4181,8 +4181,10 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -4198,7 +4200,6 @@
           "url": "https://huggingface.co/Kwaipilot/KAT-Dev"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Thinking",
@@ -4216,7 +4217,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -4260,13 +4260,13 @@
           "url": "https://www.anthropic.com/news/claude-haiku-4-5"
         }
       ],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Veo 3.1",
           "url": "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
         }
       ],
-      "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -4274,9 +4274,9 @@
           "url": "https://github.com/MoonshotAI/kimi-cli"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -4311,8 +4311,10 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [
         {
           "name": "Granite 4.0 H Small",
@@ -4329,7 +4331,6 @@
           "url": "https://www.qbitai.com/2025/10/345503.html"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat-Video",
@@ -4347,7 +4348,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -4387,16 +4387,16 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-5"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3",
-          "url": "https://blog.google/products/gemini/gemini-3/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5.1",
           "url": "https://openai.com/blog/introducing-gpt-5-1"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 3",
+          "url": "https://blog.google/products/gemini/gemini-3/"
         }
       ],
       "Meta": [],
@@ -4406,6 +4406,7 @@
           "url": "https://kimi-k2.org/blog/15-kimi-k2-thinking-en"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [
         {
           "name": "Grok 4.1",
@@ -4426,7 +4427,6 @@
           "url": "https://cloud.tencent.cn/document/product/1729/104753"
         }
       ],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-Math-V2",
@@ -4462,8 +4462,10 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [
         {
@@ -4475,7 +4477,6 @@
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -4498,7 +4499,6 @@
           "url": "https://www.primeintellect.ai/blog/intellect-3"
         }
       ],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -4533,18 +4533,18 @@
     {
       "Month": "25-Dec",
       "Anthropic": [],
-      "Google": [],
       "OpenAI": [
         {
           "name": "GPT-5.2",
           "url": "https://openai.com/blog/introducing-gpt-5-2"
         }
       ],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek-V3.2",
@@ -4600,6 +4600,12 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "SK-Telecom": [
+        {
+          "name": "A.X K1",
+          "url": "https://huggingface.co/skt/A.X-K1"
+        }
+      ],
       "EXAONE-LG": [
         {
           "name": "K-EXAONE",
@@ -4607,6 +4613,7 @@
         }
       ],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [
         {
@@ -4625,12 +4632,6 @@
         {
           "name": "Kling 2.6",
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-video-26-model-simultaneous-audio-visual/"
-        }
-      ],
-      "SK-Telecom": [
-        {
-          "name": "A.X K1",
-          "url": "https://huggingface.co/skt/A.X-K1"
         }
       ],
       "LongCat": [],
@@ -4653,7 +4654,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [
         {
@@ -4711,8 +4711,8 @@
           "url": "https://www.anthropic.com/product/claude-cowork"
         }
       ],
-      "Google": [],
       "OpenAI": [],
+      "Google": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -4720,9 +4720,9 @@
           "url": "https://kimi-k2.org/en/blog/19-kimi-k25-upgrade-en"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [],
@@ -4754,8 +4754,19 @@
         }
       ],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5",
+          "url": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
+        },
+        {
+          "name": "LFM2.5-1.2B-Thinking",
+          "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
+        }
+      ],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -4772,7 +4783,6 @@
           "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Thinking-2601",
@@ -4794,16 +4804,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5",
-          "url": "https://liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
-        },
-        {
-          "name": "LFM2.5-1.2B-Thinking",
-          "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -4865,27 +4865,20 @@
           "url": "https://docs.anthropic.com/en/docs/claude-code/agent-teams"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3.1 Pro",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5.3-Codex",
           "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
         }
       ],
-      "Meta": [],
-      "Kimi-Moonshot": [],
-      "xAI": [
+      "Google": [
         {
-          "name": "Grok 4.2 Beta",
-          "url": "https://gigazine.net/gsc_news/en/20260218-grok-4-2-public-beta"
+          "name": "Gemini 3.1 Pro",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
         }
       ],
-      "Tencent": [],
+      "Meta": [],
+      "Kimi-Moonshot": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-397B-A17B",
@@ -4904,6 +4897,13 @@
           "url": "https://huggingface.co/Qwen/Qwen3.5-27B"
         }
       ],
+      "xAI": [
+        {
+          "name": "Grok 4.2 Beta",
+          "url": "https://gigazine.net/gsc_news/en/20260218-grok-4-2-public-beta"
+        }
+      ],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -4961,15 +4961,21 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2-24B-A2B",
+          "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
+        }
+      ],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat-Flash-Lite",
@@ -4996,12 +5002,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2-24B-A2B",
-          "url": "https://www.liquid.ai/blog/lfm2-24b-a2b-from-cloud-to-ai-pc"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -5046,16 +5046,6 @@
     {
       "Month": "26-Mar",
       "Anthropic": [],
-      "Google": [
-        {
-          "name": "Gemini 3.1 Flash-Lite",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
-        },
-        {
-          "name": "Gemini 3.1 Flash Live",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5.4",
@@ -5066,15 +5056,18 @@
           "url": "https://developers.openai.com/codex/multi-agent/"
         }
       ],
-      "Meta": [],
-      "Kimi-Moonshot": [],
-      "xAI": [
+      "Google": [
         {
-          "name": "Grok 4.2 Multi-Agent",
-          "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
+          "name": "Gemini 3.1 Flash-Lite",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
+        },
+        {
+          "name": "Gemini 3.1 Flash Live",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
         }
       ],
-      "Tencent": [],
+      "Meta": [],
+      "Kimi-Moonshot": [],
       "Qwen-Alibaba": [
         {
           "name": "QoderWork",
@@ -5101,6 +5094,13 @@
           "url": "https://qwen.ai/blog?id=qwen3.5-omni"
         }
       ],
+      "xAI": [
+        {
+          "name": "Grok 4.2 Multi-Agent",
+          "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309"
+        }
+      ],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -5164,8 +5164,15 @@
           "url": "https://blogs.nvidia.com/blog/nemotron-model-families"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-350M",
+          "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+        }
+      ],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -5182,7 +5189,6 @@
           "url": "https://artificialanalysis.ai/models/kat-coder-pro-v2"
         }
       ],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -5190,12 +5196,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-350M",
-          "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -5248,12 +5248,6 @@
           "url": "https://red.anthropic.com/2026/mythos-preview/"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemma 4",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5.4-Cyber",
@@ -5272,6 +5266,12 @@
           "url": "https://openai.com/index/introducing-gpt-5-5/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemma 4",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark",
@@ -5282,18 +5282,6 @@
         {
           "name": "Kimi K2.6",
           "url": "https://kimi-k2.org/blog/23-kimi-k2-6-code-preview-en"
-        }
-      ],
-      "xAI": [
-        {
-          "name": "Grok 4.3 Beta",
-          "url": "https://x.ai/news"
-        }
-      ],
-      "Tencent": [
-        {
-          "name": "HY3-Preview",
-          "url": "https://huggingface.co/tencent/Hy3-preview"
         }
       ],
       "Qwen-Alibaba": [
@@ -5312,6 +5300,18 @@
         {
           "name": "Qwen3.6-27B",
           "url": "https://qwen.ai/blog?id=qwen3.6-27b"
+        }
+      ],
+      "xAI": [
+        {
+          "name": "Grok 4.3 Beta",
+          "url": "https://x.ai/news"
+        }
+      ],
+      "Tencent": [
+        {
+          "name": "HY3-Preview",
+          "url": "https://huggingface.co/tencent/Hy3-preview"
         }
       ],
       "DeepSeek": [
@@ -5372,6 +5372,7 @@
       ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [
         {
           "name": "EXAONE 4.5 33B",
@@ -5379,6 +5380,12 @@
         }
       ],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-VL-450M",
+          "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
+        }
+      ],
       "IBM": [
         {
           "name": "Granite 4.1 30B",
@@ -5390,7 +5397,6 @@
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat-2.0-Preview",
@@ -5408,12 +5414,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-VL-450M",
-          "url": "https://liquid.ai/blog/lfm2-5-vl-450m"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -5448,16 +5448,6 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-8"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3.5 Flash",
-          "url": "https://blog.google/intl/en-africa/products/explore-get-answers/gemini-3-5/"
-        },
-        {
-          "name": "Gemini Omni Flash",
-          "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-5.5 Instant",
@@ -5480,15 +5470,18 @@
           "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"
         }
       ],
-      "Meta": [],
-      "Kimi-Moonshot": [],
-      "xAI": [
+      "Google": [
         {
-          "name": "Grok Build 0.1",
-          "url": "https://x.ai/news"
+          "name": "Gemini 3.5 Flash",
+          "url": "https://blog.google/intl/en-africa/products/explore-get-answers/gemini-3-5/"
+        },
+        {
+          "name": "Gemini Omni Flash",
+          "url": "https://blog.google/technology/google-deepmind/gemini-omni/"
         }
       ],
-      "Tencent": [],
+      "Meta": [],
+      "Kimi-Moonshot": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.5-LiveTranslate-Flash",
@@ -5499,6 +5492,13 @@
           "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154"
         }
       ],
+      "xAI": [
+        {
+          "name": "Grok Build 0.1",
+          "url": "https://x.ai/news"
+        }
+      ],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [
@@ -5530,8 +5530,15 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-8B-A1B",
+          "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+        }
+      ],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -5543,7 +5550,6 @@
       ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -5561,12 +5567,6 @@
       ],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-8B-A1B",
-          "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -5618,6 +5618,7 @@
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
         }
       ],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Gemma 4 12B",
@@ -5628,7 +5629,6 @@
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
         }
       ],
-      "OpenAI": [],
       "Meta": [],
       "Kimi-Moonshot": [
         {
@@ -5636,8 +5636,6 @@
           "url": "https://www.llmreference.com/model/kimi-k2-7-code"
         }
       ],
-      "xAI": [],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen-RobotManip",
@@ -5660,6 +5658,8 @@
           "url": "https://arxiv.org/abs/2606.19150"
         }
       ],
+      "xAI": [],
+      "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [
         {
@@ -5705,6 +5705,7 @@
           "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [
         {
@@ -5712,6 +5713,7 @@
           "url": "https://cohere.com/blog/north-mini-code"
         }
       ],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [
@@ -5723,7 +5725,6 @@
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [
         {
           "name": "LongCat 2.0",
@@ -5736,7 +5737,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -5781,12 +5781,6 @@
           "url": "https://www.anthropic.com/news/claude-opus-5"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3.6 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-Live",
@@ -5805,6 +5799,12 @@
           "url": "https://openai.com/index/gpt-5-6/"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.6 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark 1.1",
@@ -5817,6 +5817,7 @@
           "url": "https://apnews.com/article/kimi-k3-china-ai-0d8a5e268deb11a673f4d444fc597cc5"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [
         {
           "name": "Grok 4.5",
@@ -5824,7 +5825,6 @@
         }
       ],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "V4-Flash-0731",
@@ -5874,6 +5874,12 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [
+        {
+          "name": "A.X-K2",
+          "url": "https://huggingface.co/skt/A.X-K2"
+        }
+      ],
       "EXAONE-LG": [
         {
           "name": "K-EXAONE 2.0",
@@ -5881,6 +5887,12 @@
         }
       ],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-Encoders",
+          "url": "https://www.opensourceforu.com/2026/08/liquid-ai-launches-lfm2-5-encoders/"
+        }
+      ],
       "IBM": [],
       "Motif": [
         {
@@ -5902,12 +5914,6 @@
           "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev"
         }
       ],
-      "SK-Telecom": [
-        {
-          "name": "A.X-K2",
-          "url": "https://huggingface.co/skt/A.X-K2"
-        }
-      ],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -5915,12 +5921,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-Encoders",
-          "url": "https://www.opensourceforu.com/2026/08/liquid-ai-launches-lfm2-5-encoders/"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [
@@ -5960,13 +5960,13 @@
     {
       "Month": "26-Aug",
       "Anthropic": [],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Gemini 3.7 Flash",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
         }
       ],
-      "OpenAI": [],
       "Meta": [
         {
           "name": "Muse Spark 1.2",
@@ -5978,13 +5978,6 @@
         }
       ],
       "Kimi-Moonshot": [],
-      "xAI": [
-        {
-          "name": "Grok 4.6",
-          "url": "https://x.ai/news/grok-4-6"
-        }
-      ],
-      "Tencent": [],
       "Qwen-Alibaba": [
         {
           "name": "Qwen3.8-Max",
@@ -6003,6 +5996,13 @@
           "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
         }
       ],
+      "xAI": [
+        {
+          "name": "Grok 4.6",
+          "url": "https://x.ai/news/grok-4-6"
+        }
+      ],
+      "Tencent": [],
       "DeepSeek": [
         {
           "name": "V4-Pro-0813",
@@ -6074,8 +6074,15 @@
           "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [
+        {
+          "name": "LFM2.5-2.6B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+        }
+      ],
       "IBM": [
         {
           "name": "Granite 4.2 30B",
@@ -6097,7 +6104,6 @@
         }
       ],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [
         {
@@ -6115,12 +6121,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Liquid AI": [
-        {
-          "name": "LFM2.5-2.6B",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
-        }
-      ],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -6163,16 +6163,6 @@
           "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 3.8 Flash",
-          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
-        },
-        {
-          "name": "Gemini 4 Argon",
-          "url": "https://artificialanalysis.ai/models/gemini-4-argon"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-6 Astra",
@@ -6191,6 +6181,16 @@
           "url": "https://artificialanalysis.ai/models/gpt-6-1-sol"
         }
       ],
+      "Google": [
+        {
+          "name": "Gemini 3.8 Flash",
+          "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
+        },
+        {
+          "name": "Gemini 4 Argon",
+          "url": "https://artificialanalysis.ai/models/gemini-4-argon"
+        }
+      ],
       "Meta": [
         {
           "name": "Muse Spark 1.3",
@@ -6203,6 +6203,12 @@
           "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html"
         }
       ],
+      "Qwen-Alibaba": [
+        {
+          "name": "Qwen3.8 Max (0902)",
+          "url": "https://artificialanalysis.ai/models/qwen3-8-max"
+        }
+      ],
       "xAI": [
         {
           "name": "Grok 4.7",
@@ -6210,12 +6216,6 @@
         }
       ],
       "Tencent": [],
-      "Qwen-Alibaba": [
-        {
-          "name": "Qwen3.8 Max (0902)",
-          "url": "https://artificialanalysis.ai/models/qwen3-8-max"
-        }
-      ],
       "DeepSeek": [
         {
           "name": "DeepSeek V4.1 Flash",
@@ -6291,8 +6291,10 @@
       ],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -6304,7 +6306,6 @@
       ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -6322,7 +6323,6 @@
         }
       ],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [
@@ -6370,16 +6370,16 @@
           "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
         }
       ],
-      "Google": [
-        {
-          "name": "Gemini 4 Carbon",
-          "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
-        }
-      ],
       "OpenAI": [
         {
           "name": "GPT-6.1 Terra",
           "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
+        }
+      ],
+      "Google": [
+        {
+          "name": "Gemini 4 Carbon",
+          "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
         }
       ],
       "Meta": [
@@ -6402,9 +6402,9 @@
           "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
         }
       ],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [],
-      "Qwen-Alibaba": [],
       "DeepSeek": [
         {
           "name": "DeepSeek V4.1 Flash 1017",
@@ -6468,15 +6468,16 @@
           "url": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
         }
       ],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [],
@@ -6484,7 +6485,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
@@ -6514,13 +6514,13 @@
           "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
         }
       ],
+      "OpenAI": [],
       "Google": [
         {
           "name": "Gemini 4 Hydrogen",
           "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
         }
       ],
-      "OpenAI": [],
       "Meta": [
         {
           "name": "Muse Ember",
@@ -6528,6 +6528,7 @@
         }
       ],
       "Kimi-Moonshot": [],
+      "Qwen-Alibaba": [],
       "xAI": [],
       "Tencent": [
         {
@@ -6535,7 +6536,6 @@
           "url": "https://artificialanalysis.ai/models/hunyuan-dev1030-aa"
         }
       ],
-      "Qwen-Alibaba": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
       "Thinking Machines Lab": [
@@ -6562,15 +6562,16 @@
       "Upstage": [],
       "Apodex-MiroMind": [],
       "NVIDIA": [],
+      "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
+      "Liquid AI": [],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
       "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
-      "SK-Telecom": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
       "Baidu": [
@@ -6583,7 +6584,6 @@
       "ModelBest-OpenBMB": [],
       "Inception": [],
       "Prime-Intellect": [],
-      "Liquid AI": [],
       "Nous": [],
       "Allen": [],
       "Celeris": [],
