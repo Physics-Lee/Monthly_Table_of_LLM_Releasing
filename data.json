@@ -10,6 +10,7 @@
     "Tencent",
     "DeepSeek",
     "GLM-Z.ai",
+    "Baidu",
     "Thinking Machines Lab",
     "Xiaomi",
     "Ant-Group",
@@ -36,7 +37,6 @@
     "Kuaishou-Kling",
     "LongCat",
     "Doubao-ByteDance",
-    "Baidu",
     "Amazon",
     "ModelBest-OpenBMB",
     "Inception",
@@ -80,6 +80,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -106,7 +107,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -158,6 +158,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -184,7 +185,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -227,6 +227,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -253,7 +254,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -301,6 +301,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -327,7 +328,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -398,6 +398,12 @@
           "url": "https://github.com/THUDM/ChatGLM"
         }
       ],
+      "Baidu": [
+        {
+          "name": "ERNIE Bot",
+          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -424,12 +430,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE Bot",
-          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-bot-the-latest-generative-ai-mastering-chinese-language-and-multi-modal-generation-301774240.html"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -502,6 +502,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -528,7 +529,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -581,6 +581,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -607,7 +608,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -660,6 +660,7 @@
           "url": "https://github.com/THUDM/ChatGLM2-6B"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -686,7 +687,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -772,6 +772,12 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [
+        {
+          "name": "ERNIE 3.5",
+          "url": "https://gigazine.net/gsc_news/en/20230628-baidu-ernie-3-5/"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -803,12 +809,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 3.5",
-          "url": "https://gigazine.net/gsc_news/en/20230628-baidu-ernie-3-5/"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -874,6 +874,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -915,7 +916,6 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -983,6 +983,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -1014,7 +1015,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -1077,6 +1077,12 @@
           "url": "https://github.com/THUDM/ChatGLM3"
         }
       ],
+      "Baidu": [
+        {
+          "name": "ERNIE 4.0",
+          "url": "https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -1108,12 +1114,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 4.0",
-          "url": "https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -1202,6 +1202,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -1242,7 +1243,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Titan Text Express",
@@ -1326,6 +1326,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -1376,7 +1377,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -1472,6 +1472,7 @@
           "url": "https://github.com/THUDM/GLM-4"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -1498,7 +1499,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -1606,6 +1606,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -1651,7 +1652,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -1736,6 +1736,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -1767,7 +1768,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -1859,6 +1859,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -1900,7 +1901,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -1982,6 +1982,7 @@
           "url": "https://github.com/THUDM/CogVLM2"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -2023,7 +2024,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Titan Text Premier",
@@ -2120,6 +2120,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -2161,7 +2162,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -2229,6 +2229,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -2269,7 +2270,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -2331,6 +2331,12 @@
           "url": "https://www.aibase.com/news/11400"
         }
       ],
+      "Baidu": [
+        {
+          "name": "ERNIE 4.0 Turbo",
+          "url": "https://www.reuters.com/technology/chinas-baidu-unveils-latest-version-its-ernie-ai-model-2023-10-17/"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -2372,12 +2378,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 4.0 Turbo",
-          "url": "https://www.reuters.com/technology/chinas-baidu-unveils-latest-version-its-ernie-ai-model-2023-10-17/"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -2474,6 +2474,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -2515,7 +2516,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -2573,6 +2573,7 @@
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -2632,7 +2633,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -2698,6 +2698,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -2738,7 +2739,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -2840,6 +2840,7 @@
           "url": "https://www.ctol.digital/news/zhipu-ai-glm-zero-preview-vs-openai-o1-ai-race/"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -2891,7 +2892,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Nova Micro",
@@ -2999,6 +2999,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -3053,7 +3054,6 @@
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -3145,6 +3145,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -3185,7 +3186,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
@@ -3267,6 +3267,16 @@
           "url": "https://github.com/zai-org/Open-AutoGLM"
         }
       ],
+      "Baidu": [
+        {
+          "name": "ERNIE 4.5",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        },
+        {
+          "name": "X1",
+          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -3321,16 +3331,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 4.5",
-          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
-        },
-        {
-          "name": "X1",
-          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -3431,6 +3431,16 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [
+        {
+          "name": "ERNIE 4.5 Turbo",
+          "url": "https://home.baidu.com/home/index/news_detail/id/18020"
+        },
+        {
+          "name": "X1 Turbo",
+          "url": "https://home.baidu.com/home/index/news_detail/id/18020"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -3480,16 +3490,6 @@
         {
           "name": "Doubao 1.5 Thinking",
           "url": "https://baike.baidu.com/en/item/Doubao%20Large%20Model/1469492"
-        }
-      ],
-      "Baidu": [
-        {
-          "name": "ERNIE 4.5 Turbo",
-          "url": "https://home.baidu.com/home/index/news_detail/id/18020"
-        },
-        {
-          "name": "X1 Turbo",
-          "url": "https://home.baidu.com/home/index/news_detail/id/18020"
         }
       ],
       "Amazon": [
@@ -3587,6 +3587,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -3641,7 +3642,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -3712,6 +3712,7 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -3770,7 +3771,6 @@
           "url": "https://seed.bytedance.com/en/blog/tech-report-of-seedance-1-0-is-now-publicly-available"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -3871,6 +3871,12 @@
           "url": "https://docs.z.ai/guides/llm/glm-4.5"
         }
       ],
+      "Baidu": [
+        {
+          "name": "ERNIE 4.5 Open",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -3946,12 +3952,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 4.5 Open",
-          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -4043,6 +4043,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -4089,7 +4090,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -4167,6 +4167,12 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [
+        {
+          "name": "ERNIE X1.1",
+          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -4207,12 +4213,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE X1.1",
-          "url": "https://ernie.baidu.com/blog/zh/posts/ernie4.5/"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -4279,6 +4279,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -4338,7 +4339,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -4434,6 +4434,12 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [
+        {
+          "name": "ERNIE 5.0",
+          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html"
+        }
+      ],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -4482,12 +4488,6 @@
         {
           "name": "Doubao Seed Code",
           "url": "https://skywork.ai/blog/llm/doubao-seed-code-official-release-2025/"
-        }
-      ],
-      "Baidu": [
-        {
-          "name": "ERNIE 5.0",
-          "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html"
         }
       ],
       "Amazon": [],
@@ -4552,6 +4552,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -4636,7 +4637,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [
         {
           "name": "Nova 2 Lite",
@@ -4725,6 +4725,7 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -4790,7 +4791,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -4911,6 +4911,7 @@
           "url": "https://www.reuters.com/technology/chinas-ai-startup-zhipu-releases-new-flagship-model-glm-5-2026-02-11/"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -4992,7 +4993,6 @@
           "url": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
@@ -5108,6 +5108,7 @@
           "url": "https://www.aibase.com/zh/news/26283"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -5191,7 +5192,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -5330,6 +5330,7 @@
           "url": "https://z.ai/blog/glm-5.1"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -5404,7 +5405,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -5501,6 +5501,12 @@
       "Tencent": [],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [
+        {
+          "name": "ERNIE 5.1",
+          "url": "https://yiyan.baidu.com/blog/zh/posts/ernie-5.1-0508-release/"
+        }
+      ],
       "Thinking Machines Lab": [
         {
           "name": "TML-Interaction-Small",
@@ -5552,12 +5558,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 5.1",
-          "url": "https://yiyan.baidu.com/blog/zh/posts/ernie-5.1-0508-release/"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -5667,6 +5667,7 @@
           "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [],
@@ -5732,7 +5733,6 @@
         }
       ],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -5832,6 +5832,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [
         {
           "name": "Inkling",
@@ -5916,7 +5917,6 @@
       ],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -6027,6 +6027,7 @@
           "url": "https://z.ai/blog/glm-5.3-flash"
         }
       ],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -6111,7 +6112,6 @@
           "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
         }
       ],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [
@@ -6223,6 +6223,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [
         {
@@ -6308,7 +6309,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [
         {
@@ -6412,6 +6412,7 @@
         }
       ],
       "GLM-Z.ai": [],
+      "Baidu": [],
       "Thinking Machines Lab": [],
       "Xiaomi": [],
       "Ant-Group": [
@@ -6480,7 +6481,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
@@ -6556,6 +6556,12 @@
       ],
       "DeepSeek": [],
       "GLM-Z.ai": [],
+      "Baidu": [
+        {
+          "name": "ERNIE 5.5 Flash Base",
+          "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base"
+        }
+      ],
       "Thinking Machines Lab": [
         {
           "name": "Inkling 2 Small",
@@ -6597,12 +6603,6 @@
       "Kuaishou-Kling": [],
       "LongCat": [],
       "Doubao-ByteDance": [],
-      "Baidu": [
-        {
-          "name": "ERNIE 5.5 Flash Base",
-          "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base"
-        }
-      ],
       "Amazon": [],
       "ModelBest-OpenBMB": [],
       "Inception": [],
