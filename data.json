@@ -6472,7 +6472,16 @@
       "SK-Telecom": [],
       "EXAONE-LG": [],
       "Cohere": [],
-      "Liquid AI": [],
+      "Liquid AI": [
+        {
+          "name": "LFM3-1.7B",
+          "url": "https://artificialanalysis.ai/models/lfm3-1-7b"
+        },
+        {
+          "name": "LFM3-VL-2B",
+          "url": "https://artificialanalysis.ai/models/lfm3-vl-2b"
+        }
+      ],
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
@@ -6560,12 +6569,20 @@
         {
           "name": "ERNIE 5.5 Flash Base",
           "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base"
+        },
+        {
+          "name": "ERNIE 5.5 Flash Preview",
+          "url": "https://artificialanalysis.ai/models/ernie-5-5-flash"
         }
       ],
       "Thinking Machines Lab": [
         {
           "name": "Inkling 2 Small",
           "url": "https://artificialanalysis.ai/models/inkling-2-small"
+        },
+        {
+          "name": "Inkling 2 Mini",
+          "url": "https://artificialanalysis.ai/models/inkling-2-mini"
         }
       ],
       "Xiaomi": [],
