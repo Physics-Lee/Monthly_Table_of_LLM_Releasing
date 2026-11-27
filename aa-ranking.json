@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T05:27:19.916Z",
+  "fetchedAt": "2026-11-27T05:11:41.391Z",
   "source": "https://artificialanalysis.ai/leaderboards/models",
   "ranked": [
     {
@@ -83,11 +83,19 @@
       "rank": 9
     },
     {
+      "column": "Baidu",
+      "model": "ERNIE 5.5 Flash Preview",
+      "score": 31,
+      "estimated": false,
+      "aaRank": 21,
+      "rank": 11
+    },
+    {
       "column": "Thinking Machines Lab",
       "model": "Inkling 2 Small",
       "score": 31,
       "estimated": false,
-      "aaRank": 21,
+      "aaRank": 22,
       "rank": 11
     },
     {
@@ -95,136 +103,136 @@
       "model": "MiMo-V2.6-Pro",
       "score": 30,
       "estimated": false,
-      "aaRank": 22,
-      "rank": 12
+      "aaRank": 23,
+      "rank": 13
     },
     {
       "column": "Ant-Group",
       "model": "Ling 3.1 Flash 1019",
       "score": 30,
       "estimated": false,
-      "aaRank": 23,
-      "rank": 12
+      "aaRank": 24,
+      "rank": 13
     },
     {
       "column": "MiniMax",
       "model": "MiniMax-M3.1-Flash",
       "score": 29,
       "estimated": false,
-      "aaRank": 24,
-      "rank": 14
+      "aaRank": 25,
+      "rank": 15
     },
     {
       "column": "StepFun",
       "model": "Step 5 Preview",
       "score": 29,
       "estimated": false,
-      "aaRank": 25,
-      "rank": 14
+      "aaRank": 26,
+      "rank": 15
     },
     {
       "column": "Mistral",
       "model": "Mistral Large 4 (high)",
       "score": 26,
       "estimated": false,
-      "aaRank": 31,
-      "rank": 16
+      "aaRank": 32,
+      "rank": 17
     },
     {
       "column": "Agnes-Sapiens",
       "model": "Agnes 2.5 Pro Theta",
       "score": 24,
       "estimated": false,
-      "aaRank": 33,
-      "rank": 17
+      "aaRank": 34,
+      "rank": 18
     },
     {
       "column": "Boss-Nanbeige",
       "model": "Nanbeige4.3-33B",
       "score": 20,
       "estimated": false,
-      "aaRank": 36,
-      "rank": 18
+      "aaRank": 37,
+      "rank": 19
     },
     {
       "column": "China-Mobile",
       "model": "JT-4.1 Flash 236B A21B",
       "score": 19,
       "estimated": false,
-      "aaRank": 40,
-      "rank": 19
+      "aaRank": 41,
+      "rank": 20
     },
     {
       "column": "MBZUAI",
       "model": "K2 Horizon 375B A23B",
       "score": 18,
       "estimated": false,
-      "aaRank": 41,
-      "rank": 20
+      "aaRank": 42,
+      "rank": 21
     },
     {
       "column": "Reflection",
       "model": "Beam 1.0",
       "score": 18,
       "estimated": false,
-      "aaRank": 42,
-      "rank": 20
+      "aaRank": 43,
+      "rank": 21
     },
     {
       "column": "Upstage",
       "model": "Solar Pro 4",
       "score": 14,
       "estimated": false,
-      "aaRank": 43,
-      "rank": 22
+      "aaRank": 44,
+      "rank": 23
     },
     {
       "column": "Apodex-MiroMind",
       "model": "Apodex 1.1",
       "score": 14,
       "estimated": false,
-      "aaRank": 46,
-      "rank": 22
+      "aaRank": 47,
+      "rank": 23
     },
     {
       "column": "NVIDIA",
       "model": "Nemotron 3.5 Super VL",
       "score": 14,
       "estimated": false,
-      "aaRank": 47,
-      "rank": 22
+      "aaRank": 48,
+      "rank": 23
     },
     {
       "column": "SK-Telecom",
       "model": "A.X-K2",
       "score": 9,
       "estimated": false,
-      "aaRank": 52,
-      "rank": 25
+      "aaRank": 53,
+      "rank": 26
     },
     {
       "column": "EXAONE-LG",
       "model": "K-EXAONE 2.0",
       "score": 8,
       "estimated": false,
-      "aaRank": 54,
-      "rank": 26
+      "aaRank": 55,
+      "rank": 27
     },
     {
       "column": "Cohere",
       "model": "Command A+",
       "score": 6,
       "estimated": false,
-      "aaRank": 56,
-      "rank": 27
+      "aaRank": 57,
+      "rank": 28
     },
     {
       "column": "Liquid AI",
       "model": "LFM3-1.7B",
       "score": 6,
       "estimated": false,
-      "aaRank": 57,
-      "rank": 27
+      "aaRank": 58,
+      "rank": 28
     }
   ],
   "missingVendors": [
@@ -253,5 +261,5 @@
     "AI-Cloud",
     "Vidu"
   ],
-  "generatedAt": "2026-11-26T05:27:19.994Z"
+  "generatedAt": "2026-11-27T05:11:41.449Z"
 }
