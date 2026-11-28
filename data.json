@@ -18,6 +18,7 @@
     "StepFun",
     "Mistral",
     "Agnes-Sapiens",
+    "Multiverse",
     "Boss-Nanbeige",
     "China-Mobile",
     "MBZUAI",
@@ -32,7 +33,6 @@
     "IBM",
     "Motif",
     "Nex-AGI",
-    "Multiverse",
     "AI9Stars",
     "Kuaishou-Kling",
     "LongCat",
@@ -88,6 +88,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -102,7 +103,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -166,6 +166,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -180,7 +181,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -235,6 +235,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -249,7 +250,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -309,6 +309,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -323,7 +324,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -411,6 +411,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -425,7 +426,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -510,6 +510,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -524,7 +525,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -589,6 +589,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -603,7 +604,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -668,6 +668,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -682,7 +683,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -785,6 +785,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -804,7 +805,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -892,6 +892,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -906,7 +907,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -996,6 +996,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1010,7 +1011,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1095,6 +1095,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1109,7 +1110,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1215,6 +1215,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1238,7 +1239,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1353,6 +1353,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1372,7 +1373,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1480,6 +1480,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1494,7 +1495,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1623,6 +1623,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1647,7 +1648,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1744,6 +1744,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1763,7 +1764,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1877,6 +1877,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -1896,7 +1897,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -1995,6 +1995,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2019,7 +2020,6 @@
       ],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -2133,6 +2133,7 @@
       ],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2152,7 +2153,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -2251,6 +2251,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2265,7 +2266,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -2349,6 +2349,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2373,7 +2374,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -2497,6 +2497,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2511,7 +2512,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -2591,6 +2591,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2628,7 +2629,6 @@
       ],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -2715,6 +2715,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2734,7 +2735,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -2848,6 +2848,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -2882,7 +2883,6 @@
         }
       ],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3025,6 +3025,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -3044,7 +3045,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -3162,6 +3162,7 @@
       ],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -3181,7 +3182,6 @@
       ],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -3298,6 +3298,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -3326,7 +3327,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -3458,6 +3458,7 @@
       ],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -3477,7 +3478,6 @@
       ],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3618,6 +3618,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -3632,7 +3633,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -3743,6 +3743,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -3757,7 +3758,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -3903,6 +3903,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [
         {
@@ -3947,7 +3948,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -4051,6 +4051,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -4075,7 +4076,6 @@
         }
       ],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4180,6 +4180,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -4194,7 +4195,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4300,6 +4300,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B-Thinking-2510",
@@ -4324,7 +4325,6 @@
       ],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4456,6 +4456,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -4480,7 +4481,6 @@
         }
       ],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -4574,6 +4574,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4-3B",
@@ -4623,7 +4624,6 @@
         }
       ],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4738,6 +4738,12 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [
+        {
+          "name": "HyperNova 60B",
+          "url": "https://huggingface.co/MultiverseComputingCAI/HyperNova-60B"
+        }
+      ],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [
@@ -4771,12 +4777,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [
-        {
-          "name": "HyperNova 60B",
-          "url": "https://huggingface.co/MultiverseComputingCAI/HyperNova-60B"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [
         {
@@ -4950,6 +4950,7 @@
       ],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.1-3B",
@@ -4974,7 +4975,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [
@@ -5148,6 +5148,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -5177,7 +5178,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [
         {
           "name": "Cheers",
@@ -5356,6 +5356,7 @@
       "StepFun": [],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [
         {
@@ -5395,7 +5396,6 @@
       ],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [
@@ -5529,6 +5529,12 @@
       ],
       "Mistral": [],
       "Agnes-Sapiens": [],
+      "Multiverse": [
+        {
+          "name": "HyperNova 60B 2605",
+          "url": "https://multiversecomputing.com/resources/introducing-hypernova-60b-2605"
+        }
+      ],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -5548,12 +5554,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [
-        {
-          "name": "HyperNova 60B 2605",
-          "url": "https://multiversecomputing.com/resources/introducing-hypernova-60b-2605"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -5685,6 +5685,7 @@
           "url": "https://platform.agnes-ai.com/"
         }
       ],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -5723,7 +5724,6 @@
           "url": "https://www.sii.edu.cn/2026/0607/c27a1089/page.htm"
         }
       ],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [
@@ -5863,6 +5863,7 @@
           "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-alpha"
         }
       ],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [
         {
@@ -5902,7 +5903,6 @@
         }
       ],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [
         {
           "name": "G9v3-3B",
@@ -6049,6 +6049,7 @@
           "url": "https://wiki.agnes-ai.com/zh-Hans/docs/agnes-25-pro-beta"
         }
       ],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -6097,7 +6098,6 @@
         }
       ],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [
         {
           "name": "G9v3-39A5B",
@@ -6259,6 +6259,12 @@
           "url": "https://artificialanalysis.ai/models/agnes-3-0-flash"
         }
       ],
+      "Multiverse": [
+        {
+          "name": "Quasar 438B",
+          "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
+        }
+      ],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [
@@ -6299,12 +6305,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [
-        {
-          "name": "Quasar 438B",
-          "url": "https://www.aistackcurrent.com/news/multiverse-quasar-438b-reasoning-model-api/"
-        }
-      ],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -6443,6 +6443,7 @@
         }
       ],
       "Agnes-Sapiens": [],
+      "Multiverse": [],
       "Boss-Nanbeige": [
         {
           "name": "Nanbeige4.3-33B",
@@ -6485,7 +6486,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
@@ -6601,6 +6601,7 @@
           "url": "https://artificialanalysis.ai/models/agnes-2-5-pro-theta"
         }
       ],
+      "Multiverse": [],
       "Boss-Nanbeige": [],
       "China-Mobile": [],
       "MBZUAI": [],
@@ -6615,7 +6616,6 @@
       "IBM": [],
       "Motif": [],
       "Nex-AGI": [],
-      "Multiverse": [],
       "AI9Stars": [],
       "Kuaishou-Kling": [],
       "LongCat": [],
