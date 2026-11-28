@@ -396,6 +396,7 @@
   "Phi-4": "baseline",
   "Phi-4 Mini": "baseline",
   "Phi-4 Multimodal": "baseline",
+  "Quasar 1.2 358B (max, based on glm-5.3)": "2026-11-28",
   "Quasar 438B": "2026-09-02",
   "Quasar 438B (max)": "2026-09-03",
   "Qwen3 Coder Next": "baseline",
